@@ -1,0 +1,35 @@
+[
+    {
+        "operation": "Read all front-end content",
+        "roles": [
+            "reader",
+            "manager",
+            "editor",
+            "admin",
+            "owner"
+        ]
+    },
+    {
+        "operation": "Edit content",
+        "roles": [
+            "editor",
+            "admin",
+            "owner"
+        ]
+    },
+    {
+        "operation": "Invite user, manage invited users",
+        "roles": [
+            "manager",
+            "admin",
+            "owner"
+        ]
+    },
+    {
+        "operation": "Manage all users and roles",
+        "roles": [
+            "admin",
+            "owner"
+        ]
+    }
+]

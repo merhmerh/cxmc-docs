@@ -1,0 +1,28 @@
+[
+    {
+        "name": "any:spaceName",
+        "title": "Any Space Name",
+        "tooltip": "any {{SpaceName}} value in this list except for space name with the same {{occupancy type}} as this field"
+    },
+    {
+        "name": [
+            "SpaceName",
+            "Space Name"
+        ],
+        "title": "SpaceName",
+        "tooltip": "A property of IfcSpace (SPACE), representing the name of the space."
+    },
+    {
+        "name": [
+            "Occupancy Type",
+            "OccupancyType"
+        ],
+        "title": "OccupancyType",
+        "tooltip": "To define the purpose for a part of the building intended to be used. Each occupancy type is tagged to a {{Purpose Group}} (PG)"
+    },
+    {
+        "name": "Purpose Group",
+        "title": "Purpose Group",
+        "tooltip": "Refers to the categorisation of buildings in the fire code, with the aim of specifying relevant fire safety criteria for that building type.\n\nWhere a building is divided into compartments used for different purposes, the purpose group of each compartment shall be determined individually, provided that where the whole or part of a building or compartment is used for more than one purpose, only the main purpose of that building or compartment shall be taken into account in determining into which purpose group it falls."
+    }
+]

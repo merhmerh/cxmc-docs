@@ -1,0 +1,44 @@
+{
+	"name": "cx-mc",
+	"version": "0.3.5",
+	"private": false,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@iconify/svelte": "^3.1.4",
+		"@supabase/auth-helpers-sveltekit": "^0.10.2",
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/kit": "^1.24.1",
+		"@sveltejs/svelte-virtual-list": "^3.0.1",
+		"@toast-ui/editor": "^3.2.2",
+		"airtable": "^0.12.2",
+		"base64-arraybuffer": "^1.0.2",
+		"dayjs": "^1.11.9",
+		"dotenv": "^16.3.1",
+		"js-sha256": "^0.10.1",
+		"merh-forge-ui": "^0.0.24",
+		"nanoid": "^4.0.2",
+		"postcss": "^8.4.29",
+		"prettier": "^3.0.3",
+		"prettier-plugin-svelte": "^3.0.3",
+		"sass": "^1.66.1",
+		"svelte": "^4.2.0",
+		"svelte-preprocess": "^5.0.4",
+		"svelte-tiny-virtual-list": "^2.0.5",
+		"vite": "^4.4.9"
+	},
+	"type": "module",
+	"dependencies": {
+		"@googleapis/sheets": "^5.0.4",
+		"@supabase/supabase-js": "^2.33.2",
+		"@sveltejs/adapter-netlify": "^2.0.8",
+		"googleapis": "^126.0.1",
+		"read-excel-file": "^5.6.1"
+	}
+}
