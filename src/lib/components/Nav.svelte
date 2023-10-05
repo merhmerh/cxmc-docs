@@ -7,7 +7,7 @@ const dispatch = createEventDispatcher();
 const navList = [
     { href: "/ifcsg", name: "IFC SG" },
     { href: "/spacename/all-spaces", name: "SpaceName" },
-    { href: "/area-gfa", name: "Area GFA" },
+    { href: "/area-requirement", name: "Area Requirement" },
 ];
 </script>
 

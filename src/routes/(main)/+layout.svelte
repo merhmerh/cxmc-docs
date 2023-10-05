@@ -2,15 +2,7 @@
 import Header from "$comp/Header.svelte";
 import FakeProgress from "$comp/FakeProgress.svelte";
 import Footer from "$comp/Footer.svelte";
-import { Notify, notify } from "merh-forge-ui";
-import { onMount } from "svelte";
-
-// onMount(() => {
-//     if (/Mobi|Android/i.test(navigator.userAgent)) {
-//         // This code will run if the user is on a mobile device
-//         notify.add("This page is not optimized for mobile");
-//     }
-// });
+import { Notify } from "merh-forge-ui";
 </script>
 
 <Notify />
