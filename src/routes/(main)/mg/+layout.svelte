@@ -1,14 +1,13 @@
 <script>
-import mg_compJSON from "./mg_comp.json";
 import { mg_comp } from "./mg.store";
-
-mg_comp.set(mg_compJSON);
 </script>
 
 <div class="sidebar">
-    {#each $mg_comp as { IdentifiedComponent }}
-        <a href="/mg/{IdentifiedComponent.replace(/\s/g, '-').toLowerCase()}">{IdentifiedComponent}</a>
-    {/each}
+    <div class="scrollable">
+        {#each $mg_comp as { IdentifiedComponent }}
+            <a href="/mg/{IdentifiedComponent.replace(/\s/g, '-').toLowerCase()}">{IdentifiedComponent}</a>
+        {/each}
+    </div>
 </div>
 
 <div class="content">
@@ -22,8 +21,12 @@ mg_comp.set(mg_compJSON);
     height: calc(100svh - 70px);
     overflow-y: auto;
     border-right: 1px solid $grey-lighter;
-    display: flex;
-    flex-direction: column;
+    .scrollable {
+        padding: 1rem;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+    }
     @media screen and (max-width: $mobile) {
         position: fixed;
         left: 0px;
@@ -44,7 +47,7 @@ mg_comp.set(mg_compJSON);
     padding-top: 2rem;
     margin-inline: auto;
     width: 100%;
-    max-width: min(calc(100vw - 300px), 1500px);
+    max-width: min(calc(100vw - 300px - 6px), 1500px);
     min-height: calc(100svh - 70px);
     padding-bottom: 100px;
     padding-inline: 2rem;

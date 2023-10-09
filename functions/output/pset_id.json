@@ -1376,6 +1376,7 @@
         "VEHICULARBARRIER",
         "WATERPLAYGROUND",
         "EGRESSINDICATORBOX",
+        "TOWTRACTORLOT",
         "BEAMFACADEWALL",
         "DIAPHRAGMWALLSYSTEM",
         "DRAINAGE",
@@ -2851,7 +2852,8 @@
         "VALVEPROTECTINGCOVER",
         "VEHICULARBARRIER",
         "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX"
+        "EGRESSINDICATORBOX",
+        "TOWTRACTORLOT"
       ]
     }
   },
@@ -3987,7 +3989,8 @@
         "VALVEPROTECTINGCOVER",
         "VEHICULARBARRIER",
         "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX"
+        "EGRESSINDICATORBOX",
+        "TOWTRACTORLOT"
       ]
     }
   },
@@ -4254,9 +4257,10 @@
         "recKsWw5qMgKEXAub",
         "recg7nac1MmFOO9iu",
         "recleCwUnZgGhie3E",
-        "recpz3APHYcjCjyIl"
+        "recpz3APHYcjCjyIl",
+        "reccm5u2v15sC4XjR"
       ],
-      "Properties [Data Type]": "ConservationProgramme [Boolean];\nDrainageBoundary [Label];\nETTV [Real];\nOwnerBuiltOwnerStay [Boolean];\nProjectDevelopmentType [Label];\nRETV [Label];\nRTS_ForIntegration [Boolean];\nShadingCoefficient_East [Real];\nShadingCoefficient_North [Real];\nShadingCoefficient_NorthEast [Real];\nShadingCoefficient_NorthWest [Real];\nShadingCoefficient_South [Real];\nShadingCoefficient_SouthEast [Real];\nShadingCoefficient_SouthWest [Real];\nShadingCoefficient_West [Real];\nWindowToWallRatio [Real];\nWindowToWallRatio_East [Real];\nWindowToWallRatio_North [Real];\nWindowToWallRatio_NorthEast [Real];\nWindowToWallRatio_NorthWest [Real];\nWindowToWallRatio_South [Real];\nWindowToWallRatio_SouthEast [Real];\nWindowToWallRatio_SouthWest [Real];\nWindowToWallRatio_West [Real];\nConstructionPhase [Label];\nNumberOfWorkers [Integer]",
+      "Properties [Data Type]": "ConservationProgramme [Boolean];\nDrainageBoundary [Label];\nETTV [Real];\nOwnerBuiltOwnerStay [Boolean];\nProjectDevelopmentType [Label];\nRETV [Label];\nRTS_ForIntegration [Boolean];\nShadingCoefficient_East [Real];\nShadingCoefficient_North [Real];\nShadingCoefficient_NorthEast [Real];\nShadingCoefficient_NorthWest [Real];\nShadingCoefficient_South [Real];\nShadingCoefficient_SouthEast [Real];\nShadingCoefficient_SouthWest [Real];\nShadingCoefficient_West [Real];\nWindowToWallRatio [Real];\nWindowToWallRatio_East [Real];\nWindowToWallRatio_North [Real];\nWindowToWallRatio_NorthEast [Real];\nWindowToWallRatio_NorthWest [Real];\nWindowToWallRatio_South [Real];\nWindowToWallRatio_SouthEast [Real];\nWindowToWallRatio_SouthWest [Real];\nWindowToWallRatio_West [Real];\nConstructionPhase [Label];\nNumberOfWorkers [Integer];\nIsPublicBuilding [Boolean]",
       "Parameter Value (Actual)": "ACCOMMODATION FOR RESIDENTIAL PURPOSES (ProjectDevelopmentType);\nAMUSEMENT CENTRE (ProjectDevelopmentType);\nAPARTMENT (ProjectDevelopmentType);\nAQUACULTURAL FARM (ProjectDevelopmentTypeAGF_FacilityType);\nARTS/SCIENCE CENTRE (ProjectDevelopmentType);\nASSOCIATION PREMISES (ProjectDevelopmentType);\nAUDITORIUM (ProjectDevelopmentType);\nBOARDING HOUSE (ProjectDevelopmentType);\nBUNGALOW 1 (ProjectDevelopmentType);\nBUNGALOW 2 (ProjectDevelopmentType);\nBUS DEPOT (ProjectDevelopmentType);\nBUS TERMINAL (ProjectDevelopmentType);\nCAR WASHING BAY (ProjectDevelopmentType);\nCHEMICAL INDUSTRY (ProjectDevelopmentType);\nCHILDREN’S HOME (ProjectDevelopmentType);\nCINEPLEX (ProjectDevelopmentType);\nCIVIC AND COMMUNITY INSTITUTION (ProjectDevelopmentType);\nCLINIC (ProjectDevelopmentType);\nCLUSTER HOUSING (ProjectDevelopmentType);\nCOFFEE SHOP (ProjectDevelopmentType);\nCOMMERCIAL 1 (ProjectDevelopmentType);\nCOMMERCIAL 2 (ProjectDevelopmentType);\nCOMMUNITY CENTRE (ProjectDevelopmentType);\nCOMMUNITY INSTITUTIONS (ProjectDevelopmentType);\nCONCERT HALL (ProjectDevelopmentType);\nCONDOMINIUM (ProjectDevelopmentType);\nCOURT (ProjectDevelopmentType);\nCULTURAL INSTITUTIONS (ProjectDevelopmentType);\nDEPARTMENTAL STORE (ProjectDevelopmentType);\nDETACHED HOUSE 1 (ProjectDevelopmentType);\nDETACHED HOUSE 2 (ProjectDevelopmentType);\nEATING HOUSE (ProjectDevelopmentType);\nEDUCATIONAL OR TRAINING PURPOSES ESTABLISHMENT (ProjectDevelopmentType);\nEV CHARGING STATION (ProjectDevelopmentType);\nFACTORY (ProjectDevelopmentType);\nFERRY TERMINAL (ProjectDevelopmentType);\nFIRE STATION (ProjectDevelopmentType);\nFLAT (ProjectDevelopmentType);\nFOOD COURT (ProjectDevelopmentType);\nFUNERAL PARLOUR (ProjectDevelopmentType);\nGUARD HOUSE (ProjectDevelopmentType);\nGUEST HOUSE (ProjectDevelopmentType);\nHAWKER CENTRE (ProjectDevelopmentType);\nHEALTH, MEDICAL CARE AND HOSPITAL 2 (ProjectDevelopmentType);\nHIGH CONTAINMENT FACILITY (ProjectDevelopmentType);\nHOLIDAY RESORT (ProjectDevelopmentType);\nHOME FOR INTELLECTUALLY DISABLED (ProjectDevelopmentType);\nHOME FOR THE AGED (ProjectDevelopmentType);\nHOME FOR THE MENTALLY DISABLED (ProjectDevelopmentType);\nHORTICULTURAL FARM (ProjectDevelopmentType);\nHOSPITAL (ProjectDevelopmentType);\nHOSTEL (ProjectDevelopmentType);\nHOTEL (ProjectDevelopmentType);\nINDUSTRIAL, WAREHOUSE, BUSINESS PARK AND TRANSPORT FACILITIES 1 (ProjectDevelopmentType);\nINSTITUTIONAL (ProjectDevelopmentType);\nINTERNET GAMING CENTRE (ProjectDevelopmentType);\nITE CAMPUS (ProjectDevelopmentType);\nJUNIOR COLLEGE (ProjectDevelopmentType);\nLINKWAY (ProjectDevelopmentType);\nMAINTENANCE SPACES (ProjectDevelopmentType);\nMILD STEEL (ProjectDevelopmentType);\nMILITARY CAMP (ProjectDevelopmentType);\nMRT TUNNEL (ProjectDevelopmentType);\nMULTI-PURPOSE HALL (ProjectDevelopmentType);\nNURSING HOME (ProjectDevelopmentType);\nOIL REFINERY (ProjectDevelopmentType);\nOTHER RESIDENTIAL (ProjectDevelopmentType);\nPERFORMING ARTS CENTRE (ProjectDevelopmentType);\nPETROL STATION (ProjectDevelopmentType);\nPLACE OF PUBLIC RESORT (ProjectDevelopmentType);\nPLACE OF WORSHIP (ProjectDevelopmentType);\nPOLICE STATION (ProjectDevelopmentType);\nPOLYCLINIC (ProjectDevelopmentType);\nPOLYTECHNIC (ProjectDevelopmentType);\nPOULTRY (ProjectDevelopmentType);\nPRIMARY SCHOOL (ProjectDevelopmentType);\nPRISON (ProjectDevelopmentType);\nPUBLIC ACCOMMODATION PURPOSE (ProjectDevelopmentType);\nPUBLIC ART GALLERY (ProjectDevelopmentType);\nPUBLIC LIBRARY (ProjectDevelopmentType);\nPUBLIC SCHOOL (ProjectDevelopmentType);\nPUBLIC SPORT COMPLEX (ProjectDevelopmentType);\nPUBLIC SWIMMING COMPLEX (ProjectDevelopmentType);\nREHABILITATION CENTRE (ProjectDevelopmentType);\nSECONDARY SCHOOL (ProjectDevelopmentType);\nSEMI-DETACHED HOUSE 1 (ProjectDevelopmentType);\nSEMI-DETACHED HOUSE 2 (ProjectDevelopmentType);\nSERVICED APARTMENT (ProjectDevelopmentType);\nSHOPHOUSE (ProjectDevelopmentType);\nSHOPPING CENTRE (ProjectDevelopmentType);\nSMALL/MEDIUM, LARGE (ProjectDevelopmentType);\nSPECIAL FACILITY (ProjectDevelopmentType);\nSPECIAL GOVERNMENT BUILDING (ProjectDevelopmentType);\nSTRATA UNIT (ProjectDevelopmentType);\nSUPPLY AIR (ProjectDevelopmentType);\nTERRACE HOUSE (STRATA) (ProjectDevelopmentType);\nTERRACE HOUSE TYPE 1 (ProjectDevelopmentType);\nTERRACE HOUSE TYPE 2 (ProjectDevelopmentType);\nTRANSPORTATION PURPOSE (ProjectDevelopmentType);\nTREATMENT, CARE OR MAINTENANCE OF PERSONS SUFFERING FROM DISABILITIES ESTABLISHMENT (ProjectDevelopmentType);\nUNDERGROUND FACILITY (ProjectDevelopmentType);\nUNIVERSITY (ProjectDevelopmentType);\nVEHICLE PARK (ProjectDevelopmentType);\nWAREHOUSE (ProjectDevelopmentType);\nWORKERS DORMITORY (ProjectDevelopmentType);\nTHEATRE (ProjectDevelopmentType);\nSHOWROOM (ProjectDevelopmentType);\nSHOP (ProjectDevelopmentType);\nSHELTER (ProjectDevelopmentType);\nRESTAURANT (ProjectDevelopmentType);\nOFFICE (ProjectDevelopmentType);\nMARKET (ProjectDevelopmentType);\nCOLDROOM (ProjectDevelopmentType);\nCINEMA (ProjectDevelopmentType);\nCANTEEN (ProjectDevelopmentType);\nAGRICULTURAL (ProjectDevelopmentType);\nOPEN SPACE (ProjectDevelopmentType);\nINSTITUTION (ProjectDevelopmentType);\nPRIVATE SCHOOL (ProjectDevelopmentType);\nKINDERGARTEN (ProjectDevelopmentType);\nNURSERY (ProjectDevelopmentType);\nSPORTS COMPLEX (ProjectDevelopmentType);\nINDUSTRIAL (ProjectDevelopmentType)",
       "IFC4 Entities": [
         "IfcBuilding"
@@ -5820,9 +5824,10 @@
         "recx5j9nMkQKSf7VN",
         "rec8TmYlDXuvSj0J3",
         "receFVvAHLqC2z1rB",
-        "recAclF94BGJkKw6o"
+        "recAclF94BGJkKw6o",
+        "recY0Jze0621SHmuu"
       ],
-      "Properties [Data Type]": "ChemicalResistantMaterial [Boolean];\nFinishType [Label];\nSlabType [Label];\nPerforated [Boolean];\nConstructionMethod [Label];\nFlameSpreadClass [Label];\nWatertight [Boolean];\nReinforcementSteelGrade [Label];\nFireStop [Boolean];\nFunction [Label];\nReferTo2DDetail [Label];\nShelterUsage [Boolean];\nMechanicalConnectionType [Label];\nAccreditation_PAS [Boolean];\nWeightGroup [Label];\nWeight [Real];\nWeldedMesh [Boolean]",
+      "Properties [Data Type]": "ChemicalResistantMaterial [Boolean];\nFinishType [Label];\nSlabType [Label];\nPerforated [Boolean];\nConstructionMethod [Label];\nFlameSpreadClass [Label];\nWatertight [Boolean];\nReinforcementSteelGrade [Label];\nFireStop [Boolean];\nFunction [Label];\nReferTo2DDetail [Label];\nShelterUsage [Boolean];\nMechanicalConnectionType [Label];\nAccreditation_PAS [Boolean];\nWeightGroup [Label];\nWeight [Real];\nWeldedMesh [Boolean];\nBuildabilityBlkName [Label]",
       "Parameter Value (Actual)": "PREFABRICATED AND PREFINISHED (ConstructionMethod);\nSERVICE PLATFORM (Function);\nACCESS PLATFORM (Function);\nCEILING SLAB (Function);\nFLARED SIDE RAMP (Function);\nINTERMEDIATE SLAB (Function);\nSERVICE ROAD (Function);\nSHELTER (Function)",
       "IFC4 Entities": [
         "IfcSlab"
@@ -7597,7 +7602,8 @@
         "VALVEPROTECTINGCOVER",
         "VEHICULARBARRIER",
         "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX"
+        "EGRESSINDICATORBOX",
+        "TOWTRACTORLOT"
       ]
     }
   },

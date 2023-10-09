@@ -3,6 +3,7 @@
     "id": "rec1i3YKczJwlJYm4",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPIL_057",
       "Revit Representation": "Structural Foundations",
       "Archicad Representation": "Object",
       "Tekla Representation": "Concrete Column",
@@ -20,6 +21,9 @@
         "rec43exjtjSUKA2w8",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Pile"
+      ],
       "Property Set": [
         "recbqX3vQbcCrO73w",
         "recuFP0SZvHvVvUit",
@@ -27,27 +31,23 @@
         "recUMgNTVuj9ckeQU",
         "rec9deXZBT4E6DnY6"
       ],
+      "IFC4 Predefined Types": [
+        "BORED",
+        "DRIVEN",
+        "SUPPORT",
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "recT5dZyZhhRghkXp",
         "recIvhBrhIMOfCuOQ",
         "reckiIuekkITVxjKf",
         "recERToDKfHI8XPKL"
       ],
-      "Identified Components": [
-        "Pile"
-      ],
       "IFC4 Sub Types (Beta)": [
         "BORED",
         "DRIVEN",
         "NOTDEFINED",
         "SUPPORT"
-      ],
-      "IFC KEY": "IFCPIL_057",
-      "IFC4 Predefined Types": [
-        "BORED",
-        "DRIVEN",
-        "SUPPORT",
-        "NOTDEFINED"
       ]
     }
   },
@@ -55,6 +55,7 @@
     "id": "rec1oKsOZ2Exr8fL4",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSEN_071",
       "Revit Representation": "Electrical Sensor, Fire Alarm Devices, Generic Models, Mechanical Equipment, Electrical Fixtures, Security Devices",
       "Archicad Representation": "Object, Flow Equipment",
       "Tekla Representation": "N.A",
@@ -81,8 +82,22 @@
         "rec0ibkFGpigV6AiD",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "AIRIMPURITIESSENSOR",
+        "BEAMDETECTOR",
+        "LEAKSENSOR"
+      ],
+      "Identified Components": [
+        "Sensor"
+      ],
       "Property Set": [
         "recGojU3IiR9KAymy"
+      ],
+      "IFC4 Predefined Types": [
+        "FLOWSENSOR",
+        "LEVELSENSOR",
+        "PHSENSOR",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recD2LPBQ3x9SlOhN",
@@ -100,9 +115,6 @@
         "rec81DH2XzMAEvhXe",
         "recwQ83bNZ6wgcFrI"
       ],
-      "Identified Components": [
-        "Sensor"
-      ],
       "IFC4 Sub Types (Beta)": [
         "AIRIMPURITIESSENSOR*",
         "BEAMDETECTOR*",
@@ -111,18 +123,6 @@
         "LEVELSENSOR",
         "NOTDEFINED",
         "PHSENSOR"
-      ],
-      "IFC KEY": "IFCSEN_071",
-      "IFC4 Object Types": [
-        "AIRIMPURITIESSENSOR",
-        "BEAMDETECTOR",
-        "LEAKSENSOR"
-      ],
-      "IFC4 Predefined Types": [
-        "FLOWSENSOR",
-        "LEVELSENSOR",
-        "PHSENSOR",
-        "NOTDEFINED"
       ]
     }
   },
@@ -130,6 +130,7 @@
     "id": "rec2BfM3BhsJJhAhj",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCROO_069",
       "Revit Representation": "Roofs",
       "Archicad Representation": "Roof",
       "Tekla Representation": "N.A",
@@ -147,10 +148,17 @@
         "reci5c5YNYQMh7XKp",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Roof"
+      ],
       "Property Set": [
         "recMvbyW02hZv6QxF",
         "recwg7rLFRLqMUyKY",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "FLAT_ROOF",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recbov5M5cLxO0AXE",
@@ -159,15 +167,7 @@
         "recOO9imyvJwKOGhq",
         "recsMVDPClTwqFk0z"
       ],
-      "Identified Components": [
-        "Roof"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "FLAT_ROOF",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCROO_069",
-      "IFC4 Predefined Types": [
         "FLAT_ROOF",
         "NOTDEFINED"
       ]
@@ -177,6 +177,7 @@
     "id": "rec3upx6aylsTt3nQ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSLA_074",
       "Revit Representation": "Floors",
       "Archicad Representation": "Slab",
       "Tekla Representation": "Slab, Concrete Slab",
@@ -198,6 +199,16 @@
         "recIJHWEmrMLIcPsj",
         "recin8lYYTb0w3vLQ"
       ],
+      "IFC4 Object Types": [
+        "CATWALK",
+        "INTERMEDIATEPLATFORM"
+      ],
+      "Identified Components": [
+        "Catwalk",
+        "Service Platform",
+        "Slab",
+        "Staircase Landing"
+      ],
       "Property Set": [
         "rec3XiRfn9lvVcPrw",
         "rec1tcALqsJPCgUgv",
@@ -205,6 +216,12 @@
         "recT2wuTq6xQ41qht",
         "recXWmmIxxmcb6qlY",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "FLOOR",
+        "LANDING",
+        "ROOF",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "rec8vfPJ9E0ZCkpIy",
@@ -216,12 +233,6 @@
         "recGlrLZZP7exrTgW",
         "rec0RJXHtqj7P971L"
       ],
-      "Identified Components": [
-        "Catwalk",
-        "Service Platform",
-        "Slab",
-        "Staircase Landing"
-      ],
       "IFC4 Sub Types (Beta)": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -230,17 +241,6 @@
         "LANDING",
         "NOTDEFINED",
         "ROOF"
-      ],
-      "IFC KEY": "IFCSLA_074",
-      "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
-      ],
-      "IFC4 Predefined Types": [
-        "FLOOR",
-        "LANDING",
-        "ROOF",
-        "NOTDEFINED"
       ]
     }
   },
@@ -248,6 +248,7 @@
     "id": "rec6M9ls0Y6lDMdls",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSTA_079",
       "Revit Representation": "Stairs",
       "Archicad Representation": "Stair",
       "Tekla Representation": "Item",
@@ -264,10 +265,21 @@
         "recblsdAyPUaEJrcr",
         "rec4uzivcYKebhiKF"
       ],
+      "IFC4 Object Types": [
+        "WINDER"
+      ],
+      "Identified Components": [
+        "Stair Flight"
+      ],
       "Property Set": [
         "recZH6pH9LwqmlMVi",
         "reck65s3cyreobunD",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "CURVED",
+        "SPIRAL",
+        "STRAIGHT"
       ],
       "CO Key": [
         "recvzIBX1k7YTmCkd",
@@ -275,23 +287,11 @@
         "recpnjyZ5poZLSRRv",
         "recFIYpYGVBEnF2xp"
       ],
-      "Identified Components": [
-        "Stair Flight"
-      ],
       "IFC4 Sub Types (Beta)": [
         "WINDER*",
         "CURVED",
         "STRAIGHT",
         "SPIRAL"
-      ],
-      "IFC KEY": "IFCSTA_079",
-      "IFC4 Object Types": [
-        "WINDER"
-      ],
-      "IFC4 Predefined Types": [
-        "CURVED",
-        "SPIRAL",
-        "STRAIGHT"
       ]
     }
   },
@@ -299,6 +299,7 @@
     "id": "rec6Ms6HBFqFB8ofR",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFLO_044",
       "Revit Representation": "Pipe Accessories",
       "Archicad Representation": "Pipe In-line Flow Device",
       "Tekla Representation": "N.A",
@@ -316,6 +317,12 @@
         "recUWTvJsvYVhGtJB",
         "recZmNOCy3vFuAS2w"
       ],
+      "IFC4 Object Types": [
+        "FUELMETER"
+      ],
+      "Identified Components": [
+        "Flow Meter"
+      ],
       "Property Set": [
         "recjE4A8dP249vr5p",
         "rechQ2wQ7hsvjMYwi",
@@ -323,6 +330,9 @@
         "recozq8TdpP66824o",
         "rece27ZzuDO2QkB7f",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "WATERMETER"
       ],
       "CO Key": [
         "recS9YQ0OFDR70om1",
@@ -332,18 +342,8 @@
         "recqv6s7J0QHMk9BZ",
         "recd6TkcNZR1z59Dq"
       ],
-      "Identified Components": [
-        "Flow Meter"
-      ],
       "IFC4 Sub Types (Beta)": [
         "FUELMETER*",
-        "WATERMETER"
-      ],
-      "IFC KEY": "IFCFLO_044",
-      "IFC4 Object Types": [
-        "FUELMETER"
-      ],
-      "IFC4 Predefined Types": [
         "WATERMETER"
       ]
     }
@@ -352,6 +352,7 @@
     "id": "rec6v6VG1mhOtznHM",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCVAL_087",
       "Revit Representation": "Pipe Accessories",
       "Archicad Representation": "Pipe In-line Flow Device",
       "Tekla Representation": "N.A",
@@ -391,6 +392,19 @@
         "reccazYitOc619tdm",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "AIRADMITTANCE",
+        "AIRINTAKEVALVE",
+        "DISCHARGE",
+        "DRAINOFFCOCK",
+        "DRAINPLUG",
+        "LANDINGVALVE",
+        "OVERPRESSUREPROTECTIONDEVICE",
+        "SPRINKLERCONTROL"
+      ],
+      "Identified Components": [
+        "Valve"
+      ],
       "Property Set": [
         "recs3LMK3gWjogyGp",
         "rec3Neqw6I9NdBtmF",
@@ -398,6 +412,17 @@
         "reczRkmzRRizmGHIM",
         "recdorfbldTlr59fk",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "ANTIVACUUM",
+        "CHECK",
+        "DOUBLECHECK",
+        "FAUCET",
+        "FLUSHING",
+        "ISOLATING",
+        "MIXING",
+        "STOPCOCK",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recyjDUM5Qo5FwWt2",
@@ -429,9 +454,6 @@
         "recz8PoiIMepyBVcc",
         "recLi640DjJrS5y42"
       ],
-      "Identified Components": [
-        "Valve"
-      ],
       "IFC4 Sub Types (Beta)": [
         "AIRADMITTANCE*",
         "AIRINTAKEVALVE*",
@@ -450,28 +472,6 @@
         "MIXING",
         "NOTDEFINED",
         "STOPCOCK"
-      ],
-      "IFC KEY": "IFCVAL_087",
-      "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
-      ],
-      "IFC4 Predefined Types": [
-        "ANTIVACUUM",
-        "CHECK",
-        "DOUBLECHECK",
-        "FAUCET",
-        "FLUSHING",
-        "ISOLATING",
-        "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
       ]
     }
   },
@@ -479,6 +479,7 @@
     "id": "rec83AC0nwMyfVA9h",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCAUD_004",
       "Revit Representation": "Generic Models, Security Devices, Fire Alarm Devices, Telephone Devices",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -497,8 +498,22 @@
         "reca3Tioa2COGiAQH",
         "recgC9Tpfc3ezgdg2"
       ],
+      "IFC4 Object Types": [
+        "LOUDSPEAKER"
+      ],
+      "Identified Components": [
+        "AV Appliance"
+      ],
       "Property Set": [
         "recvu5aCmkwfSXuBA"
+      ],
+      "IFC4 Predefined Types": [
+        "AMPLIFIER",
+        "CAMERA",
+        "MICROPHONE",
+        "SPEAKER",
+        "SWITCHER",
+        "TELEPHONE"
       ],
       "CO Key": [
         "recbEcvGawORBWFQW",
@@ -509,23 +524,8 @@
         "rec0nGCuhidXgRweC",
         "recI0F4LQJUHZ7psZ"
       ],
-      "Identified Components": [
-        "AV Appliance"
-      ],
       "IFC4 Sub Types (Beta)": [
         "LOUDSPEAKER*",
-        "AMPLIFIER",
-        "CAMERA",
-        "MICROPHONE",
-        "SPEAKER",
-        "SWITCHER",
-        "TELEPHONE"
-      ],
-      "IFC KEY": "IFCAUD_004",
-      "IFC4 Object Types": [
-        "LOUDSPEAKER"
-      ],
-      "IFC4 Predefined Types": [
         "AMPLIFIER",
         "CAMERA",
         "MICROPHONE",
@@ -539,6 +539,7 @@
     "id": "rec8flsPfLKAmLiay",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCUNI_085",
       "Revit Representation": "Electrical Equipment, Electrical Fixtures",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -565,8 +566,19 @@
         "reck86nSdg6tQbLF2",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "LIFTCALLBUTTON",
+        "SUBALARMPANEL"
+      ],
+      "Identified Components": [
+        "Control Element"
+      ],
       "Property Set": [
         "reccmLfm3GYAuCnxv"
+      ],
+      "IFC4 Predefined Types": [
+        "CONTROLPANEL",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "rec6ySTJdtkoF17p8",
@@ -584,21 +596,9 @@
         "recEfUzOmZ8FsMD1A",
         "recDe97R5d8Zzhvbm"
       ],
-      "Identified Components": [
-        "Control Element"
-      ],
       "IFC4 Sub Types (Beta)": [
         "LIFTCALLBUTTON*",
         "SUBALARMPANEL*",
-        "CONTROLPANEL",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCUNI_085",
-      "IFC4 Object Types": [
-        "LIFTCALLBUTTON",
-        "SUBALARMPANEL"
-      ],
-      "IFC4 Predefined Types": [
         "CONTROLPANEL",
         "NOTDEFINED"
       ]
@@ -608,6 +608,7 @@
     "id": "rec9LsD8teOEUvZqo",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSTA_078",
       "Revit Representation": "Stairs",
       "Archicad Representation": "Stair",
       "Tekla Representation": "Item, Component",
@@ -636,6 +637,13 @@
         "recq4M6RIWnKPPXsK",
         "recuh244CcoRnpfeb"
       ],
+      "IFC4 Object Types": [
+        "LADDER"
+      ],
+      "Identified Components": [
+        "Ladder",
+        "Stair"
+      ],
       "Property Set": [
         "recFCDl9xGfkbdKFB",
         "rec9XF79MBj6GeJQQ",
@@ -643,6 +651,23 @@
         "reczkXfsh2Ynv0eoa",
         "reciHh7qkyo5qgx1u",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "CURVED_RUN_STAIR",
+        "SPIRAL_STAIR",
+        "NOTDEFINED",
+        "STRAIGHT_RUN_STAIR",
+        "TWO_STRAIGHT_RUN_STAIR",
+        "QUARTER_WINDING_STAIR",
+        "QUARTER_TURN_STAIR",
+        "HALF_WINDING_STAIR",
+        "HALF_TURN_STAIR",
+        "TWO_QUARTER_WINDING_STAIR",
+        "TWO_QUARTER_TURN_STAIR",
+        "THREE_QUARTER_WINDING_STAIR",
+        "THREE_QUARTER_TURN_STAIR",
+        "DOUBLE_RETURN_STAIR",
+        "TWO_CURVED_RUN_STAIR"
       ],
       "CO Key": [
         "recg6v7RwpOiEzJRY",
@@ -661,10 +686,6 @@
         "rec8ngmY4Hhy6lMZ7",
         "recx18Y4iHnTt8H0g"
       ],
-      "Identified Components": [
-        "Ladder",
-        "Stair"
-      ],
       "IFC4 Sub Types (Beta)": [
         "LADDER*",
         "CURVED_RUN_STAIR",
@@ -681,27 +702,6 @@
         "DOUBLE_RETURN_STAIR",
         "TWO_CURVED_RUN_STAIR",
         "TWO_QUARTER_TURN_STAIR"
-      ],
-      "IFC KEY": "IFCSTA_078",
-      "IFC4 Object Types": [
-        "LADDER"
-      ],
-      "IFC4 Predefined Types": [
-        "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
-        "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
       ]
     }
   },
@@ -709,6 +709,7 @@
     "id": "recAFISJyNfTeNrVZ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCTAN_082",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -739,11 +740,40 @@
         "recJdXWdfRYitmJgY",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "AIRRECEIVER",
+        "BACKWASHWATERHOLDINGTANK",
+        "BALANCINGTANK",
+        "BLOWDOWN",
+        "DETENTIONTANK",
+        "DILUTIONTANK",
+        "EJECTORTANK",
+        "FIREEXTINGUISHINGTANK",
+        "HOLDINGTANK",
+        "RECHARGEWELL",
+        "REFUSEHANDLINGEQUIPMENT",
+        "RETENTIONTANK",
+        "SECTIONAL",
+        "SURGETANK"
+      ],
+      "Identified Components": [
+        "Clean Agent Fire Extinguisher",
+        "Dry Chemical Fire Extinguisher",
+        "Tank",
+        "Tank Cover",
+        "Wet Chemical Fire Extinguisher"
+      ],
       "Property Set": [
         "rectBZSAu0vc6Ggdp",
         "recdhggFwXm2wrVCv",
         "recakBvfxEArBBgng",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "BASIN",
+        "PRESSUREVESSEL",
+        "STORAGE",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recFhC0TxyT0LSk0j",
@@ -770,13 +800,6 @@
         "recXOX3Ry14lkwWtP",
         "recasouArGt9OGu4b"
       ],
-      "Identified Components": [
-        "Clean Agent Fire Extinguisher",
-        "Dry Chemical Fire Extinguisher",
-        "Tank",
-        "Tank Cover",
-        "Wet Chemical Fire Extinguisher"
-      ],
       "IFC4 Sub Types (Beta)": [
         "FIREEXTINGUISHINGTANK*",
         "AIRRECEIVER*",
@@ -796,29 +819,6 @@
         "NOTDEFINED",
         "PRESSUREVESSEL",
         "STORAGE"
-      ],
-      "IFC KEY": "IFCTAN_082",
-      "IFC4 Object Types": [
-        "AIRRECEIVER",
-        "BACKWASHWATERHOLDINGTANK",
-        "BALANCINGTANK",
-        "BLOWDOWN",
-        "DETENTIONTANK",
-        "DILUTIONTANK",
-        "EJECTORTANK",
-        "FIREEXTINGUISHINGTANK",
-        "HOLDINGTANK",
-        "RECHARGEWELL",
-        "REFUSEHANDLINGEQUIPMENT",
-        "RETENTIONTANK",
-        "SECTIONAL",
-        "SURGETANK"
-      ],
-      "IFC4 Predefined Types": [
-        "BASIN",
-        "PRESSUREVESSEL",
-        "STORAGE",
-        "NOTDEFINED"
       ]
     }
   },
@@ -826,6 +826,7 @@
     "id": "recAVIrUWRB6uA7XT",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCHI_016",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -838,22 +839,21 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Chiller",
+        "Chiller Unit"
+      ],
       "Property Set": [
         "recNCfmUu2DZu9QA4"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recQO9707dUqXBrgH",
         "recdhk6kqFGyFLhsj"
       ],
-      "Identified Components": [
-        "Chiller",
-        "Chiller Unit"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCHI_016",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -862,6 +862,7 @@
     "id": "recAXlJ2xEv3v8z6O",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDOO_030",
       "Revit Representation": "Doors",
       "Archicad Representation": "Door",
       "Tekla Representation": "N.A",
@@ -889,11 +890,43 @@
         "recIJHWEmrMLIcPsj",
         "recINCMCLFaP2LlVJ"
       ],
+      "IFC4 Object Types": [
+        "ACCESSHATCH",
+        "BLASTDOOR",
+        "FIRECURTAIN",
+        "FIRESHUTTER",
+        "FLAPDOOR",
+        "RECYCLABLESCHUTEACCESSPANEL",
+        "RECYCLABLESCHUTEHOPPER",
+        "REFUSECHUTEACCESSPANEL",
+        "REFUSECHUTEHOPPER",
+        "ROLLERSHUTTER",
+        "SMOKECURTAIN"
+      ],
+      "Identified Components": [
+        "Access Hatch",
+        "Access Panel",
+        "Refuse Chute Hopper",
+        "Door",
+        "Door Jamb",
+        "Door Panel",
+        "Fire Curtain",
+        "Key Hole",
+        "Lift Landing Door Frame",
+        "Smoke Curtain",
+        "Vision Panel"
+      ],
       "Property Set": [
         "rectKy6lxn7wm1MB6",
         "recqTrWwgEEmAFrk9",
         "reczTEO1LnhyfA3sD",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "GATE",
+        "TRAPDOOR",
+        "NOTDEFINED",
+        "DOOR"
       ],
       "CO Key": [
         "rec09oyAhKtKyl5M2",
@@ -918,19 +951,6 @@
         "recHmJOrRWWezEgz1",
         "recEE1BZB685J64zo"
       ],
-      "Identified Components": [
-        "Access Hatch",
-        "Access Panel",
-        "Refuse Chute Hopper",
-        "Door",
-        "Door Jamb",
-        "Door Panel",
-        "Fire Curtain",
-        "Key Hole",
-        "Lift Landing Door Frame",
-        "Smoke Curtain",
-        "Vision Panel"
-      ],
       "IFC4 Sub Types (Beta)": [
         "ACCESSHATCH*",
         "RECYCLABLESCHUTEACCESSPANEL*",
@@ -947,26 +967,6 @@
         "FIRECURTAIN*",
         "SMOKECURTAIN*",
         "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCDOO_030",
-      "IFC4 Object Types": [
-        "ACCESSHATCH",
-        "BLASTDOOR",
-        "FIRECURTAIN",
-        "FIRESHUTTER",
-        "FLAPDOOR",
-        "RECYCLABLESCHUTEACCESSPANEL",
-        "RECYCLABLESCHUTEHOPPER",
-        "REFUSECHUTEACCESSPANEL",
-        "REFUSECHUTEHOPPER",
-        "ROLLERSHUTTER",
-        "SMOKECURTAIN"
-      ],
-      "IFC4 Predefined Types": [
-        "GATE",
-        "TRAPDOOR",
-        "NOTDEFINED",
-        "DOOR"
       ]
     }
   },
@@ -974,6 +974,7 @@
     "id": "recBOsVWHTzcqFaqv",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFLO_043",
       "Revit Representation": "Pipe Accessories, Electrical Equipment",
       "Archicad Representation": "Pipe In-line Flow Device, Flow Equipment",
       "Tekla Representation": "N.A",
@@ -987,22 +988,21 @@
         "recIJHpOiqy9K8WF4",
         "recHAEebRIrhA1atD"
       ],
+      "Identified Components": [
+        "Pressure Gauge",
+        "Thermocouple Display Panel"
+      ],
       "Property Set": [
         "rectMnYsbqgDXF1Ya"
+      ],
+      "IFC4 Predefined Types": [
+        "PRESSUREGAUGE"
       ],
       "CO Key": [
         "rec5JVBnzmCHQuaDp",
         "recaFhvieUdTmHMc1"
       ],
-      "Identified Components": [
-        "Pressure Gauge",
-        "Thermocouple Display Panel"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "PRESSUREGAUGE"
-      ],
-      "IFC KEY": "IFCFLO_043",
-      "IFC4 Predefined Types": [
         "PRESSUREGAUGE"
       ]
     }
@@ -1011,6 +1011,7 @@
     "id": "recBVN0mZyh7fv0P3",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPUM_064",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -1032,9 +1033,25 @@
         "recIJHWEmrMLIcPsj",
         "recPCrsHMhwNKhi3U"
       ],
+      "IFC4 Object Types": [
+        "AERATOR",
+        "JET",
+        "JOCKEYPUMP",
+        "VACUUMEXHAUSTER",
+        "EJECTORPUMP"
+      ],
+      "Identified Components": [
+        "Pump"
+      ],
       "Property Set": [
         "recyoku7ppqAQqW2j",
         "rec6etH5YkNvpz9he"
+      ],
+      "IFC4 Predefined Types": [
+        "ENDSUCTION",
+        "SPLITCASE",
+        "SUMPPUMP",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recpcEhaLnu0OndfM",
@@ -1048,9 +1065,6 @@
         "recLbiaTTSjQZADKl",
         "recEvBDNphZM6JL26"
       ],
-      "Identified Components": [
-        "Pump"
-      ],
       "IFC4 Sub Types (Beta)": [
         "AERATOR*",
         "JET*",
@@ -1061,20 +1075,6 @@
         "SPLITCASE",
         "SUMPPUMP",
         "EJECTORPUMP*"
-      ],
-      "IFC KEY": "IFCPUM_064",
-      "IFC4 Object Types": [
-        "AERATOR",
-        "JET",
-        "JOCKEYPUMP",
-        "VACUUMEXHAUSTER",
-        "EJECTORPUMP"
-      ],
-      "IFC4 Predefined Types": [
-        "ENDSUCTION",
-        "SPLITCASE",
-        "SUMPPUMP",
-        "NOTDEFINED"
       ]
     }
   },
@@ -1082,6 +1082,7 @@
     "id": "recBfbVt4sObrQgGS",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCAB_013",
       "Revit Representation": "Cable Trays, Conduits",
       "Archicad Representation": "Cable Tray, Duct",
       "Tekla Representation": "N.A",
@@ -1098,8 +1099,21 @@
         "recLPfRmd44ldWmtg",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "AIRCONDITIONINGTRAY"
+      ],
+      "Identified Components": [
+        "Cable Carrier Segment",
+        "Cable Trunking"
+      ],
       "Property Set": [
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "CABLETRAYSEGMENT",
+        "CABLETRUNKINGSEGMENT",
+        "CONDUITSEGMENT",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recQVOqU3o5uCEG6T",
@@ -1109,22 +1123,8 @@
         "rec2yyHAyvlG1jqvf",
         "recmqKtALGpueBtMT"
       ],
-      "Identified Components": [
-        "Cable Carrier Segment",
-        "Cable Trunking"
-      ],
       "IFC4 Sub Types (Beta)": [
         "AIRCONDITIONINGTRAY*",
-        "CABLETRAYSEGMENT",
-        "CABLETRUNKINGSEGMENT",
-        "CONDUITSEGMENT",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCAB_013",
-      "IFC4 Object Types": [
-        "AIRCONDITIONINGTRAY"
-      ],
-      "IFC4 Predefined Types": [
         "CABLETRAYSEGMENT",
         "CABLETRUNKINGSEGMENT",
         "CONDUITSEGMENT",
@@ -1136,6 +1136,7 @@
     "id": "recCY5g0wSgdhNdJb",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCENG_039",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -1148,17 +1149,16 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
-      "CO Key": [
-        "recbcq8FZ8JdWVJzq"
-      ],
       "Identified Components": [
         "Engine"
       ],
-      "IFC4 Sub Types (Beta)": [
+      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ],
-      "IFC KEY": "IFCENG_039",
-      "IFC4 Predefined Types": [
+      "CO Key": [
+        "recbcq8FZ8JdWVJzq"
+      ],
+      "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ]
     }
@@ -1167,6 +1167,7 @@
     "id": "recCZDAaDJ3TGNqaG",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCHEA_049",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -1179,20 +1180,20 @@
       "OT Key (Object Type)": [
         "recIqjd5mFmFQhFlq"
       ],
-      "CO Key": [
-        "recTCczcfyjXkGHK2"
-      ],
       "Identified Components": [
         "Vaporiser"
       ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCHEA_049"
+      "CO Key": [
+        "recTCczcfyjXkGHK2"
+      ],
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recCa2bHJzQ8vNKcm",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBUI_007",
       "Revit Representation": "Project Information",
       "Archicad Representation": "IFC Project Manager",
       "Tekla Representation": "N.A",
@@ -1205,28 +1206,28 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Building"
+      ],
       "Property Set": [
         "recYWhrFtAXZcDnOj",
         "recXpYvfPdJFolJdv",
         "rec7Up1XWtVA61bGf"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "recccSvrKKo0SU6wY"
       ],
-      "Identified Components": [
-        "Building"
-      ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCBUI_007",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recCtapRXxX7Nl8hW",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSHA_072",
       "Revit Representation": "Generic Models, Curtain Panel",
       "Archicad Representation": "Object, Roof",
       "Tekla Representation": "N.A",
@@ -1255,11 +1256,31 @@
         "recUB4mj2dZDwqtnZ",
         "recXRyrFzkRse8RYO"
       ],
+      "IFC4 Object Types": [
+        "BALCONYSCREEN",
+        "CANOPY",
+        "DROPDOWNPANEL",
+        "EXTERNALFINS",
+        "LOUVREDPANEL",
+        "PARASOL",
+        "PERFORATEDPANEL",
+        "SHIELD",
+        "SCREEN",
+        "TRELLIS"
+      ],
+      "Identified Components": [
+        "Outer Shell Covering",
+        "Shading Device"
+      ],
       "Property Set": [
         "reckvosbJYCyyAlTe",
         "recGr7reaSS4dO5sR",
         "recwxJdq4zR7euDC5",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "AWNING",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "rec4wR9Mj0WhOSjsA",
@@ -1281,10 +1302,6 @@
         "recxdSl4ukuR4mEMI",
         "reckW2cCUqJKARCO7"
       ],
-      "Identified Components": [
-        "Outer Shell Covering",
-        "Shading Device"
-      ],
       "IFC4 Sub Types (Beta)": [
         "SCREEN*",
         "BALCONYSCREEN*",
@@ -1298,23 +1315,6 @@
         "TRELLIS*",
         "AWNING",
         "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCSHA_072",
-      "IFC4 Object Types": [
-        "BALCONYSCREEN",
-        "CANOPY",
-        "DROPDOWNPANEL",
-        "EXTERNALFINS",
-        "LOUVREDPANEL",
-        "PARASOL",
-        "PERFORATEDPANEL",
-        "SHIELD",
-        "SCREEN",
-        "TRELLIS"
-      ],
-      "IFC4 Predefined Types": [
-        "AWNING",
-        "NOTDEFINED"
       ]
     }
   },
@@ -1322,6 +1322,7 @@
     "id": "recDwV5KmsoBB09eI",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCELE_036",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -1337,15 +1338,8 @@
         "rec2KMle8m991Qy2k",
         "recIJHWEmrMLIcPsj"
       ],
-      "Property Set": [
-        "rechxX0dd5SiCAOfO"
-      ],
-      "CO Key": [
-        "recUS3MBlMhtzejwI",
-        "rec1ZtQ51XdL93KDv",
-        "recm3wc4qGVFLs3n8",
-        "recXsTCNQrKwuc9EQ",
-        "recRNyu242zDkwODc"
+      "IFC4 Object Types": [
+        "EMERGENCYENGINEGENERATOR"
       ],
       "Identified Components": [
         "Diesel Generator",
@@ -1354,17 +1348,23 @@
         "Genset",
         "Standby Generating Plant"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "ENGINEGENERATOR",
-        "EMERGENCYENGINEGENERATOR*",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCELE_036",
-      "IFC4 Object Types": [
-        "EMERGENCYENGINEGENERATOR"
+      "Property Set": [
+        "rechxX0dd5SiCAOfO"
       ],
       "IFC4 Predefined Types": [
         "ENGINEGENERATOR",
+        "NOTDEFINED"
+      ],
+      "CO Key": [
+        "recUS3MBlMhtzejwI",
+        "rec1ZtQ51XdL93KDv",
+        "recm3wc4qGVFLs3n8",
+        "recXsTCNQrKwuc9EQ",
+        "recRNyu242zDkwODc"
+      ],
+      "IFC4 Sub Types (Beta)": [
+        "ENGINEGENERATOR",
+        "EMERGENCYENGINEGENERATOR*",
         "NOTDEFINED"
       ]
     }
@@ -1373,6 +1373,7 @@
     "id": "recEEBvi653xIx9KQ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCELE_035",
       "Revit Representation": "Electrical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -1387,8 +1388,18 @@
         "recDYy4VX9BLWW5az",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Battery",
+        "Battery Backup Power Supply",
+        "Electric Flow Storage Device",
+        "Electrical Equipment",
+        "UPS"
+      ],
       "Property Set": [
         "recdt73k5KOcl2m5s"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recz2KLE24eocRXtF",
@@ -1397,18 +1408,7 @@
         "recCECRXeZ7XxhA2K",
         "recLI1MEhAcxKOzVr"
       ],
-      "Identified Components": [
-        "Battery",
-        "Battery Backup Power Supply",
-        "Electric Flow Storage Device",
-        "Electrical Equipment",
-        "UPS"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCELE_035",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -1417,6 +1417,7 @@
     "id": "recEuTZCjOJQzsMpx",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPRO_063",
       "Revit Representation": "Electrical Equipment",
       "Archicad Representation": "N.A",
       "Tekla Representation": "N.A",
@@ -1429,20 +1430,20 @@
       "OT Key (Object Type)": [
         "recFsqBAVTSFr6QUh"
       ],
-      "CO Key": [
-        "recUOaFcGXrSXBFUe"
-      ],
       "Identified Components": [
         "Electro Magnetic"
       ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCPRO_063"
+      "CO Key": [
+        "recUOaFcGXrSXBFUe"
+      ],
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recG6bgYFdu0fLby5",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCWAS_089",
       "Revit Representation": "Generic Models, Pipe Accessories, Plumbing Fixtures, Mechanical Equipment",
       "Archicad Representation": "Object, Pipe Flow Terminal, Pipe In-line Flow Device, Flow Equipment",
       "Tekla Representation": "N.A",
@@ -1470,10 +1471,32 @@
         "rec7qetCk55QzyQQ1",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "CHUTEINTERFACE",
+        "DROPINLETCHAMBER",
+        "RECYCLABLESTHROWPOINT",
+        "REFUSETHROWPOINT",
+        "RETURNINLET",
+        "SHALLOWFLOORTRAP",
+        "URINALTRAP",
+        "WASTEDIVERTER",
+        "WASTESUMP"
+      ],
+      "Identified Components": [
+        "Waste Terminal"
+      ],
       "Property Set": [
         "recW81a9lXWyMIiDZ",
         "recYWwonYaGQz8spw",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "FLOORTRAP",
+        "FLOORWASTE",
+        "GULLYSUMP",
+        "GULLYTRAP",
+        "WASTETRAP",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "rec82zvh8f6TVUC98",
@@ -1492,9 +1515,6 @@
         "recWcLCDS56Gk3bhm",
         "rect7tp4zV8fthNJ6"
       ],
-      "Identified Components": [
-        "Waste Terminal"
-      ],
       "IFC4 Sub Types (Beta)": [
         "CHUTEINTERFACE*",
         "DROPINLETCHAMBER*",
@@ -1511,26 +1531,6 @@
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
-      ],
-      "IFC KEY": "IFCWAS_089",
-      "IFC4 Object Types": [
-        "CHUTEINTERFACE",
-        "DROPINLETCHAMBER",
-        "RECYCLABLESTHROWPOINT",
-        "REFUSETHROWPOINT",
-        "RETURNINLET",
-        "SHALLOWFLOORTRAP",
-        "URINALTRAP",
-        "WASTEDIVERTER",
-        "WASTESUMP"
-      ],
-      "IFC4 Predefined Types": [
-        "FLOORTRAP",
-        "FLOORWASTE",
-        "GULLYSUMP",
-        "GULLYTRAP",
-        "WASTETRAP",
-        "NOTDEFINED"
       ]
     }
   },
@@ -1538,6 +1538,7 @@
     "id": "recGhQNLt7KFJiRyP",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCAB_014",
       "Revit Representation": "Conduits",
       "Archicad Representation": "Pipework",
       "Tekla Representation": "N.A",
@@ -1550,17 +1551,16 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
-      "CO Key": [
-        "rec9NjBrBaL88fWyN"
-      ],
       "Identified Components": [
         "Cable Fitting"
       ],
-      "IFC4 Sub Types (Beta)": [
+      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ],
-      "IFC KEY": "IFCCAB_014",
-      "IFC4 Predefined Types": [
+      "CO Key": [
+        "rec9NjBrBaL88fWyN"
+      ],
+      "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ]
     }
@@ -1569,6 +1569,7 @@
     "id": "recJAEfCRo3pEn0wK",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCOM_020",
       "Revit Representation": "Generic Models",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -1585,16 +1586,8 @@
         "recbzhSDKBn6o3pMz",
         "recwC150O38AGAohE"
       ],
-      "Property Set": [
-        "recCgjbShnKCs9yDC",
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "rec6HZ8bcStxSNs5Z",
-        "recYIhPlwFX1w7KRl",
-        "recxMdkInxpu1AXVy",
-        "recQdFWGsv2a0KnVp",
-        "rechYfuhoamlYVaWS"
+      "IFC4 Object Types": [
+        "INTEGRATEDCOMMUNICATIONCONSOLE"
       ],
       "Identified Components": [
         "Antennae",
@@ -1603,16 +1596,23 @@
         "Integrated Communication Console",
         "Network Appliance"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "COMPUTER",
-        "INTEGRATEDCOMMUNICATIONCONSOLE*"
-      ],
-      "IFC KEY": "IFCCOM_020",
-      "IFC4 Object Types": [
-        "INTEGRATEDCOMMUNICATIONCONSOLE"
+      "Property Set": [
+        "recCgjbShnKCs9yDC",
+        "rec9deXZBT4E6DnY6"
       ],
       "IFC4 Predefined Types": [
         "COMPUTER"
+      ],
+      "CO Key": [
+        "rec6HZ8bcStxSNs5Z",
+        "recYIhPlwFX1w7KRl",
+        "recxMdkInxpu1AXVy",
+        "recQdFWGsv2a0KnVp",
+        "rechYfuhoamlYVaWS"
+      ],
+      "IFC4 Sub Types (Beta)": [
+        "COMPUTER",
+        "INTEGRATEDCOMMUNICATIONCONSOLE*"
       ]
     }
   },
@@ -1620,6 +1620,7 @@
     "id": "recKKmopvM5vWItDb",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSAN_070",
       "Revit Representation": "Plumbing Fixtures, Mechanical Equipment, Sprinklers",
       "Archicad Representation": "Pipe Flow Terminal, Object, Terminal",
       "Tekla Representation": "N.A",
@@ -1645,30 +1646,13 @@
         "recfLTtiVtfOvE5HT",
         "rechdhRMbQC51CkOv"
       ],
-      "Property Set": [
-        "reclLaabr5c6L0Qsu",
-        "rec5dJmolf5e1XOo3",
-        "recHhF5VVcotdf39u",
-        "recBYr9KdlCFINktj",
-        "recV4S1OiyE6lrsfj"
-      ],
-      "CO Key": [
-        "recd8yZG4c5DvcKYJ",
-        "rec5o78TyfsdyyfGG",
-        "recwa8PswjuWrjNkW",
-        "rec2FAxHBOcRgBm1Y",
-        "rec14FlhAljuYmjBR",
-        "rechZj4MDqpNys1Xw",
-        "recnzwCez8IcGrjNx",
-        "recqld4WFVaVTNTEk",
-        "recLzxWQS6I6Ro2vl",
-        "recndFyyc2Y6sTBcJ",
-        "reccYXK77a5Ge8KYw",
-        "recBRmThs3FIwtCGC",
-        "recW0vZoFu5jQJUw6",
-        "recrDznuCj0vsjTF8",
-        "recvcpYXULwLR27JV",
-        "recELaM2cwi6ROaWw"
+      "IFC4 Object Types": [
+        "FOGGER",
+        "MISTER",
+        "POOLSKIMMER",
+        "WATERCLOSET",
+        "BREECHINGINLET",
+        "SPRINKLER"
       ],
       "Identified Components": [
         "Bathtub",
@@ -1688,6 +1672,40 @@
         "Wash Basin",
         "Water Closet"
       ],
+      "Property Set": [
+        "reclLaabr5c6L0Qsu",
+        "rec5dJmolf5e1XOo3",
+        "recHhF5VVcotdf39u",
+        "recBYr9KdlCFINktj",
+        "recV4S1OiyE6lrsfj"
+      ],
+      "IFC4 Predefined Types": [
+        "BATH",
+        "BIDET",
+        "SHOWER",
+        "SINK",
+        "URINAL",
+        "WASHHANDBASIN",
+        "NOTDEFINED"
+      ],
+      "CO Key": [
+        "recd8yZG4c5DvcKYJ",
+        "rec5o78TyfsdyyfGG",
+        "recwa8PswjuWrjNkW",
+        "rec2FAxHBOcRgBm1Y",
+        "rec14FlhAljuYmjBR",
+        "rechZj4MDqpNys1Xw",
+        "recnzwCez8IcGrjNx",
+        "recqld4WFVaVTNTEk",
+        "recLzxWQS6I6Ro2vl",
+        "recndFyyc2Y6sTBcJ",
+        "reccYXK77a5Ge8KYw",
+        "recBRmThs3FIwtCGC",
+        "recW0vZoFu5jQJUw6",
+        "recrDznuCj0vsjTF8",
+        "recvcpYXULwLR27JV",
+        "recELaM2cwi6ROaWw"
+      ],
       "IFC4 Sub Types (Beta)": [
         "BATH",
         "BIDET",
@@ -1701,24 +1719,6 @@
         "URINAL",
         "WASHHANDBASIN",
         "WATERCLOSET*"
-      ],
-      "IFC KEY": "IFCSAN_070",
-      "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
-      ],
-      "IFC4 Predefined Types": [
-        "BATH",
-        "BIDET",
-        "SHOWER",
-        "SINK",
-        "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
       ]
     }
   },
@@ -1726,6 +1726,7 @@
     "id": "recKN20QEGivifTMD",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCOM_021",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -1738,20 +1739,19 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Air Compressor"
+      ],
       "Property Set": [
         "rec8AAkfph4ZgTkf0"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recb2sKtwspBySCFw"
       ],
-      "Identified Components": [
-        "Air Compressor"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCOM_021",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -1760,6 +1760,7 @@
     "id": "recKYelETaiTWecEZ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSWI_080",
       "Revit Representation": "Electrical Fixtures, Specialty Equipment, Lighting Devices",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -1778,8 +1779,19 @@
         "recv3uBfdtNLCSmiJ",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "EVACUATIONSWITCH",
+        "FIRELIFTSWITCH",
+        "MANUALSWITCH"
+      ],
+      "Identified Components": [
+        "Switch"
+      ],
       "Property Set": [
         "recldCOTIz1wuMlFV"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "reclxfPRy0QwyKhhQ",
@@ -1790,22 +1802,10 @@
         "recuYbPi8lfNyy4LQ",
         "recBLLdwN5aCobbrI"
       ],
-      "Identified Components": [
-        "Switch"
-      ],
       "IFC4 Sub Types (Beta)": [
         "EVACUATIONSWITCH*",
         "FIRELIFTSWITCH*",
         "MANUALSWITCH*",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCSWI_080",
-      "IFC4 Object Types": [
-        "EVACUATIONSWITCH",
-        "FIRELIFTSWITCH",
-        "MANUALSWITCH"
-      ],
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -1814,6 +1814,7 @@
     "id": "recKmuTlqyk5EI3na",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPIP_059",
       "Revit Representation": "Plumbing Fixtures, Pipes, Flex Pipes, Generic Models",
       "Archicad Representation": "Pipe, Object",
       "Tekla Representation": "N.A",
@@ -1836,11 +1837,25 @@
         "rectRIWZNS3KR7laN",
         "rec5OwR5TFrIQx2Fo"
       ],
+      "IFC4 Object Types": [
+        "BYPASSCHANNEL",
+        "RAINWATEROUTLET",
+        "SCUPPERDRAIN"
+      ],
+      "Identified Components": [
+        "Pipe Segment"
+      ],
       "Property Set": [
         "rec40Kv98zoIVg4My",
         "recM96h7NXwMUtei8",
         "recwKzkym1v6a71WG",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "ROOFGUTTER",
+        "SPOOL",
+        "NOTDEFINED",
+        "FOUNDATION"
       ],
       "CO Key": [
         "recWudDI23yMlfnwz",
@@ -1854,9 +1869,6 @@
         "recdMUXRI1fpOI9e9",
         "rec0sKQtTZJMGuF50"
       ],
-      "Identified Components": [
-        "Pipe Segment"
-      ],
       "IFC4 Sub Types (Beta)": [
         "BYPASSCHANNEL*",
         "FOUNDATION",
@@ -1865,18 +1877,6 @@
         "NOTDEFINED",
         "ROOFGUTTER",
         "SPOOL"
-      ],
-      "IFC KEY": "IFCPIP_059",
-      "IFC4 Object Types": [
-        "BYPASSCHANNEL",
-        "RAINWATEROUTLET",
-        "SCUPPERDRAIN"
-      ],
-      "IFC4 Predefined Types": [
-        "ROOFGUTTER",
-        "SPOOL",
-        "NOTDEFINED",
-        "FOUNDATION"
       ]
     }
   },
@@ -1884,6 +1884,7 @@
     "id": "recLTlYyqDmoOw9AW",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCELE_038",
       "Revit Representation": "N.A",
       "Archicad Representation": "N.A",
       "Tekla Representation": "N.A",
@@ -1898,9 +1899,18 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Building Element",
+        "Encumbrances",
+        "Interior Element",
+        "Obstruction"
+      ],
       "Property Set": [
         "recN8nT47SArLvY2G",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recsmyvltqhwDCJwF",
@@ -1908,17 +1918,7 @@
         "rectK8lqdO1JIUwVO",
         "recXnHqDyS6ibTnWB"
       ],
-      "Identified Components": [
-        "Building Element",
-        "Encumbrances",
-        "Interior Element",
-        "Obstruction"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCELE_038",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -1927,6 +1927,7 @@
     "id": "recLtYZGiBkCZg7Vp",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPLA_060",
       "Revit Representation": "Curtain Systems, Generic Models",
       "Archicad Representation": "Curtain Wall, Object",
       "Tekla Representation": "N.A",
@@ -1941,25 +1942,24 @@
         "rec17zYtCyRBGZobR",
         "rec0W30oi89GmFW2H"
       ],
+      "Identified Components": [
+        "Curtain Panel",
+        "Orifice Plate",
+        "Steel Plate"
+      ],
       "Property Set": [
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "CURTAIN_PANEL",
+        "SHEET"
       ],
       "CO Key": [
         "recY3HPeS4mS3PWlg",
         "recp5oT7Nic0UUqqK",
         "recufbzADMF0kYlmw"
       ],
-      "Identified Components": [
-        "Curtain Panel",
-        "Orifice Plate",
-        "Steel Plate"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "CURTAIN_PANEL",
-        "SHEET"
-      ],
-      "IFC KEY": "IFCPLA_060",
-      "IFC4 Predefined Types": [
         "CURTAIN_PANEL",
         "SHEET"
       ]
@@ -1969,6 +1969,7 @@
     "id": "recM4bwAqki69yFJd",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCRAM_067",
       "Revit Representation": "Ramps",
       "Archicad Representation": "Ramp",
       "Tekla Representation": "Item",
@@ -1981,20 +1982,19 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Rampflight"
+      ],
       "Property Set": [
         "recXlcI1uwfvZ6j5e"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "rec50dM9Kh7NwLPQS"
       ],
-      "Identified Components": [
-        "Rampflight"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCRAM_067",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -2003,6 +2003,7 @@
     "id": "recMAZHU5HNjP5Wpk",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCTRA_083",
       "Revit Representation": "Electrical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -2016,22 +2017,21 @@
         "recXh2eP4nEibiap6",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Inverter",
+        "Transformer"
+      ],
       "Property Set": [
         "rec05WeIUqKxXhDVd"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recGy0YhnIUBQDKjB",
         "reckPLkJeUS8j55m0"
       ],
-      "Identified Components": [
-        "Inverter",
-        "Transformer"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCTRA_083",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -2040,6 +2040,7 @@
     "id": "recMgfM1ibGt9lDcg",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCELE_033",
       "Revit Representation": "Electrical Equipment, Mechanical Equipment",
       "Archicad Representation": "Flow Equipment, Pipe Flow Terminal",
       "Tekla Representation": "N.A",
@@ -2072,32 +2073,17 @@
         "rec0lL8xGBQKHIwU3",
         "recy2eQofVQUAmGBF"
       ],
-      "Property Set": [
-        "reciDONVhYPbVUMz2",
-        "rec9cXZIzRELHKZkc"
-      ],
-      "CO Key": [
-        "rec0AReEhxDlPBJdI",
-        "recH8cOF5okxutdL5",
-        "recDwZWvGVlqytiEH",
-        "recy7cizgAqocfqyS",
-        "reciePgXJzvcBjoFC",
-        "rec2sdPciDXGziKwh",
-        "recqQBshB7wjQB7sO",
-        "recyuVW0v5TrZy2Qw",
-        "recl5bpmejQIQLslO",
-        "recnxSOcLgvV3T1zi",
-        "recmhPCExETygcjRi",
-        "recaTG9PyURYXSqFf",
-        "recNaYrpu8TOY2osL",
-        "reckLiokoVz9OLuy1",
-        "recHIRVYEkfydKcnV",
-        "rec6EiZUF4es0RvG7",
-        "recP9oSIVqffKAxYw",
-        "recZj0pdXiUKOCtkA",
-        "recDdg2GAcoyQ7CBy",
-        "recjx68EQUEe565j5",
-        "recOxvImFxwdrUcwh"
+      "IFC4 Object Types": [
+        "COFFEEMAKER",
+        "DRINKINGFOUNTAIN",
+        "FUMEHOOD",
+        "HIGHPRESSURECLEANER",
+        "ICEMAKER",
+        "RANGEHOOD",
+        "SCRAPER",
+        "STEAMCLEANER",
+        "TELEVISION",
+        "WATERDISPENSER"
       ],
       "Identified Components": [
         "Air Cleaning Equipment",
@@ -2122,6 +2108,43 @@
         "Water Dispenser",
         "Water Heater"
       ],
+      "Property Set": [
+        "reciDONVhYPbVUMz2",
+        "rec9cXZIzRELHKZkc"
+      ],
+      "IFC4 Predefined Types": [
+        "DISHWASHER",
+        "ELECTRICCOOKER",
+        "FREESTANDINGELECTRICHEATER",
+        "FREESTANDINGWATERCOOLER",
+        "FREESTANDINGWATERHEATER",
+        "FREEZER",
+        "REFRIGERATOR",
+        "WASHINGMACHINE"
+      ],
+      "CO Key": [
+        "rec0AReEhxDlPBJdI",
+        "recH8cOF5okxutdL5",
+        "recDwZWvGVlqytiEH",
+        "recy7cizgAqocfqyS",
+        "reciePgXJzvcBjoFC",
+        "rec2sdPciDXGziKwh",
+        "recqQBshB7wjQB7sO",
+        "recyuVW0v5TrZy2Qw",
+        "recl5bpmejQIQLslO",
+        "recnxSOcLgvV3T1zi",
+        "recmhPCExETygcjRi",
+        "recaTG9PyURYXSqFf",
+        "recNaYrpu8TOY2osL",
+        "reckLiokoVz9OLuy1",
+        "recHIRVYEkfydKcnV",
+        "rec6EiZUF4es0RvG7",
+        "recP9oSIVqffKAxYw",
+        "recZj0pdXiUKOCtkA",
+        "recDdg2GAcoyQ7CBy",
+        "recjx68EQUEe565j5",
+        "recOxvImFxwdrUcwh"
+      ],
       "IFC4 Sub Types (Beta)": [
         "COFFEEMAKER*",
         "DISHWASHER",
@@ -2141,29 +2164,6 @@
         "FREESTANDINGWATERCOOLER",
         "WATERDISPENSER*",
         "FREESTANDINGWATERHEATER"
-      ],
-      "IFC KEY": "IFCELE_033",
-      "IFC4 Object Types": [
-        "COFFEEMAKER",
-        "DRINKINGFOUNTAIN",
-        "FUMEHOOD",
-        "HIGHPRESSURECLEANER",
-        "ICEMAKER",
-        "RANGEHOOD",
-        "SCRAPER",
-        "STEAMCLEANER",
-        "TELEVISION",
-        "WATERDISPENSER"
-      ],
-      "IFC4 Predefined Types": [
-        "DISHWASHER",
-        "ELECTRICCOOKER",
-        "FREESTANDINGELECTRICHEATER",
-        "FREESTANDINGWATERCOOLER",
-        "FREESTANDINGWATERHEATER",
-        "FREEZER",
-        "REFRIGERATOR",
-        "WASHINGMACHINE"
       ]
     }
   },
@@ -2171,6 +2171,7 @@
     "id": "recMk12sPYAKpAK9y",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCAB_012",
       "Revit Representation": "Cable Fitting",
       "Archicad Representation": "N.A",
       "Tekla Representation": "N.A",
@@ -2183,23 +2184,23 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
-      "CO Key": [
-        "recJ0Gl5TvaT4IVzD"
-      ],
       "Identified Components": [
         "Trunking"
       ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCCAB_012",
       "IFC4 Predefined Types": [
         "NOTDEFINED"
-      ]
+      ],
+      "CO Key": [
+        "recJ0Gl5TvaT4IVzD"
+      ],
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recN0G98bCbjXwMCZ",
     "createdTime": "2023-04-18T05:45:49.000Z",
     "fields": {
+      "IFC KEY": "IFCACT_001",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -2214,24 +2215,23 @@
         "recP3n4DKA3v3j7nX",
         "recimEWPrR9D2tdT4"
       ],
+      "Identified Components": [
+        "Actuator"
+      ],
       "Property Set": [
         "reclgcmvjczpgXl3x",
         "recTpcCcp3jWTeCji",
         "reciQgDAs4SiOo77D"
       ],
+      "IFC4 Predefined Types": [
+        "ELECTRICACTUATOR",
+        "HYDRAULICACTUATOR"
+      ],
       "CO Key": [
         "recr9KftjNUONqf0G",
         "reccobAl6eZBzeo4K"
       ],
-      "Identified Components": [
-        "Actuator"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "ELECTRICACTUATOR",
-        "HYDRAULICACTUATOR"
-      ],
-      "IFC KEY": "IFCACT_001",
-      "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
       ]
@@ -2241,6 +2241,7 @@
     "id": "recNu6EPX8sB9mxTF",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFOO_045",
       "Revit Representation": "Structural Foundations",
       "Archicad Representation": "Footing",
       "Tekla Representation": "Concrete Footing",
@@ -2259,12 +2260,22 @@
         "recC0kE9cuIjuXzK6",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Footing",
+        "Footing Beam",
+        "Pile Cap"
+      ],
       "Property Set": [
         "rec0pRJqQ3AoTWtdn",
         "recKkgX5YuQXkV4Vv",
         "recqtYmbAqbmikfPa",
         "recUbNW2rabtK18Rn",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "FOOTING_BEAM",
+        "PILE_CAP",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recgWhKYyEd3lRrfJ",
@@ -2273,23 +2284,12 @@
         "rechvu8aUOUsR3G76",
         "recmXW1eQY3aE4Uua"
       ],
-      "Identified Components": [
-        "Footing",
-        "Footing Beam",
-        "Pile Cap"
-      ],
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED",
         "PAD_FOOTING",
         "STRIP_FOOTING",
         "FOOTING_BEAM",
         "PILE_CAP"
-      ],
-      "IFC KEY": "IFCFOO_045",
-      "IFC4 Predefined Types": [
-        "FOOTING_BEAM",
-        "PILE_CAP",
-        "NOTDEFINED"
       ]
     }
   },
@@ -2297,6 +2297,7 @@
     "id": "recNxkC3bCnMODdSv",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSYS_081",
       "Revit Representation": "Model Groups",
       "Archicad Representation": "IFC Assignments",
       "Tekla Representation": "N.A",
@@ -2307,14 +2308,14 @@
         "ARC"
       ],
       "Identified Components": [],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCSYS_081"
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recOXQTgl9suTBTF1",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCUR_025",
       "Revit Representation": "Curtain Systems",
       "Archicad Representation": "Curtain Wall",
       "Tekla Representation": "N.A",
@@ -2328,22 +2329,21 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Curtain Wall"
+      ],
       "Property Set": [
         "recrS3WaLrD3dZYd2",
         "recd7dt39hadbU0Kn",
         "rec9deXZBT4E6DnY6"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "rec77Fj7ghGAy774z"
       ],
-      "Identified Components": [
-        "Curtain Wall"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCUR_025",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -2352,6 +2352,7 @@
     "id": "recOvUKqHWGXau8SN",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBUI_010",
       "Revit Representation": "Model Groups",
       "Archicad Representation": "IFC Assignments,Group",
       "Tekla Representation": "N.A",
@@ -2400,49 +2401,33 @@
         "recLjaQSQfKZFBeqC",
         "rectWcIoSWZwdiaWm"
       ],
-      "Property Set": [
-        "reckfgwLAg0Ie6aye",
-        "reczDuMyX1CdjX7QR",
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "recFXrAfuRQICGSow",
-        "recOsqUoEVR1xfWmZ",
-        "rec9ivrWRe2BLcrL1",
-        "recN1wS0gukquLGvb",
-        "recPx2Ni1eJpSvkdP",
-        "rec1fQqEMLDW8hoKC",
-        "recF6VVIl7oM4hL77",
-        "recoreyAwcp40Q1iG",
-        "recOANyibgSrsAIZB",
-        "reccB4lRKSSDhss0N",
-        "recKDule6ZEKujoaS",
-        "recDG61NZWaO7MeiF",
-        "recZiDGVEnMmnX9rO",
-        "reckNHy9Cvianlcp5",
-        "recpk4eBr9McQvMxx",
-        "recN8itDgYSlOkI7T",
-        "recCvrpgJOtusMAf5",
-        "recI8oEAkdSkuIo7O",
-        "recRtTtf2LwY231kH",
-        "recZYpXvoAgQJVwlt",
-        "recr3EeBwPdL1fGT8",
-        "rec8DsU2AKH3VgJhT",
-        "rechKmzY1079eQPqt",
-        "recTjeoe7PprKxnEe",
-        "recalkdFj25KtoG2O",
-        "rec0NLd4g4ltR56qE",
-        "recvbzn2owVlWNZMF",
-        "recTyITsbdvBdMdYr",
-        "recpy7Qr3xqR3WoQ6",
-        "recQF7osGeGuDRjvj",
-        "rec7THWrtzzXVpuZF",
-        "recWh9NKhbkXurA5g",
-        "receI3oCHSZ70jceV",
-        "reccH0au2bM7XoyfG",
-        "recUPzTRkr8TM982E",
-        "rec1YrcOuKzY1O4sf",
-        "recXMTvbMgBAjt8hI"
+      "IFC4 Object Types": [
+        "BEAMFACADEWALL",
+        "DIAPHRAGMWALLSYSTEM",
+        "DRAINAGE",
+        "FRAMING",
+        "HOUSEHOLDSHELTER",
+        "MAINTENANCE",
+        "MECHANIZEDCARPARKING",
+        "OXYGENREDUCTION",
+        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM",
+        "PNEUMATICWASTECONVEYANCESYSTEM",
+        "PPVCMODULE",
+        "PREFABRICATEDANDPREFINISHEDCEILING",
+        "PREFABRICATEDANDPREFINISHEDFLOOR",
+        "PREFABRICATEDANDPREFINISHEDWALL",
+        "PREFABRICATEDBATHROOMUNIT",
+        "PREFABRICATEDMEPHORIZONTALMODULE",
+        "PREFABRICATEDMEPPLANTMODULE",
+        "PREFABRICATEDMEPVERTICALMODULE",
+        "PWCSMAINCONTROL",
+        "TRUSS",
+        "UNIT",
+        "REFUSECHUTE",
+        "STAIRCASESTOREYSHELTER",
+        "STOREYSHELTER",
+        "NONSHELTERHOUSEHOLDSHELTER",
+        "NONSHELTERSTOREYSHELTER"
       ],
       "Identified Components": [
         "Air Speed Measuring Device",
@@ -2483,6 +2468,53 @@
         "Non-shelter Household Shelter",
         "Non-shelter Storey Shelter"
       ],
+      "Property Set": [
+        "reckfgwLAg0Ie6aye",
+        "reczDuMyX1CdjX7QR",
+        "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "FOUNDATION"
+      ],
+      "CO Key": [
+        "recFXrAfuRQICGSow",
+        "recOsqUoEVR1xfWmZ",
+        "rec9ivrWRe2BLcrL1",
+        "recN1wS0gukquLGvb",
+        "recPx2Ni1eJpSvkdP",
+        "rec1fQqEMLDW8hoKC",
+        "recF6VVIl7oM4hL77",
+        "recoreyAwcp40Q1iG",
+        "recOANyibgSrsAIZB",
+        "reccB4lRKSSDhss0N",
+        "recKDule6ZEKujoaS",
+        "recDG61NZWaO7MeiF",
+        "recZiDGVEnMmnX9rO",
+        "reckNHy9Cvianlcp5",
+        "recpk4eBr9McQvMxx",
+        "recN8itDgYSlOkI7T",
+        "recCvrpgJOtusMAf5",
+        "recI8oEAkdSkuIo7O",
+        "recRtTtf2LwY231kH",
+        "recZYpXvoAgQJVwlt",
+        "recr3EeBwPdL1fGT8",
+        "rec8DsU2AKH3VgJhT",
+        "rechKmzY1079eQPqt",
+        "recTjeoe7PprKxnEe",
+        "recalkdFj25KtoG2O",
+        "rec0NLd4g4ltR56qE",
+        "recvbzn2owVlWNZMF",
+        "recTyITsbdvBdMdYr",
+        "recpy7Qr3xqR3WoQ6",
+        "recQF7osGeGuDRjvj",
+        "rec7THWrtzzXVpuZF",
+        "recWh9NKhbkXurA5g",
+        "receI3oCHSZ70jceV",
+        "reccH0au2bM7XoyfG",
+        "recUPzTRkr8TM982E",
+        "rec1YrcOuKzY1O4sf",
+        "recXMTvbMgBAjt8hI"
+      ],
       "IFC4 Sub Types (Beta)": [
         "BEAMFACADEWALL*",
         "FRAMING*",
@@ -2511,38 +2543,6 @@
         "STOREYSHELTER*",
         "NONSHELTERHOUSEHOLDSHELTER*",
         "NONSHELTERSTOREYSHELTER*"
-      ],
-      "IFC KEY": "IFCBUI_010",
-      "IFC4 Object Types": [
-        "BEAMFACADEWALL",
-        "DIAPHRAGMWALLSYSTEM",
-        "DRAINAGE",
-        "FRAMING",
-        "HOUSEHOLDSHELTER",
-        "MAINTENANCE",
-        "MECHANIZEDCARPARKING",
-        "OXYGENREDUCTION",
-        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM",
-        "PNEUMATICWASTECONVEYANCESYSTEM",
-        "PPVCMODULE",
-        "PREFABRICATEDANDPREFINISHEDCEILING",
-        "PREFABRICATEDANDPREFINISHEDFLOOR",
-        "PREFABRICATEDANDPREFINISHEDWALL",
-        "PREFABRICATEDBATHROOMUNIT",
-        "PREFABRICATEDMEPHORIZONTALMODULE",
-        "PREFABRICATEDMEPPLANTMODULE",
-        "PREFABRICATEDMEPVERTICALMODULE",
-        "PWCSMAINCONTROL",
-        "TRUSS",
-        "UNIT",
-        "REFUSECHUTE",
-        "STAIRCASESTOREYSHELTER",
-        "STOREYSHELTER",
-        "NONSHELTERHOUSEHOLDSHELTER",
-        "NONSHELTERSTOREYSHELTER"
-      ],
-      "IFC4 Predefined Types": [
-        "FOUNDATION"
       ]
     }
   },
@@ -2550,6 +2550,7 @@
     "id": "recPA9bCiEdy60T2R",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCGEO_047",
       "Revit Representation": "Topography, Generic Models, Planting",
       "Archicad Representation": "Mesh, Object",
       "Tekla Representation": "N.A",
@@ -2585,6 +2586,50 @@
         "recwbJ02pOj3dTDaB",
         "recqFZrgxKLtQNQnn"
       ],
+      "IFC4 Object Types": [
+        "2D_FORESHORELINE",
+        "ARTWORK",
+        "BEACH",
+        "CADASTRALLOT",
+        "EXISTINGEARTHWORKS",
+        "GREENVERGE",
+        "LANDSCAPE_PALM",
+        "LANDSCAPE_SHRUBS",
+        "LANDSCAPE_TREE",
+        "NEIGHBOURINGLOT",
+        "PLANTINGAREA",
+        "PROPOSEDEARTHWORKS",
+        "RETENTIONBASIN",
+        "TRAFFICLIGHT",
+        "UTILITYPOLE",
+        "WATERBODY",
+        "WATERFEATURE",
+        "SITEBOUNDARY"
+      ],
+      "Identified Components": [
+        "Artwork",
+        "Beach",
+        "Canal",
+        "Electrical Post",
+        "Existing Earthworks",
+        "Foreshore Line",
+        "Green Verge",
+        "Land Lot",
+        "Mega Underground Development",
+        "Neighbouring Lot",
+        "Palm",
+        "Planting Area",
+        "Proposed Earthworks",
+        "Proposed Site (Land Lot)",
+        "Retention Basin",
+        "Shrub",
+        "Site Boundary (Cadastral Lot)",
+        "Traffic Light",
+        "Tree",
+        "Water Body",
+        "Water Feature",
+        "Site Boundary"
+      ],
       "Property Set": [
         "reciSX8e1DJ4yMrZF",
         "recGlYEbo4uis0Ed0"
@@ -2613,30 +2658,6 @@
         "recIN93NxVp5WPTU0",
         "rec9FTTgkGVsXQTGE"
       ],
-      "Identified Components": [
-        "Artwork",
-        "Beach",
-        "Canal",
-        "Electrical Post",
-        "Existing Earthworks",
-        "Foreshore Line",
-        "Green Verge",
-        "Land Lot",
-        "Mega Underground Development",
-        "Neighbouring Lot",
-        "Palm",
-        "Planting Area",
-        "Proposed Earthworks",
-        "Proposed Site (Land Lot)",
-        "Retention Basin",
-        "Shrub",
-        "Site Boundary (Cadastral Lot)",
-        "Traffic Light",
-        "Tree",
-        "Water Body",
-        "Water Feature",
-        "Site Boundary"
-      ],
       "IFC4 Sub Types (Beta)": [
         "ARTWORK*",
         "BEACH*",
@@ -2656,27 +2677,6 @@
         "WATERBODY*",
         "WATERFEATURE*",
         "SITEBOUNDARY*"
-      ],
-      "IFC KEY": "IFCGEO_047",
-      "IFC4 Object Types": [
-        "2D_FORESHORELINE",
-        "ARTWORK",
-        "BEACH",
-        "CADASTRALLOT",
-        "EXISTINGEARTHWORKS",
-        "GREENVERGE",
-        "LANDSCAPE_PALM",
-        "LANDSCAPE_SHRUBS",
-        "LANDSCAPE_TREE",
-        "NEIGHBOURINGLOT",
-        "PLANTINGAREA",
-        "PROPOSEDEARTHWORKS",
-        "RETENTIONBASIN",
-        "TRAFFICLIGHT",
-        "UTILITYPOLE",
-        "WATERBODY",
-        "WATERFEATURE",
-        "SITEBOUNDARY"
       ]
     }
   },
@@ -2684,6 +2684,7 @@
     "id": "recPerObWocqllzbc",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBUI_008",
       "Revit Representation": "Generic Models, Specialty Equipment, Floors, Massing,Component, Pipe Accessories, Parking (for parking lots)",
       "Archicad Representation": "Object,Morph",
       "Tekla Representation": "N.A",
@@ -2824,7 +2825,161 @@
         "recgJ8KDJalTJEzP0",
         "recGc3r4LvSXFoCae",
         "recwe59XcIUqhe5bg",
-        "recKxx8qfTvgzTg4g"
+        "recKxx8qfTvgzTg4g",
+        "recYd8SMqMTltLr0Y"
+      ],
+      "IFC4 Object Types": [
+        "2D_DRIVEWAYMARKING",
+        "2D_FLOORMARKING",
+        "2D_HOLDINGBAY",
+        "2D_LIFTREFUGESPACE",
+        "2D_PASSINGSPACE",
+        "2D_PWDHOLDINGPOINT",
+        "2D_TAXIBAY",
+        "2D_TRAFFICFLOW",
+        "2D_TREEPROTECTIONZONE",
+        "2D_WHEELCHAIRSPACE",
+        "ARTICULATEDVEHICLELOT",
+        "BACKFILL",
+        "BICYCLELOT",
+        "BICYCLEROUTE",
+        "BOREHOLE",
+        "CARLOT",
+        "CHEMICALFEEDER",
+        "COACHLOT",
+        "CONCEPT_BUILDINGMASS",
+        "CONCEPT_ENVELOPELIMIT",
+        "CONCEPT_ENVELOPEREQUIRED",
+        "CONCRETEMARKER",
+        "CONVEYORBELT",
+        "DROPBARRIER",
+        "FAÇADE",
+        "FALSEBOTTOM",
+        "FLAGPOLE",
+        "FLOODBARRIER",
+        "FOODWASTETREATMENTSYSTEM",
+        "FUELBURNINGEQUIPMENT",
+        "GONDOLA",
+        "HUMP",
+        "INCINERATOR",
+        "LANDSCAPE_PLANTINGTROUGH",
+        "LINEMARKING",
+        "LORRYLOT",
+        "MOTOR-CYCLELOT",
+        "PEDESTRIANCROSSING",
+        "PERMANENTUNITNUMBERTAG",
+        "PHOTOLUMINESCENTMARKING",
+        "PIPERACK",
+        "POLLUTIONCONTROLEQUIPMENT",
+        "PORTABLEFIREEXTINGUISHER",
+        "REFUSETRUCKTEMPORARYPARKING",
+        "RELIGIOUSSYMBOL",
+        "RUNG",
+        "SIGNAGE",
+        "SIGNAGE_COMMUNICATIONINSTRUCTION",
+        "SIGNAGE_COOLINGTOWER",
+        "SIGNAGE_DIRECTIONALEXIT",
+        "SIGNAGE_ESCAPEPLAN",
+        "SIGNAGE_EVACUATIONLIFT",
+        "SIGNAGE_EXIT",
+        "SIGNAGE_EXITACCESSDOOR",
+        "SIGNAGE_EXITSTAIRCASE",
+        "SIGNAGE_FIREACCESSOPENING",
+        "SIGNAGE_PWDHOLDINGPOINT",
+        "SIGNAGE_RECYCLABLESCHUTE",
+        "SIGNAGE_RINSESHOWER",
+        "SIGNAGE_SMOKEVENT",
+        "SIGNAGE_THROUGHBLOCKLINK",
+        "SIGNAGE_WATERTAPPOINT",
+        "SIGNAGE_WHEELCHAIRSYMBOL",
+        "SIGNPOST",
+        "SIGNPOST_DRIVEWAY",
+        "SIGNPOST_REFUSETEMPORARYPARKING",
+        "SLOTOUTLET",
+        "STATIONARYVACUUMSYSTEM",
+        "SURROUNDINGBUILDING",
+        "TUNNEL",
+        "TURNSTILE",
+        "VALVEPROTECTINGCOVER",
+        "VEHICULARBARRIER",
+        "WATERPLAYGROUND",
+        "EGRESSINDICATORBOX",
+        "TOWTRACTORLOT"
+      ],
+      "Identified Components": [
+        "Adjacent Building",
+        "Autosampler",
+        "Backfill",
+        "Balancing Weight",
+        "Bicycle Parking Rack",
+        "Bicycle Route",
+        "Borehole",
+        "Breathing Apparatus",
+        "Buffer",
+        "Buggy",
+        "Building Mass",
+        "Car Parking Deck",
+        "Car Parking Platform",
+        "Chemical Feeder",
+        "Concrete Marker",
+        "Conveyor Belt",
+        "Counter Weight",
+        "Dispensing Unit",
+        "Drop Barrier",
+        "Electric Vehicle Charging Point",
+        "Envelope Limit",
+        "Envelope Required",
+        "Evacuee Holding Area Equipment",
+        "Façade",
+        "False Bottom",
+        "Fire Escape Plan",
+        "Fire Extinguisher",
+        "Flag Pole",
+        "Flood Barrier",
+        "Floor Marking",
+        "Fuel Burning Equipment",
+        "Fuel Dispensing Unit",
+        "Gondola",
+        "Guide Rail",
+        "Holding Bay",
+        "Hump",
+        "Incinerator",
+        "Line Marking",
+        "Marking",
+        "Neighbouring Building",
+        "Obstacle",
+        "On-Site Food Waste Treatment System",
+        "Parking Lot",
+        "Passing Space",
+        "Pedestrian Crossing",
+        "Permanent Unit Number Tag",
+        "Photoluminescent Marking",
+        "Pipe Arrow",
+        "Pipe Rack",
+        "Planting Trough",
+        "Pollution Control Equipment",
+        "PWD Holding Point",
+        "Queuing Space",
+        "Refuge Space Marking",
+        "Religious Symbol",
+        "Rescue Equipment",
+        "Rung",
+        "Security Bar",
+        "Sign Post",
+        "Signage",
+        "Slot-outlet",
+        "Stationary Vacuum System",
+        "Taxi Bay",
+        "Thrust Block",
+        "Traffic Flow",
+        "Tree Protection Zone",
+        "Tunnel",
+        "Turnstile",
+        "Valve Protection Cover",
+        "Vehicular Barrier",
+        "Water Playground",
+        "Wheelchair Space",
+        "Egress Indicator Box"
       ],
       "Property Set": [
         "recwm0YQZ13VMR37Y",
@@ -2963,82 +3118,8 @@
         "rec4AXoEDVXQ2XdFi",
         "recGdOFcUYeEGPSaj",
         "recmIbGJi9loQzVt1",
-        "rec8o65fiTlJ6jdzX"
-      ],
-      "Identified Components": [
-        "Adjacent Building",
-        "Autosampler",
-        "Backfill",
-        "Balancing Weight",
-        "Bicycle Parking Rack",
-        "Bicycle Route",
-        "Borehole",
-        "Breathing Apparatus",
-        "Buffer",
-        "Buggy",
-        "Building Mass",
-        "Car Parking Deck",
-        "Car Parking Platform",
-        "Chemical Feeder",
-        "Concrete Marker",
-        "Conveyor Belt",
-        "Counter Weight",
-        "Dispensing Unit",
-        "Drop Barrier",
-        "Electric Vehicle Charging Point",
-        "Envelope Limit",
-        "Envelope Required",
-        "Evacuee Holding Area Equipment",
-        "Façade",
-        "False Bottom",
-        "Fire Escape Plan",
-        "Fire Extinguisher",
-        "Flag Pole",
-        "Flood Barrier",
-        "Floor Marking",
-        "Fuel Burning Equipment",
-        "Fuel Dispensing Unit",
-        "Gondola",
-        "Guide Rail",
-        "Holding Bay",
-        "Hump",
-        "Incinerator",
-        "Line Marking",
-        "Marking",
-        "Neighbouring Building",
-        "Obstacle",
-        "On-Site Food Waste Treatment System",
-        "Parking Lot",
-        "Passing Space",
-        "Pedestrian Crossing",
-        "Permanent Unit Number Tag",
-        "Photoluminescent Marking",
-        "Pipe Arrow",
-        "Pipe Rack",
-        "Planting Trough",
-        "Pollution Control Equipment",
-        "PWD Holding Point",
-        "Queuing Space",
-        "Refuge Space Marking",
-        "Religious Symbol",
-        "Rescue Equipment",
-        "Rung",
-        "Security Bar",
-        "Sign Post",
-        "Signage",
-        "Slot-outlet",
-        "Stationary Vacuum System",
-        "Taxi Bay",
-        "Thrust Block",
-        "Traffic Flow",
-        "Tree Protection Zone",
-        "Tunnel",
-        "Turnstile",
-        "Valve Protection Cover",
-        "Vehicular Barrier",
-        "Water Playground",
-        "Wheelchair Space",
-        "Egress Indicator Box"
+        "rec8o65fiTlJ6jdzX",
+        "reccQoe2GptDeydcX"
       ],
       "IFC4 Sub Types (Beta)": [
         "SURROUNDINGBUILDING*",
@@ -3115,85 +3196,8 @@
         "VEHICULARBARRIER*",
         "WATERPLAYGROUND*",
         "2D_WHEELCHAIRSPACE*",
-        "EGRESSINDICATORBOX*"
-      ],
-      "IFC KEY": "IFCBUI_008",
-      "IFC4 Object Types": [
-        "2D_DRIVEWAYMARKING",
-        "2D_FLOORMARKING",
-        "2D_HOLDINGBAY",
-        "2D_LIFTREFUGESPACE",
-        "2D_PASSINGSPACE",
-        "2D_PWDHOLDINGPOINT",
-        "2D_TAXIBAY",
-        "2D_TRAFFICFLOW",
-        "2D_TREEPROTECTIONZONE",
-        "2D_WHEELCHAIRSPACE",
-        "ARTICULATEDVEHICLELOT",
-        "BACKFILL",
-        "BICYCLELOT",
-        "BICYCLEROUTE",
-        "BOREHOLE",
-        "CARLOT",
-        "CHEMICALFEEDER",
-        "COACHLOT",
-        "CONCEPT_BUILDINGMASS",
-        "CONCEPT_ENVELOPELIMIT",
-        "CONCEPT_ENVELOPEREQUIRED",
-        "CONCRETEMARKER",
-        "CONVEYORBELT",
-        "DROPBARRIER",
-        "FAÇADE",
-        "FALSEBOTTOM",
-        "FLAGPOLE",
-        "FLOODBARRIER",
-        "FOODWASTETREATMENTSYSTEM",
-        "FUELBURNINGEQUIPMENT",
-        "GONDOLA",
-        "HUMP",
-        "INCINERATOR",
-        "LANDSCAPE_PLANTINGTROUGH",
-        "LINEMARKING",
-        "LORRYLOT",
-        "MOTOR-CYCLELOT",
-        "PEDESTRIANCROSSING",
-        "PERMANENTUNITNUMBERTAG",
-        "PHOTOLUMINESCENTMARKING",
-        "PIPERACK",
-        "POLLUTIONCONTROLEQUIPMENT",
-        "PORTABLEFIREEXTINGUISHER",
-        "REFUSETRUCKTEMPORARYPARKING",
-        "RELIGIOUSSYMBOL",
-        "RUNG",
-        "SIGNAGE",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION",
-        "SIGNAGE_COOLINGTOWER",
-        "SIGNAGE_DIRECTIONALEXIT",
-        "SIGNAGE_ESCAPEPLAN",
-        "SIGNAGE_EVACUATIONLIFT",
-        "SIGNAGE_EXIT",
-        "SIGNAGE_EXITACCESSDOOR",
-        "SIGNAGE_EXITSTAIRCASE",
-        "SIGNAGE_FIREACCESSOPENING",
-        "SIGNAGE_PWDHOLDINGPOINT",
-        "SIGNAGE_RECYCLABLESCHUTE",
-        "SIGNAGE_RINSESHOWER",
-        "SIGNAGE_SMOKEVENT",
-        "SIGNAGE_THROUGHBLOCKLINK",
-        "SIGNAGE_WATERTAPPOINT",
-        "SIGNAGE_WHEELCHAIRSYMBOL",
-        "SIGNPOST",
-        "SIGNPOST_DRIVEWAY",
-        "SIGNPOST_REFUSETEMPORARYPARKING",
-        "SLOTOUTLET",
-        "STATIONARYVACUUMSYSTEM",
-        "SURROUNDINGBUILDING",
-        "TUNNEL",
-        "TURNSTILE",
-        "VALVEPROTECTINGCOVER",
-        "VEHICULARBARRIER",
-        "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX"
+        "EGRESSINDICATORBOX*",
+        "TOWTRACTORLOT*"
       ]
     }
   },
@@ -3201,6 +3205,7 @@
     "id": "recSOw7vwlSDG1qSZ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCLIG_052",
       "Revit Representation": "Lighting Fixtures",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -3214,23 +3219,22 @@
         "recg10oSQ62P9yRZx",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Emergency Lighting",
+        "Lighting Fixture"
+      ],
       "Property Set": [
         "reckIU6PhEScoqruk"
+      ],
+      "IFC4 Predefined Types": [
+        "SECURITYLIGHTING",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recQOsfh11grlJHzT",
         "recuU9v0DlVNlYaTD"
       ],
-      "Identified Components": [
-        "Emergency Lighting",
-        "Lighting Fixture"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "SECURITYLIGHTING",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCLIG_052",
-      "IFC4 Predefined Types": [
         "SECURITYLIGHTING",
         "NOTDEFINED"
       ]
@@ -3240,6 +3244,7 @@
     "id": "recSWIlHLqZtfWlzM",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPRO_062",
       "Revit Representation": "Electrical Fixtures, Electrical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -3253,6 +3258,12 @@
         "recxiimKvChMWHxKw",
         "recgx1ZoPtsiwmy0T"
       ],
+      "Identified Components": [
+        "Circuit Breaker",
+        "Fused Switch",
+        "High Rupturing Capacity Fuse",
+        "Moulded Case Circuit Breaker"
+      ],
       "Property Set": [
         "rec3H2Cfs0WGLnvsJ"
       ],
@@ -3262,20 +3273,14 @@
         "recSaPnKkM3CvGlLX",
         "recXmp0VEn3M2OWZq"
       ],
-      "Identified Components": [
-        "Circuit Breaker",
-        "Fused Switch",
-        "High Rupturing Capacity Fuse",
-        "Moulded Case Circuit Breaker"
-      ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCPRO_062"
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recTAE2RlZpG4OINe",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCMEM_053",
       "Revit Representation": "Generic Models, Stairs",
       "Archicad Representation": "Object, Stair",
       "Tekla Representation": "Item",
@@ -3289,25 +3294,24 @@
         "recpqJkTaHoQ205nV",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Stringer",
+        "Supporting Structure"
+      ],
       "Property Set": [
         "recqBuM8UUVV6uBnb",
         "recTCWkV6vbYfi4VZ",
         "rec9deXZBT4E6DnY6"
       ],
+      "IFC4 Predefined Types": [
+        "STRINGER",
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "recjg2ULCHJ5wqIDl",
         "rec6sWFo5KJpZcatV"
       ],
-      "Identified Components": [
-        "Stringer",
-        "Supporting Structure"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "STRINGER",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCMEM_053",
-      "IFC4 Predefined Types": [
         "STRINGER",
         "NOTDEFINED"
       ]
@@ -3317,6 +3321,7 @@
     "id": "recTKQhG1UHX2t846",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCTRA_084",
       "Revit Representation": "Mechanical Equipment, Specialty Equipment",
       "Archicad Representation": "Transport Element",
       "Tekla Representation": "N.A",
@@ -3337,41 +3342,10 @@
         "recfkmbzSeJxgQKtj",
         "recZqwaBpMGRIy6AK"
       ],
-      "Property Set": [
-        "recolxnTTzAMEttc8",
-        "recNYOgb5ouY596ZM",
-        "recKkb9qLuTe9jglg",
-        "recmF4Oydfq9JWeLE",
-        "recX5UelNJIZxt2lO",
-        "recF0lUeyojje3FCg",
-        "recdg5DPsTzA7JiQk",
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "rec9QocdQEgGL2GEP",
-        "recpQUV7SaCJFfsun",
-        "recDdtwea38JDqzMT",
-        "rec8FLsPkBh0QLoh8",
-        "recRee9NMuMBjfSly",
-        "rectkUunufUP26CAU",
-        "recOKeyTD7KIjl1cY",
-        "recJ2ge5FaTUN9SwV",
-        "recbrsLRcGC5if6jQ",
-        "recWKNL4qCYkfftrr",
-        "recxNTlKXaShRRmNR",
-        "recYP8F550wZXkXHG",
-        "recxm8ekxRx4gTBO2",
-        "recN3vbzWXpmA6yoG",
-        "recDIqrzMB5FRFs5B",
-        "recVN5iOvXg9pEOD3",
-        "rec03EAa8ni9hCN7F",
-        "recbuNPxOAuJhta7k",
-        "recmF0U8BPKJgtj8E",
-        "recd1tLcZqE3kNPDr",
-        "recIhLG2Ygm2cRmP1",
-        "rech3obDZNuPtHg4n",
-        "recJItUjPqYBuCgGU",
-        "recMy6kVj4oRVcTzI"
+      "IFC4 Object Types": [
+        "BINLIFTER",
+        "GOODSLIFT",
+        "LIFT"
       ],
       "Identified Components": [
         "Bed Lift",
@@ -3399,21 +3373,51 @@
         "Tensioning Pulley",
         "Wheelchair Stair Lift"
       ],
+      "Property Set": [
+        "recolxnTTzAMEttc8",
+        "recNYOgb5ouY596ZM",
+        "recKkb9qLuTe9jglg",
+        "recmF4Oydfq9JWeLE",
+        "recX5UelNJIZxt2lO",
+        "recF0lUeyojje3FCg",
+        "recdg5DPsTzA7JiQk",
+        "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "ESCALATOR",
+        "MOVINGWALKWAY"
+      ],
+      "CO Key": [
+        "rec9QocdQEgGL2GEP",
+        "recpQUV7SaCJFfsun",
+        "recDdtwea38JDqzMT",
+        "rec8FLsPkBh0QLoh8",
+        "recRee9NMuMBjfSly",
+        "rectkUunufUP26CAU",
+        "recOKeyTD7KIjl1cY",
+        "recJ2ge5FaTUN9SwV",
+        "recbrsLRcGC5if6jQ",
+        "recWKNL4qCYkfftrr",
+        "recxNTlKXaShRRmNR",
+        "recYP8F550wZXkXHG",
+        "recxm8ekxRx4gTBO2",
+        "recN3vbzWXpmA6yoG",
+        "recDIqrzMB5FRFs5B",
+        "recVN5iOvXg9pEOD3",
+        "rec03EAa8ni9hCN7F",
+        "recbuNPxOAuJhta7k",
+        "recmF0U8BPKJgtj8E",
+        "recd1tLcZqE3kNPDr",
+        "recIhLG2Ygm2cRmP1",
+        "rech3obDZNuPtHg4n",
+        "recJItUjPqYBuCgGU",
+        "recMy6kVj4oRVcTzI"
+      ],
       "IFC4 Sub Types (Beta)": [
         "LIFT*",
         "BINLIFTER*",
         "ESCALATOR",
         "GOODSLIFT*",
-        "MOVINGWALKWAY"
-      ],
-      "IFC KEY": "IFCTRA_084",
-      "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
-      ],
-      "IFC4 Predefined Types": [
-        "ESCALATOR",
         "MOVINGWALKWAY"
       ]
     }
@@ -3422,6 +3426,7 @@
     "id": "recVDGYouqwCfRoux",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCINT_050",
       "Revit Representation": "Plumbing Fixtures",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -3435,24 +3440,23 @@
         "rec3OgLyderMOWfrW",
         "rec8PxmKfRpkcwMtY"
       ],
+      "Identified Components": [
+        "Grease Trap",
+        "Oil Interceptor"
+      ],
       "Property Set": [
         "rec6ik6acLEF095Wl",
         "recbXSzpPx4hdB4Dd"
+      ],
+      "IFC4 Predefined Types": [
+        "GREASE",
+        "OIL"
       ],
       "CO Key": [
         "recTzAHCO8ZK43CAA",
         "rectN5IeHb0o7i1ue"
       ],
-      "Identified Components": [
-        "Grease Trap",
-        "Oil Interceptor"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "GREASE",
-        "OIL"
-      ],
-      "IFC KEY": "IFCINT_050",
-      "IFC4 Predefined Types": [
         "GREASE",
         "OIL"
       ]
@@ -3462,6 +3466,7 @@
     "id": "recVJgjDDh1N2Pvdy",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCAIR_002",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -3479,10 +3484,20 @@
         "recIJHWEmrMLIcPsj",
         "recNQvmP7DnHyWxJE"
       ],
+      "Identified Components": [
+        "Air Terminal"
+      ],
       "Property Set": [
         "recQhf7eLnq1xsWUo",
         "rec4KnqSXp5Rv41tX",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "DIFFUSER",
+        "GRILLE",
+        "REGISTER",
+        "NOTDEFINED",
+        "LOUVRE"
       ],
       "CO Key": [
         "recd9WukRVZj6iZ3y",
@@ -3491,23 +3506,12 @@
         "recmlyyyQxsMWxAON",
         "recIyITFghmA0pLWe"
       ],
-      "Identified Components": [
-        "Air Terminal"
-      ],
       "IFC4 Sub Types (Beta)": [
         "DIFFUSER",
         "GRILLE",
         "LOUVRE",
         "NOTDEFINED",
         "REGISTER"
-      ],
-      "IFC KEY": "IFCAIR_002",
-      "IFC4 Predefined Types": [
-        "DIFFUSER",
-        "GRILLE",
-        "REGISTER",
-        "NOTDEFINED",
-        "LOUVRE"
       ]
     }
   },
@@ -3515,6 +3519,7 @@
     "id": "recVs9HGakjZw26Bc",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCJUN_051",
       "Revit Representation": "Generic Models",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -3529,28 +3534,27 @@
         "recGJehEjKJVvHoF1",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "TRAFFICCONTROL"
+      ],
+      "Identified Components": [
+        "Junction Box"
+      ],
       "Property Set": [
         "recSizX64eqoMpEC6"
+      ],
+      "IFC4 Predefined Types": [
+        "POWER",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recM96vGTGzlbhQDN",
         "reckuTeHQDAUy7GJi",
         "rec6EIrp2RSSc72o0"
       ],
-      "Identified Components": [
-        "Junction Box"
-      ],
       "IFC4 Sub Types (Beta)": [
         "TRAFFICCONTROL*",
         "POWER"
-      ],
-      "IFC KEY": "IFCJUN_051",
-      "IFC4 Object Types": [
-        "TRAFFICCONTROL"
-      ],
-      "IFC4 Predefined Types": [
-        "POWER",
-        "NOTDEFINED"
       ]
     }
   },
@@ -3558,6 +3562,7 @@
     "id": "recXGN4UgQgszyKyP",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCUNI_086",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -3575,8 +3580,20 @@
         "recRVV12IsfgjlDzb",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "FANCOILUNIT"
+      ],
+      "Identified Components": [
+        "Unitary Equipment"
+      ],
       "Property Set": [
         "rec4p7EW7vvZvh9Iy"
+      ],
+      "IFC4 Predefined Types": [
+        "AIRCONDITIONINGUNIT",
+        "AIRHANDLER",
+        "ROOFTOPUNIT",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recBIh6WAo5MW0Nkl",
@@ -3586,25 +3603,12 @@
         "rec4Eq2YY9bMu5TEM",
         "recPv0yUHpluQRohj"
       ],
-      "Identified Components": [
-        "Unitary Equipment"
-      ],
       "IFC4 Sub Types (Beta)": [
         "FANCOILUNIT*",
         "AIRCONDITIONINGUNIT",
         "AIRHANDLER",
         "NOTDEFINED",
         "ROOFTOPUNIT"
-      ],
-      "IFC KEY": "IFCUNI_086",
-      "IFC4 Object Types": [
-        "FANCOILUNIT"
-      ],
-      "IFC4 Predefined Types": [
-        "AIRCONDITIONINGUNIT",
-        "AIRHANDLER",
-        "ROOFTOPUNIT",
-        "NOTDEFINED"
       ]
     }
   },
@@ -3612,6 +3616,7 @@
     "id": "recY0Ehvok801e6df",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPRO_061",
       "Revit Representation": "Project Information",
       "Archicad Representation": "Ifc Project Manager",
       "Tekla Representation": "N.A",
@@ -3625,20 +3630,20 @@
       "OT Key (Object Type)": [
         "recoHYXux3gO5wKUS"
       ],
-      "CO Key": [
-        "rectZIQrOZfk4sUpe"
-      ],
       "Identified Components": [
         "Project Global Positioning"
       ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCPRO_061"
+      "CO Key": [
+        "rectZIQrOZfk4sUpe"
+      ],
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recZ9vdQbmr5y6Xog",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCPIP_058",
       "Revit Representation": "Pipe Fittings, Pipe Accessories",
       "Archicad Representation": "Pipe Fitting",
       "Tekla Representation": "N.A",
@@ -3667,10 +3672,29 @@
         "recIJHWEmrMLIcPsj",
         "recfgTiqiYwaVBuRA"
       ],
+      "IFC4 Object Types": [
+        "DRAINCHANNELBEND",
+        "PIPESILENCER",
+        "SHORTPIECE",
+        "SPIGOTANDSOCKET"
+      ],
+      "Identified Components": [
+        "Pipe Fitting"
+      ],
       "Property Set": [
         "recffWLQMv1d5qW6D",
         "recpmboFTzCd65spi",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "BEND",
+        "CONNECTOR",
+        "EXIT",
+        "JUNCTION",
+        "OBSTRUCTION",
+        "TRANSITION",
+        "NOTDEFINED",
+        "ENTRY"
       ],
       "CO Key": [
         "recca97u0eamS0A93",
@@ -3691,9 +3715,6 @@
         "recdlkS67foSqvOav",
         "rec1Osevpgv2HD7RW"
       ],
-      "Identified Components": [
-        "Pipe Fitting"
-      ],
       "IFC4 Sub Types (Beta)": [
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
@@ -3707,23 +3728,6 @@
         "NOTDEFINED",
         "OBSTRUCTION",
         "TRANSITION"
-      ],
-      "IFC KEY": "IFCPIP_058",
-      "IFC4 Object Types": [
-        "DRAINCHANNELBEND",
-        "PIPESILENCER",
-        "SHORTPIECE",
-        "SPIGOTANDSOCKET"
-      ],
-      "IFC4 Predefined Types": [
-        "BEND",
-        "CONNECTOR",
-        "EXIT",
-        "JUNCTION",
-        "OBSTRUCTION",
-        "TRANSITION",
-        "NOTDEFINED",
-        "ENTRY"
       ]
     }
   },
@@ -3731,6 +3735,7 @@
     "id": "recaLwPZp3978QofB",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCRAM_066",
       "Revit Representation": "Ramps, Generic Models",
       "Archicad Representation": "Ramp, Object",
       "Tekla Representation": "Item",
@@ -3748,10 +3753,22 @@
         "recJ0aT153YRYJiGf",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "CURVEDRAMP",
+        "FLAREDKERBRAMP",
+        "KERBRAMP"
+      ],
+      "Identified Components": [
+        "Ramp"
+      ],
       "Property Set": [
         "recotemkYobhDi82z",
         "recbMCltgUX1nisuF",
         "recUR0VM2HmhGBbY8"
+      ],
+      "IFC4 Predefined Types": [
+        "STRAIGHT_RUN_RAMP",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recvSZu6ZK24TDt9B",
@@ -3760,25 +3777,12 @@
         "recHXwbTzjMhavpHI",
         "recnIla5KTpOIn0z7"
       ],
-      "Identified Components": [
-        "Ramp"
-      ],
       "IFC4 Sub Types (Beta)": [
         "CURVEDRAMP*",
         "FLAREDKERBRAMP*",
         "KERBRAMP*",
         "NOTDEFINED",
         "STRAIGHT_RUN_RAMP"
-      ],
-      "IFC KEY": "IFCRAM_066",
-      "IFC4 Object Types": [
-        "CURVEDRAMP",
-        "FLAREDKERBRAMP",
-        "KERBRAMP"
-      ],
-      "IFC4 Predefined Types": [
-        "STRAIGHT_RUN_RAMP",
-        "NOTDEFINED"
       ]
     }
   },
@@ -3786,6 +3790,7 @@
     "id": "recbD6dHNzV92X01s",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCIV_018",
       "Revit Representation": "Floors, Generic Models",
       "Archicad Representation": "Slab, Object",
       "Tekla Representation": "Slab,Slab, Panel",
@@ -3816,10 +3821,38 @@
         "recTCXfLk4e2kNshU",
         "rec4paZlDDCfi4H5C"
       ],
+      "IFC4 Object Types": [
+        "BACKLANE",
+        "BOXCULVERT",
+        "DRIVEWAY",
+        "ENTRANCECULVERT",
+        "FOOTPATH",
+        "GUTTERDRAIN",
+        "ISLAND",
+        "LAYBY",
+        "ROADKERB",
+        "CHANNELDRAIN",
+        "TRENCHDRAIN",
+        "SURFACEDRAIN",
+        "STORMWATERDRAIN",
+        "FLOORDRAIN",
+        "TRENCH",
+        "LAMPPOST"
+      ],
+      "Identified Components": [
+        "Civil Element",
+        "Culvert",
+        "Drain",
+        "Trench",
+        "Lamp Post"
+      ],
       "Property Set": [
         "recYpdTexbQcXXpiH",
         "recfEx8wUrjdjTMhR",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "CULVERT"
       ],
       "CO Key": [
         "recvXynji8vw2q3zs",
@@ -3841,13 +3874,6 @@
         "rec3HUTPSv3pe1KEr",
         "rec9njgykhOOJwCVM"
       ],
-      "Identified Components": [
-        "Civil Element",
-        "Culvert",
-        "Drain",
-        "Trench",
-        "Lamp Post"
-      ],
       "IFC4 Sub Types (Beta)": [
         "BACKLANE*",
         "DRIVEWAY*",
@@ -3866,28 +3892,6 @@
         "FLOORDRAIN*",
         "TRENCH*",
         "LAMPPOST*"
-      ],
-      "IFC KEY": "IFCCIV_018",
-      "IFC4 Object Types": [
-        "BACKLANE",
-        "BOXCULVERT",
-        "DRIVEWAY",
-        "ENTRANCECULVERT",
-        "FOOTPATH",
-        "GUTTERDRAIN",
-        "ISLAND",
-        "LAYBY",
-        "ROADKERB",
-        "CHANNELDRAIN",
-        "TRENCHDRAIN",
-        "SURFACEDRAIN",
-        "STORMWATERDRAIN",
-        "FLOORDRAIN",
-        "TRENCH",
-        "LAMPPOST"
-      ],
-      "IFC4 Predefined Types": [
-        "CULVERT"
       ]
     }
   },
@@ -3895,6 +3899,7 @@
     "id": "recbfnG7yefzyEKnp",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCAB_015",
       "Revit Representation": "Generic Models, Conduits",
       "Archicad Representation": "Pipe, Object, Pipework",
       "Tekla Representation": "N.A",
@@ -3909,27 +3914,26 @@
         "recjBLUh3NQjMIVCU",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "LPS_DOWNCONDUCTOR"
+      ],
+      "Identified Components": [
+        "Cable Segment"
+      ],
       "Property Set": [
         "recx6XN3r6ngAmGYt",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recNCphKsdI26DSTA",
         "rec9L4GtHN4NIVYwT",
         "recjOOaWsKnY5nDam"
       ],
-      "Identified Components": [
-        "Cable Segment"
-      ],
       "IFC4 Sub Types (Beta)": [
         "LPS_DOWNCONDUCTOR*",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCAB_015",
-      "IFC4 Object Types": [
-        "LPS_DOWNCONDUCTOR"
-      ],
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -3938,6 +3942,7 @@
     "id": "recdEfEEdBcsOx09F",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCELE_034",
       "Revit Representation": "Electrical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -3951,19 +3956,18 @@
         "reckbAbdK4RcdqdEE",
         "receDa3vsVSGriwZM"
       ],
-      "CO Key": [
-        "reclGNg0YP05Wthhp",
-        "reci3Tfi6h6yw7ICI"
-      ],
       "Identified Components": [
         "Distribution Board",
         "Switchboard"
       ],
-      "IFC4 Sub Types (Beta)": [
+      "IFC4 Predefined Types": [
         "SWITCHBOARD"
       ],
-      "IFC KEY": "IFCELE_034",
-      "IFC4 Predefined Types": [
+      "CO Key": [
+        "reclGNg0YP05Wthhp",
+        "reci3Tfi6h6yw7ICI"
+      ],
+      "IFC4 Sub Types (Beta)": [
         "SWITCHBOARD"
       ]
     }
@@ -3972,6 +3976,7 @@
     "id": "rece9UVe6hBrSP4x0",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSPA_076",
       "Revit Representation": "Massing, Areas, Rooms, Rooms, Areas",
       "Archicad Representation": "Zone",
       "Tekla Representation": "N.A",
@@ -4006,6 +4011,33 @@
         "recwbJ02pOj3dTDaB",
         "recplFJ5ui6Nren7g"
       ],
+      "IFC4 Object Types": [
+        "ACCESSPOINT",
+        "ACCESSROAD",
+        "ACCESSWAY",
+        "AREA_CONNECTIVITY",
+        "AREA_GFA",
+        "AREA_LANDSCAPE",
+        "AREA_STRATA",
+        "AREA_VERIFICATION",
+        "EGRESS",
+        "FIREENGINEACCESSROAD",
+        "FIREENGINEACCESSWAY",
+        "INGRESS",
+        "SGFA",
+        "STRATALOT",
+        "VEHICULARSERVICEROAD",
+        "ACCESSIBLEROUTE"
+      ],
+      "Identified Components": [
+        "Accessible Route",
+        "Air Space Lot",
+        "Space",
+        "Accessway",
+        "Area",
+        "Fire Engine Accessway",
+        "Subterranean Lot"
+      ],
       "Property Set": [
         "recpDwvMdz9zh5uEa",
         "recdprWFqOfqBYMJE",
@@ -4023,6 +4055,10 @@
         "recTczw8sDvTP3uaj",
         "recpjf4AviDX3svMt",
         "recv3v9QoZy1bhkB1"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "SPACE"
       ],
       "CO Key": [
         "recwe2uyWeJWp4UXC",
@@ -4048,15 +4084,6 @@
         "recrkhmW18hcdqYpj",
         "recgOcl6l8fY2pMWo"
       ],
-      "Identified Components": [
-        "Accessible Route",
-        "Air Space Lot",
-        "Space",
-        "Accessway",
-        "Area",
-        "Fire Engine Accessway",
-        "Subterranean Lot"
-      ],
       "IFC4 Sub Types (Beta)": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -4075,29 +4102,6 @@
         "VEHICULARSERVICEROAD*",
         "AREA_LANDSCAPE*",
         "SPACE"
-      ],
-      "IFC KEY": "IFCSPA_076",
-      "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
-      ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "SPACE"
       ]
     }
   },
@@ -4105,6 +4109,7 @@
     "id": "receOhyCLv2428Rqf",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDUC_032",
       "Revit Representation": "Flex Ducts, Ducts",
       "Archicad Representation": "Flexible Duct, Duct",
       "Tekla Representation": "N.A",
@@ -4118,27 +4123,26 @@
         "recIJHWEmrMLIcPsj",
         "rectRIWZNS3KR7laN"
       ],
+      "Identified Components": [
+        "Duct Covering",
+        "Duct Segment"
+      ],
       "Property Set": [
         "recV6mdCgSQNaVUar",
         "recG172CEzTjVxQwz",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recZTnl8nNfe961tm",
         "recgbOJzkY8jxwY3x",
         "recGGoI330ogrWie6"
       ],
-      "Identified Components": [
-        "Duct Covering",
-        "Duct Segment"
-      ],
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED",
         "FLEXIBLESEGMENT"
-      ],
-      "IFC KEY": "IFCDUC_032",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
       ]
     }
   },
@@ -4146,6 +4150,7 @@
     "id": "recfI2wz0vcRBoAZo",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCHI_017",
       "Revit Representation": "Generic Models",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -4159,23 +4164,22 @@
         "reczj0F7KW0NF5ZGI",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Chimney",
+        "Flue"
+      ],
       "Property Set": [
         "recNg5hkOMkesBYuk",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recNbpJJCpT4WM7Ht",
         "recMl7lUDmDxtjl6U"
       ],
-      "Identified Components": [
-        "Chimney",
-        "Flue"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCHI_017",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -4184,6 +4188,7 @@
     "id": "recg2OubCTdK4ppvH",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCOPE_055",
       "Revit Representation": "Void, Shaft Openings, Generic Models",
       "Archicad Representation": "Opening",
       "Tekla Representation": "N.A",
@@ -4198,23 +4203,22 @@
         "recIJHWEmrMLIcPsj",
         "recBD3epJvGOGoiSS"
       ],
+      "Identified Components": [
+        "Opening"
+      ],
       "Property Set": [
         "recG2juyq3KLW2hrb",
         "reciI9sK4TlUyAjgn"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "OPENING"
       ],
       "CO Key": [
         "recWhRjIb6oZ7UQBT",
         "recB1ehKcUPGftKD4"
       ],
-      "Identified Components": [
-        "Opening"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "OPENING"
-      ],
-      "IFC KEY": "IFCOPE_055",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "OPENING"
       ]
     }
@@ -4223,6 +4227,7 @@
     "id": "recgZaeFe3TzlcUUl",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCOV_024",
       "Revit Representation": "Generic Models, Ceilings, Curtain Wall, Floors, Roof",
       "Archicad Representation": "Morph, Slab, Object, Curtain Wall, Covering, Roof",
       "Tekla Representation": "Slab",
@@ -4245,11 +4250,32 @@
         "recIJHWEmrMLIcPsj",
         "recin8lYYTb0w3vLQ"
       ],
+      "IFC4 Object Types": [
+        "PIPESLEEVE",
+        "TACTILE"
+      ],
+      "Identified Components": [
+        "Ceiling",
+        "Cladding",
+        "Covering",
+        "Fire-rated Board",
+        "Flooring",
+        "Insulation",
+        "Pipe Sleeve",
+        "Roofing"
+      ],
       "Property Set": [
         "rec0ed6lnU3rnJ8bI",
         "rec28mqKrTXegQPS2",
         "recDUDzGuEzIkJBvH",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "CEILING",
+        "CLADDING",
+        "INSULATION",
+        "ROOFING",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "reczN9nDgUAW8IhWg",
@@ -4263,16 +4289,6 @@
         "recjnAIDWzsL2C4mp",
         "recYUm1Zj1VDy4MH3"
       ],
-      "Identified Components": [
-        "Ceiling",
-        "Cladding",
-        "Covering",
-        "Fire-rated Board",
-        "Flooring",
-        "Insulation",
-        "Pipe Sleeve",
-        "Roofing"
-      ],
       "IFC4 Sub Types (Beta)": [
         "CEILING",
         "CLADDING",
@@ -4282,18 +4298,6 @@
         "INSULATION",
         "PIPESLEEVE*",
         "ROOFING"
-      ],
-      "IFC KEY": "IFCCOV_024",
-      "IFC4 Object Types": [
-        "PIPESLEEVE",
-        "TACTILE"
-      ],
-      "IFC4 Predefined Types": [
-        "CEILING",
-        "CLADDING",
-        "INSULATION",
-        "ROOFING",
-        "NOTDEFINED"
       ]
     }
   },
@@ -4301,6 +4305,7 @@
     "id": "reciR8UrehGlmLk1a",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCMOT_054",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Mechanical Equipment",
       "Tekla Representation": "N.A",
@@ -4315,14 +4320,9 @@
         "recvK6xbrQhDh1Hag",
         "recIJHWEmrMLIcPsj"
       ],
-      "Property Set": [
-        "recgAmkLvPl22Zeoj"
-      ],
-      "CO Key": [
-        "recvA01o5GHsK1rUQ",
-        "recxSwtsuC6j7kAin",
-        "recryawf2PXbOZsX6",
-        "recEO8a3FyEuU80me"
+      "IFC4 Object Types": [
+        "LIFT_GOVERNOR",
+        "LIFT_TRACTIONMACHINE"
       ],
       "Identified Components": [
         "Governor",
@@ -4330,17 +4330,21 @@
         "Motor",
         "Traction Machine"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "LIFT_GOVERNOR*",
-        "LIFT_TRACTIONMACHINE*"
-      ],
-      "IFC KEY": "IFCMOT_054",
-      "IFC4 Object Types": [
-        "LIFT_GOVERNOR",
-        "LIFT_TRACTIONMACHINE"
+      "Property Set": [
+        "recgAmkLvPl22Zeoj"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
+      ],
+      "CO Key": [
+        "recvA01o5GHsK1rUQ",
+        "recxSwtsuC6j7kAin",
+        "recryawf2PXbOZsX6",
+        "recEO8a3FyEuU80me"
+      ],
+      "IFC4 Sub Types (Beta)": [
+        "LIFT_GOVERNOR*",
+        "LIFT_TRACTIONMACHINE*"
       ]
     }
   },
@@ -4348,6 +4352,7 @@
     "id": "reclUxA2N5SV78fN3",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBUR_011",
       "Revit Representation": "Generic Models",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -4360,6 +4365,13 @@
       "OT Key (Object Type)": [
         "rec5dXNstg6umOeM6"
       ],
+      "IFC4 Object Types": [
+        "OPENFLAMECOOKING"
+      ],
+      "Identified Components": [
+        "Burner",
+        "Cooking Hob"
+      ],
       "Property Set": [
         "recNxZQDwrOc445t7"
       ],
@@ -4367,16 +4379,8 @@
         "rechpw1Fehn2wP4KK",
         "recHmayFmbrA4wbJv"
       ],
-      "Identified Components": [
-        "Burner",
-        "Cooking Hob"
-      ],
       "IFC4 Sub Types (Beta)": [
         "OPENFLAMECOOKING*"
-      ],
-      "IFC KEY": "IFCBUR_011",
-      "IFC4 Object Types": [
-        "OPENFLAMECOOKING"
       ]
     }
   },
@@ -4384,6 +4388,7 @@
     "id": "reclV2BJR2YX7vC0c",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDIS_028",
       "Revit Representation": "Plumbing Fixtures, Generic Models",
       "Archicad Representation": "Flow Equipment, Object",
       "Tekla Representation": "N.A",
@@ -4410,6 +4415,18 @@
         "recxD4sYrn9xeyL3R",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "LPS_EARTHPIT",
+        "PWCSINSPECTIONCHAMBER",
+        "PWCSMANHOLE",
+        "SAMPLINGSUMP",
+        "SCREENCHAMBER"
+      ],
+      "Identified Components": [
+        "Distribution Chamber",
+        "Inspection Chamber",
+        "Manhole"
+      ],
       "Property Set": [
         "rectsnGEX4u9dI6L5",
         "recsea3J5F73rNKOA",
@@ -4418,6 +4435,14 @@
         "recBQlMdYubmeCTYr",
         "recOda5xZdD8N1ToL",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "INSPECTIONCHAMBER",
+        "MANHOLE",
+        "METERCHAMBER",
+        "SUMP",
+        "VALVECHAMBER",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recKqjWauUffeyRgt",
@@ -4436,11 +4461,6 @@
         "recszmkByKfVX86Ye",
         "recbqlUakZkTnaFtA"
       ],
-      "Identified Components": [
-        "Distribution Chamber",
-        "Inspection Chamber",
-        "Manhole"
-      ],
       "IFC4 Sub Types (Beta)": [
         "LPS_EARTHPIT*",
         "PWCSINSPECTIONCHAMBER*",
@@ -4453,22 +4473,6 @@
         "NOTDEFINED",
         "SUMP",
         "VALVECHAMBER"
-      ],
-      "IFC KEY": "IFCDIS_028",
-      "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
-      ],
-      "IFC4 Predefined Types": [
-        "INSPECTIONCHAMBER",
-        "MANHOLE",
-        "METERCHAMBER",
-        "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
       ]
     }
   },
@@ -4476,6 +4480,7 @@
     "id": "recmO906fZRqR37WA",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCOO_023",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -4488,20 +4493,19 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Cooling Tower"
+      ],
       "Property Set": [
         "recDWphOpMcwNvXkk"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recsJCPyybn7oRmr9"
       ],
-      "Identified Components": [
-        "Cooling Tower"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCOO_023",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -4510,6 +4514,7 @@
     "id": "recnEipH76TXZuRzj",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCWIN_090",
       "Revit Representation": "Windows",
       "Archicad Representation": "Window",
       "Tekla Representation": "N.A",
@@ -4529,11 +4534,26 @@
         "recNQvmP7DnHyWxJE",
         "recbFh1Q2dd7nMvEW"
       ],
+      "IFC4 Object Types": [
+        "BAYWINDOW",
+        "VENTILATIONSLEEVE"
+      ],
+      "Identified Components": [
+        "Fragmentation Plate",
+        "Window",
+        "Window Ledge Material"
+      ],
       "Property Set": [
         "recrRSp6FMrAPFYcY",
         "receP4QDTr7l7JWlT",
         "recOKWUrUFEEKDpDJ",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "SKYLIGHT",
+        "NOTDEFINED",
+        "LOUVRE",
+        "WINDOW"
       ],
       "CO Key": [
         "recX6uVQB54Gz0ObO",
@@ -4544,26 +4564,10 @@
         "rec7V5JYRxIWGH7iz",
         "recqvwfgnp2sImrTq"
       ],
-      "Identified Components": [
-        "Fragmentation Plate",
-        "Window",
-        "Window Ledge Material"
-      ],
       "IFC4 Sub Types (Beta)": [
         "VENTILATIONSLEEVE*",
         "SKYLIGHT",
         "BAYWINDOW*",
-        "LOUVRE",
-        "WINDOW"
-      ],
-      "IFC KEY": "IFCWIN_090",
-      "IFC4 Object Types": [
-        "BAYWINDOW",
-        "VENTILATIONSLEEVE"
-      ],
-      "IFC4 Predefined Types": [
-        "SKYLIGHT",
-        "NOTDEFINED",
         "LOUVRE",
         "WINDOW"
       ]
@@ -4573,6 +4577,7 @@
     "id": "recnTey4nn0rUDdpK",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCALA_003",
       "Revit Representation": "Fire Alarm Devices",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -4592,8 +4597,23 @@
         "recIJHWEmrMLIcPsj",
         "recgeQYBIm6AQl4nK"
       ],
+      "IFC4 Object Types": [
+        "SOUNDER",
+        "MANUALALARMCALLPOINT",
+        "HOMEFIREALARMDEVICE",
+        "VISUALALARM",
+        "STROBELIGHT",
+        "FIREALARMPANEL"
+      ],
+      "Identified Components": [
+        "Alarm",
+        "Fire Alarm"
+      ],
       "Property Set": [
         "rectRFJPCMLGBZ2W6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recr2NWnbTz1qbaCU",
@@ -4603,10 +4623,6 @@
         "recAIS0gs5z8mNiwl",
         "rec1q0zwF9AJOQcnu"
       ],
-      "Identified Components": [
-        "Alarm",
-        "Fire Alarm"
-      ],
       "IFC4 Sub Types (Beta)": [
         "HOMEFIREALARMDEVICE*",
         "SOUNDER*",
@@ -4614,18 +4630,6 @@
         "VISUALALARM*",
         "NOTDEFINED",
         "FIREALARMPANEL*"
-      ],
-      "IFC KEY": "IFCALA_003",
-      "IFC4 Object Types": [
-        "SOUNDER",
-        "MANUALALARMCALLPOINT",
-        "HOMEFIREALARMDEVICE",
-        "VISUALALARM",
-        "STROBELIGHT",
-        "FIREALARMPANEL"
-      ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
       ]
     }
   },
@@ -4633,6 +4637,7 @@
     "id": "recns615xgO52Wh0J",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCREI_068",
       "Revit Representation": "Structural Rebar",
       "Archicad Representation": "Object",
       "Tekla Representation": "Rebar",
@@ -4645,23 +4650,23 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
-      "CO Key": [
-        "recE9j5xTrszJsjnT"
-      ],
       "Identified Components": [
         "Rebar"
       ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCREI_068",
       "IFC4 Predefined Types": [
         "NOTDEFINED"
-      ]
+      ],
+      "CO Key": [
+        "recE9j5xTrszJsjnT"
+      ],
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recoR8M34T3LbBgrd",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBUI_009",
       "Revit Representation": "Levels",
       "Archicad Representation": "Storey",
       "Tekla Representation": "N.A",
@@ -4674,27 +4679,27 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Building Storey"
+      ],
       "Property Set": [
         "recHy0m8LTTkGzJos",
         "recgz7aOVBlhct9pq"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "rec9QmYhYESdscnCP"
       ],
-      "Identified Components": [
-        "Building Storey"
-      ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCBUI_009",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recomntbf20Jmpv6n",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDAM_026",
       "Revit Representation": "Duct Accessories, Air Terminals",
       "Archicad Representation": "Object, Terminal",
       "Tekla Representation": "N.A",
@@ -4711,10 +4716,20 @@
         "reckAx5ZWD7OneVuj",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Damper"
+      ],
       "Property Set": [
         "recR5ZCtW8ce2X1zJ",
         "rec6PDA5Yv39Nu0eG",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "FIREDAMPER",
+        "FIRESMOKEDAMPER",
+        "FUMEHOODEXHAUST",
+        "SMOKEDAMPER",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recC3maLX94joBDgS",
@@ -4723,22 +4738,11 @@
         "recQ1fi6v5u6sedHq",
         "recNb4jxfAG0JSmvx"
       ],
-      "Identified Components": [
-        "Damper"
-      ],
       "IFC4 Sub Types (Beta)": [
         "FIREDAMPER",
         "FIRESMOKEDAMPER",
         "FUMEHOODEXHAUST",
         "SMOKEDAMPER"
-      ],
-      "IFC KEY": "IFCDAM_026",
-      "IFC4 Predefined Types": [
-        "FIREDAMPER",
-        "FIRESMOKEDAMPER",
-        "FUMEHOODEXHAUST",
-        "SMOKEDAMPER",
-        "NOTDEFINED"
       ]
     }
   },
@@ -4746,6 +4750,7 @@
     "id": "recouZoCx9ZJypH5F",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCGRI_048",
       "Revit Representation": "Grid",
       "Archicad Representation": "Grid",
       "Tekla Representation": "Grid",
@@ -4758,19 +4763,18 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
-      "CO Key": [
-        "recgvN4S0rvwHUSo6",
-        "recfwslEEnLxAUptI"
-      ],
       "Identified Components": [
         "Gridline",
         "Structural Grid"
       ],
-      "IFC4 Sub Types (Beta)": [
+      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ],
-      "IFC KEY": "IFCGRI_048",
-      "IFC4 Predefined Types": [
+      "CO Key": [
+        "recgvN4S0rvwHUSo6",
+        "recfwslEEnLxAUptI"
+      ],
+      "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ]
     }
@@ -4779,6 +4783,7 @@
     "id": "recow9b1we1eJ7WKz",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDIS_027",
       "Revit Representation": "Generic Models",
       "Archicad Representation": "Object, Morph",
       "Tekla Representation": "N.A",
@@ -4825,50 +4830,22 @@
         "recDHHF2jKgRGwcHQ",
         "recIJHWEmrMLIcPsj"
       ],
-      "Property Set": [
-        "recS0UD3zqFz5Y5vD",
-        "recSBtFCHkvUHaIf9",
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "recqlq0wod8gHRive",
-        "recqEOluwc1TDBG8a",
-        "recBC0uq4vlxrjpKA",
-        "recEY1P5aApFnBJO8",
-        "reccljD4yVUdbw62C",
-        "recMo3TfoKV07Qnrg",
-        "recRuFofrT7oeIsB9",
-        "recIWYjfxfuzaiwIG",
-        "recUyOjOpKAoSo1sn",
-        "recYzZ4EfkIM3V61z",
-        "recTQzmL37SjjMcV8",
-        "recUQb4YoD5Xemce0",
-        "recOGjEZWGSr0HQby",
-        "recnezN11BeH3S837",
-        "rec8popUhLQwDty6F",
-        "recEbYS5VqWLCvqgW",
-        "recFx1vaCqkjtxw2L",
-        "recrragk1rzAgyxKU",
-        "recdpvx8KRXvlfPpz",
-        "recttLuOywKWgkLVg",
-        "recVEL6CvpDiKksWb",
-        "recoHErB5BkNoZYBu",
-        "rec8yzzVDiiwDDn82",
-        "recJEJ6prRcd8QOCB",
-        "recvwRGrWKNqknxWb",
-        "rec3UAIirXyl8Ajr1",
-        "recXYSef2Y83LTPhl",
-        "recLBevraTIMutT5m",
-        "recVSscERpS8To35U",
-        "recxEgAT7nNOzs8Gy",
-        "recJQ9yJhwOu7Z3ZT",
-        "recnG8xvGeYvlcKST",
-        "rec0y1k617R0Wovp2",
-        "recWFMU6GNbnypIP9",
-        "recbTHb3DaFLAOr78",
-        "recb0bHZkto08voau",
-        "recUtXpX4D9At8iql",
-        "recC9nd0pMq5oEzf7"
+      "IFC4 Object Types": [
+        "BENCHING",
+        "CEILINGHANGER",
+        "DRYWEATHERFLOW",
+        "FLUSHBOLT",
+        "GRATING",
+        "HAUNCH",
+        "HINGEDCOVER",
+        "LIFT_APRON",
+        "LIFT_GUIDEROLLER",
+        "LIFT_GUIDESHOE",
+        "LIFT_RESCUEHOOK",
+        "LPS_AIRFINIAL",
+        "LPS_LIGHTNINGTAPE",
+        "PIPESUPPORT",
+        "TAPEREDNUTS"
       ],
       "Identified Components": [
         "Air-finial",
@@ -4910,6 +4887,55 @@
         "Toe Board",
         "Vertical Deflector"
       ],
+      "Property Set": [
+        "recS0UD3zqFz5Y5vD",
+        "recSBtFCHkvUHaIf9",
+        "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "BRACKET",
+        "NOTDEFINED"
+      ],
+      "CO Key": [
+        "recqlq0wod8gHRive",
+        "recqEOluwc1TDBG8a",
+        "recBC0uq4vlxrjpKA",
+        "recEY1P5aApFnBJO8",
+        "reccljD4yVUdbw62C",
+        "recMo3TfoKV07Qnrg",
+        "recRuFofrT7oeIsB9",
+        "recIWYjfxfuzaiwIG",
+        "recUyOjOpKAoSo1sn",
+        "recYzZ4EfkIM3V61z",
+        "recTQzmL37SjjMcV8",
+        "recUQb4YoD5Xemce0",
+        "recOGjEZWGSr0HQby",
+        "recnezN11BeH3S837",
+        "rec8popUhLQwDty6F",
+        "recEbYS5VqWLCvqgW",
+        "recFx1vaCqkjtxw2L",
+        "recrragk1rzAgyxKU",
+        "recdpvx8KRXvlfPpz",
+        "recttLuOywKWgkLVg",
+        "recVEL6CvpDiKksWb",
+        "recoHErB5BkNoZYBu",
+        "rec8yzzVDiiwDDn82",
+        "recJEJ6prRcd8QOCB",
+        "recvwRGrWKNqknxWb",
+        "rec3UAIirXyl8Ajr1",
+        "recXYSef2Y83LTPhl",
+        "recLBevraTIMutT5m",
+        "recVSscERpS8To35U",
+        "recxEgAT7nNOzs8Gy",
+        "recJQ9yJhwOu7Z3ZT",
+        "recnG8xvGeYvlcKST",
+        "rec0y1k617R0Wovp2",
+        "recWFMU6GNbnypIP9",
+        "recbTHb3DaFLAOr78",
+        "recb0bHZkto08voau",
+        "recUtXpX4D9At8iql",
+        "recC9nd0pMq5oEzf7"
+      ],
       "IFC4 Sub Types (Beta)": [
         "LPS_AIRFINIAL*",
         "BENCHING*",
@@ -4928,28 +4954,6 @@
         "LIFT_RESCUEHOOK*",
         "BRACKET",
         "TAPEREDNUTS*"
-      ],
-      "IFC KEY": "IFCDIS_027",
-      "IFC4 Object Types": [
-        "BENCHING",
-        "CEILINGHANGER",
-        "DRYWEATHERFLOW",
-        "FLUSHBOLT",
-        "GRATING",
-        "HAUNCH",
-        "HINGEDCOVER",
-        "LIFT_APRON",
-        "LIFT_GUIDEROLLER",
-        "LIFT_GUIDESHOE",
-        "LIFT_RESCUEHOOK",
-        "LPS_AIRFINIAL",
-        "LPS_LIGHTNINGTAPE",
-        "PIPESUPPORT",
-        "TAPEREDNUTS"
-      ],
-      "IFC4 Predefined Types": [
-        "BRACKET",
-        "NOTDEFINED"
       ]
     }
   },
@@ -4957,6 +4961,7 @@
     "id": "recqmSylVxxspsEl3",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCRAI_065",
       "Revit Representation": "Railings",
       "Archicad Representation": "Railing",
       "Tekla Representation": "N.A, Railing, Component",
@@ -4980,12 +4985,22 @@
         "recR6No7JdI3ZdRrf",
         "recIJHWEmrMLIcPsj"
       ],
+      "IFC4 Object Types": [
+        "BACKGUARD",
+        "BOLLARD"
+      ],
+      "Identified Components": [
+        "Railing"
+      ],
       "Property Set": [
         "rec9hQWAgRLJPLfZX",
         "rec2Xw3nnRzDfj77n",
         "reciwZ9J8nSPGgAPD",
         "recp15GH2d7gJIlod",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recRZmaY7lmqdT9At",
@@ -4998,21 +5013,10 @@
         "rec8wJpHFqYThXFDu",
         "recW8DJkIa9mr687D"
       ],
-      "Identified Components": [
-        "Railing"
-      ],
       "IFC4 Sub Types (Beta)": [
         "BACKGUARD*",
         "BOLLARD*",
         "GUARDRAIL",
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCRAI_065",
-      "IFC4 Object Types": [
-        "BACKGUARD",
-        "BOLLARD"
-      ],
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -5021,6 +5025,7 @@
     "id": "recrLVoBxIPASqAaY",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBOI_006",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -5035,25 +5040,24 @@
         "rec1ixcOp0C4As1gW",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Boiler"
+      ],
       "Property Set": [
         "recG1kl6YETQ7yvRU"
+      ],
+      "IFC4 Predefined Types": [
+        "WATER",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recPgevqXD7u4h8wq",
         "recnwGFwaZXJ1ooZp",
         "recxdJ666uWa6SGrV"
       ],
-      "Identified Components": [
-        "Boiler"
-      ],
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED",
         "WATER"
-      ],
-      "IFC KEY": "IFCBOI_006",
-      "IFC4 Predefined Types": [
-        "WATER",
-        "NOTDEFINED"
       ]
     }
   },
@@ -5061,6 +5065,7 @@
     "id": "recrTW75nhIVlGyIG",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSIT_073",
       "Revit Representation": "Project Information, Topography, Areas",
       "Archicad Representation": "IFC Project Manager, Mesh",
       "Tekla Representation": "N.A",
@@ -5073,28 +5078,28 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Site"
+      ],
       "Property Set": [
         "rec66lgOsZg4u1OoM",
         "rec54FzJvRC7MrfgX",
         "recWtUKTPkL3rpqrE"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "recCKBPNhsWQysfo9"
       ],
-      "Identified Components": [
-        "Site"
-      ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCSIT_073",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Sub Types (Beta)": []
     }
   },
   {
     "id": "recroBPWzGDXYBvvx",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCBEA_005",
       "Revit Representation": "Structural Framing",
       "Archicad Representation": "Beam",
       "Tekla Representation": "Beam, Concrete Beam",
@@ -5113,6 +5118,12 @@
         "recXRyrFzkRse8RYO",
         "recUnK8JriptzivIs"
       ],
+      "IFC4 Object Types": [
+        "TRELLIS"
+      ],
+      "Identified Components": [
+        "Beam"
+      ],
       "Property Set": [
         "recQUfmUCtCKOfXlH",
         "recPI2V24U915NEiS",
@@ -5121,25 +5132,18 @@
         "recTGSrAjIeWAcoYu",
         "rec9deXZBT4E6DnY6"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "BEAM"
+      ],
       "CO Key": [
         "recSINcEQBwKyx4vM",
         "recXbTULGnA66Nw1j",
         "recEwCDk2qkLcSnAw",
         "rec5ERqHMGDTz65ux"
       ],
-      "Identified Components": [
-        "Beam"
-      ],
       "IFC4 Sub Types (Beta)": [
         "TRELLIS*",
-        "BEAM"
-      ],
-      "IFC KEY": "IFCBEA_005",
-      "IFC4 Object Types": [
-        "TRELLIS"
-      ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM"
       ]
     }
@@ -5148,6 +5152,7 @@
     "id": "recs2UBtaX2dnE6oJ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDUC_031",
       "Revit Representation": "Duct Fittings",
       "Archicad Representation": "Duct Fitting",
       "Tekla Representation": "N.A",
@@ -5161,27 +5166,26 @@
         "recIJHWEmrMLIcPsj",
         "recfgTiqiYwaVBuRA"
       ],
+      "Identified Components": [
+        "Duct Fitting",
+        "Prefabricated Duct Fitting"
+      ],
       "Property Set": [
         "recaRaDoBBLlmu8uv",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "ENTRY"
       ],
       "CO Key": [
         "recQNuRMSv68qD3WN",
         "rechXqnt0ljDFvoIY",
         "rec7J4rNM8nIdGbbD"
       ],
-      "Identified Components": [
-        "Duct Fitting",
-        "Prefabricated Duct Fitting"
-      ],
       "IFC4 Sub Types (Beta)": [
         "ENTRY",
         "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCDUC_031",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "ENTRY"
       ]
     }
   },
@@ -5189,6 +5193,7 @@
     "id": "recsieCbnb2SZISHa",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCWAL_088",
       "Revit Representation": "Walls",
       "Archicad Representation": "Wall",
       "Tekla Representation": "Panel, Concrete Panel",
@@ -5218,6 +5223,26 @@
         "recJQjn8F6Umqv0yt",
         "recUB4mj2dZDwqtnZ"
       ],
+      "IFC4 Object Types": [
+        "BARRIER",
+        "BLOCKWALL",
+        "BOUNDARYWALL",
+        "BUND",
+        "KERB",
+        "KNOCKOUTPANEL",
+        "RECYCLABLESCHUTE",
+        "RETAININGWALL",
+        "REFUSECHUTE",
+        "SCREEN"
+      ],
+      "Identified Components": [
+        "Kerb",
+        "Lift Shaft Partition",
+        "M&E Screen",
+        "Wall",
+        "Boundary wall/ Boundary fence",
+        "Refuse Chute"
+      ],
       "Property Set": [
         "reczUw3MLtMFfXObs",
         "reccYuhGMcvHkycB7",
@@ -5226,6 +5251,13 @@
         "recSBtFCHkvUHaIf9",
         "rectv956E05GZtOXM",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "ELEMENTEDWALL",
+        "PARAPET",
+        "PARTITIONING",
+        "SHEAR",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recxY38DGUGkBHkCU",
@@ -5246,14 +5278,6 @@
         "recOYx7Fh6G9gVeAC",
         "rechY7oEAZY3onOY4"
       ],
-      "Identified Components": [
-        "Kerb",
-        "Lift Shaft Partition",
-        "M&E Screen",
-        "Wall",
-        "Boundary wall/ Boundary fence",
-        "Refuse Chute"
-      ],
       "IFC4 Sub Types (Beta)": [
         "KERB*",
         "SCREEN*",
@@ -5269,26 +5293,6 @@
         "PARAPET",
         "PARTITIONING",
         "SHEAR"
-      ],
-      "IFC KEY": "IFCWAL_088",
-      "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
-      ],
-      "IFC4 Predefined Types": [
-        "ELEMENTEDWALL",
-        "PARAPET",
-        "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
       ]
     }
   },
@@ -5296,6 +5300,7 @@
     "id": "rectIHTwE8iDruPNL",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCOL_019",
       "Revit Representation": "Columns, Structural Columns",
       "Archicad Representation": "Column",
       "Tekla Representation": "Concrete Column, Column, Steel Column",
@@ -5311,6 +5316,9 @@
         "reckOzEuy6SFWtlbm",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Column"
+      ],
       "Property Set": [
         "recvskdANtDFsLQ3g",
         "recxnklGMzRV98KyQ",
@@ -5321,19 +5329,15 @@
         "recTGSrAjIeWAcoYu",
         "rec9deXZBT4E6DnY6"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "recTkeI1UFjMDETIs",
         "recw45BRljqTxZ4oZ"
       ],
-      "Identified Components": [
-        "Column"
-      ],
       "IFC4 Sub Types (Beta)": [
         "COLUMN"
-      ],
-      "IFC KEY": "IFCCOL_019",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
       ]
     }
   },
@@ -5341,6 +5345,7 @@
     "id": "rectLCX8YXFFD3ckV",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSTA_077",
       "Revit Representation": "Pipe Fittings",
       "Archicad Representation": "Pipe Fitting",
       "Tekla Representation": "N.A",
@@ -5355,16 +5360,8 @@
         "rec7DAhO15Dnvu2fX",
         "recIJHWEmrMLIcPsj"
       ],
-      "Property Set": [
-        "recn3PhzJREmahDhX",
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "recMorAS8SA5S7Vgc",
-        "rec7OV9cp0xfztiFl",
-        "rec7MkF5mhaPHq0Cf",
-        "recerVnF6iKVWmhCt",
-        "recAe2T3uR2HWyERK"
+      "IFC4 Object Types": [
+        "MOSQUITONET"
       ],
       "Identified Components": [
         "Catch Screen",
@@ -5373,18 +5370,25 @@
         "Mosquito-proof Net",
         "Vent Cap"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "COWL",
-        "MOSQUITONET*"
-      ],
-      "IFC KEY": "IFCSTA_077",
-      "IFC4 Object Types": [
-        "MOSQUITONET"
+      "Property Set": [
+        "recn3PhzJREmahDhX",
+        "rec9deXZBT4E6DnY6"
       ],
       "IFC4 Predefined Types": [
         "COWL",
         "NOTDEFINED"
+      ],
+      "CO Key": [
+        "recMorAS8SA5S7Vgc",
+        "rec7OV9cp0xfztiFl",
+        "rec7MkF5mhaPHq0Cf",
+        "recerVnF6iKVWmhCt",
+        "recAe2T3uR2HWyERK"
+      ],
+      "IFC4 Sub Types (Beta)": [
+        "NOTDEFINED",
+        "COWL",
+        "MOSQUITONET*"
       ]
     }
   },
@@ -5392,6 +5396,7 @@
     "id": "rectdZe9EJAAa0JQt",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFAN_040",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -5404,6 +5409,9 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Fan"
+      ],
       "Property Set": [
         "recDMtMsSbglFx2h5",
         "recc4Ty8LZcIZfD9N",
@@ -5411,17 +5419,13 @@
         "rec9vWLAi3nsMJdtc",
         "rec9deXZBT4E6DnY6"
       ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ],
       "CO Key": [
         "rec8ChPfzTPGF8fEN"
       ],
-      "Identified Components": [
-        "Fan"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCFAN_040",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -5430,6 +5434,7 @@
     "id": "recuKdEWpiroxwpCg",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCSOL_075",
       "Revit Representation": "Mechanical Equipment, Generic Models",
       "Archicad Representation": "Flow Equipment, Object",
       "Tekla Representation": "N.A",
@@ -5444,27 +5449,26 @@
         "recxCbxQpajWoYmpV",
         "recaspPAJfvs5I9bg"
       ],
+      "Identified Components": [
+        "Solar Panel",
+        "Solar Water Heater",
+        "Springing Line"
+      ],
       "Property Set": [
         "recterEyHDcq7YzlU"
+      ],
+      "IFC4 Predefined Types": [
+        "SOLARCOLLECTOR",
+        "SOLARPANEL"
       ],
       "CO Key": [
         "recEeTZE6uxLbS1uk",
         "recE2vSQFooZsAYxz",
         "rec1R1MorbfXi0JZN"
       ],
-      "Identified Components": [
-        "Solar Panel",
-        "Solar Water Heater",
-        "Springing Line"
-      ],
       "IFC4 Sub Types (Beta)": [
         "SOLARPANEL",
         "SOLARCOLLECTOR"
-      ],
-      "IFC KEY": "IFCSOL_075",
-      "IFC4 Predefined Types": [
-        "SOLARCOLLECTOR",
-        "SOLARPANEL"
       ]
     }
   },
@@ -5472,6 +5476,7 @@
     "id": "recvduAhxY0RHp9nd",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFIL_041",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -5490,10 +5495,23 @@
         "recN2wa3qIB8dHTCC",
         "recHWGV4TVmUghsbS"
       ],
+      "IFC4 Object Types": [
+        "SCRUBBER",
+        "WASTEAIRSEPARATOR"
+      ],
+      "Identified Components": [
+        "Filter"
+      ],
       "Property Set": [
         "recwZWhvn8JCwCbbG",
         "recXGTwYUGKjAf7xE",
         "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "AIRPARTICLEFILTER",
+        "ODORFILTER",
+        "STRAINER",
+        "WATERFILTER"
       ],
       "CO Key": [
         "recp7WEI8Nt7oDYQA",
@@ -5504,23 +5522,9 @@
         "recoVtl7FpswVKIAz",
         "recZSOhJmd5e7PO1n"
       ],
-      "Identified Components": [
-        "Filter"
-      ],
       "IFC4 Sub Types (Beta)": [
         "SCRUBBER*",
         "WASTEAIRSEPARATOR*",
-        "AIRPARTICLEFILTER",
-        "ODORFILTER",
-        "STRAINER",
-        "WATERFILTER"
-      ],
-      "IFC KEY": "IFCFIL_041",
-      "IFC4 Object Types": [
-        "SCRUBBER",
-        "WASTEAIRSEPARATOR"
-      ],
-      "IFC4 Predefined Types": [
         "AIRPARTICLEFILTER",
         "ODORFILTER",
         "STRAINER",
@@ -5532,6 +5536,7 @@
     "id": "recvtlFzmFYepYiVJ",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFUR_046",
       "Revit Representation": "Furniture, Generic Models",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -5582,60 +5587,26 @@
         "recLHJSYHgcmgkRfs",
         "recIJHWEmrMLIcPsj"
       ],
-      "Property Set": [
-        "rec4fFi4gg7dUUFft",
-        "recwsUIzzmGfECRAt",
-        "recU1Op6T0cJcKCnY",
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "recvaoTdR1zn8EyzV",
-        "recJrpVClT7AHJHuk",
-        "recpGYHfaU6WTMhWn",
-        "rec7x5vWegr0UohOB",
-        "recvwx9RZJl9KmKFO",
-        "recC1GCZUuUsvMzsG",
-        "recZXzIB53b6fx6jY",
-        "recPyUupTQEZWvl25",
-        "recTCXm0bBpyrPnoa",
-        "recSUF70Y9DBM4OQb",
-        "recZipuCGwb7NJK6F",
-        "recdHu57yyFi5wou7",
-        "recxwKkNwxMUrcR2N",
-        "recbLq3WqcWfi96i5",
-        "rec7SUDWyVHvfc1l4",
-        "rec0K0Dtu2DRMkn7g",
-        "recrdKmg9RarwPhAh",
-        "rec2TiiyaJyMY3hLY",
-        "rec3Q8f9XRL6Bimp5",
-        "recPTBmRaJxFTxV18",
-        "reclM9jHtT9FP4NMY",
-        "rec4TDYhHzedeiUiu",
-        "recpqinx7Tv2QDdaU",
-        "reclHzolOFHnVNWHk",
-        "rec5AOZ1HcmyVgFbh",
-        "recisyEj06jtesqAN",
-        "recIx8UYpymFrSQdK",
-        "recDqd8iOsUhsZyOf",
-        "recVAAwTSBm60DPtG",
-        "recPPM3MOEFhLrqUe",
-        "recLEBOTJDO1e9IzW",
-        "recF6BRfKxbJTVvyx",
-        "recOBuPZN7k0ob4LX",
-        "rec6iYjASMIsa1bS8",
-        "recQ6TZHOzpKc4VYw",
-        "recdCDf1uxjLEMYJ8",
-        "rec5Mdds4u2oHHSRe",
-        "recUs0y6FoqW0V5Hi",
-        "reccT2mU48EcW5BTv",
-        "rec2iY70Fqpvwt80t",
-        "recF65jpZmw5gWG2h",
-        "recMC4GG2kGnSqTXl",
-        "recqug30smRayuN8U",
-        "recf2ikoDysXOeQyu",
-        "reczPMOm0nnNAKl4U",
-        "recnhy5B85EcylGN5",
-        "recBLZKBtLYe1UrxE"
+      "IFC4 Object Types": [
+        "BENCH",
+        "BUSSHELTER",
+        "CABINET",
+        "CHILDPROTECTIONSEAT",
+        "CONVEXMIRROR",
+        "CUBICLE",
+        "DIAPERCHANGINGTABLE",
+        "LETTERBOX",
+        "MIRROR",
+        "PLANTERBOX",
+        "RACK",
+        "RECYCLABLECOMPACTOR",
+        "RECYCLABLECONTAINER",
+        "RECYCLINGBIN",
+        "REFUSEBIN",
+        "REFUSECOMPACTOR",
+        "REFUSECONTAINER",
+        "TAXISHELTER",
+        "UMBRELLA"
       ],
       "Identified Components": [
         "Accessible Water Closet Compartment",
@@ -5686,6 +5657,68 @@
         "Water Closet Compartment",
         "Workstation"
       ],
+      "Property Set": [
+        "rec4fFi4gg7dUUFft",
+        "recwsUIzzmGfECRAt",
+        "recU1Op6T0cJcKCnY",
+        "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "BED",
+        "CHAIR",
+        "SHELF",
+        "TABLE",
+        "NOTDEFINED"
+      ],
+      "CO Key": [
+        "recvaoTdR1zn8EyzV",
+        "recJrpVClT7AHJHuk",
+        "recpGYHfaU6WTMhWn",
+        "rec7x5vWegr0UohOB",
+        "recvwx9RZJl9KmKFO",
+        "recC1GCZUuUsvMzsG",
+        "recZXzIB53b6fx6jY",
+        "recPyUupTQEZWvl25",
+        "recTCXm0bBpyrPnoa",
+        "recSUF70Y9DBM4OQb",
+        "recZipuCGwb7NJK6F",
+        "recdHu57yyFi5wou7",
+        "recxwKkNwxMUrcR2N",
+        "recbLq3WqcWfi96i5",
+        "rec7SUDWyVHvfc1l4",
+        "rec0K0Dtu2DRMkn7g",
+        "recrdKmg9RarwPhAh",
+        "rec2TiiyaJyMY3hLY",
+        "rec3Q8f9XRL6Bimp5",
+        "recPTBmRaJxFTxV18",
+        "reclM9jHtT9FP4NMY",
+        "rec4TDYhHzedeiUiu",
+        "recpqinx7Tv2QDdaU",
+        "reclHzolOFHnVNWHk",
+        "rec5AOZ1HcmyVgFbh",
+        "recisyEj06jtesqAN",
+        "recIx8UYpymFrSQdK",
+        "recDqd8iOsUhsZyOf",
+        "recVAAwTSBm60DPtG",
+        "recPPM3MOEFhLrqUe",
+        "recLEBOTJDO1e9IzW",
+        "recF6BRfKxbJTVvyx",
+        "recOBuPZN7k0ob4LX",
+        "rec6iYjASMIsa1bS8",
+        "recQ6TZHOzpKc4VYw",
+        "recdCDf1uxjLEMYJ8",
+        "rec5Mdds4u2oHHSRe",
+        "recUs0y6FoqW0V5Hi",
+        "reccT2mU48EcW5BTv",
+        "rec2iY70Fqpvwt80t",
+        "recF65jpZmw5gWG2h",
+        "recMC4GG2kGnSqTXl",
+        "recqug30smRayuN8U",
+        "recf2ikoDysXOeQyu",
+        "reczPMOm0nnNAKl4U",
+        "recnhy5B85EcylGN5",
+        "recBLZKBtLYe1UrxE"
+      ],
       "IFC4 Sub Types (Beta)": [
         "CUBICLE*",
         "BED",
@@ -5711,35 +5744,6 @@
         "TABLE",
         "TAXISHELTER*",
         "UMBRELLA*"
-      ],
-      "IFC KEY": "IFCFUR_046",
-      "IFC4 Object Types": [
-        "BENCH",
-        "BUSSHELTER",
-        "CABINET",
-        "CHILDPROTECTIONSEAT",
-        "CONVEXMIRROR",
-        "CUBICLE",
-        "DIAPERCHANGINGTABLE",
-        "LETTERBOX",
-        "MIRROR",
-        "PLANTERBOX",
-        "RACK",
-        "RECYCLABLECOMPACTOR",
-        "RECYCLABLECONTAINER",
-        "RECYCLINGBIN",
-        "REFUSEBIN",
-        "REFUSECOMPACTOR",
-        "REFUSECONTAINER",
-        "TAXISHELTER",
-        "UMBRELLA"
-      ],
-      "IFC4 Predefined Types": [
-        "BED",
-        "CHAIR",
-        "SHELF",
-        "TABLE",
-        "NOTDEFINED"
       ]
     }
   },
@@ -5747,6 +5751,7 @@
     "id": "recwyoHk1O3v00GEI",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCOUT_056",
       "Revit Representation": "Electrical Equipment, Communication Devices, Electrical Fixtures",
       "Archicad Representation": "Flow Equipment, Object",
       "Tekla Representation": "N.A",
@@ -5760,8 +5765,19 @@
         "reck0Ah9mYyPXG09h",
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Communication Fixture",
+        "Electrical Fixture",
+        "Electrical Socket Outlet",
+        "Single Phase Socket Outlet",
+        "Three Phase Socket Outlet"
+      ],
       "Property Set": [
         "recuIfD4SyQfavZTz"
+      ],
+      "IFC4 Predefined Types": [
+        "POWEROUTLET",
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recUymyo1kYvGYWsk",
@@ -5770,21 +5786,9 @@
         "recB3VHFntkXPVonB",
         "recymCFh4eAQ6kWIo"
       ],
-      "Identified Components": [
-        "Communication Fixture",
-        "Electrical Fixture",
-        "Electrical Socket Outlet",
-        "Single Phase Socket Outlet",
-        "Three Phase Socket Outlet"
-      ],
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED",
         "POWEROUTLET"
-      ],
-      "IFC KEY": "IFCOUT_056",
-      "IFC4 Predefined Types": [
-        "POWEROUTLET",
-        "NOTDEFINED"
       ]
     }
   },
@@ -5792,6 +5796,7 @@
     "id": "recxclfPkT89IFp4x",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCDIS_029",
       "Revit Representation": "Piping Systems, MEP Fabrication Pipework, Duct Systems",
       "Archicad Representation": "MEP System",
       "Tekla Representation": "N.A",
@@ -5853,68 +5858,46 @@
         "rec8PxmKfRpkcwMtY",
         "rechdhRMbQC51CkOv"
       ],
-      "Property Set": [
-        "rec9deXZBT4E6DnY6"
-      ],
-      "CO Key": [
-        "recpvMw5gBKsMGmJn",
-        "recAs1Q6z5Qh7hTSF",
-        "rec3YBaMUmQ6Fes0G",
-        "recmCSdmgOI8ICY9y",
-        "reclFJEoh4dFfFqdS",
-        "recoDrFCwzkNhF9Jm",
-        "recANy1WZ0SuUcPWD",
-        "recVRdNrRJDJFafr9",
-        "recR23Yfd9Fmumc97",
-        "recAjtWo4cqC5GDYu",
-        "recwdA6qvJd0r1shf",
-        "recIxCLfl4Fn7HhPA",
-        "recbA4fR0gYPhOYKn",
-        "recZDUMMIdqIeYqAS",
-        "recefttuGBYG9w5xp",
-        "recxKWP9HY54MX5Gn",
-        "recVFXc7WTWJS5x20",
-        "recmPYD4GFZIhUCcs",
-        "recINhdg2sZigYTSQ",
-        "rec5bU3NCbYKvzIre",
-        "rec33UxTjLAubK4A9",
-        "recXTxOKKKKpXCzQg",
-        "recynFiUOk6IWwZDU",
-        "recv1aCbrrK0chr6V",
-        "rec1CpUfYjcqzdqNk",
-        "recXkQpuAYfIbvREE",
-        "recJQRGQ9qs4a0x10",
-        "rechm35vcxwkJ5lcD",
-        "reckdUAJPSifdqJuQ",
-        "recuD3igeNpnMM25O",
-        "rec4QS9DatRpXaTgY",
-        "recVinIO1OKNLgaoj",
-        "recoBbrd5ZBLXJGVF",
-        "recx0dkDEucNzR7tU",
-        "reclydRSHHrqROL4x",
-        "recxoD3HUK5D0Z00r",
-        "recgFXmZ1LxB3MSPK",
-        "recKq9CMF4S9vsWj0",
-        "recVmtK6EQquh4E53",
-        "recXFpIOBS3gIIkNl",
-        "recUQcvBjEYqGP0SI",
-        "recavjcjQUVWjupDc",
-        "recfKSBxVrHlttTzt",
-        "rectr6SFASqup2OCd",
-        "rec83sjnIKonVV9Gd",
-        "recIzszTJ5UIoCyDq",
-        "recfpjIKmXSsADeET",
-        "rec6jOjjwNF2v2k6j",
-        "recjN1Hw0153TdN5R",
-        "recKzDY3OXQM5r7WD",
-        "recBhm7fe0wfhWS0E",
-        "recdPFS4cqB6iR6E1",
-        "recyCALSfq0JVlmbE",
-        "recUU9KwFvdqivS3I",
-        "rec0cWrsG4sGv7aZz",
-        "recCc4pLBPA0GSrnI",
-        "recgi3WUF2iwp4M1K",
-        "recrkTDz2xAVRzg2m"
+      "IFC4 Object Types": [
+        "CABLING",
+        "CHEMICAL",
+        "CHILLEDWATER",
+        "COMMUNICATION",
+        "COMPRESSEDAIR",
+        "CONDENSATEWATER",
+        "DEEPTUNNELSEWERAGE",
+        "DOMESTICCOLDWATER",
+        "DOMESTICHOTWATER",
+        "DRYRISER",
+        "ELECTRICAL",
+        "EXHAUSTAIR",
+        "FIREFIGHTING",
+        "FIREPROTECTION",
+        "FRESHAIR",
+        "FUEL",
+        "GAS",
+        "GREYWATER",
+        "HEATING",
+        "HYDRONIC",
+        "INDUSTRIALWATER",
+        "IRRIGATION",
+        "LIGHTNINGPROTECTION",
+        "MUNICIPALSOLIDWASTE",
+        "NEWATER",
+        "NONDOMESTICCOLDWATER",
+        "POTABLEWATER",
+        "PUMPINGMAIN",
+        "RAINWATER",
+        "RECYCLEDWATER",
+        "RETURNAIR",
+        "SANITARY",
+        "SEWAGE",
+        "SMOKECONTROL",
+        "SMOKEVENT",
+        "SUPPLYAIR",
+        "VENT",
+        "WETRISER",
+        "SPRINKLER"
       ],
       "Identified Components": [
         "ACMV System",
@@ -5976,6 +5959,75 @@
         "Watering System Pipe",
         "Wet Riser System"
       ],
+      "Property Set": [
+        "rec9deXZBT4E6DnY6"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "FIREHYDRANT",
+        "HOSEREEL",
+        "OIL"
+      ],
+      "CO Key": [
+        "recpvMw5gBKsMGmJn",
+        "recAs1Q6z5Qh7hTSF",
+        "rec3YBaMUmQ6Fes0G",
+        "recmCSdmgOI8ICY9y",
+        "reclFJEoh4dFfFqdS",
+        "recoDrFCwzkNhF9Jm",
+        "recANy1WZ0SuUcPWD",
+        "recVRdNrRJDJFafr9",
+        "recR23Yfd9Fmumc97",
+        "recAjtWo4cqC5GDYu",
+        "recwdA6qvJd0r1shf",
+        "recIxCLfl4Fn7HhPA",
+        "recbA4fR0gYPhOYKn",
+        "recZDUMMIdqIeYqAS",
+        "recefttuGBYG9w5xp",
+        "recxKWP9HY54MX5Gn",
+        "recVFXc7WTWJS5x20",
+        "recmPYD4GFZIhUCcs",
+        "recINhdg2sZigYTSQ",
+        "rec5bU3NCbYKvzIre",
+        "rec33UxTjLAubK4A9",
+        "recXTxOKKKKpXCzQg",
+        "recynFiUOk6IWwZDU",
+        "recv1aCbrrK0chr6V",
+        "rec1CpUfYjcqzdqNk",
+        "recXkQpuAYfIbvREE",
+        "recJQRGQ9qs4a0x10",
+        "rechm35vcxwkJ5lcD",
+        "reckdUAJPSifdqJuQ",
+        "recuD3igeNpnMM25O",
+        "rec4QS9DatRpXaTgY",
+        "recVinIO1OKNLgaoj",
+        "recoBbrd5ZBLXJGVF",
+        "recx0dkDEucNzR7tU",
+        "reclydRSHHrqROL4x",
+        "recxoD3HUK5D0Z00r",
+        "recgFXmZ1LxB3MSPK",
+        "recKq9CMF4S9vsWj0",
+        "recVmtK6EQquh4E53",
+        "recXFpIOBS3gIIkNl",
+        "recUQcvBjEYqGP0SI",
+        "recavjcjQUVWjupDc",
+        "recfKSBxVrHlttTzt",
+        "rectr6SFASqup2OCd",
+        "rec83sjnIKonVV9Gd",
+        "recIzszTJ5UIoCyDq",
+        "recfpjIKmXSsADeET",
+        "rec6jOjjwNF2v2k6j",
+        "recjN1Hw0153TdN5R",
+        "recKzDY3OXQM5r7WD",
+        "recBhm7fe0wfhWS0E",
+        "recdPFS4cqB6iR6E1",
+        "recyCALSfq0JVlmbE",
+        "recUU9KwFvdqivS3I",
+        "rec0cWrsG4sGv7aZz",
+        "recCc4pLBPA0GSrnI",
+        "recgi3WUF2iwp4M1K",
+        "recrkTDz2xAVRzg2m"
+      ],
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED",
         "CABLING*",
@@ -6018,54 +6070,6 @@
         "COMMUNICATION*",
         "VENT*",
         "WETRISER*"
-      ],
-      "IFC KEY": "IFCDIS_029",
-      "IFC4 Object Types": [
-        "CABLING",
-        "CHEMICAL",
-        "CHILLEDWATER",
-        "COMMUNICATION",
-        "COMPRESSEDAIR",
-        "CONDENSATEWATER",
-        "DEEPTUNNELSEWERAGE",
-        "DOMESTICCOLDWATER",
-        "DOMESTICHOTWATER",
-        "DRYRISER",
-        "ELECTRICAL",
-        "EXHAUSTAIR",
-        "FIREFIGHTING",
-        "FIREPROTECTION",
-        "FRESHAIR",
-        "FUEL",
-        "GAS",
-        "GREYWATER",
-        "HEATING",
-        "HYDRONIC",
-        "INDUSTRIALWATER",
-        "IRRIGATION",
-        "LIGHTNINGPROTECTION",
-        "MUNICIPALSOLIDWASTE",
-        "NEWATER",
-        "NONDOMESTICCOLDWATER",
-        "POTABLEWATER",
-        "PUMPINGMAIN",
-        "RAINWATER",
-        "RECYCLEDWATER",
-        "RETURNAIR",
-        "SANITARY",
-        "SEWAGE",
-        "SMOKECONTROL",
-        "SMOKEVENT",
-        "SUPPLYAIR",
-        "VENT",
-        "WETRISER",
-        "SPRINKLER"
-      ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "FIREHYDRANT",
-        "HOSEREEL",
-        "OIL"
       ]
     }
   },
@@ -6073,6 +6077,7 @@
     "id": "recy2znxmujCfMgHe",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCCON_022",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Flow Equipment",
       "Tekla Representation": "N.A",
@@ -6085,22 +6090,21 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
+      "Identified Components": [
+        "Air Condensing Unit",
+        "VRV Unit"
+      ],
       "Property Set": [
         "recMswD2xnFbMBX0R"
+      ],
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
       ],
       "CO Key": [
         "recZnlfO92Cwboylx",
         "recOyPEtr9Ld6lV2w"
       ],
-      "Identified Components": [
-        "Air Condensing Unit",
-        "VRV Unit"
-      ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
-      "IFC KEY": "IFCCON_022",
-      "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
     }
@@ -6109,6 +6113,7 @@
     "id": "reczfUjIjnz8XyUaW",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCFIR_042",
       "Revit Representation": "Plumbing Fixtures, Mechanical Equipment, Sprinklers",
       "Archicad Representation": "Pipe Flow Terminal, Object, Pipe, Terminal",
       "Tekla Representation": "N.A",
@@ -6134,11 +6139,32 @@
         "recNPexR2M0LpuE1e",
         "recSjZKU6vuMptxkW"
       ],
+      "IFC4 Object Types": [
+        "FOAMINLET",
+        "HOSE",
+        "STANDBYFIREHOSE",
+        "BREECHINGINLET",
+        "FOAMOUTLET"
+      ],
+      "Identified Components": [
+        "Fire Suppression Terminal",
+        "Foam Inlet",
+        "Breeching Inlet",
+        "Fire Hydrant",
+        "Hose Reel",
+        "Sprinkler",
+        "Foam Outlet"
+      ],
       "Property Set": [
         "rec2whXYnp7iJWKtf",
         "recCyTl5bY6ocG8nZ",
         "recGQOUHK9S1dijeY",
         "rec4A8FKvF9zAHoJk"
+      ],
+      "IFC4 Predefined Types": [
+        "SPRINKLER",
+        "FIREHYDRANT",
+        "HOSEREEL"
       ],
       "CO Key": [
         "recKoHbqnvUEXrS9J",
@@ -6155,15 +6181,6 @@
         "recYGCpTc0EjVY5z9",
         "recRVVbtHaN5RfNEP"
       ],
-      "Identified Components": [
-        "Fire Suppression Terminal",
-        "Foam Inlet",
-        "Breeching Inlet",
-        "Fire Hydrant",
-        "Hose Reel",
-        "Sprinkler",
-        "Foam Outlet"
-      ],
       "IFC4 Sub Types (Beta)": [
         "FOAMINLET*",
         "HOSE*",
@@ -6173,19 +6190,6 @@
         "HOSEREEL",
         "SPRINKLER",
         "FOAMOUTLET*"
-      ],
-      "IFC KEY": "IFCFIR_042",
-      "IFC4 Object Types": [
-        "FOAMINLET",
-        "HOSE",
-        "STANDBYFIREHOSE",
-        "BREECHINGINLET",
-        "FOAMOUTLET"
-      ],
-      "IFC4 Predefined Types": [
-        "SPRINKLER",
-        "FIREHYDRANT",
-        "HOSEREEL"
       ]
     }
   },
@@ -6193,6 +6197,7 @@
     "id": "reczgYVp8vBxOPC9s",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
+      "IFC KEY": "IFCELE_037",
       "Revit Representation": "Mechanical Equipment",
       "Archicad Representation": "Object",
       "Tekla Representation": "N.A",
@@ -6205,17 +6210,16 @@
       "OT Key (Object Type)": [
         "recIJHWEmrMLIcPsj"
       ],
-      "CO Key": [
-        "rects08yM8gnWAQvQ"
-      ],
       "Identified Components": [
         "Electric Motor"
       ],
-      "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCELE_037",
       "IFC4 Predefined Types": [
         "NOTDEFINED"
-      ]
+      ],
+      "CO Key": [
+        "rects08yM8gnWAQvQ"
+      ],
+      "IFC4 Sub Types (Beta)": []
     }
   }
 ]

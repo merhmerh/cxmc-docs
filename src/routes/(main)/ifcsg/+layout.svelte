@@ -15,6 +15,7 @@ let fetchStatus, ready, latestVersionTime, showMobileSidebar;
 
 onMount(async () => {
     await loadIfcData(versions[0]);
+    console.log($ifcData);
     // ready = true;
 });
 

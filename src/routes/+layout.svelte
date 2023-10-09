@@ -2,6 +2,7 @@
 import { supabase, session } from "$comp/supabase.store.js";
 import { initDevice } from "$comp/device.store";
 import { onMount } from "svelte";
+import { invalidate } from "$app/navigation";
 export let data;
 
 let ready;
@@ -9,6 +10,17 @@ $supabase = data.supabase;
 $session = data.session;
 $: $supabase = data.supabase;
 $: $session, onUpdate();
+
+onMount(() => {
+    const { data } = $supabase.auth.onAuthStateChange((event, _session) => {
+        if (_session?.expires_at !== session?.expires_at) {
+            invalidate("supabase:auth");
+        }
+    });
+
+    return () => data.subscription.unsubscribe();
+});
+
 function onUpdate() {}
 
 onMount(() => {

@@ -53,6 +53,10 @@ export function formatTimeHMS(sec) {
 }
 
 export async function authCheck(supabase, session, roles) {
+    if (!session) {
+        return false
+    }
+
     const { data } = await supabase.auth.admin.getUserById(session.user.id)
     if (data.user.user_metadata.disabled) {
         console.log('disabled');
