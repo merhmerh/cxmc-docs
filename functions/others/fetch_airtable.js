@@ -9,7 +9,8 @@ const pset_id = process.env.AIRTABLE_TABLE_ID_PSET
 const rule_id = process.env.AIRTABLE_TABLE_ID_RULE
 const entity_id = process.env.AIRTABLE_TABLE_ID_ENTITIES
 
-async function getData(tableId) {
+async function getData(tableId, fileName) {
+    const t1 = performance.now()
     const data = [];
 
     async function fetchPage(offset) {
@@ -35,8 +36,21 @@ async function getData(tableId) {
     await fetchPage(); // Call the recursive function
 
 
-    fs.writeFileSync(`./output/pset_id.json`, JSON.stringify(data, null, 2))
+    fs.writeFileSync(`./output/${fileName}.json`, JSON.stringify(data, null, 2))
+    const t2 = performance.now()
+    console.log('Completed:', fileName, `${(t2 - t1).toFixed(2)}ms`);
     return data; // Return the accumulated data after the recursion is complete
 }
 
-getData(pset_id)
+async function main() {
+    console.log('start');
+    await Promise.all([
+        await getData(pset_id, "pset_id"),
+        await getData(comp_id, "comp_id"),
+        await getData(rule_id, "rule_id"),
+        await getData(entity_id, "entity_id"),
+    ])
+    console.log('end');
+}
+
+main()
