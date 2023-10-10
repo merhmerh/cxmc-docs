@@ -1,13 +1,28 @@
 <script>
-import { mg_comp } from "./mg.store";
+import Sidebar from "./Sidebar.svelte";
+import { isMobile } from "$comp/device.store";
+import Icon from "@iconify/svelte";
+
+let showMobileSidebar;
 </script>
 
-<div class="sidebar">
-    <div class="scrollable">
-        {#each $mg_comp as { IdentifiedComponent }}
-            <a href="/mg/{IdentifiedComponent.replace(/\s/g, '-').toLowerCase()}">{IdentifiedComponent}</a>
-        {/each}
+{#if $isMobile}
+    <div class="m__header">
+        <button
+            class="none noHover m__sidebar__toggle"
+            on:click={() => {
+                showMobileSidebar = !showMobileSidebar;
+            }}>
+            <Icon icon="bi:filter-right" hFlip={true} height="24" />
+        </button>
     </div>
+{/if}
+
+<div class="sidebar" class:m__show={showMobileSidebar}>
+    <Sidebar
+        on:onNavigate={() => {
+            showMobileSidebar = false;
+        }}></Sidebar>
 </div>
 
 <div class="content">
@@ -15,18 +30,29 @@ import { mg_comp } from "./mg.store";
 </div>
 
 <style lang="scss">
+.m__header {
+    position: sticky;
+    width: 100vw;
+    top: 70px;
+    z-index: 100;
+    height: 32px;
+    padding-inline: 0.5rem;
+    border-bottom: 1px solid var(--grey-lightest);
+    background-color: $bg-p;
+    background: rgba(var(--bg-rgb), 95%);
+    button.m__sidebar__toggle {
+        padding: 0.25rem;
+        color: var(--mono);
+    }
+}
+
 .sidebar {
     position: sticky;
     top: 70px;
     height: calc(100svh - 70px);
     overflow-y: auto;
     border-right: 1px solid $grey-lighter;
-    .scrollable {
-        padding: 1rem;
-        overflow-y: auto;
-        display: flex;
-        flex-direction: column;
-    }
+
     @media screen and (max-width: $mobile) {
         position: fixed;
         left: 0px;
@@ -47,7 +73,7 @@ import { mg_comp } from "./mg.store";
     padding-top: 2rem;
     margin-inline: auto;
     width: 100%;
-    max-width: min(calc(100vw - 300px - 6px), 1500px);
+    max-width: min(calc(100vw - 300px - 6px), 1400px);
     min-height: calc(100svh - 70px);
     padding-bottom: 100px;
     padding-inline: 2rem;

@@ -1,8 +1,3 @@
-// import { createClient } from '@supabase/supabase-js'
-import { createSupabaseServerClient } from '@supabase/auth-helpers-sveltekit'
-
-// import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public'
-// export const supabase = createClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY)
 import { customAlphabet } from 'nanoid'
 
 
@@ -88,3 +83,10 @@ export async function authCheck(supabase, session, roles) {
 
 }
 
+export function replaceSpaceWithDash(string) {
+    return string.replace(/[\s\/]+/g, '-').toLowerCase()
+}
+
+export function escapeRegex(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}

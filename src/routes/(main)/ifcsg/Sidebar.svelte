@@ -11,6 +11,7 @@ $: $ifcData, mutateData();
 $: $page, updatePageData();
 
 const dispatch = createEventDispatcher();
+
 onMount(() => {
     for (const [key, obj] of Object.entries(list)) {
         if (key == $page.params.entity) {
@@ -382,8 +383,6 @@ function filter_and_updateURL(url) {
     .no_result {
         font-size: 0.875rem;
         padding: 0.5rem 0rem;
-        // background-color: $bg-alt;
-        // width: fit-content;
         border-radius: 0.25rem;
     }
 }

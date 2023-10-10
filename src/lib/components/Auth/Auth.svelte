@@ -167,7 +167,11 @@ onMount(() => {
 
             <button class="alt buttonWithIcon" on:click={signInWithEmail}>
                 <div class="icon">
-                    <Icon icon="carbon:email" width="20" />
+                    {#if !awaiting}
+                        <Icon icon="carbon:email" width="20" />
+                    {:else}
+                        <Icon icon="line-md:loading-twotone-loop" width="20" />
+                    {/if}
                 </div>
                 <span>Log in</span>
             </button>

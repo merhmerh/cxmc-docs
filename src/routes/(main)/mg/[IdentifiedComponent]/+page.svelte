@@ -3,11 +3,15 @@ import Icon from "@iconify/svelte";
 import { mg_comp } from "../mg.store";
 import { page } from "$app/stores";
 import { theme } from "$comp/theme.store";
-import { fly } from "svelte/transition";
+import { replaceSpaceWithDash } from "$fn/helper";
+import ModellingGuide from "./ModellingGuide.svelte";
 
-// export let data;
+export let data;
 let mg_data = {};
-let prop_selected;
+let prop_selected, isEditing, editor;
+
+const role = data.session.user.user_metadata.role || null;
+const isEditor = role !== "reader" && role !== null;
 
 $: $page, update();
 
@@ -15,13 +19,13 @@ async function update() {
     const IdentifiedComponent = $page.params.IdentifiedComponent;
 
     if (mg_data.IdentifiedComponent) {
-        if (mg_data.IdentifiedComponent.replace(/\s/g, "-").toLowerCase() === IdentifiedComponent) {
+        if (replaceSpaceWithDash(mg_data.IdentifiedComponent) === IdentifiedComponent) {
             prop_selected = $page.url.hash.replace("#", "");
             return;
         }
     }
 
-    mg_data = $mg_comp.find((obj) => obj.IdentifiedComponent.replace(/\s/g, "-").toLowerCase() === IdentifiedComponent);
+    mg_data = $mg_comp.find((obj) => replaceSpaceWithDash(obj.IdentifiedComponent) === IdentifiedComponent);
 
     const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}`;
     const resp = await fetch(url);
@@ -71,11 +75,51 @@ async function update() {
         </table>
     </div>
 
-    <h3>
+    <h3 id="modelling-guide" class="modellingGuide__header">
         <a href="{$page.url.origin}{$page.url.pathname}#modelling-guide">Modelling Guide</a>
+        <div class="buttonGroup">
+            {#if isEditor}
+                {#if isEditing}
+                    <button
+                        on:click={() => {
+                            isEditing = false;
+                            editor.showViewer();
+                        }}>
+                        <span>Cancel</span>
+                    </button>
+                    <button
+                        on:click={() => {
+                            editor.save();
+                        }}>
+                        <div class="icon"><Icon icon="material-symbols:save" width={16} /></div>
+                        <span>Save</span>
+                    </button>
+                {:else}
+                    <button
+                        on:click={() => {
+                            isEditing = true;
+                            editor.showEditor();
+                        }}>
+                        <div class="icon"><Icon icon="ic:baseline-edit" width={14} /></div>
+                        <span> Edit Guide</span>
+                    </button>
+                {/if}
+            {/if}
+        </div>
     </h3>
 
-    <h3>
+    <div class="modellingGuide__container">
+        {#key mg_data.IdentifiedComponent}
+            <ModellingGuide
+                bind:this={editor}
+                IdentifiedComponent={mg_data.IdentifiedComponent}
+                on:save={() => {
+                    isEditing = false;
+                }} />
+        {/key}
+    </div>
+
+    <h3 id="modelling-representation">
         <a href="{$page.url.origin}{$page.url.pathname}#modelling-representation">Modelling Representation </a>
     </h3>
     <div class="table_wrapper">
@@ -94,7 +138,7 @@ async function update() {
         </table>
     </div>
 
-    <h3><a href="{$page.url.origin}{$page.url.pathname}#ifc-data">IFC Data</a></h3>
+    <h3 id="ifc-data"><a href="{$page.url.origin}{$page.url.pathname}#ifc-data">IFC Data</a></h3>
 
     {#if !mg_data.prop}
         Loading...
@@ -291,9 +335,6 @@ h3 {
                             text-decoration: none;
                             color: inherit;
                         }
-                        &:hover {
-                            // outline: 2px solid $url;
-                        }
                     }
                 }
             }
@@ -367,6 +408,24 @@ h3 {
             font-size: 1.25rem;
             font-weight: 600;
             margin: 0;
+        }
+    }
+}
+
+.modellingGuide__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .buttonGroup {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        button {
+            min-width: 80px;
+            font-size: 0.875rem;
+            padding: 0.5rem 0.5rem;
+            border-radius: 0.5rem;
+            gap: 0.5rem;
         }
     }
 }

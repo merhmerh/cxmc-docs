@@ -461,6 +461,20 @@ textarea {
     @include flex-center;
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+    // appearance: none;
+    // display: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    // margin: 4px;
+    // margin-left: 0.4em;
+    background-color: var(--accent);
+    -webkit-mask-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" viewBox="0 0 24 24"%3E%3Cpath fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z"%2F%3E%3C%2Fsvg%3E');
+    mask-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="20" height="20" viewBox="0 0 24 24"%3E%3Cpath fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z"%2F%3E%3C%2Fsvg%3E');
+    cursor: pointer;
+}
+
 .inputBox {
     font-family: inherit;
     font-size: inherit;
@@ -721,6 +735,7 @@ table {
     margin-top: 1rem;
     overflow-y: hidden;
     overflow-x: auto;
+    padding-bottom: 4px;
     @media screen and (max-width: $mobile) {
         width: 100%;
     }
@@ -747,4 +762,42 @@ table {
 
 .notify__card {
     box-shadow: 0px 2px 5px color-mix(in srgb, #000 12%, transparent);
+}
+
+.toastui-editor-defaultUI {
+    font-family: var(--font);
+    overflow: hidden;
+    border-radius: 0.25rem !important;
+    border-color: var(--mono-100) !important;
+    .toastui-editor-md-tab-container {
+        background-color: var(--bg-alt) !important;
+    }
+    .toastui-editor-defaultUI-toolbar {
+        background-color: var(--bg-alt) !important;
+        .toastui-editor-toolbar-group {
+            button {
+                border: 1px solid var(--bg-alt);
+                &:hover {
+                    background-color: var(--bg-s);
+                }
+            }
+        }
+    }
+}
+
+.viewer {
+    div.image {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 4px;
+        img {
+            padding: 1rem;
+            background-color: white;
+            border-radius: 0.25rem;
+        }
+        .caption {
+            font-size: 0.875rem;
+        }
+    }
 }
