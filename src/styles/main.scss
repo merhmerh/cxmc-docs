@@ -786,6 +786,9 @@ table {
 }
 
 .viewer {
+    p {
+        margin-block: 12px;
+    }
     div.image {
         text-align: center;
         display: grid;
@@ -795,9 +798,11 @@ table {
             padding: 1rem;
             background-color: white;
             border-radius: 0.25rem;
+            margin-inline: auto;
         }
         .caption {
             font-size: 0.875rem;
+            color: var(--mono);
         }
     }
 }

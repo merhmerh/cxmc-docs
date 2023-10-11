@@ -1,5 +1,7 @@
 import { customAlphabet } from 'nanoid'
-
+import relativeTime from 'dayjs/plugin/relativeTime';
+import dayjs from 'dayjs'
+dayjs.extend(relativeTime);
 
 export function timeout(ms) {
     return new Promise((resolve) => {
@@ -14,6 +16,17 @@ export const uuid = customAlphabet(alphabet, 20);
 
 export function capitalizeFirstCharacter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+export function fromNow(dateString) {
+    const date = new Date(dateString);
+    if (isNaN(date)) {
+        return '-'
+
+    } else {
+        return dayjs(date).fromNow();
+    }
+
 }
 
 export function isValidEmail(email) {

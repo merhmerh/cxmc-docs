@@ -80,14 +80,16 @@ function handleKeyDown(e) {
     {#if list}
         <div class="scrollable">
             {#each list as { IdentifiedComponent }}
-                <a
-                    href="/mg/{replaceSpaceWithDash(IdentifiedComponent)}"
-                    class:selected={$page.params.IdentifiedComponent == replaceSpaceWithDash(IdentifiedComponent)}
-                    on:click={() => {
-                        dispatch("onNavigate");
-                    }}>
-                    {IdentifiedComponent}
-                </a>
+                <div class="item">
+                    <a
+                        href="/mg/{replaceSpaceWithDash(IdentifiedComponent)}"
+                        class:selected={$page.params.IdentifiedComponent == replaceSpaceWithDash(IdentifiedComponent)}
+                        on:click={() => {
+                            dispatch("onNavigate");
+                        }}>
+                        <span>{IdentifiedComponent}</span>
+                    </a>
+                </div>
             {/each}
             {#if list.length == 0}
                 <span class="no_result">No result found for '{searchString}'</span>
@@ -117,11 +119,10 @@ function handleKeyDown(e) {
         padding-right: 0.5rem;
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
         scrollbar-gutter: stable;
         overflow-y: auto;
         padding-bottom: 6rem;
-
+        // gap: 0.5rem;
         a {
             font-size: 1rem;
             justify-content: space-between;
@@ -131,14 +132,17 @@ function handleKeyDown(e) {
             text-decoration: none;
             color: var(--main);
             transition: all 0.3s;
-            background-color: var(--bg-s);
             border-radius: 0.5rem;
             font-size: 0.875rem;
+            background-color: var(--bg-s);
+            border: 4px solid var(--bg-p);
             &:hover {
                 color: $url;
             }
             &:hover {
                 background-color: $bg-alt;
+            }
+            span {
             }
             &.selected {
                 background-color: var(--accent);

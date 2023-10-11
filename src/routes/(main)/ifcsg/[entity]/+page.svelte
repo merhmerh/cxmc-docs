@@ -6,7 +6,7 @@ import { theme } from "$comp/theme.store";
 import { notify } from "merh-forge-ui";
 import { ifcData } from "../ifcsg.store";
 import { page } from "$app/stores";
-import { timeout } from "$fn/helper";
+import { timeout, replaceSpaceWithDash } from "$fn/helper";
 import Update from "./Update.svelte";
 
 let ifc = $ifcData.filter((x) => x.entity == data.entity);
@@ -118,11 +118,17 @@ function init() {
     </div>
 {/if}
 
-{#each ifc.entries() as [i, { entity, predefinedType, objectType, pset, status, key: itemKey }]}
+{#each ifc.entries() as [i, { entity, predefinedType, objectType, pset, status, identifiedComponent, key: itemKey }]}
     <div class="card" class:invalid={!status}>
         {#if !status}
             <div class="alert">This component have been removed or not in used.</div>
         {/if}
+
+        <div class="field">
+            <a style="font-weight:600; text-decoration:none" href="/mg/{replaceSpaceWithDash(identifiedComponent)}"
+                >{identifiedComponent}</a>
+        </div>
+        <div></div>
 
         <div class="field">
             IfcEntity:

@@ -47,6 +47,9 @@ for (const item of arr) {
     const gateway = []
     const regex = new RegExp(`^${IC}$`, "i")
     for (const { fields } of rule) {
+        if (!fields["Identified Components"]) {
+            continue;
+        }
         const rule_ics = fields["Identified Components"].split(';').map(c => c.trim())
         const match = rule_ics.some(x => regex.test(x))
 
@@ -56,10 +59,12 @@ for (const item of arr) {
         if (!fields.Chapter) continue;
         const chapter = fields.Chapter[0]
         const clause = fields["Regulatory Requirement"][0]
+        const code = fields["Codes and Standards"][0]
+        const clauseNumber = fields["Clause Number"] ? fields["Clause Number"][0] : ""
 
         let agencyObject = gateway.find(obj => obj.Agency == agency)
         if (!agencyObject) {
-            agencyObject = { Agency: agency, Requirement: [{ Chapter: chapter, Clause: [clause] }] }
+            agencyObject = { Agency: agency, Requirement: [{ Code: code, Chapter: chapter, ClauseNumber: clauseNumber, Clause: [clause] }] }
             gateway.push(agencyObject)
             continue;
         }

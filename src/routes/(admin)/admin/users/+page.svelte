@@ -4,7 +4,7 @@ export let data;
 import { theme } from "$comp/theme.store";
 import { Modal, Select, Popover, notify, Tooltip } from "merh-forge-ui";
 import roleOperations from "./role.json";
-import { capitalizeFirstCharacter, timeout, isValidEmail } from "$fn/helper";
+import { capitalizeFirstCharacter, timeout, isValidEmail, fromNow } from "$fn/helper";
 import dayjs from "dayjs";
 import { onMount } from "svelte";
 import { fly } from "svelte/transition";
@@ -417,7 +417,7 @@ async function verifyEmail() {
                     <th><div>Referral</div></th>
                     <th><div>Status</div></th>
                     <th><div>Role</div></th>
-                    <th><div>Created</div></th>
+                    <th><div>Last log in</div></th>
                     <th><div>Verified</div></th>
                     <th><div>User ID</div></th>
 
@@ -492,7 +492,9 @@ async function verifyEmail() {
                             </td>
 
                             <!-- Created -->
-                            <td><div>{dayjs(new Date(user.created_at)).format("DD MMM YYYY HH:MM")}</div></td>
+                            <!-- <td><div>{dayjs(new Date(user.last_sign_in_at)).format("DD MMM YYYY HH:MM")}</div></td> -->
+
+                            <td><div>{fromNow(new Date(user.last_sign_in_at))}</div></td>
 
                             <td
                                 ><div>
