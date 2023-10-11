@@ -206,7 +206,7 @@ function init() {
                                             <button
                                                 class="none noHover tblPset__propName__name"
                                                 on:click={async (e) => {
-                                                    navigator.clipboard.writeText(obj.PropertyName);
+                                                    navigator.clipboard.writeText(obj.propertyName);
                                                     notify.add("Copied to clipboard", { duration: 1000 });
                                                     const range = document.createRange();
                                                     range.selectNodeContents(e.target);

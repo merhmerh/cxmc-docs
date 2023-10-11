@@ -66,7 +66,8 @@ function resetFilter() {
                 textarea.setSelectionRange(0, textarea.value.length);
                 textarea.focus();
                 notify.add("Copied SpaceName Enums");
-                modal.close();
+                await navigator.clipboard.writeText(clipboard);
+                // modal.close();
             }}>Copy</button>
     </div>
 </Modal>
@@ -80,7 +81,7 @@ function resetFilter() {
             bind:this={searchbar}
             on:input={filter}
             class="search"
-            type="text"
+            type="search"
             placeholder="Search by space name or occupancy type" />
         <div class="kbs">
             <code>Ctrl</code>
@@ -93,8 +94,10 @@ function resetFilter() {
         on:click={() => {
             const arr = [...new Set(spaces.map((x) => x.spaceName))];
             const str = JSON.stringify(arr).replace(/\",\"/g, '", "');
-            clipboard = JSON.stringify(arr, null, 2);
-            navigator.clipboard.writeText(JSON.stringify(arr, null, 2));
+            clipboard = str
+                .toString()
+                .replace(/[\"\[\]]/g, "")
+                .replace(/\|/g, ",");
             modal.open();
         }}>
         Get Enums
