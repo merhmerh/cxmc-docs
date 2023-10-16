@@ -5,7 +5,6 @@ import { authCheck } from '$fn/helper'
 export async function PUT({ request, locals: { supabase, getSession } }) {
     const session = await getSession()
     const isValidUser = await authCheck(supabase, session, '!reader')
-    console.log(isValidUser);
     if (!isValidUser) {
         return json({ error: { code: 400, message: "You do not have permission" } })
     }

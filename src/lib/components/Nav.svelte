@@ -8,7 +8,7 @@ const navList = [
     { href: "/ifcsg", name: "IFC SG" },
     { href: "/spacename/all-spaces", name: "SpaceName" },
     { href: "/area-requirement", name: "Area Requirement" },
-    { href: "/mg", name: "Modelling Guide" },
+    { href: "/identified-component", name: "Identified Component" },
 ];
 </script>
 

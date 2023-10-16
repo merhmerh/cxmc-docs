@@ -125,8 +125,9 @@ function init() {
         {/if}
 
         <div class="field">
-            <a style="font-weight:600; text-decoration:none" href="/mg/{replaceSpaceWithDash(identifiedComponent)}"
-                >{identifiedComponent}</a>
+            <a
+                style="font-weight:600; text-decoration:none"
+                href="/identified-component/{replaceSpaceWithDash(identifiedComponent)}">{identifiedComponent}</a>
         </div>
         <div></div>
 

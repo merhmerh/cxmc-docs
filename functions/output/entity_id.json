@@ -648,18 +648,7 @@
         "recg6v7RwpOiEzJRY",
         "recX3jE7FZGlNuoXv",
         "rec5YVJvtqJHnEas4",
-        "recUVwZVH49uCNYC4",
-        "reczXNKvM1G4JbOLv",
-        "recpK6XPB0jeFwUcF",
-        "recYGPWVWQ4hARtQt",
-        "recuIoUWWs9ClXLlK",
-        "rech0aoyrFW3d4Jpi",
-        "recLgFaPahWgSzrmF",
-        "recVzTwQSi5IELL8p",
-        "recYTV7akVv8Bt77p",
-        "recfKQuQbKxw5iteZ",
-        "rec8ngmY4Hhy6lMZ7",
-        "recx18Y4iHnTt8H0g"
+        "recUVwZVH49uCNYC4"
       ],
       "Identified Components": [
         "Ladder",
@@ -669,18 +658,7 @@
         "LADDER*",
         "CURVED_RUN_STAIR",
         "STRAIGHT_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR",
-        "TWO_QUARTER_TURN_STAIR"
+        "SPIRAL_STAIR"
       ],
       "IFC KEY": "IFCSTA_078",
       "IFC4 Object Types": [
@@ -3775,11 +3753,6 @@
         "STRAIGHT_RUN_RAMP"
       ],
       "IFC KEY": "IFCRAM_066",
-      "IFC4 Object Types": [
-        "CURVEDRAMP",
-        "FLAREDKERBRAMP",
-        "KERBRAMP"
-      ],
       "IFC4 Predefined Types": [
         "STRAIGHT_RUN_RAMP",
         "NOTDEFINED"

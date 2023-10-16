@@ -748,6 +748,10 @@ table {
     }
 }
 
+.select__container > .select {
+    border-color: var(--mono-200) !important;
+}
+
 .modal {
     display: flex;
     flex-direction: column;
@@ -757,6 +761,30 @@ table {
     h3,
     h4 {
         margin: 0;
+    }
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        label {
+            font-size: 0.875rem;
+        }
+        input {
+        }
+        span.info {
+            font-size: 0.75rem;
+            color: var(--mono);
+        }
+    }
+}
+.buttonGroup {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+    button {
+        min-width: 80px;
+        font-size: 0.875rem;
+        // padding-inline: 1.5rem;
     }
 }
 

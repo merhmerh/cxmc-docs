@@ -11,17 +11,19 @@ for (const item of comp) {
         continue;
     }
 
+    if (field.Beta !== true) {
+        continue;
+    }
+
     ics.push(item.fields["Identified Component"])
-    // const data = {
-    // IdentifiedComponent: item.fields["Identified Component"],
-    // }
-    // arr.push(data)
 }
 
 const unique_ic = [...new Set(ics)]
 const arr = unique_ic.map(x => x = { IdentifiedComponent: x })
 
 const t1 = performance.now()
+
+
 for (const item of arr) {
     const IC = item.IdentifiedComponent
     const found = comp.filter(x => x.fields["Identified Component"] == IC)
