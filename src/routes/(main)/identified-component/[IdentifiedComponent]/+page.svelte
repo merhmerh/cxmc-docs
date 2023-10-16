@@ -31,12 +31,13 @@ async function update() {
     if (mg_data.IdentifiedComponent) {
         if (replaceSpaceWithDash(mg_data.IdentifiedComponent) === IdentifiedComponent) {
             prop_selected = $page.url.hash.replace("#", "");
-            return;
+            // return;
         }
     }
-
+    console.log("test");
     const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}`;
     const resp = await fetch(url);
+    console.log(resp);
     mg_data.prop = await resp.json();
 }
 </script>
