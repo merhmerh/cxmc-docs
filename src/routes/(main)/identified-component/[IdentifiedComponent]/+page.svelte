@@ -3,17 +3,23 @@ import Icon from "@iconify/svelte";
 import { mg_comp } from "../mg.store";
 import { page } from "$app/stores";
 import { theme } from "$comp/theme.store";
-import { replaceSpaceWithDash } from "$fn/helper";
+import { timeout, replaceSpaceWithDash, isObjectEmpty } from "$fn/helper";
+import { beta } from "$routes/main.store";
 import ModellingGuide from "./ModellingGuide.svelte";
 
 export let data;
+let original;
 let mg_data = {};
 let prop_selected, isEditing, editor, notFound;
-
 const role = data.session.user.user_metadata.role || null;
 const isEditor = role !== "reader" && role !== null;
 
 $: $page, update();
+$: {
+    $beta;
+    original;
+    toggleBetaContent();
+}
 
 async function update() {
     notFound = false;
@@ -34,11 +40,36 @@ async function update() {
             // return;
         }
     }
-    console.log("test");
-    const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}`;
+    const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}&beta=${$beta}`;
     const resp = await fetch(url);
-    console.log(resp);
     mg_data.prop = await resp.json();
+    original = JSON.parse(JSON.stringify(mg_data));
+}
+
+function toggleBetaContent() {
+    if (original) {
+        if ($beta) {
+            mg_data.prop = mg_data.prop.filter((x) => x.beta);
+            for (const item of mg_data.prop) {
+                if (!item.pset) {
+                    continue;
+                }
+                for (const [pset, props] of Object.entries(item.pset)) {
+                    item.pset[pset] = props.filter((obj) => obj.beta);
+
+                    if (item.pset[pset].length == 0) {
+                        delete item.pset[pset];
+                    }
+                }
+
+                if (isObjectEmpty(item.pset)) {
+                    delete item.pset;
+                }
+            }
+        } else {
+            mg_data = structuredClone(original);
+        }
+    }
 }
 </script>
 
@@ -52,13 +83,18 @@ async function update() {
     </h3>
 
     <div class="table_wrapper">
+        {#if !mg_data.gateway.length}
+            <div class="errorBox">No gateway found for this Identified Component</div>
+        {/if}
+
         <table class="{$theme} noActionColumn noHover gateway">
             <thead>
                 <tr>
-                    <th colspan="3"><div>Design Gateway</div></th>
+                    <th colspan="4"><div>Design Gateway</div></th>
                 </tr>
                 <tr>
                     <th><div>Agency</div></th>
+                    <th><div>Code Book</div></th>
                     <th><div>Chapter</div></th>
                     <th><div>Clause</div></th>
                 </tr>
@@ -68,9 +104,14 @@ async function update() {
                     <tr>
                         <td class="agency"><div>{gateway.Agency}</div></td>
                         {#each gateway.Requirement as req}
+                            <td class="chapter"><div><span>{req.Code}</span></div></td>
                             <td class="chapter"><div><span>{req.Chapter}</span></div></td>
+
                             <td class="clause"
                                 ><div>
+                                    {#if req.ClauseNumber}
+                                        <span>{req.ClauseNumber}</span>
+                                    {/if}
                                     <span>{req.Clause[0] || ""}</span>
                                     {#if req.Clause.length - 1 !== 0}
                                         <span class="more">and {req.Clause.length - 1} more clauses</span>
@@ -78,9 +119,6 @@ async function update() {
                                 </div></td>
                         {/each}
                     </tr>
-                    <!-- {#each req.clause as clause}
-                            <td><div>{clause}</div></td>
-                        {/each} -->
                 {/each}
             </tbody>
         </table>
@@ -175,7 +213,7 @@ async function update() {
             </table>
         </div>
 
-        {#each mg_data.prop as { entity, predefinedType, objectType, pset, status, componentName }}
+        {#each mg_data.prop as { entity, predefinedType, objectType, pset, componentName }}
             <div id={componentName} class="card" class:anchored={prop_selected == componentName}>
                 <div class="table_wrapper">
                     <table class="{$theme} noActionColumn noHover horizontal ifcData">
@@ -209,47 +247,47 @@ async function update() {
                         <Icon icon="ic:round-expand-more" height="24" />
                     </button>
                 {/if}
-                {#if prop_selected === componentName}
-                    {#if pset}
-                        {#each Object.entries(pset) as [psetName, value]}
-                            <div class="table_wrapper">
-                                <table class="{$theme} noActionColumn noHover ifcPsetData">
-                                    <thead>
-                                        <tr class="thead__tr__pset">
-                                            <th colspan="5"><div>{psetName}</div></th>
+                <!-- {#if $beta || prop_selected === componentName} -->
+                {#if pset}
+                    {#each Object.entries(pset) as [psetName, value]}
+                        <div class="table_wrapper">
+                            <table class="{$theme} noActionColumn noHover ifcPsetData">
+                                <thead>
+                                    <tr class="thead__tr__pset">
+                                        <th colspan="5"><div>{psetName}</div></th>
+                                    </tr>
+                                    <tr class="thead__tr__header">
+                                        <th><div>PropertyName</div></th>
+                                        <th><div>Data Type</div></th>
+                                        <th><div>IfcMeasureResource</div></th>
+                                        <th><div>Enumeration</div></th>
+                                        <th><div>Description</div></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {#each Object.entries(value).sort() as [key, obj]}
+                                        <tr>
+                                            <td class="propName"><div>{obj.propertyName}</div></td>
+                                            <td class="dataType"><div>{obj.dataType}</div></td>
+                                            <td class="measure"><div>{obj.measureResource || ""}</div></td>
+                                            <td class="enums">
+                                                <div>
+                                                    {#if obj.Enums}
+                                                        {#each obj.Enums as item}
+                                                            <code>{item}</code>
+                                                        {/each}
+                                                    {/if}
+                                                </div>
+                                            </td>
+                                            <td class="description"><div>{obj.Description || ""}</div></td>
                                         </tr>
-                                        <tr class="thead__tr__header">
-                                            <th><div>PropertyName</div></th>
-                                            <th><div>Data Type</div></th>
-                                            <th><div>IfcMeasureResource</div></th>
-                                            <th><div>Enumeration</div></th>
-                                            <th><div>Description</div></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {#each Object.entries(value).sort() as [key, obj]}
-                                            <tr>
-                                                <td class="propName"><div>{obj.propertyName}</div></td>
-                                                <td class="dataType"><div>{obj.dataType}</div></td>
-                                                <td class="measure"><div>{obj.measureResource || ""}</div></td>
-                                                <td class="enums">
-                                                    <div>
-                                                        {#if obj.Enums}
-                                                            {#each obj.Enums as item}
-                                                                <code>{item}</code>
-                                                            {/each}
-                                                        {/if}
-                                                    </div>
-                                                </td>
-                                                <td class="description"><div>{obj.Description || ""}</div></td>
-                                            </tr>
-                                        {/each}
-                                    </tbody>
-                                </table>
-                            </div>
-                        {/each}
-                    {/if}
+                                    {/each}
+                                </tbody>
+                            </table>
+                        </div>
+                    {/each}
                 {/if}
+                <!-- {/if} -->
             </div>
         {/each}
     {/if}

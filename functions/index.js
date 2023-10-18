@@ -50,7 +50,7 @@ exports.scheduleSyncAsia = functions
 // --- http request ---  //
 
 const opts = {
-    cors: ["cxmc-ifcsg.netlify.app/", "localhost:5173"],
+    cors: ["cxmc-ifcsg.netlify.app/", "cx.builtsearch.com", "localhost:5173"],
     region: "asia-southeast1"
 }
 
@@ -69,9 +69,9 @@ exports.dataSync = onRequest(opts, async (req, res) => {
 
     const resp = await uploadToDB(checksum, result)
 
-    await reset_IFCSG_Database(resp)
+    const ifcsg = await reset_IFCSG_Database(resp)
     logger.log('--end http invoke--')
-    res.status(200).send(resp)
+    res.status(200).send(ifcsg)
 })
 
 async function getFromAirtable() {
@@ -236,7 +236,7 @@ async function reset_IFCSG_Database(data) {
 
     const { data: properties, error: propError } = await supabase.from('property').select()
 
-    const pset = sanitizePset(ifcsg.pset);
+    const pset = sanitizePset(ifcsg.comp, ifcsg.pset);
     const rawIfcData = sanitizeAirtableComp(ifcsg.comp, pset);
 
     for (const [index, item] of rawIfcData.entries()) {
@@ -278,7 +278,7 @@ async function reset_IFCSG_Database(data) {
     return result
 }
 
-function sanitizePset(pset) {
+function sanitizePset(comp, pset) {
     const simplifiedPset = {};
     pset.forEach((row) => {
         const propsString = row.fields["Properties [Data Type]"];
@@ -308,7 +308,51 @@ function sanitizePset(pset) {
             }
         });
     });
-    return simplifiedPset;
+
+    const betaProps = []
+    for (const item of comp) {
+        const f = item.fields
+        const betaPropString = f['Beta Properties [Data Type]']
+        const props = [];
+        if (betaPropString) {
+            const arr = betaPropString.split(";");
+            for (const value of arr) {
+                const trimmed = value.trim().replace("\n", "");
+                const propertyName = trimmed.replace(/(.*?)\[(.*?)\]/, "$1").trim();
+                const dataType = trimmed.replace(/(.*?)\[(.*?)\]/, "$2").trim();
+                props.push({ propertyName, dataType });
+            }
+        }
+
+        let subtype = f["IFC4 Entity.Sub-Type"];
+
+        if (Array.isArray(subtype)) {
+            subtype = subtype[0];
+        }
+
+        if (props.length) {
+            betaProps.push({ subtype, props })
+        }
+    }
+
+    const clonedPset = JSON.parse(JSON.stringify(simplifiedPset))
+
+    for (const { subtype, props: betaPropsArray } of betaProps) {
+        const entity = subtype.split(/\./)[0]
+        if (clonedPset[entity]) {
+            let betaPropName = betaPropsArray.map(x => x.propertyName)
+
+            for (const [pset, props] of Object.entries(clonedPset[entity])) {
+                for (const [index, prop] of props.entries()) {
+                    if (betaPropName.includes(prop.propertyName)) {
+                        clonedPset[entity][pset][index].beta = true
+                    }
+                }
+            }
+        }
+    }
+
+    return clonedPset;
 }
 
 function sanitizeAirtableComp(obj, pset) {
@@ -331,7 +375,12 @@ function sanitizeAirtableComp(obj, pset) {
         const objectType =
             subtype.charAt(subtype.length - 1) == "*" ? subtype.replace(entity, "").replace(/^\.(.*?)\*$/, "$1") : null;
 
-        const componentName = subtype.replace(entity, "").replace(/\./g, "").replace(/\*/g, "");
+        let componentName = subtype.replace(entity, "").replace(/\./g, "").replace(/\*/g, "");
+        if (!predefinedType && !objectType) {
+            componentName = entity.replace(/^ifc/i, "").toUpperCase()
+            console.log(componentName);
+        }
+
         const key = `${entity}:${predefinedType}:${objectType}`;
 
         const status = (() => {
@@ -345,6 +394,10 @@ function sanitizeAirtableComp(obj, pset) {
             }
         })();
 
+        if (!status) {
+            continue;
+        }
+
         if (!ifc[key]) {
             ifc[key] = {
                 identifiedComponent: item["Identified Component"],
@@ -354,6 +407,7 @@ function sanitizeAirtableComp(obj, pset) {
                 pset: {},
                 status: status,
                 componentName,
+                beta: item["Beta"] ? true : false
             };
         }
 
@@ -370,6 +424,7 @@ function sanitizeAirtableComp(obj, pset) {
                 props.push({ propertyName, dataType, measureResource });
             }
         }
+
         if (ifc[key].props) {
             ifc[key].props.push(props);
         } else {

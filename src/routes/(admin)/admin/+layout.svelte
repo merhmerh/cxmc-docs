@@ -21,9 +21,10 @@ import { Notify } from "merh-forge-ui";
 }
 
 .admin__main {
-    margin-top: 2rem;
+    padding-top: 2rem;
     margin-inline: auto;
     width: 100%;
+    height: 100svh;
     max-width: 1400px;
     padding-inline: 2rem;
     display: flex;

@@ -11,19 +11,30 @@ for (const item of comp) {
         continue;
     }
 
-    if (field.Beta !== true) {
-        continue;
-    }
+    // if (field.Beta !== true) {
+    //     continue;
+    // }
 
-    ics.push(item.fields["Identified Component"])
+    ics.push(field["Identified Component"])
 }
 
 const unique_ic = [...new Set(ics)]
 const arr = unique_ic.map(x => x = { IdentifiedComponent: x })
 
+
+for (const item of comp) {
+    const field = item.fields
+    for (const ic of arr) {
+        if (field["Identified Component"] == ic.IdentifiedComponent && field.Beta == true) {
+            ic.Beta = true
+        } else if (!ic.Beta) {
+            ic.Beta = false
+        }
+    }
+}
+
+
 const t1 = performance.now()
-
-
 for (const item of arr) {
     const IC = item.IdentifiedComponent
     const found = comp.filter(x => x.fields["Identified Component"] == IC)
@@ -54,6 +65,10 @@ for (const item of arr) {
         }
         const rule_ics = fields["Identified Components"].split(';').map(c => c.trim())
         const match = rule_ics.some(x => regex.test(x))
+
+        if (fields["Status"] !== 'Finalised') {
+            continue;
+        }
 
         if (!match) continue;
 
@@ -109,6 +124,7 @@ for (const item of arr) {
 const t2 = performance.now()
 const elapsed = t2 - t1
 console.log(elapsed.toFixed(2), 'ms');
+
 
 
 console.log(arr.length);

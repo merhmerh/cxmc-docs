@@ -45,10 +45,10 @@ async function getData(tableId, fileName) {
 async function main() {
     console.log('start');
     await Promise.all([
-        await getData(pset_id, "pset_id"),
-        await getData(comp_id, "comp_id"),
-        await getData(rule_id, "rule_id"),
-        await getData(entity_id, "entity_id"),
+        getData(pset_id, "pset_id"),
+        getData(comp_id, "comp_id"),
+        getData(rule_id, "rule_id"),
+        getData(entity_id, "entity_id"),
     ])
     console.log('end');
 }

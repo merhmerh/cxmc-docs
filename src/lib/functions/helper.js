@@ -52,6 +52,15 @@ export function debounce(func, delay) {
     };
 }
 
+export function isObjectEmpty(obj) {
+    for (const key in obj) {
+        if (obj.hasOwnProperty(key)) {
+            return false;
+        }
+    }
+    return true;
+}
+
 export function formatTimeHMS(sec) {
     const hours = Math.floor(sec / 3600);
     const minutes = Math.floor((sec % 3600) / 60);

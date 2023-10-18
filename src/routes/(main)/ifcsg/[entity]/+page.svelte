@@ -11,6 +11,7 @@ import Update from "./Update.svelte";
 
 let ifc = $ifcData.filter((x) => x.entity == data.entity);
 
+console.log(ifc);
 const role = data.session.user.user_metadata.role || null;
 const isEditor = role !== "reader" && role !== null;
 

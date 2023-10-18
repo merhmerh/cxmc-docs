@@ -1,7 +1,9 @@
 <script>
 import Sidebar from "./Sidebar.svelte";
+import { mg_comp } from "./mg.store";
 import { isMobile } from "$comp/device.store";
 import Icon from "@iconify/svelte";
+import { beta } from "$routes/main.store";
 
 let showMobileSidebar;
 </script>

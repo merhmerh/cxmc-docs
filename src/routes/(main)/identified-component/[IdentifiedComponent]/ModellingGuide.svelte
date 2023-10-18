@@ -6,6 +6,8 @@ import { uuid } from "$fn/helper";
 import { createEventDispatcher } from "svelte";
 import { page } from "$app/stores";
 import { decode } from "base64-arraybuffer";
+import { timeout } from "$fn/helper";
+import { fade, fly } from "svelte/transition";
 
 const dispatch = createEventDispatcher();
 
@@ -124,7 +126,6 @@ export async function save() {
 
 function renderViewerHTML() {
     if (!content.html || content.html == "<p><br></p>") {
-        console.log("!");
         return (viewerHTML = noGuideMessage);
     }
     viewerHTML = content.html.replace(/<p>(<img src.+?)<\/p>/g, `<div class="image">$1</div>`);

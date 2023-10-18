@@ -605,6 +605,8 @@ h1 {
     }
 }
 .table_wrapper {
+    overflow-y: auto;
+    padding-right: 0.25rem;
     @media screen and (max-width: $mobile) {
         width: calc(100vw - 60px - 4rem);
     }

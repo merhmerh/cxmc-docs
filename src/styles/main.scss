@@ -453,6 +453,15 @@ span.error {
     color: var(--red);
 }
 
+div.errorBox {
+    background-color: rgba($red, 0.75);
+    padding: 0.5rem;
+    color: var(--main-alt);
+    font-size: 0.875rem;
+    font-weight: 300;
+    border-radius: 0.25rem;
+}
+
 textarea {
     min-height: 100px;
 }
@@ -731,6 +740,9 @@ table {
 }
 
 .table_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     width: 100%;
     margin-top: 1rem;
     overflow-y: hidden;
@@ -769,8 +781,7 @@ table {
         label {
             font-size: 0.875rem;
         }
-        input {
-        }
+
         span.info {
             font-size: 0.75rem;
             color: var(--mono);

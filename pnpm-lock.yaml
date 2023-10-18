@@ -55,8 +55,8 @@ devDependencies:
     specifier: ^0.10.1
     version: 0.10.1
   merh-forge-ui:
-    specifier: ^0.0.24
-    version: 0.0.24(svelte@4.2.0)
+    specifier: ^0.0.25
+    version: 0.0.25(svelte@4.2.0)
   nanoid:
     specifier: ^4.0.2
     version: 4.0.2
@@ -1153,8 +1153,8 @@ packages:
   /mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
 
-  /merh-forge-ui@0.0.24(svelte@4.2.0):
-    resolution: {integrity: sha512-aTLg2hrB3cLeW0Cir929/0ZhK25X4FmUk2+ScpwuZeNFlkSHd5JwVDAdl6iTMh7mSww6sJKLz8GVn1wawFFiNA==}
+  /merh-forge-ui@0.0.25(svelte@4.2.0):
+    resolution: {integrity: sha512-mFiwgFI1uGL9HydJjbDgb8Cnq3gtWSUaxbGAH7gN6FXxknh+Q6g2ouqknxDQChjTHgNdD378m9MSsixIRRDh0g==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:

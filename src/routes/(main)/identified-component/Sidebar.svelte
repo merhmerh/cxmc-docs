@@ -3,6 +3,7 @@ import { mg_comp } from "./mg.store";
 import { isMobile } from "$comp/device.store";
 import { goto } from "$app/navigation";
 import { page } from "$app/stores";
+import { beta } from "$routes/main.store";
 import { replaceSpaceWithDash, debounce, escapeRegex } from "$fn/helper";
 import { createEventDispatcher } from "svelte";
 
@@ -10,10 +11,15 @@ const dispatch = createEventDispatcher();
 
 let input, searchString, list;
 
+$: $beta, updateList();
 $: $mg_comp, updateList();
 
 function updateList() {
-    list = $mg_comp;
+    if ($beta) {
+        list = $mg_comp.filter((x) => x.Beta == true);
+    } else {
+        list = $mg_comp;
+    }
 }
 
 function filter() {
@@ -142,8 +148,7 @@ function handleKeyDown(e) {
             &:hover {
                 background-color: $bg-alt;
             }
-            span {
-            }
+
             &.selected {
                 background-color: var(--accent);
                 color: var(--main-alt);

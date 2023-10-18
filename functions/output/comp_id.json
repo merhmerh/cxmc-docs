@@ -44,7 +44,8 @@
       "Regulatory Codes and Standards": [
         "SS550 Code of Practice for Installation Operation and Maintenance of Electric Passenger and Goods Lift"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -2194,7 +2195,8 @@
       "Regulatory Codes and Standards": [
         "Business 1 (Industrial) Handbook"
       ],
-      "IFC4 Entity.Sub-Type": "IfcSolarDevice.SOLARPANEL"
+      "IFC4 Entity.Sub-Type": "IfcSolarDevice.SOLARPANEL",
+      "Status": "To be removed"
     }
   },
   {
@@ -25044,7 +25046,8 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -32549,7 +32552,8 @@
         "1350 (Width)",
         "40000 (Width)"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -43010,7 +43014,8 @@
       "Regulatory Codes and Standards": [
         "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR",
+      "Status": "To be removed"
     }
   },
   {
@@ -52775,7 +52780,8 @@
       "Regulatory Codes and Standards": [
         "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR",
+      "Status": "To be removed"
     }
   },
   {
@@ -71413,7 +71419,8 @@
       "Actual Value (Property)": [
         "EVACUATION LIFT (LiftType)"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -77347,7 +77354,8 @@
         "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -88230,7 +88238,8 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -114649,7 +114658,8 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
+      "Status": "To be removed"
     }
   },
   {
@@ -115480,7 +115490,8 @@
         "Business 1 (Industrial) Handbook",
         "Business 2 (Industrial) Handbook"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.GOODSLIFT*"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.GOODSLIFT*",
+      "Status": "To be removed"
     }
   },
   {

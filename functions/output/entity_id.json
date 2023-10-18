@@ -3382,10 +3382,9 @@
         "Wheelchair Stair Lift"
       ],
       "IFC4 Sub Types (Beta)": [
-        "LIFT*",
         "BINLIFTER*",
         "ESCALATOR",
-        "GOODSLIFT*",
+        "LIFT*",
         "MOVINGWALKWAY"
       ],
       "IFC KEY": "IFCTRA_084",

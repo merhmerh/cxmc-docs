@@ -4,7 +4,9 @@ import Theme from "$comp/Theme.svelte";
 import Nav from "./Nav.svelte";
 import Auth from "./Auth/HeaderAuth.svelte";
 import { isMobile } from "$comp/device.store";
+import { Switch } from "merh-forge-ui";
 import { fly } from "svelte/transition";
+import { beta } from "$routes/main.store";
 
 let showMobileNav;
 </script>
@@ -31,6 +33,7 @@ let showMobileNav;
             <img src="/logo.svg" alt="" />
             <span>IFC-SG Docs</span>
         </a>
+        <Switch bind:isChecked={$beta}><strong>Beta</strong></Switch>
     </div>
 
     <div class="center" />
