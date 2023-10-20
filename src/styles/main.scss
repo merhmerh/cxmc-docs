@@ -710,6 +710,7 @@ table {
             text-align: left;
             font-size: 0.875rem;
             border-top: 0;
+            // border-right: 0;
         }
         td {
             border: 1px solid var(--table__border-color);
@@ -844,4 +845,13 @@ table {
             color: var(--mono);
         }
     }
+}
+
+.card {
+    padding: 2rem;
+    border: 1px solid var(--mono-100);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }

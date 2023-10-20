@@ -9,6 +9,7 @@ const navList = [
     { href: "/spacename/all-spaces", name: "SpaceName" },
     { href: "/area-requirement", name: "Area Requirement" },
     { href: "/identified-component", name: "Identified Component" },
+    { href: "/codes/bca", name: "Codes" },
 ];
 </script>
 
@@ -21,11 +22,6 @@ const navList = [
                 dispatch("onNavigate");
             }}>{link.name}</a>
     {/each}
-
-    <!-- <a href="/psets" class:selected={$page.url.pathname == '/psets'}>Psets</a> -->
-    <!-- <a href="/spacename/all-spaces" class:selected={$page.url.pathname == "/spacename/all-spaces"}>SpaceName</a> -->
-    <!-- <a href="/area-gfa" class:selected={$page.url.pathname == "/area-gfa"}>Area GFA</a> -->
-    <!-- <a href="/modellingguide" class:selected={$page.url.pathname == "/modellingguide"}>ModellingGuide</a> -->
 </nav>
 
 <style lang="scss">

@@ -7,7 +7,11 @@ export function initDevice() {
     checkDevice()
 }
 
-export function checkDevice() {
+export function checkDevice(e) {
+
     isMobile.set(/Mobi|Android/i.test(navigator.userAgent))
+    if (innerWidth < 600) {
+        isMobile.set(true)
+    }
 }
 

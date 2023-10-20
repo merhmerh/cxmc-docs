@@ -102,6 +102,8 @@ table {
 .special {
     display: flex;
     align-items: flex-start;
+    flex-direction: row;
+    gap: 0;
     table {
         border-collapse: collapse;
         border: 1px solid var(--mono-100);

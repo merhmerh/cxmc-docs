@@ -125,7 +125,28 @@ const t2 = performance.now()
 const elapsed = t2 - t1
 console.log(elapsed.toFixed(2), 'ms');
 
-
-
-console.log(arr.length);
 fs.writeFileSync(`./output/mg_comp.json`, JSON.stringify(arr, null, 2))
+
+
+const rules = []
+for (const { fields: f } of rule) {
+    if (f['Status'] == 'Finalised') {
+        const ic = f['Identified Components'].split(/\n/g).map(x => {
+            return x.trim().replace(/;/g, "")
+        })
+        rules.push({
+            agency: f["Agency"].join(),
+            code: f["Codes and Standards"].join(),
+            chapter: f["Chapter"].join(),
+            clauseNumber: f["Clause Number"] ? f["Clause Number"].join() : null,
+            clause: f["Regulatory Requirement"].join(),
+            ruleGroup: f["Rule Group (Batch 1)"].join(),
+            gateway: f['Gateway'].join(),
+            identifiedComponents: ic,
+        })
+    }
+}
+fs.writeFileSync('./../src/routes/(main)/codes/rules.json', JSON.stringify(rules, null, 2))
+
+
+console.log('end');
