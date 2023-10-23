@@ -1,0 +1,114 @@
+[
+  {
+    "path": "Main Section",
+    "content": [
+      {
+        "type": "header",
+        "content": "Area requirements"
+      },
+      {
+        "type": "section",
+        "content": "Foreword"
+      },
+      {
+        "type": "paragraph",
+        "content": "In the realm of the Built Industry, a wide array of Building Object types coexists, ranging from lime plaster walls to triangular steel trusses. Building Spaces exhibit similar diversity. For instance, a space designated as a Reading room (subject to fire safety requirements) might also be categorized as an Indoor Recreational room (qualifying for GFA incentives).\n\nEfforts have been made to organize Building Spaces logically through Classification systems like Uniclass and Omniclass. However, these systems are not tailored to Singapore's specific context and can potentially lead to confusion within the Built Industry.\n\nApart from its technological components, Corenet-X has an aspiration to establish a homegrown Unified Spatial Database for Singapore. This localized classification system is a work in progress. In the meantime, Area requirements serve as a temporary solution to enable Corenet-X's Collaboration Platform and Model Checker.\n\nThe Area requirements offer multiple layers to accommodate various types of Building Spaces and aid in organizing the drawings of a BIM model. Within these layers, there are containers for data, also referred to as properties. When these properties are accurately filled out, they facilitate the automatic calculation of regulatory-related information, including aggregate GFA, GFA quantum, and the total refuse output for associated refuse storage and collection facilities.\n\nOnly layers and properties relevant to the Consultant's proposal need to be submitted. For instance, if the proposal involves adding greenery on the first storey and the Sky terrace storey, Area_Landscape plans are only necessary for these two storeys. Similarly, if the proposal includes a covered linkway on the first storey, a single Area_Connectivity plan is required for that specific storey and space.\nAs a general principle, a Building Object (such as a Staircase or PlanterBox) should not need to be represented again by an Area equivalent.\nBelow are some examples of how these Areas / Layers should be verged."
+      },
+      {
+        "type": "images",
+        "content": [
+          "https://drive.google.com/uc?export=view&id=1uJlZa4tXTJUV5NgZq73hkiH_vt3GtVMf",
+          "https://drive.google.com/uc?export=view&id=1uK-dU3LsJqtVUJK_lXaP4DkmNuVgUImT"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "AREA_GFA",
+    "content": [
+      {
+        "type": "section",
+        "content": "AREA_GFA"
+      },
+      {
+        "type": "paragraph",
+        "content": "This layer is primarily for the verging of Gross Floor Area.\n\nIt informs of Development Use, such as whether a space is of Residential (Non-Landed) or Commercial or Business Park use. When paired with other properties such as Use Quantum, we are able to distinguish if a space is intended for Predominant Use or Ancillary Use.\n\nThere are other properties that describe if a space is associated to any particular Building Typology or Supporting Facility. Most importantly, the name of these spaces are triggers for automated BIM checks.\n\nOnly properties with a prefix “AGF” are relevant to this layer.\n\nAGF_DevelopmentUse must be keyed in for all areas, except for when the specific area(s) needs to be attributed to two or more Development Uses; then it should be left empty. The Model Checker will apportion these specific area(s) based on weighted average, pegged to the prescribed use quantum in the Master Plan zoning."
+      }
+    ]
+  },
+  {
+    "path": "AGF_NAME",
+    "content": [
+      {
+        "type": "section",
+        "content": "AREA_GFA : AGF_NAME"
+      },
+      {
+        "type": "paragraph",
+        "content": "The AGF_Name is a property belonging to the AREA_GFA layer. It facilitates the trigger of automated BIM checks.\nFor example, when a space is described as a “Balcony”, the following rule checks will be triggered:\n•        Continuous perimeter opening\n•        Percentage size to nett Dwelling Unit area\n•        Minimum width"
+      },
+      {
+        "type": "images",
+        "content": [
+          "https://drive.google.com/uc?export=view&id=1uLK-gd8zV3PHK9DI4UdinpKbQ64aaeBG"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "The names of spaces (AGF_Name) are categorised and filtered according to Development Use. For example, a “Cinema” can be found under Commercial use, but not Residential (Non-Landed) use.\nNames coloured in red are relevant to GFA checks. However, it is strongly recommended for every space to be named, as there are corresponding refuse output values which would help to tabulate refuse facilities needed by a development. "
+      }
+    ]
+  },
+  {
+    "path": "AREA_LANDSCAPE",
+    "content": [
+      {
+        "type": "section",
+        "content": "AREA_LANDSCAPE"
+      },
+      {
+        "type": "paragraph",
+        "content": "This layer is primarily for the verging of landscape related areas.\nIt allows types of landscaping (such as shrubs or footpaths) to be organised within greenery features, such as Sky Terraces or Communal Ground Gardens."
+      }
+    ]
+  },
+  {
+    "path": "AREA_CONNECTIVITY",
+    "content": [
+      {
+        "type": "section",
+        "content": "AREA_CONNECTIVITY"
+      },
+      {
+        "type": "paragraph",
+        "content": "This layer is primarily for the verging of connectivity related areas.\nIt facilitates the checking of pedestrian/cyclist access around and within the development. It also helps to trigger checks for public spaces, such as Privately-Owned Public Spaces (POPS) which is registered as “PublicSpaceNode” under ACN_ConnectivityType."
+      }
+    ]
+  },
+  {
+    "path": "AREA_STRATA",
+    "content": [
+      {
+        "type": "section",
+        "content": "AREA_STRATA"
+      },
+      {
+        "type": "paragraph",
+        "content": "This layer is primarily for the verging of strata related areas.\nA property key to this layer is AST_AreaType, as it helps to inform whether a space is intended to be private strata or common area. This information is then fed into checks such as Planter Boxes and GFA computation, among many others."
+      }
+    ]
+  },
+  {
+    "path": "AREA_VERIFICATION",
+    "content": [
+      {
+        "type": "section",
+        "content": "AREA_VERIFICATION"
+      },
+      {
+        "type": "paragraph",
+        "content": "This layer is intended for the manual verification of computationally-derived AREA_GFA areas, and will be retired after the Model Checker matures as a solution.\nFor example, Planter Boxes and Staircases are modelled as Building Objects. Without requiring the corresponding areas of these objects to be modelled, the Model Checker has algorithms to compute their resultant GFA. In order to verify the accuracy of these algorithms, this verification layer is necessary. (We promise that it will only be around for the first few years.)"
+      }
+    ]
+  }
+]

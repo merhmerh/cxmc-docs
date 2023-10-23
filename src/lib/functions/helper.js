@@ -109,6 +109,10 @@ export function replaceSpaceWithDash(string) {
     return string.replace(/[\s\/]+/g, '-').toLowerCase()
 }
 
+export function toURLPath(string) {
+    return replaceSpaceWithDash(string)
+}
+
 export function escapeRegex(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }

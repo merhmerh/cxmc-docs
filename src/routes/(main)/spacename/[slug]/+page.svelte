@@ -42,6 +42,7 @@ function filter(e) {
     }
     spaces = [...new Set(arr)];
 }
+
 function resetFilter() {
     return (spaces = data.spaces);
 }

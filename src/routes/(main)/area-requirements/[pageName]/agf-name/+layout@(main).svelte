@@ -2,8 +2,13 @@
 import Sidebar from "./Sidebar.svelte";
 import { isMobile } from "$comp/device.store";
 import Icon from "@iconify/svelte";
-
+import { page } from "$app/stores";
+import { goto } from "$app/navigation";
 let showMobileSidebar;
+
+export let data;
+console.log(data);
+const selectItems = [...new Set(data.areaNames.map((x) => x[2]))];
 </script>
 
 {#if $isMobile}
@@ -18,14 +23,40 @@ let showMobileSidebar;
     </div>
 {/if}
 
-<div class="sidebar" class:m__show={showMobileSidebar}>
+<div class="aside" class:m__show={showMobileSidebar}>
     <Sidebar
-        on:onNavigate={() => {
+        data={selectItems}
+        on:onNavigate={(e) => {
             showMobileSidebar = false;
-        }}></Sidebar>
+            const q = encodeURIComponent(e.detail.trim());
+            const url = $page.url.origin + $page.url.pathname + `?q=${q}`;
+            goto(url);
+        }} />
 </div>
 
-<div class="content">
+<div class="content area-requirements">
+    {#each data.pageContent.content as { type, content }}
+        {#if type == "section"}
+            <h2>{content}</h2>
+        {/if}
+
+        {#if type == "paragraph"}
+            <div class="paragraph">
+                <p>{content}</p>
+            </div>
+        {/if}
+
+        {#if type == "images"}
+            <div class="image_container {content.length == 1 ? 'single' : ''}">
+                {#each content as image}
+                    <div class="img-container">
+                        <img src={image} alt="" />
+                    </div>
+                {/each}
+            </div>
+        {/if}
+    {/each}
+
     <slot />
 </div>
 
@@ -46,7 +77,7 @@ let showMobileSidebar;
     }
 }
 
-.sidebar {
+.aside {
     position: sticky;
     top: 70px;
     height: calc(100svh - 70px);
@@ -70,13 +101,16 @@ let showMobileSidebar;
 }
 
 .content {
-    padding-top: 2rem;
+    padding-block: 2rem;
     margin-inline: auto;
     width: 100%;
     max-width: min(calc(100vw - 300px - 6px), 1400px);
     min-height: calc(100svh - 70px);
     padding-bottom: 100px;
     padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     @media screen and (max-width: $mobile) {
         width: 100%;
         max-width: none;

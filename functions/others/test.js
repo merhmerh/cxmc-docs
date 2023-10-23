@@ -216,9 +216,6 @@ fs.writeFileSync(`./output/test.json`, JSON.stringify(rawIfcData, null, 2))
 
 
 function checkMultipleICtoSubtypes() {
-
-
-
     let subtypes = []
     for (const item of comp_id) {
         const f = item.fields

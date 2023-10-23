@@ -601,6 +601,10 @@ table {
             padding-block: 0.5rem;
             padding-inline: 0.5rem;
             display: flex;
+            &.center {
+                justify-content: center;
+                text-align: center;
+            }
         }
     }
 
@@ -652,9 +656,6 @@ table {
             gap: 2px;
             flex-wrap: wrap;
             width: 100%;
-            &.center {
-                justify-content: center;
-            }
             &.actions {
                 width: 120px;
                 display: flex;
@@ -854,4 +855,48 @@ table {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.area-requirements {
+    h1,
+    h2 {
+        margin: 0;
+    }
+
+    .paragraph {
+        white-space: break-spaces;
+        p {
+            margin: 0;
+        }
+    }
+
+    .image_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        padding-block: 1rem;
+
+        &.single {
+            grid-template-columns: 1fr !important;
+            img {
+                object-fit: contain;
+            }
+        }
+        @media screen and (max-width: $mobile) {
+            display: flex;
+            flex-direction: column;
+        }
+        .img-container {
+            height: 300px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 0.25rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 1s;
+        }
+    }
 }
