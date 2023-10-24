@@ -83,10 +83,10 @@ function resetFilter() {
         <thead>
             <tr>
                 <th><div>AGF_Name</div></th>
-                <th><div class="center">AGF_DevelopmentUse</div></th>
-                <th><div class="center">Excluded from GFA</div></th>
-                <th><div class="center">Refuse Category</div></th>
-                <th><div class="center">Refuse Output</div></th>
+                <!-- <th><div class="center">AGF_DevelopmentUse</div></th>
+                <th><div class="center">Excluded from GFA</div></th> -->
+                <!-- <th><div class="center">Refuse Category</div></th>
+                <th><div class="center">Refuse Output</div></th> -->
             </tr>
         </thead>
         <tbody>
@@ -101,7 +101,7 @@ function resetFilter() {
                                         navigator.clipboard.writeText(space[0]);
                                         notify.add("Copied to clipboard", { duration: 1000 });
                                     }}>
-                                    <div class="name">
+                                    <div class="name" class:isIncluded={space[1] == "1"}>
                                         {space[0]}
                                     </div>
                                     <div class="icon">
@@ -110,14 +110,14 @@ function resetFilter() {
                                 </button>
                             </div>
                         </td>
-                        <td><div class="center">{space[2] || ""}</div></td>
-                        <td><div class="center">{space[1] ? "yes" : "no"}</div></td>
-                        <td><div class="center">{space[3] !== "N.A" ? space[3] : ""}</div></td>
+                        <!-- <td><div class="center">{space[2] || ""}</div></td>
+                        <td><div class="center">{space[1] ? "yes" : "no"}</div></td> -->
+                        <!-- <td><div class="center">{space[3] !== "N.A" ? space[3] : ""}</div></td> -->
 
-                        <td
+                        <!-- <td
                             ><div class="center">
                                 {space[4] !== "#N/A" ? space[4] : space[5] || ""}
-                            </div></td>
+                            </div></td> -->
                     </tr>
                 {:else}
                     <tr class="noResult"
@@ -168,6 +168,8 @@ table {
             }
             td:first-child {
                 width: 350px;
+                border-left: 1px solid var(--table__border-color);
+                border-radius: 0 0 0.25rem 0.25rem;
             }
             td:nth-child(2) {
                 width: 200px;
@@ -184,6 +186,9 @@ table {
         font-size: 0.875rem;
         .name {
             text-align: left;
+            &.isIncluded {
+                color: var(--red);
+            }
         }
         .icon {
             width: fit-content;

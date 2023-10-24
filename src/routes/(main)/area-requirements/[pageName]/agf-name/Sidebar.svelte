@@ -12,7 +12,8 @@ const dispatch = createEventDispatcher();
 let list = mutateData(data);
 
 function mutateData(data) {
-    const categories = [...data, "All Spaces"];
+    // const categories = [...data, "All Spaces"];
+    const categories = data;
     return categories;
 }
 </script>
