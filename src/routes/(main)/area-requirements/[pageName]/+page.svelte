@@ -2,17 +2,9 @@
 export let data;
 import { theme } from "$comp/theme.store";
 import { Tooltip } from "merh-forge-ui";
-
-console.log(data.tableContent);
-let maxRow = getMaxRow(data.tableContent);
-
-function getMaxRow(table) {
-    const length = table.map((x) => x.data.length);
-    return Math.max(...length);
-}
 </script>
 
-{#each data.pageContent.content as { type, content }}
+{#each data.content.content as { type, content }}
     {#if type == "section"}
         <h2>{content}</h2>
     {/if}

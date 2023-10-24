@@ -1,9 +1,10 @@
 <script>
 import { theme } from "$comp/theme.store";
-import areaJSON from "./area.json";
+import areaPset from "./areaPset.json";
 import { toURLPath } from "$fn/helper";
 
 export let data;
+// console.log(data);
 </script>
 
 {#each data.pageContent.content as { type, content }}
@@ -34,7 +35,7 @@ export let data;
 <h2>Summary</h2>
 
 <div class="table_wrapper">
-    {#each areaJSON as { SubType, PropertySet, Properties }}
+    {#each areaPset as { SubType, PropertySet, Properties }}
         <table class="{$theme} noActionColumn">
             <thead>
                 <tr>

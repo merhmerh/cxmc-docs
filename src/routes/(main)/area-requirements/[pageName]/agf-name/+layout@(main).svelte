@@ -8,6 +8,7 @@ let showMobileSidebar;
 
 export let data;
 console.log(data);
+
 const selectItems = [...new Set(data.areaNames.map((x) => x[2]))];
 </script>
 

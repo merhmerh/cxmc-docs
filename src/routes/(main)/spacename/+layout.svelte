@@ -1,12 +1,12 @@
 <script>
 import { onMount } from "svelte";
 import Sidebar from "./Sidebar.svelte";
-import spaceNameJson from "./data_space_ot_pdt.json";
+import spaceNameJson from "./spaceName.json";
 import { isMobile } from "$comp/device.store";
 import Icon from "@iconify/svelte";
 let showMobileSidebar;
 
-const spaces = spaceNameJson.spaceName;
+const spaces = spaceNameJson;
 
 onMount(() => {
     const ifcsg = localStorage.getItem("airtable");

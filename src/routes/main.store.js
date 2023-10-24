@@ -4,7 +4,6 @@ import { browser } from "$app/environment"
 export const beta = writable(false);
 let init = false;
 
-
 beta.subscribe(x => {
     if (browser) {
         if (!init) {

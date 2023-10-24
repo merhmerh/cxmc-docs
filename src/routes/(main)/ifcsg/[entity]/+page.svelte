@@ -8,10 +8,10 @@ import { ifcData } from "../ifcsg.store";
 import { page } from "$app/stores";
 import { timeout, replaceSpaceWithDash } from "$fn/helper";
 import Update from "./Update.svelte";
+import { beta } from "$routes/main.store";
 
-let ifc = $ifcData.filter((x) => x.entity == data.entity);
+let ifc = [];
 
-console.log(ifc);
 const role = data.session.user.user_metadata.role || null;
 const isEditor = role !== "reader" && role !== null;
 
@@ -20,11 +20,12 @@ let updateModal,
     updateData = {},
     isUpdating;
 
-$: $page, init();
+$: {
+    $beta, $page, init();
+}
 
-function init() {
+async function init() {
     if (data.entity == "all") {
-        // const t1 = performance.now();
         const searchQuery = $page.url.searchParams.get("s");
 
         if (!searchQuery) {
@@ -32,7 +33,7 @@ function init() {
             return;
         }
 
-        const filteredIfc = [];
+        let filteredIfc = [];
         if (searchQuery.split(/[\:\.]/).length == 2) {
             const [searchEntity, searchSubtype] = searchQuery.split(/[\:\.]/);
 
@@ -54,31 +55,60 @@ function init() {
             }
         }
 
-        noResult = false;
-        if (!filteredIfc.length) {
-            noResult = true;
-        }
+        filteredIfc = filteredIfc.filter((x) => ifIsInBeta(x));
 
         ifc = filteredIfc;
-        // const t2 = performance.now();
-        // console.log("time", t2 - t1);
-        return;
+    } else {
+        ifc = $ifcData.filter((x) => {
+            if (!ifIsInBeta(x)) {
+                return;
+            }
+
+            return x.entity == $page.params.entity;
+        });
+
+        const searchParamSubtype = $page.data.searchParamSubtype;
+        if (searchParamSubtype) {
+            ifc = ifc.filter((x) => {
+                const subtypeArr = x.key.split(/\:/);
+                let subtype;
+                if (subtypeArr[2] !== "null") {
+                    subtype = subtypeArr[2];
+                } else if (subtypeArr[1] !== "null") {
+                    subtype = subtypeArr[1];
+                }
+
+                if (!ifIsInBeta(x)) return;
+
+                return searchParamSubtype == subtype.toLowerCase();
+            });
+        }
     }
 
-    ifc = $ifcData.filter((x) => x.entity == $page.params.entity);
-    const searchParamSubtype = $page.data.searchParamSubtype;
-    if (searchParamSubtype) {
-        ifc = ifc.filter((x) => {
-            const subtypeArr = x.key.split(/\:/);
-            let subtype;
-            if (subtypeArr[2] !== "null") {
-                subtype = subtypeArr[2];
-            } else if (subtypeArr[1] !== "null") {
-                subtype = subtypeArr[1];
-            }
-            return searchParamSubtype == subtype.toLowerCase();
-        });
+    noResult = false;
+    if (!ifc.length) {
+        noResult = true;
     }
+
+    // const keys = ifc.map((x) => x.key).toString();
+    // console.log(keys);
+    // const url = `/api/ifcsg/get-ic?key=${encodeURIComponent(keys)}&beta=${$beta}`;
+    // const resp = await fetch(url);
+    // const result = await resp.json();
+    // // console.log(ifc);
+    // // console.log(result);
+}
+
+function isHtmlDescription(description) {
+    if (!description) return false;
+
+    const regex = new RegExp(/^\@html/, "i");
+    return description.match(regex);
+}
+
+function ifIsInBeta(type) {
+    const res = $beta ? type.beta : true;
+    return res;
 }
 </script>
 
@@ -158,213 +188,232 @@ function init() {
 
         {#if pset}
             {#each Object.entries(pset) as [psetName, value]}
-                <div class="table_wrapper">
-                    <table class="{$theme} noActionColumn">
-                        <thead>
-                            <tr class="thead__tr__pset">
-                                <th colspan="5"><div>{psetName}</div></th>
-                            </tr>
-                        </thead>
-
-                        <tr class="thead__tr__header">
-                            <th><div>PropertyName</div></th>
-                            <th><div>Data Type</div></th>
-                            <th><div>IfcMeasureResource</div></th>
-                            <th><div>Enumeration</div></th>
-                            <th><div>Description</div></th>
-                        </tr>
-
-                        <tbody>
-                            {#each Object.entries(value).sort() as [key, obj]}
-                                <tr class:isUpdating={isUpdating == obj.propertyName}>
-                                    <td>
-                                        <div class="tblPset__propName">
-                                            <button
-                                                class="none noHover tblPset__propName__inUse"
-                                                class:inUse={obj.inUse}
-                                                class:noEvent={!isEditor}
-                                                on:click={async (e) => {
-                                                    if (!isEditor) return;
-                                                    const data = {
-                                                        source: {
-                                                            key: itemKey,
-                                                            pset: psetName,
-                                                            propName: obj.propertyName,
-                                                        },
-                                                        prop: {
-                                                            id: obj.id,
-                                                            PropertyName: obj.propertyName,
-                                                            ParentKey: `${entity}:${
-                                                                predefinedType || null
-                                                            }:${objectType}`,
-                                                            Entity: entity,
-                                                            PropertySet: psetName,
-                                                            inUse: !obj.inUse,
-                                                        },
-                                                    };
-                                                    await updateModal.updateProp(data);
-                                                }} />
-
-                                            <button
-                                                class="none noHover tblPset__propName__name"
-                                                on:click={async (e) => {
-                                                    navigator.clipboard.writeText(obj.propertyName);
-                                                    notify.add("Copied to clipboard", { duration: 1000 });
-                                                    const range = document.createRange();
-                                                    range.selectNodeContents(e.target);
-                                                    const selection = window.getSelection();
-                                                    selection.removeAllRanges();
-                                                    selection.addRange(range);
-                                                }}>
-                                                <span>{obj.propertyName}</span>
-                                                <div class="icon tblPset__copy">
-                                                    <Icon icon="charm:copy" width={16} hFlip={1} />
-                                                </div>
-                                            </button>
-                                        </div>
-                                    </td>
-                                    <td
-                                        ><div>
-                                            <button
-                                                class="none noHover tblPset__propName__dataType"
-                                                on:click={(e) => {
-                                                    navigator.clipboard.writeText(obj.dataType);
-                                                    notify.add("Copied to clipboard", { duration: 1000 });
-                                                    const range = document.createRange();
-                                                    range.selectNodeContents(e.target);
-                                                    const selection = window.getSelection();
-                                                    selection.removeAllRanges();
-                                                    selection.addRange(range);
-                                                }}>
-                                                <span>{obj.dataType}</span>
-                                                <div class="icon tblPset__copy">
-                                                    <Icon icon="charm:copy" width={16} hFlip={1} />
-                                                </div>
-                                            </button>
-                                        </div></td>
-                                    <td
-                                        ><div class="tblPset__measureResource">
-                                            {obj.IfcMeasureResource == null ? "–" : obj.IfcMeasureResource}
-                                            <button
-                                                class:hide={!isEditor}
-                                                class="none icon"
-                                                on:click={(e) => {
-                                                    updateData = {
-                                                        code: "update-IfcMeasureResource",
-                                                        extg: obj.IfcMeasureResource,
-                                                        source: {
-                                                            key: itemKey,
-                                                            pset: psetName,
-                                                            propName: obj.propertyName,
-                                                        },
-                                                        prop: obj,
-                                                    };
-                                                    updateModal.show();
-                                                }}>
-                                                <Icon icon="ic:baseline-edit" width={14} />
-                                            </button>
-                                        </div></td>
-                                    <td>
-                                        <div class="tblPset__enums">
-                                            <div class="tblPset__enums__list">
-                                                {#if obj.Enums}
-                                                    {#each obj.Enums as item}
-                                                        <Tooltip
-                                                            value="copy"
-                                                            clickedValue="Copied"
-                                                            position="top"
-                                                            display="flex"
-                                                            fixed
-                                                            width="fit-content"
-                                                            on:click={(e) => {
-                                                                navigator.clipboard.writeText(item);
-                                                                const slot = e.detail.slot;
-                                                                const range = document.createRange();
-                                                                range.selectNodeContents(slot);
-                                                                const selection = window.getSelection();
-                                                                selection.removeAllRanges();
-                                                                selection.addRange(range);
-                                                            }}>
-                                                            <code>
-                                                                {item}
-                                                            </code>
-                                                        </Tooltip>
-                                                    {/each}
-                                                {:else}
-                                                    -
-                                                {/if}
-                                            </div>
-                                            <button
-                                                class="none icon"
-                                                class:hide={!isEditor}
-                                                on:click={(e) => {
-                                                    const prop = {
-                                                        id: obj.id,
-                                                        PropertyName: obj.propertyName,
-                                                        ParentKey: `${entity}:${predefinedType}:${objectType}`,
-                                                        DataType: obj.dataType,
-                                                        Entity: entity,
-                                                        Enums: obj.Enums || [],
-                                                        IfcMeasureResource: obj.IfcMeasureResource,
-                                                    };
-
-                                                    updateData = {
-                                                        code: "update-enums",
-                                                        extg: obj.Enums || [],
-                                                        source: {
-                                                            key: itemKey,
-                                                            pset: psetName,
-                                                            propName: obj.propertyName,
-                                                        },
-                                                        prop,
-                                                    };
-
-                                                    updateModal.show();
-                                                }}>
-                                                <Icon icon="ic:baseline-edit" width={14} />
-                                            </button>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="tblPset__description">
-                                            <span>{obj.Description ? obj.Description : "-"}</span>
-                                            <button
-                                                class="none icon"
-                                                class:hide={!isEditor}
-                                                on:click={(e) => {
-                                                    const prop = {
-                                                        id: obj.id,
-                                                        PropertyName: obj.propertyName,
-                                                        ParentKey: `${entity}:${predefinedType}:${objectType}`,
-                                                        DataType: obj.dataType,
-                                                        PropertySet: psetName,
-                                                        Entity: entity,
-                                                        IfcMeasureResource: obj.IfcMeasureResource,
-                                                        Description: obj.Description,
-                                                    };
-
-                                                    updateData = {
-                                                        code: "update-description",
-                                                        extg: obj.Description,
-                                                        source: {
-                                                            key: itemKey,
-                                                            pset: psetName,
-                                                            propName: obj.propertyName,
-                                                        },
-                                                        prop,
-                                                    };
-
-                                                    updateModal.show();
-                                                }}>
-                                                <Icon icon="ic:baseline-edit" width={14} />
-                                            </button>
-                                        </div>
-                                    </td>
+                {#if value.some((x) => x.beta)}
+                    <div class="table_wrapper">
+                        <table class="{$theme} noActionColumn">
+                            <thead>
+                                <tr class="thead__tr__pset">
+                                    <th colspan="5"><div>{psetName}</div></th>
                                 </tr>
-                            {/each}
-                        </tbody>
-                    </table>
-                </div>
+                            </thead>
+
+                            <tr class="thead__tr__header">
+                                <th><div>PropertyName</div></th>
+                                <th><div>Data Type</div></th>
+                                <th><div>IfcMeasureResource</div></th>
+                                <th><div>Enumeration</div></th>
+                                <th><div>Description</div></th>
+                            </tr>
+
+                            <tbody>
+                                {#each Object.entries(value).sort() as [key, obj]}
+                                    {#if $beta ? obj.beta : true}
+                                        <tr class:isUpdating={isUpdating == obj.propertyName}>
+                                            <td>
+                                                <div class="tblPset__propName">
+                                                    <!-- <button
+                                                        class="none noHover tblPset__propName__inUse"
+                                                        class:inUse={obj.inUse}
+                                                        class:noEvent={!isEditor}
+                                                        on:click={async (e) => {
+                                                            if (!isEditor) return;
+                                                            const data = {
+                                                                source: {
+                                                                    key: itemKey,
+                                                                    pset: psetName,
+                                                                    propName: obj.propertyName,
+                                                                },
+                                                                prop: {
+                                                                    id: obj.id,
+                                                                    PropertyName: obj.propertyName,
+                                                                    ParentKey: `${entity}:${
+                                                                        predefinedType || null
+                                                                    }:${objectType}`,
+                                                                    Entity: entity,
+                                                                    PropertySet: psetName,
+                                                                    inUse: !obj.inUse,
+                                                                },
+                                                            };
+                                                            await updateModal.updateProp(data);
+                                                        }} /> -->
+
+                                                    <button
+                                                        class="none noHover tblPset__propName__name"
+                                                        on:click={async (e) => {
+                                                            navigator.clipboard.writeText(obj.propertyName);
+                                                            notify.add("Copied to clipboard", { duration: 1000 });
+                                                            const range = document.createRange();
+                                                            range.selectNodeContents(e.target);
+                                                            const selection = window.getSelection();
+                                                            selection.removeAllRanges();
+                                                            selection.addRange(range);
+                                                        }}>
+                                                        <span>{obj.propertyName}</span>
+                                                        <div class="icon tblPset__copy">
+                                                            <Icon icon="charm:copy" width={16} hFlip={1} />
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td
+                                                ><div>
+                                                    <button
+                                                        class="none noHover tblPset__propName__dataType"
+                                                        on:click={(e) => {
+                                                            navigator.clipboard.writeText(obj.dataType);
+                                                            notify.add("Copied to clipboard", { duration: 1000 });
+                                                            const range = document.createRange();
+                                                            range.selectNodeContents(e.target);
+                                                            const selection = window.getSelection();
+                                                            selection.removeAllRanges();
+                                                            selection.addRange(range);
+                                                        }}>
+                                                        <span>{obj.dataType}</span>
+                                                        <div class="icon tblPset__copy">
+                                                            <Icon icon="charm:copy" width={16} hFlip={1} />
+                                                        </div>
+                                                    </button>
+                                                </div></td>
+                                            <td
+                                                ><div class="tblPset__measureResource">
+                                                    {obj.IfcMeasureResource == null ? "-" : obj.IfcMeasureResource}
+                                                    <button
+                                                        class:hide={!isEditor}
+                                                        class="none icon"
+                                                        on:click={(e) => {
+                                                            updateData = {
+                                                                code: "update-IfcMeasureResource",
+                                                                extg: obj.IfcMeasureResource,
+                                                                source: {
+                                                                    key: itemKey,
+                                                                    pset: psetName,
+                                                                    propName: obj.propertyName,
+                                                                },
+                                                                prop: obj,
+                                                            };
+                                                            updateModal.show();
+                                                        }}>
+                                                        <Icon icon="ic:baseline-edit" width={14} />
+                                                    </button>
+                                                </div></td>
+                                            <td>
+                                                <div class="tblPset__enums">
+                                                    <div class="tblPset__enums__list">
+                                                        {#if obj.Enums ? obj.Enums.length : 0}
+                                                            {#each obj.Enums as item}
+                                                                <Tooltip
+                                                                    value="copy"
+                                                                    clickedValue="Copied"
+                                                                    position="top"
+                                                                    display="flex"
+                                                                    fixed
+                                                                    width="fit-content"
+                                                                    let:onClick
+                                                                    on:click={(e) => {
+                                                                        navigator.clipboard.writeText(item);
+                                                                        const slot = e.detail.slot;
+                                                                        const range = document.createRange();
+                                                                        range.selectNodeContents(slot);
+                                                                        const selection = window.getSelection();
+                                                                        selection.removeAllRanges();
+                                                                        selection.addRange(range);
+                                                                    }}>
+                                                                    <button
+                                                                        class="none slim"
+                                                                        style="padding:0"
+                                                                        on:click={onClick}>
+                                                                        <code>
+                                                                            {item}
+                                                                        </code>
+                                                                    </button>
+                                                                </Tooltip>
+                                                            {/each}
+                                                        {:else}
+                                                            -
+                                                        {/if}
+                                                    </div>
+                                                    <button
+                                                        class="none icon"
+                                                        class:hide={!isEditor}
+                                                        on:click={(e) => {
+                                                            const prop = {
+                                                                id: obj.id,
+                                                                PropertyName: obj.propertyName,
+                                                                ParentKey: `${entity}:${predefinedType}:${objectType}`,
+                                                                DataType: obj.dataType,
+                                                                Entity: entity,
+                                                                Enums: obj.Enums || [],
+                                                                IfcMeasureResource: obj.IfcMeasureResource,
+                                                            };
+
+                                                            updateData = {
+                                                                code: "update-enums",
+                                                                extg: obj.Enums || [],
+                                                                source: {
+                                                                    key: itemKey,
+                                                                    pset: psetName,
+                                                                    propName: obj.propertyName,
+                                                                },
+                                                                prop,
+                                                            };
+
+                                                            updateModal.show();
+                                                        }}>
+                                                        <Icon icon="ic:baseline-edit" width={14} />
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="tblPset__description">
+                                                    <span>
+                                                        <!-- {obj.Description ? obj.Description : "-"} -->
+                                                        {#if isHtmlDescription(obj.Description)}
+                                                            {@html obj.Description.replace(/\@html/i, "").trim()}
+                                                        {:else if obj.Description}
+                                                            {obj.Description}
+                                                        {:else}
+                                                            -
+                                                        {/if}
+                                                    </span>
+                                                    <button
+                                                        class="none icon"
+                                                        class:hide={!isEditor}
+                                                        on:click={(e) => {
+                                                            const prop = {
+                                                                id: obj.id,
+                                                                PropertyName: obj.propertyName,
+                                                                ParentKey: `${entity}:${predefinedType}:${objectType}`,
+                                                                DataType: obj.dataType,
+                                                                PropertySet: psetName,
+                                                                Entity: entity,
+                                                                IfcMeasureResource: obj.IfcMeasureResource,
+                                                                Description: obj.Description,
+                                                            };
+
+                                                            updateData = {
+                                                                code: "update-description",
+                                                                extg: obj.Description,
+                                                                source: {
+                                                                    key: itemKey,
+                                                                    pset: psetName,
+                                                                    propName: obj.propertyName,
+                                                                },
+                                                                prop,
+                                                            };
+
+                                                            updateModal.show();
+                                                        }}>
+                                                        <Icon icon="ic:baseline-edit" width={14} />
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    {/if}
+                                {/each}
+                            </tbody>
+                        </table>
+                    </div>
+                {/if}
             {/each}
         {/if}
     </div>

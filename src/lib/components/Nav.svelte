@@ -7,6 +7,7 @@ const dispatch = createEventDispatcher();
 const navList = [
     { href: "/ifcsg", name: "IFC SG" },
     { href: "/spacename/all-spaces", name: "SpaceName" },
+    { href: "/occupancy-type", name: "OccupancyType" },
     { href: "/area-requirements", name: "Area Requirements" },
     { href: "/identified-component", name: "Identified Component" },
     { href: "/codes/bca", name: "Codes" },
@@ -17,7 +18,7 @@ const navList = [
     {#each navList as link}
         <a
             href={link.href}
-            class:selected={$page.url.pathname == link.href}
+            class:selected={$page.url.pathname.match(link.href)}
             on:click={() => {
                 dispatch("onNavigate");
             }}>{link.name}</a>

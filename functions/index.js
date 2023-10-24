@@ -4,6 +4,9 @@ const { logger } = require("firebase-functions");
 const { createClient } = require('@supabase/supabase-js')
 const crypto = require('crypto');
 const { google } = require('googleapis')
+const getGFAData = require('./src/gfaSheets.js')
+
+
 
 require('dotenv').config();
 
@@ -42,7 +45,26 @@ exports.scheduleSyncAsia = functions
         const resp = await uploadToDB(checksum, result)
         await reset_IFCSG_Database(resp)
 
-        //do something with the result
+
+        //update area-req
+        try {
+            const result = await getGFAData()
+
+            try {
+                await supabase.from('areaRequirement')
+                    .delete()
+                    .neq('id', 0)
+            } catch (error) {
+                console.log(error);
+            }
+
+            const { data, error } = await supabase
+                .from('areaRequirement')
+                .insert({ data: result })
+        } catch (error) {
+            console.log(error);
+        }
+
         console.log('--end schedule--');
     })
 
@@ -175,58 +197,84 @@ function sortObject(obj) {
     return sortedObject;
 }
 
-exports.gfaSync = onRequest(opts, async (req, res) => {
+// exports.gfaSync = onRequest(opts, async (req, res) => {
 
-    const API_KEY = GOOGLE_API_KEY
-    const sheets = google.sheets('v4');
-    const SPREADSHEET_ID = '14_9NvXR8FbBpSI6w6s3lCjtmY_9bGG4dw4Tdzn4kPfc';
+//     const API_KEY = GOOGLE_API_KEY
+//     const sheets = google.sheets('v4');
+//     const SPREADSHEET_ID = '14_9NvXR8FbBpSI6w6s3lCjtmY_9bGG4dw4Tdzn4kPfc';
 
-    const sheetName = 'DC Spaces';
-    const rows = await sheets.spreadsheets.values.get({
-        auth: API_KEY,
-        spreadsheetId: SPREADSHEET_ID,
-        range: `${sheetName}!B1:B1000`,
-    }).then(res => {
-        return res.data.values.length
-    })
+//     const sheetName = 'DC Spaces';
+//     const rows = await sheets.spreadsheets.values.get({
+//         auth: API_KEY,
+//         spreadsheetId: SPREADSHEET_ID,
+//         range: `${sheetName}!B1:B1000`,
+//     }).then(res => {
+//         return res.data.values.length
+//     })
 
-    const sheetResult = await sheets.spreadsheets.values.get({
-        auth: API_KEY,
-        spreadsheetId: SPREADSHEET_ID,
-        range: `${sheetName}!A1:K${rows}`,
-    }).then(res => {
-        return res.data.values
-    });
-
-
-    const header = sheetResult[0].map(x => x)
+//     const sheetResult = await sheets.spreadsheets.values.get({
+//         auth: API_KEY,
+//         spreadsheetId: SPREADSHEET_ID,
+//         range: `${sheetName}!A1:K${rows}`,
+//     }).then(res => {
+//         return res.data.values
+//     });
 
 
-    const result = []
-    for (let i = 1; i < sheetResult.length; i++) {
-
-        const row = sheetResult[i]
-        const data = {}
+//     const header = sheetResult[0].map(x => x)
 
 
-        for (const [index, key] of header.entries()) {
-            const invalid = ['#N/A']
+//     const result = []
+//     for (let i = 1; i < sheetResult.length; i++) {
 
-            let value = row[index] ? row[index].trim() : null
-            if (!value) { value = null }
-            if (invalid.includes(value)) {
-                value = null
-            }
+//         const row = sheetResult[i]
+//         const data = {}
 
-            data[key] = value
-        }
-        result.push(data)
+
+//         for (const [index, key] of header.entries()) {
+//             const invalid = ['#N/A']
+
+//             let value = row[index] ? row[index].trim() : null
+//             if (!value) { value = null }
+//             if (invalid.includes(value)) {
+//                 value = null
+//             }
+
+//             data[key] = value
+//         }
+//         result.push(data)
+//     }
+
+//     res.status(200).send(result)
+
+// })
+
+
+
+exports.areaSync = onRequest(opts, async (req, res) => {
+    logger.log('--start http invoke--')
+
+    const result = await getGFAData()
+
+    try {
+        await supabase.from('areaRequirement')
+            .delete()
+            .neq('id', 0)
+    } catch (error) {
+        res.status(400).send(error)
+    }
+
+    const { data, error } = await supabase
+        .from('areaRequirement')
+        .insert({ data: result })
+
+    if (error) {
+        res.status(400).send(error)
     }
 
     res.status(200).send(result)
-
+    logger.log('--end http invoke--')
 })
-
 
 
 

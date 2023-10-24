@@ -3,9 +3,9 @@ export let data;
 import Icon from "@iconify/svelte";
 import spacesDictionary from "./spacesDictionary.json";
 import { theme } from "$comp/theme.store";
-import { timeout } from "$fn/helper";
-import { Tooltip, WaterfallSingle, dictionary, Modal } from "merh-forge-ui";
+import { WaterfallSingle, dictionary, Modal } from "merh-forge-ui";
 import { notify } from "merh-forge-ui";
+import { beta } from "$routes/main.store";
 
 dictionary.set(spacesDictionary);
 
@@ -90,19 +90,21 @@ function resetFilter() {
         </div>
     </div>
 
-    <button
-        style="font-size:.875rem; margin-right:auto;"
-        on:click={() => {
-            const arr = [...new Set(spaces.map((x) => x.spaceName))];
-            const str = JSON.stringify(arr).replace(/\",\"/g, '", "');
-            clipboard = str
-                .toString()
-                .replace(/[\"\[\]]/g, "")
-                .replace(/\|/g, ",");
-            modal.open();
-        }}>
-        Get Enums
-    </button>
+    {#if !$beta}
+        <button
+            style="font-size:.875rem; margin-right:auto;"
+            on:click={() => {
+                const arr = [...new Set(spaces.map((x) => x.spaceName))];
+                const str = JSON.stringify(arr).replace(/\",\"/g, '", "');
+                clipboard = str
+                    .toString()
+                    .replace(/[\"\[\]]/g, "")
+                    .replace(/\|/g, ",");
+                modal.open();
+            }}>
+            Get Enums
+        </button>
+    {/if}
 
     <div class="info">
         <span>
@@ -124,7 +126,9 @@ function resetFilter() {
                 <th class="OccupancyType"><div>OccupancyType</div></th>
                 <th class="Remarks"><div>Remarks</div></th>
                 <th class="FunctionalSpace"><div>FunctionalSpace</div></th>
-                <th class="OccupancyLoad"><div>OccupancyLoad</div></th>
+                {#if !$beta}
+                    <th class="OccupancyLoad"><div>OccupancyLoad</div></th>
+                {/if}
             </tr>
         </thead>
 
@@ -163,7 +167,9 @@ function resetFilter() {
                     </td>
                     <td><div>{space.remarks || "–"}</div></td>
                     <td class="FunctionalSpace"><div>{space.functionalSpace}</div></td>
-                    <td class="OccupancyLoad"><div>{space.occupancyLoad}</div></td>
+                    {#if !$beta}
+                        <td class="OccupancyLoad"><div>{space.occupancyLoad}</div></td>
+                    {/if}
                 </tr>
             {/each}
         </tbody>
@@ -183,13 +189,13 @@ table {
                 width: 200px;
             }
             &.Remarks {
-                width: auto;
+                width: 300px;
             }
             &.FunctionalSpace {
-                width: 200px;
+                width: 300px;
             }
             &.OccupancyLoad {
-                width: 130px;
+                width: auto;
             }
         }
         td {

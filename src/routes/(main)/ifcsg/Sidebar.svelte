@@ -6,9 +6,13 @@ import { page } from "$app/stores";
 import { debounce } from "$fn/helper";
 import { goto } from "$app/navigation";
 import { isMobile } from "$comp/device.store";
+import { beta } from "$routes/main.store";
 
-$: $ifcData, mutateData();
+// $: $ifcData, mutateData();
 $: $page, updatePageData();
+$: {
+    $ifcData, $beta, mutateData();
+}
 
 const dispatch = createEventDispatcher();
 
@@ -42,7 +46,13 @@ function mutateData() {
             subtype: row.objectType == null ? row.predefinedType : row.objectType,
             key: row.key,
             status: row.status,
+            beta: row.beta,
         };
+
+        //if isBeta = false, don't add
+        const isBeta = $beta ? row.beta : true;
+        if (!isBeta) continue;
+
         if (!map.has(row.entity)) {
             map.set(row.entity, [c]);
         } else {
@@ -52,6 +62,8 @@ function mutateData() {
 
     const sorted = Array.from(map).sort((a, b) => a[1] - b[1]);
 
+    // console.log(sorted);
+
     const result = {};
     for (const [key, arr] of sorted) {
         let keywords = [key];
@@ -59,6 +71,11 @@ function mutateData() {
             keywords.push(type.subtype);
         }
         keywords = keywords.join(",");
+
+        const isBeta = $beta ? arr.some((x) => x.beta) : true;
+
+        if ($beta && !isBeta) continue;
+
         result[key] = {
             keywords,
             selected: false,
@@ -119,8 +136,6 @@ function filter() {
                 }
             }
         }
-
-        //
     } else {
         const regex = new RegExp(searchString, "gi");
         for (const [entity, obj] of Object.entries(list)) {
@@ -186,6 +201,7 @@ function filter_and_updateURL(url) {
 
     <div class="scrollable">
         {#each Object.entries(list) as [entity, arr]}
+            <!-- {#if arr.toShow} -->
             <div class="row" class:selected={$page.params.entity == entity} class:hide={arr.hide}>
                 <a
                     class="key"
@@ -194,7 +210,6 @@ function filter_and_updateURL(url) {
                         dispatch("onNavigate");
                         for (const [key, obj] of Object.entries(list)) {
                             if (key == entity) {
-                                console.log("??");
                                 obj.expand = true;
                             } else {
                                 obj.expand = false;
@@ -213,6 +228,7 @@ function filter_and_updateURL(url) {
                 {#if arr.types.length && arr.types[0].subtype}
                     <div class="types" class:expand={arr.expand}>
                         {#each arr.types as type}
+                            <!-- {#if $beta ? $beta == type.beta : true} -->
                             {#if !type.hide}
                                 <div class="type" class:selected={searchParamsKey == type.subtype.toLowerCase()}>
                                     <a
@@ -226,10 +242,12 @@ function filter_and_updateURL(url) {
                                     </a>
                                 </div>
                             {/if}
+                            <!-- {/if} -->
                         {/each}
                     </div>
                 {/if}
             </div>
+            <!-- {/if} -->
         {/each}
 
         {#if !searchResult}

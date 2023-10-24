@@ -1,0 +1,3954 @@
+[
+  {
+    "category": "Living spaces",
+    "spaceName": "balcony",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "bedroom",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "master bedroom",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "bathroom",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "master bath",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "maid bath",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "yard bath",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "dining room | dining area",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "household shelter",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "kitchen",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "living room | living area",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "loft",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "private lift lobby",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "service yard",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "toilet",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Living spaces",
+    "spaceName": "walkin wardrobe",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Apartment, residential | Maisonettes, residential",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "any",
+    "occupancyType": "hotel",
+    "remarks": null,
+    "functionalSpace": "Backpacker hotel",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "any",
+    "occupancyType": "serviced apartment",
+    "remarks": null,
+    "functionalSpace": "Serviced apartment (based on per unit)",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "bedroom",
+    "occupancyType": "dormitory",
+    "remarks": null,
+    "functionalSpace": "Dormitory",
+    "occupancyLoad": 4.2
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "bedroom",
+    "occupancyType": "workers dormitory",
+    "remarks": null,
+    "functionalSpace": "Dormitory",
+    "occupancyLoad": 4.2
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "guestroom",
+    "occupancyType": "hotel",
+    "remarks": null,
+    "functionalSpace": "Guestroom/accommodation unit",
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "guestroom",
+    "occupancyType": "hostel",
+    "remarks": null,
+    "functionalSpace": "Guestroom/accommodation unit",
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "guestroom",
+    "occupancyType": "capsule hotel",
+    "remarks": null,
+    "functionalSpace": "Guestroom/accommodation unit",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "staff quarters",
+    "occupancyType": null,
+    "remarks": null,
+    "functionalSpace": "Staff quarters",
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "student bedroom individual",
+    "occupancyType": "hostel",
+    "remarks": null,
+    "functionalSpace": "Student bedroom",
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "student bedroom multipax",
+    "occupancyType": "hostel",
+    "remarks": null,
+    "functionalSpace": "Student bedroom",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Temporary residences",
+    "spaceName": "housekeeping",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Housekeeping",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "bathroom",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Bath room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "toilet",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Toilet",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "isolation ward toilet",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Toilet",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "accessible washroom",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] = True\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Toilet (handicap)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "male toilet",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Toilet (male)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "female toilet",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Toilet (female)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "unisex toilet",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Toilet",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "family-friendly washroom",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Family-friendly washroom",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "washroom with shower",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Washroom with shower",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Toilet spaces \n(non-residential)",
+    "spaceName": "powder room",
+    "occupancyType": "any",
+    "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
+    "functionalSpace": "Powder room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "bathroom",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Bath room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "changing room",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Changing room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "female changing room",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Changing room (female)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "male changing room",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Changing room (male)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "locker room",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Locker room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "restroom",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Restroom",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "lactation room",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "lactation room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "sick room",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Sick room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "shower room | shower stall",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "shower room | shower stall",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Resting/ Care/ Hygiene spaces",
+    "spaceName": "wash area",
+    "occupancyType": "any",
+    "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
+    "functionalSpace": "Wash area",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "archive room (reading)",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Archive room - reading area",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "archive room (stack)",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Archive room - stack area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "ball room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Ball room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "banking hall",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Banking hall",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "bazaar",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bazaar",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "business centre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Business centre/office",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "business office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Business centre/office",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "classroom",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Classroom",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "computer classroom",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Computer classroom",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "common room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Common room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "computer room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Computer room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "conference room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Conference room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "consultant room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Consultant room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "crematoria",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Crematoria",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "dance studio",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Dance studio",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "department store",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Department store",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "design studio",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Design studio",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "detention room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Detention room",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "exposition",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Exposition/trade fair area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "trade fair area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Exposition/trade fair area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "filing room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Filing room/store",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "store",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Filing room/store",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "fire command centre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Fire command centre",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "function room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Function room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "exhibits gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - exhibits",
+    "occupancyLoad": 2.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "choir gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - choir",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "prayer gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - prayer",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "seating gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - seating",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "trading gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - trading",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "viewing gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - viewing",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "guard house",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Guard house",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "hobby room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Hobby room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "kiosk",
+    "occupancyType": "shop",
+    "remarks": null,
+    "functionalSpace": "Kiosk - retail",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "laboratory",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Laboratory",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "laboratory",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Laboratory",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "laundry",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Laundry - with machine operation",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "library room (stack)",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Library room - stack area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "library room (reading)",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Library room - reading area",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "lounge",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lounge",
+    "occupancyLoad": 2.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "machine/printing room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Machine/printing room",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "mailroom",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Mailroom",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "meeting room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Meeting room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "music studio",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Music studio",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "night club",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Night club",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "admin office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Office - admin/general",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "general office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Office - admin/general",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "ancillary office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Office - ancillary",
+    "occupancyLoad": 7.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "director office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Office - director/manager",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "manager office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Office - director/manager",
+    "occupancyLoad": 15
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "drafting office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Office - drafting",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "outdoor display area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Outdoor display area",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "packing area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Packing/distribution area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "distribution area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Packing/distribution area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "pantry",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pantry",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "prayer hall",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Prayer hall",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "pre-function room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pre-function room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "production area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Production area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "promotion area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Promotion area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "reading room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Reading room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "reception area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Reception area",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "seminar room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Seminar room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "security room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Security room",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "service area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Service area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "shed",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shed",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "shop",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shop",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "showflat",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Showflat",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "showroom",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Showroom",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "society room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Society room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "spray painting room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Spray painting room",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "staff office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Staff office",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "staff lounge",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Staff lounge",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "supermarket",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Supermarket",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "therapy centre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Therapy centre",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "ticketing office",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Ticketing office",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "trading floor",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Trading floor",
+    "occupancyLoad": 2
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "visitors lounge",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Visitors lounge",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "waiting area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Waiting area",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "public education institution",
+    "remarks": null,
+    "functionalSpace": "Workshop - institutional",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "private education institution",
+    "remarks": null,
+    "functionalSpace": "Workshop - institutional",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "petrol station",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "factory",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "food production factory",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "M&E area",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "wafer fabrication plant",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "waste management and recycling",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "embalming facility",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "agriculture",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "animal related facility",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "high containment facility",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "electrical & gas facility",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Commercial, Work, Institutional spaces",
+    "spaceName": "workshop",
+    "occupancyType": "road tunnel",
+    "remarks": null,
+    "functionalSpace": "Workshop - industrial",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "bar",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bar/pub",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "pub",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bar/pub",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "café",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Café",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "cafeteria",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Cafeteria",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "canteen",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Canteen",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "dining area",
+    "occupancyType": "F&B outlet",
+    "remarks": null,
+    "functionalSpace": "Dining area - coffee shop/eating house/food court/hawker centre",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "dining area",
+    "occupancyType": "ORA",
+    "remarks": null,
+    "functionalSpace": "Dining area - coffee shop/eating house/food court/hawker centre",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "dining area",
+    "occupancyType": "food centre",
+    "remarks": null,
+    "functionalSpace": "Dining area - coffee shop/eating house/food court/hawker centre",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "dining area",
+    "occupancyType": "fast food outlet",
+    "remarks": null,
+    "functionalSpace": "Dining area - fast food outlet",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "food stall",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Food stall",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kiosk",
+    "occupancyType": "F&B outlet",
+    "remarks": null,
+    "functionalSpace": "Kiosk - take-away F&B",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "hotel",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "hospital without A&E services",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "hospital with A&E services",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "factory",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "F&B outlet",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "food production factory",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "kitchen",
+    "occupancyType": "food centre",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "service area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "service counter",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Kitchen/service area/service counter",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "pub",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pub",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "restaurant",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Restaurant",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "snack bar",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Snack bar",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Food and Beverages",
+    "spaceName": "staff canteen",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Staff canteen",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "ambulatory care facility",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - ambulatory care facility",
+    "occupancyLoad": 1.4
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "ambulatory care facility (standalone)",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - ambulatory care facility",
+    "occupancyLoad": 1.4
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "custodian care facility",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - custodian care facility",
+    "occupancyLoad": 1.4
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "custodian care facility (nursery)",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - custodian care facility",
+    "occupancyLoad": 1.4
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "hospital without A&E services",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - hospital space with patient accomodation",
+    "occupancyLoad": 2.8
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "hospital with A&E services",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - hospital space with patient accomodation",
+    "occupancyLoad": 2.8
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "hospital without A&E services",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - hospital space without patient accomodation",
+    "occupancyLoad": 0.56
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "hospital with A&E services",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - hospital space without patient accomodation",
+    "occupancyLoad": 0.56
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "nursing care facilities",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - nursing care facility space with patient accomodation",
+    "occupancyLoad": 2.8
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "nursing care facilities",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - nursing care facility space without patient accomodation",
+    "occupancyLoad": 0.56
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "assisted living facility",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - supervisory care facility",
+    "occupancyLoad": 0.56
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "supervisory care facility",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - supervisory care facility",
+    "occupancyLoad": 0.56
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "area of refuge",
+    "occupancyType": "supervisory care facility (detention)",
+    "remarks": null,
+    "functionalSpace": "Area of refuge - supervisory care facility",
+    "occupancyLoad": 0.56
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "consultation room",
+    "occupancyType": "outpatient clinic",
+    "remarks": null,
+    "functionalSpace": "Clinic (outpatient) - Consultation room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "examination room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Examination room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "surgical viewing gallery",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gallery - surgical viewing",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "assisted living facility",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "supervisory care facility",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "supervisory care facility (detention)",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "nursing care facilityies",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "hospital without A&E services",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "hospital with A&E services",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "ambulatory care facility",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "ambulatory care facility (standalone)",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "custodian care facility",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "custodian care facility (nursery)",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "outpatient clinic",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "laboratory",
+    "occupancyType": "polyclinic",
+    "remarks": null,
+    "functionalSpace": "Laboratory - healthcare occupancy",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "nursing room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Nursing room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "nursing station",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Nursing station",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "operation theatre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Operation theatre",
+    "occupancyLoad": 7.5
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "outpatient waiting area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Out-patient waiting area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "patient accommodation intensive care",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Patient accommodation - intensive care",
+    "occupancyLoad": 20
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "patient accommodation ward",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Patient accommodation - ward",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "isolation ward",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Isolation ward",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "pharmacy staff area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pharmacy - staff area",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "pharmacy waiting area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pharmacy - public waiting area",
+    "occupancyLoad": 2
+  },
+  {
+    "category": "Medical/ Healthcare",
+    "spaceName": "treatment room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Treatment room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "amphitheatre",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Amphitheatre with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "amphitheatre",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Amphitheatre with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "amphitheatre without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Amphitheatre without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "auditorium",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Auditorium - with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "auditorium",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Auditorium - with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "auditorium without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Auditorium - without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "cinema",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Cinema - with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "cinema",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Cinema - with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "cinema without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Cinema - without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "grandstand",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Grandstand with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "grandstand",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Grandstand with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "grandstand without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Grandstand without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "assembly hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Hall - assembly hall with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "assembly hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Hall - assembly hall with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "assembly hall without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Hall - assembly hall without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "concert hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Hall - concert hall with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "concert hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Hall - concert hall with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "concert hall without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Hall - concert hall without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "exhibition hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Hall - exhibition hall with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "exhibition hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Hall - exhibition hall with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "exhibition hall without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Hall - exhibition hall without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "conference hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Hall - conference hall with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "conference hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Hall - conference hall with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "conference hall without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Hall - conference hall without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "function hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Hall - function hall with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "function hall",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Hall - function hall with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "function hall without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Hall - function hall without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "lecture room",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Lecture room with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "lecture room",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Lecture room with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "lecture room without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lecture room without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "spectator area",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Spectator area with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "spectator area",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Spectator area with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "spectator area without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Spectator area without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "theatre",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.BENCH to be modelled in space",
+    "functionalSpace": "Theatre with fixed bench seating",
+    "occupancyLoad": "0.45m of length of benches per person"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "theatre",
+    "occupancyType": "any",
+    "remarks": "IfcFurniture.CHAIR to be modelled in space",
+    "functionalSpace": "Theatre with individual fixed seating",
+    "occupancyLoad": "based on number of fixed seating"
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "theatre without fixed seating",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Theatre without individual fixed seating/bench",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "indoor sport hall",
+    "occupancyType": "public education institution",
+    "remarks": null,
+    "functionalSpace": "Indoor sport hall - school with multi-purpose hall",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "indoor sport hall",
+    "occupancyType": "private education institution",
+    "remarks": null,
+    "functionalSpace": "Indoor sport hall - school with multi-purpose hall",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "indoor sport hall",
+    "occupancyType": "public education institution",
+    "remarks": null,
+    "functionalSpace": "Indoor sport hall - school without multi-purpose hall",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "indoor sport hall",
+    "occupancyType": "private education institution",
+    "remarks": null,
+    "functionalSpace": "Indoor sport hall - school without multi-purpose hall",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose hall",
+    "occupancyType": "public education institution",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose hall/room - school/colleges",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose hall",
+    "occupancyType": "private education institution",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose hall/room - school/colleges",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose room",
+    "occupancyType": "public education institution",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose hall/room - school/colleges",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose room",
+    "occupancyType": "private education institution",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose hall/room - school/colleges",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose sports hall",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose sports hall - public sport complex",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose sports hall",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose sports hall - public swimming complex",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Assembly spaces",
+    "spaceName": "multi-purpose sports hall",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Multi-purpose sports hall - stadium",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "audio visual area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Audio visual area",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "audio visual control room",
+    "occupancyType": "assembly place",
+    "remarks": null,
+    "functionalSpace": "Audio visual control room - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "audio visual control room",
+    "occupancyType": "cinema",
+    "remarks": null,
+    "functionalSpace": "Audio visual control room - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "audio visual lighting control room",
+    "occupancyType": "assembly place",
+    "remarks": null,
+    "functionalSpace": "Lighting control room - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "audio visual lighting control room",
+    "occupancyType": "cinema",
+    "remarks": null,
+    "functionalSpace": "Lighting control room - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "live entertainment",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Live entertainment",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "live performance",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Live performance",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "orchestral pit",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Orchestral pit",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "projection room",
+    "occupancyType": "assembly place",
+    "remarks": null,
+    "functionalSpace": "Projection room - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "projection room",
+    "occupancyType": "cinema",
+    "remarks": null,
+    "functionalSpace": "Projection room - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "back stage",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Stage, back",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "front stage",
+    "occupancyType": "public education institution",
+    "remarks": null,
+    "functionalSpace": "Stage, front - schools/colleges/tertiary institutions",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "front stage",
+    "occupancyType": "private education institution",
+    "remarks": null,
+    "functionalSpace": "Stage, front - schools/colleges/tertiary institutions",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "front stage",
+    "occupancyType": "assembly place",
+    "remarks": null,
+    "functionalSpace": "Stage, front - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Supporting spaces for performing",
+    "spaceName": "front stage",
+    "occupancyType": "cinema",
+    "remarks": null,
+    "functionalSpace": "Stage, front - auditorium/theatre/cinema/hall",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "amusement park",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Amusement park (excluding machine area)",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "billiards room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Billiards room",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "body massage",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Body massage",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "bowling alley",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bowling alley (excluding bowling lane)",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "bowling lane",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bowling lane",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "casino",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Casino",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "children playground",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Children playground",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "club room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Club room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "discotheque dancing area",
+    "occupancyType": "entertainment place",
+    "remarks": null,
+    "functionalSpace": "Discotheque",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "discotheque dining area",
+    "occupancyType": "entertainment place",
+    "remarks": null,
+    "functionalSpace": "Discotheque",
+    "occupancyLoad": 1
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "hockey field",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Field/pitch - Hockey field/pitch",
+    "occupancyLoad": "22 persons"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "hockey pitch",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Field/pitch - Hockey field/pitch",
+    "occupancyLoad": "22 persons"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "rugby field",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Field/pitch - Rugby field/pitch",
+    "occupancyLoad": "30 persons"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "rugby pitch",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Field/pitch - Rugby field/pitch",
+    "occupancyLoad": "30 persons"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "soccer field",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Field/pitch - Soccer field/pitch",
+    "occupancyLoad": "22 persons"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "soccer pitch",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Field/pitch - Soccer field/pitch",
+    "occupancyLoad": "22 persons"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "fitness corner",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Fitness/exercise/health corner",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "foot reflexology",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Foot reflexology",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "fitness club",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Fitness/exercise/health club/centre",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "fitness centre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Fitness/exercise/health club/centre",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "gaming centre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gaming centre (excluding machine area)",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "gymnasium",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Gymnasium",
+    "occupancyLoad": 3.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "health club",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Health club/centre",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "health centre",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Health club/centre",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "indoor games room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Indoor games room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "karaoke lounge",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Karaoke lounge",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "karaoke dining area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Karaoke dining area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "recreation room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Recreation room",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "refreshmen area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Refreshment area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "skating rink",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Skating rink - rink area",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "spa",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Spa",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "badminton court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Badminton court",
+    "occupancyLoad": "4 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "basketball court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Basketball court",
+    "occupancyLoad": "10 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "basketball half court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Basketball court (half-court)",
+    "occupancyLoad": "6 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "futsal court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Futsal court",
+    "occupancyLoad": "14 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "netball court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Netball court",
+    "occupancyLoad": "14 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "netball half court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Netball court (half-court)",
+    "occupancyLoad": "8 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "squash court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Squash court",
+    "occupancyLoad": "2 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "tennis court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Tennis court",
+    "occupancyLoad": "4 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "tennis half court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Tennis court (half-court)",
+    "occupancyLoad": "2 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "volleyball court",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Sports court - Volleyball court",
+    "occupancyLoad": "12 persons per court"
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Swimming pool - condominium/apartment",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool",
+    "occupancyType": "hotel",
+    "remarks": null,
+    "functionalSpace": "Swimming pool - hotel",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool",
+    "occupancyType": "social club",
+    "remarks": null,
+    "functionalSpace": "Swimming pool - private club",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Swimming pool - public sports complex",
+    "occupancyLoad": 2.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Swimming pool - public swimming complex",
+    "occupancyLoad": 2.5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool",
+    "occupancyType": "serviced apartment",
+    "remarks": null,
+    "functionalSpace": "Swimming pool - serviced apartment",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool deck",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Swimming pool deck - condominium/apartment",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool deck",
+    "occupancyType": "hotel",
+    "remarks": null,
+    "functionalSpace": "Swimming pool deck - hotel",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool deck",
+    "occupancyType": "social club",
+    "remarks": null,
+    "functionalSpace": "Swimming pool deck - private club",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool deck",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Swimming pool deck - public sports complex",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool deck",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Swimming pool deck - public swimming complex",
+    "occupancyLoad": 5
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "swimming pool deck",
+    "occupancyType": "serviced apartment",
+    "remarks": null,
+    "functionalSpace": "Swimming pool deck - serviced apartment",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "training area",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Training area - public sports complex",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "training area",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Training area - public swimming complex",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Entertainment / recreation spaces",
+    "spaceName": "training area",
+    "occupancyType": "sports facility",
+    "remarks": null,
+    "functionalSpace": "Training area - stadium",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "ac ledge",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "-",
+    "occupancyLoad": "-"
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "backyard",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "-",
+    "occupancyLoad": "-"
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "courtyard",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "-",
+    "occupancyLoad": "-"
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "service yard",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Service yard",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "construction site",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Construction site - open to space",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "outdoor refreshment area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Outdoor refreshment area",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "pavilion",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pavilion",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "roof",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": null,
+    "functionalSpace": "Roof (public)",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "roof",
+    "occupancyType": "M&E area",
+    "remarks": null,
+    "functionalSpace": "Roof (access for maintenance only)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "green roof",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": null,
+    "functionalSpace": "Roof - green roof (public)",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "green roof",
+    "occupancyType": "M&E area",
+    "remarks": null,
+    "functionalSpace": "Roof - green roof (access for maintenance only)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "roof garden | roof terrace",
+    "occupancyType": "single dwelling residential",
+    "remarks": null,
+    "functionalSpace": "Roof garden/roof terrace, private (of individual residential unit)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "roof garden | roof terrace",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Roof garden/roof terrace, private (of individual residential unit)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "jogging track",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": null,
+    "functionalSpace": "Roof garden/roof terrace, public - jogging track/designated foot path <=3m in width",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "footpath",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": null,
+    "functionalSpace": "Roof garden/roof terrace, public - jogging track/designated foot path <=3m in width",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "IfcFurniture.PLANTERBOX to be modelled in space",
+    "functionalSpace": "Roof garden/roof terrace, public - planter box <300mm high",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nFullyCoveredWithTreesShrub [Boolean] = TRUE",
+    "functionalSpace": "Roof garden/roof terrace, public - planter box =>300mm & <= 500mm high & covered fully with trees/shrubs",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nFullyCoveredWithTreesShrub [Boolean] = FALSE",
+    "functionalSpace": "Roof garden/roof terrace, public - planter box =>300mm & <= 500mm high & not covered fully with trees/shrubs",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nStepRampAccess [Boolean] = FALSE",
+    "functionalSpace": "Roof garden/roof terrace, public - planter box >500mm high without step/ramp access",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nStepRampAccess [Boolean] = TRUE",
+    "functionalSpace": "Roof garden/roof terrace, public - planter box >500mm high with step/ramp access",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "Water features typically modelled as a floor slab \nExport to IfcGeographicElement.WATERFEATURE",
+    "functionalSpace": "Roof garden/roof terrace, public - water feature <300mm in depth/height",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "Water features typically modelled as a floor slab \nExport to IfcGeographicElement.WATERFEATURE",
+    "functionalSpace": "Roof garden/roof terrace, public - water feature =>300mm in depth/height",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "sunken planting area",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "FulllyCoveredWithTreesShrub [Boolean] = TRUE",
+    "functionalSpace": "Roof garden/roof terrace, public - sunken planting area (fully covered with trees/shrubs)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "sunken planting area",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": "FulllyCoveredWithTreesShrub [Boolean] = FALSE",
+    "functionalSpace": "Roof garden/roof terrace, public - sunken planting area (turf)",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Open space/ Open-sided space",
+    "spaceName": "any",
+    "occupancyType": "sky garden/ terrace",
+    "remarks": null,
+    "functionalSpace": "Roof garden/roof terrace, public - other areas",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "battery room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Battery room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "cooling tower",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Cooling tower",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "equipment disinfection room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Disinfection room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "equipment washing bay",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Equipment washing bay",
+    "occupancyLoad": 10
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "lubrication bay",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Lubrication bay",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "pulley room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Pulley room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "mechnical plant room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "ac plant room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - AC plant room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "ahu room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - AHU room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "boiler room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - boiler room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "boiler room (oil fired)",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - boiler room (oil fired)",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "chiller room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - chiller room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "discharge valve room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - discharge valve room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "electric lift motor room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - electric lift motor room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "electrical room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - electrical room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "essential fan room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - essential fan room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "fire pump room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - fire pump room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "balancing pump room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Balancing pump room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "domestic pump room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Domestic pump room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "irrigation pump room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Irrigation pump room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "portable water pump room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Portable water pump room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "sprinkler pump room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Sprinkler pump room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "pumped sanitary system room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Pumped sanitary system room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "pumped drainage system room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Pumped drainage system room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "ejector room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Ejector room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "emergency generator room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - emergency generator room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "generator room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - generator room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "high voltage switch room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - high voltage switch room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "hydraulic lift motor room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - hydraulic lift motor room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "lift machine room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - lift machine room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "lift motor room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - lift motor room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "low voltage switch room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - low voltage switch room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "oil tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - oil tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "sprinkler tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - sprinkler tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "telecommunication room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - telecommunication/non-essential equipment room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "equipment room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - telecommunication/non-essential equipment room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "transformer room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - transformer room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "wet riser tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mechanical plant room - wet riser tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "PABX room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "PABX room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "server room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Server room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "mdf room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "MDF room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "mobile installation space",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mobile installation space/ deployment space",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "mobile deployment space",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Mobile installation space/ deployment space",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "electronics parking system room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Electronics parking system room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "police equipment room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Police equipment room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "vent room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Vent room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "substation",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Substation",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "meter compartment",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Meter Compartment",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "potable water tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Potable water tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "NEWater tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "NEWater tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "hosereel tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Hosereel tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "non-potable water tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Non-potable water tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "hydrant tank room",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Hydrant tank room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "balancing tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Balancing tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "detention tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Detention tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "domestic water tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Domestic water tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "hot water tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Hot water tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "make up water tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Make up water tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "NEWater tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "NEWater tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "portable water tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Portable water tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "rainwater harvesting tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Rainwater Harvesting tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "irrigation tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Irrigation tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "M&E spaces",
+    "spaceName": "sprinkler tank",
+    "occupancyType": "m&e area",
+    "remarks": null,
+    "functionalSpace": "Sprinkler tank",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "bin center",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bin center",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "coldroom",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Coldroom",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "deposit room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Deposit/strong room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "strong room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Deposit/strong room",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "mortuary",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Mortuary",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "storage",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Storage/store",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "storeroom",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Storage/store",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Storage spaces",
+    "spaceName": "warehouse",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Warehouse",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "driveway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Driveway",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "garage",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Garage",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "parking place",
+    "occupancyType": "any",
+    "remarks": "ParkingType [Label] = bicycle",
+    "functionalSpace": "Parking area - bicycle",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "parking place",
+    "occupancyType": "any",
+    "remarks": "ParkingType [Label] = car",
+    "functionalSpace": "Parking area - car/lorry/bus",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "parking place",
+    "occupancyType": "any",
+    "remarks": "ParkingType [Label] = heavy vehicle",
+    "functionalSpace": "Parking area - car/lorry/bus",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "parking place",
+    "occupancyType": "any",
+    "remarks": "BarrierFreeAccessibility [Boolean] = True",
+    "functionalSpace": "Parking area - handicap",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "parking place",
+    "occupancyType": "any",
+    "remarks": "ParkingType [Label] = motorcycle",
+    "functionalSpace": "Parking area - motorcycle",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "vehicle washing bay",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Parking area - washing",
+    "occupancyLoad": 30
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "loading/unloading bay",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Loading/unloading area/bay/platform",
+    "occupancyLoad": "4 persons per bay"
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "loading/unloading area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Loading/unloading area/bay/platform",
+    "occupancyLoad": "4 persons per bay"
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "loading/unloading platform",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Loading/unloading area/bay/platform",
+    "occupancyLoad": "4 persons per bay"
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "alighting point",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Alighting/boarding point",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "boarding point",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Alighting/boarding point",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "drop off point",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Drop off point",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "bus stop",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Bus stop",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "taxi bay",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Taxi bay",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Commuter facilities",
+    "spaceName": "taxi shelter",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Taxi shelter",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "atrium",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Atrium floor",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "concourse",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Concourse",
+    "occupancyLoad": 3
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "foyer",
+    "occupancyType": "transport terminal",
+    "remarks": null,
+    "functionalSpace": "Foyer - bus/airport/ferry terminal or station",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "passenger arrival area",
+    "occupancyType": "transport terminal",
+    "remarks": null,
+    "functionalSpace": "Passenger arrival/departure areas - bus/airport/ferry terminal or station",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "passenger departure area",
+    "occupancyType": "transport terminal",
+    "remarks": null,
+    "functionalSpace": "Passenger arrival/departure areas - bus/airport/ferry terminal or station",
+    "occupancyLoad": 1.5
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "cargo lift lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - cargo/ goods lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "goods lift lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - cargo/ goods lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "common lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - common lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "evacuation lift lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - evacuation lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "fire lift lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - fire lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "passenger lift lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - passenger lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "protected lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - protected lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "smoke-free lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - smoke-free lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "service lift lobby",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lobby - service lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "private lift lobby",
+    "occupancyType": "multi-unit residential",
+    "remarks": null,
+    "functionalSpace": "Lobby - private lift lobby",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "clean room",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Clean room",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "equipment platform",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Equipment platform",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Linkway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "pedestrian linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pedestrian linkway - with commercial activities",
+    "occupancyLoad": 2
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "pedestrian linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pedestrian linkway - without commercial activities",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "elevated pedestrian linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Elevated pedestrian linkway - with commercial activities",
+    "occupancyLoad": 2
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "elevated pedestrian linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Elevated pedestrian linkway - without commercial activities",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "underground pedestrian linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Underground pedestrian linkway - with commercial activities",
+    "occupancyLoad": 2
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "elevated pedestrian linkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Underground pedestrian linkway - without commercial activities",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "promenade",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "promenade",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "boardwalk",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "boardwalk",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "through-block link",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "through-block link",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "access aisle",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "access aisle",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "private corridor",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Corridor (Private)",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "corridor",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Corridor - common corridor",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "external corridor",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Corridor - external corridor",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "open walkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Walkway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "covered walkway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Walkway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "footway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Footway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "pathway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Pathway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "veranda",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Veranda",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "void deck",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Void-deck",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "external exit staircase",
+    "occupancyType": "any",
+    "remarks": "IfcStair to be modelled in space",
+    "functionalSpace": "Exit - external circular staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "external exit staircase",
+    "occupancyType": "any",
+    "remarks": "IfcStair to be modelled in space",
+    "functionalSpace": "Exit - external exit staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "external exit staircase",
+    "occupancyType": "any",
+    "remarks": "IfcStair to be modelled in space",
+    "functionalSpace": "Exit - external spiral staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "internal exit staircase",
+    "occupancyType": "any",
+    "remarks": "IfcStair to be modelled in space",
+    "functionalSpace": "Exit - internal circular staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "internal exit staircase",
+    "occupancyType": "any",
+    "remarks": "IfcStair to be modelled in space",
+    "functionalSpace": "Exit - internal exit staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "internal exit staircase",
+    "occupancyType": "any",
+    "remarks": "IfcStair to be modelled in space",
+    "functionalSpace": "Exit - internal spiral staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "external exit passageway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Exit - external exit passageway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "internal exit passageway",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Exit - internal exit passageway",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "external exit ramp",
+    "occupancyType": "any",
+    "remarks": "IfcRamp to be modelled in space",
+    "functionalSpace": "Exit - external exit ramp",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "internal exit ramp",
+    "occupancyType": "any",
+    "remarks": "IfcRamp to be modelled in space",
+    "functionalSpace": "Exit - internal exit ramp",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "staircase",
+    "occupancyType": "any",
+    "remarks": "indicate hardwood via material",
+    "functionalSpace": "Staircase - hardwood staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Circulation",
+    "spaceName": "staircase",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Staircase - access staircase",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "airlock",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Airlock",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "letter box",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Letter box",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "dry riser shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shaft - dry riser",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "electrical shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shaft - electrical",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "gas shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shaft - gas",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "ventilation shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shaft - ventilation",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "water shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shaft - water",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "wet riser shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Shaft - wet riser",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "lift shaft",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Lift shaft",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "non-shelter",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Non-shelter",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "storey shelter",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Storey shelter",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "Other Non-simultaneous spaces",
+    "spaceName": "rest area",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "Rest area",
+    "occupancyLoad": 0
+  },
+  {
+    "category": "OTHERS",
+    "spaceName": "airwell",
+    "occupancyType": "any",
+    "remarks": null,
+    "functionalSpace": "-",
+    "occupancyLoad": "-"
+  }
+]

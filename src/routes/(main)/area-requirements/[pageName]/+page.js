@@ -1,24 +1,24 @@
-import page_content from './page_content.json'
-import table_content from './table_content.json'
-import area_map from '../area.json'
+import areaPset from '../areaPset.json'
 import { toURLPath } from '$fn/helper'
 
-export function load({ params }) {
+export async function load({ params, parent }) {
+    const { areaScheme, pageContent } = await parent()
+
 
     const pageName = params.pageName
-    let pageContent
+    let content
 
-    for (const item of page_content) {
+    for (const item of pageContent) {
         if (toURLPath(item.path) == toURLPath(pageName)) {
-            pageContent = item
+            content = item
             break
         }
     }
 
-    const obj = area_map.find(x => x.SubType == pageContent.path)
+    const obj = areaPset.find(x => x.SubType == content.path)
     const propNames = obj.Properties.map(x => x.PropertyName)
 
-    const tableContent = table_content.filter(x => propNames.includes(x.scheme))
+    const tableContent = areaScheme.filter(x => propNames.includes(x.scheme))
 
-    return ({ pageContent, tableContent })
+    return ({ content, tableContent })
 }

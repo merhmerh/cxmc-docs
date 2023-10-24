@@ -1,10 +1,9 @@
-import spaceNameJson from "./../data_space_ot_pdt.json";
+import spaces from "./../spaceName.json";
 
 export async function load({ url }) {
 
     const path = url.pathname.split(/\//).pop()
 
-    const spaces = spaceNameJson.spaceName
 
     if (path == 'all-spaces') {
         return ({ spaces: spaces })

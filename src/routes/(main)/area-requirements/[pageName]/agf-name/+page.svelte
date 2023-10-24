@@ -1,6 +1,6 @@
 <script>
 import { theme } from "$comp/theme.store";
-import { notify, Select } from "merh-forge-ui";
+import { notify } from "merh-forge-ui";
 import { page } from "$app/stores";
 import { toURLPath } from "$fn/helper";
 import Icon from "@iconify/svelte";
@@ -155,7 +155,15 @@ function resetFilter() {
 }
 table {
     font-size: 0.875rem;
+    width: 400px;
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+    }
     th {
+        &:first-child {
+            border-radius: 0.25rem 0.25rem 0 0;
+            border-left: 1px solid var(--table__border-color);
+        }
         div {
             font-size: inherit;
         }
