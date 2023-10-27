@@ -14,12 +14,6 @@
         "STR",
         "External Works"
       ],
-      "OT Key (Object Type)": [
-        "reca55J9aSXPjfa43",
-        "recLdGCxhw1lQ3aHJ",
-        "rec43exjtjSUKA2w8",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recbqX3vQbcCrO73w",
         "recuFP0SZvHvVvUit",
@@ -42,12 +36,19 @@
         "NOTDEFINED",
         "SUPPORT"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCPIL_057",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
         "DRIVEN",
-        "SUPPORT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "SUPPORT"
       ]
     }
   },
@@ -64,22 +65,6 @@
       "Discipline": [
         "MEP",
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recfpnMrlOOTcYgP1",
-        "recqcopU5hDoN7x5X",
-        "recGRZyMuHsmBxZGl",
-        "recY1z95OIJDWQEwQ",
-        "recK5AHjkJT6QOvZK",
-        "recz2jHxRQA8zpNOp",
-        "recwQRAfsmJkNxClf",
-        "recEhSmHH6deVgKyC",
-        "recetaRF7X8HhrXql",
-        "recO3yonnSkmV26kQ",
-        "recXKQa8THSn8DBkU",
-        "reczcAprwFuRlOHRP",
-        "rec0ibkFGpigV6AiD",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recGojU3IiR9KAymy"
@@ -112,17 +97,33 @@
         "NOTDEFINED",
         "PHSENSOR"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSEN_071",
       "IFC4 Object Types": [
-        "AIRIMPURITIESSENSOR",
-        "BEAMDETECTOR",
-        "LEAKSENSOR"
+        "AIRIMPURITIESSENSOR*",
+        "BEAMDETECTOR*",
+        "LEAKSENSOR*"
       ],
       "IFC4 Predefined Types": [
         "FLOWSENSOR",
         "LEVELSENSOR",
-        "PHSENSOR",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "PHSENSOR"
       ]
     }
   },
@@ -139,13 +140,6 @@
       "Discipline": [
         "ARC",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "rectrJLPEf6Pzjwg4",
-        "recomMzRDhTmzpTYg",
-        "recAIYPtFiUxozVcv",
-        "reci5c5YNYQMh7XKp",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recMvbyW02hZv6QxF",
@@ -166,7 +160,15 @@
         "FLAT_ROOF",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCROO_069",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLAT_ROOF",
         "NOTDEFINED"
@@ -187,16 +189,6 @@
         "ARC",
         "STR",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "recj0777pBiaGwhh2",
-        "recL59kjQpsrzqRlX",
-        "reccyv80eg0lmUyhv",
-        "rec2fQEuyJUYUYzoZ",
-        "recN5YxhqmsQls6Gx",
-        "recq1rdaFyTBA2rsw",
-        "recIJHWEmrMLIcPsj",
-        "recin8lYYTb0w3vLQ"
       ],
       "Property Set": [
         "rec3XiRfn9lvVcPrw",
@@ -231,16 +223,27 @@
         "NOTDEFINED",
         "ROOF"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSLA_074",
       "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
         "LANDING",
-        "ROOF",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOF"
       ]
     }
   },
@@ -257,12 +260,6 @@
       "Discipline": [
         "ARC",
         "STR"
-      ],
-      "OT Key (Object Type)": [
-        "recLRINM3DSpALTyd",
-        "rec1R4aD4QWdcadX7",
-        "recblsdAyPUaEJrcr",
-        "rec4uzivcYKebhiKF"
       ],
       "Property Set": [
         "recZH6pH9LwqmlMVi",
@@ -284,14 +281,20 @@
         "STRAIGHT",
         "SPIRAL"
       ],
+      "Beta (from CO Key)": [
+        true,
+        true,
+        true,
+        true
+      ],
       "IFC KEY": "IFCSTA_079",
       "IFC4 Object Types": [
-        "WINDER"
+        "WINDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED",
-        "SPIRAL",
-        "STRAIGHT"
+        "STRAIGHT",
+        "SPIRAL"
       ]
     }
   },
@@ -307,14 +310,6 @@
       "Autonumber": 44,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recffujuoAtlM6Qz1",
-        "recpRtpDLsXGyWQeo",
-        "rec7J9L75HO27wfer",
-        "recIQUxdB7VP887hI",
-        "recUWTvJsvYVhGtJB",
-        "recZmNOCy3vFuAS2w"
       ],
       "Property Set": [
         "recjE4A8dP249vr5p",
@@ -339,9 +334,17 @@
         "FUELMETER*",
         "WATERMETER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCFLO_044",
       "IFC4 Object Types": [
-        "FUELMETER"
+        "FUELMETER*"
       ],
       "IFC4 Predefined Types": [
         "WATERMETER"
@@ -360,36 +363,6 @@
       "Autonumber": 87,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recqlWLSTuvZyvEJi",
-        "recfLzSEk9JwSXeaj",
-        "recxWur1JDYzXfHpt",
-        "recQF3OZAZBh9Pb1w",
-        "rechYcnE0TsZLCg87",
-        "recAdZ04EiwlYXvpl",
-        "recLAMNkfDoCRMhcy",
-        "rec3npE6YhBCu4RRG",
-        "recmLfejgrNlLA5bd",
-        "recqN47gT28miwITS",
-        "reciwtr0poTdP8XpK",
-        "recDcgRTjyHET1Dk3",
-        "recyq4uESpNhGDOYq",
-        "rec0tUvrAWbZSSqlO",
-        "reclqpnPHTrqFXzYh",
-        "rec5MC63aDpxyJyw5",
-        "recde6n4921bdYcSr",
-        "rec7B36InHtE8aWbM",
-        "rec8C5fc05acN8rmL",
-        "recBWAeLmdAiSi2fs",
-        "rec5Mo6ssTn8FJ4u2",
-        "recn6gv6FqX9QG1vK",
-        "recXpvEK3MgIGFBe4",
-        "recmtTEhnD43kG2HP",
-        "rechRgzC7Z36Iz174",
-        "recu55UOw9kVgsTOY",
-        "reccazYitOc619tdm",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recs3LMK3gWjogyGp",
@@ -451,16 +424,46 @@
         "NOTDEFINED",
         "STOPCOCK"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCVAL_087",
       "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*"
       ],
       "IFC4 Predefined Types": [
         "ANTIVACUUM",
@@ -470,8 +473,8 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STOPCOCK"
       ]
     }
   },
@@ -487,15 +490,6 @@
       "Autonumber": 4,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recEDGAIxPCDNdeXn",
-        "recMI5trnrzkutwOQ",
-        "rec1XL2BGx6AABLjE",
-        "recyL0kbuoPwGLugY",
-        "recwg3D0saSOcHsog",
-        "reca3Tioa2COGiAQH",
-        "recgC9Tpfc3ezgdg2"
       ],
       "Property Set": [
         "recvu5aCmkwfSXuBA"
@@ -521,9 +515,18 @@
         "SWITCHER",
         "TELEPHONE"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCAUD_004",
       "IFC4 Object Types": [
-        "LOUDSPEAKER"
+        "LOUDSPEAKER*"
       ],
       "IFC4 Predefined Types": [
         "AMPLIFIER",
@@ -548,22 +551,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recfyPV8QISLKeHIy",
-        "reclcMB45jf4eSQG7",
-        "reczxC5ugryG8riEE",
-        "reca8zxlk2DRLMonT",
-        "rec3Gv5UrgYAEIU4A",
-        "recNyrYbmSzW2OeeV",
-        "recAGG9JRWOm3nao0",
-        "recRmc4RkhBC6dQOp",
-        "recnQuIVCLQ5d7gD1",
-        "recTUQxjGwZ28C8T1",
-        "recHxAtBqjxUNDs0I",
-        "recb5JGUnqvFUdFtu",
-        "reck86nSdg6tQbLF2",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "reccmLfm3GYAuCnxv"
@@ -593,10 +580,26 @@
         "CONTROLPANEL",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCUNI_085",
       "IFC4 Object Types": [
-        "LIFTCALLBUTTON",
-        "SUBALARMPANEL"
+        "LIFTCALLBUTTON*",
+        "SUBALARMPANEL*"
       ],
       "IFC4 Predefined Types": [
         "CONTROLPANEL",
@@ -617,24 +620,6 @@
       "Discipline": [
         "ARC",
         "STR"
-      ],
-      "OT Key (Object Type)": [
-        "recHWREbkOFiSRjiS",
-        "rechys0A6GVp8yu9z",
-        "recjldKghJxYJ6LGx",
-        "recIJHWEmrMLIcPsj",
-        "recnC6zCgnWqLNaci",
-        "recEBAedCYCb3VBxU",
-        "recJRkntkjQmtxdpp",
-        "reczaOVLeRd1sVEPy",
-        "recPuaN46GwMGC2BE",
-        "recmiLcpU7mJ6F6gU",
-        "recsgcYP5K7Mk68rG",
-        "recJpKSBcJCcJC8qw",
-        "rec9DFW1zBjHgBxhh",
-        "recfX3JkwKpwBamDV",
-        "recq4M6RIWnKPPXsK",
-        "recuh244CcoRnpfeb"
       ],
       "Property Set": [
         "recFCDl9xGfkbdKFB",
@@ -660,26 +645,20 @@
         "STRAIGHT_RUN_STAIR",
         "SPIRAL_STAIR"
       ],
+      "Beta (from CO Key)": [
+        null,
+        true,
+        true,
+        true
+      ],
       "IFC KEY": "IFCSTA_078",
       "IFC4 Object Types": [
-        "LADDER"
+        "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
+        "SPIRAL_STAIR"
       ]
     }
   },
@@ -696,27 +675,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "reccM8l26rD2LhxRO",
-        "recwqobu77iXyPwru",
-        "recjYcYVS41AWlZB0",
-        "recOd0im7eMcSFFRE",
-        "recdIi7AA7F3FndUl",
-        "rec0Rp2NKvwgQdfC3",
-        "recOFRgkb65KSfaNu",
-        "recUCok20VLAE2jZc",
-        "recxKhnMisTYHZ4jD",
-        "recf1GPeqRR2tUbSn",
-        "rece272CBt6LIImab",
-        "recxddRcxrZ9if6ID",
-        "recQXabuaHvJRtTLU",
-        "rec6FAnqsxpPZkzik",
-        "recyPUl52kj9VQX3q",
-        "recKOgQqDoAs2y5A6",
-        "recdRE87DseaRGKL7",
-        "recJdXWdfRYitmJgY",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "rectBZSAu0vc6Ggdp",
         "recdhggFwXm2wrVCv",
@@ -724,8 +682,6 @@
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
-        "recFhC0TxyT0LSk0j",
-        "recnEA8faoLqtKr7s",
         "recibUMbTwCipbH3Y",
         "recTEmDxs8vhQjcmA",
         "recThZXEFMbUe8rIP",
@@ -745,18 +701,14 @@
         "recF4ZMATTZzmOJaW",
         "rec7bG8ajyPRaY0tp",
         "recnrVJgRKDiIW4Hd",
-        "recXOX3Ry14lkwWtP",
-        "recasouArGt9OGu4b"
+        "recXOX3Ry14lkwWtP"
       ],
       "Identified Components": [
-        "Clean Agent Fire Extinguisher",
-        "Dry Chemical Fire Extinguisher",
         "Tank",
-        "Tank Cover",
-        "Wet Chemical Fire Extinguisher"
+        "Fire Extinguishing Tank",
+        "Tank Cover"
       ],
       "IFC4 Sub Types (Beta)": [
-        "FIREEXTINGUISHINGTANK*",
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
         "BALANCINGTANK*",
@@ -764,6 +716,7 @@
         "DETENTIONTANK*",
         "DILUTIONTANK*",
         "EJECTORTANK*",
+        "FIREEXTINGUISHINGTANK*",
         "HOLDINGTANK*",
         "RECHARGEWELL*",
         "REFUSEHANDLINGEQUIPMENT*",
@@ -775,28 +728,50 @@
         "PRESSUREVESSEL",
         "STORAGE"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCTAN_082",
       "IFC4 Object Types": [
-        "AIRRECEIVER",
-        "BACKWASHWATERHOLDINGTANK",
-        "BALANCINGTANK",
-        "BLOWDOWN",
-        "DETENTIONTANK",
-        "DILUTIONTANK",
-        "EJECTORTANK",
-        "FIREEXTINGUISHINGTANK",
-        "HOLDINGTANK",
-        "RECHARGEWELL",
-        "REFUSEHANDLINGEQUIPMENT",
-        "RETENTIONTANK",
-        "SECTIONAL",
-        "SURGETANK"
+        "AIRRECEIVER*",
+        "BACKWASHWATERHOLDINGTANK*",
+        "BALANCINGTANK*",
+        "BLOWDOWN*",
+        "DETENTIONTANK*",
+        "DILUTIONTANK*",
+        "EJECTORTANK*",
+        "FIREEXTINGUISHINGTANK*",
+        "HOLDINGTANK*",
+        "RECHARGEWELL*",
+        "REFUSEHANDLINGEQUIPMENT*",
+        "RETENTIONTANK*",
+        "SECTIONAL*",
+        "SURGETANK*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
+        "NOTDEFINED",
         "PRESSUREVESSEL",
-        "STORAGE",
-        "NOTDEFINED"
+        "STORAGE"
       ]
     }
   },
@@ -813,24 +788,23 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recNCfmUu2DZu9QA4"
       ],
       "CO Key": [
-        "recQO9707dUqXBrgH",
         "recdhk6kqFGyFLhsj"
       ],
       "Identified Components": [
-        "Chiller",
         "Chiller Unit"
       ],
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCCHI_016",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -849,24 +823,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recHAa4Es0KQiC611",
-        "rec8Y2sCapVYXu18s",
-        "recK3zMNi58ZYK5hh",
-        "recSElcQ3egXcsNPL",
-        "recboaasoqQFquwSc",
-        "rec5SiWH5aYQVIeHw",
-        "recHSHLeW3j7mxPVx",
-        "recsnhG990e31axaf",
-        "receJE26ftj8VU1MY",
-        "recXMJAaNysofGJrW",
-        "recjARZswmGTRWJoI",
-        "recrAWaASuKOnxIh1",
-        "rec0bLtUW0tqusqx1",
-        "recXZtSW9R5SbnUJO",
-        "recIJHWEmrMLIcPsj",
-        "recINCMCLFaP2LlVJ"
-      ],
       "Property Set": [
         "rectKy6lxn7wm1MB6",
         "recqTrWwgEEmAFrk9",
@@ -883,7 +839,6 @@
         "recBz3HGOqWMWtJVi",
         "rec27atKpr38WEZQZ",
         "recNrNOB8VU0vsk8P",
-        "recZDAgzIS97ubiVC",
         "recPYgm9rFyTMRIxV",
         "recfno03RKM2XHajn",
         "recG91xPmra71jpWT",
@@ -926,25 +881,47 @@
         "SMOKECURTAIN*",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCDOO_030",
       "IFC4 Object Types": [
-        "ACCESSHATCH",
-        "BLASTDOOR",
-        "FIRECURTAIN",
-        "FIRESHUTTER",
-        "FLAPDOOR",
-        "RECYCLABLESCHUTEACCESSPANEL",
-        "RECYCLABLESCHUTEHOPPER",
-        "REFUSECHUTEACCESSPANEL",
-        "REFUSECHUTEHOPPER",
-        "ROLLERSHUTTER",
-        "SMOKECURTAIN"
+        "ACCESSHATCH*",
+        "RECYCLABLESCHUTEACCESSPANEL*",
+        "RECYCLABLESCHUTEHOPPER*",
+        "REFUSECHUTEACCESSPANEL*",
+        "REFUSECHUTEHOPPER*",
+        "BLASTDOOR*",
+        "FIRESHUTTER*",
+        "FLAPDOOR*",
+        "ROLLERSHUTTER*",
+        "FIRECURTAIN*",
+        "SMOKECURTAIN*"
       ],
       "IFC4 Predefined Types": [
-        "GATE",
         "TRAPDOOR",
-        "NOTDEFINED",
-        "DOOR"
+        "GATE",
+        "DOOR",
+        "NOTDEFINED"
       ]
     }
   },
@@ -961,10 +938,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHpOiqy9K8WF4",
-        "recHAEebRIrhA1atD"
-      ],
       "Property Set": [
         "rectMnYsbqgDXF1Ya"
       ],
@@ -979,7 +952,12 @@
       "IFC4 Sub Types (Beta)": [
         "PRESSUREGAUGE"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCFLO_043",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "PRESSUREGAUGE"
       ]
@@ -997,18 +975,6 @@
       "Autonumber": 64,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recE6Ri1SIzuoSKiH",
-        "recCnhNGQURy96qVL",
-        "recOg4fUMpJKprSq4",
-        "recU9LTLyooh6K1Nr",
-        "recW0c0bLS2fXvOrs",
-        "recoFKCbHeoFMwbKD",
-        "reco3WIwmvdKWC6yD",
-        "recEyLqf5qiKePDAf",
-        "recIJHWEmrMLIcPsj",
-        "recPCrsHMhwNKhi3U"
       ],
       "Property Set": [
         "recyoku7ppqAQqW2j",
@@ -1040,19 +1006,31 @@
         "SUMPPUMP",
         "EJECTORPUMP*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCPUM_064",
       "IFC4 Object Types": [
-        "AERATOR",
-        "JET",
-        "JOCKEYPUMP",
-        "VACUUMEXHAUSTER",
-        "EJECTORPUMP"
+        "AERATOR*",
+        "JET*",
+        "JOCKEYPUMP*",
+        "VACUUMEXHAUSTER*",
+        "EJECTORPUMP*"
       ],
       "IFC4 Predefined Types": [
         "ENDSUCTION",
+        "NOTDEFINED",
         "SPLITCASE",
-        "SUMPPUMP",
-        "NOTDEFINED"
+        "SUMPPUMP"
       ]
     }
   },
@@ -1068,13 +1046,6 @@
       "Autonumber": 13,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recOvJx5X9Q11KOWB",
-        "recN22MExD5cwMAYJ",
-        "rec0xfsklbozL58eo",
-        "recLPfRmd44ldWmtg",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "rec9deXZBT4E6DnY6"
@@ -1098,9 +1069,17 @@
         "CONDUITSEGMENT",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCCAB_013",
       "IFC4 Object Types": [
-        "AIRCONDITIONINGTRAY"
+        "AIRCONDITIONINGTRAY*"
       ],
       "IFC4 Predefined Types": [
         "CABLETRAYSEGMENT",
@@ -1123,9 +1102,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "CO Key": [
         "recbcq8FZ8JdWVJzq"
       ],
@@ -1135,7 +1111,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCENG_039",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1154,9 +1134,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIqjd5mFmFQhFlq"
-      ],
       "CO Key": [
         "recTCczcfyjXkGHK2"
       ],
@@ -1164,7 +1141,12 @@
         "Vaporiser"
       ],
       "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCHEA_049"
+      "Beta (from CO Key)": [
+        null
+      ],
+      "IFC KEY": "IFCHEA_049",
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -1180,9 +1162,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recYWhrFtAXZcDnOj",
         "recXpYvfPdJFolJdv",
@@ -1195,10 +1174,12 @@
         "Building"
       ],
       "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        true
+      ],
       "IFC KEY": "IFCBUI_007",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -1213,25 +1194,6 @@
       "Autonumber": 72,
       "Discipline": [
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recO5TjybdDe9Gx1j",
-        "recsHhFoAKGedBVX5",
-        "rec21jZPpS9duz1JM",
-        "recikOaZisdn7JbK4",
-        "recugK4D5cZAwqwZb",
-        "recbrJ7LWnZW3gfMW",
-        "recNnpkJ32RqBq1DO",
-        "recqAoJ0tQpwo1mqB",
-        "recpFBco9i6ARrgFN",
-        "recgPHxIVR6VVuU1W",
-        "recevuQ59aI48Cvom",
-        "recKgBSYDDqeC7nyl",
-        "recNNo1YtLTVTu1fr",
-        "recl2MR0PWFJmj0K1",
-        "recIJHWEmrMLIcPsj",
-        "recUB4mj2dZDwqtnZ",
-        "recXRyrFzkRse8RYO"
       ],
       "Property Set": [
         "reckvosbJYCyyAlTe",
@@ -1264,7 +1226,6 @@
         "Shading Device"
       ],
       "IFC4 Sub Types (Beta)": [
-        "SCREEN*",
         "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
@@ -1272,23 +1233,44 @@
         "LOUVREDPANEL*",
         "PARASOL*",
         "PERFORATEDPANEL*",
+        "SCREEN*",
         "SHIELD*",
         "TRELLIS*",
         "AWNING",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSHA_072",
       "IFC4 Object Types": [
-        "BALCONYSCREEN",
-        "CANOPY",
-        "DROPDOWNPANEL",
-        "EXTERNALFINS",
-        "LOUVREDPANEL",
-        "PARASOL",
-        "PERFORATEDPANEL",
-        "SHIELD",
-        "SCREEN",
-        "TRELLIS"
+        "BALCONYSCREEN*",
+        "CANOPY*",
+        "DROPDOWNPANEL*",
+        "EXTERNALFINS*",
+        "LOUVREDPANEL*",
+        "PARASOL*",
+        "PERFORATEDPANEL*",
+        "SCREEN*",
+        "SHIELD*",
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
         "AWNING",
@@ -1309,37 +1291,35 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recraD75xl9hczwNB",
-        "recmZv60w5R9jvDNz",
-        "rec2KMle8m991Qy2k",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "rechxX0dd5SiCAOfO"
       ],
       "CO Key": [
-        "recUS3MBlMhtzejwI",
         "rec1ZtQ51XdL93KDv",
         "recm3wc4qGVFLs3n8",
         "recXsTCNQrKwuc9EQ",
         "recRNyu242zDkwODc"
       ],
       "Identified Components": [
-        "Diesel Generator",
         "Emergency Generator",
         "Generator",
         "Genset",
         "Standby Generating Plant"
       ],
       "IFC4 Sub Types (Beta)": [
-        "ENGINEGENERATOR",
         "EMERGENCYENGINEGENERATOR*",
+        "ENGINEGENERATOR",
         "NOTDEFINED"
+      ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
       ],
       "IFC KEY": "IFCELE_036",
       "IFC4 Object Types": [
-        "EMERGENCYENGINEGENERATOR"
+        "EMERGENCYENGINEGENERATOR*"
       ],
       "IFC4 Predefined Types": [
         "ENGINEGENERATOR",
@@ -1359,11 +1339,6 @@
       "Autonumber": 35,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recUhLHTScW9zhpYP",
-        "recDYy4VX9BLWW5az",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recdt73k5KOcl2m5s"
@@ -1385,7 +1360,15 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCELE_035",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1404,9 +1387,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recFsqBAVTSFr6QUh"
-      ],
       "CO Key": [
         "recUOaFcGXrSXBFUe"
       ],
@@ -1414,7 +1394,12 @@
         "Electro Magnetic"
       ],
       "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCPRO_063"
+      "Beta (from CO Key)": [
+        null
+      ],
+      "IFC KEY": "IFCPRO_063",
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -1430,23 +1415,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recysGMMvr8mIiRGW",
-        "rec8cxkamICm6fLY4",
-        "rec9ClZMiTvb0GYKh",
-        "recHsxiQUPRYKwbQw",
-        "recHanB2aq9291lNC",
-        "rec826dTJKG9vBxV7",
-        "recEN8DIGKSNTELU1",
-        "rec5yiW8XEPnQz2Bp",
-        "recQKJWJHdz78QyoJ",
-        "recUnzilxxScYICMh",
-        "recm2xmxhDmx6nWjC",
-        "recJhHj6L94hlHsni",
-        "recqpmyKe2d94Itaa",
-        "rec7qetCk55QzyQQ1",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recW81a9lXWyMIiDZ",
@@ -1490,25 +1458,42 @@
         "NOTDEFINED",
         "WASTETRAP"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCWAS_089",
       "IFC4 Object Types": [
-        "CHUTEINTERFACE",
-        "DROPINLETCHAMBER",
-        "RECYCLABLESTHROWPOINT",
-        "REFUSETHROWPOINT",
-        "RETURNINLET",
-        "SHALLOWFLOORTRAP",
-        "URINALTRAP",
-        "WASTEDIVERTER",
-        "WASTESUMP"
+        "CHUTEINTERFACE*",
+        "DROPINLETCHAMBER*",
+        "RECYCLABLESTHROWPOINT*",
+        "REFUSETHROWPOINT*",
+        "RETURNINLET*",
+        "SHALLOWFLOORTRAP*",
+        "URINALTRAP*",
+        "WASTEDIVERTER*",
+        "WASTESUMP*"
       ],
       "IFC4 Predefined Types": [
         "FLOORTRAP",
         "FLOORWASTE",
         "GULLYSUMP",
         "GULLYTRAP",
-        "WASTETRAP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "WASTETRAP"
       ]
     }
   },
@@ -1525,9 +1510,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "CO Key": [
         "rec9NjBrBaL88fWyN"
       ],
@@ -1537,7 +1519,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCCAB_014",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1555,13 +1541,6 @@
       "Autonumber": 20,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recNdw5tHBL6N9t6s",
-        "recb5NGRnwBskJIBO",
-        "recJTPylOMtc34OZf",
-        "recbzhSDKBn6o3pMz",
-        "recwC150O38AGAohE"
       ],
       "Property Set": [
         "recCgjbShnKCs9yDC",
@@ -1585,9 +1564,16 @@
         "COMPUTER",
         "INTEGRATEDCOMMUNICATIONCONSOLE*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCCOM_020",
       "IFC4 Object Types": [
-        "INTEGRATEDCOMMUNICATIONCONSOLE"
+        "INTEGRATEDCOMMUNICATIONCONSOLE*"
       ],
       "IFC4 Predefined Types": [
         "COMPUTER"
@@ -1608,21 +1594,6 @@
         "MEP",
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recFL3webG07T2vxU",
-        "recwVKE3MVG4cgi0z",
-        "recz63QfGF8Aox5In",
-        "rec8WBXq8YZEycbh4",
-        "recr9HJb26Rzr8e6I",
-        "recbURJvQQTNfEC7e",
-        "reckkBUfknLqbKCKJ",
-        "recMtW65FnGZgXxFu",
-        "recaCE0dAOdzdzLI3",
-        "recamaaTzjn02R4jK",
-        "recIJHWEmrMLIcPsj",
-        "recfLTtiVtfOvE5HT",
-        "rechdhRMbQC51CkOv"
-      ],
       "Property Set": [
         "reclLaabr5c6L0Qsu",
         "rec5dJmolf5e1XOo3",
@@ -1634,13 +1605,10 @@
         "recd8yZG4c5DvcKYJ",
         "rec5o78TyfsdyyfGG",
         "recwa8PswjuWrjNkW",
-        "rec2FAxHBOcRgBm1Y",
         "rec14FlhAljuYmjBR",
         "rechZj4MDqpNys1Xw",
-        "recnzwCez8IcGrjNx",
         "recqld4WFVaVTNTEk",
         "recLzxWQS6I6Ro2vl",
-        "recndFyyc2Y6sTBcJ",
         "reccYXK77a5Ge8KYw",
         "recBRmThs3FIwtCGC",
         "recW0vZoFu5jQJUw6",
@@ -1652,13 +1620,10 @@
         "Bathtub",
         "Bidet",
         "Breeching Inlet (Irrigation)",
-        "Chemical Appliance",
         "Fogger",
         "Mister",
-        "Plumbing Fixture",
         "Refuse Chute Flushing Sprinkler",
         "Sanitary Fixture",
-        "Sanitary Terminal",
         "Shower",
         "Sink",
         "Skimmer",
@@ -1671,8 +1636,8 @@
         "BIDET",
         "FOGGER*",
         "MISTER*",
-        "NOTDEFINED",
         "SPRINKLER*",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "POOLSKIMMER*",
@@ -1680,23 +1645,37 @@
         "WASHHANDBASIN",
         "WATERCLOSET*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSAN_070",
       "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
+        "FOGGER*",
+        "MISTER*",
+        "SPRINKLER*",
+        "POOLSKIMMER*",
+        "WATERCLOSET*"
       ],
       "IFC4 Predefined Types": [
         "BATH",
         "BIDET",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
+        "WASHHANDBASIN"
       ]
     }
   },
@@ -1713,9 +1692,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "rec8AAkfph4ZgTkf0"
       ],
@@ -1728,7 +1704,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCCOM_021",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1746,15 +1726,6 @@
       "Autonumber": 80,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recxt3gGDaGokpYfm",
-        "recR91bwRbbBewbIB",
-        "recidjqOdc9nZvt5U",
-        "reckF9XD1yMlyzNN6",
-        "rec1hIRv7PBstAxOd",
-        "recv3uBfdtNLCSmiJ",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recldCOTIz1wuMlFV"
@@ -1777,11 +1748,20 @@
         "MANUALSWITCH*",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSWI_080",
       "IFC4 Object Types": [
-        "EVACUATIONSWITCH",
-        "FIRELIFTSWITCH",
-        "MANUALSWITCH"
+        "EVACUATIONSWITCH*",
+        "FIRELIFTSWITCH*",
+        "MANUALSWITCH*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1801,18 +1781,6 @@
       "Discipline": [
         "MEP",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "rechTc1zZGgtyGC6m",
-        "recIIa6nzyVcyFFJb",
-        "recTC6MbWyqmcJ1Gy",
-        "reczy3ZRKpzLp5jEz",
-        "recaEmvw5CLOMlYj5",
-        "recDiJ2IT7kGqL7I1",
-        "reca8o0Pdl6ADMtj5",
-        "recIJHWEmrMLIcPsj",
-        "rectRIWZNS3KR7laN",
-        "rec5OwR5TFrIQx2Fo"
       ],
       "Property Set": [
         "rec40Kv98zoIVg4My",
@@ -1844,17 +1812,29 @@
         "ROOFGUTTER",
         "SPOOL"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCPIP_059",
       "IFC4 Object Types": [
-        "BYPASSCHANNEL",
-        "RAINWATEROUTLET",
-        "SCUPPERDRAIN"
+        "BYPASSCHANNEL*",
+        "RAINWATEROUTLET*",
+        "SCUPPERDRAIN*"
       ],
       "IFC4 Predefined Types": [
-        "ROOFGUTTER",
-        "SPOOL",
+        "FOUNDATION",
         "NOTDEFINED",
-        "FOUNDATION"
+        "ROOFGUTTER",
+        "SPOOL"
       ]
     }
   },
@@ -1873,9 +1853,6 @@
         "ARC",
         "External Works"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recN8nT47SArLvY2G",
         "rec9deXZBT4E6DnY6"
@@ -1892,13 +1869,16 @@
         "Interior Element",
         "Obstruction"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
+      "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
       ],
       "IFC KEY": "IFCELE_038",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -1913,11 +1893,6 @@
       "Autonumber": 60,
       "Discipline": [
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recpELMZ9veN11Pil",
-        "rec17zYtCyRBGZobR",
-        "rec0W30oi89GmFW2H"
       ],
       "Property Set": [
         "rec9deXZBT4E6DnY6"
@@ -1936,7 +1911,13 @@
         "CURTAIN_PANEL",
         "SHEET"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCPLA_060",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "CURTAIN_PANEL",
         "SHEET"
@@ -1956,9 +1937,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recXlcI1uwfvZ6j5e"
       ],
@@ -1971,7 +1949,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCRAM_067",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1990,10 +1972,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recXh2eP4nEibiap6",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "rec05WeIUqKxXhDVd"
       ],
@@ -2008,7 +1986,12 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCTRA_083",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -2026,29 +2009,6 @@
       "Autonumber": 33,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recnLMWk70ooaO00d",
-        "recwk6w3ojlylgjop",
-        "recZlLhX7oYGuXDCA",
-        "recie3VlTSRttxRVO",
-        "reclSFe1GLI6ToHL3",
-        "recRoYgfibb2dO9P6",
-        "recDhWD2y8K8SkLkt",
-        "recih2w8i5hbnVVRx",
-        "reco1iw2gvzY9335y",
-        "recfDqvuko2ImNtlj",
-        "recbO0rG9g93rWgHS",
-        "recHp7iwjXsXucwPS",
-        "recFDGcrw3Pjyv5P2",
-        "recaMNpLUaGKJFKOI",
-        "recH1YRWlwwX9YqSq",
-        "recbA01YzRKEBHeuZ",
-        "recZizwli7ucTTLnB",
-        "recIyVTiFM4R23IpV",
-        "rec9UZHXmjg9qU9lT",
-        "rec0lL8xGBQKHIwU3",
-        "recy2eQofVQUAmGBF"
       ],
       "Property Set": [
         "reciDONVhYPbVUMz2",
@@ -2120,28 +2080,51 @@
         "WATERDISPENSER*",
         "FREESTANDINGWATERHEATER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCELE_033",
       "IFC4 Object Types": [
-        "COFFEEMAKER",
-        "DRINKINGFOUNTAIN",
-        "FUMEHOOD",
-        "HIGHPRESSURECLEANER",
-        "ICEMAKER",
-        "RANGEHOOD",
-        "SCRAPER",
-        "STEAMCLEANER",
-        "TELEVISION",
-        "WATERDISPENSER"
+        "COFFEEMAKER*",
+        "DRINKINGFOUNTAIN*",
+        "FUMEHOOD*",
+        "HIGHPRESSURECLEANER*",
+        "ICEMAKER*",
+        "RANGEHOOD*",
+        "SCRAPER*",
+        "STEAMCLEANER*",
+        "TELEVISION*",
+        "WATERDISPENSER*"
       ],
       "IFC4 Predefined Types": [
         "DISHWASHER",
         "ELECTRICCOOKER",
         "FREESTANDINGELECTRICHEATER",
-        "FREESTANDINGWATERCOOLER",
-        "FREESTANDINGWATERHEATER",
         "FREEZER",
         "REFRIGERATOR",
-        "WASHINGMACHINE"
+        "WASHINGMACHINE",
+        "FREESTANDINGWATERCOOLER",
+        "FREESTANDINGWATERHEATER"
       ]
     }
   },
@@ -2158,9 +2141,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "CO Key": [
         "recJ0Gl5TvaT4IVzD"
       ],
@@ -2168,10 +2148,12 @@
         "Trunking"
       ],
       "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCCAB_012",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2187,10 +2169,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recP3n4DKA3v3j7nX",
-        "recimEWPrR9D2tdT4"
       ],
       "Property Set": [
         "reclgcmvjczpgXl3x",
@@ -2208,7 +2186,12 @@
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCACT_001",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
@@ -2229,13 +2212,6 @@
         "ARC",
         "STR",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "recu4gvimdH1C4D4e",
-        "recXx9sPr2HAJzc2M",
-        "recNTX1mAa2REuBMP",
-        "recC0kE9cuIjuXzK6",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "rec0pRJqQ3AoTWtdn",
@@ -2263,11 +2239,21 @@
         "FOOTING_BEAM",
         "PILE_CAP"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCFOO_045",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "PAD_FOOTING",
+        "STRIP_FOOTING",
         "FOOTING_BEAM",
-        "PILE_CAP",
-        "NOTDEFINED"
+        "PILE_CAP"
       ]
     }
   },
@@ -2286,7 +2272,9 @@
       ],
       "Identified Components": [],
       "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCSYS_081"
+      "IFC KEY": "IFCSYS_081",
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2303,9 +2291,6 @@
         "ARC",
         "External Works"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recrS3WaLrD3dZYd2",
         "recd7dt39hadbU0Kn",
@@ -2320,7 +2305,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        true
+      ],
       "IFC KEY": "IFCCUR_025",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -2340,43 +2329,6 @@
         "MEP",
         "ARC",
         "STR"
-      ],
-      "OT Key (Object Type)": [
-        "recDuwxvZhG0P5kd5",
-        "recKVNG2JQBUrkVdT",
-        "recp3L47s7ikCwpJJ",
-        "recsRRpM26u7gYh05",
-        "recGGUzoqFucRkOIk",
-        "rec8tgZrewhaQJ5XF",
-        "reckOLr1bH3OPhX1F",
-        "recZq7IFosyrtql1t",
-        "recOaohTdcZ4kWX0O",
-        "rechjHo6BvltWgNhM",
-        "rec5kLzkpy0C87QFt",
-        "rec7LWGnzifFRSebQ",
-        "recxP2oUMPddcYlF5",
-        "recppYq4ysZphoyPS",
-        "recpCyhfUSjZWv5Wa",
-        "recqHoMloC8uXScrQ",
-        "recquU3jCYvFKuORN",
-        "recDxq64m3rzVQep8",
-        "recCWL3IEbDhMuPCZ",
-        "recJOHotY0jIgyjeQ",
-        "recMrw69jy4enGbhq",
-        "recb5DWn0ZOH9FoAt",
-        "recxdEYK8uFu2A7Ln",
-        "recKnZ6eCn0BbkOXR",
-        "recTDJua78B3feCVD",
-        "recUmyHqDShMaOQJu",
-        "rec07kItvyhH8x7f2",
-        "recjMlrMe3P52ZGUA",
-        "recMZXt21okiW3PEt",
-        "rec5OwR5TFrIQx2Fo",
-        "recJQjn8F6Umqv0yt",
-        "rec2noWZ07VcJbSMO",
-        "recayHSnWkLIhcxql",
-        "recLjaQSQfKZFBeqC",
-        "rectWcIoSWZwdiaWm"
       ],
       "Property Set": [
         "reckfgwLAg0Ie6aye",
@@ -2420,7 +2372,8 @@
         "reccH0au2bM7XoyfG",
         "recUPzTRkr8TM982E",
         "rec1YrcOuKzY1O4sf",
-        "recXMTvbMgBAjt8hI"
+        "recXMTvbMgBAjt8hI",
+        "recrO9UxYMLp3UsUX"
       ],
       "Identified Components": [
         "Air Speed Measuring Device",
@@ -2459,7 +2412,8 @@
         "Staircase Storey Shelter",
         "Storey Shelter",
         "Non-shelter Household Shelter",
-        "Non-shelter Storey Shelter"
+        "Non-shelter Storey Shelter",
+        "Recyclables Chute"
       ],
       "IFC4 Sub Types (Beta)": [
         "BEAMFACADEWALL*",
@@ -2488,36 +2442,78 @@
         "STAIRCASESTOREYSHELTER*",
         "STOREYSHELTER*",
         "NONSHELTERHOUSEHOLDSHELTER*",
-        "NONSHELTERSTOREYSHELTER*"
+        "NONSHELTERSTOREYSHELTER*",
+        "RECYCLABLESCHUTE*"
+      ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "IFC KEY": "IFCBUI_010",
       "IFC4 Object Types": [
-        "BEAMFACADEWALL",
-        "DIAPHRAGMWALLSYSTEM",
-        "DRAINAGE",
-        "FRAMING",
-        "HOUSEHOLDSHELTER",
-        "MAINTENANCE",
-        "MECHANIZEDCARPARKING",
-        "OXYGENREDUCTION",
-        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM",
-        "PNEUMATICWASTECONVEYANCESYSTEM",
-        "PPVCMODULE",
-        "PREFABRICATEDANDPREFINISHEDCEILING",
-        "PREFABRICATEDANDPREFINISHEDFLOOR",
-        "PREFABRICATEDANDPREFINISHEDWALL",
-        "PREFABRICATEDBATHROOMUNIT",
-        "PREFABRICATEDMEPHORIZONTALMODULE",
-        "PREFABRICATEDMEPPLANTMODULE",
-        "PREFABRICATEDMEPVERTICALMODULE",
-        "PWCSMAINCONTROL",
-        "TRUSS",
-        "UNIT",
-        "REFUSECHUTE",
-        "STAIRCASESTOREYSHELTER",
-        "STOREYSHELTER",
-        "NONSHELTERHOUSEHOLDSHELTER",
-        "NONSHELTERSTOREYSHELTER"
+        "BEAMFACADEWALL*",
+        "FRAMING*",
+        "DIAPHRAGMWALLSYSTEM*",
+        "DRAINAGE*",
+        "MAINTENANCE*",
+        "MECHANIZEDCARPARKING*",
+        "OXYGENREDUCTION*",
+        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
+        "PNEUMATICWASTECONVEYANCESYSTEM*",
+        "PPVCMODULE*",
+        "HOUSEHOLDSHELTER*",
+        "REFUSECHUTE*",
+        "PREFABRICATEDANDPREFINISHEDCEILING*",
+        "PREFABRICATEDANDPREFINISHEDFLOOR*",
+        "PREFABRICATEDANDPREFINISHEDWALL*",
+        "PREFABRICATEDBATHROOMUNIT*",
+        "PREFABRICATEDMEPHORIZONTALMODULE*",
+        "PREFABRICATEDMEPPLANTMODULE*",
+        "PREFABRICATEDMEPVERTICALMODULE*",
+        "PWCSMAINCONTROL*",
+        "TRUSS*",
+        "UNIT*",
+        "STAIRCASESTOREYSHELTER*",
+        "STOREYSHELTER*",
+        "NONSHELTERHOUSEHOLDSHELTER*",
+        "NONSHELTERSTOREYSHELTER*",
+        "RECYCLABLESCHUTE*"
       ],
       "IFC4 Predefined Types": [
         "FOUNDATION"
@@ -2538,30 +2534,6 @@
         "ARC",
         "External Works",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recduHb5qz0fRt9mr",
-        "recgCjIhFCF2jOSZy",
-        "recO4kzk781nbFQLS",
-        "recCyfr2zp26va6MR",
-        "recEhUBe6I0biYznh",
-        "recvsKF1pOA3MFcUj",
-        "rec2AaxKOcHJItI8E",
-        "reco7h42veV0D40dv",
-        "recqGPmCIc1lcsR84",
-        "rec59DS2oxTB2TEyd",
-        "recK4euVzqR9hFklf",
-        "recG7sueHhRmuHCjk",
-        "recv5VcO6jSdKd2Ns",
-        "recNZdeQLF7vZHnvY",
-        "recjXD6JzpLNwI866",
-        "recZaDBipi0SefW3T",
-        "recci7fYCGZuJssqY",
-        "rectArtn0vbJnjXu0",
-        "rec0DlhD3TriL1dJG",
-        "recz0v4Ofmz2nUDNZ",
-        "recwbJ02pOj3dTDaB",
-        "recqFZrgxKLtQNQnn"
       ],
       "Property Set": [
         "reciSX8e1DJ4yMrZF",
@@ -2635,27 +2607,52 @@
         "WATERFEATURE*",
         "SITEBOUNDARY*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCGEO_047",
       "IFC4 Object Types": [
-        "2D_FORESHORELINE",
-        "ARTWORK",
-        "BEACH",
-        "CADASTRALLOT",
-        "EXISTINGEARTHWORKS",
-        "GREENVERGE",
-        "LANDSCAPE_PALM",
-        "LANDSCAPE_SHRUBS",
-        "LANDSCAPE_TREE",
-        "NEIGHBOURINGLOT",
-        "PLANTINGAREA",
-        "PROPOSEDEARTHWORKS",
-        "RETENTIONBASIN",
-        "TRAFFICLIGHT",
-        "UTILITYPOLE",
-        "WATERBODY",
-        "WATERFEATURE",
-        "SITEBOUNDARY"
-      ]
+        "ARTWORK*",
+        "BEACH*",
+        "UTILITYPOLE*",
+        "EXISTINGEARTHWORKS*",
+        "2D_FORESHORELINE*",
+        "GREENVERGE*",
+        "NEIGHBOURINGLOT*",
+        "LANDSCAPE_PALM*",
+        "PLANTINGAREA*",
+        "PROPOSEDEARTHWORKS*",
+        "RETENTIONBASIN*",
+        "LANDSCAPE_SHRUBS*",
+        "CADASTRALLOT*",
+        "TRAFFICLIGHT*",
+        "LANDSCAPE_TREE*",
+        "WATERBODY*",
+        "WATERFEATURE*",
+        "SITEBOUNDARY*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2672,138 +2669,6 @@
         "ARC",
         "STR",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "rec4kbogQcTP9E9AS",
-        "recqopjPhX883SRNY",
-        "recFejTJh45yzucVl",
-        "recl7kyNrETkOSAGS",
-        "recSEAAbzAvgvZZui",
-        "recZFQOiVsaT59jy6",
-        "recPsQBBQiUySvw6c",
-        "recfbT4XYSl9w3V6Y",
-        "recufZyPbpPtN2UrE",
-        "receIwbYeOrK1U3ol",
-        "recK7rk9yvMWShRH2",
-        "recleqa1qR2iQjFQM",
-        "recKjoYZ6XnTXwTk2",
-        "rec66sQ7yximqDXUf",
-        "rec46EImn3We6eJdA",
-        "recB95dpf3oMe0MAQ",
-        "recs64HYq1PrNsQks",
-        "recKuLrwyiB8jC9E2",
-        "recnzS5mghSTqPEKd",
-        "recgOJN8jO6U63Bj1",
-        "recJpBb8OqpJ4xv9G",
-        "recb4sKvBRtg4fegW",
-        "reckzhEpyo9Ah725b",
-        "rec94ja0zUQEPDT3S",
-        "recRn5U9kgqeJElPZ",
-        "reckARQYU6xFzeGZX",
-        "recOFMajai9nX7Ghv",
-        "reclhA4CW6vdI1WYV",
-        "rec6OfATAPIT4E96O",
-        "rec6uj1U8xRBv2nuR",
-        "reccxlgbuWQkNaRHx",
-        "recGIcU7PMlSBVpvm",
-        "recxGPfnn1VyAt0Rb",
-        "recKKCUcoclVeWoMo",
-        "rec4aqvoOFbSdEecR",
-        "recJ2U7ii7EXfurDO",
-        "rec9fK4c90oiwGVbq",
-        "recUQrh3YjpT9s9ZR",
-        "recaSOAcbbtFQFmr6",
-        "recQNN8WyEOXk8IvC",
-        "rec71vrdngrtudXWU",
-        "reclGpHgJK5UhJBYx",
-        "recDrDwC1EWbVamyv",
-        "rec9pkKfnxOxOPEEc",
-        "reczQBqmUnHMoP31S",
-        "recnZMYofQw8SS0hx",
-        "recDrYkhSbCHORBwH",
-        "recBcqwblK1bd1uFR",
-        "recv7BqJRTxqHhSJQ",
-        "recnc26VnTLVgEpkc",
-        "recRHpkqfr7JIKEFX",
-        "recXD0UtN4oHK9roO",
-        "rec00ToxGNOm7C6no",
-        "recQOQsiDknp5WeZy",
-        "recu8hLpoZUnlSRnR",
-        "recZJdcYETVJqMT5H",
-        "recephK8pZY7VBRGj",
-        "reccQkC0BmWr4g8MN",
-        "recNkZN1iia4Tk6jP",
-        "recU8pNnwFsGDUdPB",
-        "reciTgJykp1ouwg4Z",
-        "rechx7755pzeynyib",
-        "recSdo6Dh29gZsMJl",
-        "recGD1V8jhu4dkYKH",
-        "recQJFHhbaYDw2cyW",
-        "recchg81L27jxgkzG",
-        "rec0Prr61Pwye8gJN",
-        "rec1FRfoC2nT9eeOF",
-        "recri8tEsKuh27Xej",
-        "recYjJA3b8loG6Z6j",
-        "rec96pKfvdekQxAt4",
-        "recULseBjACKlRE7X",
-        "recliykxpoSV3qauZ",
-        "recFbDrpu1M4HCUVG",
-        "recgbn9m8MLYHRwH6",
-        "recnr1J11YcnhwahK",
-        "recOqADJsQo9U3bA9",
-        "recVWAGhNyHDo9QG1",
-        "rectedTY9kohUQk0G",
-        "recW2pX7HvskOE4qw",
-        "recL6heRfwraFOrzg",
-        "recrTjXZhuRPJcANs",
-        "recdzHclf5AMDsDwP",
-        "recEFOJSf9PSl3lgM",
-        "recPifYz1hs8LN8Xr",
-        "rec0yFJOI52C7Ohfu",
-        "rec737wXFA2BcWddm",
-        "recazsFwglfSuOCg2",
-        "recdvWcqpdRmT6mpK",
-        "recRd8El6ijZEEmeF",
-        "reciZnRjWMplXbVkA",
-        "recVjVtMd4AiHhiVE",
-        "recrmFxD4YM9XVPJt",
-        "rec9yNYrzidV529pM",
-        "rec4lZvVE6mYSctoI",
-        "recSLnkFPPHyWsT50",
-        "recU2KM9pzeyNvTEv",
-        "recUxq0fwKpz2kFbh",
-        "rec7fQqMoVroOGRqS",
-        "recRXUZjbPbnPip3F",
-        "recSynCNJtJ0OX68q",
-        "rechE60F6SumCxjcR",
-        "recInJoyhidpG529Q",
-        "recNwu9tIBDILwU6E",
-        "recwZ0x3xzwUE5aDY",
-        "reci90lmNnUtIYVNP",
-        "recWyxwmxWVoFxerl",
-        "recGnFs0dICDqg59i",
-        "recN9JC9Tw5iG11xi",
-        "recO0JofP95wv1mwc",
-        "rec6w4c48TaRb6uiE",
-        "recVJhAywVtucMl7b",
-        "recZs2Nz0EagxUqU1",
-        "recVLiGNf8xhFo9Yn",
-        "recQYHtAJ6qpqGhBg",
-        "recF7f8nQwsjBggwD",
-        "recwOrTh4hjmYMgxg",
-        "recS1lZ9zC4btBnaH",
-        "recKMVrlBdgjQgnoL",
-        "recNEaM6N8uZe3plc",
-        "rec6WKgkJcPsYsGuU",
-        "recWAwCxXEkAChdGA",
-        "recK4VWT1aygmpf0O",
-        "recM7dA1JCFkaA6UT",
-        "recJxiQttw6iOHqMZ",
-        "recgJ8KDJalTJEzP0",
-        "recGc3r4LvSXFoCae",
-        "recwe59XcIUqhe5bg",
-        "recKxx8qfTvgzTg4g",
-        "recYd8SMqMTltLr0Y"
       ],
       "Property Set": [
         "recwm0YQZ13VMR37Y",
@@ -2851,7 +2716,6 @@
         "recKFGxtgN868qGHk",
         "recyY2QtTGBSHEDD1",
         "recGueTnJw8MKMZXv",
-        "recGr8h4q75sD2ovV",
         "reco1pyDsQbatgUB1",
         "recrKTlJ3BtR2Ri9D",
         "recT9Z4FynARqY2mD",
@@ -2985,7 +2849,6 @@
         "Incinerator",
         "Line Marking",
         "Marking",
-        "Neighbouring Building",
         "Obstacle",
         "On-Site Food Waste Treatment System",
         "Parking Lot",
@@ -3098,85 +2961,219 @@
         "EGRESSINDICATORBOX*",
         "TOWTRACTORLOT*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCBUI_008",
       "IFC4 Object Types": [
-        "2D_DRIVEWAYMARKING",
-        "2D_FLOORMARKING",
-        "2D_HOLDINGBAY",
-        "2D_LIFTREFUGESPACE",
-        "2D_PASSINGSPACE",
-        "2D_PWDHOLDINGPOINT",
-        "2D_TAXIBAY",
-        "2D_TRAFFICFLOW",
-        "2D_TREEPROTECTIONZONE",
-        "2D_WHEELCHAIRSPACE",
-        "ARTICULATEDVEHICLELOT",
-        "BACKFILL",
-        "BICYCLELOT",
-        "BICYCLEROUTE",
-        "BOREHOLE",
-        "CARLOT",
-        "CHEMICALFEEDER",
-        "COACHLOT",
-        "CONCEPT_BUILDINGMASS",
-        "CONCEPT_ENVELOPELIMIT",
-        "CONCEPT_ENVELOPEREQUIRED",
-        "CONCRETEMARKER",
-        "CONVEYORBELT",
-        "DROPBARRIER",
-        "FAÇADE",
-        "FALSEBOTTOM",
-        "FLAGPOLE",
-        "FLOODBARRIER",
-        "FOODWASTETREATMENTSYSTEM",
-        "FUELBURNINGEQUIPMENT",
-        "GONDOLA",
-        "HUMP",
-        "INCINERATOR",
-        "LANDSCAPE_PLANTINGTROUGH",
-        "LINEMARKING",
-        "LORRYLOT",
-        "MOTOR-CYCLELOT",
-        "PEDESTRIANCROSSING",
-        "PERMANENTUNITNUMBERTAG",
-        "PHOTOLUMINESCENTMARKING",
-        "PIPERACK",
-        "POLLUTIONCONTROLEQUIPMENT",
-        "PORTABLEFIREEXTINGUISHER",
-        "REFUSETRUCKTEMPORARYPARKING",
-        "RELIGIOUSSYMBOL",
-        "RUNG",
-        "SIGNAGE",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION",
-        "SIGNAGE_COOLINGTOWER",
-        "SIGNAGE_DIRECTIONALEXIT",
-        "SIGNAGE_ESCAPEPLAN",
-        "SIGNAGE_EVACUATIONLIFT",
-        "SIGNAGE_EXIT",
-        "SIGNAGE_EXITACCESSDOOR",
-        "SIGNAGE_EXITSTAIRCASE",
-        "SIGNAGE_FIREACCESSOPENING",
-        "SIGNAGE_PWDHOLDINGPOINT",
-        "SIGNAGE_RECYCLABLESCHUTE",
-        "SIGNAGE_RINSESHOWER",
-        "SIGNAGE_SMOKEVENT",
-        "SIGNAGE_THROUGHBLOCKLINK",
-        "SIGNAGE_WATERTAPPOINT",
-        "SIGNAGE_WHEELCHAIRSYMBOL",
-        "SIGNPOST",
-        "SIGNPOST_DRIVEWAY",
-        "SIGNPOST_REFUSETEMPORARYPARKING",
-        "SLOTOUTLET",
-        "STATIONARYVACUUMSYSTEM",
-        "SURROUNDINGBUILDING",
-        "TUNNEL",
-        "TURNSTILE",
-        "VALVEPROTECTINGCOVER",
-        "VEHICULARBARRIER",
-        "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX",
-        "TOWTRACTORLOT"
-      ]
+        "SURROUNDINGBUILDING*",
+        "BACKFILL*",
+        "BICYCLEROUTE*",
+        "BOREHOLE*",
+        "CONCEPT_BUILDINGMASS*",
+        "CHEMICALFEEDER*",
+        "CONCRETEMARKER*",
+        "CONVEYORBELT*",
+        "DROPBARRIER*",
+        "CONCEPT_ENVELOPELIMIT*",
+        "CONCEPT_ENVELOPEREQUIRED*",
+        "FAÇADE*",
+        "FALSEBOTTOM*",
+        "PORTABLEFIREEXTINGUISHER*",
+        "FLAGPOLE*",
+        "FLOODBARRIER*",
+        "2D_FLOORMARKING*",
+        "FUELBURNINGEQUIPMENT*",
+        "GONDOLA*",
+        "2D_HOLDINGBAY*",
+        "HUMP*",
+        "INCINERATOR*",
+        "LINEMARKING*",
+        "2D_DRIVEWAYMARKING*",
+        "FOODWASTETREATMENTSYSTEM*",
+        "ARTICULATEDVEHICLELOT*",
+        "BICYCLELOT*",
+        "CARLOT*",
+        "COACHLOT*",
+        "LORRYLOT*",
+        "MOTOR-CYCLELOT*",
+        "REFUSETRUCKTEMPORARYPARKING*",
+        "2D_PASSINGSPACE*",
+        "PEDESTRIANCROSSING*",
+        "PERMANENTUNITNUMBERTAG*",
+        "PHOTOLUMINESCENTMARKING*",
+        "PIPERACK*",
+        "LANDSCAPE_PLANTINGTROUGH*",
+        "POLLUTIONCONTROLEQUIPMENT*",
+        "2D_PWDHOLDINGPOINT*",
+        "2D_LIFTREFUGESPACE*",
+        "RELIGIOUSSYMBOL*",
+        "RUNG*",
+        "SIGNPOST*",
+        "SIGNPOST_REFUSETEMPORARYPARKING*",
+        "SIGNAGE*",
+        "SIGNAGE_COMMUNICATIONINSTRUCTION*",
+        "SIGNAGE_COOLINGTOWER*",
+        "SIGNAGE_DIRECTIONALEXIT*",
+        "SIGNAGE_ESCAPEPLAN*",
+        "SIGNAGE_EVACUATIONLIFT*",
+        "SIGNAGE_EXIT*",
+        "SIGNAGE_EXITACCESSDOOR*",
+        "SIGNAGE_EXITSTAIRCASE*",
+        "SIGNAGE_FIREACCESSOPENING*",
+        "SIGNAGE_PWDHOLDINGPOINT*",
+        "SIGNAGE_RECYCLABLESCHUTE*",
+        "SIGNAGE_RINSESHOWER*",
+        "SIGNAGE_SMOKEVENT*",
+        "SIGNAGE_THROUGHBLOCKLINK*",
+        "SIGNAGE_WATERTAPPOINT*",
+        "SIGNAGE_WHEELCHAIRSYMBOL*",
+        "SIGNPOST_DRIVEWAY*",
+        "SLOTOUTLET*",
+        "STATIONARYVACUUMSYSTEM*",
+        "2D_TAXIBAY*",
+        "2D_TRAFFICFLOW*",
+        "2D_TREEPROTECTIONZONE*",
+        "TUNNEL*",
+        "TURNSTILE*",
+        "VALVEPROTECTINGCOVER*",
+        "VEHICULARBARRIER*",
+        "WATERPLAYGROUND*",
+        "2D_WHEELCHAIRSPACE*",
+        "EGRESSINDICATORBOX*",
+        "TOWTRACTORLOT*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -3191,10 +3188,6 @@
       "Autonumber": 52,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recg10oSQ62P9yRZx",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "reckIU6PhEScoqruk"
@@ -3211,7 +3204,12 @@
         "SECURITYLIGHTING",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCLIG_052",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SECURITYLIGHTING",
         "NOTDEFINED"
@@ -3231,10 +3229,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recxiimKvChMWHxKw",
-        "recgx1ZoPtsiwmy0T"
-      ],
       "Property Set": [
         "rec3H2Cfs0WGLnvsJ"
       ],
@@ -3251,7 +3245,15 @@
         "Moulded Case Circuit Breaker"
       ],
       "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCPRO_062"
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "IFC KEY": "IFCPRO_062",
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -3266,10 +3268,6 @@
       "Autonumber": 53,
       "Discipline": [
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recpqJkTaHoQ205nV",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recqBuM8UUVV6uBnb",
@@ -3288,7 +3286,12 @@
         "STRINGER",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCMEM_053",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "STRINGER",
         "NOTDEFINED"
@@ -3308,16 +3311,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recEUugBapNXwChhJ",
-        "recztBGfsrEqGxNKd",
-        "rec0W8NuMwZbJRsn5",
-        "recK2qTBoF1XJoV02",
-        "recEFZW3AfvOtPxa8",
-        "recbQS1awIpuPtaGJ",
-        "recfkmbzSeJxgQKtj",
-        "recZqwaBpMGRIy6AK"
       ],
       "Property Set": [
         "recolxnTTzAMEttc8",
@@ -3348,7 +3341,6 @@
         "recVN5iOvXg9pEOD3",
         "rec03EAa8ni9hCN7F",
         "recbuNPxOAuJhta7k",
-        "recmF0U8BPKJgtj8E",
         "recd1tLcZqE3kNPDr",
         "recIhLG2Ygm2cRmP1",
         "rech3obDZNuPtHg4n",
@@ -3373,7 +3365,6 @@
         "Lift Car",
         "Lift Car Glass Wall",
         "Lift Trap Door",
-        "Moving Walk Belt",
         "Moving Walkway",
         "Passenger Lift",
         "Platform Lift",
@@ -3387,11 +3378,35 @@
         "LIFT*",
         "MOVINGWALKWAY"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCTRA_084",
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -3412,10 +3427,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "rec3OgLyderMOWfrW",
-        "rec8PxmKfRpkcwMtY"
-      ],
       "Property Set": [
         "rec6ik6acLEF095Wl",
         "recbXSzpPx4hdB4Dd"
@@ -3432,7 +3443,12 @@
         "GREASE",
         "OIL"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCINT_050",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "GREASE",
         "OIL"
@@ -3452,13 +3468,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recPmQDmUTbgDGNJv",
-        "recmvNHzqyS3TEfpe",
-        "recntYz4EUaPy6jpj",
-        "recIJHWEmrMLIcPsj",
-        "recNQvmP7DnHyWxJE"
       ],
       "Property Set": [
         "recQhf7eLnq1xsWUo",
@@ -3482,13 +3491,21 @@
         "NOTDEFINED",
         "REGISTER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCAIR_002",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "DIFFUSER",
         "GRILLE",
-        "REGISTER",
+        "LOUVRE",
         "NOTDEFINED",
-        "LOUVRE"
+        "REGISTER"
       ]
     }
   },
@@ -3505,11 +3522,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recwETXTxEsxt8Pxm",
-        "recGJehEjKJVvHoF1",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recSizX64eqoMpEC6"
       ],
@@ -3525,13 +3537,17 @@
         "TRAFFICCONTROL*",
         "POWER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCJUN_051",
       "IFC4 Object Types": [
-        "TRAFFICCONTROL"
+        "TRAFFICCONTROL*"
       ],
       "IFC4 Predefined Types": [
-        "POWER",
-        "NOTDEFINED"
+        "POWER"
       ]
     }
   },
@@ -3547,14 +3563,6 @@
       "Autonumber": 86,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recwhej4t6K41Wq2H",
-        "recxNjKybnAIY6IVo",
-        "rec37lr1RRXtgF2qd",
-        "recl1VtDm6Cpv36jK",
-        "recRVV12IsfgjlDzb",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "rec4p7EW7vvZvh9Iy"
@@ -3577,15 +3585,23 @@
         "NOTDEFINED",
         "ROOFTOPUNIT"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCUNI_086",
       "IFC4 Object Types": [
-        "FANCOILUNIT"
+        "FANCOILUNIT*"
       ],
       "IFC4 Predefined Types": [
         "AIRCONDITIONINGUNIT",
         "AIRHANDLER",
-        "ROOFTOPUNIT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOFTOPUNIT"
       ]
     }
   },
@@ -3603,9 +3619,6 @@
         "ARC",
         "External Works"
       ],
-      "OT Key (Object Type)": [
-        "recoHYXux3gO5wKUS"
-      ],
       "CO Key": [
         "rectZIQrOZfk4sUpe"
       ],
@@ -3613,7 +3626,12 @@
         "Project Global Positioning"
       ],
       "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCPRO_061"
+      "Beta (from CO Key)": [
+        null
+      ],
+      "IFC KEY": "IFCPRO_061",
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -3628,25 +3646,6 @@
       "Autonumber": 58,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recld1Gn4fbSf0BJG",
-        "recAL8Ki0qRZiTLxl",
-        "recmtRMkRQOHMUHIX",
-        "rece5dKzV0Ud9PBZt",
-        "receDiBeeB8StidCn",
-        "recicxU2LX43Iwm6h",
-        "recOnIfEbrV3MnsVk",
-        "recSRMVk3vGE7yeF3",
-        "recRC2i8JHDUs51kD",
-        "recrp7rqWCpLEBya2",
-        "recKJOHx0VtCQkPrx",
-        "recsxJJdFLkuJNpdT",
-        "recUCZqdc5SrVB9WO",
-        "recEgCRUZU2k4UaE8",
-        "recx4oGH9Vcc7LUzA",
-        "recIJHWEmrMLIcPsj",
-        "recfgTiqiYwaVBuRA"
       ],
       "Property Set": [
         "recffWLQMv1d5qW6D",
@@ -3689,22 +3688,41 @@
         "OBSTRUCTION",
         "TRANSITION"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCPIP_058",
       "IFC4 Object Types": [
-        "DRAINCHANNELBEND",
-        "PIPESILENCER",
-        "SHORTPIECE",
-        "SPIGOTANDSOCKET"
+        "DRAINCHANNELBEND*",
+        "PIPESILENCER*",
+        "SHORTPIECE*",
+        "SPIGOTANDSOCKET*"
       ],
       "IFC4 Predefined Types": [
         "BEND",
         "CONNECTOR",
+        "ENTRY",
         "EXIT",
         "JUNCTION",
-        "OBSTRUCTION",
-        "TRANSITION",
         "NOTDEFINED",
-        "ENTRY"
+        "OBSTRUCTION",
+        "TRANSITION"
       ]
     }
   },
@@ -3721,13 +3739,6 @@
       "Discipline": [
         "ARC",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "reccM4BGdvV8rCzwL",
-        "rec9MBCfcgIoSSlJe",
-        "recR8iGlo8rtWpVJv",
-        "recJ0aT153YRYJiGf",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recotemkYobhDi82z",
@@ -3751,10 +3762,22 @@
         "NOTDEFINED",
         "STRAIGHT_RUN_RAMP"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        true,
+        null
+      ],
       "IFC KEY": "IFCRAM_066",
+      "IFC4 Object Types": [
+        "CURVEDRAMP*",
+        "FLAREDKERBRAMP*",
+        "KERBRAMP*"
+      ],
       "IFC4 Predefined Types": [
-        "STRAIGHT_RUN_RAMP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STRAIGHT_RUN_RAMP"
       ]
     }
   },
@@ -3771,26 +3794,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recZG2iQx6gGue1fO",
-        "recxdRsFrRp4m9UYs",
-        "recPaRdt8JVmje3gm",
-        "recpsYDy5l6MHOonT",
-        "recJm4yy7Y54b30zj",
-        "recL64MuqA8UGYoTI",
-        "recNuudE5yXvrlfCv",
-        "recD3OYXRIAkWjMJX",
-        "recj2pBhx3hYF0D4b",
-        "recZ0eBkCGC6fm2Op",
-        "rec1oTxDmIIcbGhG8",
-        "reccTXS0fBSR0RsyB",
-        "rec0Z2icwKXqBk3X3",
-        "recZZEyTleXLsodGC",
-        "recxH88emZlBVEDav",
-        "recuaR8kaBLbgpwMs",
-        "recTCXfLk4e2kNshU",
-        "rec4paZlDDCfi4H5C"
       ],
       "Property Set": [
         "recYpdTexbQcXXpiH",
@@ -3819,6 +3822,7 @@
       ],
       "Identified Components": [
         "Civil Element",
+        "Driveway",
         "Culvert",
         "Drain",
         "Trench",
@@ -3843,24 +3847,44 @@
         "TRENCH*",
         "LAMPPOST*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCCIV_018",
       "IFC4 Object Types": [
-        "BACKLANE",
-        "BOXCULVERT",
-        "DRIVEWAY",
-        "ENTRANCECULVERT",
-        "FOOTPATH",
-        "GUTTERDRAIN",
-        "ISLAND",
-        "LAYBY",
-        "ROADKERB",
-        "CHANNELDRAIN",
-        "TRENCHDRAIN",
-        "SURFACEDRAIN",
-        "STORMWATERDRAIN",
-        "FLOORDRAIN",
-        "TRENCH",
-        "LAMPPOST"
+        "BACKLANE*",
+        "DRIVEWAY*",
+        "FOOTPATH*",
+        "ISLAND*",
+        "LAYBY*",
+        "ROADKERB*",
+        "BOXCULVERT*",
+        "ENTRANCECULVERT*",
+        "GUTTERDRAIN*",
+        "CHANNELDRAIN*",
+        "TRENCHDRAIN*",
+        "SURFACEDRAIN*",
+        "STORMWATERDRAIN*",
+        "FLOORDRAIN*",
+        "TRENCH*",
+        "LAMPPOST*"
       ],
       "IFC4 Predefined Types": [
         "CULVERT"
@@ -3880,11 +3904,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "rec0dYJbcbIM7qoVe",
-        "recjBLUh3NQjMIVCU",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recx6XN3r6ngAmGYt",
         "rec9deXZBT4E6DnY6"
@@ -3901,9 +3920,14 @@
         "LPS_DOWNCONDUCTOR*",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCCAB_015",
       "IFC4 Object Types": [
-        "LPS_DOWNCONDUCTOR"
+        "LPS_DOWNCONDUCTOR*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -3923,10 +3947,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "reckbAbdK4RcdqdEE",
-        "receDa3vsVSGriwZM"
-      ],
       "CO Key": [
         "reclGNg0YP05Wthhp",
         "reci3Tfi6h6yw7ICI"
@@ -3938,7 +3958,12 @@
       "IFC4 Sub Types (Beta)": [
         "SWITCHBOARD"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCELE_034",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SWITCHBOARD"
       ]
@@ -3956,31 +3981,6 @@
       "Autonumber": 76,
       "Discipline": [
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recJYhFepkYQAWBt1",
-        "recWBAqWicTS7JeZQ",
-        "recjtdrsYVWi048Hv",
-        "recv3ctiCG4ogdlZg",
-        "recVJQjNOQlCtdDDR",
-        "recGymFNavGtwbeCe",
-        "recj6DceUTJF4AJ55",
-        "recTzKYha664ZyEwa",
-        "reced9b7M5eW0cLCE",
-        "reccvTKFj3SYpGAJd",
-        "recGgIJzalDGFBElK",
-        "recBjqBKyZMjorwL3",
-        "recvjXJR4H1OI0F9V",
-        "recw6K2qreGAe6HRl",
-        "recn7XRXAro5G4yRN",
-        "recFGtJKarxVdAE6N",
-        "recyChnvA2zvEJMVy",
-        "recD6vCXDPLr9Mtqq",
-        "rec4OvisgwaG43oJN",
-        "recW3NjxjkrIWIy0t",
-        "recIJHWEmrMLIcPsj",
-        "recwbJ02pOj3dTDaB",
-        "recplFJ5ui6Nren7g"
       ],
       "Property Set": [
         "recpDwvMdz9zh5uEa",
@@ -4052,27 +4052,50 @@
         "AREA_LANDSCAPE*",
         "SPACE"
       ],
+      "Beta (from CO Key)": [
+        true,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null
+      ],
       "IFC KEY": "IFCSPA_076",
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -4090,30 +4113,30 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj",
-        "rectRIWZNS3KR7laN"
-      ],
       "Property Set": [
         "recV6mdCgSQNaVUar",
         "recG172CEzTjVxQwz",
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
-        "recZTnl8nNfe961tm",
         "recgbOJzkY8jxwY3x",
         "recGGoI330ogrWie6"
       ],
       "Identified Components": [
-        "Duct Covering",
         "Duct Segment"
       ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "FLEXIBLESEGMENT"
+        "FLEXIBLESEGMENT",
+        "NOTDEFINED"
+      ],
+      "Beta (from CO Key)": [
+        null,
+        null
       ],
       "IFC KEY": "IFCDUC_032",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "FLEXIBLESEGMENT",
         "NOTDEFINED"
       ]
     }
@@ -4131,10 +4154,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "reczj0F7KW0NF5ZGI",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recNg5hkOMkesBYuk",
         "rec9deXZBT4E6DnY6"
@@ -4150,7 +4169,12 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCCHI_017",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -4169,11 +4193,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recJ079nqZxswxDy5",
-        "recIJHWEmrMLIcPsj",
-        "recBD3epJvGOGoiSS"
-      ],
       "Property Set": [
         "recG2juyq3KLW2hrb",
         "reciI9sK4TlUyAjgn"
@@ -4188,9 +4207,13 @@
       "IFC4 Sub Types (Beta)": [
         "OPENING"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCOPE_055",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "OPENING"
       ]
     }
@@ -4210,17 +4233,6 @@
         "ARC",
         "External Works"
       ],
-      "OT Key (Object Type)": [
-        "rec9ejmq9BFTctt6p",
-        "rec0uRu1zIPcTHAXN",
-        "recWphan2RUK2Oi0o",
-        "recSPWxdhxrzYoSx8",
-        "recDSdiDcV80LUxK3",
-        "rec6fcT1edNIb2bR7",
-        "recffThVjbE9yCYwR",
-        "recIJHWEmrMLIcPsj",
-        "recin8lYYTb0w3vLQ"
-      ],
       "Property Set": [
         "rec0ed6lnU3rnJ8bI",
         "rec28mqKrTXegQPS2",
@@ -4231,7 +4243,6 @@
         "reczN9nDgUAW8IhWg",
         "recITxa0v5evBuMsW",
         "recrhPg0UWn2Kpv0l",
-        "recDROsc3Cy7Y1AOt",
         "recrq8EnVZfdyhWsK",
         "recnaZO521rBG923P",
         "rec59ZIcuA8hdAwm4",
@@ -4243,7 +4254,6 @@
         "Ceiling",
         "Cladding",
         "Covering",
-        "Fire-rated Board",
         "Flooring",
         "Insulation",
         "Pipe Sleeve",
@@ -4259,17 +4269,29 @@
         "PIPESLEEVE*",
         "ROOFING"
       ],
+      "Beta (from CO Key)": [
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCCOV_024",
       "IFC4 Object Types": [
-        "PIPESLEEVE",
-        "TACTILE"
+        "TACTILE*",
+        "PIPESLEEVE*"
       ],
       "IFC4 Predefined Types": [
         "CEILING",
         "CLADDING",
+        "NOTDEFINED",
+        "FLOORING",
         "INSULATION",
-        "ROOFING",
-        "NOTDEFINED"
+        "ROOFING"
       ]
     }
   },
@@ -4285,11 +4307,6 @@
       "Autonumber": 54,
       "Discipline": [
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recZebffxuOe7qCNP",
-        "recvK6xbrQhDh1Hag",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recgAmkLvPl22Zeoj"
@@ -4310,14 +4327,18 @@
         "LIFT_GOVERNOR*",
         "LIFT_TRACTIONMACHINE*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCMOT_054",
       "IFC4 Object Types": [
-        "LIFT_GOVERNOR",
-        "LIFT_TRACTIONMACHINE"
+        "LIFT_GOVERNOR*",
+        "LIFT_TRACTIONMACHINE*"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4333,9 +4354,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "rec5dXNstg6umOeM6"
-      ],
       "Property Set": [
         "recNxZQDwrOc445t7"
       ],
@@ -4350,10 +4368,15 @@
       "IFC4 Sub Types (Beta)": [
         "OPENFLAMECOOKING*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCBUR_011",
       "IFC4 Object Types": [
-        "OPENFLAMECOOKING"
-      ]
+        "OPENFLAMECOOKING*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4368,23 +4391,6 @@
       "Autonumber": 28,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "rec0uBlTwGhL05cxU",
-        "recuo9QnYAnW2scCr",
-        "rec9NipIZXz8696ZO",
-        "recz9FCzC0cOvQHCP",
-        "recy2Lo3lfU4iIcqy",
-        "recAfnYPpfAFTCv5d",
-        "recCqR7spVGqELfhu",
-        "rec3LPhkv0jOm1XFm",
-        "recAS6tgHLXvbCpf0",
-        "recplWsZlZnBXuWnB",
-        "rectz96mfTTpNlLS5",
-        "recTKKA5P81LauW4h",
-        "recoI7qwEV3vTSjJy",
-        "recxD4sYrn9xeyL3R",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "rectsnGEX4u9dI6L5",
@@ -4430,21 +4436,38 @@
         "SUMP",
         "VALVECHAMBER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCDIS_028",
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -4461,9 +4484,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recDWphOpMcwNvXkk"
       ],
@@ -4476,7 +4496,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCCOO_023",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -4495,15 +4519,6 @@
       "Discipline": [
         "ARC",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "recZ2ohuuruY30YLP",
-        "rec4dLXqehEWDIwkS",
-        "reck9bQWtF9j2o9BO",
-        "rec0ccQOByR4LbXCV",
-        "recIJHWEmrMLIcPsj",
-        "recNQvmP7DnHyWxJE",
-        "recbFh1Q2dd7nMvEW"
       ],
       "Property Set": [
         "recrRSp6FMrAPFYcY",
@@ -4532,14 +4547,22 @@
         "LOUVRE",
         "WINDOW"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null
+      ],
       "IFC KEY": "IFCWIN_090",
       "IFC4 Object Types": [
-        "BAYWINDOW",
-        "VENTILATIONSLEEVE"
+        "VENTILATIONSLEEVE*",
+        "BAYWINDOW*"
       ],
       "IFC4 Predefined Types": [
         "SKYLIGHT",
-        "NOTDEFINED",
         "LOUVRE",
         "WINDOW"
       ]
@@ -4558,15 +4581,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recIJvSNsY6papNyc",
-        "recRTLIr3FhvkVWpG",
-        "recwMLfJtIJNxRxN1",
-        "recvZ85OFpNHC89vH",
-        "recZHZCjmWs8Idekk",
-        "recIJHWEmrMLIcPsj",
-        "recgeQYBIm6AQl4nK"
       ],
       "Property Set": [
         "rectRFJPCMLGBZ2W6"
@@ -4591,14 +4605,21 @@
         "NOTDEFINED",
         "FIREALARMPANEL*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCALA_003",
       "IFC4 Object Types": [
-        "SOUNDER",
-        "MANUALALARMCALLPOINT",
-        "HOMEFIREALARMDEVICE",
-        "VISUALALARM",
-        "STROBELIGHT",
-        "FIREALARMPANEL"
+        "HOMEFIREALARMDEVICE*",
+        "SOUNDER*",
+        "MANUALALARMCALLPOINT*",
+        "VISUALALARM*",
+        "FIREALARMPANEL*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -4618,9 +4639,6 @@
       "Discipline": [
         "STR"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "CO Key": [
         "recE9j5xTrszJsjnT"
       ],
@@ -4628,10 +4646,12 @@
         "Rebar"
       ],
       "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCREI_068",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4647,9 +4667,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recHy0m8LTTkGzJos",
         "recgz7aOVBlhct9pq"
@@ -4661,10 +4678,12 @@
         "Building Storey"
       ],
       "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        true
+      ],
       "IFC KEY": "IFCBUI_009",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4679,13 +4698,6 @@
       "Autonumber": 26,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "rec3xV1lh7J7dTCHC",
-        "recXPw6tf7UXqQQpF",
-        "recNvDTJr9pU6lhyM",
-        "reckAx5ZWD7OneVuj",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recR5ZCtW8ce2X1zJ",
@@ -4708,13 +4720,20 @@
         "FUMEHOODEXHAUST",
         "SMOKEDAMPER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCDAM_026",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FIREDAMPER",
         "FIRESMOKEDAMPER",
         "FUMEHOODEXHAUST",
-        "SMOKEDAMPER",
-        "NOTDEFINED"
+        "SMOKEDAMPER"
       ]
     }
   },
@@ -4731,9 +4750,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "CO Key": [
         "recgvN4S0rvwHUSo6",
         "recfwslEEnLxAUptI"
@@ -4745,7 +4761,12 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCGRI_048",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -4764,42 +4785,6 @@
       "Discipline": [
         "MEP",
         "ARC"
-      ],
-      "OT Key (Object Type)": [
-        "recEDR1bcXLlxYs2F",
-        "recYrh4sS4W4y9nmz",
-        "recfRGTHkRbYbMdHy",
-        "recTeb13ix7CmUy80",
-        "rec939z1ALfSqX3Bi",
-        "recRMQMNL1hqhvwPP",
-        "recoSClVfworinNGS",
-        "recHGD2vLQQfd14mJ",
-        "recuaSby3Q01yPokG",
-        "recEpS4tBITtrcn7R",
-        "recN6DkbIyq8BITWG",
-        "rec7gi8NzZAePXfKW",
-        "rec53CvNJwTjNSV4X",
-        "rec6xs6G7THWOvf2e",
-        "rec9FgShuBboZk1hF",
-        "recPI4qQOGk666si0",
-        "recEsNazBKf7IJFRf",
-        "recQy97NeKiJSVuzw",
-        "rechgXCH0LflaebZS",
-        "recfdkNZ9ZHSVCge9",
-        "rec9wfeLV7WxhRLDO",
-        "recFoJ38JsrgKrDuw",
-        "recohfnC3Sg6R8g6M",
-        "recTcu9NnoQX8RDsN",
-        "reccYogxHlFShLMl7",
-        "reci1ZvBeByukiNO8",
-        "rec3yk63ehzLgyU2w",
-        "recz5imZr90Ij0lm8",
-        "recl2QBZrpeNdXjkf",
-        "recYukJs1KJvnspO1",
-        "rec6s9feDmQ8tFU1x",
-        "recsX7EFgvZDdWi3U",
-        "recDHHF2jKgRGwcHQ",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recS0UD3zqFz5Y5vD",
@@ -4899,33 +4884,73 @@
         "HINGEDCOVER*",
         "LIFT_APRON*",
         "LPS_LIGHTNINGTAPE*",
-        "PIPESUPPORT*",
         "NOTDEFINED",
+        "PIPESUPPORT*",
         "LIFT_RESCUEHOOK*",
         "BRACKET",
         "TAPEREDNUTS*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCDIS_027",
       "IFC4 Object Types": [
-        "BENCHING",
-        "CEILINGHANGER",
-        "DRYWEATHERFLOW",
-        "FLUSHBOLT",
-        "GRATING",
-        "HAUNCH",
-        "HINGEDCOVER",
-        "LIFT_APRON",
-        "LIFT_GUIDEROLLER",
-        "LIFT_GUIDESHOE",
-        "LIFT_RESCUEHOOK",
-        "LPS_AIRFINIAL",
-        "LPS_LIGHTNINGTAPE",
-        "PIPESUPPORT",
-        "TAPEREDNUTS"
+        "LPS_AIRFINIAL*",
+        "BENCHING*",
+        "CEILINGHANGER*",
+        "DRYWEATHERFLOW*",
+        "FLUSHBOLT*",
+        "GRATING*",
+        "LIFT_GUIDEROLLER*",
+        "LIFT_GUIDESHOE*",
+        "HAUNCH*",
+        "HINGEDCOVER*",
+        "LIFT_APRON*",
+        "LPS_LIGHTNINGTAPE*",
+        "PIPESUPPORT*",
+        "LIFT_RESCUEHOOK*",
+        "TAPEREDNUTS*"
       ],
       "IFC4 Predefined Types": [
-        "BRACKET",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "BRACKET"
       ]
     }
   },
@@ -4944,17 +4969,6 @@
         "MEP",
         "STR",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "recZK0FtRqf1v4mmB",
-        "recsoLxr2oBgUfbnR",
-        "rec4Zh8ABwL2JwDGF",
-        "recpPM1eWODkBRy3F",
-        "rech5eglBLroXcFIo",
-        "recKnHFdBjLLinuQP",
-        "rec2wwmohmdl2fYvl",
-        "recR6No7JdI3ZdRrf",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "rec9hQWAgRLJPLfZX",
@@ -4983,12 +4997,24 @@
         "GUARDRAIL",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true
+      ],
       "IFC KEY": "IFCRAI_065",
       "IFC4 Object Types": [
-        "BACKGUARD",
-        "BOLLARD"
+        "BACKGUARD*",
+        "BOLLARD*"
       ],
       "IFC4 Predefined Types": [
+        "GUARDRAIL",
         "NOTDEFINED"
       ]
     }
@@ -5006,11 +5032,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recxHVaS4fpZ2Wxec",
-        "rec1ixcOp0C4As1gW",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recG1kl6YETQ7yvRU"
       ],
@@ -5026,10 +5047,16 @@
         "NOTDEFINED",
         "WATER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCBOI_006",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "WATER",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "WATER"
       ]
     }
   },
@@ -5046,9 +5073,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "rec66lgOsZg4u1OoM",
         "rec54FzJvRC7MrfgX",
@@ -5061,10 +5085,12 @@
         "Site"
       ],
       "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCSIT_073",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -5081,13 +5107,6 @@
         "STR",
         "ARC",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "recgZsNuNDtdilfo4",
-        "recOCYuvBEQCU4Bj1",
-        "recIJHWEmrMLIcPsj",
-        "recXRyrFzkRse8RYO",
-        "recUnK8JriptzivIs"
       ],
       "Property Set": [
         "recQUfmUCtCKOfXlH",
@@ -5110,12 +5129,17 @@
         "TRELLIS*",
         "BEAM"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        true
+      ],
       "IFC KEY": "IFCBEA_005",
       "IFC4 Object Types": [
-        "TRELLIS"
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM"
       ]
     }
@@ -5133,31 +5157,30 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj",
-        "recfgTiqiYwaVBuRA"
-      ],
       "Property Set": [
         "recaRaDoBBLlmu8uv",
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
         "recQNuRMSv68qD3WN",
-        "rechXqnt0ljDFvoIY",
-        "rec7J4rNM8nIdGbbD"
+        "rechXqnt0ljDFvoIY"
       ],
       "Identified Components": [
-        "Duct Fitting",
-        "Prefabricated Duct Fitting"
+        "Duct Fitting"
       ],
       "IFC4 Sub Types (Beta)": [
         "ENTRY",
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCDUC_031",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "ENTRY"
+        "ENTRY",
+        "NOTDEFINED"
       ]
     }
   },
@@ -5175,24 +5198,6 @@
         "ARC",
         "STR",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "recPpw6PfHeso6ngm",
-        "recNaTRrbsA95YwAr",
-        "recdcLV0VjUDg9MKv",
-        "recCRbyyaPKjqx7q5",
-        "recORasqBFKKMifch",
-        "reckMYy336OJeqvkE",
-        "recHumDqgWPNRnE7e",
-        "rec5vyvKOrd9a9yzN",
-        "recdLiKwUwgYeJqzm",
-        "rec8OXDI2XNN21lBF",
-        "rec2VByL1jNsD8Nuj",
-        "reccgkxzqUPrTOf3j",
-        "recHi7J8Ja584jxgZ",
-        "recIJHWEmrMLIcPsj",
-        "recJQjn8F6Umqv0yt",
-        "recUB4mj2dZDwqtnZ"
       ],
       "Property Set": [
         "reczUw3MLtMFfXObs",
@@ -5246,25 +5251,43 @@
         "PARTITIONING",
         "SHEAR"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null
+      ],
       "IFC KEY": "IFCWAL_088",
       "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -5282,10 +5305,6 @@
         "ARC",
         "STR",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "reckOzEuy6SFWtlbm",
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recvskdANtDFsLQ3g",
@@ -5307,9 +5326,14 @@
       "IFC4 Sub Types (Beta)": [
         "COLUMN"
       ],
+      "Beta (from CO Key)": [
+        true,
+        null
+      ],
       "IFC KEY": "IFCCOL_019",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -5326,11 +5350,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recxI9Bj88f9Z5lo2",
-        "rec7DAhO15Dnvu2fX",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recn3PhzJREmahDhX",
         "rec9deXZBT4E6DnY6"
@@ -5338,14 +5357,12 @@
       "CO Key": [
         "recMorAS8SA5S7Vgc",
         "rec7OV9cp0xfztiFl",
-        "rec7MkF5mhaPHq0Cf",
         "recerVnF6iKVWmhCt",
         "recAe2T3uR2HWyERK"
       ],
       "Identified Components": [
         "Catch Screen",
         "Cowl",
-        "Discharge Stack Terminal",
         "Mosquito-proof Net",
         "Vent Cap"
       ],
@@ -5354,13 +5371,19 @@
         "COWL",
         "MOSQUITONET*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSTA_077",
       "IFC4 Object Types": [
-        "MOSQUITONET"
+        "MOSQUITONET*"
       ],
       "IFC4 Predefined Types": [
-        "COWL",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "COWL"
       ]
     }
   },
@@ -5376,9 +5399,6 @@
       "Autonumber": 40,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
       ],
       "Property Set": [
         "recDMtMsSbglFx2h5",
@@ -5396,7 +5416,11 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCFAN_040",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -5416,10 +5440,6 @@
         "ARC",
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recxCbxQpajWoYmpV",
-        "recaspPAJfvs5I9bg"
-      ],
       "Property Set": [
         "recterEyHDcq7YzlU"
       ],
@@ -5437,10 +5457,16 @@
         "SOLARPANEL",
         "SOLARCOLLECTOR"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCSOL_075",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "SOLARCOLLECTOR",
-        "SOLARPANEL"
+        "SOLARPANEL",
+        "SOLARCOLLECTOR"
       ]
     }
   },
@@ -5456,15 +5482,6 @@
       "Autonumber": 41,
       "Discipline": [
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "rec9nPPRNn8SbLro3",
-        "recBB2s81ER7ikO4V",
-        "recPwvkWFpdr5JTq1",
-        "reckaFEhhUjwrlUyc",
-        "recRtMtMwW2xz7yfo",
-        "recN2wa3qIB8dHTCC",
-        "recHWGV4TVmUghsbS"
       ],
       "Property Set": [
         "recwZWhvn8JCwCbbG",
@@ -5491,10 +5508,19 @@
         "STRAINER",
         "WATERFILTER"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCFIL_041",
       "IFC4 Object Types": [
-        "SCRUBBER",
-        "WASTEAIRSEPARATOR"
+        "SCRUBBER*",
+        "WASTEAIRSEPARATOR*"
       ],
       "IFC4 Predefined Types": [
         "AIRPARTICLEFILTER",
@@ -5517,47 +5543,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recwQfbf4ZtlV8UVv",
-        "recQPQ4DBySrz7exs",
-        "rechyaTzCQ57nf1us",
-        "recaoCTKWWeBQlPXN",
-        "reca7RiZHGxibtAcW",
-        "recrPXVjLYKx6xbzD",
-        "recOYQDccbhY5QOg6",
-        "recyh8K1ZjUdTbm7O",
-        "recZbWVtn3hrKVutX",
-        "recrH5jst4gLfePXy",
-        "recgtp5ij9Fz1z91G",
-        "recBsx9JZnTYCaegK",
-        "recAc10VHAnFckhut",
-        "recz4U14RhaH36rGF",
-        "rec9JVac0Z9jS6aDR",
-        "receugN79UUjXM3Cr",
-        "recqAxrX0wq4Jgm2s",
-        "recjahv1hkDPuKXbB",
-        "recC6EwYOmiXpnqsf",
-        "recxbXV3sqKapxVBc",
-        "rec7Ka20Rth8E8s1h",
-        "recBbI70RyNUV9dEE",
-        "rec61A8bQiSnpcYWa",
-        "recFUDHxhtoNCJeNv",
-        "recrs6IoCLdHeADRF",
-        "recK30teWMk9vOJGt",
-        "recg4R9DGKmTdnZHG",
-        "recRRVwLDhcFv1G5a",
-        "recI6ugWp3PXIegb3",
-        "recsWUql09t7CRMQq",
-        "recYyYSmXfdLUQaJ2",
-        "recc0s5yfdUpqOPua",
-        "recKkmMeSW1IfdcxY",
-        "recnv39BTe2cdhF6c",
-        "recgammvAZgloq5RS",
-        "rectXRS0fa9l7LTFI",
-        "rec0pdEIIS7ghuvvb",
-        "recLHJSYHgcmgkRfs",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "rec4fFi4gg7dUUFft",
         "recwsUIzzmGfECRAt",
@@ -5571,7 +5556,6 @@
         "rec7x5vWegr0UohOB",
         "recvwx9RZJl9KmKFO",
         "recC1GCZUuUsvMzsG",
-        "recZXzIB53b6fx6jY",
         "recPyUupTQEZWvl25",
         "recTCXm0bBpyrPnoa",
         "recSUF70Y9DBM4OQb",
@@ -5599,14 +5583,12 @@
         "recF6BRfKxbJTVvyx",
         "recOBuPZN7k0ob4LX",
         "rec6iYjASMIsa1bS8",
-        "recQ6TZHOzpKc4VYw",
         "recdCDf1uxjLEMYJ8",
         "rec5Mdds4u2oHHSRe",
         "recUs0y6FoqW0V5Hi",
         "reccT2mU48EcW5BTv",
         "rec2iY70Fqpvwt80t",
         "recF65jpZmw5gWG2h",
-        "recMC4GG2kGnSqTXl",
         "recqug30smRayuN8U",
         "recf2ikoDysXOeQyu",
         "reczPMOm0nnNAKl4U",
@@ -5617,12 +5599,10 @@
         "Accessible Water Closet Compartment",
         "Ambulant Disabled Water Closet Compartment",
         "Bed",
-        "Bench",
+        "Fixed Seating",
         "Breathing Apparatus Cabinet",
         "Bus Shelter",
-        "Bus Stop Bench",
         "Cabinet",
-        "Chair",
         "Child Protection Seat",
         "Convex Mirror",
         "Cubicle",
@@ -5648,14 +5628,12 @@
         "Refuse Compactor",
         "Refuse Container",
         "Sanitary Bin",
-        "Seating",
         "Shelf",
         "Shower Cubicle",
         "Shut-off Valve Pull Box",
         "Soap Dispenser",
         "Table",
         "Taxi Shelter",
-        "Taxi Stand Bench",
         "Toilet Paper Holder",
         "Umbrella",
         "Utility Box",
@@ -5663,7 +5641,6 @@
         "Workstation"
       ],
       "IFC4 Sub Types (Beta)": [
-        "CUBICLE*",
         "BED",
         "BENCH*",
         "BUSSHELTER*",
@@ -5688,34 +5665,79 @@
         "TAXISHELTER*",
         "UMBRELLA*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCFUR_046",
       "IFC4 Object Types": [
-        "BENCH",
-        "BUSSHELTER",
-        "CABINET",
-        "CHILDPROTECTIONSEAT",
-        "CONVEXMIRROR",
-        "CUBICLE",
-        "DIAPERCHANGINGTABLE",
-        "LETTERBOX",
-        "MIRROR",
-        "PLANTERBOX",
-        "RACK",
-        "RECYCLABLECOMPACTOR",
-        "RECYCLABLECONTAINER",
-        "RECYCLINGBIN",
-        "REFUSEBIN",
-        "REFUSECOMPACTOR",
-        "REFUSECONTAINER",
-        "TAXISHELTER",
-        "UMBRELLA"
+        "BENCH*",
+        "BUSSHELTER*",
+        "CABINET*",
+        "CHILDPROTECTIONSEAT*",
+        "CONVEXMIRROR*",
+        "DIAPERCHANGINGTABLE*",
+        "LETTERBOX*",
+        "MIRROR*",
+        "PLANTERBOX*",
+        "RACK*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "RECYCLINGBIN*",
+        "REFUSEBIN*",
+        "REFUSECOMPACTOR*",
+        "REFUSECONTAINER*",
+        "TAXISHELTER*",
+        "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
         "BED",
         "CHAIR",
+        "NOTDEFINED",
         "SHELF",
-        "TABLE",
-        "NOTDEFINED"
+        "TABLE"
       ]
     }
   },
@@ -5732,22 +5754,16 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "reck0Ah9mYyPXG09h",
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recuIfD4SyQfavZTz"
       ],
       "CO Key": [
-        "recUymyo1kYvGYWsk",
         "recbmhXS97wJ2wXll",
         "recF3QDiYQDbxWqHW",
         "recB3VHFntkXPVonB",
         "recymCFh4eAQ6kWIo"
       ],
       "Identified Components": [
-        "Communication Fixture",
         "Electrical Fixture",
         "Electrical Socket Outlet",
         "Single Phase Socket Outlet",
@@ -5757,10 +5773,17 @@
         "NOTDEFINED",
         "POWEROUTLET"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCOUT_056",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "POWEROUTLET",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "POWEROUTLET"
       ]
     }
   },
@@ -5778,56 +5801,6 @@
         "ARC",
         "MEP",
         "External Works"
-      ],
-      "OT Key (Object Type)": [
-        "rec0YJXvcmBvTBQDE",
-        "recD5YFRdFP0gtAqh",
-        "recVGG7RaKxlkG8B4",
-        "recYcgKrHJTu9QIbq",
-        "recQEk3h7YlZWsEmq",
-        "recP5ZJdZp0BbEBAZ",
-        "rec6c47nNiICrzH2O",
-        "recvyHd6TCiv3kuoy",
-        "recmBv7uwOFVzaGSA",
-        "recADfUqPJgXLcQvR",
-        "rec1yQUy1Daf1gpId",
-        "recK3BWdKo8yhkUwc",
-        "recNeaxpaHEGj3yLr",
-        "rec2tYT9j4kLxicGI",
-        "recvaryNwEN6WlsKP",
-        "reckxlfHMJiZbNk2M",
-        "recNli4Lt5zkkge5j",
-        "recRSwltXMfw7hKf5",
-        "recZrMKtiAbmiDOxc",
-        "recgKfULWmQYGL9qy",
-        "rec15YYYl7ij5Qu3Z",
-        "recfIFiAfcvGPY1tf",
-        "recaVLAkNM204rI7w",
-        "recO3h23FH985htcq",
-        "recPxWYeffGrNtpv2",
-        "recopPCRwiKDW86oM",
-        "recEAns5VIPv8eBKN",
-        "recbPiYv6uENg1ekS",
-        "recGTB5jvfqwBGHC5",
-        "recsYOvMr1Un5zcXF",
-        "recShJe3H6l55FAyw",
-        "recWPciyGoAsjj9tZ",
-        "recIFgklztVfRY9NG",
-        "recj5EEiOSPwH6nJi",
-        "rec91J7ueluHxCN8s",
-        "recrzmNPPYMNS3p2u",
-        "recwjMaW1L64bd5T6",
-        "recX1LIXmqISIcruw",
-        "recgVwnQx8Cp1Hn13",
-        "recTK18V3oj5d21u1",
-        "recD5vu3iHczqoUzr",
-        "recDBv1hdAkOW3bPF",
-        "reczfMv0e2qcAP8dw",
-        "recIJHWEmrMLIcPsj",
-        "rec9XOh020miqSzwq",
-        "recNPexR2M0LpuE1e",
-        "rec8PxmKfRpkcwMtY",
-        "rechdhRMbQC51CkOv"
       ],
       "Property Set": [
         "rec9deXZBT4E6DnY6"
@@ -5995,52 +5968,110 @@
         "VENT*",
         "WETRISER*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCDIS_029",
       "IFC4 Object Types": [
-        "CABLING",
-        "CHEMICAL",
-        "CHILLEDWATER",
-        "COMMUNICATION",
-        "COMPRESSEDAIR",
-        "CONDENSATEWATER",
-        "DEEPTUNNELSEWERAGE",
-        "DOMESTICCOLDWATER",
-        "DOMESTICHOTWATER",
-        "DRYRISER",
-        "ELECTRICAL",
-        "EXHAUSTAIR",
-        "FIREFIGHTING",
-        "FIREPROTECTION",
-        "FRESHAIR",
-        "FUEL",
-        "GAS",
-        "GREYWATER",
-        "HEATING",
-        "HYDRONIC",
-        "INDUSTRIALWATER",
-        "IRRIGATION",
-        "LIGHTNINGPROTECTION",
-        "MUNICIPALSOLIDWASTE",
-        "NEWATER",
-        "NONDOMESTICCOLDWATER",
-        "POTABLEWATER",
-        "PUMPINGMAIN",
-        "RAINWATER",
-        "RECYCLEDWATER",
-        "RETURNAIR",
-        "SANITARY",
-        "SEWAGE",
-        "SMOKECONTROL",
-        "SMOKEVENT",
-        "SUPPLYAIR",
-        "VENT",
-        "WETRISER",
-        "SPRINKLER"
+        "CABLING*",
+        "CHEMICAL*",
+        "CHILLEDWATER*",
+        "DOMESTICCOLDWATER*",
+        "COMPRESSEDAIR*",
+        "CONDENSATEWATER*",
+        "DEEPTUNNELSEWERAGE*",
+        "DRYRISER*",
+        "ELECTRICAL*",
+        "EXHAUSTAIR*",
+        "FIREPROTECTION*",
+        "FIREFIGHTING*",
+        "FRESHAIR*",
+        "FUEL*",
+        "GAS*",
+        "GREYWATER*",
+        "DOMESTICHOTWATER*",
+        "HYDRONIC*",
+        "INDUSTRIALWATER*",
+        "IRRIGATION*",
+        "LIGHTNINGPROTECTION*",
+        "MUNICIPALSOLIDWASTE*",
+        "NEWATER*",
+        "NONDOMESTICCOLDWATER*",
+        "POTABLEWATER*",
+        "PUMPINGMAIN*",
+        "RAINWATER*",
+        "RECYCLEDWATER*",
+        "RETURNAIR*",
+        "SANITARY*",
+        "SEWAGE*",
+        "SMOKECONTROL*",
+        "SMOKEVENT*",
+        "SPRINKLER*",
+        "HEATING*",
+        "SUPPLYAIR*",
+        "COMMUNICATION*",
+        "VENT*",
+        "WETRISER*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
-        "FIREHYDRANT",
-        "HOSEREEL",
         "OIL"
       ]
     }
@@ -6058,9 +6089,6 @@
       "Discipline": [
         "MEP"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "Property Set": [
         "recMswD2xnFbMBX0R"
       ],
@@ -6075,7 +6103,12 @@
       "IFC4 Sub Types (Beta)": [
         "NOTDEFINED"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null
+      ],
       "IFC KEY": "IFCCON_022",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -6094,21 +6127,6 @@
       "Discipline": [
         "ARC",
         "MEP"
-      ],
-      "OT Key (Object Type)": [
-        "rectrtRVzBsSrpr9L",
-        "recU37s77qqFv3c1l",
-        "recuvnCUDBxtTrHQf",
-        "recsQMNpoFCsZDqsA",
-        "recBFAaQjceKQFGsW",
-        "recUSNCtNKtTCe0F7",
-        "recsolaJR8lemJnuf",
-        "rec3XVsJKcJ9Qcpyb",
-        "recZoltDZWmc53AxZ",
-        "recfLTtiVtfOvE5HT",
-        "rec9XOh020miqSzwq",
-        "recNPexR2M0LpuE1e",
-        "recSjZKU6vuMptxkW"
       ],
       "Property Set": [
         "rec2whXYnp7iJWKtf",
@@ -6150,18 +6168,33 @@
         "SPRINKLER",
         "FOAMOUTLET*"
       ],
+      "Beta (from CO Key)": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "IFC KEY": "IFCFIR_042",
       "IFC4 Object Types": [
-        "FOAMINLET",
-        "HOSE",
-        "STANDBYFIREHOSE",
-        "BREECHINGINLET",
-        "FOAMOUTLET"
+        "FOAMINLET*",
+        "HOSE*",
+        "STANDBYFIREHOSE*",
+        "BREECHINGINLET*",
+        "FOAMOUTLET*"
       ],
       "IFC4 Predefined Types": [
-        "SPRINKLER",
         "FIREHYDRANT",
-        "HOSEREEL"
+        "HOSEREEL",
+        "SPRINKLER"
       ]
     }
   },
@@ -6178,9 +6211,6 @@
       "Discipline": [
         "ARC"
       ],
-      "OT Key (Object Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
       "CO Key": [
         "rects08yM8gnWAQvQ"
       ],
@@ -6188,10 +6218,12 @@
         "Electric Motor"
       ],
       "IFC4 Sub Types (Beta)": [],
+      "Beta (from CO Key)": [
+        null
+      ],
       "IFC KEY": "IFCELE_037",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   }
 ]

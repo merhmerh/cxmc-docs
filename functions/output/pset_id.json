@@ -31,10 +31,9 @@
       ],
       "Parameter Value (Sample)": "3H25 (BottomLeft);\n3H32+3H25+3H20 (BottomMiddle);\n3H25 (BottomRight);\n1H13-250 (SideBar);\n1H16-250 (StirrupsLeft);\n1H16-250 (StirrupsMiddle);\n1H16-250 (StirrupsRight);\nU TYPE (StirrupsTypeLeft);\nTORSION, U TYPE (StirrupsTypeLeft);\nTORSION, U TYPE (StirrupsTypeMiddle);\nU TYPE (StirrupsTypeMiddle);\nU TYPE (StirrupsTypeRight);\nTORSION, U TYPE (StirrupsTypeRight);\n3H32+3H25 (TopLeft);\n3H25 (TopMiddle);\n3H32+3H25 (TopRight);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod)",
       "IFC4 Object Types": [
-        "TRELLIS"
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM"
       ]
     }
@@ -54,6 +53,7 @@
       "IFC4 Entities": [
         "IfcTransformer"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -71,14 +71,14 @@
         "IfcValve"
       ],
       "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*"
       ],
       "IFC4 Predefined Types": [
         "ANTIVACUUM",
@@ -88,8 +88,8 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STOPCOCK"
       ]
     }
   },
@@ -127,15 +127,16 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "PIPESLEEVE",
-        "TACTILE"
+        "TACTILE*",
+        "PIPESLEEVE*"
       ],
       "IFC4 Predefined Types": [
         "CEILING",
         "CLADDING",
+        "NOTDEFINED",
+        "FLOORING",
         "INSULATION",
-        "ROOFING",
-        "NOTDEFINED"
+        "ROOFING"
       ]
     }
   },
@@ -158,10 +159,13 @@
         "IfcFooting"
       ],
       "Parameter Value (Sample)": "100 (DA1-2_BearingCapacity);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "PAD_FOOTING",
+        "STRIP_FOOTING",
         "FOOTING_BEAM",
-        "PILE_CAP",
-        "NOTDEFINED"
+        "PILE_CAP"
       ]
     }
   },
@@ -195,14 +199,15 @@
       ],
       "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
         "LANDING",
-        "ROOF",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOF"
       ]
     }
   },
@@ -248,15 +253,16 @@
       ],
       "Parameter Value (Sample)": "CLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nHOMOGENOUS (CladdingType);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nEN 13501-1 FIRE CLASSIFICATION OF CONSTRUCTION PRODUCTS AND BUILDING ELEMENTS (ExternalReference);\nNFPA 285 STANDARD FIRE TEST METHOD FOR EVALUATION OF FIRE PROPAGATION CHARACTERISTICS OF EXTERIOR WALL ASSEMBLIES CONTAINING COMBUSTIBLE COMPONENTS (ExternalReference);\nSS 233 SPECIFICATION FOR FLEXIBLE RUBBER TUBING, RUBBER HOSE AND RUBBER HOSE ASSEMBLIES FOR USE IN LPG VAPOUR PHASE INSTALLATIONS (ExternalReference);\nASTM E108 STANDARD TEST METHODS FOR FIRE TESTS (ExternalReference)",
       "IFC4 Object Types": [
-        "PIPESLEEVE",
-        "TACTILE"
+        "TACTILE*",
+        "PIPESLEEVE*"
       ],
       "IFC4 Predefined Types": [
         "CEILING",
         "CLADDING",
+        "NOTDEFINED",
+        "FLOORING",
         "INSULATION",
-        "ROOFING",
-        "NOTDEFINED"
+        "ROOFING"
       ]
     }
   },
@@ -282,8 +288,9 @@
         "IfcColumn"
       ],
       "Parameter Value (Sample)": "300 (Breadth);\n40 (Breadth);\n6200 (Breadth);\n8400 (Breadth);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\nCHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n10 mm (Diameter);\n600 (Diameter)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -311,10 +318,11 @@
       ],
       "Parameter Value (Sample)": "DRAWING NO. <NO> (ExternalReference);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nLTA/SDRE14/4/GRA1/GRA6 STANDARD DETAILS OF ROAD ELEMENTS (ExternalReference)",
       "IFC4 Object Types": [
-        "BACKGUARD",
-        "BOLLARD"
+        "BACKGUARD*",
+        "BOLLARD*"
       ],
       "IFC4 Predefined Types": [
+        "GUARDRAIL",
         "NOTDEFINED"
       ]
     }
@@ -331,16 +339,16 @@
         "IfcFireSuppressionTerminal"
       ],
       "IFC4 Object Types": [
-        "FOAMINLET",
-        "HOSE",
-        "STANDBYFIREHOSE",
-        "BREECHINGINLET",
-        "FOAMOUTLET"
+        "FOAMINLET*",
+        "HOSE*",
+        "STANDBYFIREHOSE*",
+        "BREECHINGINLET*",
+        "FOAMOUTLET*"
       ],
       "IFC4 Predefined Types": [
-        "SPRINKLER",
         "FIREHYDRANT",
-        "HOSEREEL"
+        "HOSEREEL",
+        "SPRINKLER"
       ]
     }
   },
@@ -367,25 +375,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -404,7 +411,9 @@
       ],
       "IFC4 Entities": [
         "IfcProtectiveDevice"
-      ]
+      ],
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -458,14 +467,14 @@
       ],
       "Parameter Value (Sample)": "450 mm (OpeningDiameter)",
       "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*"
       ],
       "IFC4 Predefined Types": [
         "ANTIVACUUM",
@@ -475,8 +484,8 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STOPCOCK"
       ]
     }
   },
@@ -497,14 +506,15 @@
       ],
       "Parameter Value (Sample)": "DOUBLE T SLAB (TypeDesignatorFunction);\nHOLLOW CORE (TypeDesignator)",
       "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
         "LANDING",
-        "ROOF",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOF"
       ]
     }
   },
@@ -526,15 +536,15 @@
       ],
       "Parameter Value (Sample)": "500 mm (NominalDiameter);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "BYPASSCHANNEL",
-        "RAINWATEROUTLET",
-        "SCUPPERDRAIN"
+        "BYPASSCHANNEL*",
+        "RAINWATEROUTLET*",
+        "SCUPPERDRAIN*"
       ],
       "IFC4 Predefined Types": [
-        "ROOFGUTTER",
-        "SPOOL",
+        "FOUNDATION",
         "NOTDEFINED",
-        "FOUNDATION"
+        "ROOFGUTTER",
+        "SPOOL"
       ]
     }
   },
@@ -550,16 +560,16 @@
         "IfcFireSuppressionTerminal"
       ],
       "IFC4 Object Types": [
-        "FOAMINLET",
-        "HOSE",
-        "STANDBYFIREHOSE",
-        "BREECHINGINLET",
-        "FOAMOUTLET"
+        "FOAMINLET*",
+        "HOSE*",
+        "STANDBYFIREHOSE*",
+        "BREECHINGINLET*",
+        "FOAMOUTLET*"
       ],
       "IFC4 Predefined Types": [
-        "SPRINKLER",
         "FIREHYDRANT",
-        "HOSEREEL"
+        "HOSEREEL",
+        "SPRINKLER"
       ]
     }
   },
@@ -591,12 +601,13 @@
       "IFC4 Entities": [
         "IfcAirTerminal"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "DIFFUSER",
         "GRILLE",
-        "REGISTER",
+        "LOUVRE",
         "NOTDEFINED",
-        "LOUVRE"
+        "REGISTER"
       ]
     }
   },
@@ -612,32 +623,31 @@
         "IfcFurniture"
       ],
       "IFC4 Object Types": [
-        "BENCH",
-        "BUSSHELTER",
-        "CABINET",
-        "CHILDPROTECTIONSEAT",
-        "CONVEXMIRROR",
-        "CUBICLE",
-        "DIAPERCHANGINGTABLE",
-        "LETTERBOX",
-        "MIRROR",
-        "PLANTERBOX",
-        "RACK",
-        "RECYCLABLECOMPACTOR",
-        "RECYCLABLECONTAINER",
-        "RECYCLINGBIN",
-        "REFUSEBIN",
-        "REFUSECOMPACTOR",
-        "REFUSECONTAINER",
-        "TAXISHELTER",
-        "UMBRELLA"
+        "BENCH*",
+        "BUSSHELTER*",
+        "CABINET*",
+        "CHILDPROTECTIONSEAT*",
+        "CONVEXMIRROR*",
+        "DIAPERCHANGINGTABLE*",
+        "LETTERBOX*",
+        "MIRROR*",
+        "PLANTERBOX*",
+        "RACK*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "RECYCLINGBIN*",
+        "REFUSEBIN*",
+        "REFUSECOMPACTOR*",
+        "REFUSECONTAINER*",
+        "TAXISHELTER*",
+        "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
         "BED",
         "CHAIR",
+        "NOTDEFINED",
         "SHELF",
-        "TABLE",
-        "NOTDEFINED"
+        "TABLE"
       ]
     }
   },
@@ -671,13 +681,13 @@
       ],
       "Parameter Value (Sample)": "4 (AirChangePerHour);\n12 (AirChangePerHour);\n20 (AirChangePerHour);\n10 (AirChangePerHour);\n15000 (AirFlowRate);\n2000 m^3/h (AirFlowRate)",
       "IFC4 Object Types": [
-        "FANCOILUNIT"
+        "FANCOILUNIT*"
       ],
       "IFC4 Predefined Types": [
         "AIRCONDITIONINGUNIT",
         "AIRHANDLER",
-        "ROOFTOPUNIT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOFTOPUNIT"
       ]
     }
   },
@@ -709,9 +719,8 @@
         "IfcSite"
       ],
       "Parameter Value (Sample)": "FIRM GROUND (Condition);\nSOIL (Condition);\nNEW (ConstructionPhase);\nRECONSTRUCTION (ConstructionPhase);\nREDEVELOPMENT (ConstructionPhase);\nEXISTING (ConstructionPhase)",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -736,25 +745,24 @@
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n8000 (Height)",
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -777,21 +785,20 @@
       ],
       "Parameter Value (Sample)": "RINSING (SinkType)",
       "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
+        "FOGGER*",
+        "MISTER*",
+        "SPRINKLER*",
+        "POOLSKIMMER*",
+        "WATERCLOSET*"
       ],
       "IFC4 Predefined Types": [
         "BATH",
         "BIDET",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
+        "WASHHANDBASIN"
       ]
     }
   },
@@ -811,9 +818,8 @@
       "IFC4 Entities": [
         "IfcSite"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -836,12 +842,12 @@
         "IfcDamper"
       ],
       "Parameter Value (Sample)": "NFPA 55 COMPRESSED GASES AND CRYOGENIC FLUIDS CODE (ExternalReference);\nSS 489 SPECIFICATION FOR FIRE SHUTTERS (ExternalReference);\n4 (AirChangePerHour);\n12 (AirChangePerHour);\n20 (AirChangePerHour);\n10 (AirChangePerHour)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FIREDAMPER",
         "FIRESMOKEDAMPER",
         "FUMEHOODEXHAUST",
-        "SMOKEDAMPER",
-        "NOTDEFINED"
+        "SMOKEDAMPER"
       ]
     }
   },
@@ -887,17 +893,17 @@
         "IfcPump"
       ],
       "IFC4 Object Types": [
-        "AERATOR",
-        "JET",
-        "JOCKEYPUMP",
-        "VACUUMEXHAUSTER",
-        "EJECTORPUMP"
+        "AERATOR*",
+        "JET*",
+        "JOCKEYPUMP*",
+        "VACUUMEXHAUSTER*",
+        "EJECTORPUMP*"
       ],
       "IFC4 Predefined Types": [
         "ENDSUCTION",
+        "NOTDEFINED",
         "SPLITCASE",
-        "SUMPPUMP",
-        "NOTDEFINED"
+        "SUMPPUMP"
       ]
     }
   },
@@ -927,6 +933,7 @@
         "IfcInterceptor"
       ],
       "Parameter Value (Sample)": "PUB/WRN/STD/040 PUB/WRN/STD/041 STANDARD GREASE TRAP (ExternalReference);\nBS-EN1825 GREASE SEPARATORS. PRINCIPLES OF DESIGN, PERFORMANCE AND TESTING, MARKING AND QUALITY CONTROL (ExternalReference);\nASME A112.14.3 HYDROMECHANICAL GREASE INTERCEPTORS (ExternalReference)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "GREASE",
         "OIL"
@@ -948,9 +955,8 @@
       "IFC4 Entities": [
         "IfcBuilding"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -969,6 +975,7 @@
       "IFC4 Entities": [
         "IfcCompressor"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1008,24 +1015,12 @@
       ],
       "Parameter Value (Sample)": "CAT LADDER (LadderType);\nSHIP LADDER (LadderType);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade)",
       "IFC4 Object Types": [
-        "LADDER"
+        "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
+        "SPIRAL_STAIR"
       ]
     }
   },
@@ -1046,26 +1041,26 @@
       ],
       "Parameter Value (Sample)": "BOILINGPAN (ElectricCookerType);\nFIXED ROASTED TIN (ElectricCookerType);\nTILTING BOILING PAN (ElectricCookerType);\nTILTING ROASTED TIN (ElectricCookerType)",
       "IFC4 Object Types": [
-        "COFFEEMAKER",
-        "DRINKINGFOUNTAIN",
-        "FUMEHOOD",
-        "HIGHPRESSURECLEANER",
-        "ICEMAKER",
-        "RANGEHOOD",
-        "SCRAPER",
-        "STEAMCLEANER",
-        "TELEVISION",
-        "WATERDISPENSER"
+        "COFFEEMAKER*",
+        "DRINKINGFOUNTAIN*",
+        "FUMEHOOD*",
+        "HIGHPRESSURECLEANER*",
+        "ICEMAKER*",
+        "RANGEHOOD*",
+        "SCRAPER*",
+        "STEAMCLEANER*",
+        "TELEVISION*",
+        "WATERDISPENSER*"
       ],
       "IFC4 Predefined Types": [
         "DISHWASHER",
         "ELECTRICCOOKER",
         "FREESTANDINGELECTRICHEATER",
-        "FREESTANDINGWATERCOOLER",
-        "FREESTANDINGWATERHEATER",
         "FREEZER",
         "REFRIGERATOR",
-        "WASHINGMACHINE"
+        "WASHINGMACHINE",
+        "FREESTANDINGWATERCOOLER",
+        "FREESTANDINGWATERHEATER"
       ]
     }
   },
@@ -1300,300 +1295,298 @@
       ],
       "Parameter Value (Sample)": "C60/75 (MaterialGrade);\nCONCRETE (MaterialGrade);\nCOMPOSITE (MaterialGrade);\nTIMBER (MaterialGrade);\nSTORAGE AND GENERAL (MaterialGrade);\nINTUMESCENT PAINT (Material);\nSTEEL (Material);\nTIMBER (Material);\nENGINEERED TIMBER (Material);\nCONCRETE (Material);\nWOOD (Material);\nBRICK (Material);\nREINFORCED CONCRETE (Material);\nMEN'S RESTROOM (Material);\nSAND, COREY DUST, GRANITE DUST, GRAVEL, CRUSHER RUN, RECYCLED AGGREGATES (Material);\nWATERPROOFING (Material);\nNON-SKID ALUMINIUM (Material);\nMET (Material);\nFLEXIBLE METAL (Material);\nLIQUID TIGHT FLEXIBLE METAL (Material);\nRIGID METAL (Material);\nPLASTIC (Material);\nNYLON (Material);\nMETAL (Material);\nSTAINLESS STEEL, MILD STEEL (Material);\nCONTRASTING COLOUR BAND (Material);\nNON-SKID TILES (Material);\nTILES (Material);\nCARPET (Material);\nVINYL (Material);\nGLASS (Material);\nSPECIAL EDUCATION SCHOOL (Material);\nGALVANIZED MILD STEEL HEAVY DUTY (Material);\nHEAVY DUTY CAST IRON (Material);\nHDPE (Material);\nHIGH DENSITY POLYETHYLENE (Material);\nLOTUS-ROOT CONNECTION SYSTEM (Material);\nPHENOLIC (Material);\nINTUMESCENT GLASS (Material);\nHEAVY GAUGE STEEL (Material);\nGALVANISED STEEL (Material);\nPLASTERED (Material);\nFAIR-FACED BRICKWALLS (Material);\nSAMPLES OF CONCRETE ELEMENTS ARE AS FOLLOWS: INTERNAL WALL, COLUMN AND BEAM, STAIRCASE, KERBS, RAMPS, SERVICES RISERS, PARAPETS, ROOF , ROOMS THAT USED PRECAST PANEL, LIGHT WEIGHT PANEL, PPVC, SUSPENDED STRUCTURES LIKE PLANTER BOXES, BAY WINDOWS, LEDGES ETC (Material);\nUPVC (SS 213), DUCTILE IRON (BS EN 598), HUBLESS CAST IRON WITH EPOXY COATING (BS EN 877), POLYPROPYLENE (BS EN 1451-1), HDPE (BS EN 1519) (Material);\nDUCTILE IRON (Material);\nLINED CAST IRON (Material);\nVITRIFIED CLAY (Material);\nUPVC (SS 272), DUCTILE IRON (BS EN 598), VITRIFIED CLAY (BS EN 295), REINFORCED CONCRETE (RC) (SS 183/BS EN 1916), POLYMER CONCRETE (BS EN 14636), HDPE (BS EN 1519) (Material);\nCAST IRON (Material);\nUPVC (Material);\nRC PIPE (Material);\nPOLYETHYLENE (Material);\nVITRIFIED CLAY BS EN 295, REINFORCED CONCRETE SS183, REINFORCED CONCRETE BS EN 1916, POLYMER CONCRETE BS EN 14636, DUCTILE IRON BS EN 598 (Material);\nSTAIR (Material);\nNON-DRIP ACRYLIC (Material);\nNATURAL STONE (Material);\nENGINEERED STONE (Material);\nCAST IRON [SS30] (Material);\nPLANT (Material);\nGLASS BLOCK (Material);\nVAPOUR BARRIER (Material);\nCERAMIC TILES (Material);\nAUTOCLAVED LIGHTWEIGHT CONCRETE (Material);\nWALL PAPER (Material);\nPLASTERBOARD (Material);\nUPVC (SS 272), DUCTILE IRON (BS EN 598), HDPE (BS EN 1519 (Material);\nLEDGE (Material)",
       "IFC4 Object Types": [
-        "TRELLIS",
-        "2D_DRIVEWAYMARKING",
-        "2D_FLOORMARKING",
-        "2D_HOLDINGBAY",
-        "2D_LIFTREFUGESPACE",
-        "2D_PASSINGSPACE",
-        "2D_PWDHOLDINGPOINT",
-        "2D_TAXIBAY",
-        "2D_TRAFFICFLOW",
-        "2D_TREEPROTECTIONZONE",
-        "2D_WHEELCHAIRSPACE",
-        "ARTICULATEDVEHICLELOT",
-        "BACKFILL",
-        "BICYCLELOT",
-        "BICYCLEROUTE",
-        "BOREHOLE",
-        "CARLOT",
-        "CHEMICALFEEDER",
-        "COACHLOT",
-        "CONCEPT_BUILDINGMASS",
-        "CONCEPT_ENVELOPELIMIT",
-        "CONCEPT_ENVELOPEREQUIRED",
-        "CONCRETEMARKER",
-        "CONVEYORBELT",
-        "DROPBARRIER",
-        "FAÇADE",
-        "FALSEBOTTOM",
-        "FLAGPOLE",
-        "FLOODBARRIER",
-        "FOODWASTETREATMENTSYSTEM",
-        "FUELBURNINGEQUIPMENT",
-        "GONDOLA",
-        "HUMP",
-        "INCINERATOR",
-        "LANDSCAPE_PLANTINGTROUGH",
-        "LINEMARKING",
-        "LORRYLOT",
-        "MOTOR-CYCLELOT",
-        "PEDESTRIANCROSSING",
-        "PERMANENTUNITNUMBERTAG",
-        "PHOTOLUMINESCENTMARKING",
-        "PIPERACK",
-        "POLLUTIONCONTROLEQUIPMENT",
-        "PORTABLEFIREEXTINGUISHER",
-        "REFUSETRUCKTEMPORARYPARKING",
-        "RELIGIOUSSYMBOL",
-        "RUNG",
-        "SIGNAGE",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION",
-        "SIGNAGE_COOLINGTOWER",
-        "SIGNAGE_DIRECTIONALEXIT",
-        "SIGNAGE_ESCAPEPLAN",
-        "SIGNAGE_EVACUATIONLIFT",
-        "SIGNAGE_EXIT",
-        "SIGNAGE_EXITACCESSDOOR",
-        "SIGNAGE_EXITSTAIRCASE",
-        "SIGNAGE_FIREACCESSOPENING",
-        "SIGNAGE_PWDHOLDINGPOINT",
-        "SIGNAGE_RECYCLABLESCHUTE",
-        "SIGNAGE_RINSESHOWER",
-        "SIGNAGE_SMOKEVENT",
-        "SIGNAGE_THROUGHBLOCKLINK",
-        "SIGNAGE_WATERTAPPOINT",
-        "SIGNAGE_WHEELCHAIRSYMBOL",
-        "SIGNPOST",
-        "SIGNPOST_DRIVEWAY",
-        "SIGNPOST_REFUSETEMPORARYPARKING",
-        "SLOTOUTLET",
-        "STATIONARYVACUUMSYSTEM",
-        "SURROUNDINGBUILDING",
-        "TUNNEL",
-        "TURNSTILE",
-        "VALVEPROTECTINGCOVER",
-        "VEHICULARBARRIER",
-        "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX",
-        "TOWTRACTORLOT",
-        "BEAMFACADEWALL",
-        "DIAPHRAGMWALLSYSTEM",
-        "DRAINAGE",
-        "FRAMING",
-        "HOUSEHOLDSHELTER",
-        "MAINTENANCE",
-        "MECHANIZEDCARPARKING",
-        "OXYGENREDUCTION",
-        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM",
-        "PNEUMATICWASTECONVEYANCESYSTEM",
-        "PPVCMODULE",
-        "PREFABRICATEDANDPREFINISHEDCEILING",
-        "PREFABRICATEDANDPREFINISHEDFLOOR",
-        "PREFABRICATEDANDPREFINISHEDWALL",
-        "PREFABRICATEDBATHROOMUNIT",
-        "PREFABRICATEDMEPHORIZONTALMODULE",
-        "PREFABRICATEDMEPPLANTMODULE",
-        "PREFABRICATEDMEPVERTICALMODULE",
-        "PWCSMAINCONTROL",
-        "TRUSS",
-        "UNIT",
-        "REFUSECHUTE",
-        "STAIRCASESTOREYSHELTER",
-        "STOREYSHELTER",
-        "NONSHELTERHOUSEHOLDSHELTER",
-        "NONSHELTERSTOREYSHELTER",
-        "AIRCONDITIONINGTRAY",
-        "LPS_DOWNCONDUCTOR",
-        "BACKLANE",
-        "BOXCULVERT",
-        "DRIVEWAY",
-        "ENTRANCECULVERT",
-        "FOOTPATH",
-        "GUTTERDRAIN",
-        "ISLAND",
-        "LAYBY",
-        "ROADKERB",
-        "CHANNELDRAIN",
-        "TRENCHDRAIN",
-        "SURFACEDRAIN",
-        "STORMWATERDRAIN",
-        "FLOORDRAIN",
-        "TRENCH",
-        "LAMPPOST",
-        "INTEGRATEDCOMMUNICATIONCONSOLE",
-        "PIPESLEEVE",
-        "TACTILE",
-        "BENCHING",
-        "CEILINGHANGER",
-        "DRYWEATHERFLOW",
-        "FLUSHBOLT",
-        "GRATING",
-        "HAUNCH",
-        "HINGEDCOVER",
-        "LIFT_APRON",
-        "LIFT_GUIDEROLLER",
-        "LIFT_GUIDESHOE",
-        "LIFT_RESCUEHOOK",
-        "LPS_AIRFINIAL",
-        "LPS_LIGHTNINGTAPE",
-        "PIPESUPPORT",
-        "TAPEREDNUTS",
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER",
-        "CABLING",
-        "CHEMICAL",
-        "CHILLEDWATER",
-        "COMMUNICATION",
-        "COMPRESSEDAIR",
-        "CONDENSATEWATER",
-        "DEEPTUNNELSEWERAGE",
-        "DOMESTICCOLDWATER",
-        "DOMESTICHOTWATER",
-        "DRYRISER",
-        "ELECTRICAL",
-        "EXHAUSTAIR",
-        "FIREFIGHTING",
-        "FIREPROTECTION",
-        "FRESHAIR",
-        "FUEL",
-        "GAS",
-        "GREYWATER",
-        "HEATING",
-        "HYDRONIC",
-        "INDUSTRIALWATER",
-        "IRRIGATION",
-        "LIGHTNINGPROTECTION",
-        "MUNICIPALSOLIDWASTE",
-        "NEWATER",
-        "NONDOMESTICCOLDWATER",
-        "POTABLEWATER",
-        "PUMPINGMAIN",
-        "RAINWATER",
-        "RECYCLEDWATER",
-        "RETURNAIR",
-        "SANITARY",
-        "SEWAGE",
-        "SMOKECONTROL",
-        "SMOKEVENT",
-        "SUPPLYAIR",
-        "VENT",
-        "WETRISER",
-        "SPRINKLER",
-        "ACCESSHATCH",
-        "BLASTDOOR",
-        "FIRECURTAIN",
-        "FIRESHUTTER",
-        "FLAPDOOR",
-        "RECYCLABLESCHUTEACCESSPANEL",
-        "RECYCLABLESCHUTEHOPPER",
-        "REFUSECHUTEACCESSPANEL",
-        "REFUSECHUTEHOPPER",
-        "ROLLERSHUTTER",
-        "SMOKECURTAIN",
-        "SCRUBBER",
-        "WASTEAIRSEPARATOR",
-        "FUELMETER",
-        "BENCH",
-        "BUSSHELTER",
-        "CABINET",
-        "CHILDPROTECTIONSEAT",
-        "CONVEXMIRROR",
-        "CUBICLE",
-        "DIAPERCHANGINGTABLE",
-        "LETTERBOX",
-        "MIRROR",
-        "PLANTERBOX",
-        "RACK",
-        "RECYCLABLECOMPACTOR",
-        "RECYCLABLECONTAINER",
-        "RECYCLINGBIN",
-        "REFUSEBIN",
-        "REFUSECOMPACTOR",
-        "REFUSECONTAINER",
-        "TAXISHELTER",
-        "UMBRELLA",
-        "DRAINCHANNELBEND",
-        "PIPESILENCER",
-        "SHORTPIECE",
-        "SPIGOTANDSOCKET",
-        "BYPASSCHANNEL",
-        "RAINWATEROUTLET",
-        "SCUPPERDRAIN",
-        "BACKGUARD",
-        "BOLLARD",
-        "BALCONYSCREEN",
-        "CANOPY",
-        "DROPDOWNPANEL",
-        "EXTERNALFINS",
-        "LOUVREDPANEL",
-        "PARASOL",
-        "PERFORATEDPANEL",
-        "SHIELD",
-        "SCREEN",
-        "TRELLIS",
-        "CATWALK",
-        "INTERMEDIATEPLATFORM",
-        "MOSQUITONET",
-        "LADDER",
-        "WINDER",
-        "AIRRECEIVER",
-        "BACKWASHWATERHOLDINGTANK",
-        "BALANCINGTANK",
-        "BLOWDOWN",
-        "DETENTIONTANK",
-        "DILUTIONTANK",
-        "EJECTORTANK",
-        "FIREEXTINGUISHINGTANK",
-        "HOLDINGTANK",
-        "RECHARGEWELL",
-        "REFUSEHANDLINGEQUIPMENT",
-        "RETENTIONTANK",
-        "SECTIONAL",
-        "SURGETANK",
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT",
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL",
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN",
-        "CHUTEINTERFACE",
-        "DROPINLETCHAMBER",
-        "RECYCLABLESTHROWPOINT",
-        "REFUSETHROWPOINT",
-        "RETURNINLET",
-        "SHALLOWFLOORTRAP",
-        "URINALTRAP",
-        "WASTEDIVERTER",
-        "WASTESUMP",
-        "BAYWINDOW",
-        "VENTILATIONSLEEVE"
+        "TRELLIS*",
+        "SURROUNDINGBUILDING*",
+        "BACKFILL*",
+        "BICYCLEROUTE*",
+        "BOREHOLE*",
+        "CONCEPT_BUILDINGMASS*",
+        "CHEMICALFEEDER*",
+        "CONCRETEMARKER*",
+        "CONVEYORBELT*",
+        "DROPBARRIER*",
+        "CONCEPT_ENVELOPELIMIT*",
+        "CONCEPT_ENVELOPEREQUIRED*",
+        "FAÇADE*",
+        "FALSEBOTTOM*",
+        "PORTABLEFIREEXTINGUISHER*",
+        "FLAGPOLE*",
+        "FLOODBARRIER*",
+        "2D_FLOORMARKING*",
+        "FUELBURNINGEQUIPMENT*",
+        "GONDOLA*",
+        "2D_HOLDINGBAY*",
+        "HUMP*",
+        "INCINERATOR*",
+        "LINEMARKING*",
+        "2D_DRIVEWAYMARKING*",
+        "FOODWASTETREATMENTSYSTEM*",
+        "ARTICULATEDVEHICLELOT*",
+        "BICYCLELOT*",
+        "CARLOT*",
+        "COACHLOT*",
+        "LORRYLOT*",
+        "MOTOR-CYCLELOT*",
+        "REFUSETRUCKTEMPORARYPARKING*",
+        "2D_PASSINGSPACE*",
+        "PEDESTRIANCROSSING*",
+        "PERMANENTUNITNUMBERTAG*",
+        "PHOTOLUMINESCENTMARKING*",
+        "PIPERACK*",
+        "LANDSCAPE_PLANTINGTROUGH*",
+        "POLLUTIONCONTROLEQUIPMENT*",
+        "2D_PWDHOLDINGPOINT*",
+        "2D_LIFTREFUGESPACE*",
+        "RELIGIOUSSYMBOL*",
+        "RUNG*",
+        "SIGNPOST*",
+        "SIGNPOST_REFUSETEMPORARYPARKING*",
+        "SIGNAGE*",
+        "SIGNAGE_COMMUNICATIONINSTRUCTION*",
+        "SIGNAGE_COOLINGTOWER*",
+        "SIGNAGE_DIRECTIONALEXIT*",
+        "SIGNAGE_ESCAPEPLAN*",
+        "SIGNAGE_EVACUATIONLIFT*",
+        "SIGNAGE_EXIT*",
+        "SIGNAGE_EXITACCESSDOOR*",
+        "SIGNAGE_EXITSTAIRCASE*",
+        "SIGNAGE_FIREACCESSOPENING*",
+        "SIGNAGE_PWDHOLDINGPOINT*",
+        "SIGNAGE_RECYCLABLESCHUTE*",
+        "SIGNAGE_RINSESHOWER*",
+        "SIGNAGE_SMOKEVENT*",
+        "SIGNAGE_THROUGHBLOCKLINK*",
+        "SIGNAGE_WATERTAPPOINT*",
+        "SIGNAGE_WHEELCHAIRSYMBOL*",
+        "SIGNPOST_DRIVEWAY*",
+        "SLOTOUTLET*",
+        "STATIONARYVACUUMSYSTEM*",
+        "2D_TAXIBAY*",
+        "2D_TRAFFICFLOW*",
+        "2D_TREEPROTECTIONZONE*",
+        "TUNNEL*",
+        "TURNSTILE*",
+        "VALVEPROTECTINGCOVER*",
+        "VEHICULARBARRIER*",
+        "WATERPLAYGROUND*",
+        "2D_WHEELCHAIRSPACE*",
+        "EGRESSINDICATORBOX*",
+        "TOWTRACTORLOT*",
+        "BEAMFACADEWALL*",
+        "FRAMING*",
+        "DIAPHRAGMWALLSYSTEM*",
+        "DRAINAGE*",
+        "MAINTENANCE*",
+        "MECHANIZEDCARPARKING*",
+        "OXYGENREDUCTION*",
+        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
+        "PNEUMATICWASTECONVEYANCESYSTEM*",
+        "PPVCMODULE*",
+        "HOUSEHOLDSHELTER*",
+        "REFUSECHUTE*",
+        "PREFABRICATEDANDPREFINISHEDCEILING*",
+        "PREFABRICATEDANDPREFINISHEDFLOOR*",
+        "PREFABRICATEDANDPREFINISHEDWALL*",
+        "PREFABRICATEDBATHROOMUNIT*",
+        "PREFABRICATEDMEPHORIZONTALMODULE*",
+        "PREFABRICATEDMEPPLANTMODULE*",
+        "PREFABRICATEDMEPVERTICALMODULE*",
+        "PWCSMAINCONTROL*",
+        "TRUSS*",
+        "UNIT*",
+        "STAIRCASESTOREYSHELTER*",
+        "STOREYSHELTER*",
+        "NONSHELTERHOUSEHOLDSHELTER*",
+        "NONSHELTERSTOREYSHELTER*",
+        "RECYCLABLESCHUTE*",
+        "AIRCONDITIONINGTRAY*",
+        "LPS_DOWNCONDUCTOR*",
+        "BACKLANE*",
+        "DRIVEWAY*",
+        "FOOTPATH*",
+        "ISLAND*",
+        "LAYBY*",
+        "ROADKERB*",
+        "BOXCULVERT*",
+        "ENTRANCECULVERT*",
+        "GUTTERDRAIN*",
+        "CHANNELDRAIN*",
+        "TRENCHDRAIN*",
+        "SURFACEDRAIN*",
+        "STORMWATERDRAIN*",
+        "FLOORDRAIN*",
+        "TRENCH*",
+        "LAMPPOST*",
+        "INTEGRATEDCOMMUNICATIONCONSOLE*",
+        "TACTILE*",
+        "PIPESLEEVE*",
+        "LPS_AIRFINIAL*",
+        "BENCHING*",
+        "CEILINGHANGER*",
+        "DRYWEATHERFLOW*",
+        "FLUSHBOLT*",
+        "GRATING*",
+        "LIFT_GUIDEROLLER*",
+        "LIFT_GUIDESHOE*",
+        "HAUNCH*",
+        "HINGEDCOVER*",
+        "LIFT_APRON*",
+        "LPS_LIGHTNINGTAPE*",
+        "PIPESUPPORT*",
+        "LIFT_RESCUEHOOK*",
+        "TAPEREDNUTS*",
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*",
+        "CABLING*",
+        "CHEMICAL*",
+        "CHILLEDWATER*",
+        "DOMESTICCOLDWATER*",
+        "COMPRESSEDAIR*",
+        "CONDENSATEWATER*",
+        "DEEPTUNNELSEWERAGE*",
+        "DRYRISER*",
+        "ELECTRICAL*",
+        "EXHAUSTAIR*",
+        "FIREPROTECTION*",
+        "FIREFIGHTING*",
+        "FRESHAIR*",
+        "FUEL*",
+        "GAS*",
+        "GREYWATER*",
+        "DOMESTICHOTWATER*",
+        "HYDRONIC*",
+        "INDUSTRIALWATER*",
+        "IRRIGATION*",
+        "LIGHTNINGPROTECTION*",
+        "MUNICIPALSOLIDWASTE*",
+        "NEWATER*",
+        "NONDOMESTICCOLDWATER*",
+        "POTABLEWATER*",
+        "PUMPINGMAIN*",
+        "RAINWATER*",
+        "RECYCLEDWATER*",
+        "RETURNAIR*",
+        "SANITARY*",
+        "SEWAGE*",
+        "SMOKECONTROL*",
+        "SMOKEVENT*",
+        "SPRINKLER*",
+        "HEATING*",
+        "SUPPLYAIR*",
+        "COMMUNICATION*",
+        "VENT*",
+        "WETRISER*",
+        "ACCESSHATCH*",
+        "RECYCLABLESCHUTEACCESSPANEL*",
+        "RECYCLABLESCHUTEHOPPER*",
+        "REFUSECHUTEACCESSPANEL*",
+        "REFUSECHUTEHOPPER*",
+        "BLASTDOOR*",
+        "FIRESHUTTER*",
+        "FLAPDOOR*",
+        "ROLLERSHUTTER*",
+        "FIRECURTAIN*",
+        "SMOKECURTAIN*",
+        "SCRUBBER*",
+        "WASTEAIRSEPARATOR*",
+        "FUELMETER*",
+        "BENCH*",
+        "BUSSHELTER*",
+        "CABINET*",
+        "CHILDPROTECTIONSEAT*",
+        "CONVEXMIRROR*",
+        "DIAPERCHANGINGTABLE*",
+        "LETTERBOX*",
+        "MIRROR*",
+        "PLANTERBOX*",
+        "RACK*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "RECYCLINGBIN*",
+        "REFUSEBIN*",
+        "REFUSECOMPACTOR*",
+        "REFUSECONTAINER*",
+        "TAXISHELTER*",
+        "UMBRELLA*",
+        "DRAINCHANNELBEND*",
+        "PIPESILENCER*",
+        "SHORTPIECE*",
+        "SPIGOTANDSOCKET*",
+        "BYPASSCHANNEL*",
+        "RAINWATEROUTLET*",
+        "SCUPPERDRAIN*",
+        "BACKGUARD*",
+        "BOLLARD*",
+        "BALCONYSCREEN*",
+        "CANOPY*",
+        "DROPDOWNPANEL*",
+        "EXTERNALFINS*",
+        "LOUVREDPANEL*",
+        "PARASOL*",
+        "PERFORATEDPANEL*",
+        "SCREEN*",
+        "SHIELD*",
+        "TRELLIS*",
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*",
+        "MOSQUITONET*",
+        "LADDER*",
+        "WINDER*",
+        "AIRRECEIVER*",
+        "BACKWASHWATERHOLDINGTANK*",
+        "BALANCINGTANK*",
+        "BLOWDOWN*",
+        "DETENTIONTANK*",
+        "DILUTIONTANK*",
+        "EJECTORTANK*",
+        "FIREEXTINGUISHINGTANK*",
+        "HOLDINGTANK*",
+        "RECHARGEWELL*",
+        "REFUSEHANDLINGEQUIPMENT*",
+        "RETENTIONTANK*",
+        "SECTIONAL*",
+        "SURGETANK*",
+        "BINLIFTER*",
+        "LIFT*",
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*",
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*",
+        "CHUTEINTERFACE*",
+        "DROPINLETCHAMBER*",
+        "RECYCLABLESTHROWPOINT*",
+        "REFUSETHROWPOINT*",
+        "RETURNINLET*",
+        "SHALLOWFLOORTRAP*",
+        "URINALTRAP*",
+        "WASTEDIVERTER*",
+        "WASTESUMP*",
+        "VENTILATIONSLEEVE*",
+        "BAYWINDOW*"
       ],
       "IFC4 Predefined Types": [
         "DIFFUSER",
         "GRILLE",
-        "REGISTER",
-        "NOTDEFINED",
         "LOUVRE",
         "NOTDEFINED",
+        "REGISTER",
         "BEAM",
         "FOUNDATION",
         "CABLETRAYSEGMENT",
@@ -1603,13 +1596,14 @@
         "NOTDEFINED",
         "NOTDEFINED",
         "CULVERT",
-        "NOTDEFINED",
+        "COLUMN",
         "COMPUTER",
         "CEILING",
         "CLADDING",
+        "NOTDEFINED",
+        "FLOORING",
         "INSULATION",
         "ROOFING",
-        "NOTDEFINED",
         "NOTDEFINED",
         "FIREDAMPER",
         "FIRESMOKEDAMPER",
@@ -1617,24 +1611,21 @@
         "SMOKEDAMPER",
         "NOTDEFINED",
         "BRACKET",
-        "NOTDEFINED",
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
         "VALVECHAMBER",
         "NOTDEFINED",
-        "NOTDEFINED",
-        "FIREHYDRANT",
-        "HOSEREEL",
         "OIL",
-        "GATE",
         "TRAPDOOR",
-        "NOTDEFINED",
+        "GATE",
         "DOOR",
         "NOTDEFINED",
         "ENTRY",
         "NOTDEFINED",
+        "FLEXIBLESEGMENT",
         "NOTDEFINED",
         "NOTDEFINED",
         "AIRPARTICLEFILTER",
@@ -1642,34 +1633,37 @@
         "STRAINER",
         "WATERFILTER",
         "WATERMETER",
+        "NOTDEFINED",
+        "PAD_FOOTING",
+        "STRIP_FOOTING",
         "FOOTING_BEAM",
         "PILE_CAP",
-        "NOTDEFINED",
         "BED",
         "CHAIR",
+        "NOTDEFINED",
         "SHELF",
         "TABLE",
-        "NOTDEFINED",
         "STRINGER",
         "NOTDEFINED",
         "BORED",
         "DRIVEN",
-        "SUPPORT",
         "NOTDEFINED",
+        "SUPPORT",
         "BEND",
         "CONNECTOR",
+        "ENTRY",
         "EXIT",
         "JUNCTION",
+        "NOTDEFINED",
         "OBSTRUCTION",
         "TRANSITION",
+        "FOUNDATION",
         "NOTDEFINED",
-        "ENTRY",
         "ROOFGUTTER",
         "SPOOL",
-        "NOTDEFINED",
-        "FOUNDATION",
         "CURTAIN_PANEL",
         "SHEET",
+        "GUARDRAIL",
         "NOTDEFINED",
         "FLAT_ROOF",
         "NOTDEFINED",
@@ -1677,32 +1671,20 @@
         "NOTDEFINED",
         "FLOOR",
         "LANDING",
+        "NOTDEFINED",
         "ROOF",
         "NOTDEFINED",
         "COWL",
-        "NOTDEFINED",
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR",
+        "SPIRAL_STAIR",
         "CURVED",
-        "SPIRAL",
         "STRAIGHT",
+        "SPIRAL",
         "BASIN",
+        "NOTDEFINED",
         "PRESSUREVESSEL",
         "STORAGE",
-        "NOTDEFINED",
         "ESCALATOR",
         "MOVINGWALKWAY",
         "ANTIVACUUM",
@@ -1712,21 +1694,20 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
         "NOTDEFINED",
+        "STOPCOCK",
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
         "SHEAR",
-        "NOTDEFINED",
         "FLOORTRAP",
         "FLOORWASTE",
         "GULLYSUMP",
         "GULLYTRAP",
+        "NOTDEFINED",
         "WASTETRAP",
-        "NOTDEFINED",
         "SKYLIGHT",
-        "NOTDEFINED",
         "LOUVRE",
         "WINDOW"
       ]
@@ -1749,10 +1730,11 @@
         "IfcRailing"
       ],
       "IFC4 Object Types": [
-        "BACKGUARD",
-        "BOLLARD"
+        "BACKGUARD*",
+        "BOLLARD*"
       ],
       "IFC4 Predefined Types": [
+        "GUARDRAIL",
         "NOTDEFINED"
       ]
     }
@@ -1768,6 +1750,7 @@
       "IFC4 Entities": [
         "IfcFan"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -1794,23 +1777,22 @@
       ],
       "Parameter Value (Sample)": "H20-150 (HorizontalRebar);\nH25-150 (VerticalRebar);\nH32-150+H25-150 (VerticalRebar);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
       "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -1865,19 +1847,19 @@
         "IfcDistributionChamberElement"
       ],
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -1893,21 +1875,20 @@
         "IfcSanitaryTerminal"
       ],
       "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
+        "FOGGER*",
+        "MISTER*",
+        "SPRINKLER*",
+        "POOLSKIMMER*",
+        "WATERCLOSET*"
       ],
       "IFC4 Predefined Types": [
         "BATH",
         "BIDET",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
+        "WASHHANDBASIN"
       ]
     }
   },
@@ -1926,7 +1907,7 @@
         "IfcCommunicationsAppliance"
       ],
       "IFC4 Object Types": [
-        "INTEGRATEDCOMMUNICATIONCONSOLE"
+        "INTEGRATEDCOMMUNICATIONCONSOLE*"
       ],
       "IFC4 Predefined Types": [
         "COMPUTER"
@@ -1967,16 +1948,16 @@
       ],
       "Parameter Value (Sample)": "50 mm (Hose_NominalDiameter)",
       "IFC4 Object Types": [
-        "FOAMINLET",
-        "HOSE",
-        "STANDBYFIREHOSE",
-        "BREECHINGINLET",
-        "FOAMOUTLET"
+        "FOAMINLET*",
+        "HOSE*",
+        "STANDBYFIREHOSE*",
+        "BREECHINGINLET*",
+        "FOAMOUTLET*"
       ],
       "IFC4 Predefined Types": [
-        "SPRINKLER",
         "FIREHYDRANT",
-        "HOSEREEL"
+        "HOSEREEL",
+        "SPRINKLER"
       ]
     }
   },
@@ -1997,6 +1978,7 @@
         "IfcFan"
       ],
       "Parameter Value (Sample)": "SUPPORTING PERFORMANCE SPACES (ApplicationOfFan);\nEXHAUST AIR (ApplicationOfFan);\nSWAN NECK (FanMountingType)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -2020,15 +2002,16 @@
       ],
       "Parameter Value (Sample)": "240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
       "IFC4 Object Types": [
-        "PIPESLEEVE",
-        "TACTILE"
+        "TACTILE*",
+        "PIPESLEEVE*"
       ],
       "IFC4 Predefined Types": [
         "CEILING",
         "CLADDING",
+        "NOTDEFINED",
+        "FLOORING",
         "INSULATION",
-        "ROOFING",
-        "NOTDEFINED"
+        "ROOFING"
       ]
     }
   },
@@ -2049,6 +2032,7 @@
       "IFC4 Entities": [
         "IfcCoolingTower"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -2072,7 +2056,7 @@
       ],
       "Parameter Value (Sample)": "10 mm (Diameter);\n600 (Diameter);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
       "IFC4 Object Types": [
-        "FUELMETER"
+        "FUELMETER*"
       ],
       "IFC4 Predefined Types": [
         "WATERMETER"
@@ -2102,9 +2086,8 @@
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -2135,24 +2118,12 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "LADDER"
+        "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
+        "SPIRAL_STAIR"
       ]
     }
   },
@@ -2181,7 +2152,9 @@
         "IfcDuctSegment"
       ],
       "Parameter Value (Sample)": "BS 476 PART 5 METHOD OF TEST FOR IGNITABILITY (ExternalReference);\nCLASS 0 (Insulation_FlameSpreadClass);\nPREFABRICATED (ConstructionMethod);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "FLEXIBLESEGMENT",
         "NOTDEFINED"
       ]
     }
@@ -2223,9 +2196,10 @@
       "IFC4 Entities": [
         "IfcBoiler"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "WATER",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "WATER"
       ]
     }
   },
@@ -2245,8 +2219,8 @@
       "IFC4 Entities": [
         "IfcOpeningElement"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "OPENING"
       ]
     }
@@ -2267,16 +2241,16 @@
         "IfcFireSuppressionTerminal"
       ],
       "IFC4 Object Types": [
-        "FOAMINLET",
-        "HOSE",
-        "STANDBYFIREHOSE",
-        "BREECHINGINLET",
-        "FOAMOUTLET"
+        "FOAMINLET*",
+        "HOSE*",
+        "STANDBYFIREHOSE*",
+        "BREECHINGINLET*",
+        "FOAMOUTLET*"
       ],
       "IFC4 Predefined Types": [
-        "SPRINKLER",
         "FIREHYDRANT",
-        "HOSEREEL"
+        "HOSEREEL",
+        "SPRINKLER"
       ]
     }
   },
@@ -2304,25 +2278,26 @@
         "IfcGeographicElement"
       ],
       "IFC4 Object Types": [
-        "2D_FORESHORELINE",
-        "ARTWORK",
-        "BEACH",
-        "CADASTRALLOT",
-        "EXISTINGEARTHWORKS",
-        "GREENVERGE",
-        "LANDSCAPE_PALM",
-        "LANDSCAPE_SHRUBS",
-        "LANDSCAPE_TREE",
-        "NEIGHBOURINGLOT",
-        "PLANTINGAREA",
-        "PROPOSEDEARTHWORKS",
-        "RETENTIONBASIN",
-        "TRAFFICLIGHT",
-        "UTILITYPOLE",
-        "WATERBODY",
-        "WATERFEATURE",
-        "SITEBOUNDARY"
-      ]
+        "ARTWORK*",
+        "BEACH*",
+        "UTILITYPOLE*",
+        "EXISTINGEARTHWORKS*",
+        "2D_FORESHORELINE*",
+        "GREENVERGE*",
+        "NEIGHBOURINGLOT*",
+        "LANDSCAPE_PALM*",
+        "PLANTINGAREA*",
+        "PROPOSEDEARTHWORKS*",
+        "RETENTIONBASIN*",
+        "LANDSCAPE_SHRUBS*",
+        "CADASTRALLOT*",
+        "TRAFFICLIGHT*",
+        "LANDSCAPE_TREE*",
+        "WATERBODY*",
+        "WATERFEATURE*",
+        "SITEBOUNDARY*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2378,15 +2353,15 @@
       ],
       "Parameter Value (Sample)": "POINT TYPE (SmokeDetectorType);\nOPTIONAL (SmokeDetectorType);\nOPTICAL BEAM LINE SMOKE DETECTOR (SmokeDetectorType);\nPOINT SMOKE DETECTOR (SmokeDetectorType)",
       "IFC4 Object Types": [
-        "AIRIMPURITIESSENSOR",
-        "BEAMDETECTOR",
-        "LEAKSENSOR"
+        "AIRIMPURITIESSENSOR*",
+        "BEAMDETECTOR*",
+        "LEAKSENSOR*"
       ],
       "IFC4 Predefined Types": [
         "FLOWSENSOR",
         "LEVELSENSOR",
-        "PHSENSOR",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "PHSENSOR"
       ]
     }
   },
@@ -2425,16 +2400,16 @@
       ],
       "Parameter Value (Sample)": "50% (Porosity);\n0.2m/s (Spacing);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass)",
       "IFC4 Object Types": [
-        "BALCONYSCREEN",
-        "CANOPY",
-        "DROPDOWNPANEL",
-        "EXTERNALFINS",
-        "LOUVREDPANEL",
-        "PARASOL",
-        "PERFORATEDPANEL",
-        "SHIELD",
-        "SCREEN",
-        "TRELLIS"
+        "BALCONYSCREEN*",
+        "CANOPY*",
+        "DROPDOWNPANEL*",
+        "EXTERNALFINS*",
+        "LOUVREDPANEL*",
+        "PARASOL*",
+        "PERFORATEDPANEL*",
+        "SCREEN*",
+        "SHIELD*",
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
         "AWNING",
@@ -2458,21 +2433,20 @@
         "IfcSanitaryTerminal"
       ],
       "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
+        "FOGGER*",
+        "MISTER*",
+        "SPRINKLER*",
+        "POOLSKIMMER*",
+        "WATERCLOSET*"
       ],
       "IFC4 Predefined Types": [
         "BATH",
         "BIDET",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
+        "WASHHANDBASIN"
       ]
     }
   },
@@ -2493,9 +2467,8 @@
       "IFC4 Entities": [
         "IfcBuildingStorey"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2510,19 +2483,19 @@
         "IfcDistributionChamberElement"
       ],
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -2564,9 +2537,8 @@
         "IfcTransportElement"
       ],
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -2595,10 +2567,13 @@
         "IfcFooting"
       ],
       "Parameter Value (Sample)": "S1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n300 (Breadth);\n40 (Breadth);\n6200 (Breadth);\n8400 (Breadth);\n2500 (Depth);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "PAD_FOOTING",
+        "STRIP_FOOTING",
         "FOOTING_BEAM",
-        "PILE_CAP",
-        "NOTDEFINED"
+        "PILE_CAP"
       ]
     }
   },
@@ -2778,83 +2753,84 @@
       ],
       "Parameter Value (Sample)": "RIGID-FRAMED VEHICLE (RigidFrameLessThan7.5m);\n1 (RefugeSpace_Type);\nSHD-50 m, SHD3.423 m (TopLevel);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\nRORO COMPACTOR (EquipmentType);\n5 (UnitNumber)",
       "IFC4 Object Types": [
-        "2D_DRIVEWAYMARKING",
-        "2D_FLOORMARKING",
-        "2D_HOLDINGBAY",
-        "2D_LIFTREFUGESPACE",
-        "2D_PASSINGSPACE",
-        "2D_PWDHOLDINGPOINT",
-        "2D_TAXIBAY",
-        "2D_TRAFFICFLOW",
-        "2D_TREEPROTECTIONZONE",
-        "2D_WHEELCHAIRSPACE",
-        "ARTICULATEDVEHICLELOT",
-        "BACKFILL",
-        "BICYCLELOT",
-        "BICYCLEROUTE",
-        "BOREHOLE",
-        "CARLOT",
-        "CHEMICALFEEDER",
-        "COACHLOT",
-        "CONCEPT_BUILDINGMASS",
-        "CONCEPT_ENVELOPELIMIT",
-        "CONCEPT_ENVELOPEREQUIRED",
-        "CONCRETEMARKER",
-        "CONVEYORBELT",
-        "DROPBARRIER",
-        "FAÇADE",
-        "FALSEBOTTOM",
-        "FLAGPOLE",
-        "FLOODBARRIER",
-        "FOODWASTETREATMENTSYSTEM",
-        "FUELBURNINGEQUIPMENT",
-        "GONDOLA",
-        "HUMP",
-        "INCINERATOR",
-        "LANDSCAPE_PLANTINGTROUGH",
-        "LINEMARKING",
-        "LORRYLOT",
-        "MOTOR-CYCLELOT",
-        "PEDESTRIANCROSSING",
-        "PERMANENTUNITNUMBERTAG",
-        "PHOTOLUMINESCENTMARKING",
-        "PIPERACK",
-        "POLLUTIONCONTROLEQUIPMENT",
-        "PORTABLEFIREEXTINGUISHER",
-        "REFUSETRUCKTEMPORARYPARKING",
-        "RELIGIOUSSYMBOL",
-        "RUNG",
-        "SIGNAGE",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION",
-        "SIGNAGE_COOLINGTOWER",
-        "SIGNAGE_DIRECTIONALEXIT",
-        "SIGNAGE_ESCAPEPLAN",
-        "SIGNAGE_EVACUATIONLIFT",
-        "SIGNAGE_EXIT",
-        "SIGNAGE_EXITACCESSDOOR",
-        "SIGNAGE_EXITSTAIRCASE",
-        "SIGNAGE_FIREACCESSOPENING",
-        "SIGNAGE_PWDHOLDINGPOINT",
-        "SIGNAGE_RECYCLABLESCHUTE",
-        "SIGNAGE_RINSESHOWER",
-        "SIGNAGE_SMOKEVENT",
-        "SIGNAGE_THROUGHBLOCKLINK",
-        "SIGNAGE_WATERTAPPOINT",
-        "SIGNAGE_WHEELCHAIRSYMBOL",
-        "SIGNPOST",
-        "SIGNPOST_DRIVEWAY",
-        "SIGNPOST_REFUSETEMPORARYPARKING",
-        "SLOTOUTLET",
-        "STATIONARYVACUUMSYSTEM",
-        "SURROUNDINGBUILDING",
-        "TUNNEL",
-        "TURNSTILE",
-        "VALVEPROTECTINGCOVER",
-        "VEHICULARBARRIER",
-        "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX",
-        "TOWTRACTORLOT"
-      ]
+        "SURROUNDINGBUILDING*",
+        "BACKFILL*",
+        "BICYCLEROUTE*",
+        "BOREHOLE*",
+        "CONCEPT_BUILDINGMASS*",
+        "CHEMICALFEEDER*",
+        "CONCRETEMARKER*",
+        "CONVEYORBELT*",
+        "DROPBARRIER*",
+        "CONCEPT_ENVELOPELIMIT*",
+        "CONCEPT_ENVELOPEREQUIRED*",
+        "FAÇADE*",
+        "FALSEBOTTOM*",
+        "PORTABLEFIREEXTINGUISHER*",
+        "FLAGPOLE*",
+        "FLOODBARRIER*",
+        "2D_FLOORMARKING*",
+        "FUELBURNINGEQUIPMENT*",
+        "GONDOLA*",
+        "2D_HOLDINGBAY*",
+        "HUMP*",
+        "INCINERATOR*",
+        "LINEMARKING*",
+        "2D_DRIVEWAYMARKING*",
+        "FOODWASTETREATMENTSYSTEM*",
+        "ARTICULATEDVEHICLELOT*",
+        "BICYCLELOT*",
+        "CARLOT*",
+        "COACHLOT*",
+        "LORRYLOT*",
+        "MOTOR-CYCLELOT*",
+        "REFUSETRUCKTEMPORARYPARKING*",
+        "2D_PASSINGSPACE*",
+        "PEDESTRIANCROSSING*",
+        "PERMANENTUNITNUMBERTAG*",
+        "PHOTOLUMINESCENTMARKING*",
+        "PIPERACK*",
+        "LANDSCAPE_PLANTINGTROUGH*",
+        "POLLUTIONCONTROLEQUIPMENT*",
+        "2D_PWDHOLDINGPOINT*",
+        "2D_LIFTREFUGESPACE*",
+        "RELIGIOUSSYMBOL*",
+        "RUNG*",
+        "SIGNPOST*",
+        "SIGNPOST_REFUSETEMPORARYPARKING*",
+        "SIGNAGE*",
+        "SIGNAGE_COMMUNICATIONINSTRUCTION*",
+        "SIGNAGE_COOLINGTOWER*",
+        "SIGNAGE_DIRECTIONALEXIT*",
+        "SIGNAGE_ESCAPEPLAN*",
+        "SIGNAGE_EVACUATIONLIFT*",
+        "SIGNAGE_EXIT*",
+        "SIGNAGE_EXITACCESSDOOR*",
+        "SIGNAGE_EXITSTAIRCASE*",
+        "SIGNAGE_FIREACCESSOPENING*",
+        "SIGNAGE_PWDHOLDINGPOINT*",
+        "SIGNAGE_RECYCLABLESCHUTE*",
+        "SIGNAGE_RINSESHOWER*",
+        "SIGNAGE_SMOKEVENT*",
+        "SIGNAGE_THROUGHBLOCKLINK*",
+        "SIGNAGE_WATERTAPPOINT*",
+        "SIGNAGE_WHEELCHAIRSYMBOL*",
+        "SIGNPOST_DRIVEWAY*",
+        "SLOTOUTLET*",
+        "STATIONARYVACUUMSYSTEM*",
+        "2D_TAXIBAY*",
+        "2D_TRAFFICFLOW*",
+        "2D_TREEPROTECTIONZONE*",
+        "TUNNEL*",
+        "TURNSTILE*",
+        "VALVEPROTECTINGCOVER*",
+        "VEHICULARBARRIER*",
+        "WATERPLAYGROUND*",
+        "2D_WHEELCHAIRSPACE*",
+        "EGRESSINDICATORBOX*",
+        "TOWTRACTORLOT*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2869,25 +2845,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -2945,15 +2920,15 @@
       ],
       "Parameter Value (Sample)": "TYPE 1, TYPE 2, TYPE 3 (BeddingType);\n15000 L (PWCS_VolumeOfWastePerDay);\nCLASS 0 (Insulation_FlameSpreadClass)",
       "IFC4 Object Types": [
-        "BYPASSCHANNEL",
-        "RAINWATEROUTLET",
-        "SCUPPERDRAIN"
+        "BYPASSCHANNEL*",
+        "RAINWATEROUTLET*",
+        "SCUPPERDRAIN*"
       ],
       "IFC4 Predefined Types": [
-        "ROOFGUTTER",
-        "SPOOL",
+        "FOUNDATION",
         "NOTDEFINED",
-        "FOUNDATION"
+        "ROOFGUTTER",
+        "SPOOL"
       ]
     }
   },
@@ -2975,6 +2950,7 @@
       "IFC4 Entities": [
         "IfcCondenser"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -3005,6 +2981,7 @@
         "IfcRoof"
       ],
       "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLAT_ROOF",
         "NOTDEFINED"
@@ -3029,9 +3006,8 @@
       "IFC4 Entities": [
         "IfcElement"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -3052,6 +3028,7 @@
       "IFC4 Entities": [
         "IfcChiller"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -3079,9 +3056,8 @@
       ],
       "Parameter Value (Sample)": "30 cars/hr (DischargeCapacityRate);\n30 m/min (RatedSpeed)",
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -3103,6 +3079,7 @@
       "IFC4 Entities": [
         "IfcChimney"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -3125,8 +3102,9 @@
         "IfcBurner"
       ],
       "IFC4 Object Types": [
-        "OPENFLAMECOOKING"
-      ]
+        "OPENFLAMECOOKING*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -3141,25 +3119,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -3200,12 +3177,11 @@
       ],
       "Parameter Value (Sample)": "50 (PercentageOfOpening);\n50% (PercentageOfOpening);\nSLIDING GATE (OperationType)",
       "IFC4 Object Types": [
-        "BAYWINDOW",
-        "VENTILATIONSLEEVE"
+        "VENTILATIONSLEEVE*",
+        "BAYWINDOW*"
       ],
       "IFC4 Predefined Types": [
         "SKYLIGHT",
-        "NOTDEFINED",
         "LOUVRE",
         "WINDOW"
       ]
@@ -3250,19 +3226,19 @@
       ],
       "Parameter Value (Sample)": "10 mm (Diameter);\n600 (Diameter);\n1350 (Width);\n2500 (Depth);\n1350 (Length);\nSHD-50 m, SHD3.423 m (TopLevel);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length)",
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -3284,25 +3260,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -3319,19 +3294,19 @@
         "IfcDistributionChamberElement"
       ],
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -3359,10 +3334,9 @@
       ],
       "Parameter Value (Sample)": "INTERIOR SPAN (BeamSpanType);\nSINGLE SPAN (BeamSpanType);\nCANTILEVER (BeamSpanType);\nEND SPAN (BeamSpanType);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nTELESCOPIC BEAM CONNECTOR (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nLORRY PARKING LOT (MechanicalConnectionType);\nSMALL RESIDENTIAL (MechanicalConnectionType);\nDELTA BEAM (MechanicalConnectionType)",
       "IFC4 Object Types": [
-        "TRELLIS"
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM"
       ]
     }
@@ -3390,10 +3364,9 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "TRELLIS"
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM"
       ]
     }
@@ -3418,12 +3391,13 @@
         "IfcAirTerminal"
       ],
       "Parameter Value (Sample)": "EXHAUST AIR (AirflowType);\nRETURN AIR (AirflowType);\nSUPPLY AIR (AirflowType)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "DIFFUSER",
         "GRILLE",
-        "REGISTER",
+        "LOUVRE",
         "NOTDEFINED",
-        "LOUVRE"
+        "REGISTER"
       ]
     }
   },
@@ -3445,12 +3419,12 @@
         "IfcDamper"
       ],
       "Parameter Value (Sample)": "AUTOMATIC (Operation);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FIREDAMPER",
         "FIRESMOKEDAMPER",
         "FUMEHOODEXHAUST",
-        "SMOKEDAMPER",
-        "NOTDEFINED"
+        "SMOKEDAMPER"
       ]
     }
   },
@@ -3490,25 +3464,25 @@
       ],
       "Parameter Value (Sample)": "8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nLTA/SDRE14/2/DRA6 STANDARD DETAILS OF ROAD ELEMENTS (ExternalReference);\n10N/mm2 (TensileStress)",
       "IFC4 Object Types": [
-        "BENCHING",
-        "CEILINGHANGER",
-        "DRYWEATHERFLOW",
-        "FLUSHBOLT",
-        "GRATING",
-        "HAUNCH",
-        "HINGEDCOVER",
-        "LIFT_APRON",
-        "LIFT_GUIDEROLLER",
-        "LIFT_GUIDESHOE",
-        "LIFT_RESCUEHOOK",
-        "LPS_AIRFINIAL",
-        "LPS_LIGHTNINGTAPE",
-        "PIPESUPPORT",
-        "TAPEREDNUTS"
+        "LPS_AIRFINIAL*",
+        "BENCHING*",
+        "CEILINGHANGER*",
+        "DRYWEATHERFLOW*",
+        "FLUSHBOLT*",
+        "GRATING*",
+        "LIFT_GUIDEROLLER*",
+        "LIFT_GUIDESHOE*",
+        "HAUNCH*",
+        "HINGEDCOVER*",
+        "LIFT_APRON*",
+        "LPS_LIGHTNINGTAPE*",
+        "PIPESUPPORT*",
+        "LIFT_RESCUEHOOK*",
+        "TAPEREDNUTS*"
       ],
       "IFC4 Predefined Types": [
-        "BRACKET",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "BRACKET"
       ]
     }
   },
@@ -3532,40 +3506,39 @@
       ],
       "Parameter Value (Sample)": "500 (ReinforcementStrengthClass)",
       "IFC4 Object Types": [
-        "BENCHING",
-        "CEILINGHANGER",
-        "DRYWEATHERFLOW",
-        "FLUSHBOLT",
-        "GRATING",
-        "HAUNCH",
-        "HINGEDCOVER",
-        "LIFT_APRON",
-        "LIFT_GUIDEROLLER",
-        "LIFT_GUIDESHOE",
-        "LIFT_RESCUEHOOK",
-        "LPS_AIRFINIAL",
-        "LPS_LIGHTNINGTAPE",
-        "PIPESUPPORT",
-        "TAPEREDNUTS",
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "LPS_AIRFINIAL*",
+        "BENCHING*",
+        "CEILINGHANGER*",
+        "DRYWEATHERFLOW*",
+        "FLUSHBOLT*",
+        "GRATING*",
+        "LIFT_GUIDEROLLER*",
+        "LIFT_GUIDESHOE*",
+        "HAUNCH*",
+        "HINGEDCOVER*",
+        "LIFT_APRON*",
+        "LPS_LIGHTNINGTAPE*",
+        "PIPESUPPORT*",
+        "LIFT_RESCUEHOOK*",
+        "TAPEREDNUTS*",
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
-        "BRACKET",
         "NOTDEFINED",
+        "BRACKET",
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -3586,11 +3559,10 @@
         "IfcJunctionBox"
       ],
       "IFC4 Object Types": [
-        "TRAFFICCONTROL"
+        "TRAFFICCONTROL*"
       ],
       "IFC4 Predefined Types": [
-        "POWER",
-        "NOTDEFINED"
+        "POWER"
       ]
     }
   },
@@ -3618,14 +3590,15 @@
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
       "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
         "LANDING",
-        "ROOF",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOF"
       ]
     }
   },
@@ -3646,6 +3619,7 @@
         "IfcMember"
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "STRINGER",
         "NOTDEFINED"
@@ -3670,12 +3644,11 @@
         "IfcColumn"
       ],
       "IFC4 Object Types": [
-        "TRELLIS"
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM",
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -3710,25 +3683,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -3749,6 +3721,7 @@
       "IFC4 Entities": [
         "IfcActuator"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
@@ -3772,32 +3745,31 @@
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
       "IFC4 Object Types": [
-        "BENCH",
-        "BUSSHELTER",
-        "CABINET",
-        "CHILDPROTECTIONSEAT",
-        "CONVEXMIRROR",
-        "CUBICLE",
-        "DIAPERCHANGINGTABLE",
-        "LETTERBOX",
-        "MIRROR",
-        "PLANTERBOX",
-        "RACK",
-        "RECYCLABLECOMPACTOR",
-        "RECYCLABLECONTAINER",
-        "RECYCLINGBIN",
-        "REFUSEBIN",
-        "REFUSECOMPACTOR",
-        "REFUSECONTAINER",
-        "TAXISHELTER",
-        "UMBRELLA"
+        "BENCH*",
+        "BUSSHELTER*",
+        "CABINET*",
+        "CHILDPROTECTIONSEAT*",
+        "CONVEXMIRROR*",
+        "DIAPERCHANGINGTABLE*",
+        "LETTERBOX*",
+        "MIRROR*",
+        "PLANTERBOX*",
+        "RACK*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "RECYCLINGBIN*",
+        "REFUSEBIN*",
+        "REFUSECOMPACTOR*",
+        "REFUSECONTAINER*",
+        "TAXISHELTER*",
+        "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
         "BED",
         "CHAIR",
+        "NOTDEFINED",
         "SHELF",
-        "TABLE",
-        "NOTDEFINED"
+        "TABLE"
       ]
     }
   },
@@ -3821,11 +3793,12 @@
         "IfcPile"
       ],
       "Parameter Value (Sample)": "100 (DA1-1_TensionCapacity);\n100 (DA1-2_TensionCapacity);\n16.5 (MinRockSocketingLength);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nDRIVEN (ConstructionMethod);\nBORED (ConstructionMethod);\nJACKED IN (ConstructionMethod)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
         "DRIVEN",
-        "SUPPORT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "SUPPORT"
       ]
     }
   },
@@ -3849,9 +3822,14 @@
         "IfcRamp"
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "IFC4 Object Types": [
+        "CURVEDRAMP*",
+        "FLAREDKERBRAMP*",
+        "KERBRAMP*"
+      ],
       "IFC4 Predefined Types": [
-        "STRAIGHT_RUN_RAMP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STRAIGHT_RUN_RAMP"
       ]
     }
   },
@@ -3871,10 +3849,13 @@
         "IfcFooting"
       ],
       "Parameter Value (Sample)": "4321 (WorkingLoad)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "PAD_FOOTING",
+        "STRIP_FOOTING",
         "FOOTING_BEAM",
-        "PILE_CAP",
-        "NOTDEFINED"
+        "PILE_CAP"
       ]
     }
   },
@@ -3910,83 +3891,84 @@
       ],
       "Parameter Value (Sample)": "SHD-50 m, SHD3.423 m (TerminationLevel);\n2500 (Depth);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
       "IFC4 Object Types": [
-        "2D_DRIVEWAYMARKING",
-        "2D_FLOORMARKING",
-        "2D_HOLDINGBAY",
-        "2D_LIFTREFUGESPACE",
-        "2D_PASSINGSPACE",
-        "2D_PWDHOLDINGPOINT",
-        "2D_TAXIBAY",
-        "2D_TRAFFICFLOW",
-        "2D_TREEPROTECTIONZONE",
-        "2D_WHEELCHAIRSPACE",
-        "ARTICULATEDVEHICLELOT",
-        "BACKFILL",
-        "BICYCLELOT",
-        "BICYCLEROUTE",
-        "BOREHOLE",
-        "CARLOT",
-        "CHEMICALFEEDER",
-        "COACHLOT",
-        "CONCEPT_BUILDINGMASS",
-        "CONCEPT_ENVELOPELIMIT",
-        "CONCEPT_ENVELOPEREQUIRED",
-        "CONCRETEMARKER",
-        "CONVEYORBELT",
-        "DROPBARRIER",
-        "FAÇADE",
-        "FALSEBOTTOM",
-        "FLAGPOLE",
-        "FLOODBARRIER",
-        "FOODWASTETREATMENTSYSTEM",
-        "FUELBURNINGEQUIPMENT",
-        "GONDOLA",
-        "HUMP",
-        "INCINERATOR",
-        "LANDSCAPE_PLANTINGTROUGH",
-        "LINEMARKING",
-        "LORRYLOT",
-        "MOTOR-CYCLELOT",
-        "PEDESTRIANCROSSING",
-        "PERMANENTUNITNUMBERTAG",
-        "PHOTOLUMINESCENTMARKING",
-        "PIPERACK",
-        "POLLUTIONCONTROLEQUIPMENT",
-        "PORTABLEFIREEXTINGUISHER",
-        "REFUSETRUCKTEMPORARYPARKING",
-        "RELIGIOUSSYMBOL",
-        "RUNG",
-        "SIGNAGE",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION",
-        "SIGNAGE_COOLINGTOWER",
-        "SIGNAGE_DIRECTIONALEXIT",
-        "SIGNAGE_ESCAPEPLAN",
-        "SIGNAGE_EVACUATIONLIFT",
-        "SIGNAGE_EXIT",
-        "SIGNAGE_EXITACCESSDOOR",
-        "SIGNAGE_EXITSTAIRCASE",
-        "SIGNAGE_FIREACCESSOPENING",
-        "SIGNAGE_PWDHOLDINGPOINT",
-        "SIGNAGE_RECYCLABLESCHUTE",
-        "SIGNAGE_RINSESHOWER",
-        "SIGNAGE_SMOKEVENT",
-        "SIGNAGE_THROUGHBLOCKLINK",
-        "SIGNAGE_WATERTAPPOINT",
-        "SIGNAGE_WHEELCHAIRSYMBOL",
-        "SIGNPOST",
-        "SIGNPOST_DRIVEWAY",
-        "SIGNPOST_REFUSETEMPORARYPARKING",
-        "SLOTOUTLET",
-        "STATIONARYVACUUMSYSTEM",
-        "SURROUNDINGBUILDING",
-        "TUNNEL",
-        "TURNSTILE",
-        "VALVEPROTECTINGCOVER",
-        "VEHICULARBARRIER",
-        "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX",
-        "TOWTRACTORLOT"
-      ]
+        "SURROUNDINGBUILDING*",
+        "BACKFILL*",
+        "BICYCLEROUTE*",
+        "BOREHOLE*",
+        "CONCEPT_BUILDINGMASS*",
+        "CHEMICALFEEDER*",
+        "CONCRETEMARKER*",
+        "CONVEYORBELT*",
+        "DROPBARRIER*",
+        "CONCEPT_ENVELOPELIMIT*",
+        "CONCEPT_ENVELOPEREQUIRED*",
+        "FAÇADE*",
+        "FALSEBOTTOM*",
+        "PORTABLEFIREEXTINGUISHER*",
+        "FLAGPOLE*",
+        "FLOODBARRIER*",
+        "2D_FLOORMARKING*",
+        "FUELBURNINGEQUIPMENT*",
+        "GONDOLA*",
+        "2D_HOLDINGBAY*",
+        "HUMP*",
+        "INCINERATOR*",
+        "LINEMARKING*",
+        "2D_DRIVEWAYMARKING*",
+        "FOODWASTETREATMENTSYSTEM*",
+        "ARTICULATEDVEHICLELOT*",
+        "BICYCLELOT*",
+        "CARLOT*",
+        "COACHLOT*",
+        "LORRYLOT*",
+        "MOTOR-CYCLELOT*",
+        "REFUSETRUCKTEMPORARYPARKING*",
+        "2D_PASSINGSPACE*",
+        "PEDESTRIANCROSSING*",
+        "PERMANENTUNITNUMBERTAG*",
+        "PHOTOLUMINESCENTMARKING*",
+        "PIPERACK*",
+        "LANDSCAPE_PLANTINGTROUGH*",
+        "POLLUTIONCONTROLEQUIPMENT*",
+        "2D_PWDHOLDINGPOINT*",
+        "2D_LIFTREFUGESPACE*",
+        "RELIGIOUSSYMBOL*",
+        "RUNG*",
+        "SIGNPOST*",
+        "SIGNPOST_REFUSETEMPORARYPARKING*",
+        "SIGNAGE*",
+        "SIGNAGE_COMMUNICATIONINSTRUCTION*",
+        "SIGNAGE_COOLINGTOWER*",
+        "SIGNAGE_DIRECTIONALEXIT*",
+        "SIGNAGE_ESCAPEPLAN*",
+        "SIGNAGE_EVACUATIONLIFT*",
+        "SIGNAGE_EXIT*",
+        "SIGNAGE_EXITACCESSDOOR*",
+        "SIGNAGE_EXITSTAIRCASE*",
+        "SIGNAGE_FIREACCESSOPENING*",
+        "SIGNAGE_PWDHOLDINGPOINT*",
+        "SIGNAGE_RECYCLABLESCHUTE*",
+        "SIGNAGE_RINSESHOWER*",
+        "SIGNAGE_SMOKEVENT*",
+        "SIGNAGE_THROUGHBLOCKLINK*",
+        "SIGNAGE_WATERTAPPOINT*",
+        "SIGNAGE_WHEELCHAIRSYMBOL*",
+        "SIGNPOST_DRIVEWAY*",
+        "SLOTOUTLET*",
+        "STATIONARYVACUUMSYSTEM*",
+        "2D_TAXIBAY*",
+        "2D_TRAFFICFLOW*",
+        "2D_TREEPROTECTIONZONE*",
+        "TUNNEL*",
+        "TURNSTILE*",
+        "VALVEPROTECTINGCOVER*",
+        "VEHICULARBARRIER*",
+        "WATERPLAYGROUND*",
+        "2D_WHEELCHAIRSPACE*",
+        "EGRESSINDICATORBOX*",
+        "TOWTRACTORLOT*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4007,21 +3989,20 @@
       ],
       "Parameter Value (Sample)": "PEDESTAL (PanMounting);\nSS 30 MANHOLE TOPS AND SURFACE-BOX TOPS (ToiletPanType)",
       "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
+        "FOGGER*",
+        "MISTER*",
+        "SPRINKLER*",
+        "POOLSKIMMER*",
+        "WATERCLOSET*"
       ],
       "IFC4 Predefined Types": [
         "BATH",
         "BIDET",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
+        "WASHHANDBASIN"
       ]
     }
   },
@@ -4040,7 +4021,9 @@
       "IFC4 Entities": [
         "IfcDuctSegment"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "FLEXIBLESEGMENT",
         "NOTDEFINED"
       ]
     }
@@ -4060,23 +4043,23 @@
         "IfcWasteTerminal"
       ],
       "IFC4 Object Types": [
-        "CHUTEINTERFACE",
-        "DROPINLETCHAMBER",
-        "RECYCLABLESTHROWPOINT",
-        "REFUSETHROWPOINT",
-        "RETURNINLET",
-        "SHALLOWFLOORTRAP",
-        "URINALTRAP",
-        "WASTEDIVERTER",
-        "WASTESUMP"
+        "CHUTEINTERFACE*",
+        "DROPINLETCHAMBER*",
+        "RECYCLABLESTHROWPOINT*",
+        "REFUSETHROWPOINT*",
+        "RETURNINLET*",
+        "SHALLOWFLOORTRAP*",
+        "URINALTRAP*",
+        "WASTEDIVERTER*",
+        "WASTESUMP*"
       ],
       "IFC4 Predefined Types": [
         "FLOORTRAP",
         "FLOORWASTE",
         "GULLYSUMP",
         "GULLYTRAP",
-        "WASTETRAP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "WASTETRAP"
       ]
     }
   },
@@ -4095,9 +4078,8 @@
       "IFC4 Entities": [
         "IfcSite"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4112,9 +4094,8 @@
         "IfcTransportElement"
       ],
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -4139,8 +4120,8 @@
       ],
       "Parameter Value (Sample)": "FILTRATION_DIATOMACEOUS_EARTH, FILTRATION_SAND, SOFTENING_ZEOLITE (WaterFilterType)",
       "IFC4 Object Types": [
-        "SCRUBBER",
-        "WASTEAIRSEPARATOR"
+        "SCRUBBER*",
+        "WASTEAIRSEPARATOR*"
       ],
       "IFC4 Predefined Types": [
         "AIRPARTICLEFILTER",
@@ -4178,14 +4159,15 @@
       ],
       "Parameter Value (Sample)": "H25-150+H16-300 (BottomDistribution_nominal);\nH25-150+H16-300 (BottomMain_nominal);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\nH25-150+H16-300 (TopDistribution_nominal);\nH32-150+H20-300 (TopMain_nominal)",
       "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
         "LANDING",
-        "ROOF",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOF"
       ]
     }
   },
@@ -4204,6 +4186,7 @@
       "IFC4 Entities": [
         "IfcRampFlight"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -4261,9 +4244,8 @@
         "IfcBuilding"
       ],
       "Parameter Value (Sample)": "NORTHERN (DrainageBoundary);\nSPA POOL (DrainageBoundary);\n50 W/m2 (ETTV);\nA AND A (ConstructionPhase);\nALTERATION (ConstructionPhase);\nCONSERVATION (ConstructionPhase);\nEXTENSION (ConstructionPhase);\nNEW (ConstructionPhase);\nPARTIAL RECONSTRUCTION (ConstructionPhase);\nRECONSTRUCTION (ConstructionPhase);\nREDEVELOPMENT (ConstructionPhase);\nTEMPORARY (ConstructionPhase);\nEXISTING (ConstructionPhase)",
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4283,8 +4265,9 @@
         "IfcColumn"
       ],
       "Parameter Value (Sample)": "1234 (WorkingLoad_DA1-1);\n1234 (WorkingLoad_DA1-2)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -4304,9 +4287,8 @@
       "IFC4 Entities": [
         "IfcBuilding"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -4334,23 +4316,23 @@
       ],
       "Parameter Value (Sample)": "DRAWING NO. <NO> (ExternalReference);\nLSC ROOM (ExternalReference);\nBS EN 1253-1 GULLIES FOR BUILDINGS. REQUIREMENTS (ExternalReference)",
       "IFC4 Object Types": [
-        "CHUTEINTERFACE",
-        "DROPINLETCHAMBER",
-        "RECYCLABLESTHROWPOINT",
-        "REFUSETHROWPOINT",
-        "RETURNINLET",
-        "SHALLOWFLOORTRAP",
-        "URINALTRAP",
-        "WASTEDIVERTER",
-        "WASTESUMP"
+        "CHUTEINTERFACE*",
+        "DROPINLETCHAMBER*",
+        "RECYCLABLESTHROWPOINT*",
+        "REFUSETHROWPOINT*",
+        "RETURNINLET*",
+        "SHALLOWFLOORTRAP*",
+        "URINALTRAP*",
+        "WASTEDIVERTER*",
+        "WASTESUMP*"
       ],
       "IFC4 Predefined Types": [
         "FLOORTRAP",
         "FLOORWASTE",
         "GULLYSUMP",
         "GULLYTRAP",
-        "WASTETRAP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "WASTETRAP"
       ]
     }
   },
@@ -4380,22 +4362,22 @@
       ],
       "Parameter Value (Sample)": "8000 (Height);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
       "IFC4 Object Types": [
-        "BACKLANE",
-        "BOXCULVERT",
-        "DRIVEWAY",
-        "ENTRANCECULVERT",
-        "FOOTPATH",
-        "GUTTERDRAIN",
-        "ISLAND",
-        "LAYBY",
-        "ROADKERB",
-        "CHANNELDRAIN",
-        "TRENCHDRAIN",
-        "SURFACEDRAIN",
-        "STORMWATERDRAIN",
-        "FLOORDRAIN",
-        "TRENCH",
-        "LAMPPOST"
+        "BACKLANE*",
+        "DRIVEWAY*",
+        "FOOTPATH*",
+        "ISLAND*",
+        "LAYBY*",
+        "ROADKERB*",
+        "BOXCULVERT*",
+        "ENTRANCECULVERT*",
+        "GUTTERDRAIN*",
+        "CHANNELDRAIN*",
+        "TRENCHDRAIN*",
+        "SURFACEDRAIN*",
+        "STORMWATERDRAIN*",
+        "FLOORDRAIN*",
+        "TRENCH*",
+        "LAMPPOST*"
       ],
       "IFC4 Predefined Types": [
         "CULVERT"
@@ -4419,12 +4401,12 @@
         "IfcStairFlight"
       ],
       "IFC4 Object Types": [
-        "WINDER"
+        "WINDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED",
-        "SPIRAL",
-        "STRAIGHT"
+        "STRAIGHT",
+        "SPIRAL"
       ]
     }
   },
@@ -4449,9 +4431,10 @@
         "IfcDuctFitting"
       ],
       "Parameter Value (Sample)": "PREFABRICATED (ConstructionMethod);\nBS 476 PART 5 METHOD OF TEST FOR IGNITABILITY (ExternalReference);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "ENTRY"
+        "ENTRY",
+        "NOTDEFINED"
       ]
     }
   },
@@ -4479,26 +4462,26 @@
       ],
       "Parameter Value (Sample)": "8000 (Height);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n10 mm (Diameter);\n600 (Diameter);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
       "IFC4 Object Types": [
-        "AIRRECEIVER",
-        "BACKWASHWATERHOLDINGTANK",
-        "BALANCINGTANK",
-        "BLOWDOWN",
-        "DETENTIONTANK",
-        "DILUTIONTANK",
-        "EJECTORTANK",
-        "FIREEXTINGUISHINGTANK",
-        "HOLDINGTANK",
-        "RECHARGEWELL",
-        "REFUSEHANDLINGEQUIPMENT",
-        "RETENTIONTANK",
-        "SECTIONAL",
-        "SURGETANK"
+        "AIRRECEIVER*",
+        "BACKWASHWATERHOLDINGTANK*",
+        "BALANCINGTANK*",
+        "BLOWDOWN*",
+        "DETENTIONTANK*",
+        "DILUTIONTANK*",
+        "EJECTORTANK*",
+        "FIREEXTINGUISHINGTANK*",
+        "HOLDINGTANK*",
+        "RECHARGEWELL*",
+        "REFUSEHANDLINGEQUIPMENT*",
+        "RETENTIONTANK*",
+        "SECTIONAL*",
+        "SURGETANK*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
+        "NOTDEFINED",
         "PRESSUREVESSEL",
-        "STORAGE",
-        "NOTDEFINED"
+        "STORAGE"
       ]
     }
   },
@@ -4531,9 +4514,14 @@
       "IFC4 Entities": [
         "IfcRamp"
       ],
+      "IFC4 Object Types": [
+        "CURVEDRAMP*",
+        "FLAREDKERBRAMP*",
+        "KERBRAMP*"
+      ],
       "IFC4 Predefined Types": [
-        "STRAIGHT_RUN_RAMP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STRAIGHT_RUN_RAMP"
       ]
     }
   },
@@ -4553,25 +4541,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -4593,6 +4580,7 @@
       "IFC4 Entities": [
         "IfcInterceptor"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "GREASE",
         "OIL"
@@ -4618,11 +4606,12 @@
         "IfcPile"
       ],
       "Parameter Value (Sample)": "21321 (DA1-1_CompressionDesignLoad);\n4321 (DA1-2_CompressionDesignLoad)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
         "DRIVEN",
-        "SUPPORT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "SUPPORT"
       ]
     }
   },
@@ -4642,6 +4631,7 @@
       "IFC4 Entities": [
         "IfcFan"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -4668,23 +4658,22 @@
       ],
       "Parameter Value (Sample)": "8000 (Height);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
       "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -4738,8 +4727,8 @@
       ],
       "Parameter Value (Sample)": "65 (IPRating);\nMAIN DISTRIBUTION FRAME ROOM (Purpose);\nMARKET (Purpose);\nPRIVATE (Purpose);\nSUB-PANEL (Purpose)",
       "IFC4 Object Types": [
-        "LIFTCALLBUTTON",
-        "SUBALARMPANEL"
+        "LIFTCALLBUTTON*",
+        "SUBALARMPANEL*"
       ],
       "IFC4 Predefined Types": [
         "CONTROLPANEL",
@@ -4769,31 +4758,30 @@
         "rec15pe4w4mlsfQCi",
         "recwmsaGWSd1DoqmZ"
       ],
-      "Properties [Data Type]": "AGF_BonusGFAType [Label];\nAGF_DetailedUse [Label];\nAGF_DevelopmentUse [Label];\nAGF_FacilityType [Label];\nAGF_Name [Label];\nAGF_Note [Label];\nAGF_UnitNumber [Label];\nAGF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "RESIDENTIAL (LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUseAVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUseAVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUseAVF_DevelopmentUse);\nROAD (AGF_DevelopmentUseAVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUseAVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUseAVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUseAVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUseAVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUseAVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUseAVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_FacilityType);\nORNAMENTAL BIRD FARM (AGF_FacilityType);\nORNAMENTAL FISH FARM (AGF_FacilityType);\nPLANT NURSERY (AGF_FacilityType);\nPOULTRY HATCHERY (AGF_FacilityType);\nPOULTRY FARM (AGF_FacilityType);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name)",
+      "Properties [Data Type]": "AGF_BonusGFAType [Label];\nAGF_SupportingFacility [Label];\nAGF_DevelopmentUse [Label];\nAGF_BuildingTypology [Label];\nAGF_Name [Label];\nAGF_Note [Label];\nAGF_UnitNumber [Label];\nAGF_UseQuantum [Label]",
+      "Parameter Value (Actual)": "RESIDENTIAL (LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUseAVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUseAVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUseAVF_DevelopmentUse);\nROAD (AGF_DevelopmentUseAVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUseAVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUseAVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUseAVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUseAVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUseAVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUseAVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_BuildingTypology);\nORNAMENTAL BIRD FARM (AGF_BuildingTypology);\nORNAMENTAL FISH FARM (AGF_BuildingTypology);\nPLANT NURSERY (AGF_BuildingTypology);\nPOULTRY HATCHERY (AGF_BuildingTypology);\nPOULTRY FARM (AGF_BuildingTypology);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name)",
       "IFC4 Entities": [
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -4819,6 +4807,7 @@
         "IfcCurtainWall"
       ],
       "Parameter Value (Sample)": "PRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -4849,11 +4838,12 @@
         "IfcPile"
       ],
       "Parameter Value (Sample)": "SHD-50 m, SHD3.423 m (CutOffLevel_SHD);\n10 mm (Diameter);\n600 (Diameter);\nSHD-50 m, SHD3.423 m (ToeLevel_SHD);\n300 (Breadth);\n40 (Breadth);\n6200 (Breadth);\n8400 (Breadth);\nCHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
         "DRIVEN",
-        "SUPPORT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "SUPPORT"
       ]
     }
   },
@@ -4869,9 +4859,8 @@
         "IfcTransportElement"
       ],
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -4939,26 +4928,26 @@
       ],
       "Parameter Value (Sample)": "CYANIDE, BORIC ACID (ChemicalType);\nDIESEL (FuelType);\nLOUVRE (FuelType);\nHYDRAULIC OIL, LUBRICANT OIL (OilType);\nSOUTHERN (StateofMatter);\nCLEAN AGENT (ExtinguisherType);\nDRY CHEMICAL (ExtinguisherType);\nWET CHEMICAL (ExtinguisherType);\n2:01 (CompactionRatio);\nRORO COMPACTOR (EquipmentType)",
       "IFC4 Object Types": [
-        "AIRRECEIVER",
-        "BACKWASHWATERHOLDINGTANK",
-        "BALANCINGTANK",
-        "BLOWDOWN",
-        "DETENTIONTANK",
-        "DILUTIONTANK",
-        "EJECTORTANK",
-        "FIREEXTINGUISHINGTANK",
-        "HOLDINGTANK",
-        "RECHARGEWELL",
-        "REFUSEHANDLINGEQUIPMENT",
-        "RETENTIONTANK",
-        "SECTIONAL",
-        "SURGETANK"
+        "AIRRECEIVER*",
+        "BACKWASHWATERHOLDINGTANK*",
+        "BALANCINGTANK*",
+        "BLOWDOWN*",
+        "DETENTIONTANK*",
+        "DILUTIONTANK*",
+        "EJECTORTANK*",
+        "FIREEXTINGUISHINGTANK*",
+        "HOLDINGTANK*",
+        "RECHARGEWELL*",
+        "REFUSEHANDLINGEQUIPMENT*",
+        "RETENTIONTANK*",
+        "SECTIONAL*",
+        "SURGETANK*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
+        "NOTDEFINED",
         "PRESSUREVESSEL",
-        "STORAGE",
-        "NOTDEFINED"
+        "STORAGE"
       ]
     }
   },
@@ -4978,14 +4967,14 @@
         "IfcValve"
       ],
       "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*"
       ],
       "IFC4 Predefined Types": [
         "ANTIVACUUM",
@@ -4995,8 +4984,8 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STOPCOCK"
       ]
     }
   },
@@ -5099,25 +5088,24 @@
       ],
       "Parameter Value (Sample)": "TEMPORARY (ConstructionPhase);\nCARPET (FloorFinishType);\n30 tonnes (LoadingCapacity);\n2 kN/m^2 (NegativeRoomPressure);\n22 kV (PowerRating);\nMALE TOILET CLUSTER (PublicToiletGenderID);\n2 kPa (RoomPressure);\n50 (RoomPressure)",
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -5140,6 +5128,7 @@
       "IFC4 Entities": [
         "IfcElectricFlowStorageDevice"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -5161,7 +5150,7 @@
         "IfcFlowMeter"
       ],
       "IFC4 Object Types": [
-        "FUELMETER"
+        "FUELMETER*"
       ],
       "IFC4 Predefined Types": [
         "WATERMETER"
@@ -5185,12 +5174,11 @@
         "IfcWindow"
       ],
       "IFC4 Object Types": [
-        "BAYWINDOW",
-        "VENTILATIONSLEEVE"
+        "VENTILATIONSLEEVE*",
+        "BAYWINDOW*"
       ],
       "IFC4 Predefined Types": [
         "SKYLIGHT",
-        "NOTDEFINED",
         "LOUVRE",
         "WINDOW"
       ]
@@ -5216,25 +5204,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -5276,22 +5263,22 @@
       ],
       "Parameter Value (Sample)": "IMPROVEMENT (ConstructionMethod);\nRECONSTRUCTION (ConstructionMethod)",
       "IFC4 Object Types": [
-        "BACKLANE",
-        "BOXCULVERT",
-        "DRIVEWAY",
-        "ENTRANCECULVERT",
-        "FOOTPATH",
-        "GUTTERDRAIN",
-        "ISLAND",
-        "LAYBY",
-        "ROADKERB",
-        "CHANNELDRAIN",
-        "TRENCHDRAIN",
-        "SURFACEDRAIN",
-        "STORMWATERDRAIN",
-        "FLOORDRAIN",
-        "TRENCH",
-        "LAMPPOST"
+        "BACKLANE*",
+        "DRIVEWAY*",
+        "FOOTPATH*",
+        "ISLAND*",
+        "LAYBY*",
+        "ROADKERB*",
+        "BOXCULVERT*",
+        "ENTRANCECULVERT*",
+        "GUTTERDRAIN*",
+        "CHANNELDRAIN*",
+        "TRENCHDRAIN*",
+        "SURFACEDRAIN*",
+        "STORMWATERDRAIN*",
+        "FLOORDRAIN*",
+        "TRENCH*",
+        "LAMPPOST*"
       ],
       "IFC4 Predefined Types": [
         "CULVERT"
@@ -5348,20 +5335,20 @@
       ],
       "Parameter Value (Sample)": "500 mm (NominalDiameter);\nCLASS 0 (Insulation_FlameSpreadClass);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\nDRAWING NO. <NO> (ExternalReference);\n15000 L (PWCS_VolumeOfWastePerDay)",
       "IFC4 Object Types": [
-        "DRAINCHANNELBEND",
-        "PIPESILENCER",
-        "SHORTPIECE",
-        "SPIGOTANDSOCKET"
+        "DRAINCHANNELBEND*",
+        "PIPESILENCER*",
+        "SHORTPIECE*",
+        "SPIGOTANDSOCKET*"
       ],
       "IFC4 Predefined Types": [
         "BEND",
         "CONNECTOR",
+        "ENTRY",
         "EXIT",
         "JUNCTION",
-        "OBSTRUCTION",
-        "TRANSITION",
         "NOTDEFINED",
-        "ENTRY"
+        "OBSTRUCTION",
+        "TRANSITION"
       ]
     }
   },
@@ -5386,12 +5373,10 @@
         "IfcMotorConnection"
       ],
       "IFC4 Object Types": [
-        "LIFT_GOVERNOR",
-        "LIFT_TRACTIONMACHINE"
+        "LIFT_GOVERNOR*",
+        "LIFT_TRACTIONMACHINE*"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -5417,15 +5402,15 @@
         "recmmKdrqYOkWybeA",
         "recpJRiAgDsQqxCB6",
         "rec99QujyvZqyiFQE",
-        "recH7sWaJ3IyNLv1c"
+        "recH7sWaJ3IyNLv1c",
+        "recY2Y4dW9VvCOGiV"
       ],
-      "Properties [Data Type]": "AlternateDesignatedFloor [Boolean];\nAtticLevel [Boolean];\nDesignatedFloor [Boolean];\nGroundLevel [Boolean];\nHasActivityGeneratingUse [Boolean];\nTypicalFloor [Boolean];\nSCDFBasement [Boolean]",
+      "Properties [Data Type]": "AlternateDesignatedFloor [Boolean];\nAtticLevel [Boolean];\nDesignatedFloor [Boolean];\nGroundLevel [Boolean];\nHasActivityGeneratingUse [Boolean];\nTypicalFloor [Boolean];\nSCDFBasement [Boolean];\nSCDFBasement1 [Boolean]",
       "IFC4 Entities": [
         "IfcBuildingStorey"
       ],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Object Types": [],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -5449,7 +5434,7 @@
       ],
       "Parameter Value (Sample)": "5 (UnitNumber)",
       "IFC4 Object Types": [
-        "FUELMETER"
+        "FUELMETER*"
       ],
       "IFC4 Predefined Types": [
         "WATERMETER"
@@ -5473,7 +5458,7 @@
         "IfcElectricGenerator"
       ],
       "IFC4 Object Types": [
-        "EMERGENCYENGINEGENERATOR"
+        "EMERGENCYENGINEGENERATOR*"
       ],
       "IFC4 Predefined Types": [
         "ENGINEGENERATOR",
@@ -5506,26 +5491,26 @@
       ],
       "Parameter Value (Sample)": "50kg (CapacityWeight)",
       "IFC4 Object Types": [
-        "COFFEEMAKER",
-        "DRINKINGFOUNTAIN",
-        "FUMEHOOD",
-        "HIGHPRESSURECLEANER",
-        "ICEMAKER",
-        "RANGEHOOD",
-        "SCRAPER",
-        "STEAMCLEANER",
-        "TELEVISION",
-        "WATERDISPENSER"
+        "COFFEEMAKER*",
+        "DRINKINGFOUNTAIN*",
+        "FUMEHOOD*",
+        "HIGHPRESSURECLEANER*",
+        "ICEMAKER*",
+        "RANGEHOOD*",
+        "SCRAPER*",
+        "STEAMCLEANER*",
+        "TELEVISION*",
+        "WATERDISPENSER*"
       ],
       "IFC4 Predefined Types": [
         "DISHWASHER",
         "ELECTRICCOOKER",
         "FREESTANDINGELECTRICHEATER",
-        "FREESTANDINGWATERCOOLER",
-        "FREESTANDINGWATERHEATER",
         "FREEZER",
         "REFRIGERATOR",
-        "WASHINGMACHINE"
+        "WASHINGMACHINE",
+        "FREESTANDINGWATERCOOLER",
+        "FREESTANDINGWATERHEATER"
       ]
     }
   },
@@ -5548,24 +5533,12 @@
         "IfcStair"
       ],
       "IFC4 Object Types": [
-        "LADDER"
+        "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
+        "SPIRAL_STAIR"
       ]
     }
   },
@@ -5587,8 +5560,8 @@
       "IFC4 Entities": [
         "IfcOpeningElement"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "OPENING"
       ]
     }
@@ -5604,6 +5577,7 @@
       "IFC4 Entities": [
         "IfcActuator"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
@@ -5672,25 +5646,26 @@
       ],
       "Parameter Value (Sample)": "AXONOPUS COMPRESSUS (Species);\nSMOKE CHECK DOOR (TreeSize)",
       "IFC4 Object Types": [
-        "2D_FORESHORELINE",
-        "ARTWORK",
-        "BEACH",
-        "CADASTRALLOT",
-        "EXISTINGEARTHWORKS",
-        "GREENVERGE",
-        "LANDSCAPE_PALM",
-        "LANDSCAPE_SHRUBS",
-        "LANDSCAPE_TREE",
-        "NEIGHBOURINGLOT",
-        "PLANTINGAREA",
-        "PROPOSEDEARTHWORKS",
-        "RETENTIONBASIN",
-        "TRAFFICLIGHT",
-        "UTILITYPOLE",
-        "WATERBODY",
-        "WATERFEATURE",
-        "SITEBOUNDARY"
-      ]
+        "ARTWORK*",
+        "BEACH*",
+        "UTILITYPOLE*",
+        "EXISTINGEARTHWORKS*",
+        "2D_FORESHORELINE*",
+        "GREENVERGE*",
+        "NEIGHBOURINGLOT*",
+        "LANDSCAPE_PALM*",
+        "PLANTINGAREA*",
+        "PROPOSEDEARTHWORKS*",
+        "RETENTIONBASIN*",
+        "LANDSCAPE_SHRUBS*",
+        "CADASTRALLOT*",
+        "TRAFFICLIGHT*",
+        "LANDSCAPE_TREE*",
+        "WATERBODY*",
+        "WATERFEATURE*",
+        "SITEBOUNDARY*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -5718,8 +5693,9 @@
         "IfcColumn"
       ],
       "Parameter Value (Sample)": "BS 476 PART 20/21 BRITISH STANDARD 476 FIRE TESTS (ExternalReference);\nBS 8202 PART 2 COATINGS FOR FIRE PROTECTION OF BUILDING ELEMENTS (ExternalReference);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -5744,10 +5720,11 @@
       ],
       "Parameter Value (Sample)": "8000 (Height);\n40000 (KerbWidth)",
       "IFC4 Object Types": [
-        "BACKGUARD",
-        "BOLLARD"
+        "BACKGUARD*",
+        "BOLLARD*"
       ],
       "IFC4 Predefined Types": [
+        "GUARDRAIL",
         "NOTDEFINED"
       ]
     }
@@ -5770,7 +5747,7 @@
       ],
       "Parameter Value (Sample)": "MAIN DISTRIBUTION FRAME ROOM (Purpose);\nMARKET (Purpose);\nPRIVATE (Purpose);\nSUB-PANEL (Purpose)",
       "IFC4 Object Types": [
-        "FUELMETER"
+        "FUELMETER*"
       ],
       "IFC4 Predefined Types": [
         "WATERMETER"
@@ -5825,14 +5802,15 @@
       ],
       "Parameter Value (Sample)": "POWER FLOAT CONCRETE (FinishType);\nCEMENT SCREED (FinishType);\nTERRACOTTA (FinishType);\nCLAY TILES (FinishType);\nCEMENT TERRAZZO (FinishType);\nMOSAIC (FinishType);\nONE-WAY (SlabType);\nPRECAST (ConstructionMethod);\nPREFABRICATED (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nDOUBLE T SLAB (TypeDesignatorFunction);\nLEDGE (Function);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nPT BEAM (ConstructionMethod);\n100 kg (Weight)",
       "IFC4 Object Types": [
-        "CATWALK",
-        "INTERMEDIATEPLATFORM"
+        "CATWALK*",
+        "INTERMEDIATEPLATFORM*",
+        "RAFTSLAB*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
         "LANDING",
-        "ROOF",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "ROOF"
       ]
     }
   },
@@ -5856,12 +5834,12 @@
       ],
       "Parameter Value (Sample)": "PREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod)",
       "IFC4 Object Types": [
-        "WINDER"
+        "WINDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED",
-        "SPIRAL",
-        "STRAIGHT"
+        "STRAIGHT",
+        "SPIRAL"
       ]
     }
   },
@@ -5885,6 +5863,7 @@
         "IfcLightFixture"
       ],
       "Parameter Value (Sample)": "IP66 (IndexOfProtection)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SECURITYLIGHTING",
         "NOTDEFINED"
@@ -5944,32 +5923,33 @@
       ],
       "Parameter Value (Sample)": "FULLY AUTOMATED SYSTEM (MechanizedCarParking_Type);\nSTADIUM (MechanizedCarParking_Type);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\nPPVC (ConstructionMethod)",
       "IFC4 Object Types": [
-        "BEAMFACADEWALL",
-        "DIAPHRAGMWALLSYSTEM",
-        "DRAINAGE",
-        "FRAMING",
-        "HOUSEHOLDSHELTER",
-        "MAINTENANCE",
-        "MECHANIZEDCARPARKING",
-        "OXYGENREDUCTION",
-        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM",
-        "PNEUMATICWASTECONVEYANCESYSTEM",
-        "PPVCMODULE",
-        "PREFABRICATEDANDPREFINISHEDCEILING",
-        "PREFABRICATEDANDPREFINISHEDFLOOR",
-        "PREFABRICATEDANDPREFINISHEDWALL",
-        "PREFABRICATEDBATHROOMUNIT",
-        "PREFABRICATEDMEPHORIZONTALMODULE",
-        "PREFABRICATEDMEPPLANTMODULE",
-        "PREFABRICATEDMEPVERTICALMODULE",
-        "PWCSMAINCONTROL",
-        "TRUSS",
-        "UNIT",
-        "REFUSECHUTE",
-        "STAIRCASESTOREYSHELTER",
-        "STOREYSHELTER",
-        "NONSHELTERHOUSEHOLDSHELTER",
-        "NONSHELTERSTOREYSHELTER"
+        "BEAMFACADEWALL*",
+        "FRAMING*",
+        "DIAPHRAGMWALLSYSTEM*",
+        "DRAINAGE*",
+        "MAINTENANCE*",
+        "MECHANIZEDCARPARKING*",
+        "OXYGENREDUCTION*",
+        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
+        "PNEUMATICWASTECONVEYANCESYSTEM*",
+        "PPVCMODULE*",
+        "HOUSEHOLDSHELTER*",
+        "REFUSECHUTE*",
+        "PREFABRICATEDANDPREFINISHEDCEILING*",
+        "PREFABRICATEDANDPREFINISHEDFLOOR*",
+        "PREFABRICATEDANDPREFINISHEDWALL*",
+        "PREFABRICATEDBATHROOMUNIT*",
+        "PREFABRICATEDMEPHORIZONTALMODULE*",
+        "PREFABRICATEDMEPPLANTMODULE*",
+        "PREFABRICATEDMEPVERTICALMODULE*",
+        "PWCSMAINCONTROL*",
+        "TRUSS*",
+        "UNIT*",
+        "STAIRCASESTOREYSHELTER*",
+        "STOREYSHELTER*",
+        "NONSHELTERHOUSEHOLDSHELTER*",
+        "NONSHELTERSTOREYSHELTER*",
+        "RECYCLABLESCHUTE*"
       ],
       "IFC4 Predefined Types": [
         "FOUNDATION"
@@ -5999,16 +5979,16 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "BALCONYSCREEN",
-        "CANOPY",
-        "DROPDOWNPANEL",
-        "EXTERNALFINS",
-        "LOUVREDPANEL",
-        "PARASOL",
-        "PERFORATEDPANEL",
-        "SHIELD",
-        "SCREEN",
-        "TRELLIS"
+        "BALCONYSCREEN*",
+        "CANOPY*",
+        "DROPDOWNPANEL*",
+        "EXTERNALFINS*",
+        "LOUVREDPANEL*",
+        "PARASOL*",
+        "PERFORATEDPANEL*",
+        "SCREEN*",
+        "SHIELD*",
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
         "AWNING",
@@ -6053,21 +6033,20 @@
       ],
       "Parameter Value (Sample)": "ASME A112.19.19 VITREOUS CHINA NONWATER URINALS (ExternalReference);\nWALL HUNG (Mounting);\nSS 563 CODE OF PRACTICE FOR THE DESIGN, INSTALLATION AND MAINTENANCE OF EMERGENCY LIGHTING AND POWER SUPPLY SYSTEMS IN BUILDINGS (ExternalReference)",
       "IFC4 Object Types": [
-        "FOGGER",
-        "MISTER",
-        "POOLSKIMMER",
-        "WATERCLOSET",
-        "BREECHINGINLET",
-        "SPRINKLER"
+        "FOGGER*",
+        "MISTER*",
+        "SPRINKLER*",
+        "POOLSKIMMER*",
+        "WATERCLOSET*"
       ],
       "IFC4 Predefined Types": [
         "BATH",
         "BIDET",
+        "NOTDEFINED",
         "SHOWER",
         "SINK",
         "URINAL",
-        "WASHHANDBASIN",
-        "NOTDEFINED"
+        "WASHHANDBASIN"
       ]
     }
   },
@@ -6088,9 +6067,9 @@
         "IfcSwitchingDevice"
       ],
       "IFC4 Object Types": [
-        "EVACUATIONSWITCH",
-        "FIRELIFTSWITCH",
-        "MANUALSWITCH"
+        "EVACUATIONSWITCH*",
+        "FIRELIFTSWITCH*",
+        "MANUALSWITCH*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -6113,6 +6092,7 @@
         "IfcActuator"
       ],
       "Parameter Value (Sample)": "FIRE SMOKE DAMPER ACTUATOR (Application)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
@@ -6162,9 +6142,8 @@
       ],
       "Parameter Value (Sample)": "700kg (RatedLoad);\n30m (TravelHeight)",
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -6192,11 +6171,11 @@
       ],
       "Parameter Value (Sample)": "COARSE METAL SCREEN (AirParticleFilterType)",
       "IFC4 Object Types": [
-        "MOSQUITONET"
+        "MOSQUITONET*"
       ],
       "IFC4 Predefined Types": [
-        "COWL",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "COWL"
       ]
     }
   },
@@ -6216,25 +6195,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -6261,25 +6239,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -6313,9 +6290,8 @@
       ],
       "Parameter Value (Sample)": "50kg (CapacityWeight)",
       "IFC4 Object Types": [
-        "BINLIFTER",
-        "GOODSLIFT",
-        "LIFT"
+        "BINLIFTER*",
+        "LIFT*"
       ],
       "IFC4 Predefined Types": [
         "ESCALATOR",
@@ -6339,9 +6315,14 @@
       "IFC4 Entities": [
         "IfcRamp"
       ],
+      "IFC4 Object Types": [
+        "CURVEDRAMP*",
+        "FLAREDKERBRAMP*",
+        "KERBRAMP*"
+      ],
       "IFC4 Predefined Types": [
-        "STRAIGHT_RUN_RAMP",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STRAIGHT_RUN_RAMP"
       ]
     }
   },
@@ -6361,7 +6342,7 @@
         "IfcFlowMeter"
       ],
       "IFC4 Object Types": [
-        "FUELMETER"
+        "FUELMETER*"
       ],
       "IFC4 Predefined Types": [
         "WATERMETER"
@@ -6386,10 +6367,11 @@
       ],
       "Parameter Value (Sample)": "1.5 (LateralLoad)",
       "IFC4 Object Types": [
-        "BACKGUARD",
-        "BOLLARD"
+        "BACKGUARD*",
+        "BOLLARD*"
       ],
       "IFC4 Predefined Types": [
+        "GUARDRAIL",
         "NOTDEFINED"
       ]
     }
@@ -6411,25 +6393,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -6450,25 +6431,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -6491,20 +6471,20 @@
       ],
       "Parameter Value (Sample)": "10 mm (Diameter);\n600 (Diameter)",
       "IFC4 Object Types": [
-        "DRAINCHANNELBEND",
-        "PIPESILENCER",
-        "SHORTPIECE",
-        "SPIGOTANDSOCKET"
+        "DRAINCHANNELBEND*",
+        "PIPESILENCER*",
+        "SHORTPIECE*",
+        "SPIGOTANDSOCKET*"
       ],
       "IFC4 Predefined Types": [
         "BEND",
         "CONNECTOR",
+        "ENTRY",
         "EXIT",
         "JUNCTION",
-        "OBSTRUCTION",
-        "TRANSITION",
         "NOTDEFINED",
-        "ENTRY"
+        "OBSTRUCTION",
+        "TRANSITION"
       ]
     }
   },
@@ -6519,6 +6499,7 @@
       "IFC4 Entities": [
         "IfcMember"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "STRINGER",
         "NOTDEFINED"
@@ -6615,23 +6596,23 @@
       ],
       "Parameter Value (Sample)": "ROLLINGUP (OperationType);\nSINGLE_SWING_LEFT (OperationType);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nDOUBLE_SWING (OperationType);\nFOLDING_TO_LEFT (OperationType);\nREVOLVING (OperationType);\nSLIDING GATE (OperationType);\nSLIDING_TO_RIGHT (OperationType);\nSLIM FLOOR SYSTEM (OperationType)",
       "IFC4 Object Types": [
-        "ACCESSHATCH",
-        "BLASTDOOR",
-        "FIRECURTAIN",
-        "FIRESHUTTER",
-        "FLAPDOOR",
-        "RECYCLABLESCHUTEACCESSPANEL",
-        "RECYCLABLESCHUTEHOPPER",
-        "REFUSECHUTEACCESSPANEL",
-        "REFUSECHUTEHOPPER",
-        "ROLLERSHUTTER",
-        "SMOKECURTAIN"
+        "ACCESSHATCH*",
+        "RECYCLABLESCHUTEACCESSPANEL*",
+        "RECYCLABLESCHUTEHOPPER*",
+        "REFUSECHUTEACCESSPANEL*",
+        "REFUSECHUTEHOPPER*",
+        "BLASTDOOR*",
+        "FIRESHUTTER*",
+        "FLAPDOOR*",
+        "ROLLERSHUTTER*",
+        "FIRECURTAIN*",
+        "SMOKECURTAIN*"
       ],
       "IFC4 Predefined Types": [
-        "GATE",
         "TRAPDOOR",
-        "NOTDEFINED",
-        "DOOR"
+        "GATE",
+        "DOOR",
+        "NOTDEFINED"
       ]
     }
   },
@@ -6664,10 +6645,13 @@
         "IfcFooting"
       ],
       "Parameter Value (Sample)": "T20-150 (BottomDistribution);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\nT32-150 (BottomMain);\nT16-150 (TopDistribution);\n1H13-250 (SideBar);\nT25-150 (TopMain)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
+        "NOTDEFINED",
+        "PAD_FOOTING",
+        "STRIP_FOOTING",
         "FOOTING_BEAM",
-        "PILE_CAP",
-        "NOTDEFINED"
+        "PILE_CAP"
       ]
     }
   },
@@ -6692,12 +6676,11 @@
       ],
       "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance)",
       "IFC4 Object Types": [
-        "BAYWINDOW",
-        "VENTILATIONSLEEVE"
+        "VENTILATIONSLEEVE*",
+        "BAYWINDOW*"
       ],
       "IFC4 Predefined Types": [
         "SKYLIGHT",
-        "NOTDEFINED",
         "LOUVRE",
         "WINDOW"
       ]
@@ -6721,6 +6704,7 @@
         "IfcCurtainWall"
       ],
       "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -6750,14 +6734,14 @@
       ],
       "Parameter Value (Sample)": "BALL (ValveMechanism);\nDROPWEIGHT (ValveOperation);\nFLOAT (ValveOperation);\nLEVER (ValveOperation);\nSOLID, LIQUID, GAS (ValveOperation);\nTHERMOSTATIC (ValveOperation);\nWHEEL (ValveOperation)",
       "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*"
       ],
       "IFC4 Predefined Types": [
         "ANTIVACUUM",
@@ -6767,8 +6751,8 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STOPCOCK"
       ]
     }
   },
@@ -6815,19 +6799,19 @@
       ],
       "Parameter Value (Sample)": "GRADE A2 (Grade);\nPUB/WRN/STD/009 (VortexDropType);\nQP DESIGN (VortexDropType);\nPUB/WRN/STD/017A STANDARD INSPECTION CHAMBER FRAME AND COVER (ExternalReference);\nSS574 SPECIFICATION FOR DUAL FLUSH LOW CAPACITY WATER CLOSET (WC) UP TO 4.5/3.0 LITRES CAPACITY (ExternalReference);\nBS EN 13598-1 PLASTICS PIPING SYSTEMS FOR NON-PRESSURE UNDERGROUND DRAINAGE AND SEWERAGE. (ExternalReference);\nPUB/WRN/STD/015A PUB/WRN/STD/016A STANDARD MEDIUM DUTY MANHOLE FRAME AND COVER (ExternalReference)",
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -6853,26 +6837,26 @@
       ],
       "Parameter Value (Sample)": "1000 L (NominalCapacity);\n40 m3 (NominalCapacity);\nCHEMICAL (StorageType);\nFERTILIZER (StorageType);\nFUEL (StorageType);\nGAS (StorageType);\nOIL (StorageType);\nPESTICIDE (StorageType);\nWASTE (StorageType)",
       "IFC4 Object Types": [
-        "AIRRECEIVER",
-        "BACKWASHWATERHOLDINGTANK",
-        "BALANCINGTANK",
-        "BLOWDOWN",
-        "DETENTIONTANK",
-        "DILUTIONTANK",
-        "EJECTORTANK",
-        "FIREEXTINGUISHINGTANK",
-        "HOLDINGTANK",
-        "RECHARGEWELL",
-        "REFUSEHANDLINGEQUIPMENT",
-        "RETENTIONTANK",
-        "SECTIONAL",
-        "SURGETANK"
+        "AIRRECEIVER*",
+        "BACKWASHWATERHOLDINGTANK*",
+        "BALANCINGTANK*",
+        "BLOWDOWN*",
+        "DETENTIONTANK*",
+        "DILUTIONTANK*",
+        "EJECTORTANK*",
+        "FIREEXTINGUISHINGTANK*",
+        "HOLDINGTANK*",
+        "RECHARGEWELL*",
+        "REFUSEHANDLINGEQUIPMENT*",
+        "RETENTIONTANK*",
+        "SECTIONAL*",
+        "SURGETANK*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
+        "NOTDEFINED",
         "PRESSUREVESSEL",
-        "STORAGE",
-        "NOTDEFINED"
+        "STORAGE"
       ]
     }
   },
@@ -6909,23 +6893,23 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "ACCESSHATCH",
-        "BLASTDOOR",
-        "FIRECURTAIN",
-        "FIRESHUTTER",
-        "FLAPDOOR",
-        "RECYCLABLESCHUTEACCESSPANEL",
-        "RECYCLABLESCHUTEHOPPER",
-        "REFUSECHUTEACCESSPANEL",
-        "REFUSECHUTEHOPPER",
-        "ROLLERSHUTTER",
-        "SMOKECURTAIN"
+        "ACCESSHATCH*",
+        "RECYCLABLESCHUTEACCESSPANEL*",
+        "RECYCLABLESCHUTEHOPPER*",
+        "REFUSECHUTEACCESSPANEL*",
+        "REFUSECHUTEHOPPER*",
+        "BLASTDOOR*",
+        "FIRESHUTTER*",
+        "FLAPDOOR*",
+        "ROLLERSHUTTER*",
+        "FIRECURTAIN*",
+        "SMOKECURTAIN*"
       ],
       "IFC4 Predefined Types": [
-        "GATE",
         "TRAPDOOR",
-        "NOTDEFINED",
-        "DOOR"
+        "GATE",
+        "DOOR",
+        "NOTDEFINED"
       ]
     }
   },
@@ -6945,6 +6929,7 @@
       "IFC4 Entities": [
         "IfcFlowInstrument"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "PRESSUREGAUGE"
       ]
@@ -6968,12 +6953,11 @@
         "IfcAlarm"
       ],
       "IFC4 Object Types": [
-        "SOUNDER",
-        "MANUALALARMCALLPOINT",
-        "HOMEFIREALARMDEVICE",
-        "VISUALALARM",
-        "STROBELIGHT",
-        "FIREALARMPANEL"
+        "HOMEFIREALARMDEVICE*",
+        "SOUNDER*",
+        "MANUALALARMCALLPOINT*",
+        "VISUALALARM*",
+        "FIREALARMPANEL*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -6996,9 +6980,10 @@
         "IfcSolarDevice"
       ],
       "Parameter Value (Sample)": "8000 (Height)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "SOLARCOLLECTOR",
-        "SOLARPANEL"
+        "SOLARPANEL",
+        "SOLARCOLLECTOR"
       ]
     }
   },
@@ -7018,19 +7003,19 @@
         "IfcDistributionChamberElement"
       ],
       "IFC4 Object Types": [
-        "LPS_EARTHPIT",
-        "PWCSINSPECTIONCHAMBER",
-        "PWCSMANHOLE",
-        "SAMPLINGSUMP",
-        "SCREENCHAMBER"
+        "LPS_EARTHPIT*",
+        "PWCSINSPECTIONCHAMBER*",
+        "PWCSMANHOLE*",
+        "SAMPLINGSUMP*",
+        "SCREENCHAMBER*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
+        "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER",
-        "NOTDEFINED"
+        "VALVECHAMBER"
       ]
     }
   },
@@ -7055,24 +7040,23 @@
       ],
       "Parameter Value (Sample)": "DOUBLE BAY FACADE WALL (ArrangementType);\nMULTI-TIER WALL (ArrangementType);\nMULTI-TIER COLUMN (ArrangementType)",
       "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
+        "COLUMN",
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -7096,11 +7080,12 @@
         "IfcPile"
       ],
       "Parameter Value (Sample)": "10H32+10H16 (MainRebar);\n4H32 (MainRebar);\nSQUAT (PileType);\nPRECAST (PileType);\nCAST-IN-SITU (PileType);\n1000 (ReinforcementLength);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
         "DRIVEN",
-        "SUPPORT",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "SUPPORT"
       ]
     }
   },
@@ -7128,6 +7113,7 @@
         "IfcFan"
       ],
       "Parameter Value (Sample)": "4 (AirChangePerHour);\n12 (AirChangePerHour);\n20 (AirChangePerHour);\n10 (AirChangePerHour)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
       ]
@@ -7149,9 +7135,10 @@
       "IFC4 Entities": [
         "IfcOutlet"
       ],
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "POWEROUTLET",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "POWEROUTLET"
       ]
     }
   },
@@ -7189,25 +7176,24 @@
       ],
       "Parameter Value (Sample)": "5 (UnitNumber)",
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -7232,24 +7218,12 @@
       ],
       "Parameter Value (Sample)": "CHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
       "IFC4 Object Types": [
-        "LADDER"
+        "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
+        "SPIRAL_STAIR"
       ]
     }
   },
@@ -7275,10 +7249,9 @@
       ],
       "Parameter Value (Sample)": "2500 (Depth);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nCHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\nBS 476 PART 20/21 BRITISH STANDARD 476 FIRE TESTS (ExternalReference);\nBS 8202 PART 2 COATINGS FOR FIRE PROTECTION OF BUILDING ELEMENTS (ExternalReference)",
       "IFC4 Object Types": [
-        "TRELLIS"
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "BEAM"
       ]
     }
@@ -7303,8 +7276,9 @@
         "IfcColumn"
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -7324,7 +7298,7 @@
         "IfcAudioVisualAppliance"
       ],
       "IFC4 Object Types": [
-        "LOUDSPEAKER"
+        "LOUDSPEAKER*"
       ],
       "IFC4 Predefined Types": [
         "AMPLIFIER",
@@ -7357,15 +7331,15 @@
       ],
       "Parameter Value (Sample)": "240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
       "IFC4 Object Types": [
-        "BYPASSCHANNEL",
-        "RAINWATEROUTLET",
-        "SCUPPERDRAIN"
+        "BYPASSCHANNEL*",
+        "RAINWATEROUTLET*",
+        "SCUPPERDRAIN*"
       ],
       "IFC4 Predefined Types": [
-        "ROOFGUTTER",
-        "SPOOL",
+        "FOUNDATION",
         "NOTDEFINED",
-        "FOUNDATION"
+        "ROOFGUTTER",
+        "SPOOL"
       ]
     }
   },
@@ -7392,8 +7366,8 @@
         "IfcFilter"
       ],
       "IFC4 Object Types": [
-        "SCRUBBER",
-        "WASTEAIRSEPARATOR"
+        "SCRUBBER*",
+        "WASTEAIRSEPARATOR*"
       ],
       "IFC4 Predefined Types": [
         "AIRPARTICLEFILTER",
@@ -7450,23 +7424,22 @@
       ],
       "Parameter Value (Sample)": "1.17 (CorrectionFactor);\nRECYCLABLESCHUTE1 (RecyclablesChuteID);\nREFUSECHUTE1 (RefuseChuteID);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFAIR-FACED BRICKWALLS (FinishType);\nLIME PLASTER (FinishType);\nTIMBER (FinishType);\nSHANGHAI PLASTER (FinishType);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark)",
       "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -7496,6 +7469,7 @@
         "IfcRoof"
       ],
       "Parameter Value (Sample)": "ASTM E108 STANDARD TEST METHODS FOR FIRE TESTS (ExternalReference);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\n100 kg (Weight)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLAT_ROOF",
         "NOTDEFINED"
@@ -7514,83 +7488,84 @@
         "IfcBuildingElementProxy"
       ],
       "IFC4 Object Types": [
-        "2D_DRIVEWAYMARKING",
-        "2D_FLOORMARKING",
-        "2D_HOLDINGBAY",
-        "2D_LIFTREFUGESPACE",
-        "2D_PASSINGSPACE",
-        "2D_PWDHOLDINGPOINT",
-        "2D_TAXIBAY",
-        "2D_TRAFFICFLOW",
-        "2D_TREEPROTECTIONZONE",
-        "2D_WHEELCHAIRSPACE",
-        "ARTICULATEDVEHICLELOT",
-        "BACKFILL",
-        "BICYCLELOT",
-        "BICYCLEROUTE",
-        "BOREHOLE",
-        "CARLOT",
-        "CHEMICALFEEDER",
-        "COACHLOT",
-        "CONCEPT_BUILDINGMASS",
-        "CONCEPT_ENVELOPELIMIT",
-        "CONCEPT_ENVELOPEREQUIRED",
-        "CONCRETEMARKER",
-        "CONVEYORBELT",
-        "DROPBARRIER",
-        "FAÇADE",
-        "FALSEBOTTOM",
-        "FLAGPOLE",
-        "FLOODBARRIER",
-        "FOODWASTETREATMENTSYSTEM",
-        "FUELBURNINGEQUIPMENT",
-        "GONDOLA",
-        "HUMP",
-        "INCINERATOR",
-        "LANDSCAPE_PLANTINGTROUGH",
-        "LINEMARKING",
-        "LORRYLOT",
-        "MOTOR-CYCLELOT",
-        "PEDESTRIANCROSSING",
-        "PERMANENTUNITNUMBERTAG",
-        "PHOTOLUMINESCENTMARKING",
-        "PIPERACK",
-        "POLLUTIONCONTROLEQUIPMENT",
-        "PORTABLEFIREEXTINGUISHER",
-        "REFUSETRUCKTEMPORARYPARKING",
-        "RELIGIOUSSYMBOL",
-        "RUNG",
-        "SIGNAGE",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION",
-        "SIGNAGE_COOLINGTOWER",
-        "SIGNAGE_DIRECTIONALEXIT",
-        "SIGNAGE_ESCAPEPLAN",
-        "SIGNAGE_EVACUATIONLIFT",
-        "SIGNAGE_EXIT",
-        "SIGNAGE_EXITACCESSDOOR",
-        "SIGNAGE_EXITSTAIRCASE",
-        "SIGNAGE_FIREACCESSOPENING",
-        "SIGNAGE_PWDHOLDINGPOINT",
-        "SIGNAGE_RECYCLABLESCHUTE",
-        "SIGNAGE_RINSESHOWER",
-        "SIGNAGE_SMOKEVENT",
-        "SIGNAGE_THROUGHBLOCKLINK",
-        "SIGNAGE_WATERTAPPOINT",
-        "SIGNAGE_WHEELCHAIRSYMBOL",
-        "SIGNPOST",
-        "SIGNPOST_DRIVEWAY",
-        "SIGNPOST_REFUSETEMPORARYPARKING",
-        "SLOTOUTLET",
-        "STATIONARYVACUUMSYSTEM",
-        "SURROUNDINGBUILDING",
-        "TUNNEL",
-        "TURNSTILE",
-        "VALVEPROTECTINGCOVER",
-        "VEHICULARBARRIER",
-        "WATERPLAYGROUND",
-        "EGRESSINDICATORBOX",
-        "TOWTRACTORLOT"
-      ]
+        "SURROUNDINGBUILDING*",
+        "BACKFILL*",
+        "BICYCLEROUTE*",
+        "BOREHOLE*",
+        "CONCEPT_BUILDINGMASS*",
+        "CHEMICALFEEDER*",
+        "CONCRETEMARKER*",
+        "CONVEYORBELT*",
+        "DROPBARRIER*",
+        "CONCEPT_ENVELOPELIMIT*",
+        "CONCEPT_ENVELOPEREQUIRED*",
+        "FAÇADE*",
+        "FALSEBOTTOM*",
+        "PORTABLEFIREEXTINGUISHER*",
+        "FLAGPOLE*",
+        "FLOODBARRIER*",
+        "2D_FLOORMARKING*",
+        "FUELBURNINGEQUIPMENT*",
+        "GONDOLA*",
+        "2D_HOLDINGBAY*",
+        "HUMP*",
+        "INCINERATOR*",
+        "LINEMARKING*",
+        "2D_DRIVEWAYMARKING*",
+        "FOODWASTETREATMENTSYSTEM*",
+        "ARTICULATEDVEHICLELOT*",
+        "BICYCLELOT*",
+        "CARLOT*",
+        "COACHLOT*",
+        "LORRYLOT*",
+        "MOTOR-CYCLELOT*",
+        "REFUSETRUCKTEMPORARYPARKING*",
+        "2D_PASSINGSPACE*",
+        "PEDESTRIANCROSSING*",
+        "PERMANENTUNITNUMBERTAG*",
+        "PHOTOLUMINESCENTMARKING*",
+        "PIPERACK*",
+        "LANDSCAPE_PLANTINGTROUGH*",
+        "POLLUTIONCONTROLEQUIPMENT*",
+        "2D_PWDHOLDINGPOINT*",
+        "2D_LIFTREFUGESPACE*",
+        "RELIGIOUSSYMBOL*",
+        "RUNG*",
+        "SIGNPOST*",
+        "SIGNPOST_REFUSETEMPORARYPARKING*",
+        "SIGNAGE*",
+        "SIGNAGE_COMMUNICATIONINSTRUCTION*",
+        "SIGNAGE_COOLINGTOWER*",
+        "SIGNAGE_DIRECTIONALEXIT*",
+        "SIGNAGE_ESCAPEPLAN*",
+        "SIGNAGE_EVACUATIONLIFT*",
+        "SIGNAGE_EXIT*",
+        "SIGNAGE_EXITACCESSDOOR*",
+        "SIGNAGE_EXITSTAIRCASE*",
+        "SIGNAGE_FIREACCESSOPENING*",
+        "SIGNAGE_PWDHOLDINGPOINT*",
+        "SIGNAGE_RECYCLABLESCHUTE*",
+        "SIGNAGE_RINSESHOWER*",
+        "SIGNAGE_SMOKEVENT*",
+        "SIGNAGE_THROUGHBLOCKLINK*",
+        "SIGNAGE_WATERTAPPOINT*",
+        "SIGNAGE_WHEELCHAIRSYMBOL*",
+        "SIGNPOST_DRIVEWAY*",
+        "SLOTOUTLET*",
+        "STATIONARYVACUUMSYSTEM*",
+        "2D_TAXIBAY*",
+        "2D_TRAFFICFLOW*",
+        "2D_TREEPROTECTIONZONE*",
+        "TUNNEL*",
+        "TURNSTILE*",
+        "VALVEPROTECTINGCOVER*",
+        "VEHICULARBARRIER*",
+        "WATERPLAYGROUND*",
+        "2D_WHEELCHAIRSPACE*",
+        "EGRESSINDICATORBOX*",
+        "TOWTRACTORLOT*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -7666,32 +7641,31 @@
       ],
       "Parameter Value (Sample)": "6 mm (BasePlate_Thickness);\nOUTWARD FACING (HookUpPoint);\nMEZZANINE (Material_BasePlate);\nINWARD FACING (TailGateOrientation);\n2:01 (CompactionRatio);\nDIN 30722 ROLLER CONTACT TIPPER VEHICLES, ROLLER CONTAINERS (ExternalReference);\nSS30 MANHOLE TOPS AND SURFACE-BOX TOPS (ExternalReference)",
       "IFC4 Object Types": [
-        "BENCH",
-        "BUSSHELTER",
-        "CABINET",
-        "CHILDPROTECTIONSEAT",
-        "CONVEXMIRROR",
-        "CUBICLE",
-        "DIAPERCHANGINGTABLE",
-        "LETTERBOX",
-        "MIRROR",
-        "PLANTERBOX",
-        "RACK",
-        "RECYCLABLECOMPACTOR",
-        "RECYCLABLECONTAINER",
-        "RECYCLINGBIN",
-        "REFUSEBIN",
-        "REFUSECOMPACTOR",
-        "REFUSECONTAINER",
-        "TAXISHELTER",
-        "UMBRELLA"
+        "BENCH*",
+        "BUSSHELTER*",
+        "CABINET*",
+        "CHILDPROTECTIONSEAT*",
+        "CONVEXMIRROR*",
+        "DIAPERCHANGINGTABLE*",
+        "LETTERBOX*",
+        "MIRROR*",
+        "PLANTERBOX*",
+        "RACK*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "RECYCLINGBIN*",
+        "REFUSEBIN*",
+        "REFUSECOMPACTOR*",
+        "REFUSECONTAINER*",
+        "TAXISHELTER*",
+        "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
         "BED",
         "CHAIR",
+        "NOTDEFINED",
         "SHELF",
-        "TABLE",
-        "NOTDEFINED"
+        "TABLE"
       ]
     }
   },
@@ -7711,16 +7685,16 @@
         "IfcShadingDevice"
       ],
       "IFC4 Object Types": [
-        "BALCONYSCREEN",
-        "CANOPY",
-        "DROPDOWNPANEL",
-        "EXTERNALFINS",
-        "LOUVREDPANEL",
-        "PARASOL",
-        "PERFORATEDPANEL",
-        "SHIELD",
-        "SCREEN",
-        "TRELLIS"
+        "BALCONYSCREEN*",
+        "CANOPY*",
+        "DROPDOWNPANEL*",
+        "EXTERNALFINS*",
+        "LOUVREDPANEL*",
+        "PARASOL*",
+        "PERFORATEDPANEL*",
+        "SCREEN*",
+        "SHIELD*",
+        "TRELLIS*"
       ],
       "IFC4 Predefined Types": [
         "AWNING",
@@ -7751,7 +7725,7 @@
         "IfcCableSegment"
       ],
       "IFC4 Object Types": [
-        "LPS_DOWNCONDUCTOR"
+        "LPS_DOWNCONDUCTOR*"
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -7775,25 +7749,24 @@
         "IfcSpace"
       ],
       "IFC4 Object Types": [
-        "ACCESSPOINT",
-        "ACCESSROAD",
-        "ACCESSWAY",
-        "AREA_CONNECTIVITY",
-        "AREA_GFA",
-        "AREA_LANDSCAPE",
-        "AREA_STRATA",
-        "AREA_VERIFICATION",
-        "EGRESS",
-        "FIREENGINEACCESSROAD",
-        "FIREENGINEACCESSWAY",
-        "INGRESS",
-        "SGFA",
-        "STRATALOT",
-        "VEHICULARSERVICEROAD",
-        "ACCESSIBLEROUTE"
+        "ACCESSIBLEROUTE*",
+        "ACCESSPOINT*",
+        "ACCESSROAD*",
+        "ACCESSWAY*",
+        "AREA_CONNECTIVITY*",
+        "AREA_GFA*",
+        "AREA_STRATA*",
+        "AREA_VERIFICATION*",
+        "EGRESS*",
+        "FIREENGINEACCESSROAD*",
+        "FIREENGINEACCESSWAY*",
+        "INGRESS*",
+        "SGFA*",
+        "STRATALOT*",
+        "VEHICULARSERVICEROAD*",
+        "AREA_LANDSCAPE*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
         "SPACE"
       ]
     }
@@ -7820,8 +7793,9 @@
         "IfcColumn"
       ],
       "Parameter Value (Sample)": "PREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\n10H32+10H16 (MainRebar);\n4H32 (MainRebar);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
+      "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
-        "NOTDEFINED"
+        "COLUMN"
       ]
     }
   },
@@ -7837,17 +7811,17 @@
         "IfcPump"
       ],
       "IFC4 Object Types": [
-        "AERATOR",
-        "JET",
-        "JOCKEYPUMP",
-        "VACUUMEXHAUSTER",
-        "EJECTORPUMP"
+        "AERATOR*",
+        "JET*",
+        "JOCKEYPUMP*",
+        "VACUUMEXHAUSTER*",
+        "EJECTORPUMP*"
       ],
       "IFC4 Predefined Types": [
         "ENDSUCTION",
+        "NOTDEFINED",
         "SPLITCASE",
-        "SUMPPUMP",
-        "NOTDEFINED"
+        "SUMPPUMP"
       ]
     }
   },
@@ -7869,32 +7843,33 @@
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
       "IFC4 Object Types": [
-        "BEAMFACADEWALL",
-        "DIAPHRAGMWALLSYSTEM",
-        "DRAINAGE",
-        "FRAMING",
-        "HOUSEHOLDSHELTER",
-        "MAINTENANCE",
-        "MECHANIZEDCARPARKING",
-        "OXYGENREDUCTION",
-        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM",
-        "PNEUMATICWASTECONVEYANCESYSTEM",
-        "PPVCMODULE",
-        "PREFABRICATEDANDPREFINISHEDCEILING",
-        "PREFABRICATEDANDPREFINISHEDFLOOR",
-        "PREFABRICATEDANDPREFINISHEDWALL",
-        "PREFABRICATEDBATHROOMUNIT",
-        "PREFABRICATEDMEPHORIZONTALMODULE",
-        "PREFABRICATEDMEPPLANTMODULE",
-        "PREFABRICATEDMEPVERTICALMODULE",
-        "PWCSMAINCONTROL",
-        "TRUSS",
-        "UNIT",
-        "REFUSECHUTE",
-        "STAIRCASESTOREYSHELTER",
-        "STOREYSHELTER",
-        "NONSHELTERHOUSEHOLDSHELTER",
-        "NONSHELTERSTOREYSHELTER"
+        "BEAMFACADEWALL*",
+        "FRAMING*",
+        "DIAPHRAGMWALLSYSTEM*",
+        "DRAINAGE*",
+        "MAINTENANCE*",
+        "MECHANIZEDCARPARKING*",
+        "OXYGENREDUCTION*",
+        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
+        "PNEUMATICWASTECONVEYANCESYSTEM*",
+        "PPVCMODULE*",
+        "HOUSEHOLDSHELTER*",
+        "REFUSECHUTE*",
+        "PREFABRICATEDANDPREFINISHEDCEILING*",
+        "PREFABRICATEDANDPREFINISHEDFLOOR*",
+        "PREFABRICATEDANDPREFINISHEDWALL*",
+        "PREFABRICATEDBATHROOMUNIT*",
+        "PREFABRICATEDMEPHORIZONTALMODULE*",
+        "PREFABRICATEDMEPPLANTMODULE*",
+        "PREFABRICATEDMEPVERTICALMODULE*",
+        "PWCSMAINCONTROL*",
+        "TRUSS*",
+        "UNIT*",
+        "STAIRCASESTOREYSHELTER*",
+        "STOREYSHELTER*",
+        "NONSHELTERHOUSEHOLDSHELTER*",
+        "NONSHELTERSTOREYSHELTER*",
+        "RECYCLABLESCHUTE*"
       ],
       "IFC4 Predefined Types": [
         "FOUNDATION"
@@ -7919,14 +7894,14 @@
       ],
       "Parameter Value (Sample)": "TIMED SELF CLOSING (FaucetOperation);\nSPRAY PAINTING ROOM (FaucetType)",
       "IFC4 Object Types": [
-        "AIRADMITTANCE",
-        "AIRINTAKEVALVE",
-        "DISCHARGE",
-        "DRAINOFFCOCK",
-        "DRAINPLUG",
-        "LANDINGVALVE",
-        "OVERPRESSUREPROTECTIONDEVICE",
-        "SPRINKLERCONTROL"
+        "AIRADMITTANCE*",
+        "AIRINTAKEVALVE*",
+        "DISCHARGE*",
+        "DRAINOFFCOCK*",
+        "DRAINPLUG*",
+        "LANDINGVALVE*",
+        "OVERPRESSUREPROTECTIONDEVICE*",
+        "SPRINKLERCONTROL*"
       ],
       "IFC4 Predefined Types": [
         "ANTIVACUUM",
@@ -7936,8 +7911,8 @@
         "FLUSHING",
         "ISOLATING",
         "MIXING",
-        "STOPCOCK",
-        "NOTDEFINED"
+        "NOTDEFINED",
+        "STOPCOCK"
       ]
     }
   },
@@ -7960,23 +7935,23 @@
       ],
       "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n8000 (Height)",
       "IFC4 Object Types": [
-        "ACCESSHATCH",
-        "BLASTDOOR",
-        "FIRECURTAIN",
-        "FIRESHUTTER",
-        "FLAPDOOR",
-        "RECYCLABLESCHUTEACCESSPANEL",
-        "RECYCLABLESCHUTEHOPPER",
-        "REFUSECHUTEACCESSPANEL",
-        "REFUSECHUTEHOPPER",
-        "ROLLERSHUTTER",
-        "SMOKECURTAIN"
+        "ACCESSHATCH*",
+        "RECYCLABLESCHUTEACCESSPANEL*",
+        "RECYCLABLESCHUTEHOPPER*",
+        "REFUSECHUTEACCESSPANEL*",
+        "REFUSECHUTEHOPPER*",
+        "BLASTDOOR*",
+        "FIRESHUTTER*",
+        "FLAPDOOR*",
+        "ROLLERSHUTTER*",
+        "FIRECURTAIN*",
+        "SMOKECURTAIN*"
       ],
       "IFC4 Predefined Types": [
-        "GATE",
         "TRAPDOOR",
-        "NOTDEFINED",
-        "DOOR"
+        "GATE",
+        "DOOR",
+        "NOTDEFINED"
       ]
     }
   },
@@ -8012,23 +7987,22 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating);\n1 W/m2 K (ThermalTransmittance)",
       "IFC4 Object Types": [
-        "BARRIER",
-        "BLOCKWALL",
-        "BOUNDARYWALL",
-        "BUND",
-        "KERB",
-        "KNOCKOUTPANEL",
-        "RECYCLABLESCHUTE",
-        "RETAININGWALL",
-        "REFUSECHUTE",
-        "SCREEN"
+        "KERB*",
+        "SCREEN*",
+        "BARRIER*",
+        "BLOCKWALL*",
+        "BOUNDARYWALL*",
+        "BUND*",
+        "KNOCKOUTPANEL*",
+        "RECYCLABLESCHUTE*",
+        "RETAININGWALL*"
       ],
       "IFC4 Predefined Types": [
         "ELEMENTEDWALL",
+        "NOTDEFINED",
         "PARAPET",
         "PARTITIONING",
-        "SHEAR",
-        "NOTDEFINED"
+        "SHEAR"
       ]
     }
   },
@@ -8052,24 +8026,12 @@
       ],
       "Parameter Value (Sample)": "T16-150 (TopDistribution);\nT25-150 (TopMain);\nT20-150 (BottomDistribution);\nT32-150 (BottomMain)",
       "IFC4 Object Types": [
-        "LADDER"
+        "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
-        "SPIRAL_STAIR",
-        "NOTDEFINED",
         "STRAIGHT_RUN_STAIR",
-        "TWO_STRAIGHT_RUN_STAIR",
-        "QUARTER_WINDING_STAIR",
-        "QUARTER_TURN_STAIR",
-        "HALF_WINDING_STAIR",
-        "HALF_TURN_STAIR",
-        "TWO_QUARTER_WINDING_STAIR",
-        "TWO_QUARTER_TURN_STAIR",
-        "THREE_QUARTER_WINDING_STAIR",
-        "THREE_QUARTER_TURN_STAIR",
-        "DOUBLE_RETURN_STAIR",
-        "TWO_CURVED_RUN_STAIR"
+        "SPIRAL_STAIR"
       ]
     }
   }

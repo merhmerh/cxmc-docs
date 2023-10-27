@@ -17,6 +17,7 @@
       "Map to Rule": [
         "recwK9ManwIE169WL"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -44,8 +45,7 @@
       "Regulatory Codes and Standards": [
         "SS550 Code of Practice for Installation Operation and Maintenance of Electric Passenger and Goods Lift"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
@@ -164,6 +164,7 @@
       "Map to Rule": [
         "receoC9q1ekiSZYQy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "UTILITYPOLE*"
       ],
@@ -262,6 +263,7 @@
       "Map to Rule": [
         "reckueGlSgkGcfnh6"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BARRIER*"
       ],
@@ -308,6 +310,7 @@
       "Map to Rule": [
         "recVGSdplndRYsTWC"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONCEPT_ENVELOPELIMIT*"
       ],
@@ -397,6 +400,7 @@
       "Map to Rule": [
         "recSXWB8u7Wwcj070"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "URINALTRAP*"
       ],
@@ -584,6 +588,7 @@
         "recFQ8hWfsznmoA1j",
         "rec6kqES5yZ9eN70e"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ROOF"
       ],
@@ -1007,6 +1012,7 @@
       "Map to Rule": [
         "recaiYBeBEATZthBw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIRECURTAIN*"
       ],
@@ -1111,6 +1117,7 @@
         "recJ5OgDE8eGDFncb",
         "recGqsebXjcfVGzOJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLOODBARRIER*"
       ],
@@ -1167,6 +1174,7 @@
         "recHBeLXEz6TshjA4",
         "recydqzfUWsJVl2kA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SWITCHER"
       ],
@@ -1228,6 +1236,7 @@
       "Map to Rule": [
         "recrIfJANvD3fYbYj"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_FIREACCESSOPENING*"
       ],
@@ -1329,6 +1338,7 @@
         "recZ6OG2ZqzcGVLxW",
         "recraMDbRgAoS0TXv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPOOL"
       ],
@@ -1501,6 +1511,7 @@
         "rec2vIV48xhgsfxgD",
         "recof9PgZPutfy5Ul"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GRILLE"
       ],
@@ -1792,6 +1803,7 @@
       "Map to Rule": [
         "recCpHKTjGQgqzIOp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TAPEREDNUTS*"
       ],
@@ -1842,6 +1854,7 @@
         "recYhrXLGROq0zQz8",
         "rechDCgBOWnXZnL6H"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FOUNDATION"
       ],
@@ -1894,6 +1907,7 @@
       "Map to Rule": [
         "recdv1X7FH5hDK7IO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FOGGER*"
       ],
@@ -1943,6 +1957,7 @@
         "rec4WHjWLtPXROHZL",
         "reckjMDpFJP6J2Kxg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PHOTOLUMINESCENTMARKING*"
       ],
@@ -2000,6 +2015,7 @@
         "recAeEW964DMV1Te5",
         "recvbDXiy10nuJRFT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "IRRIGATION*"
       ],
@@ -2060,6 +2076,7 @@
         "recHBeLXEz6TshjA4",
         "recydqzfUWsJVl2kA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPEAKER"
       ],
@@ -2125,6 +2142,7 @@
       "Map to Rule": [
         "rec36URzhLZjP8NVW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRANSITION"
       ],
@@ -2169,6 +2187,7 @@
       "Map to Rule": [
         "rec3fGGyFckUx7V8j"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "SOLARPANEL"
       ],
@@ -2195,8 +2214,7 @@
       "Regulatory Codes and Standards": [
         "Business 1 (Industrial) Handbook"
       ],
-      "IFC4 Entity.Sub-Type": "IfcSolarDevice.SOLARPANEL",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcSolarDevice.SOLARPANEL"
     }
   },
   {
@@ -2248,6 +2266,7 @@
         "recWFz3bCPhKe17fs",
         "recoTcoizDmzDE6pH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EMERGENCYENGINEGENERATOR*"
       ],
@@ -2529,6 +2548,7 @@
         "recysuV7e6ZGGzUxf",
         "recZ6eHEskbgmqxzt"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FRAMING*"
       ],
@@ -2984,6 +3004,7 @@
         "recIycsaGZSuJ1d02",
         "recT6U7H7IGPvL2fP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIRESHUTTER*"
       ],
@@ -3092,54 +3113,6 @@
     }
   },
   {
-    "id": "rec2FAxHBOcRgBm1Y",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Chemical Appliance",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 104,
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recqduM5m4GcXWosF"
-      ],
-      "Map to Rule": [
-        "recycqT01jWXgAmrJ"
-      ],
-      "Status": "Not used",
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "CHE_NOT_104",
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch X"
-      ],
-      "Agency": [
-        "PUB"
-      ],
-      "Codes and Standards": [
-        "Code of Practice on Sewerage and Sanitary Works"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP",
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice on Sewerage and Sanitary Works"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcSanitaryTerminal.NOTDEFINED"
-    }
-  },
-  {
     "id": "rec2TiiyaJyMY3hLY",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -3241,6 +3214,7 @@
         "recOwbbUzocv8o0aj",
         "recnhSLfCl0Yess9S"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TABLE"
       ],
@@ -3304,6 +3278,7 @@
       "Map to Rule": [
         "recYbzTskqYuDvFTD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FREESTANDINGELECTRICHEATER"
       ],
@@ -3363,6 +3338,7 @@
         "rec33wR098nSQsd2h",
         "recRfBV51fFO3b41R"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLABLESCHUTE*"
       ],
@@ -3441,6 +3417,7 @@
         "recEiDtdogrIwfzeb",
         "rec4pF4P9rxZpB6Pk"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -3537,6 +3514,7 @@
       "Map to Rule": [
         "recWzO47DYZZfndv3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFTCALLBUTTON*"
       ],
@@ -5423,6 +5401,7 @@
         "recPLJIsLU9ovgKBO",
         "recp0zEaVOlXz3PCv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BAYWINDOW*"
       ],
@@ -5695,6 +5674,7 @@
       "Map to Rule": [
         "recYrziEpktaUN0ZY"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -5744,6 +5724,7 @@
         "recwDP6B6qAoeIuNy",
         "recj36YBR3fmNPsgH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CHEMICAL*"
       ],
@@ -5803,6 +5784,7 @@
         "recP3GXMVlL2GF3mZ",
         "reclKphyO5oz9YGOD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TUNNEL*"
       ],
@@ -5852,6 +5834,7 @@
       "Map to Rule": [
         "recuyB8VnhlnMRDgh"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_COOLINGTOWER*"
       ],
@@ -5906,6 +5889,7 @@
         "rec21TTdCovP3cWgy",
         "recIiGbowHMmL4vFN"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "VEHICULARBARRIER*"
       ],
@@ -5974,6 +5958,7 @@
         "recrTfaF34mpxHT6C",
         "reca79ssm6pdQk97y"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ROOFTOPUNIT"
       ],
@@ -6028,6 +6013,7 @@
       "Map to Rule": [
         "recw8fH1kVbm8lZ17"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRAINPLUG*"
       ],
@@ -6086,6 +6072,7 @@
         "recgMYIzJYuAJIDzR",
         "reclv72ivKVjWE5pT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PERFORATEDPANEL*"
       ],
@@ -6280,6 +6267,7 @@
       "Map to Rule": [
         "recTQ2bTHrPFbsgfO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NONDOMESTICCOLDWATER*"
       ],
@@ -6369,6 +6357,7 @@
       "Map to Rule": [
         "recomzWoPznGmfvAx"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "SCREEN*"
       ],
@@ -10410,6 +10399,7 @@
         "recteER41g6PJRqS3",
         "recWvQmytsKe6k9Uk"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -10494,6 +10484,7 @@
         "recAkHimPaNHys2na",
         "rechCQaZz91UyLdJd"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PIPESLEEVE*"
       ],
@@ -10612,6 +10603,7 @@
         "rec0ne7l1jMXHfIDz",
         "rec7ISnMlMGzJELEl"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "INSULATION"
       ],
@@ -10740,6 +10732,7 @@
         "recAnBB4HaBaYwaSO",
         "recjup3CRc6vHpqsb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PLANTERBOX*"
       ],
@@ -12225,6 +12218,7 @@
         "recIDybIjL7NhEJP8",
         "recraMDbRgAoS0TXv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PRESSUREGAUGE"
       ],
@@ -12276,7 +12270,7 @@
       "Map to Rule": [
         "rec8lNDmo33GVHghN"
       ],
-      "Status": "Not used",
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "CUBICLE*"
       ],
@@ -12322,6 +12316,7 @@
         "recqAg6huTb97UNq0",
         "recOfqCY8s94XJ3ja"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PEDESTRIANCROSSING*"
       ],
@@ -12375,6 +12370,7 @@
       "Map to Rule": [
         "recTQ2bTHrPFbsgfO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "VALVEPROTECTINGCOVER*"
       ],
@@ -12420,6 +12416,7 @@
       "Map to Rule": [
         "recBL051z7dBUjcCn"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STATIONARYVACUUMSYSTEM*"
       ],
@@ -13905,6 +13902,7 @@
       "Map to Rule": [
         "rec5UyHFIaZVOY9JS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GREYWATER*"
       ],
@@ -14003,6 +14001,7 @@
         "recFAoisikVYT838d",
         "receasL5kSgPjhEYL"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BIDET"
       ],
@@ -14126,6 +14125,7 @@
         "recaFdEJQMBJAsljW",
         "recw2vRrbouc9FCyT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLUSHING"
       ],
@@ -14202,6 +14202,7 @@
         "recnfyAMJlQzroHUn",
         "reciQht9xosZLkNdw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "POWER"
       ],
@@ -14257,6 +14258,7 @@
       "Map to Rule": [
         "recz6aJ6nYcjsTv5J"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STEAMCLEANER*"
       ],
@@ -14352,6 +14354,7 @@
         "recCyfwkvQbaAHMLV",
         "reccRJOwV0QbJETyw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_TAXIBAY*"
       ],
@@ -14431,6 +14434,7 @@
         "rechqCFBeA9yJasdR",
         "recnKxeQKgENQpP87"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRINTAKEVALVE*"
       ],
@@ -14546,6 +14550,7 @@
       "Map to Rule": [
         "recTk2whixCrdwTxH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HEATING*"
       ],
@@ -14591,6 +14596,7 @@
       "Map to Rule": [
         "recjnLftpjhKcKc9H"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SLOTOUTLET*"
       ],
@@ -14646,6 +14652,7 @@
         "recE6RcTtaEgfVB7D",
         "rec3xHwfrUPjgXVY7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -14755,6 +14762,7 @@
         "recAUEjYxB7otvbFf",
         "recElqi04kXqJw1AW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_TRAFFICFLOW*"
       ],
@@ -14815,6 +14823,7 @@
         "recFeh5BRgcLMcDGn",
         "rechmuphTFZQTSzcO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPIGOTANDSOCKET*"
       ],
@@ -14877,6 +14886,7 @@
         "recYx0eqxpTBVsZiR",
         "recazqrOr8CIalv3a"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EXISTINGEARTHWORKS*"
       ],
@@ -15042,6 +15052,7 @@
         "recrpEDUW3dYoUCIr",
         "recfgJ9JbBybpc0ip"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -15575,100 +15586,6 @@
     }
   },
   {
-    "id": "rec7J4rNM8nIdGbbD",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Prefabricated Duct Fitting",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 476,
-      "Entity Key": [
-        "recs2UBtaX2dnE6oJ"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recsp8Ew7RDfqjPGf",
-        "recguPBSI2vobJhbb"
-      ],
-      "Map to Rule": [
-        "recoaw70veST5T0TH"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "PRE_NOT_476",
-      "IFC4 Entities": [
-        "IfcDuctFitting"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch 1"
-      ],
-      "Properties [Data Type]": "ConstructionMethod [Label]; \nPre-insulated [Boolean]",
-      "Agency": [
-        "BCA"
-      ],
-      "Codes and Standards": [
-        "Code of Practice on Buildability"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice on Buildability"
-      ],
-      "Sample Value (Property)": [
-        "PREFABRICATED (ConstructionMethod)"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcDuctFitting.NOTDEFINED"
-    }
-  },
-  {
-    "id": "rec7MkF5mhaPHq0Cf",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Discharge Stack Terminal",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 173,
-      "Entity Key": [
-        "rectLCX8YXFFD3ckV"
-      ],
-      "Map to Rule": [
-        "recQEttrBkTdJfFHq"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "DIS_NOT_173",
-      "IFC4 Entities": [
-        "IfcStackTerminal"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch 2"
-      ],
-      "Agency": [
-        "NEA"
-      ],
-      "Codes and Standards": [
-        "SS 593: Code of Practice for Pollution Control (COPPC)"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "SS 593: Code of Practice for Pollution Control (COPPC)"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcStackTerminal.NOTDEFINED"
-    }
-  },
-  {
     "id": "rec7OV9cp0xfztiFl",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -15711,6 +15628,7 @@
         "recZGgRNtesApMVYR",
         "receASmM3s6jWHOBF"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "COWL"
       ],
@@ -15817,6 +15735,7 @@
       "Map to Rule": [
         "rec3qGownrf5CqdJ7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CABLETRUNKINGSEGMENT"
       ],
@@ -15917,6 +15836,7 @@
       "Map to Rule": [
         "recOHyiWLu53cwqHc"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRUSS*"
       ],
@@ -17591,6 +17511,7 @@
         "receSYxdhbbb0SOTK",
         "recyxkUxgpuPVLxvJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PRESSUREVESSEL"
       ],
@@ -17968,7 +17889,7 @@
     "id": "rec7x5vWegr0UohOB",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Bench",
+      "Identified Component": "Fixed Seating",
       "OT KEY (Sub-Type)": [
         "recQPQ4DBySrz7exs"
       ],
@@ -17978,7 +17899,9 @@
       ],
       "IP Key (Component_Parameter)": [
         "recPf2VaheVyODhY7",
-        "recKDk0bmsjE1WlXO"
+        "recKDk0bmsjE1WlXO",
+        "rec5aufrVaDpatq8M",
+        "recHJxnVkZJVK7dHg"
       ],
       "Map to Rule": [
         "rec1Kl9wSSC8jUE0N",
@@ -17998,14 +17921,15 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recveberYrihnUMcq"
       ],
       "Status": "Required",
       "Beta": true,
       "IFC4 Sub Type": [
         "BENCH*"
       ],
-      "CO KEY": "BEN_BEN_057",
+      "CO KEY": "FIX_BEN_057",
       "IFC4 Entities": [
         "IfcFurniture"
       ],
@@ -18030,9 +17954,10 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 1"
+        "Batch 1",
+        "Batch 2"
       ],
-      "Properties [Data Type]": "Capacity [Volume]; \nIsBuiltIn [Boolean]",
+      "Properties [Data Type]": "Capacity [Volume]; \nIsBuiltIn [Boolean]; \nFunction [Label]",
       "Agency": [
         "URA",
         "BCA",
@@ -18056,7 +17981,8 @@
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
-        "Approved Document - Acceptable Solutions"
+        "Approved Document - Acceptable Solutions",
+        "Urban Design Guidelines"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -18067,6 +17993,9 @@
         "Code of Practice on Environmental Health (COPEH)",
         "Gross Floor Area Handbook",
         "Approved Document - Acceptable Solutions"
+      ],
+      "Actual Value (Property)": [
+        "SEATING (Function)"
       ],
       "IFC4 Entity.Sub-Type": "IfcFurniture.BENCH*"
     }
@@ -18171,6 +18100,7 @@
         "recquSHaqzaHz7gGA",
         "recalmWbHLza1JsdM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -18223,6 +18153,7 @@
         "recSpZsG1cUhy0aTS",
         "rec5m8lLte9hOWzLS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CHUTEINTERFACE*"
       ],
@@ -18275,6 +18206,7 @@
       "Map to Rule": [
         "rec9BhixL9EjjK4sJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SMOKEVENT*"
       ],
@@ -18513,6 +18445,7 @@
         "reclH8ZuMTRwIVWnW",
         "rec69XCEOntE9jJxh"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -18946,6 +18879,7 @@
         "rect52kSiasnEb7mF",
         "recjxtDR5YF1ddT13"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDBATHROOMUNIT*"
       ],
@@ -19130,6 +19064,7 @@
       "Map to Rule": [
         "recsiOfdMMEoEitjK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNPOST*"
       ],
@@ -19294,6 +19229,7 @@
         "recMr1pgpy5eRxx2s",
         "recJvWfxEXXtcm458"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BICYCLEROUTE*"
       ],
@@ -19390,6 +19326,7 @@
       "Map to Rule": [
         "recTGxUlLHxpXvqPE"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFT_GUIDEROLLER*"
       ],
@@ -19439,6 +19376,7 @@
         "recZtxEUl1EZKg8u8",
         "recfBEzU35YApYFbj"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLOWSENSOR"
       ],
@@ -19544,6 +19482,7 @@
         "rec52vIol7b7S50DK",
         "recWa92nLqbXQcJLh"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LORRYLOT*"
       ],
@@ -19701,6 +19640,7 @@
       "Map to Rule": [
         "rec8IBaZR7BMnDDwI"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "COACHLOT*"
       ],
@@ -19755,6 +19695,7 @@
         "recKGzEqBOiYb89AS",
         "recdB3JdtVrCkmQBl"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CATWALK*"
       ],
@@ -20102,6 +20043,7 @@
       "Map to Rule": [
         "recRKNANFkOut20CK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_WATERTAPPOINT*"
       ],
@@ -20235,6 +20177,7 @@
         "recixgmznmGYzl4jH",
         "recB4uxd5TBsRHNQP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -20309,7 +20252,8 @@
         "rec5MtKW41MfyHQNZ",
         "recLtogP6eTxmagT8",
         "rec99QujyvZqyiFQE",
-        "recH7sWaJ3IyNLv1c"
+        "recH7sWaJ3IyNLv1c",
+        "recY2Y4dW9VvCOGiV"
       ],
       "Map to Rule": [
         "recwF3k9MfmXu0shr",
@@ -23391,7 +23335,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "AlternateDesignatedFloor [Boolean]; \nAtticLevel [Boolean]; \nDesignatedFloor [Boolean]; \nEntranceLevel [Boolean]; \nGroundLevel [Boolean]; \nHasActivityGeneratingUse [Boolean]; \nTypicalFloor [Boolean]; \nSCDFBasement [Boolean]",
+      "Properties [Data Type]": "AlternateDesignatedFloor [Boolean]; \nAtticLevel [Boolean]; \nDesignatedFloor [Boolean]; \nEntranceLevel [Boolean]; \nGroundLevel [Boolean]; \nHasActivityGeneratingUse [Boolean]; \nTypicalFloor [Boolean]; \nSCDFBasement [Boolean]; \nSCDFBasement1 [Boolean]",
       "Agency": [
         "SCDF",
         "URA",
@@ -25008,6 +24952,7 @@
         "reca6GkZkcyx9bnb9",
         "recCk6Az2OSwC8Oph"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -25046,8 +24991,7 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
@@ -25114,6 +25058,7 @@
       "Map to Rule": [
         "rec3qGownrf5CqdJ7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FRAMING*"
       ],
@@ -25349,6 +25294,7 @@
       "Map to Rule": [
         "recBsFYC7YC1ZABCJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PAD_FOOTING"
       ],
@@ -25402,6 +25348,7 @@
         "rec4TZ6IUAdMjknHh",
         "rec7pN8modnzpDaGb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -25482,6 +25429,7 @@
       "Map to Rule": [
         "rec5UyHFIaZVOY9JS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONDENSATEWATER*"
       ],
@@ -25588,6 +25536,7 @@
         "recNcIxhRoPFqQFN4",
         "recHXiTysNi17Dr6A"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ELECTRICAL*"
       ],
@@ -25675,6 +25624,7 @@
       "Map to Rule": [
         "recrbOwb5WRtShudy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ACCESSROAD*"
       ],
@@ -25718,6 +25668,7 @@
       "Map to Rule": [
         "reckTbs4DBWpNwJdE"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CABLING*"
       ],
@@ -25967,6 +25918,7 @@
         "recrTfaF34mpxHT6C",
         "reca79ssm6pdQk97y"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRCONDITIONINGUNIT"
       ],
@@ -26169,7 +26121,9 @@
         "recDg1zsujZOwDkAv",
         "recgmybpqNIceKrkD",
         "recgNGCiomPPwG0nw",
-        "rec00tvsurQ3MFA6H"
+        "rec00tvsurQ3MFA6H",
+        "recqkmpUjyFZBSmHv",
+        "recfpgPG9MzjmE2UQ"
       ],
       "Map to Rule": [
         "recUfDyrk5NxLNddF",
@@ -26184,8 +26138,12 @@
         "recRsKyjlVVznG4rF",
         "recjJDxkZxnCotYUL",
         "rec7ITiczhkcAuH1K",
-        "rec74GREthLzHxRet"
+        "rec74GREthLzHxRet",
+        "reczZ9tFWI1AJ1gLG",
+        "recbtbCHSdqwEgItm",
+        "recWJe5ietydzjOOn"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSECHUTEHOPPER*"
       ],
@@ -26209,11 +26167,15 @@
         "Batch 3",
         "Batch 3",
         "Batch 1",
-        "Batch 1"
+        "Batch 1",
+        "Batch 3",
+        "NA",
+        "Batch 3"
       ],
-      "Properties [Data Type]": "AirTight [Boolean]; \nFireRating [Label]; \nSelfClosing [Boolean]; \nSoftClosing [Boolean]; \nVolumeControlled [Boolean]; \nPanelDepth [Length]",
+      "Properties [Data Type]": "AirTight [Boolean]; \nFireRating [Label]; \nSelfClosing [Boolean]; \nSoftClosing [Boolean]; \nVolumeControlled [Boolean]; \nPanelDepth [Length]; \nMaterial [Label]; \nWithRubberGasket [Boolean]",
       "Agency": [
-        "NEA"
+        "NEA",
+        "SCDF"
       ],
       "Codes and Standards": [
         "Code of Practice for Pneumatic Waste Conveyance System",
@@ -26228,14 +26190,18 @@
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Code of Practice on Environmental Health (COPEH)",
-        "Code of Practice on Environmental Health (COPEH)"
+        "Code of Practice on Environmental Health (COPEH)",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building"
       ],
       "Discipline (Entity Key)": [
         "ARC"
       ],
       "Regulatory Codes and Standards": [
         "Code of Practice for Pneumatic Waste Conveyance System",
-        "Code of Practice on Environmental Health (COPEH)"
+        "Code of Practice on Environmental Health (COPEH)",
+        "Code of Practice for Fire Precautions in Building"
       ],
       "Sample Value (Property)": [
         "4hr (FireRating)",
@@ -26373,6 +26339,7 @@
         "recmm9pE3dHZdQPRu",
         "recaCncIArccmhs6e"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FANCOILUNIT*"
       ],
@@ -26467,6 +26434,7 @@
       "Map to Rule": [
         "recvv3Z2ru13TV811"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -26579,6 +26547,7 @@
         "recTllj1S7TEHRyBN",
         "recWFyjKjGJMrn1Nw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SINK"
       ],
@@ -26685,6 +26654,7 @@
         "recoBCXEOkuggeM2G",
         "recRC6f1PDuWgP8fG"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GUARDRAIL"
       ],
@@ -26780,6 +26750,7 @@
         "recHqcQd5t5vmGAeS",
         "recYpNmoOqBUPJRZb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLABLESCHUTEACCESSPANEL*"
       ],
@@ -26826,6 +26797,7 @@
       "Map to Rule": [
         "recIYY7EQD46IEn9V"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "COMMUNICATION*"
       ],
@@ -26935,6 +26907,7 @@
         "recWavYnF8tniHGXH",
         "recB5B7oVtZDZVCqT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BLASTDOOR*"
       ],
@@ -27021,6 +26994,7 @@
         "recLUh87Inc2Wh8Ni",
         "recyBwBW3FidvyXKH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHALLOWFLOORTRAP*"
       ],
@@ -27079,6 +27053,7 @@
       "Map to Rule": [
         "recADidcKZu8WidwJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BUSSHELTER*"
       ],
@@ -27222,6 +27197,7 @@
         "recyx0XBoCIEyggYX",
         "recaO3fbY0ULePGYY"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIREDAMPER"
       ],
@@ -27473,6 +27449,7 @@
         "recyKEEMLQfuOBJV5",
         "recraMDbRgAoS0TXv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OVERPRESSUREPROTECTIONDEVICE*"
       ],
@@ -27620,6 +27597,7 @@
         "rec1Zy109PENAMNta",
         "recbpCr6EpXYqVPoM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ODORFILTER"
       ],
@@ -27681,6 +27659,7 @@
       "Map to Rule": [
         "recLtfDMfrRHcfoNB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_EXITSTAIRCASE*"
       ],
@@ -28881,6 +28860,7 @@
         "rec6MXgKfNi0V3Oyc",
         "recVjvswLZIutMWes"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "nil"
       ],
@@ -31310,6 +31290,7 @@
         "recHBuc2HS89ORn8U",
         "recghS7OhYVIai4Rg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "VENT*"
       ],
@@ -31468,6 +31449,7 @@
       "Map to Rule": [
         "recHzLI4ttcWwiVeu"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_EXITACCESSDOOR*"
       ],
@@ -31532,6 +31514,7 @@
         "recgQFXv9lkNxg3rk",
         "recmEcTTyyBeG4qeg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPLITCASE"
       ],
@@ -31745,8 +31728,16 @@
         "recK8UaBH1I7w0KSk",
         "recBtNSN5xUZUx10c",
         "rec7Qk7DSiOntGmBD",
-        "recyExrxuezF6zlp9"
+        "recyExrxuezF6zlp9",
+        "reconFvWltFNhGa2T",
+        "recoOTPu5fE78kdur",
+        "recHnWwqooGZnfRQq",
+        "recakBkSAI0S8mTy6",
+        "recVrqkzu1d02PsbP",
+        "recCHTitWZ6PeNVsN",
+        "reclcwsB2GJ0yH8Rq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SURROUNDINGBUILDING*"
       ],
@@ -31813,7 +31804,14 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch 2"
+        "Batch 2",
+        "Batch 2",
+        "Batch 2",
+        "NA",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
         "URA",
@@ -31876,7 +31874,14 @@
         "Envelope Control Guidelines",
         "Envelope Control Guidelines",
         "Conservation Guidelines",
-        "Business Park Handbook"
+        "Business Park Handbook",
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "Code of Practice for Pneumatic Waste Conveyance System",
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "SS 593: Code of Practice for Pollution Control (COPPC)"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -31896,7 +31901,9 @@
         "Sports and Recreation Handbook",
         "Educational Institution Handbook",
         "Envelope Control Guidelines",
-        "Business Park Handbook"
+        "Business Park Handbook",
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "Code of Practice for Pneumatic Waste Conveyance System"
       ],
       "IFC4 Entity.Sub-Type": "IfcBuildingElementProxy.SURROUNDINGBUILDING*"
     }
@@ -31941,6 +31948,7 @@
       "Map to Rule": [
         "recQEttrBkTdJfFHq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRIMPURITIESSENSOR*"
       ],
@@ -32234,6 +32242,7 @@
         "rec1yiCCp5PqzKckr",
         "recGN0PKKKfJXBeIV"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERBODY*"
       ],
@@ -32292,6 +32301,7 @@
       "Map to Rule": [
         "recT6E1JJaRq9C6WL"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FOUNDATION"
       ],
@@ -32406,6 +32416,7 @@
         "recEydNE8iSgQJYvZ",
         "recc0Yfn3pSsWFIDm"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -32552,97 +32563,7 @@
         "1350 (Width)",
         "40000 (Width)"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
-    }
-  },
-  {
-    "id": "recDROsc3Cy7Y1AOt",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Fire-rated Board",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 281,
-      "Entity Key": [
-        "recgZaeFe3TzlcUUl"
-      ],
-      "IP Key (Component_Parameter)": [
-        "rec4LzMzoW6rOPjF6",
-        "recx3cHk2nmullIgC"
-      ],
-      "Map to Rule": [
-        "reczUlv2xgpjDxNbx",
-        "recgg3LjXC8I0c44T",
-        "recEYTBVrMrdrSCEH",
-        "rec2TBOzBEUURjrIk",
-        "rec3mgkUF7T8fXUy1",
-        "recpVeeGq85oNu1yt",
-        "recBHJhfw6ERmipWc",
-        "recBiQx8roFE6PUXT",
-        "recB8nKs6Nh0oUydr",
-        "recDlLAkD2jDtSCSg",
-        "rec02W2ZmJgmjNKMa",
-        "recTMwDXIJ2dZMg5V",
-        "recHDEZGG1doASs1L",
-        "recYp8cWdx0XURVC8"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "FIR_NOT_281",
-      "IFC4 Entities": [
-        "IfcCovering"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "NA",
-        "Batch 3",
-        "NA",
-        "NA",
-        "NA",
-        "NA",
-        "Batch 3",
-        "Batch X"
-      ],
-      "Properties [Data Type]": "Combustible [Boolean]",
-      "Agency": [
-        "SCDF"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP",
-        "ARC",
-        "External Works"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcCovering.NOTDEFINED"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
@@ -32798,6 +32719,7 @@
         "recYbzTskqYuDvFTD",
         "recc6RSttCo7yotq7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FREESTANDINGWATERCOOLER"
       ],
@@ -32921,6 +32843,7 @@
         "recxPz5sy3U7KegNg",
         "recBBVEpf20TTqyNr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -32969,6 +32892,7 @@
         "rec5IVVq4zpKxb01z",
         "rec9VoDlOq2ZaADBy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_ESCAPEPLAN*"
       ],
@@ -33039,6 +32963,7 @@
         "rec6zxODoIdHEHQAp",
         "recnBcfR2Ev2uBWEW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLABLECOMPACTOR*"
       ],
@@ -33122,6 +33047,7 @@
         "recuAafEY5Nbhi0o1",
         "reckOra1FRvPzK6ph"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DISHWASHER"
       ],
@@ -33180,6 +33106,7 @@
       "Map to Rule": [
         "rechg4ynp5fN7PvGt"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SOLARCOLLECTOR"
       ],
@@ -33229,6 +33156,7 @@
         "recaIxsvLy0I143XS",
         "rec4fexBTYfcL5o0N"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_HOLDINGBAY*"
       ],
@@ -33335,6 +33263,7 @@
         "rec1eHV8AarGidEay",
         "recfs0MDpKxkBeH6U"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -33435,6 +33364,7 @@
         "reciWiL3tGnbowIrd",
         "rec2Jk9kAEc16IXRv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERCLOSET*"
       ],
@@ -33574,6 +33504,7 @@
         "recufsr8FjtUhpuVq",
         "rec9dqDwsumdiDPVP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFT_TRACTIONMACHINE*"
       ],
@@ -33635,6 +33566,7 @@
         "rec3v10uijAxBL37r",
         "rechDCgBOWnXZnL6H"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SUPPORT"
       ],
@@ -33686,6 +33618,7 @@
         "recrvtFcnJbKPyoOq",
         "recK8nO6P0Y2VIXit"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HOLDINGTANK*"
       ],
@@ -33734,6 +33667,7 @@
         "recYhrXLGROq0zQz8",
         "recnYQ5rXAPsT6mFP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BENCHING*"
       ],
@@ -33786,6 +33720,7 @@
         "recTGxUlLHxpXvqPE",
         "recbNJKnPfCFFmNGg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFT_GUIDESHOE*"
       ],
@@ -33901,6 +33836,7 @@
         "recYtZMh2hYdKsUQL",
         "rectDKOIsDSkLl1x7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SOLARPANEL"
       ],
@@ -34175,6 +34111,7 @@
         "recvWOBiLxxliwJOx",
         "recqsDF3yv5bb1CPu"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BREECHINGINLET*"
       ],
@@ -34276,6 +34213,7 @@
       "Entity Key": [
         "recBVN0mZyh7fv0P3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EJECTORPUMP*"
       ],
@@ -34768,6 +34706,7 @@
         "reclpiD0D7ryypQxN",
         "recR8uMviyGpjWg8m"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "POWEROUTLET"
       ],
@@ -34831,6 +34770,7 @@
         "recK5zTbGiqwRGnOH",
         "rechIFwlljKimNxli"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -34897,6 +34837,7 @@
         "recQQPKLlDJG2NuQP",
         "rech1NSolUpp9gWmF"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TAXISHELTER*"
       ],
@@ -34969,6 +34910,7 @@
         "recnBcfR2Ev2uBWEW",
         "recLkH7quWDzaAfpy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSECOMPACTOR*"
       ],
@@ -35447,6 +35389,7 @@
         "recHBeLXEz6TshjA4",
         "recydqzfUWsJVl2kA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MICROPHONE"
       ],
@@ -35586,95 +35529,6 @@
     }
   },
   {
-    "id": "recFhC0TxyT0LSk0j",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Clean Agent Fire Extinguisher",
-      "OT KEY (Sub-Type)": [
-        "recxKhnMisTYHZ4jD"
-      ],
-      "Autonumber": 121,
-      "Entity Key": [
-        "recAFISJyNfTeNrVZ"
-      ],
-      "IP Key (Component_Parameter)": [
-        "rectQtyZeeClhGG2N",
-        "rec5lnrsfEUVk79SZ"
-      ],
-      "Map to Rule": [
-        "rec2tzDPgv1xxkUys",
-        "recyqKypyZRBPgHmo",
-        "recuCcpfxZ9MuV6nO",
-        "reciZdUJBhIKg2I2z",
-        "recnFqAqZqBPJVPxO",
-        "recVr5dzI0uDYMjFj",
-        "recO1uAMjS0razxTV",
-        "recJxnUYaOXcSfQCd",
-        "recXFyRDjg0lMjwVK",
-        "rec0BOBmismt8zWvT",
-        "recB7lIliEZSbc9or",
-        "recjsnScb9CtkXCgR",
-        "recZiYbREpXOmjlB7",
-        "reczdyK0mcc5Cbsnj",
-        "rec86Aokv7BfbObnU"
-      ],
-      "IFC4 Sub Type": [
-        "FIREEXTINGUISHINGTANK*"
-      ],
-      "CO KEY": "CLE_FIR_121",
-      "IFC4 Entities": [
-        "IfcTank"
-      ],
-      "Subtype or IFC": [
-        "FIREEXTINGUISHINGTANK*"
-      ],
-      "Batch (Rules)": [
-        "Batch X",
-        "NA",
-        "Batch X",
-        "NA",
-        "NA",
-        "NA",
-        "Batch X",
-        "Batch 2",
-        "Batch 2",
-        "Batch 2",
-        "NA",
-        "Batch 2",
-        "NA",
-        "NA",
-        "NA"
-      ],
-      "Agency": [
-        "SCDF"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcTank.FIREEXTINGUISHINGTANK*"
-    }
-  },
-  {
     "id": "recFjKYv6Xnh5cKLg",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -35692,6 +35546,7 @@
       "Map to Rule": [
         "recuJOsRNQsLOtAAn"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DILUTIONTANK*"
       ],
@@ -35919,6 +35774,7 @@
         "recudqKp7YlGkJbIe",
         "reck0faqVkaTZ0t19"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EXIT"
       ],
@@ -35974,6 +35830,7 @@
         "recSQhtxjomgsdKoN",
         "rec4SGOnY3KyXdWWl"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HAUNCH*"
       ],
@@ -36275,7 +36132,9 @@
         "recqf1O2rQCHExIy4",
         "recN0WD3pdjfUge1A",
         "recs2ge3m9gFnUjes",
-        "recjh4AYv1Fsm9pHo"
+        "recjh4AYv1Fsm9pHo",
+        "recmE62J5QRCntPk3",
+        "rec5a1W9eVSdleRyk"
       ],
       "Map to Rule": [
         "recWYqJTKIVLO6qKK",
@@ -36517,6 +36376,7 @@
         "rec8W5JkevjB9a0Gv",
         "rec69XCEOntE9jJxh"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -36767,7 +36627,7 @@
         "Batch 1",
         "NA"
       ],
-      "Properties [Data Type]": "Combustible [Boolean]; \nConstructionMethod [Label]; \nEngineeredSmokeControlSystem [Boolean]; \nFireRating [Label]; \nFlameSpreadClass [Label]; \nHasLiner [Boolean]; \nMaterial [Label]; \nPre-insulated [Boolean]",
+      "Properties [Data Type]": "Combustible [Boolean]; \nConstructionMethod [Label]; \nEngineeredSmokeControlSystem [Boolean]; \nFireRating [Label]; \nFlameSpreadClass [Label]; \nHasLiner [Boolean]; \nMaterial [Label]; \nPre-insulated [Boolean]; \nInsulation_Combustible [Boolean]; \nInsulation_FlameSpreadClass [Label]",
       "Agency": [
         "SCDF",
         "BCA",
@@ -37046,7 +36906,8 @@
         "CLASS 4 (FlameSpreadClass)",
         "HEAVY GAUGE STEEL (Material)",
         "STEEL (Material)",
-        "GALVANISED STEEL (Material)"
+        "GALVANISED STEEL (Material)",
+        "CLASS 0 (Insulation_FlameSpreadClass)"
       ],
       "IFC4 Entity.Sub-Type": "IfcDuctSegment.NOTDEFINED"
     }
@@ -37302,6 +37163,7 @@
         "recmxFL4Y10bGJKiX",
         "recH4GH6PbMml5Aui"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RETENTIONTANK*"
       ],
@@ -37353,6 +37215,7 @@
         "recqcQiiRLFGK9Wqc",
         "recCkQBP33skPEFLC"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PARASOL*"
       ],
@@ -37411,6 +37274,7 @@
         "recGIFaPMlL3M5pO9",
         "recukbcdIYAZ2K1Vp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRAINOFFCOCK*"
       ],
@@ -37470,6 +37334,7 @@
       "Map to Rule": [
         "recvFlrTsIfJqOQlO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERPLAYGROUND*"
       ],
@@ -37532,7 +37397,8 @@
         "recObp8xdHMjy6yYK",
         "recwgjyLspBlXHJ2G",
         "reckyTUOFXjD3DryW",
-        "reckfGLtHkWkkI9Lw"
+        "reckfGLtHkWkkI9Lw",
+        "rec0GqO9WNT0brgCJ"
       ],
       "Map to Rule": [
         "rec1UKvrN9SFttzcu",
@@ -38402,7 +38268,7 @@
         "NA",
         "Batch 2"
       ],
-      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nChemicalResistantMaterial [Boolean]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nFinishType [Label]; \nFireRating [Label]; \nFunction [Label]; \nLatticeGirderReinforcement [Boolean]; \nLength [Length]; \nMaterial [Label]; \nMechanicalConnectionType [Label]; \nPerforated [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nShelterUsage [Boolean]; \nSlabType [Label]; \nStatus [Label]; \nTypeDesignator [Label]; \nWeldedMesh [Boolean]",
+      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nChemicalResistantMaterial [Boolean]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nFinishType [Label]; \nFireRating [Label]; \nFunction [Label]; \nLatticeGirderReinforcement [Boolean]; \nLength [Length]; \nMaterial [Label]; \nMechanicalConnectionType [Label]; \nPerforated [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nShelterUsage [Boolean]; \nSlabType [Label]; \nStatus [Label]; \nTypeDesignator [Label]; \nWeldedMesh [Boolean]; \nBuildabilityBlkName [Label]",
       "Agency": [
         "SCDF",
         "BCA",
@@ -38966,6 +38832,7 @@
         "recTGxedotBQdUxHD",
         "recLz1xdsUwIbOQbX"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EXTERNALFINS*"
       ],
@@ -39037,70 +38904,6 @@
     }
   },
   {
-    "id": "recGr8h4q75sD2ovV",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Neighbouring Building",
-      "OT KEY (Sub-Type)": [
-        "recWAwCxXEkAChdGA"
-      ],
-      "Autonumber": 387,
-      "Entity Key": [
-        "recPerObWocqllzbc"
-      ],
-      "Map to Rule": [
-        "reconFvWltFNhGa2T",
-        "recoOTPu5fE78kdur",
-        "recHnWwqooGZnfRQq",
-        "recakBkSAI0S8mTy6",
-        "recVrqkzu1d02PsbP",
-        "recCHTitWZ6PeNVsN",
-        "reclcwsB2GJ0yH8Rq"
-      ],
-      "IFC4 Sub Type": [
-        "SURROUNDINGBUILDING*"
-      ],
-      "CO KEY": "NEI_SUR_387",
-      "IFC4 Entities": [
-        "IfcBuildingElementProxy"
-      ],
-      "Subtype or IFC": [
-        "SURROUNDINGBUILDING*"
-      ],
-      "Batch (Rules)": [
-        "Batch 2",
-        "Batch 2",
-        "NA",
-        "Batch 1",
-        "Batch 1",
-        "Batch 1",
-        "Batch 1"
-      ],
-      "Agency": [
-        "NEA"
-      ],
-      "Codes and Standards": [
-        "SS 593: Code of Practice for Pollution Control (COPPC)",
-        "SS 593: Code of Practice for Pollution Control (COPPC)",
-        "Code of Practice for Pneumatic Waste Conveyance System",
-        "SS 593: Code of Practice for Pollution Control (COPPC)",
-        "SS 593: Code of Practice for Pollution Control (COPPC)",
-        "SS 593: Code of Practice for Pollution Control (COPPC)",
-        "SS 593: Code of Practice for Pollution Control (COPPC)"
-      ],
-      "Discipline (Entity Key)": [
-        "ARC",
-        "STR",
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "SS 593: Code of Practice for Pollution Control (COPPC)",
-        "Code of Practice for Pneumatic Waste Conveyance System"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcBuildingElementProxy.SURROUNDINGBUILDING*"
-    }
-  },
-  {
     "id": "recGueTnJw8MKMZXv",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -39116,6 +38919,7 @@
         "recwrJDhKHlkpZZIe",
         "rec46dg8LSHw0LRAx"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_DRIVEWAYMARKING*"
       ],
@@ -39262,6 +39066,7 @@
       "Map to Rule": [
         "recYbzTskqYuDvFTD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "COFFEEMAKER*"
       ],
@@ -39375,6 +39180,7 @@
         "recLJmEpfjKAPfD4y",
         "rec760ePwCwkULqeP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSEHANDLINGEQUIPMENT*"
       ],
@@ -39524,6 +39330,7 @@
       "Map to Rule": [
         "recgZrsAdhmU4DD3q"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MIXING"
       ],
@@ -40063,6 +39870,7 @@
         "rec2Ru6ppVi2K6OzD",
         "recsjiIBXxWxbycM3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LOUVREDPANEL*"
       ],
@@ -40366,6 +40174,7 @@
         "recXFiltq1KJjO91O",
         "recsl9rwganlW32bG"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SMOKECURTAIN*"
       ],
@@ -40589,6 +40398,7 @@
         "recUkmoQQvY91YNwq",
         "recVGSdplndRYsTWC"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONCEPT_BUILDINGMASS*"
       ],
@@ -40695,6 +40505,7 @@
         "rec84go8vMo3Y6kp3",
         "rectebFlc9k9f9gjJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AWNING"
       ],
@@ -40844,6 +40655,7 @@
         "recKkUodXcdbtD0L9",
         "rechyA1PRCHFiYJ1N"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DROPDOWNPANEL*"
       ],
@@ -40923,6 +40735,7 @@
         "recut63IKRehTThWT",
         "recq6snWUZT9KeOT8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TELEPHONE"
       ],
@@ -40981,6 +40794,7 @@
       "Map to Rule": [
         "recTQ2bTHrPFbsgfO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BASIN"
       ],
@@ -41089,6 +40903,7 @@
         "recCEketJbFnRz93e",
         "rec5rghc5HQpisdHb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSECHUTE*"
       ],
@@ -41144,6 +40959,7 @@
         "recgcrQqjBo0dOcFh",
         "reciQht9xosZLkNdw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERFEATURE*"
       ],
@@ -41301,6 +41117,7 @@
         "rec3jYbAIexGutaqE",
         "rectEbymi3caEVdBU"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GAS*"
       ],
@@ -41693,6 +41510,7 @@
         "recol2hqmqEgFoieb",
         "rec1Z84g9bjItilu3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CLADDING"
       ],
@@ -41910,6 +41728,7 @@
         "recN3PF5MIzUdDkCH",
         "rec7Dy17ih74bD328"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CEILINGHANGER*"
       ],
@@ -42216,6 +42035,7 @@
       "Map to Rule": [
         "recRgpiGqCL43dpyR"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRIVEN"
       ],
@@ -42269,6 +42089,7 @@
         "recxjeBAYLMT2e21x",
         "recauHv38SKUhadn0"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RACK*"
       ],
@@ -42469,6 +42290,7 @@
         "rec9BhixL9EjjK4sJ",
         "reczlok0ZO3dcz8d9"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EXHAUSTAIR*"
       ],
@@ -42820,6 +42642,7 @@
         "recmm9pE3dHZdQPRu",
         "recXFiltq1KJjO91O"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REGISTER"
       ],
@@ -42909,6 +42732,7 @@
       "Entity Key": [
         "recxclfPkT89IFp4x"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "ELECTRICAL*"
       ],
@@ -42988,6 +42812,7 @@
       "Map to Rule": [
         "recbpflJANaSqND4B"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "ESCALATOR"
       ],
@@ -43014,8 +42839,7 @@
       "Regulatory Codes and Standards": [
         "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR"
     }
   },
   {
@@ -43080,6 +42904,7 @@
       "Map to Rule": [
         "recAezpes3owfjQ6w"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "PIPESUPPORT*"
       ],
@@ -43382,6 +43207,7 @@
         "receHNmhQtChU6KWV",
         "recP0YWCTaBe4t3QF"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CULVERT"
       ],
@@ -43598,6 +43424,7 @@
       "Map to Rule": [
         "recmBKu6lJ6ffYC3K"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SURGETANK*"
       ],
@@ -43642,6 +43469,7 @@
       "Map to Rule": [
         "rec5DZsS0ufKiJAah"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TURNSTILE*"
       ],
@@ -43791,6 +43619,7 @@
         "rec0VrF1kSmlEqyJG",
         "recqISKHhSUFXHin3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIREENGINEACCESSROAD*"
       ],
@@ -44043,6 +43872,7 @@
         "rectQr3fqy3mUnpmL",
         "recQtuYefL0jO2PMW"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "CUBICLE*"
       ],
@@ -44095,6 +43925,7 @@
         "recOJuXfzJzT1DJFA",
         "rec1sHjUDz5GrSVH3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DOUBLECHECK"
       ],
@@ -44186,6 +44017,7 @@
         "recGPg1QgU41ZqQgZ",
         "recfefQ3d8M8R2RUV"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "JUNCTION"
       ],
@@ -44370,6 +44202,7 @@
         "recbZ5PhTlIDnjNFf",
         "recureYrwJyhDGZSB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MECHANIZEDCARPARKING*"
       ],
@@ -44579,6 +44412,7 @@
         "reciQMSnNT22JrlD6",
         "recavMYPEm813Rbms"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "INCINERATOR*"
       ],
@@ -44630,6 +44464,7 @@
         "rec3WAsv2WnWznDw2",
         "recMeHIOA4anihAdf"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIRELIFTSWITCH*"
       ],
@@ -44675,6 +44510,7 @@
       "Map to Rule": [
         "rec14t1QL4OqFYUOx"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RETURNINLET*"
       ],
@@ -44764,6 +44600,7 @@
       "Map to Rule": [
         "recHqcQd5t5vmGAeS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_RECYCLABLESCHUTE*"
       ],
@@ -44809,6 +44646,7 @@
       "Map to Rule": [
         "rec5UyHFIaZVOY9JS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLEDWATER*"
       ],
@@ -44944,6 +44782,7 @@
       "Map to Rule": [
         "rec9HkPrWr1fZKrQg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -44994,6 +44833,7 @@
       "Map to Rule": [
         "recBsFYC7YC1ZABCJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STRIP_FOOTING"
       ],
@@ -45414,6 +45254,7 @@
         "recQPyvoNUrYvEloG",
         "recL9z8RyDMXLTVjQ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PIPESUPPORT*"
       ],
@@ -45533,6 +45374,7 @@
         "recpxAKESwsLEP5to",
         "recbTgRb1w7xz02qB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSEBIN*"
       ],
@@ -45696,6 +45538,7 @@
         "recHN7HWEm5vhY1YT",
         "recMLUr3PkuIRXbTF"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRHANDLER"
       ],
@@ -45995,6 +45838,7 @@
         "recvYgInt1TcRE0F0",
         "recwSjMLNIhKwOc7a"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LPS_EARTHPIT*"
       ],
@@ -46061,6 +45905,7 @@
         "rec2MEYamVZBsz8IY",
         "rec39ai1OJkOy6NB5"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SUMPPUMP"
       ],
@@ -46132,6 +45977,7 @@
         "recNK6P5VQ5qKcjKQ",
         "recppPhvDT3m8SVpS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STOPCOCK"
       ],
@@ -46187,6 +46033,9 @@
       "Entity Key": [
         "recKKmopvM5vWItDb"
       ],
+      "IP Key (Component_Parameter)": [
+        "recqduM5m4GcXWosF"
+      ],
       "Map to Rule": [
         "recwDP6B6qAoeIuNy",
         "recSGqAogBR1GjgaO",
@@ -46202,8 +46051,22 @@
         "receG4d5LWJ4qp8m6",
         "recZGgRNtesApMVYR",
         "reccdqppp4W6mdiwK",
-        "recJjnXq74AOY77x2"
+        "recJjnXq74AOY77x2",
+        "recP4koun4eLc99Rq",
+        "recOCXc5zCqvqx01V",
+        "recG0Y3YFpxghBRsT",
+        "recycqT01jWXgAmrJ",
+        "recTQ2bTHrPFbsgfO",
+        "recLdMLX7942TMRwV",
+        "recne2PAbf9KnCtvg",
+        "recVrVApUPasT2vfc",
+        "recuw0TvlnVP7dKGr",
+        "rec9jHIZaVVA3VoVJ",
+        "recbRAGuCLGjd7lse",
+        "recwG00l7cIK2sfEx",
+        "recAeEW964DMV1Te5"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -46229,10 +46092,24 @@
         "Batch X",
         "Batch 1",
         "Batch 1",
-        "Batch 1"
+        "Batch 1",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3"
       ],
       "Agency": [
-        "PUB"
+        "PUB",
+        "BCA"
       ],
       "Codes and Standards": [
         "Code of Practice on Sewerage and Sanitary Works",
@@ -46249,14 +46126,29 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
-        "Code of Practice on Sewerage and Sanitary Works"
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Technical Requirements for S10 to S29 Public Shelters",
+        "Technical Requirements for S10 to S29 Public Shelters",
+        "Technical Requirements for S10 to S29 Public Shelters",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services",
+        "SS636 Code of Practice for Water Services"
       ],
       "Discipline (Entity Key)": [
         "MEP",
         "ARC"
       ],
       "Regulatory Codes and Standards": [
-        "Code of Practice on Sewerage and Sanitary Works"
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Technical Requirements for S10 to S29 Public Shelters",
+        "SS636 Code of Practice for Water Services"
       ],
       "IFC4 Entity.Sub-Type": "IfcSanitaryTerminal.NOTDEFINED"
     }
@@ -46276,6 +46168,7 @@
       "Map to Rule": [
         "receoC9q1ekiSZYQy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRAFFICCONTROL*"
       ],
@@ -46302,49 +46195,6 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "IFC4 Entity.Sub-Type": "IfcJunctionBox.TRAFFICCONTROL*"
-    }
-  },
-  {
-    "id": "recMC4GG2kGnSqTXl",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Taxi Stand Bench",
-      "OT KEY (Sub-Type)": [
-        "recQPQ4DBySrz7exs"
-      ],
-      "Autonumber": 746,
-      "Entity Key": [
-        "recvtlFzmFYepYiVJ"
-      ],
-      "Map to Rule": [
-        "recveberYrihnUMcq"
-      ],
-      "IFC4 Sub Type": [
-        "BENCH*"
-      ],
-      "CO KEY": "TAX_BEN_746",
-      "IFC4 Entities": [
-        "IfcFurniture"
-      ],
-      "Subtype or IFC": [
-        "BENCH*"
-      ],
-      "Batch (Rules)": [
-        "Batch 2"
-      ],
-      "Agency": [
-        "URA"
-      ],
-      "Codes and Standards": [
-        "Urban Design Guidelines"
-      ],
-      "Discipline (Entity Key)": [
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "Urban Design Guidelines"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcFurniture.BENCH*"
     }
   },
   {
@@ -46412,6 +46262,7 @@
         "rectQTuJnnNlKDWmD",
         "recqaDFh0p9CjnP52"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ISOLATING"
       ],
@@ -47102,6 +46953,7 @@
       "Map to Rule": [
         "recxG5uWohfIwY9hP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNPOST_REFUSETEMPORARYPARKING*"
       ],
@@ -47370,6 +47222,7 @@
         "recHyYy7pqtqtWa9o",
         "receDapi5hyGYSBWh"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_EVACUATIONLIFT*"
       ],
@@ -47426,6 +47279,7 @@
         "recckYfeRr3rVrAmo",
         "recUfQa15mnnc8t0X"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BALCONYSCREEN*"
       ],
@@ -47643,8 +47497,10 @@
         "recLF4asOIcKHcYAw"
       ],
       "Map to Rule": [
-        "recLSjfwBkfC8bLVr"
+        "recLSjfwBkfC8bLVr",
+        "recQEttrBkTdJfFHq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -47656,6 +47512,7 @@
         "NOTDEFINED"
       ],
       "Batch (Rules)": [
+        "Batch 2",
         "Batch 2"
       ],
       "Properties [Data Type]": "CorrosionResistant [Boolean]",
@@ -47663,13 +47520,15 @@
         "NEA"
       ],
       "Codes and Standards": [
-        "Code of Practice on Environmental Health (COPEH)"
+        "Code of Practice on Environmental Health (COPEH)",
+        "SS 593: Code of Practice for Pollution Control (COPPC)"
       ],
       "Discipline (Entity Key)": [
         "MEP"
       ],
       "Regulatory Codes and Standards": [
-        "Code of Practice on Environmental Health (COPEH)"
+        "Code of Practice on Environmental Health (COPEH)",
+        "SS 593: Code of Practice for Pollution Control (COPPC)"
       ],
       "IFC4 Entity.Sub-Type": "IfcStackTerminal.NOTDEFINED"
     }
@@ -47738,6 +47597,7 @@
         "recUWQyVPIGH228eD",
         "recOsoAuW4ra2n53C"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PIPERACK*"
       ],
@@ -47791,6 +47651,7 @@
       "Map to Rule": [
         "recCb6xI1T92wriDt"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DIAPHRAGMWALLSYSTEM*"
       ],
@@ -51385,6 +51246,7 @@
         "recrh1IHSxGT11EWS",
         "recrAxUohdotpn1CJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PPVCMODULE*"
       ],
@@ -51454,6 +51316,7 @@
         "recwSjMLNIhKwOc7a",
         "recI7O4a7dcA8BQ24"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LPS_DOWNCONDUCTOR*"
       ],
@@ -51621,6 +51484,7 @@
         "recCGzsgcvRpDudhJ",
         "rec9XLvuOhcsWMS6K"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STRATALOT*"
       ],
@@ -51715,6 +51579,7 @@
       "Map to Rule": [
         "recdch8sn8KQjkBRk"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BOREHOLE*"
       ],
@@ -52037,6 +51902,7 @@
         "recpT2Tc9LupD2edL",
         "recHB9b5tSwKJvLEr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFRIGERATOR"
       ],
@@ -52093,6 +51959,7 @@
         "recoNNisOxRS78Nxp",
         "recqWNekM1DOkVJMK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SMOKEDAMPER"
       ],
@@ -52138,6 +52005,7 @@
       "Map to Rule": [
         "recoOTPu5fE78kdur"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -52231,6 +52099,7 @@
       "Map to Rule": [
         "recqKTunyDI4bbd2f"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SGFA*"
       ],
@@ -52264,7 +52133,7 @@
     "id": "recNpG5HP3qDqtSfe",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Tank",
+      "Identified Component": "Fire Extinguishing Tank",
       "OT KEY (Sub-Type)": [
         "recxKhnMisTYHZ4jD"
       ],
@@ -52272,17 +52141,48 @@
       "Entity Key": [
         "recAFISJyNfTeNrVZ"
       ],
+      "IP Key (Component_Parameter)": [
+        "recCr6cbiMWDb2itc",
+        "recLXoUzn7vx35JzF",
+        "rec9zDNVpSt4oQNoY",
+        "rectQtyZeeClhGG2N",
+        "rec5lnrsfEUVk79SZ"
+      ],
       "Map to Rule": [
         "rec0s2a8KYslOaBIH",
         "rec9Wz007lYWk8Dlu",
         "rec5fBT4rGsHuYzZd",
-        "rec7rScQxasC7aypb"
+        "rec7rScQxasC7aypb",
+        "rec2tzDPgv1xxkUys",
+        "recyqKypyZRBPgHmo",
+        "recuCcpfxZ9MuV6nO",
+        "reciZdUJBhIKg2I2z",
+        "recnFqAqZqBPJVPxO",
+        "recVr5dzI0uDYMjFj",
+        "recO1uAMjS0razxTV",
+        "recJxnUYaOXcSfQCd",
+        "recXFyRDjg0lMjwVK",
+        "rec0BOBmismt8zWvT",
+        "recB7lIliEZSbc9or",
+        "recjsnScb9CtkXCgR",
+        "recZiYbREpXOmjlB7",
+        "reczdyK0mcc5Cbsnj",
+        "rec86Aokv7BfbObnU",
+        "rec14D8WD1PJaxld0",
+        "recfV13pVDGw8gThW",
+        "rec1ozOlUwDFpJUpe",
+        "rec20VK2UOkAmacp3",
+        "recAqQVbRi2lnBNmL",
+        "rec6K3iqpi1gLxGnl",
+        "recwhoKnaZgaAUSv4",
+        "rec2zKk2iXVPlXTal",
+        "recmsBxvsh5TJIs4P"
       ],
-      "Status": "Not used",
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIREEXTINGUISHINGTANK*"
       ],
-      "CO KEY": "TAN_FIR_731",
+      "CO KEY": "FIR_FIR_731",
       "IFC4 Entities": [
         "IfcTank"
       ],
@@ -52293,12 +52193,61 @@
         "NA",
         "NA",
         "NA",
-        "NA"
+        "NA",
+        "Batch X",
+        "NA",
+        "Batch X",
+        "NA",
+        "NA",
+        "NA",
+        "Batch X",
+        "Batch 2",
+        "Batch 2",
+        "Batch 2",
+        "NA",
+        "Batch 2",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "Batch 4",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "Batch X",
+        "Batch 4"
       ],
+      "Properties [Data Type]": "ExtinguisherType [Label]",
       "Agency": [
         "SCDF"
       ],
       "Codes and Standards": [
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
@@ -52309,6 +52258,11 @@
       ],
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
+      ],
+      "Sample Value (Property)": [
+        "CLEAN AGENT (ExtinguisherType)",
+        "DRY CHEMICAL (ExtinguisherType)",
+        "WET CHEMICAL (ExtinguisherType)"
       ],
       "IFC4 Entity.Sub-Type": "IfcTank.FIREEXTINGUISHINGTANK*"
     }
@@ -52332,6 +52286,7 @@
       "Map to Rule": [
         "recMGt8BtjnJn5a4h"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLAPDOOR*"
       ],
@@ -52383,6 +52338,7 @@
         "recupIIoUT09BYakJ",
         "recxYTUNpbHAKcRZ8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WASTEDIVERTER*"
       ],
@@ -52459,6 +52415,7 @@
         "recNZbyBIQBElVQq5",
         "recO0cjLI42uLg8Db"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HOSE*"
       ],
@@ -52538,6 +52495,7 @@
         "recr1pBSA0YuurB37",
         "rec1YBys900gBTtpm"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MAINTENANCE*"
       ],
@@ -52608,6 +52566,7 @@
         "recLkH7quWDzaAfpy",
         "reclUMvwnW6OdaTnI"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSECONTAINER*"
       ],
@@ -52687,6 +52646,7 @@
       "Map to Rule": [
         "recJCnUzewt4MRCQr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLUSHBOLT*"
       ],
@@ -52742,6 +52702,7 @@
         "recuqud5nwBeU7Wtl",
         "recbpflJANaSqND4B"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "ESCALATOR"
       ],
@@ -52780,8 +52741,7 @@
       "Regulatory Codes and Standards": [
         "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.ESCALATOR"
     }
   },
   {
@@ -53254,6 +53214,7 @@
         "recEjB7299FiDoUqb",
         "recWvcepJwrxZJ7z4"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -54158,6 +54119,7 @@
         "recG5Z7OYFVr7e4xk",
         "recd3e1f53HPDRYce"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PARTITIONING"
       ],
@@ -54234,6 +54196,7 @@
         "recCEketJbFnRz93e",
         "recOupPHI1dNOfGNN"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BEAMFACADEWALL*"
       ],
@@ -54294,6 +54257,7 @@
         "rechg4ynp5fN7PvGt",
         "recOJuXfzJzT1DJFA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FREESTANDINGWATERHEATER"
       ],
@@ -54353,6 +54317,7 @@
         "recrTfaF34mpxHT6C",
         "reca79ssm6pdQk97y"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -54459,6 +54424,7 @@
       "Map to Rule": [
         "recxG5uWohfIwY9hP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSETRUCKTEMPORARYPARKING*"
       ],
@@ -54504,6 +54470,7 @@
       "Map to Rule": [
         "recq6snWUZT9KeOT8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TELEVISION*"
       ],
@@ -54610,6 +54577,7 @@
         "recRsKyjlVVznG4rF",
         "recjJDxkZxnCotYUL"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLABLESCHUTEHOPPER*"
       ],
@@ -54689,6 +54657,7 @@
         "recLoREuyc1ixhf6F",
         "recUhDgwHCH3VGNQb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLINGBIN*"
       ],
@@ -54750,6 +54719,7 @@
         "recBFSmlTptRaAa8i",
         "recoZegUPiSTuFAaW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -54856,6 +54826,7 @@
         "recq3hiOTK44kP1ni",
         "recTEIjugIbRIxYtV"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PORTABLEFIREEXTINGUISHER*"
       ],
@@ -55003,6 +54974,7 @@
         "rec0nNyOI4z2rMh5M",
         "receE8cFkDCfz9Hue"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ROLLERSHUTTER*"
       ],
@@ -55148,6 +55120,7 @@
         "recpXOz77fYJee4vi",
         "reciQMSnNT22JrlD6"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -55307,6 +55280,7 @@
         "recKu0IHQuIjam6A1",
         "recB0x0ER7FtRK3tJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRAINAGE*"
       ],
@@ -55392,6 +55366,7 @@
         "recHE0r0cXbV2FOjM",
         "recrqlLSOweBeGoPR"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CABINET*"
       ],
@@ -55515,44 +55490,6 @@
     }
   },
   {
-    "id": "recQ6TZHOzpKc4VYw",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Seating",
-      "OT KEY (Sub-Type)": [
-        "recQPQ4DBySrz7exs"
-      ],
-      "Autonumber": 550,
-      "Entity Key": [
-        "recvtlFzmFYepYiVJ"
-      ],
-      "IP Key (Component_Parameter)": [
-        "rec5aufrVaDpatq8M"
-      ],
-      "Status": "Required",
-      "IFC4 Sub Type": [
-        "BENCH*"
-      ],
-      "CO KEY": "SEA_BEN_550",
-      "IFC4 Entities": [
-        "IfcFurniture"
-      ],
-      "Subtype or IFC": [
-        "BENCH*"
-      ],
-      "Properties [Data Type]": "Function [Label]",
-      "Agency": [],
-      "Discipline (Entity Key)": [
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [],
-      "Actual Value (Property)": [
-        "SEATING (Function)"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcFurniture.BENCH*"
-    }
-  },
-  {
     "id": "recQ6crzMuf7y2ZoK",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -55568,6 +55505,7 @@
         "rece9WIsaxfWxt0i0",
         "recznGODVlf3hUPjy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_SMOKEVENT*"
       ],
@@ -55703,6 +55641,7 @@
       "Map to Rule": [
         "recQEttrBkTdJfFHq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ENTRY"
       ],
@@ -55730,104 +55669,6 @@
         "SS 593: Code of Practice for Pollution Control (COPPC)"
       ],
       "IFC4 Entity.Sub-Type": "IfcDuctFitting.ENTRY"
-    }
-  },
-  {
-    "id": "recQO9707dUqXBrgH",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Chiller",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 109,
-      "Entity Key": [
-        "recAVIrUWRB6uA7XT"
-      ],
-      "Map to Rule": [
-        "recmYVTYI6yiSNo9N",
-        "reczoHjKg9AqNNi3s",
-        "recd72mIKSxiXaJRg",
-        "recOLNPGtQLdkR7eW",
-        "recd8RZ7Q70LDxOB5",
-        "recgehOfi7X8qwyLb",
-        "recKEbsh7wPvYlSoZ",
-        "recOq4jbXsEvHpFEc",
-        "recedv9VIroZKT0RV",
-        "recTmI1UpsiUiMRQx",
-        "recl79KURtQJi6aLO",
-        "recvdDOhgtVf2UP3H",
-        "recsbmPAQBeB936cX",
-        "recwzZvYBWmDxvYKB",
-        "rec75rlXzUOLvf5Cr",
-        "recfYndSOpe8W0j9q",
-        "recrpEDUW3dYoUCIr",
-        "recfgJ9JbBybpc0ip"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "CHI_NOT_109",
-      "IFC4 Entities": [
-        "IfcChiller"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "NA",
-        "Batch 2",
-        "Batch 2",
-        "Batch 2",
-        "Batch 1",
-        "NA",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch X",
-        "Batch 2",
-        "Batch 2"
-      ],
-      "Agency": [
-        "URA"
-      ],
-      "Codes and Standards": [
-        "Urban Design Guidelines",
-        "Urban Design Guidelines",
-        "Urban Design Guidelines",
-        "Urban Design Guidelines",
-        "Gross Floor Area Handbook",
-        "Urban Design Guidelines",
-        "Conservation Guidelines",
-        "Conservation Guidelines",
-        "Conservation Guidelines",
-        "Conservation Guidelines",
-        "Envelope Control Guidelines",
-        "Envelope Control Guidelines",
-        "Envelope Control Guidelines",
-        "Conservation Guidelines",
-        "Conservation Guidelines",
-        "Conservation Guidelines",
-        "Business 2 (Industrial) Handbook",
-        "Urban Design Guidelines"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Urban Design Guidelines",
-        "Gross Floor Area Handbook",
-        "Conservation Guidelines",
-        "Envelope Control Guidelines",
-        "Business 2 (Industrial) Handbook"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcChiller.NOTDEFINED"
     }
   },
   {
@@ -55863,6 +55704,7 @@
         "recFhJWT0jk3YOzvb",
         "recsjZZm4osqyazrj"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SECURITYLIGHTING"
       ],
@@ -55998,6 +55840,7 @@
       "Map to Rule": [
         "rec6LG5FTxvTe5jBb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRCONDITIONINGTRAY*"
       ],
@@ -56168,6 +56011,7 @@
         "recYlgufHfqcAmpQN",
         "recMnV9ZYWB50ryXH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -56469,6 +56313,7 @@
         "reciWVyRYTgkMefhA",
         "rec834UDy4rReLtJa"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "INTEGRATEDCOMMUNICATIONCONSOLE*"
       ],
@@ -56625,6 +56470,7 @@
       "Map to Rule": [
         "reclAaJ07MSwRdRun"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BEAMDETECTOR*"
       ],
@@ -56708,6 +56554,7 @@
         "recpEWBdmF5gxAt0X",
         "rectE9ycBYhiQe8lA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FAUCET"
       ],
@@ -56902,6 +56749,7 @@
         "rec9U0d5siQshXfDL",
         "recPA8tzr12DpWrpw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DISCHARGE*"
       ],
@@ -56986,6 +56834,7 @@
         "recrhF42zv3NSYJgw",
         "rec4fexBTYfcL5o0N"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DROPBARRIER*"
       ],
@@ -57085,6 +56934,7 @@
       "Map to Rule": [
         "recomzWoPznGmfvAx"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHIELD*"
       ],
@@ -57283,6 +57133,7 @@
       "Map to Rule": [
         "recntaCFWjoJw3nt7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BACKGUARD*"
       ],
@@ -57446,6 +57297,7 @@
       "Map to Rule": [
         "recbZuXH63AV4u076"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDANDPREFINISHEDCEILING*"
       ],
@@ -57545,6 +57397,7 @@
         "recWa32cPFDwk10nC",
         "reciQMSnNT22JrlD6"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FUELMETER*"
       ],
@@ -57775,6 +57628,7 @@
         "rec9EcfPaJy2OQq5O",
         "recrYP4OMCfuosbNn"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CHILDPROTECTIONSEAT*"
       ],
@@ -57873,6 +57727,7 @@
       "Map to Rule": [
         "recMZkrnstCUFDUdW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_FLOORMARKING*"
       ],
@@ -57928,6 +57783,7 @@
         "rec34H87EqcYhJvXJ",
         "recFAcitlfZTIoe9G"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_FORESHORELINE*"
       ],
@@ -58057,6 +57913,7 @@
         "rec58abEppN4UcHHA",
         "recRgpiGqCL43dpyR"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BORED"
       ],
@@ -58147,6 +58004,7 @@
         "recNlRc3GLR7dYgtz",
         "rectm8aFKLb7kXbUg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ARTICULATEDVEHICLELOT*"
       ],
@@ -58222,7 +58080,7 @@
     "id": "recTCXm0bBpyrPnoa",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Chair",
+      "Identified Component": "Fixed Seating",
       "OT KEY (Sub-Type)": [
         "recrPXVjLYKx6xbzD"
       ],
@@ -58266,7 +58124,7 @@
       "IFC4 Sub Type": [
         "CHAIR"
       ],
-      "CO KEY": "CHA_CHA_103",
+      "CO KEY": "FIX_CHA_103",
       "IFC4 Entities": [
         "IfcFurniture"
       ],
@@ -58443,6 +58301,7 @@
       "Map to Rule": [
         "rec3HEsAxJdJonwo1"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BACKWASHWATERHOLDINGTANK*"
       ],
@@ -58486,6 +58345,7 @@
       "Map to Rule": [
         "rec28GwOEk4GYH9J8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FUMEHOODEXHAUST"
       ],
@@ -58573,6 +58433,7 @@
       "Map to Rule": [
         "recnYQ5rXAPsT6mFP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRYWEATHERFLOW*"
       ],
@@ -58864,6 +58725,7 @@
         "recQQPKLlDJG2NuQP",
         "recCzhWcNZDwlySW8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "KERBRAMP*"
       ],
@@ -59021,6 +58883,7 @@
         "recu0nyl419FYxuVc",
         "recRchGKeWwsQK8ZY"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BALANCINGTANK*"
       ],
@@ -59153,6 +59016,7 @@
         "recwjkdPZesQRgzas",
         "recRVLwHkpMGBaaEx"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDMEPPLANTMODULE*"
       ],
@@ -60489,6 +60353,7 @@
         "recniFu4S71ygyMvn",
         "recAkR40EzqNAeBpK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PWCSMAINCONTROL*"
       ],
@@ -60564,6 +60429,7 @@
         "rec8P2KooA75O7jWZ",
         "recfGkLKp22P4ptNZ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GREASE"
       ],
@@ -60733,7 +60599,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "AGF_BonusGFAType [Label]; \nAGF_DetailedUse [Label]; \nAGF_DevelopmentUse [Label]; \nAGF_FacilityType [Label]; \nAGF_Name [Label]; \nAGF_Note [Label]; \nAGF_UnitNumber [Label]; \nAGF_UseQuantum [Label]",
+      "Properties [Data Type]": "AGF_BonusGFAType [Label]; \nAGF_SupportingFacility [Label]; \nAGF_DevelopmentUse [Label]; \nAGF_BuildingTypology [Label]; \nAGF_Name [Label]; \nAGF_Note [Label]; \nAGF_UnitNumber [Label]; \nAGF_UseQuantum [Label]",
       "Agency": [
         "URA"
       ],
@@ -60779,12 +60645,12 @@
         "PLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse)",
         "OPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse)",
         "PARK (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "AQUACULTURE HATCHERY (AGF_FacilityType)",
-        "ORNAMENTAL BIRD FARM (AGF_FacilityType)",
-        "ORNAMENTAL FISH FARM (AGF_FacilityType)",
-        "PLANT NURSERY (AGF_FacilityType)",
-        "POULTRY HATCHERY (AGF_FacilityType)",
-        "POULTRY FARM (AGF_FacilityType)",
+        "AQUACULTURE HATCHERY (AGF_BuildingTypology)",
+        "ORNAMENTAL BIRD FARM (AGF_BuildingTypology)",
+        "ORNAMENTAL FISH FARM (AGF_BuildingTypology)",
+        "PLANT NURSERY (AGF_BuildingTypology)",
+        "POULTRY HATCHERY (AGF_BuildingTypology)",
+        "POULTRY FARM (AGF_BuildingTypology)",
         "INDUSTRIAL CANTEEN (AGF_Name)",
         "CLOUD KITCHEN (AGF_Name)",
         "ATM KIOSK (AGF_Name)",
@@ -60824,6 +60690,7 @@
         "recCj0dr3Z8aeSVYG",
         "recgTLRNWUreuMeTd"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRAPDOOR"
       ],
@@ -61104,6 +60971,7 @@
         "reckTbs4DBWpNwJdE",
         "recayVQfB90FEGtBq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -61141,60 +61009,6 @@
         "Code of Practice on Surface Water Drainage"
       ],
       "IFC4 Entity.Sub-Type": "IfcDistributionSystem.NOTDEFINED"
-    }
-  },
-  {
-    "id": "recUS3MBlMhtzejwI",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Diesel Generator",
-      "OT KEY (Sub-Type)": [
-        "recmZv60w5R9jvDNz"
-      ],
-      "Autonumber": 172,
-      "Entity Key": [
-        "recDwV5KmsoBB09eI"
-      ],
-      "Map to Rule": [
-        "recmXpiyyl4ppzKwy",
-        "recv0PlSj267l9BXP",
-        "recx1KTL20zlpxwvY",
-        "recFbHchUvD0J6uyp"
-      ],
-      "IFC4 Sub Type": [
-        "ENGINEGENERATOR"
-      ],
-      "CO KEY": "DIE_ENG_172",
-      "IFC4 Entities": [
-        "IfcElectricGenerator"
-      ],
-      "Subtype or IFC": [
-        "ENGINEGENERATOR"
-      ],
-      "Batch (Rules)": [
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch X"
-      ],
-      "Agency": [
-        "SCDF",
-        "BCA"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Technical Requirements for S10 to S29 Public Shelters"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Technical Requirements for S10 to S29 Public Shelters"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcElectricGenerator.ENGINEGENERATOR"
     }
   },
   {
@@ -61564,49 +61378,6 @@
     }
   },
   {
-    "id": "recUymyo1kYvGYWsk",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Communication Fixture",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 126,
-      "Entity Key": [
-        "recwyoHk1O3v00GEI"
-      ],
-      "Map to Rule": [
-        "recvv3Z2ru13TV811"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "COM_NOT_126",
-      "IFC4 Entities": [
-        "IfcOutlet"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch 1"
-      ],
-      "Agency": [
-        "BCA"
-      ],
-      "Codes and Standards": [
-        "Technical Requirements for Household Shelters"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Technical Requirements for Household Shelters"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcOutlet.NOTDEFINED"
-    }
-  },
-  {
     "id": "recV0gwo28bHiBCep",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -61624,6 +61395,7 @@
       "Map to Rule": [
         "recoWK7fhbwYJ344X"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RUNG*"
       ],
@@ -61690,6 +61462,7 @@
         "recmGPDHhAdF9BWWS",
         "recwrJKsO9ZSrd5HW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LOUVRE"
       ],
@@ -61836,6 +61609,7 @@
         "rec6zxODoIdHEHQAp",
         "recnBcfR2Ev2uBWEW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLABLECONTAINER*"
       ],
@@ -62040,6 +61814,7 @@
         "recxNaoxpAnbAuKm8",
         "recmm9pE3dHZdQPRu"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FRESHAIR*"
       ],
@@ -62298,6 +62073,7 @@
         "recUlCx7lQwlzNaLe",
         "reczWWGvhdxdbpj6I"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DEEPTUNNELSEWERAGE*"
       ],
@@ -62355,6 +62131,7 @@
         "recKRQRoEw1MyyTUH",
         "rec8MdV0rscujKtOG"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFT_RESCUEHOOK*"
       ],
@@ -62468,6 +62245,7 @@
       "Map to Rule": [
         "recuxS1CXZKIm1du3"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LEAKSENSOR*"
       ],
@@ -62514,6 +62292,7 @@
         "recnwnkQB1eDXvVUQ",
         "recj36YBR3fmNPsgH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OIL"
       ],
@@ -62604,6 +62383,7 @@
         "recxNaoxpAnbAuKm8",
         "recmm9pE3dHZdQPRu"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RETURNAIR*"
       ],
@@ -62732,6 +62512,7 @@
         "recSGo2b2B9mRkNOe",
         "recTUVz08ZfOVhaaN"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PIPESILENCER*"
       ],
@@ -62780,6 +62561,7 @@
       "Map to Rule": [
         "rectrkmFEDYBIn1sd"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RELIGIOUSSYMBOL*"
       ],
@@ -62838,6 +62620,7 @@
         "recXOds8x7aM5Je4z",
         "recSl8HSw8FN3SLpB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_PWDHOLDINGPOINT*"
       ],
@@ -62911,6 +62694,7 @@
         "recbH4vh0sVpIqyQK",
         "recrUstHEXhXTL4NZ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "POOLSKIMMER*"
       ],
@@ -63474,6 +63258,7 @@
       "Map to Rule": [
         "recUkmoQQvY91YNwq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONCEPT_ENVELOPEREQUIRED*"
       ],
@@ -63523,6 +63308,7 @@
         "rec33H2PZXswAXg8z",
         "recNw5pS2f0g3gxDk"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DROPINLETCHAMBER*"
       ],
@@ -63585,6 +63371,7 @@
         "reccdqppp4W6mdiwK",
         "recJjnXq74AOY77x2"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -63701,6 +63488,7 @@
       "Map to Rule": [
         "rechN23p6mudFCIOP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "UNIT*"
       ],
@@ -64091,6 +63879,7 @@
         "recPmkebbeJBsr1Js",
         "recdvietvdpJLqV0O"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OPENING"
       ],
@@ -64841,6 +64630,7 @@
       "Map to Rule": [
         "recStlr8H1MEF2HmT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BYPASSCHANNEL*"
       ],
@@ -65050,6 +64840,7 @@
         "recdJTkWQEJliPFAv",
         "recOjAahclMVQMjxC"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "VENTILATIONSLEEVE*"
       ],
@@ -65583,6 +65374,7 @@
         "recN8wuseaAEgAdhO",
         "recGhb9KDRxUVhj6r"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "STORAGE"
       ],
@@ -65698,6 +65490,7 @@
         "rec6pLcVncRSI4VBi",
         "rec5xMpgqSR2j7kGD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DOMESTICHOTWATER*"
       ],
@@ -65868,6 +65661,7 @@
         "rec3ovgMdPhPeKb5P",
         "recxkUwD6bnJzVmXr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRELLIS*"
       ],
@@ -66141,6 +65935,7 @@
         "recsuFQdfNdy3bEPd",
         "rec7YwpKL7F2uNY3x"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -66251,6 +66046,7 @@
         "recqG4dY8ZPzO6hho",
         "recw6c8vMXEJTCpXO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -66420,6 +66216,7 @@
         "recPKBILdwiJTMRta",
         "reccoMwvrCzau4TgM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CURTAIN_PANEL"
       ],
@@ -66654,6 +66451,7 @@
         "recT76YXBWWxRGrfs",
         "rec5Eupc1b16WcSGB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPRINKLER"
       ],
@@ -67014,6 +66812,7 @@
         "rec1U8SQHklQo0RKO",
         "recq6snWUZT9KeOT8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "COMPUTER"
       ],
@@ -67113,6 +66912,7 @@
         "rec2vY5R7hXi7grYA",
         "reccsSRmKtjo8KZiA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SECTIONAL*"
       ],
@@ -67226,6 +67026,7 @@
         "recKtobDT0rs9PfSh",
         "recs0VWkZx1zqNNGO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ROOFING"
       ],
@@ -67670,6 +67471,7 @@
         "recPdQjteps3tUzGW",
         "recvxipJKaQy3tCU8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PWCSINSPECTIONCHAMBER*"
       ],
@@ -67784,60 +67586,6 @@
     }
   },
   {
-    "id": "recZDAgzIS97ubiVC",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Refuse Chute Hopper",
-      "OT KEY (Sub-Type)": [
-        "recXMJAaNysofGJrW"
-      ],
-      "Autonumber": 198,
-      "Entity Key": [
-        "recAXlJ2xEv3v8z6O"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recqkmpUjyFZBSmHv",
-        "recfpgPG9MzjmE2UQ"
-      ],
-      "Map to Rule": [
-        "reczZ9tFWI1AJ1gLG",
-        "recbtbCHSdqwEgItm",
-        "recWJe5ietydzjOOn"
-      ],
-      "IFC4 Sub Type": [
-        "REFUSECHUTEHOPPER*"
-      ],
-      "CO KEY": "REF_REF_198",
-      "IFC4 Entities": [
-        "IfcDoor"
-      ],
-      "Subtype or IFC": [
-        "REFUSECHUTEHOPPER*"
-      ],
-      "Batch (Rules)": [
-        "Batch 3",
-        "NA",
-        "Batch 3"
-      ],
-      "Properties [Data Type]": "Material [Label]; \nWithRubberGasket [Boolean]",
-      "Agency": [
-        "SCDF"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Discipline (Entity Key)": [
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcDoor.REFUSECHUTEHOPPER*"
-    }
-  },
-  {
     "id": "recZDUMMIdqIeYqAS",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -67898,6 +67646,7 @@
       "Map to Rule": [
         "recVDIhA4Gw070wKf"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_RINSESHOWER*"
       ],
@@ -68079,6 +67828,7 @@
         "recYqmZCOF5silWlb",
         "rec1cRzrSsqs7UBtW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERFILTER"
       ],
@@ -68122,109 +67872,6 @@
     }
   },
   {
-    "id": "recZTnl8nNfe961tm",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Duct Covering",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 213,
-      "Entity Key": [
-        "receOhyCLv2428Rqf"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recmE62J5QRCntPk3",
-        "rec5a1W9eVSdleRyk"
-      ],
-      "Map to Rule": [
-        "reczbb86TgSoaawJD",
-        "reczPB2ioVWgrANWV",
-        "rec8GRNWqUn9dlcMb"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "DUC_NOT_213",
-      "IFC4 Entities": [
-        "IfcDuctSegment"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch 4",
-        "NA",
-        "Batch 4"
-      ],
-      "Properties [Data Type]": "Insulation_Combustible [Boolean]; \nInsulation_FlameSpreadClass [Label]",
-      "Agency": [
-        "SCDF"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Sample Value (Property)": [
-        "CLASS 0 (Insulation_FlameSpreadClass)"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcDuctSegment.NOTDEFINED"
-    }
-  },
-  {
-    "id": "recZXzIB53b6fx6jY",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Bus Stop Bench",
-      "OT KEY (Sub-Type)": [
-        "recQPQ4DBySrz7exs"
-      ],
-      "Autonumber": 81,
-      "Entity Key": [
-        "recvtlFzmFYepYiVJ"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recHJxnVkZJVK7dHg"
-      ],
-      "Map to Rule": [
-        "recveberYrihnUMcq"
-      ],
-      "IFC4 Sub Type": [
-        "BENCH*"
-      ],
-      "CO KEY": "BUS_BEN_081",
-      "IFC4 Entities": [
-        "IfcFurniture"
-      ],
-      "Subtype or IFC": [
-        "BENCH*"
-      ],
-      "Batch (Rules)": [
-        "Batch 2"
-      ],
-      "Agency": [
-        "URA"
-      ],
-      "Codes and Standards": [
-        "Urban Design Guidelines"
-      ],
-      "Discipline (Entity Key)": [
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "Urban Design Guidelines"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcFurniture.BENCH*"
-    }
-  },
-  {
     "id": "recZYpXvoAgQJVwlt",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -68242,6 +67889,7 @@
       "Map to Rule": [
         "recbZuXH63AV4u076"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDANDPREFINISHEDFLOOR*"
       ],
@@ -68314,6 +67962,7 @@
         "recmsBxvsh5TJIs4P",
         "rec86Aokv7BfbObnU"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OXYGENREDUCTION*"
       ],
@@ -68405,6 +68054,7 @@
       "Map to Rule": [
         "recoPxZtKH2x4RykT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONVEXMIRROR*"
       ],
@@ -68455,6 +68105,7 @@
         "recuAafEY5Nbhi0o1",
         "reckOra1FRvPzK6ph"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WASHINGMACHINE"
       ],
@@ -68828,6 +68479,7 @@
         "recYimlUAVGatNfcV",
         "reccPjKWhR6EoHewP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHORTPIECE*"
       ],
@@ -68935,6 +68587,7 @@
         "rec0lxSpqdEtQadbJ",
         "recmsBxvsh5TJIs4P"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RANGEHOOD*"
       ],
@@ -69027,6 +68680,7 @@
         "recPdQjteps3tUzGW",
         "recvxipJKaQy3tCU8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PWCSMANHOLE*"
       ],
@@ -69353,6 +69007,7 @@
         "rectk2uovQQafMszZ",
         "recSzInsaPnL4oPJZ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NEIGHBOURINGLOT*"
       ],
@@ -69928,6 +69583,7 @@
         "recwjkdPZesQRgzas",
         "recixgmznmGYzl4jH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDMEPVERTICALMODULE*"
       ],
@@ -70019,79 +69675,6 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "IFC4 Entity.Sub-Type": "IfcBuildingElementProxy.2D_TREEPROTECTIONZONE*"
-    }
-  },
-  {
-    "id": "recasouArGt9OGu4b",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Wet Chemical Fire Extinguisher",
-      "OT KEY (Sub-Type)": [
-        "recxKhnMisTYHZ4jD"
-      ],
-      "Autonumber": 860,
-      "Entity Key": [
-        "recAFISJyNfTeNrVZ"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recCr6cbiMWDb2itc"
-      ],
-      "Map to Rule": [
-        "recfV13pVDGw8gThW",
-        "rec1ozOlUwDFpJUpe",
-        "rec20VK2UOkAmacp3",
-        "recAqQVbRi2lnBNmL",
-        "rec6K3iqpi1gLxGnl",
-        "recwhoKnaZgaAUSv4",
-        "rec2zKk2iXVPlXTal",
-        "recmsBxvsh5TJIs4P"
-      ],
-      "IFC4 Sub Type": [
-        "FIREEXTINGUISHINGTANK*"
-      ],
-      "CO KEY": "WET_FIR_860",
-      "IFC4 Entities": [
-        "IfcTank"
-      ],
-      "Subtype or IFC": [
-        "FIREEXTINGUISHINGTANK*"
-      ],
-      "Batch (Rules)": [
-        "Batch 4",
-        "NA",
-        "NA",
-        "NA",
-        "NA",
-        "NA",
-        "Batch X",
-        "Batch 4"
-      ],
-      "Properties [Data Type]": "ExtinguisherType [Label]",
-      "Agency": [
-        "SCDF"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Sample Value (Property)": [
-        "CLEAN AGENT (ExtinguisherType)",
-        "DRY CHEMICAL (ExtinguisherType)",
-        "WET CHEMICAL (ExtinguisherType)"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcTank.FIREEXTINGUISHINGTANK*"
     }
   },
   {
@@ -70397,6 +69980,7 @@
         "recsscsgmp2z18wfJ",
         "rec3GqAuIMoJ0pS8e"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -70447,6 +70031,7 @@
         "recvbDXiy10nuJRFT",
         "recGFMia5uoAyibmy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LAYBY*"
       ],
@@ -70568,6 +70153,7 @@
         "recvUoWlXIjFz0xNx",
         "reciGx4kfmYWZo1TT"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LOUDSPEAKER*"
       ],
@@ -70756,6 +70342,7 @@
       "Map to Rule": [
         "reciQht9xosZLkNdw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLAGPOLE*"
       ],
@@ -70802,6 +70389,7 @@
         "recdeHnI0zVhcPgnm",
         "recUUsq86o1JNrsdB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DIAPERCHANGINGTABLE*"
       ],
@@ -70896,6 +70484,7 @@
         "recO1qawM1AO0oWVl",
         "recmAPs5MSUQhl4L2"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BLOCKWALL*"
       ],
@@ -70945,6 +70534,7 @@
         "recxBGYN03s41Izby",
         "rec4nCXvVXFdlkQ45"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -71044,6 +70634,7 @@
         "recuCr665d8bbDxeU",
         "recSvQ5TqIrJDZrvf"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SAMPLINGSUMP*"
       ],
@@ -71121,6 +70712,7 @@
       "Map to Rule": [
         "recvv3Z2ru13TV811"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -71300,6 +70892,7 @@
         "rec9zjULa5cb4EDJL",
         "recJppdztijiAuvTW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "VALVECHAMBER"
       ],
@@ -71373,6 +70966,7 @@
         "recHyYy7pqtqtWa9o",
         "recl4s8zuUI8eSu25"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -71419,15 +71013,14 @@
       "Actual Value (Property)": [
         "EVACUATION LIFT (LiftType)"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
     "id": "recbuNPxOAuJhta7k",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Moving Walk Belt",
+      "Identified Component": "Moving Walkway",
       "OT KEY (Sub-Type)": [
         "recbQS1awIpuPtaGJ"
       ],
@@ -71436,12 +71029,24 @@
         "recTKQhG1UHX2t846"
       ],
       "IP Key (Component_Parameter)": [
-        "recVrEyBvQj259JwW"
+        "recVrEyBvQj259JwW",
+        "rec5sBrLi6Zo3EkE7",
+        "recnjPf7OkHNkyJEN",
+        "rec03QHNhuWnoS1bR",
+        "rec6FqcP3psfxUp00"
       ],
       "Map to Rule": [
         "recySDOQUuT5I230p",
-        "recbpflJANaSqND4B"
+        "recbpflJANaSqND4B",
+        "recIJajgBC3T4kUpD",
+        "recKeurtlkEYqC9IF",
+        "recmS1sKk2EbDdveu",
+        "recsuMmBvVBflmXB5",
+        "recw31IugmP1q9Ye2",
+        "rec3LgLVCPCBogMzw",
+        "recEXVNi3LnfV4R37"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MOVINGWALKWAY"
       ],
@@ -71454,12 +71059,26 @@
       ],
       "Batch (Rules)": [
         "Batch 4",
-        "Batch 4"
+        "Batch 4",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
       ],
       "Agency": [
         "BCA"
       ],
       "Codes and Standards": [
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
+        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
         "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
         "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
       ],
@@ -71579,6 +71198,7 @@
         "rectjC8aPxMDuD27h",
         "recAYrAFlhM6Qmsae"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CAMERA"
       ],
@@ -71797,6 +71417,7 @@
         "recs6MoPtd4GReyUH",
         "recLlDpPYRU42zw8H"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHOWER"
       ],
@@ -71898,6 +71519,7 @@
         "recDBiE30yFTVHafr",
         "recqHYYwWcyO13L3F"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRAINCHANNELBEND*"
       ],
@@ -77126,6 +76748,7 @@
         "recTt9p1H2u8l1S4x",
         "receBwgil1v75L5Sw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HYDRAULICACTUATOR"
       ],
@@ -77192,6 +76815,7 @@
         "recwfWaSOYOGzVp6H",
         "recmFwfyKPpaw9zCS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EJECTORTANK*"
       ],
@@ -77243,6 +76867,7 @@
         "recBlPVPcbvBy9eTT",
         "recq0t3ulUB73l6RQ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BOXCULVERT*"
       ],
@@ -77310,6 +76935,7 @@
         "recKKFBQlK6BLcxHt",
         "rechA5LqzTVWOHyON"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -77354,8 +76980,7 @@
         "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
@@ -77373,6 +76998,7 @@
       "Map to Rule": [
         "rectv4UigKGnCBhgr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_COMMUNICATIONINSTRUCTION*"
       ],
@@ -77482,6 +77108,7 @@
         "recbsTWAdef0d2ca7",
         "recppPhvDT3m8SVpS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERMETER"
       ],
@@ -77659,6 +77286,7 @@
         "rec7FYLvkkHYHJ3Ph",
         "recev0JwfKjZd4dMz"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BATH"
       ],
@@ -77788,6 +77416,7 @@
         "recXFiltq1KJjO91O",
         "recH6lBWZoi8Nhfiv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DIFFUSER"
       ],
@@ -77964,6 +77593,7 @@
         "recEmpSKMbqw75EHM",
         "recxjeBAYLMT2e21x"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHELF"
       ],
@@ -78023,6 +77653,7 @@
         "rec41Fc9YKOUmJsT9",
         "recu9rW84QcJOJqih"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "CUBICLE*"
       ],
@@ -78085,6 +77716,7 @@
         "recklX6XmPgv0FIaU",
         "recD4u3ZWgjfCEmGr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SUBALARMPANEL*"
       ],
@@ -78155,6 +77787,7 @@
         "recX4f2XbmKkxfE0L",
         "reckSIOK3dxJV3r4C"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ROOFGUTTER"
       ],
@@ -82274,6 +81907,7 @@
         "recEgXLFAnoMQQ2DJ",
         "recujjZ7jHhg4bkda"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GONDOLA*"
       ],
@@ -82357,7 +81991,7 @@
     "id": "recddHtxlB77ExY47",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Civil Element",
+      "Identified Component": "Driveway",
       "OT KEY (Sub-Type)": [
         "recpsYDy5l6MHOonT"
       ],
@@ -82456,7 +82090,7 @@
       "IFC4 Sub Type": [
         "DRIVEWAY*"
       ],
-      "CO KEY": "CIV_DRI_114",
+      "CO KEY": "DRI_DRI_114",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
@@ -82711,8 +82345,27 @@
         "reca79ssm6pdQk97y",
         "recquSHaqzaHz7gGA",
         "recisCLeOPH9QgmUc",
-        "recTiwGAFxNzXBScK"
+        "recTiwGAFxNzXBScK",
+        "recmYVTYI6yiSNo9N",
+        "reczoHjKg9AqNNi3s",
+        "recd72mIKSxiXaJRg",
+        "recOLNPGtQLdkR7eW",
+        "recd8RZ7Q70LDxOB5",
+        "recgehOfi7X8qwyLb",
+        "recKEbsh7wPvYlSoZ",
+        "recOq4jbXsEvHpFEc",
+        "recedv9VIroZKT0RV",
+        "recTmI1UpsiUiMRQx",
+        "recl79KURtQJi6aLO",
+        "recvdDOhgtVf2UP3H",
+        "recsbmPAQBeB936cX",
+        "recwzZvYBWmDxvYKB",
+        "rec75rlXzUOLvf5Cr",
+        "recfYndSOpe8W0j9q",
+        "recrpEDUW3dYoUCIr",
+        "recfgJ9JbBybpc0ip"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -82763,13 +82416,32 @@
         "NA",
         "Batch 3",
         "Batch 3",
-        "Batch 3"
+        "Batch 3",
+        "NA",
+        "Batch 2",
+        "Batch 2",
+        "Batch 2",
+        "Batch 1",
+        "NA",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch 2",
+        "Batch 2"
       ],
       "Properties [Data Type]": "ModelName [Boolean]; \nSoundPowerLevel [Label]; \nSoundPressureLevel [Label]",
       "Agency": [
         "SCDF",
         "BCA",
-        "NEA"
+        "NEA",
+        "URA"
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
@@ -82811,7 +82483,25 @@
         "Technical guideline on boundary noise limits for air conditioning and mechanical ventilation systems in non-industrial buildings",
         "Code for Environmental Sustainability of Buildings",
         "Code for Environmental Sustainability of Buildings",
-        "Code for Environmental Sustainability of Buildings"
+        "Code for Environmental Sustainability of Buildings",
+        "Urban Design Guidelines",
+        "Urban Design Guidelines",
+        "Urban Design Guidelines",
+        "Urban Design Guidelines",
+        "Gross Floor Area Handbook",
+        "Urban Design Guidelines",
+        "Conservation Guidelines",
+        "Conservation Guidelines",
+        "Conservation Guidelines",
+        "Conservation Guidelines",
+        "Envelope Control Guidelines",
+        "Envelope Control Guidelines",
+        "Envelope Control Guidelines",
+        "Conservation Guidelines",
+        "Conservation Guidelines",
+        "Conservation Guidelines",
+        "Business 2 (Industrial) Handbook",
+        "Urban Design Guidelines"
       ],
       "Discipline (Entity Key)": [
         "MEP"
@@ -82820,7 +82510,12 @@
         "Code of Practice for Fire Precautions in Building",
         "Code for Environmental Sustainability of Buildings",
         "Technical guideline on boundary noise limits for air conditioning and mechanical ventilation systems in non-industrial buildings",
-        "SS 593: Code of Practice for Pollution Control (COPPC)"
+        "SS 593: Code of Practice for Pollution Control (COPPC)",
+        "Urban Design Guidelines",
+        "Gross Floor Area Handbook",
+        "Conservation Guidelines",
+        "Envelope Control Guidelines",
+        "Business 2 (Industrial) Handbook"
       ],
       "IFC4 Entity.Sub-Type": "IfcChiller.NOTDEFINED"
     }
@@ -82844,6 +82539,7 @@
         "reca8z0BsKlwPrXGT",
         "recLQ4TYcrj3AF0Vp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OBSTRUCTION"
       ],
@@ -82890,6 +82586,7 @@
         "recBSwOnBbgmxrMal",
         "rec1go6RYqVQK6vz8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFT_APRON*"
       ],
@@ -83028,6 +82725,7 @@
         "recbsTWAdef0d2ca7",
         "recn8U1T8yVH4Mzpw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -83248,6 +82946,7 @@
         "rec7pN8modnzpDaGb",
         "rectIX6dJjx7pOl2t"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LEVELSENSOR"
       ],
@@ -83486,6 +83185,7 @@
         "recgKoLETbIAbGSp1",
         "recTQSZoH0qF9Dwlg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIREPROTECTION*"
       ],
@@ -83569,6 +83269,7 @@
         "reci1PRNZWVjujxxJ",
         "recxLaOUL2iekFxPF"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONNECTOR"
       ],
@@ -83632,6 +83333,7 @@
         "recYqmZCOF5silWlb",
         "recAfyrITF00xkA9b"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MOSQUITONET*"
       ],
@@ -83695,6 +83397,7 @@
         "rec8npGxuBqSylTo4",
         "recDOLCUFL6JNrokQ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ARTWORK*"
       ],
@@ -83760,6 +83463,7 @@
         "recqcQiiRLFGK9Wqc",
         "recCkQBP33skPEFLC"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "UMBRELLA*"
       ],
@@ -83989,6 +83693,7 @@
         "recH4sNlrrOJiG6Qf",
         "recQfZHUSPcVUoeCO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLOORTRAP"
       ],
@@ -84123,6 +83828,7 @@
       "Map to Rule": [
         "recpXOz77fYJee4vi"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BLOWDOWN*"
       ],
@@ -84166,6 +83872,7 @@
       "Map to Rule": [
         "rec6KyjHt7ZgTC1bM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SMOKECONTROL*"
       ],
@@ -84315,6 +84022,7 @@
         "recYotCLWdpey3G5T",
         "recvrxr7JCg8NQt99"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "VACUUMEXHAUSTER*"
       ],
@@ -84418,6 +84126,7 @@
       "Map to Rule": [
         "rec7zgkW2oJC5y6CW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPRINKLER*"
       ],
@@ -84548,6 +84257,7 @@
         "recT0dBuWAb0kKDCG",
         "recB6RPwbRx8SAVkA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LADDER*"
       ],
@@ -86849,6 +86559,7 @@
         "recwDxJmFfDwtQG1A",
         "reciEssDRrLr05566"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -86910,6 +86621,7 @@
         "rec3jYbAIexGutaqE",
         "recQaBsTS6WqQMTtc"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RAINWATER*"
       ],
@@ -86975,6 +86687,7 @@
       "Map to Rule": [
         "reci2VKL7dOlEgVbC"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONCRETEMARKER*"
       ],
@@ -87602,6 +87315,7 @@
         "rec0CGoc5sCjIak4h",
         "recncX1p2598DWwA9"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -87807,6 +87521,7 @@
         "recVEfnY09FZFujfA",
         "recNV69skiLNv27vU"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ELEMENTEDWALL"
       ],
@@ -87909,6 +87624,7 @@
         "recid5PE2mgWQjzTP",
         "recRMHsmckmKNaMnK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLEXIBLESEGMENT"
       ],
@@ -88117,6 +87833,7 @@
         "recQpfZCd0P9jighq",
         "recfVQexM3W3bMMVe"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSETHROWPOINT*"
       ],
@@ -88165,6 +87882,7 @@
       "Map to Rule": [
         "recsH0vwWWgP2Y1XA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -88212,6 +87930,7 @@
       "Map to Rule": [
         "rectZvXZKB3r0TOaL"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -88238,8 +87957,7 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
@@ -88261,6 +87979,7 @@
         "recWiezQN5wIYZmph",
         "recOJuXfzJzT1DJFA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ANTIVACUUM"
       ],
@@ -88315,6 +88034,7 @@
         "recHBeLXEz6TshjA4",
         "recydqzfUWsJVl2kA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AMPLIFIER"
       ],
@@ -88383,6 +88103,7 @@
         "recmxFL4Y10bGJKiX",
         "recH4GH6PbMml5Aui"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DETENTIONTANK*"
       ],
@@ -88432,6 +88153,7 @@
         "recLOJqmDDUTudSK8",
         "recF53gIpJGevYRpy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GULLYSUMP"
       ],
@@ -88487,6 +88209,7 @@
         "recwjkdPZesQRgzas",
         "recu3sPbD5Zx0GzBr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDMEPHORIZONTALMODULE*"
       ],
@@ -88661,7 +88384,9 @@
         "recW8u5tz3FFEeedW",
         "recylvfpA1jRFU4yX",
         "rec1iZceoUdNfnr6G",
-        "recwJ9YSQqHDpskFL"
+        "recwJ9YSQqHDpskFL",
+        "recsp8Ew7RDfqjPGf",
+        "recguPBSI2vobJhbb"
       ],
       "Map to Rule": [
         "recySDOQUuT5I230p",
@@ -88684,8 +88409,10 @@
         "recCObnYB1RzTUUbZ",
         "rechvNCQgqQ82ZWc1",
         "recquSHaqzaHz7gGA",
-        "recalmWbHLza1JsdM"
+        "recalmWbHLza1JsdM",
+        "recoaw70veST5T0TH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -88717,9 +88444,10 @@
         "Batch X",
         "Batch X",
         "Batch 3",
-        "Batch 3"
+        "Batch 3",
+        "Batch 1"
       ],
-      "Properties [Data Type]": "Combustible [Boolean]; \nExternalReference [Label]; \nFireRating [Label]; \nMaterial [Label]",
+      "Properties [Data Type]": "Combustible [Boolean]; \nExternalReference [Label]; \nFireRating [Label]; \nMaterial [Label]; \nConstructionMethod [Label]; \nPre-insulated [Boolean]",
       "Agency": [
         "BCA",
         "SCDF",
@@ -88746,7 +88474,8 @@
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "SS555 - 3 Protection Against Lightning",
         "Code for Environmental Sustainability of Buildings",
-        "Code for Environmental Sustainability of Buildings"
+        "Code for Environmental Sustainability of Buildings",
+        "Code of Practice on Buildability"
       ],
       "Discipline (Entity Key)": [
         "MEP"
@@ -88758,14 +88487,16 @@
         "Code for Environmental Sustainability of Buildings",
         "SS555 - 3 Protection Against Lightning",
         "Code of Accessibility in the Built Environment",
-        "SS550 Code of Practice for Installation Operation and Maintenance of Electric Passenger and Goods Lift"
+        "SS550 Code of Practice for Installation Operation and Maintenance of Electric Passenger and Goods Lift",
+        "Code of Practice on Buildability"
       ],
       "Sample Value (Property)": [
         "BS 476 PART 5 METHOD OF TEST FOR IGNITABILITY (ExternalReference)",
         "4hr (FireRating)",
         "BRICK (FireRating)",
         "TIMBER (FireRating)",
-        "MET (Material)"
+        "MET (Material)",
+        "PREFABRICATED (ConstructionMethod)"
       ],
       "IFC4 Entity.Sub-Type": "IfcDuctFitting.NOTDEFINED"
     }
@@ -88785,6 +88516,7 @@
       "Map to Rule": [
         "rechpJoWN83viRYOb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHEAR"
       ],
@@ -88874,6 +88606,7 @@
       "Map to Rule": [
         "recdv1X7FH5hDK7IO"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MISTER*"
       ],
@@ -88935,6 +88668,7 @@
         "recuDRauAdZMTkb7a",
         "recoGhB0QLVFhCjXI"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRPARTICLEFILTER"
       ],
@@ -88999,6 +88733,7 @@
         "reczoHjKg9AqNNi3s",
         "recI7O4a7dcA8BQ24"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIGHTNINGPROTECTION*"
       ],
@@ -89055,6 +88790,7 @@
         "rec5F3uKfp3MW8IZE",
         "recCXNl96Dkk5zOjE"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OPENFLAMECOOKING*"
       ],
@@ -89108,6 +88844,7 @@
       "Map to Rule": [
         "rech1mSmkp9rofACq"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FOOTING_BEAM"
       ],
@@ -89162,6 +88899,7 @@
         "recFmyXdYKfqHPS5e",
         "recJ793aecBcuxswv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SWITCHBOARD"
       ],
@@ -89315,6 +89053,7 @@
         "recendrIdPcpunPXV",
         "recsscsgmp2z18wfJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRRECEIVER*"
       ],
@@ -89362,6 +89101,7 @@
         "rectOXTJJB8lBgTxA",
         "rec3wcOaMOa0825mA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RETENTIONBASIN*"
       ],
@@ -89466,6 +89206,7 @@
       "Map to Rule": [
         "recz6aJ6nYcjsTv5J"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ELECTRICCOOKER"
       ],
@@ -89524,6 +89265,7 @@
       "Map to Rule": [
         "recdch8sn8KQjkBRk"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RAFTSLAB*"
       ],
@@ -89688,6 +89430,7 @@
         "recvIbXsDBVfY56Kb",
         "rec84VqMayoCxHqg4"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SCREEN*"
       ],
@@ -90009,6 +89752,7 @@
         "recYx0eqxpTBVsZiR",
         "recazqrOr8CIalv3a"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PROPOSEDEARTHWORKS*"
       ],
@@ -90662,6 +90406,7 @@
       "Map to Rule": [
         "rec2MXeLYv4Pk5WOX"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PERMANENTUNITNUMBERTAG*"
       ],
@@ -90758,6 +90503,7 @@
         "recxNaoxpAnbAuKm8",
         "recmm9pE3dHZdQPRu"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SUPPLYAIR*"
       ],
@@ -90897,6 +90643,7 @@
       "Map to Rule": [
         "recwG00l7cIK2sfEx"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECHARGEWELL*"
       ],
@@ -90990,6 +90737,7 @@
         "rec4pF4P9rxZpB6Pk",
         "recgTLRNWUreuMeTd"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -91180,6 +90928,7 @@
       "Map to Rule": [
         "rec5rQ6IrPtS58Rom"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STRINGER"
       ],
@@ -91341,6 +91090,7 @@
       "Map to Rule": [
         "recYbzTskqYuDvFTD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATERDISPENSER*"
       ],
@@ -91488,6 +91238,7 @@
         "recLNe9eV8rK4QM0a",
         "recYpNmoOqBUPJRZb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "REFUSECHUTEACCESSPANEL*"
       ],
@@ -91534,6 +91285,7 @@
       "Map to Rule": [
         "recz6aJ6nYcjsTv5J"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SCRAPER*"
       ],
@@ -91577,6 +91329,7 @@
       "Map to Rule": [
         "recQ8YAv0Vbu1G3hY"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*"
       ],
@@ -91639,6 +91392,7 @@
         "recznHXqzSBesdfFo",
         "recX4HKUdx3KL1P8o"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONDUITSEGMENT"
       ],
@@ -91722,6 +91476,7 @@
         "recWYqJTKIVLO6qKK",
         "recjrE8usxqh90jUJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -91819,6 +91574,7 @@
       "Map to Rule": [
         "recY51AB441on2Icj"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MUNICIPALSOLIDWASTE*"
       ],
@@ -91920,6 +91676,7 @@
         "recRgpiGqCL43dpyR",
         "reckyH3fMOYT358p8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -92116,6 +91873,7 @@
         "recaQAs3nwUhtUrma",
         "recfS50INrXdCUh0U"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_EXIT*"
       ],
@@ -92427,6 +92185,7 @@
         "recclUFY3UDtQqzkp",
         "recq6I6jVwguK0s4k"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_THROUGHBLOCKLINK*"
       ],
@@ -92561,6 +92320,7 @@
         "recd0Zk96WA1NgcAF",
         "recGHNYVyrvkEmDB1"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DOMESTICCOLDWATER*"
       ],
@@ -92886,6 +92646,7 @@
         "recti4HGvz9FbNflX",
         "reckrP1N6tmM2fUuR"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LETTERBOX*"
       ],
@@ -93007,6 +92768,7 @@
         "recHclgRUwpKyMZhx",
         "recLmOWbsF4Eb2j3M"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PUMPINGMAIN*"
       ],
@@ -93111,8 +92873,13 @@
         "recUUZFRheiFEnrQe",
         "recIp2SBNx6kbW089",
         "recEr4ka7v3tvOM0t",
-        "recwqpuH7f3MLdHVD"
+        "recwqpuH7f3MLdHVD",
+        "recmXpiyyl4ppzKwy",
+        "recv0PlSj267l9BXP",
+        "recx1KTL20zlpxwvY",
+        "recFbHchUvD0J6uyp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ENGINEGENERATOR"
       ],
@@ -93153,10 +92920,15 @@
         "NA",
         "NA",
         "NA",
-        "NA"
+        "NA",
+        "Batch 3",
+        "Batch 3",
+        "Batch 3",
+        "Batch X"
       ],
       "Agency": [
-        "SCDF"
+        "SCDF",
+        "BCA"
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
@@ -93188,13 +92960,18 @@
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Technical Requirements for S10 to S29 Public Shelters"
       ],
       "Discipline (Entity Key)": [
         "MEP"
       ],
       "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Technical Requirements for S10 to S29 Public Shelters"
       ],
       "IFC4 Entity.Sub-Type": "IfcElectricGenerator.ENGINEGENERATOR"
     }
@@ -93273,6 +93050,7 @@
         "rec1qkeAbskJSqhFN",
         "recTk2whixCrdwTxH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CHILLEDWATER*"
       ],
@@ -93308,80 +93086,6 @@
     }
   },
   {
-    "id": "recmF0U8BPKJgtj8E",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Moving Walkway",
-      "OT KEY (Sub-Type)": [
-        "recbQS1awIpuPtaGJ"
-      ],
-      "Autonumber": 384,
-      "Entity Key": [
-        "recTKQhG1UHX2t846"
-      ],
-      "IP Key (Component_Parameter)": [
-        "rec5sBrLi6Zo3EkE7",
-        "recnjPf7OkHNkyJEN",
-        "rec03QHNhuWnoS1bR",
-        "rec6FqcP3psfxUp00"
-      ],
-      "Map to Rule": [
-        "recySDOQUuT5I230p",
-        "recIJajgBC3T4kUpD",
-        "recKeurtlkEYqC9IF",
-        "recmS1sKk2EbDdveu",
-        "recsuMmBvVBflmXB5",
-        "recw31IugmP1q9Ye2",
-        "recbpflJANaSqND4B",
-        "rec3LgLVCPCBogMzw",
-        "recEXVNi3LnfV4R37"
-      ],
-      "IFC4 Sub Type": [
-        "MOVINGWALKWAY"
-      ],
-      "CO KEY": "MOV_MOV_384",
-      "IFC4 Entities": [
-        "IfcTransportElement"
-      ],
-      "Subtype or IFC": [
-        "MOVINGWALKWAY"
-      ],
-      "Batch (Rules)": [
-        "Batch 4",
-        "NA",
-        "NA",
-        "NA",
-        "NA",
-        "NA",
-        "Batch 4",
-        "NA",
-        "NA"
-      ],
-      "Agency": [
-        "BCA"
-      ],
-      "Codes and Standards": [
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \"",
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
-      ],
-      "Discipline (Entity Key)": [
-        "ARC",
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "\"SS626 - Code of practice for Design, Installation and Maintenance of Escalators and Moving Walks \""
-      ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.MOVINGWALKWAY"
-    }
-  },
-  {
     "id": "recmIbGJi9loQzVt1",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -93407,6 +93111,7 @@
         "recT1SJ9WEKyaNooW",
         "recQQAXmViwZVWBUo"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_WHEELCHAIRSPACE*"
       ],
@@ -93477,6 +93182,7 @@
         "recmXpiyyl4ppzKwy",
         "reconFvWltFNhGa2T"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FUEL*"
       ],
@@ -93538,6 +93244,7 @@
         "rec0CGoc5sCjIak4h",
         "recuHwJCkUsxwTUsy"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PILE_CAP"
       ],
@@ -93594,6 +93301,7 @@
       "Map to Rule": [
         "recYbzTskqYuDvFTD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ICEMAKER*"
       ],
@@ -93860,6 +93568,7 @@
         "recSn8s6cD7bhxgYK",
         "recmy30vj2iDpkpnF"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -94033,6 +93742,7 @@
       "Map to Rule": [
         "recCkoD1q3nL4wHUj"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FALSEBOTTOM*"
       ],
@@ -94082,6 +93792,7 @@
         "recYuG2VwB0SzOBur",
         "recRdlvdRGijkWxAK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BUND*"
       ],
@@ -94505,6 +94216,7 @@
         "reckyWRm4Kl3Qw8fE",
         "recDqUtXP05yAie32"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPRINKLERCONTROL*"
       ],
@@ -94544,54 +94256,6 @@
     }
   },
   {
-    "id": "recnEA8faoLqtKr7s",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Dry Chemical Fire Extinguisher",
-      "OT KEY (Sub-Type)": [
-        "recxKhnMisTYHZ4jD"
-      ],
-      "Autonumber": 210,
-      "Entity Key": [
-        "recAFISJyNfTeNrVZ"
-      ],
-      "IP Key (Component_Parameter)": [
-        "recLXoUzn7vx35JzF",
-        "rec9zDNVpSt4oQNoY"
-      ],
-      "Map to Rule": [
-        "rec14D8WD1PJaxld0"
-      ],
-      "Status": "Not used",
-      "IFC4 Sub Type": [
-        "FIREEXTINGUISHINGTANK*"
-      ],
-      "CO KEY": "DRY_FIR_210",
-      "IFC4 Entities": [
-        "IfcTank"
-      ],
-      "Subtype or IFC": [
-        "FIREEXTINGUISHINGTANK*"
-      ],
-      "Batch (Rules)": [
-        "NA"
-      ],
-      "Agency": [
-        "SCDF"
-      ],
-      "Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP"
-      ],
-      "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcTank.FIREEXTINGUISHINGTANK*"
-    }
-  },
-  {
     "id": "recnG8xvGeYvlcKST",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -94609,6 +94273,7 @@
       "Map to Rule": [
         "recCpHKTjGQgqzIOp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BRACKET"
       ],
@@ -94674,6 +94339,7 @@
         "rectLIXPDgkT9CHqw",
         "recPCAoKH9ihVKvG5"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STRAIGHT_RUN_RAMP"
       ],
@@ -94737,6 +94403,7 @@
         "recOLNPGtQLdkR7eW",
         "recpGf0XO7RaaKBpe"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SCREEN*"
       ],
@@ -94811,6 +94478,7 @@
         "recYGfFFuLV84RFxo",
         "recxLAU3Qb3wwyjKQ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BEND"
       ],
@@ -94979,6 +94647,7 @@
         "reccZc8m7hbXt3HZD",
         "rec88bpCRY3momslH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLOORING"
       ],
@@ -95181,57 +94850,6 @@
     }
   },
   {
-    "id": "recndFyyc2Y6sTBcJ",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Sanitary Terminal",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 548,
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "Map to Rule": [
-        "recP4koun4eLc99Rq",
-        "recOCXc5zCqvqx01V",
-        "recG0Y3YFpxghBRsT"
-      ],
-      "Status": "Not used",
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "SAN_NOT_548",
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch X",
-        "Batch X",
-        "Batch X"
-      ],
-      "Agency": [
-        "BCA"
-      ],
-      "Codes and Standards": [
-        "Technical Requirements for S10 to S29 Public Shelters",
-        "Technical Requirements for S10 to S29 Public Shelters",
-        "Technical Requirements for S10 to S29 Public Shelters"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP",
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "Technical Requirements for S10 to S29 Public Shelters"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcSanitaryTerminal.NOTDEFINED"
-    }
-  },
-  {
     "id": "recnezN11BeH3S837",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -95264,6 +94882,7 @@
         "reckmXOUHkRlTm6Jl",
         "recH72HUyDDLtQ8vb"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GRATING*"
       ],
@@ -95339,6 +94958,7 @@
       "Map to Rule": [
         "recIL0RDQZavOVYaF"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "CUBICLE*"
       ],
@@ -95595,6 +95215,7 @@
         "recLyBVeB1pfjzZFG",
         "recGhb9KDRxUVhj6r"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STORAGE"
       ],
@@ -96091,6 +95712,7 @@
         "recAozWs0MzIg3dW7",
         "rec6z5rOW4APECNEr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_DIRECTIONALEXIT*"
       ],
@@ -96204,6 +95826,7 @@
       "Map to Rule": [
         "recz6aJ6nYcjsTv5J"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HIGHPRESSURECLEANER*"
       ],
@@ -96230,74 +95853,6 @@
         "Code of Practice on Sewerage and Sanitary Works"
       ],
       "IFC4 Entity.Sub-Type": "IfcElectricAppliance.HIGHPRESSURECLEANER*"
-    }
-  },
-  {
-    "id": "recnzwCez8IcGrjNx",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Plumbing Fixture",
-      "OT KEY (Sub-Type)": [
-        "recIJHWEmrMLIcPsj"
-      ],
-      "Autonumber": 462,
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "Map to Rule": [
-        "recTQ2bTHrPFbsgfO",
-        "recLdMLX7942TMRwV",
-        "recne2PAbf9KnCtvg",
-        "recVrVApUPasT2vfc",
-        "recuw0TvlnVP7dKGr",
-        "rec9jHIZaVVA3VoVJ",
-        "recbRAGuCLGjd7lse",
-        "recwG00l7cIK2sfEx",
-        "recAeEW964DMV1Te5"
-      ],
-      "IFC4 Sub Type": [
-        "NOTDEFINED"
-      ],
-      "CO KEY": "PLU_NOT_462",
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "Subtype or IFC": [
-        "NOTDEFINED"
-      ],
-      "Batch (Rules)": [
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch 3",
-        "Batch 3"
-      ],
-      "Agency": [
-        "PUB"
-      ],
-      "Codes and Standards": [
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services",
-        "SS636 Code of Practice for Water Services"
-      ],
-      "Discipline (Entity Key)": [
-        "MEP",
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "SS636 Code of Practice for Water Services"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcSanitaryTerminal.NOTDEFINED"
     }
   },
   {
@@ -96401,6 +95956,7 @@
         "recjjdVVkiHliVuhK",
         "recJppdztijiAuvTW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "METERCHAMBER"
       ],
@@ -96546,6 +96102,7 @@
         "recNcIxhRoPFqQFN4",
         "recHXiTysNi17Dr6A"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -96593,6 +96150,7 @@
       "Map to Rule": [
         "recTk2whixCrdwTxH"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "COMPRESSEDAIR*"
       ],
@@ -96642,6 +96200,7 @@
       "Map to Rule": [
         "recb3XD0jN2wKcwgM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LPS_LIGHTNINGTAPE*"
       ],
@@ -96716,6 +96275,7 @@
         "recW5rGNYQ0uH4wRY",
         "rec29ayh8p6B3Q5A8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLOORWASTE"
       ],
@@ -96833,6 +96393,7 @@
         "recq0t3ulUB73l6RQ",
         "recLSjfwBkfC8bLVr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STRAINER"
       ],
@@ -96902,6 +96463,7 @@
       "Map to Rule": [
         "recAHRUyiNePEDWJP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_PASSINGSPACE*"
       ],
@@ -96947,6 +96509,7 @@
       "Map to Rule": [
         "reckoVMBxpLgeFLeP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RAINWATEROUTLET*"
       ],
@@ -97002,6 +96565,7 @@
         "recy34GZy06WrwhWN",
         "recOJuXfzJzT1DJFA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CHECK"
       ],
@@ -97539,6 +97103,7 @@
       "Map to Rule": [
         "recne2PAbf9KnCtvg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SCRUBBER*"
       ],
@@ -97584,6 +97149,7 @@
         "recJOwvlJLuOcn5D7",
         "recE1SSdJ88cABtVt"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BED"
       ],
@@ -97636,6 +97202,7 @@
         "recdx5NF6ZvFXfVjm",
         "recfrKArw8GRyydiM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BINLIFTER*"
       ],
@@ -97744,6 +97311,7 @@
       "Map to Rule": [
         "recklvHIPu4GaFQ87"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AERATOR*"
       ],
@@ -97800,6 +97368,7 @@
         "recPNT5F7d0EQ8fOl",
         "recuwqvDVuuNOB6jJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PNEUMATICWASTECONVEYANCESYSTEM*"
       ],
@@ -98114,6 +97683,7 @@
       "Map to Rule": [
         "reccN8bf6RrVlC5FL"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MIRROR*"
       ],
@@ -98158,6 +97728,7 @@
         "recNcIxhRoPFqQFN4",
         "recHXiTysNi17Dr6A"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -98584,6 +98155,7 @@
         "receMBDotojRcG3x8",
         "rec6Wm4HirqBOZ8WM"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CANOPY*"
       ],
@@ -98742,6 +98314,7 @@
       "Map to Rule": [
         "recYbzTskqYuDvFTD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FREEZER"
       ],
@@ -98915,6 +98488,7 @@
         "recyQzLU5BCUujcTn",
         "recD2RZ95W0AKkCHU"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BOUNDARYWALL*"
       ],
@@ -99354,6 +98928,7 @@
         "recPqTcb1G1yhdyMu",
         "reccdqppp4W6mdiwK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ENTRY"
       ],
@@ -99495,6 +99070,7 @@
         "recqyBI5FQCl6Xh4p",
         "recnKkVEW1vVC7GlJ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SPRINKLER*"
       ],
@@ -99554,6 +99130,7 @@
         "recDwakmboaST5xwx",
         "recvYgInt1TcRE0F0"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LPS_AIRFINIAL*"
       ],
@@ -99846,6 +99423,7 @@
         "recbZuXH63AV4u076",
         "recjL4NZfenmzXB4a"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PREFABRICATEDANDPREFINISHEDWALL*"
       ],
@@ -99903,6 +99481,7 @@
         "recWFz3bCPhKe17fs",
         "recPOCfDzsSmIQdZW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ENDSUCTION"
       ],
@@ -99956,6 +99535,7 @@
         "recq2yVmhoO2pvZHg",
         "recUqFwnRVccrO5wS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ELECTRICACTUATOR"
       ],
@@ -100113,6 +99693,7 @@
         "recf8d2zELLGItrzP",
         "recTpxpqtOsoP3J7P"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "URINAL"
       ],
@@ -100294,6 +99875,7 @@
         "rec0OTOhFboB6uc3S",
         "rec73jNK5b0Jpw010"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RETAININGWALL*"
       ],
@@ -100528,6 +100110,7 @@
         "recyFLnVfaB9k9tUh",
         "recWMpV8pzjTpMZQd"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FOODWASTETREATMENTSYSTEM*"
       ],
@@ -100565,6 +100148,39 @@
     }
   },
   {
+    "id": "recrO9UxYMLp3UsUX",
+    "createdTime": "2023-10-25T07:22:54.000Z",
+    "fields": {
+      "Identified Component": "Recyclables Chute",
+      "OT KEY (Sub-Type)": [
+        "recx40oGNPDgzlyER"
+      ],
+      "Autonumber": 901,
+      "Entity Key": [
+        "recOvUKqHWGXau8SN"
+      ],
+      "Status": "Required (New)",
+      "IFC4 Sub Type": [
+        "RECYCLABLESCHUTE*"
+      ],
+      "CO KEY": "REC_REC_901",
+      "IFC4 Entities": [
+        "IfcBuildingSystem"
+      ],
+      "Subtype or IFC": [
+        "RECYCLABLESCHUTE*"
+      ],
+      "Agency": [],
+      "Discipline (Entity Key)": [
+        "MEP",
+        "ARC",
+        "STR"
+      ],
+      "Regulatory Codes and Standards": [],
+      "IFC4 Entity.Sub-Type": "IfcBuildingSystem.RECYCLABLESCHUTE*"
+    }
+  },
+  {
     "id": "recrU01KLSED4mrKQ",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -100581,6 +100197,7 @@
         "recEvTRLWLhAhyc0P",
         "recyEUrhMDyhZLlgL"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WASTESUMP*"
       ],
@@ -100677,7 +100294,9 @@
         "recYxtrfI0AqfZjF1",
         "recSa6BERrXdq2hOs",
         "recQYK2VnJcGOvMJH",
-        "recafPQNQwO5vSkYu"
+        "recafPQNQwO5vSkYu",
+        "rec4LzMzoW6rOPjF6",
+        "recx3cHk2nmullIgC"
       ],
       "Map to Rule": [
         "reckTbs4DBWpNwJdE",
@@ -100731,8 +100350,23 @@
         "recVqTSRMWMLZyXjn",
         "rec9OF7YtB30IJFUb",
         "recOvFgyVm5aicssR",
-        "recEjB7299FiDoUqb"
+        "recEjB7299FiDoUqb",
+        "reczUlv2xgpjDxNbx",
+        "recgg3LjXC8I0c44T",
+        "recEYTBVrMrdrSCEH",
+        "rec2TBOzBEUURjrIk",
+        "rec3mgkUF7T8fXUy1",
+        "recpVeeGq85oNu1yt",
+        "recBHJhfw6ERmipWc",
+        "recBiQx8roFE6PUXT",
+        "recB8nKs6Nh0oUydr",
+        "recDlLAkD2jDtSCSg",
+        "rec02W2ZmJgmjNKMa",
+        "recTMwDXIJ2dZMg5V",
+        "recHDEZGG1doASs1L",
+        "recYp8cWdx0XURVC8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -100795,9 +100429,23 @@
         "Batch X",
         "Batch X",
         "Batch 2",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "Batch X",
+        "NA",
+        "Batch 3",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "Batch 3",
         "Batch X"
       ],
-      "Properties [Data Type]": "AntiMosquitoDevice [Boolean]; \nExternalReference [Label]; \nFireRating [Label]; \nPerforated [Boolean]; \nStatus [Label]",
+      "Properties [Data Type]": "AntiMosquitoDevice [Boolean]; \nExternalReference [Label]; \nFireRating [Label]; \nPerforated [Boolean]; \nStatus [Label]; \nCombustible [Boolean]",
       "Agency": [
         "PUB",
         "URA",
@@ -100856,7 +100504,21 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Code of Accessibility in the Built Environment",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building",
+        "Code of Practice for Fire Precautions in Building"
       ],
       "Discipline (Entity Key)": [
         "MEP",
@@ -107062,6 +106724,7 @@
         "recTcYwIsYtOwUFpb",
         "recffABybnXhstaDe"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TACTILE*"
       ],
@@ -107177,6 +106840,7 @@
         "recR81BOaABhubtd6",
         "rec8wlPs4UGtU9NHp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HINGEDCOVER*"
       ],
@@ -107297,6 +106961,7 @@
       "Map to Rule": [
         "recsdGji8CM1D9yjN"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "INTERMEDIATEPLATFORM*"
       ],
@@ -107463,6 +107128,7 @@
         "rectxCTssSsjTNJSY",
         "recem2nBWJnKmQTBI"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -108000,6 +107666,7 @@
         "recgDyXo5omABR4sT",
         "recfgJ9JbBybpc0ip"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONTROLPANEL"
       ],
@@ -108219,6 +107886,7 @@
         "recrpEDUW3dYoUCIr",
         "recfgJ9JbBybpc0ip"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -108310,6 +107978,7 @@
         "reckdElZYTN1pUGFD",
         "recxYTUNpbHAKcRZ8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WASTEAIRSEPARATOR*"
       ],
@@ -108934,6 +108603,7 @@
         "recH3C86bMMAZaZNa",
         "recBCLxI4Jp1yOH48"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -110311,6 +109981,7 @@
         "rec5NPVSelxeyANGT",
         "recmzP1kCUdmeWU2V"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SUMP"
       ],
@@ -110413,6 +110084,7 @@
         "recvA4EsintZaADFD",
         "recKltvNSGK5v44cN"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LANDSCAPE_PLANTINGTROUGH*"
       ],
@@ -110468,6 +110140,7 @@
       "Map to Rule": [
         "recFAoisikVYT838d"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WASTETRAP"
       ],
@@ -110512,6 +110185,7 @@
       "Map to Rule": [
         "recSl8HSw8FN3SLpB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_WHEELCHAIRSYMBOL*"
       ],
@@ -110601,6 +110275,7 @@
       "Map to Rule": [
         "recxPz5sy3U7KegNg"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -110654,6 +110329,7 @@
         "recgqyBo9E05zUDoP",
         "recjrGyq6B81aSgRf"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "OIL"
       ],
@@ -110742,6 +110418,7 @@
         "recNMqcjsmkDmaIyf",
         "rec0ma9xPqPl04Iok"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "STANDBYFIREHOSE*"
       ],
@@ -110862,6 +110539,7 @@
         "recTGxUlLHxpXvqPE",
         "recXVHIdQ91LGa8Xv"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "2D_LIFTREFUGESPACE*"
       ],
@@ -111115,6 +110793,7 @@
         "recrZMxQyFNTlwUyW",
         "recZ3bNIPbkbS0GXw"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIRESMOKEDAMPER"
       ],
@@ -111453,6 +111132,7 @@
       "Map to Rule": [
         "recklvHIPu4GaFQ87"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CHEMICALFEEDER*"
       ],
@@ -111542,6 +111222,7 @@
       "Map to Rule": [
         "recUOo4X2x4of5xWW"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NEWATER*"
       ],
@@ -111755,6 +111436,7 @@
         "recJcaG4V8yEFYeoy",
         "recVdcGSmcNWrthNN"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -111930,6 +111612,7 @@
         "rec6HWH585rdOtGY5",
         "recMaAW5IPDuL7CyP"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "EVACUATIONSWITCH*"
       ],
@@ -111989,6 +111672,7 @@
       "Map to Rule": [
         "recGqmnODctcgzKRh"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SHEET"
       ],
@@ -112037,6 +111721,7 @@
         "rectWyqtuzuPOYhBs",
         "recfH906CoPcZKcSR"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SCREENCHAMBER*"
       ],
@@ -112131,6 +111816,7 @@
       "Map to Rule": [
         "rec5UyHFIaZVOY9JS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "INDUSTRIALWATER*"
       ],
@@ -112186,6 +111872,7 @@
         "rec1sc1HdkVYq8ky8",
         "recKpgqtWfh5ZRzCr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LIFT_GOVERNOR*"
       ],
@@ -112246,6 +111933,7 @@
         "recdcGEpNmAqL8rqW",
         "reccOzFKb7yQtoVld"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BEACH*"
       ],
@@ -112369,6 +112057,7 @@
         "rec2dbXlnm0IhaXMo",
         "recvE6mxHy97Rz72e"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CURVEDRAMP*"
       ],
@@ -112450,6 +112139,7 @@
         "rec4XsauN4F8XjvHS",
         "recE2MTrW6Rot0pG0"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BACKLANE*"
       ],
@@ -112641,6 +112331,7 @@
         "rec8CeSP2DdBr4unr",
         "recb7xd5E6xxoykor"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WASHHANDBASIN"
       ],
@@ -112735,6 +112426,7 @@
         "receoC9q1ekiSZYQy",
         "recsiOfdMMEoEitjK"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRAFFICLIGHT*"
       ],
@@ -113190,6 +112882,7 @@
         "recXoDVtqrHJyLCrM",
         "rec9l5kv0V75hMzwg"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLAT_ROOF"
       ],
@@ -113355,6 +113048,7 @@
       "Map to Rule": [
         "rec9iEUujIsp23zNX"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "LOUVRE"
       ],
@@ -113401,6 +113095,7 @@
         "rec1yiCCp5PqzKckr",
         "rec4jQmofJX3fwise"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "PHSENSOR"
       ],
@@ -113743,6 +113438,7 @@
         "recUWQyVPIGH228eD",
         "recOsoAuW4ra2n53C"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CONVEYORBELT*"
       ],
@@ -113819,6 +113515,7 @@
         "recBQgCFTPEH1CcOM",
         "recKirIEj2Y8TKsL8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "POTABLEWATER*"
       ],
@@ -113926,6 +113623,7 @@
       "Map to Rule": [
         "rec58HukdPdgXkzqd"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FLAREDKERBRAMP*"
       ],
@@ -113971,6 +113669,7 @@
       "Map to Rule": [
         "rec3LhCIzGTcNrdPD"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNPOST_DRIVEWAY*"
       ],
@@ -114016,6 +113715,7 @@
       "Map to Rule": [
         "recGVxcB70R8CxElU"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE_PWDHOLDINGPOINT*"
       ],
@@ -114075,6 +113775,7 @@
         "recoZZ9zV6q1yjRyq",
         "recrGSKseH9LH9BM9"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "JOCKEYPUMP*"
       ],
@@ -114370,6 +114071,7 @@
         "receDZ64yspdIyPvS",
         "reckj3q1KxFzcqdOp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIREFIGHTING*"
       ],
@@ -114427,6 +114129,7 @@
         "recQpfZCd0P9jighq",
         "recfVQexM3W3bMMVe"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "RECYCLABLESTHROWPOINT*"
       ],
@@ -114568,6 +114271,7 @@
         "recydqzfUWsJVl2kA",
         "rectBkfBtf622gKOn"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "LIFT*"
       ],
@@ -114658,8 +114362,7 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.LIFT*"
     }
   },
   {
@@ -114772,6 +114475,7 @@
         "recOanGY5hD90jLZq",
         "recPF5GO08ftmbmTB"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "KERB*"
       ],
@@ -114829,6 +114533,7 @@
         "rec9jHIZaVVA3VoVJ",
         "recOJuXfzJzT1DJFA"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "WATER"
       ],
@@ -114996,6 +114701,7 @@
         "receRDy4gIv3DZBc9",
         "recPZublPZ1lS3Gut"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -115439,6 +115145,7 @@
         "reccPxIISdpkrdAXE",
         "recKKFBQlK6BLcxHt"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "GOODSLIFT*"
       ],
@@ -115490,8 +115197,7 @@
         "Business 1 (Industrial) Handbook",
         "Business 2 (Industrial) Handbook"
       ],
-      "IFC4 Entity.Sub-Type": "IfcTransportElement.GOODSLIFT*",
-      "Status": "To be removed"
+      "IFC4 Entity.Sub-Type": "IfcTransportElement.GOODSLIFT*"
     }
   },
   {
@@ -115605,6 +115311,7 @@
       "Map to Rule": [
         "recc6RSttCo7yotq7"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "DRINKINGFOUNTAIN*"
       ],
@@ -115651,6 +115358,7 @@
         "recYFLVZLkmhITHli",
         "recNkM7VIbeGqU8HZ"
       ],
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "VENT*"
       ],
@@ -115705,6 +115413,7 @@
         "recnXIncDZKUG0gjD",
         "recB51tiM1hfWwgGS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "CABLETRAYSEGMENT"
       ],
@@ -115767,6 +115476,7 @@
         "recARWrgnHpOpmXsd",
         "recA1o0b7OBELyaVS"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "GULLYTRAP"
       ],
@@ -115976,6 +115686,7 @@
         "recWNtOBWVSMsHOjr",
         "recp2jLPFcKdqhu2a"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FUELBURNINGEQUIPMENT*"
       ],
@@ -116038,6 +115749,7 @@
       "Map to Rule": [
         "recklvHIPu4GaFQ87"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "JET*"
       ],
@@ -116248,6 +115960,7 @@
         "recYvwfxcUjVM7QYw",
         "recO0EhVSWQSak8Mp"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "SIGNAGE*"
       ],
@@ -116410,6 +116123,7 @@
       "Map to Rule": [
         "recSXWB8u7Wwcj070"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "AIRADMITTANCE*"
       ],
@@ -116459,6 +116173,7 @@
         "reckGshpX2PT8o75S",
         "recJ4jB3mHforUy7W"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "MANUALSWITCH*"
       ],
@@ -116564,6 +116279,7 @@
       "Map to Rule": [
         "rec2e7hpOPrZkQy2N"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FAÇADE*"
       ],
@@ -116610,6 +116326,7 @@
       "Map to Rule": [
         "recrNNReJTbJIRSTc"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "HYDRONIC*"
       ],
@@ -116655,6 +116372,7 @@
       "Map to Rule": [
         "rec28GwOEk4GYH9J8"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FUMEHOOD*"
       ],
@@ -117048,6 +116766,7 @@
         "recycqT01jWXgAmrJ",
         "recTygYbdcJjlYoCu"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -118072,6 +117791,7 @@
         "recxoOHCV0hbtZWKl",
         "recW1HYwbs29askUe"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "FIREENGINEACCESSWAY*"
       ],
@@ -118405,6 +118125,7 @@
         "recgTeIKTgPvCt2jV",
         "recWNtOBWVSMsHOjr"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "POLLUTIONCONTROLEQUIPMENT*"
       ],
@@ -118480,6 +118201,7 @@
         "reciQht9xosZLkNdw",
         "recEP2YwdFYbRkTGQ"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "TRELLIS*"
       ],
@@ -118547,6 +118269,7 @@
       "Map to Rule": [
         "recjDyXWs5MIdrxK4"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "BACKFILL*"
       ],
@@ -118599,6 +118322,7 @@
       "Map to Rule": [
         "rec4fexBTYfcL5o0N"
       ],
+      "Status": "Pending",
       "IFC4 Sub Type": [
         "ISLAND*"
       ],
