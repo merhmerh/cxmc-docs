@@ -6,7 +6,7 @@ export let item;
 </script>
 
 <div class="table_wrapper">
-    <table class="horizontal noActionColumn {theme}">
+    <table class="horizontal noActionColumn {$theme}">
         <tr class="codeBook">
             <th><div>Code Book</div></th>
             <td><div>{item.code}</div></td>
@@ -38,6 +38,7 @@ export let item;
 table {
     tr {
         th {
+            background-color: var(--table__background-color);
             vertical-align: top;
             text-align: top;
             width: 180px;

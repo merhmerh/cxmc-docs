@@ -8,7 +8,6 @@ export async function GET({ url }) {
         const query_data = url.searchParams.get('data')
         const q = JSON.parse(query_data)
 
-        console.log(q);
         const result = code_list.find(x => {
             if (x.agency == q.agency &&
                 x.code == q.code &&
