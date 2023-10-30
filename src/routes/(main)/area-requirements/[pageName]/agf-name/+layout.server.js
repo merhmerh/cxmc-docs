@@ -10,5 +10,9 @@ export async function load({ locals: { supabase } }) {
 
     let pageContent = data.data.pageContent.find(x => x.path == 'AGF_NAME')
 
-    return ({ areaNames: data.data.AGFName, pageContent })
+
+
+    const areaNames = data.data.AGFName.filter(x => !x[2].match(/^\!/))
+
+    return ({ areaNames, pageContent })
 }

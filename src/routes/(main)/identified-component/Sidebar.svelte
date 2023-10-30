@@ -23,13 +23,13 @@ function updateList() {
 }
 
 function filter() {
+    updateList();
     if (!searchString) {
-        list = $mg_comp;
         return;
     }
     const regex = new RegExp(escapeRegex(searchString), "i");
 
-    list = $mg_comp.filter((x) => regex.test(x.IdentifiedComponent));
+    list = list.filter((x) => regex.test(x.IdentifiedComponent));
 
     if (list.length == 0) {
         console.log("no result found");

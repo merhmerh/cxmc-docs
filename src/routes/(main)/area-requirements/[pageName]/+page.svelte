@@ -47,12 +47,15 @@ import { Tooltip } from "merh-forge-ui";
                     <td>
                         <div class="tags">
                             {#if table.scheme == "AGF_Name"}
-                                Refer to <a href="/area-requirements/area_gfa/agf-name?q=agriculture">AGF_Name</a> Page.
+                                Refer to <a href="/area-requirements/area_gfa/agf-name?q=residential-(none-landed)"
+                                    >AGF_Name</a> Page.
                             {/if}
                             {#if table.data.length > 1}
                                 {#each table.data as value}
                                     {#if value.includes("*")}
-                                        {value}
+                                        {value.replace("*", "")}
+                                    {:else if value.match(/\{\{(.*?)\}\}/)}
+                                        <code class="sample">{value.replace(/\{\{(.*?)\}\}/, "$1")}</code>
                                     {:else}
                                         <Tooltip
                                             position="top"
@@ -114,14 +117,21 @@ import { Tooltip } from "merh-forge-ui";
     }
 }
 .tags {
-    // display: flex;
+    display: flex;
     white-space: normal;
     gap: 6px;
+    align-items: center;
     & :global(.slot) {
         margin-block: 2px;
     }
     code {
         cursor: pointer;
+        &.sample {
+            cursor: default;
+            font-style: italic;
+            color: var(--mono-500);
+            background-color: color-mix(in srgb, var(--muted) 50%, transparent);
+        }
     }
 }
 </style>

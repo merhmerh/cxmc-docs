@@ -5,12 +5,13 @@ import { createEventDispatcher, onMount } from "svelte";
 const dispatch = createEventDispatcher();
 
 const navList = [
+    { href: "/codes/bca", name: "Codes" },
     { href: "/ifcsg", name: "IFC SG" },
+    { href: "/identified-component", name: "Identified Component" },
+    { href: "/area-requirements", name: "Area Requirements" },
     { href: "/spacename/all-spaces", name: "SpaceName" },
     { href: "/occupancy-type", name: "OccupancyType" },
-    { href: "/area-requirements", name: "Area Requirements" },
-    { href: "/identified-component", name: "Identified Component" },
-    { href: "/codes/bca", name: "Codes" },
+    { href: "/downloads", name: "Download" },
 ];
 </script>
 

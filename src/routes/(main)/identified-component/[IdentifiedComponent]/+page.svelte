@@ -71,6 +71,13 @@ function toggleBetaContent() {
         }
     }
 }
+
+function isHtmlDescription(description) {
+    if (!description) return false;
+
+    const regex = new RegExp(/^\@html/, "i");
+    return description.match(regex);
+}
 </script>
 
 {#if notFound}
@@ -279,7 +286,17 @@ function toggleBetaContent() {
                                                     {/if}
                                                 </div>
                                             </td>
-                                            <td class="description"><div>{obj.Description || ""}</div></td>
+                                            <td class="description">
+                                                <div>
+                                                    {#if isHtmlDescription(obj.Description)}
+                                                        {@html obj.Description.replace(/\@html/i, "").trim()}
+                                                    {:else if obj.Description}
+                                                        {obj.Description}
+                                                    {:else}
+                                                        -
+                                                    {/if}
+                                                </div>
+                                            </td>
                                         </tr>
                                     {/each}
                                 </tbody>
