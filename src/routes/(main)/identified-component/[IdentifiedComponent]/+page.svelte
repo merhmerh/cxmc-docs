@@ -6,11 +6,13 @@ import { theme } from "$comp/theme.store";
 import { timeout, replaceSpaceWithDash, isObjectEmpty } from "$fn/helper";
 import { beta } from "$routes/main.store";
 import ModellingGuide from "./ModellingGuide.svelte";
+import { Modal } from "merh-forge-ui";
+import CodeTable from "../../codes/[agency]/CodeTable.svelte";
 
 export let data;
 let original;
 let mg_data = {};
-let prop_selected, isEditing, editor, notFound;
+let prop_selected, isEditing, editor, notFound, modal, codeData;
 const role = data.session.user.user_metadata.role || null;
 const isEditor = role !== "reader" && role !== null;
 
@@ -22,6 +24,9 @@ $: {
 }
 
 async function update() {
+    if (modal) {
+        modal.close();
+    }
     notFound = false;
 
     const IdentifiedComponent = $page.params.IdentifiedComponent;
@@ -44,12 +49,15 @@ async function update() {
     const resp = await fetch(url);
     mg_data.prop = await resp.json();
     original = JSON.parse(JSON.stringify(mg_data));
+    console.log("when beta?");
 }
 
 function toggleBetaContent() {
+    console.log("toggling");
     if (original) {
         if ($beta) {
-            mg_data.prop = mg_data.prop.filter((x) => x.beta);
+            console.log(mg_data.prop);
+            mg_data.prop = mg_data.prop.filter((x) => x.Beta);
             for (const item of mg_data.prop) {
                 if (!item.pset) {
                     continue;
@@ -78,7 +86,25 @@ function isHtmlDescription(description) {
     const regex = new RegExp(/^\@html/, "i");
     return description.match(regex);
 }
+
+async function showCode(clause, clauses) {
+    console.log(clause);
+    const url = `/api/ifcsg/get-code?data=${encodeURIComponent(JSON.stringify(clause))}`;
+    const resp = await fetch(url);
+    const result = await resp.json();
+    console.log(result, clauses);
+    codeData = result;
+    codeData.clause = clauses;
+    modal.show();
+}
 </script>
+
+<Modal bind:this={modal}>
+    <div class="modal">
+        <h2>{codeData.chapter}</h2>
+        <CodeTable item={codeData}></CodeTable>
+    </div>
+</Modal>
 
 {#if notFound}
     <h3>This identified component '{$page.params.IdentifiedComponent}' not in beta</h3>
@@ -103,28 +129,61 @@ function isHtmlDescription(description) {
                     <th><div>Agency</div></th>
                     <th><div>Code Book</div></th>
                     <th><div>Chapter</div></th>
-                    <th><div>Clause</div></th>
                 </tr>
             </thead>
             <tbody>
-                {#each mg_data.gateway as gateway}
+                {#each mg_data.gateway as item}
                     <tr>
-                        <td class="agency"><div>{gateway.Agency}</div></td>
-                        {#each gateway.Requirement as req}
-                            <td class="chapter"><div><span>{req.Code}</span></div></td>
-                            <td class="chapter"><div><span>{req.Chapter}</span></div></td>
+                        <td class="agency"><div>{item.agency}</div></td>
+                        <td class="code"><div>{item.code}</div></td>
+                        <td class="chapters">
+                            <div class="chapter">
+                                {#each item.chapters as chapter}
+                                    <div class="row">
+                                        <div class="col1">{chapter.chapterName}</div>
+                                        <div class="col2">
+                                            {#each chapter.clauseNumbers as clause}
+                                                <div class="clauseNumber">
+                                                    <div class="c1">{clause.clauseNumber}</div>
+                                                    <div class="c2">
+                                                        <div class="c2a">
+                                                            <p>{clause.clauses[0]}</p>
+                                                            {#if clause.clauses.length > 1}
+                                                                <span class="more"
+                                                                    >...and {clause.clauses.length - 1} more clauses
+                                                                </span>
+                                                            {/if}
+                                                        </div>
+                                                        <button
+                                                            on:click={() => {
+                                                                showCode(
+                                                                    {
+                                                                        agency: item.agency,
+                                                                        code: item.code,
+                                                                        chapter: chapter.chapterName,
+                                                                        clauseNumber: clause.clauseNumber,
+                                                                    },
+                                                                    clause.clauses,
+                                                                );
+                                                            }}>
+                                                            <div class="icon">
+                                                                <Icon
+                                                                    icon="material-symbols-light:read-more"
+                                                                    height="16" />
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            {/each}
+                                        </div>
+                                    </div>
+                                {/each}
+                            </div>
+                        </td>
 
-                            <td class="clause"
-                                ><div>
-                                    {#if req.ClauseNumber}
-                                        <span>{req.ClauseNumber}</span>
-                                    {/if}
-                                    <span>{req.Clause[0] || ""}</span>
-                                    {#if req.Clause.length - 1 !== 0}
-                                        <span class="more">and {req.Clause.length - 1} more clauses</span>
-                                    {/if}
-                                </div></td>
-                        {/each}
+                        <!-- {#each gateway.Requirement as req} -->
+                        <!-- <td class="chapter"><div><span>{req.code}</span></div></td> -->
+                        <!-- {/each} -->
                     </tr>
                 {/each}
             </tbody>
@@ -326,6 +385,14 @@ h3 {
         }
     }
 }
+
+.modal {
+    width: 800px;
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+    }
+}
+
 .table_wrapper {
     margin-top: 0;
     table {
@@ -346,27 +413,97 @@ h3 {
             td.agency {
                 width: 80px;
             }
-            td.chapter {
-                width: 300px;
-                > div {
-                    span {
-                        width: 100%;
-                        @include text-overflow-1;
-                    }
-                }
+            td.code {
+                width: 200px;
             }
-            td.clause > div {
-                // display: flex;
-                // flex-direction: column;
-                // gap: 1rem;
-                // padding: 0;
-                width: auto;
-                span {
-                    width: 100%;
-                    @include text-overflow-1;
-                    // padding: 0.5rem;
-                    &.more {
-                        color: var(--mono-300);
+
+            td.chapters {
+                width: 1000px;
+                padding: 0;
+                div.chapter {
+                    padding: 0;
+                    gap: 0;
+                    .row {
+                        display: grid;
+                        grid-template-columns: 200px 1fr;
+                        // justify-content: space-between;
+                        width: 100%;
+                        // align-items: center;
+
+                        display: flex;
+
+                        &:not(:last-child) {
+                            border-bottom: 1px solid var(--table__border-color);
+                        }
+                        .col1 {
+                            display: flex;
+                            align-items: center;
+                            flex-shrink: 0;
+                            width: 200px;
+                            padding: 0.325rem 0.5rem;
+                        }
+                        .col2 {
+                            border-left: 1px solid var(--table__border-color);
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+
+                            .clauseNumber {
+                                flex: 1;
+                                display: flex;
+                                width: 100%;
+
+                                &:not(:last-child) {
+                                    border-bottom: 1px solid var(--table__border-color);
+                                }
+                                div {
+                                    padding: 0.325rem 0.5rem;
+                                }
+                                div.c1 {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-shrink: 0;
+                                    width: 100px;
+                                    border-right: 1px solid var(--table__border-color);
+                                }
+                                div.c2 {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    width: 100%;
+                                    gap: 1rem;
+
+                                    .c2a {
+                                        padding: 0;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 0.25rem;
+                                        width: 100%;
+                                        // justify-content: space-between;
+                                        justify-content: center;
+                                        .more {
+                                            color: var(--mono-300);
+                                        }
+
+                                        p {
+                                            padding: 0;
+                                            margin: 0;
+                                            @include text-overflow-1;
+                                            white-space: normal;
+                                        }
+                                    }
+                                    button {
+                                        border: 0;
+                                        padding: 0;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 0.25rem;
+                                        color: var(--mono);
+                                        background-color: var(--mono-100);
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

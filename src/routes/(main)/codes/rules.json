@@ -5,7 +5,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2 Note",
     "clause": "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -31,7 +31,7 @@
     "chapter": "5",
     "clauseNumber": null,
     "clause": "Guardhouse and Sentry Posts",
-    "ruleGroup": "gfa:6",
+    "ruleGroup": "recskMmbRSf1Ar8WU",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area"
@@ -43,7 +43,7 @@
     "chapter": "Staircase",
     "clauseNumber": "E.3.2.1",
     "clause": "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -69,7 +69,7 @@
     "chapter": "Staircases: Risers and treads",
     "clauseNumber": "E.3.4.2",
     "clause": "(b) 250mm, if the staircase is in an industrial building, or;",
-    "ruleGroup": "apd:E.3.4",
+    "ruleGroup": "rec7INFLfpS5WUM1H",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -86,7 +86,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2 Note",
     "clause": "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -112,7 +112,7 @@
     "chapter": "Headroom and Ceiling Height: Ceiling Height",
     "clauseNumber": "C.3.3.1",
     "clause": "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
-    "ruleGroup": "apd:C.3.3",
+    "ruleGroup": "recsgsWVIGwWZB79R",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -130,7 +130,7 @@
     "chapter": "Staircases: Width of staircase",
     "clauseNumber": "E.3.3.1",
     "clause": "Note: If the projection of the handrail into the clear width does not exceed 80mm on each side of the staircase, the width is measured from\n(a) The finished surfaces of the walls, if the staircase is enclosed on both sides by walls only; or",
-    "ruleGroup": "apd:E.3.3",
+    "ruleGroup": "recxwlJKjGWBclBhk",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -147,7 +147,7 @@
     "chapter": "Ventilation",
     "clauseNumber": "G.2.2",
     "clause": "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
-    "ruleGroup": "apd:G.2",
+    "ruleGroup": "rec0LkiEEpM1kxRRy",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -164,7 +164,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2 Note",
     "clause": "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -190,7 +190,7 @@
     "chapter": "Staircase: Risers and treads",
     "clauseNumber": "E.3.4.4",
     "clause": "The risers and treads within each flight of stairs shall be of uniform height and size.\n",
-    "ruleGroup": "apd:E.3.4",
+    "ruleGroup": "rec7INFLfpS5WUM1H",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -207,7 +207,7 @@
     "chapter": "6",
     "clauseNumber": null,
     "clause": "Metal Ceiling Grids within Indoor Performance Venue",
-    "ruleGroup": "gfa:31",
+    "ruleGroup": "reczJcwdsXSHNKHXr",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area",
@@ -220,7 +220,7 @@
     "chapter": "Safety from Falling: Height of Barrier",
     "clauseNumber": "H.3.2 Note",
     "clause": "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
-    "ruleGroup": "apd:H.3.2",
+    "ruleGroup": "recxsSJs9MZreFuRX",
     "gateway": "Construction",
     "identifiedComponents": [
       "Space",
@@ -231,8 +231,7 @@
       "Building Storey",
       "Stair",
       "Stair Flight",
-      "Chair",
-      "Bench",
+      "Fixed Seating",
       "Building"
     ]
   },
@@ -242,7 +241,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2.1",
     "clause": "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -268,7 +267,7 @@
     "chapter": "Inspection Chamber (IC)",
     "clauseNumber": "STD.dwg.3.7 ",
     "clause": "(b) (1)• This rule shall check for the maximum depth of inspection chamber.\n• System will check for presence of inspection chamber.\n• Maximum depth of inspection chamber shall be 2500 mm.\n• If maximum depth is more than 2500 mm, checking shall flag as “Attention” and shall follow the standard for manhole.",
-    "ruleGroup": "ssw:dwg:3.7",
+    "ruleGroup": "rec86BxI7DyR7qVo0",
     "gateway": "Construction",
     "identifiedComponents": [
       "Inspection Chamber"
@@ -280,7 +279,7 @@
     "chapter": "Safety from Falling: Height of Barrier",
     "clauseNumber": "H.3.2 Note",
     "clause": "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
-    "ruleGroup": "apd:H.3.2",
+    "ruleGroup": "recxsSJs9MZreFuRX",
     "gateway": "Construction",
     "identifiedComponents": [
       "Space",
@@ -291,8 +290,7 @@
       "Building Storey",
       "Stair",
       "Stair Flight",
-      "Chair",
-      "Bench",
+      "Fixed Seating",
       "Building"
     ]
   },
@@ -302,7 +300,7 @@
     "chapter": "Parking Layout Dimensions: Bicycle parking provision",
     "clauseNumber": "2.4",
     "clause": "There should be a minimum of 10 bicycle parking lots within a location.  ",
-    "ruleGroup": "vpp:2.4",
+    "ruleGroup": "rect4TlZ9He39UNTa",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Parking Lot",
@@ -315,7 +313,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2 Note",
     "clause": "1. The term\" access route\" shall include a covered walkway or footway of a building",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -341,7 +339,7 @@
     "chapter": "6",
     "clauseNumber": null,
     "clause": "Gondola platform at roof top",
-    "ruleGroup": "gfa:47",
+    "ruleGroup": "recNCKik0aQfBBwuy",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area",
@@ -354,7 +352,7 @@
     "chapter": "Staircases: Handrails ",
     "clauseNumber": "E.3.6.1",
     "clause": "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
-    "ruleGroup": "apd:E.3.6",
+    "ruleGroup": "recyMhXpq3pajiO8R",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -373,7 +371,7 @@
     "chapter": "Parking Layout Dimensions: Bicycle parking provision",
     "clauseNumber": "2.4",
     "clause": "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for 2- tiers bicycle racks shall be 2500mm",
-    "ruleGroup": "vpp:2.4",
+    "ruleGroup": "rect4TlZ9He39UNTa",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Parking Lot",
@@ -386,7 +384,7 @@
     "chapter": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
     "clauseNumber": "1.2.1 ",
     "clause": "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects.",
-    "ruleGroup": "ssw:1.2.1b",
+    "ruleGroup": "recBcUPmq2w6Cm3E1",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Manhole",
@@ -402,7 +400,7 @@
     "chapter": "6",
     "clauseNumber": null,
     "clause": "Lift Motor Room",
-    "ruleGroup": "gfa:28",
+    "ruleGroup": "recgIWWdFNnDu9nd2",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area",
@@ -416,7 +414,7 @@
     "chapter": "Staircases: Width of staircase",
     "clauseNumber": "E.3.3.1",
     "clause": "(c) The inner sides of the balustrades if the staircase has balustrades on both sides ",
-    "ruleGroup": "apd:E.3.3",
+    "ruleGroup": "recxwlJKjGWBclBhk",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -433,7 +431,7 @@
     "chapter": "Staircase",
     "clauseNumber": "E.3.2 Note",
     "clause": "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -459,7 +457,7 @@
     "chapter": "Parking Layout Dimensions: Bicycle parking provision",
     "clauseNumber": "2.4",
     "clause": "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
-    "ruleGroup": "vpp:2.4",
+    "ruleGroup": "rect4TlZ9He39UNTa",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Parking Lot",
@@ -472,7 +470,7 @@
     "chapter": "Staircases: Width of staircase",
     "clauseNumber": "E.3.3.1",
     "clause": "(b) The inner sides of the handrails if the staircase has handrails on both sides. ",
-    "ruleGroup": "apd:E.3.3",
+    "ruleGroup": "recxwlJKjGWBclBhk",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -489,7 +487,7 @@
     "chapter": "Headroom and Ceiling Height: Ceiling Height",
     "clauseNumber": "C.3.3 Note",
     "clause": "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. ",
-    "ruleGroup": "apd:C.3.3",
+    "ruleGroup": "recsgsWVIGwWZB79R",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -507,7 +505,7 @@
     "chapter": "Staircases: Landing",
     "clauseNumber": "E.3.5.2",
     "clause": "Except for spiral staircases, an intermediate landing shall be provided in between floor levels at intervals of not more than 18 risers. ",
-    "ruleGroup": "apd:E.3.5",
+    "ruleGroup": "rec20W2bNMb4u9iZ9",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -525,7 +523,7 @@
     "chapter": "Staircases: Risers and treads",
     "clauseNumber": "E.3.4.2",
     "clause": "The width of a thread of a staircase (see Figure E.3.4.2(a) for measurement of \"tread\") shall not be less than:\n(a) 225 mm, if the staircase is in a residential unit within a residential building;",
-    "ruleGroup": "apd:E.3.4",
+    "ruleGroup": "rec7INFLfpS5WUM1H",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -542,7 +540,7 @@
     "chapter": "Staircases: Width of staircase",
     "clauseNumber": "E.3.3.1",
     "clause": "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
-    "ruleGroup": "apd:E.3.3",
+    "ruleGroup": "recxwlJKjGWBclBhk",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -559,7 +557,7 @@
     "chapter": "Safety from Falling: Height of Barrier",
     "clauseNumber": "H.3.2.1",
     "clause": "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
-    "ruleGroup": "apd:H.3.2",
+    "ruleGroup": "recxsSJs9MZreFuRX",
     "gateway": "Construction",
     "identifiedComponents": [
       "Space",
@@ -570,8 +568,7 @@
       "Building Storey",
       "Stair",
       "Stair Flight",
-      "Chair",
-      "Bench",
+      "Fixed Seating",
       "Building"
     ]
   },
@@ -581,7 +578,7 @@
     "chapter": "Parking Layout Dimensions: Bicycle parking provision",
     "clauseNumber": "2.4",
     "clause": "Minimum width of single-tier bicycle lot shall be  600mm",
-    "ruleGroup": "vpp:2.4",
+    "ruleGroup": "rect4TlZ9He39UNTa",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Parking Lot",
@@ -594,7 +591,7 @@
     "chapter": "6",
     "clauseNumber": null,
     "clause": "Entrance canopy",
-    "ruleGroup": "gfa:23",
+    "ruleGroup": "recdjnB2KCJYw7ejh",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area"
@@ -606,11 +603,11 @@
     "chapter": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
     "clauseNumber": "2.1.5",
     "clause": "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm.",
-    "ruleGroup": "vpp:2.1.5",
+    "ruleGroup": "rec2OygG8l61bmBRj",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Space",
-      "Civil Element",
+      "Driveway",
       "Parking Lot",
       "Ramp",
       "Hump"
@@ -622,7 +619,7 @@
     "chapter": "Staircases: Handrails ",
     "clauseNumber": "E.3.6.5",
     "clause": "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
-    "ruleGroup": "apd:E.3.6",
+    "ruleGroup": "recyMhXpq3pajiO8R",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -641,7 +638,7 @@
     "chapter": "6",
     "clauseNumber": null,
     "clause": "Lift Shaft",
-    "ruleGroup": "gfa:28",
+    "ruleGroup": "recd6iD3PRYrXNQVE",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area",
@@ -655,7 +652,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2 Note",
     "clause": "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -681,7 +678,7 @@
     "chapter": "Safety from Falling: Safety from falling ",
     "clauseNumber": "H.2.1",
     "clause": "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height.",
-    "ruleGroup": "apd:H.3.2",
+    "ruleGroup": "recxsSJs9MZreFuRX",
     "gateway": "Construction",
     "identifiedComponents": [
       "Space",
@@ -692,8 +689,7 @@
       "Building Storey",
       "Stair",
       "Stair Flight",
-      "Chair",
-      "Bench",
+      "Fixed Seating",
       "Building"
     ]
   },
@@ -703,7 +699,7 @@
     "chapter": "Ventilation",
     "clauseNumber": "G.2.1",
     "clause": "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres.",
-    "ruleGroup": "apd:G.2",
+    "ruleGroup": "rec0LkiEEpM1kxRRy",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -720,7 +716,7 @@
     "chapter": "Staircases: Risers and treads",
     "clauseNumber": "E.3.4.1",
     "clause": "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
-    "ruleGroup": "apd:E.3.4",
+    "ruleGroup": "rec7INFLfpS5WUM1H",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -737,7 +733,7 @@
     "chapter": "Staircases: Width of staircase",
     "clauseNumber": "E.3.3.1",
     "clause": "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
-    "ruleGroup": "apd:E.3.3",
+    "ruleGroup": "recxwlJKjGWBclBhk",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -754,7 +750,7 @@
     "chapter": "Safety from Falling: Height of Barrier",
     "clauseNumber": "H.3.2.1",
     "clause": "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
-    "ruleGroup": "apd:H.3.2",
+    "ruleGroup": "recxsSJs9MZreFuRX",
     "gateway": "Construction",
     "identifiedComponents": [
       "Space",
@@ -765,8 +761,7 @@
       "Building Storey",
       "Stair",
       "Stair Flight",
-      "Chair",
-      "Bench",
+      "Fixed Seating",
       "Building"
     ]
   },
@@ -776,7 +771,7 @@
     "chapter": "Staircases: Handrails ",
     "clauseNumber": "E.3.6.2",
     "clause": "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line.",
-    "ruleGroup": "apd:E.3.6",
+    "ruleGroup": "recyMhXpq3pajiO8R",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -795,7 +790,7 @@
     "chapter": "Parking Layout Dimensions: Bicycle parking provision",
     "clauseNumber": "2.4",
     "clause": "Minimum width of 2-tiers bicycle lot shall be 650mm",
-    "ruleGroup": "vpp:2.4",
+    "ruleGroup": "rect4TlZ9He39UNTa",
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Parking Lot",
@@ -808,7 +803,7 @@
     "chapter": "Staircases: Risers and treads",
     "clauseNumber": "E.3.4.3",
     "clause": "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
-    "ruleGroup": "apd:E.3.4",
+    "ruleGroup": "rec7INFLfpS5WUM1H",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -825,7 +820,7 @@
     "chapter": "Staircases: Width of staircase",
     "clauseNumber": "E.3.3.1",
     "clause": "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
-    "ruleGroup": "apd:E.3.3",
+    "ruleGroup": "recxwlJKjGWBclBhk",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -842,7 +837,7 @@
     "chapter": "Staircases: Risers and treads",
     "clauseNumber": "E.3.4.2",
     "clause": "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
-    "ruleGroup": "apd:E.3.4",
+    "ruleGroup": "rec7INFLfpS5WUM1H",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -859,7 +854,7 @@
     "chapter": "Staircases: Landing",
     "clauseNumber": "E.3.5.1",
     "clause": "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
-    "ruleGroup": "apd:E.3.5",
+    "ruleGroup": "rec20W2bNMb4u9iZ9",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -877,7 +872,7 @@
     "chapter": "Safety from Falling: Height of Barrier",
     "clauseNumber": "H.3.2 Note",
     "clause": "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step.",
-    "ruleGroup": "apd:H.3.2",
+    "ruleGroup": "recxsSJs9MZreFuRX",
     "gateway": "Construction",
     "identifiedComponents": [
       "Space",
@@ -888,8 +883,7 @@
       "Building Storey",
       "Stair",
       "Stair Flight",
-      "Chair",
-      "Bench",
+      "Fixed Seating",
       "Building"
     ]
   },
@@ -899,7 +893,7 @@
     "chapter": "5",
     "clauseNumber": null,
     "clause": "Automated Teller Machine and Vending Machine (Kiosk vs Standalone)",
-    "ruleGroup": "gfa:1",
+    "ruleGroup": "rec3O2QN2rPUEF2Hr",
     "gateway": "Construction",
     "identifiedComponents": [
       "Area"
@@ -911,7 +905,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2 Note",
     "clause": "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -937,7 +931,7 @@
     "chapter": "Inspection Chamber (IC)",
     "clauseNumber": "STD.dwg.3.7 ",
     "clause": "(b) (2) • This rule shall check for the internal width and length of inspection chamber.\n• System will check for presence of inspection chamber.\n• Checking shall flag as Non-Compliant if the minimum and maximum width/length is not provided.\nNote: This rule only checks for inspection chambers designed as IC’s only and does not include inspection chambers  \n           designed using manhole.",
-    "ruleGroup": "ssw:dwg:3.7",
+    "ruleGroup": "rec86BxI7DyR7qVo0",
     "gateway": "Construction",
     "identifiedComponents": [
       "Inspection Chamber"
@@ -949,7 +943,7 @@
     "chapter": "Headroom and Ceiling Height: Headroom",
     "clauseNumber": "C.3.2.2",
     "clause": "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m",
-    "ruleGroup": "apd:C.3.2",
+    "ruleGroup": "recSGl1Ob9JE7EsWR",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -975,7 +969,7 @@
     "chapter": "Staircases: Landing",
     "clauseNumber": "E.3.5.4",
     "clause": "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
-    "ruleGroup": "apd:E.3.5",
+    "ruleGroup": "rec20W2bNMb4u9iZ9",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",
@@ -993,7 +987,7 @@
     "chapter": "Staircases: Landing",
     "clauseNumber": "E.3.5.3",
     "clause": "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width.",
-    "ruleGroup": "apd:E.3.5",
+    "ruleGroup": "rec20W2bNMb4u9iZ9",
     "gateway": "Construction",
     "identifiedComponents": [
       "Building",

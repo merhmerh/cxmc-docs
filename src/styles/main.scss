@@ -766,6 +766,9 @@ table {
     border-color: var(--mono-200) !important;
 }
 
+.modal_background {
+    z-index: 150 !important;
+}
 .modal {
     display: flex;
     flex-direction: column;

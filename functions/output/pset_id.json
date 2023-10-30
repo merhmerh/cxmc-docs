@@ -1440,6 +1440,8 @@
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
         "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*",
         "CABLING*",
         "CHEMICAL*",
         "CHILLEDWATER*",
@@ -1515,12 +1517,13 @@
         "PIPESILENCER*",
         "SHORTPIECE*",
         "SPIGOTANDSOCKET*",
+        "STRAP*",
+        "PTRAP*",
         "BYPASSCHANNEL*",
         "RAINWATEROUTLET*",
         "SCUPPERDRAIN*",
         "BACKGUARD*",
         "BOLLARD*",
-        "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
         "EXTERNALFINS*",
@@ -1538,7 +1541,6 @@
         "WINDER*",
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
-        "BALANCINGTANK*",
         "BLOWDOWN*",
         "DETENTIONTANK*",
         "DILUTIONTANK*",
@@ -1561,7 +1563,6 @@
         "OVERPRESSUREPROTECTIONDEVICE*",
         "SPRINKLERCONTROL*",
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -1577,7 +1578,6 @@
         "SHALLOWFLOORTRAP*",
         "URINALTRAP*",
         "WASTEDIVERTER*",
-        "WASTESUMP*",
         "VENTILATIONSLEEVE*",
         "BAYWINDOW*"
       ],
@@ -1617,6 +1617,7 @@
         "NOTDEFINED",
         "SUMP",
         "VALVECHAMBER",
+        "GULLYSUMP",
         "NOTDEFINED",
         "OIL",
         "TRAPDOOR",
@@ -1703,7 +1704,6 @@
         "SHEAR",
         "FLOORTRAP",
         "FLOORWASTE",
-        "GULLYSUMP",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP",
@@ -1778,7 +1778,6 @@
       "Parameter Value (Sample)": "H20-150 (HorizontalRebar);\nH25-150 (VerticalRebar);\nH32-150+H25-150 (VerticalRebar);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
       "IFC4 Object Types": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -1851,7 +1850,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -1859,7 +1860,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -2400,7 +2402,6 @@
       ],
       "Parameter Value (Sample)": "50% (Porosity);\n0.2m/s (Spacing);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass)",
       "IFC4 Object Types": [
-        "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
         "EXTERNALFINS*",
@@ -2487,7 +2488,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -2495,7 +2498,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -3218,9 +3222,15 @@
         "recWVknExepdjDLpk",
         "rec7WrXcuiFBw5IMf",
         "recQFZbWPvj8mqg6c",
-        "recqrRPwR68uFx1P4"
+        "recqrRPwR68uFx1P4",
+        "recqEzIaJsB0FY7Lz",
+        "recz84aiiThEKB8yo",
+        "recpMq9NIkxoPOiwk",
+        "recFMFyleJONJYMN0",
+        "recoNWyhnxZQrynM0",
+        "recAkxXXBj1AJzgGT"
       ],
-      "Properties [Data Type]": "InvertLevel [Label];\nDiameter [Length];\nWidth [Length];\nDepth [Length];\nLength [Length];\nTopLevel [Real];\nGradient [Label]",
+      "Properties [Data Type]": "InvertLevel [Real];\nDiameter [Length];\nWidth [Length];\nDepth [Length];\nLength [Length];\nTopLevel [Real];\nGradient [Label]",
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
       ],
@@ -3230,7 +3240,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -3238,7 +3250,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -3298,7 +3311,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -3306,7 +3321,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -3522,7 +3538,6 @@
         "LIFT_RESCUEHOOK*",
         "TAPEREDNUTS*",
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -4050,13 +4065,11 @@
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
         "URINALTRAP*",
-        "WASTEDIVERTER*",
-        "WASTESUMP*"
+        "WASTEDIVERTER*"
       ],
       "IFC4 Predefined Types": [
         "FLOORTRAP",
         "FLOORWASTE",
-        "GULLYSUMP",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
@@ -4323,13 +4336,11 @@
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
         "URINALTRAP*",
-        "WASTEDIVERTER*",
-        "WASTESUMP*"
+        "WASTEDIVERTER*"
       ],
       "IFC4 Predefined Types": [
         "FLOORTRAP",
         "FLOORWASTE",
-        "GULLYSUMP",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
@@ -4464,7 +4475,6 @@
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
-        "BALANCINGTANK*",
         "BLOWDOWN*",
         "DETENTIONTANK*",
         "DILUTIONTANK*",
@@ -4659,7 +4669,6 @@
       "Parameter Value (Sample)": "8000 (Height);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
       "IFC4 Object Types": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -4930,7 +4939,6 @@
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
-        "BALANCINGTANK*",
         "BLOWDOWN*",
         "DETENTIONTANK*",
         "DILUTIONTANK*",
@@ -5327,9 +5335,11 @@
         "recQxp35TYhNpzr06",
         "recc3efnOAoYEcSER",
         "recmEPzu16ck3CWkw",
-        "reconZhKsz126ruek"
+        "reconZhKsz126ruek",
+        "rec5U5wnYkhwFexVB",
+        "recAwE6G7aFUibkLZ"
       ],
-      "Properties [Data Type]": "NominalDiameter [Length];\nWeldedJoint [Boolean];\nWithFlange [Boolean];\nInspectionOpening [Boolean];\nInsulation_FlameSpreadClass [Label];\nThickness [Length];\nPre-insulated [Boolean];\nExternalReference [Label];\nPWCS_VolumeOfWastePerDay [Label]",
+      "Properties [Data Type]": "NominalDiameter [Length];\nWeldedJoint [Boolean];\nWithFlange [Boolean];\nInspectionOpening [Boolean];\nInsulation_FlameSpreadClass [Label];\nThickness [Length];\nPre-insulated [Boolean];\nExternalReference [Label];\nPWCS_VolumeOfWastePerDay [Label];\nMaterial [Label]",
       "IFC4 Entities": [
         "IfcPipeFitting"
       ],
@@ -5338,7 +5348,9 @@
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
         "SHORTPIECE*",
-        "SPIGOTANDSOCKET*"
+        "SPIGOTANDSOCKET*",
+        "STRAP*",
+        "PTRAP*"
       ],
       "IFC4 Predefined Types": [
         "BEND",
@@ -5979,7 +5991,6 @@
       ],
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
       "IFC4 Object Types": [
-        "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
         "EXTERNALFINS*",
@@ -6474,7 +6485,9 @@
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
         "SHORTPIECE*",
-        "SPIGOTANDSOCKET*"
+        "SPIGOTANDSOCKET*",
+        "STRAP*",
+        "PTRAP*"
       ],
       "IFC4 Predefined Types": [
         "BEND",
@@ -6790,9 +6803,13 @@
         "rectkJUP7RMIrzC7m",
         "recGEY2XhAQ73Y2TL",
         "reciIBqv1bxWWR5Bx",
-        "recgZ0kDriutbkkl9"
+        "recgZ0kDriutbkkl9",
+        "recPqFkzcCzIhfYy0",
+        "reciIGOclpk5lwfDp",
+        "recxgznZxOA7VjRi7",
+        "recn7NwrosH5aBHVf"
       ],
-      "Properties [Data Type]": "Grade [Label];\nRemovable [Boolean];\nWithBackdrop [Boolean];\nWithLiftingFeature [Boolean];\nWithVortexDrop [Boolean];\nWithTumblingBay [Boolean];\nVortexDropType [Label];\nFinishType [Label];\nExternalReference [Label];\nWatertight [Boolean];\nAirTight [Boolean];\nFunction [Label]",
+      "Properties [Data Type]": "Grade [Label];\nRemovable [Boolean];\nWithBackdrop [Boolean];\nWithLiftingFeature [Boolean];\nWithVortexDrop [Boolean];\nWithTumblingBay [Boolean];\nVortexDropType [Label];\nFinishType [Label];\nExternalReference [Label];\nWatertight [Boolean];\nAirTight [Boolean];\nFunction [Label];\nTopLevel [Real];\nInvertLevel [Real]",
       "Parameter Value (Actual)": "TRADE EFFLUENT DISCHARGE (Function)",
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
@@ -6803,7 +6820,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -6811,7 +6830,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -6839,7 +6859,6 @@
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
-        "BALANCINGTANK*",
         "BLOWDOWN*",
         "DETENTIONTANK*",
         "DILUTIONTANK*",
@@ -7007,7 +7026,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -7015,7 +7036,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -7041,7 +7063,6 @@
       "Parameter Value (Sample)": "DOUBLE BAY FACADE WALL (ArrangementType);\nMULTI-TIER WALL (ArrangementType);\nMULTI-TIER COLUMN (ArrangementType)",
       "IFC4 Object Types": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -7425,7 +7446,6 @@
       "Parameter Value (Sample)": "1.17 (CorrectionFactor);\nRECYCLABLESCHUTE1 (RecyclablesChuteID);\nREFUSECHUTE1 (RefuseChuteID);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFAIR-FACED BRICKWALLS (FinishType);\nLIME PLASTER (FinishType);\nTIMBER (FinishType);\nSHANGHAI PLASTER (FinishType);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark)",
       "IFC4 Object Types": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -7685,7 +7705,6 @@
         "IfcShadingDevice"
       ],
       "IFC4 Object Types": [
-        "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
         "EXTERNALFINS*",
@@ -7988,7 +8007,6 @@
       "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating);\n1 W/m2 K (ThermalTransmittance)",
       "IFC4 Object Types": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",

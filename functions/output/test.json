@@ -1,0 +1,45 @@
+[
+  {
+    "code": "Approved Document - Acceptable Solutions",
+    "agency": "BCA",
+    "chapters": [
+      {
+        "chapterName": "Headroom and Ceiling Height: Ceiling Height",
+        "clauseNumbers": [
+          {
+            "clauseNumber": "C.3.3.1",
+            "clauses": [
+              "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
+              "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+            ]
+          },
+          {
+            "clauseNumber": "C.3.3 Note",
+            "clauses": [
+              "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "Gross Floor Area Handbook",
+    "agency": "URA",
+    "chapters": [
+      {
+        "chapterName": "6",
+        "clauseNumbers": [
+          {
+            "clauseNumber": "",
+            "clauses": [
+              "Metal Ceiling Grids within Indoor Performance Venue",
+              "Lift Motor Room",
+              "Lift Shaft"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

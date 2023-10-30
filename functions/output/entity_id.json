@@ -711,7 +711,6 @@
       "IFC4 Sub Types (Beta)": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
-        "BALANCINGTANK*",
         "BLOWDOWN*",
         "DETENTIONTANK*",
         "DILUTIONTANK*",
@@ -754,7 +753,6 @@
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
-        "BALANCINGTANK*",
         "BLOWDOWN*",
         "DETENTIONTANK*",
         "DILUTIONTANK*",
@@ -1202,7 +1200,6 @@
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
-        "rec4wR9Mj0WhOSjsA",
         "recMfrkisbWTtlPhb",
         "recqOxmaX31M7IH0u",
         "recHqwlyXy2AFMll0",
@@ -1222,11 +1219,10 @@
         "reckW2cCUqJKARCO7"
       ],
       "Identified Components": [
-        "Outer Shell Covering",
+        "Screen",
         "Shading Device"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
         "EXTERNALFINS*",
@@ -1256,12 +1252,10 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "IFC KEY": "IFCSHA_072",
       "IFC4 Object Types": [
-        "BALCONYSCREEN*",
         "CANOPY*",
         "DROPDOWNPANEL*",
         "EXTERNALFINS*",
@@ -1430,10 +1424,8 @@
         "recBzHzmgc8NUMhpn",
         "rec0LFz1HxOEM8Xo7",
         "recNsrdrJNS2hNaNC",
-        "recrU01KLSED4mrKQ",
         "recfFEWXfcy091bPb",
         "recoKHCB7t7JZDZBy",
-        "rechK0Jqm0iiBnL9d",
         "recyK7oXHeJ1hB3Yk",
         "recWcLCDS56Gk3bhm",
         "rect7tp4zV8fthNJ6"
@@ -1450,17 +1442,13 @@
         "SHALLOWFLOORTRAP*",
         "URINALTRAP*",
         "WASTEDIVERTER*",
-        "WASTESUMP*",
         "FLOORTRAP",
         "FLOORWASTE",
-        "GULLYSUMP",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
       ],
       "Beta (from CO Key)": [
-        null,
-        null,
         null,
         null,
         null,
@@ -1484,13 +1472,11 @@
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
         "URINALTRAP*",
-        "WASTEDIVERTER*",
-        "WASTESUMP*"
+        "WASTEDIVERTER*"
       ],
       "IFC4 Predefined Types": [
         "FLOORTRAP",
         "FLOORWASTE",
-        "GULLYSUMP",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
@@ -3669,7 +3655,9 @@
         "recKCahLf2pZPlRJC",
         "recdtDfbTpcFf1UlV",
         "recdlkS67foSqvOav",
-        "rec1Osevpgv2HD7RW"
+        "rec1Osevpgv2HD7RW",
+        "recZ0Fp6sewoJZZW9",
+        "recLR3H5o375t8PLW"
       ],
       "Identified Components": [
         "Pipe Fitting"
@@ -3686,9 +3674,13 @@
         "JUNCTION",
         "NOTDEFINED",
         "OBSTRUCTION",
-        "TRANSITION"
+        "TRANSITION",
+        "STRAP*",
+        "PTRAP*"
       ],
       "Beta (from CO Key)": [
+        null,
+        null,
         null,
         null,
         null,
@@ -3712,7 +3704,9 @@
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
         "SHORTPIECE*",
-        "SPIGOTANDSOCKET*"
+        "SPIGOTANDSOCKET*",
+        "STRAP*",
+        "PTRAP*"
       ],
       "IFC4 Predefined Types": [
         "BEND",
@@ -4416,12 +4410,16 @@
         "reco810JrVAVPFqUh",
         "recgBrSwy847x0dNF",
         "recszmkByKfVX86Ye",
-        "recbqlUakZkTnaFtA"
+        "recbqlUakZkTnaFtA",
+        "recrU01KLSED4mrKQ",
+        "rechK0Jqm0iiBnL9d",
+        "recuAkJhOqYGOk5ZD"
       ],
       "Identified Components": [
         "Distribution Chamber",
         "Inspection Chamber",
-        "Manhole"
+        "Manhole",
+        "Sump"
       ],
       "IFC4 Sub Types (Beta)": [
         "LPS_EARTHPIT*",
@@ -4434,7 +4432,10 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "WASTESUMP*",
+        "GULLYSUMP",
+        "FLOORSUMP*"
       ],
       "Beta (from CO Key)": [
         null,
@@ -4451,6 +4452,9 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
         null
       ],
       "IFC KEY": "IFCDIS_028",
@@ -4459,7 +4463,9 @@
         "PWCSINSPECTIONCHAMBER*",
         "PWCSMANHOLE*",
         "SAMPLINGSUMP*",
-        "SCREENCHAMBER*"
+        "SCREENCHAMBER*",
+        "WASTESUMP*",
+        "FLOORSUMP*"
       ],
       "IFC4 Predefined Types": [
         "INSPECTIONCHAMBER",
@@ -4467,7 +4473,8 @@
         "METERCHAMBER",
         "NOTDEFINED",
         "SUMP",
-        "VALVECHAMBER"
+        "VALVECHAMBER",
+        "GULLYSUMP"
       ]
     }
   },
@@ -5230,14 +5237,13 @@
       "Identified Components": [
         "Kerb",
         "Lift Shaft Partition",
-        "M&E Screen",
+        "Screen",
         "Wall",
         "Boundary wall/ Boundary fence",
         "Refuse Chute"
       ],
       "IFC4 Sub Types (Beta)": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",
@@ -5273,7 +5279,6 @@
       "IFC KEY": "IFCWAL_088",
       "IFC4 Object Types": [
         "KERB*",
-        "SCREEN*",
         "BARRIER*",
         "BLOCKWALL*",
         "BOUNDARYWALL*",

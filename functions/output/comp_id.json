@@ -6343,50 +6343,6 @@
     }
   },
   {
-    "id": "rec4wR9Mj0WhOSjsA",
-    "createdTime": "2023-04-18T08:26:40.000Z",
-    "fields": {
-      "Identified Component": "Outer Shell Covering",
-      "OT KEY (Sub-Type)": [
-        "recUB4mj2dZDwqtnZ"
-      ],
-      "Autonumber": 400,
-      "Entity Key": [
-        "recCtapRXxX7Nl8hW"
-      ],
-      "Map to Rule": [
-        "recomzWoPznGmfvAx"
-      ],
-      "Status": "To be removed",
-      "IFC4 Sub Type": [
-        "SCREEN*"
-      ],
-      "CO KEY": "OUT_SCR_400",
-      "IFC4 Entities": [
-        "IfcShadingDevice"
-      ],
-      "Subtype or IFC": [
-        "SCREEN*"
-      ],
-      "Batch (Rules)": [
-        "Batch 1"
-      ],
-      "Agency": [
-        "BCA"
-      ],
-      "Codes and Standards": [
-        "Approved Document - Acceptable Solutions"
-      ],
-      "Discipline (Entity Key)": [
-        "ARC"
-      ],
-      "Regulatory Codes and Standards": [
-        "Approved Document - Acceptable Solutions"
-      ],
-      "IFC4 Entity.Sub-Type": "IfcShadingDevice.SCREEN*"
-    }
-  },
-  {
     "id": "rec4yEeJplg7Er7uc",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -32101,7 +32057,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Depth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nInvertLevel [Label]; \nTopLevel [Real]; \nWithBackdrop [Boolean]; \nWithVortexDrop [Boolean]; \nWithTumblingBay [Boolean]; \nVortexDropType [Label]",
+      "Properties [Data Type]": "Depth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nInvertLevel [Real]; \nTopLevel [Real]; \nWithBackdrop [Boolean]; \nWithVortexDrop [Boolean]; \nWithTumblingBay [Boolean]; \nVortexDropType [Label]",
       "Agency": [
         "NParks",
         "PUB",
@@ -36988,7 +36944,8 @@
         "recaXes0yKIWYEn2x",
         "recm4mgzXFhoPa9yZ",
         "recmPOZIiYI6tMtWC",
-        "recPWe9RkEdANGqYZ"
+        "recPWe9RkEdANGqYZ",
+        "recYfHDAL1h6k6BB3"
       ],
       "Map to Rule": [
         "recQPyvoNUrYvEloG",
@@ -37075,7 +37032,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "FlowRate [VolumetricFlowRate]; \nInsulation_FlameSpreadClass [Label]; \nMaterial [Label]; \nStatus [Label]; \nThermalInsulation_Material [Label]; \nThermalInsulation_Material_MeltingPoint [Label]; \nInspectionOpening [Boolean]; \nInnerDiameter [Length]; \nNominalDiameter [Length]; \nOuterDiameter [Length]; \nLength [Length]; \nGradient [Label]; \nDemountableStrutureAbovePipe [Boolean]",
+      "Properties [Data Type]": "FlowRate [VolumetricFlowRate]; \nInsulation_FlameSpreadClass [Label]; \nMaterial [Label]; \nStatus [Label]; \nThermalInsulation_Material [Label]; \nThermalInsulation_Material_MeltingPoint [Label]; \nInspectionOpening [Boolean]; \nInnerDiameter [Length]; \nNominalDiameter [Length]; \nOuterDiameter [Length]; \nLength [Length]; \nGradient [Label]; \nDemountableStrutureAbovePipe [Boolean]; \nHaunching [Label]",
       "Agency": [
         "SCDF",
         "PUB",
@@ -45822,6 +45779,41 @@
     }
   },
   {
+    "id": "recLR3H5o375t8PLW",
+    "createdTime": "2023-10-30T01:48:55.000Z",
+    "fields": {
+      "Identified Component": "Pipe Fitting",
+      "OT KEY (Sub-Type)": [
+        "recfyQ2kb99n9n7yt"
+      ],
+      "Autonumber": 904,
+      "Entity Key": [
+        "recZ9vdQbmr5y6Xog"
+      ],
+      "IP Key (Component_Parameter)": [
+        "recAwE6G7aFUibkLZ"
+      ],
+      "Status": "Required (New)",
+      "IFC4 Sub Type": [
+        "PTRAP*"
+      ],
+      "CO KEY": "PIP_PTR_904",
+      "IFC4 Entities": [
+        "IfcPipeFitting"
+      ],
+      "Subtype or IFC": [
+        "PTRAP*"
+      ],
+      "Properties [Data Type]": "Material [Label]",
+      "Agency": [],
+      "Discipline (Entity Key)": [
+        "MEP"
+      ],
+      "Regulatory Codes and Standards": [],
+      "IFC4 Entity.Sub-Type": "IfcPipeFitting.PTRAP*"
+    }
+  },
+  {
     "id": "recLWJZouRYYPNFGn",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
@@ -47259,7 +47251,7 @@
     "id": "recMfrkisbWTtlPhb",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Shading Device",
+      "Identified Component": "Screen",
       "OT KEY (Sub-Type)": [
         "recsHhFoAKGedBVX5"
       ],
@@ -47279,11 +47271,11 @@
         "recckYfeRr3rVrAmo",
         "recUfQa15mnnc8t0X"
       ],
-      "Status": "Pending",
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "BALCONYSCREEN*"
       ],
-      "CO KEY": "SHA_BAL_569",
+      "CO KEY": "SCR_BAL_569",
       "IFC4 Entities": [
         "IfcShadingDevice"
       ],
@@ -58883,7 +58875,7 @@
         "recu0nyl419FYxuVc",
         "recRchGKeWwsQK8ZY"
       ],
-      "Status": "Pending",
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "BALANCINGTANK*"
       ],
@@ -67433,6 +67425,41 @@
         "Code of Practice for Fire Precautions in Building"
       ],
       "IFC4 Entity.Sub-Type": "IfcDiscreteAccessory.LIFT_BRIDGINGPLATE*"
+    }
+  },
+  {
+    "id": "recZ0Fp6sewoJZZW9",
+    "createdTime": "2023-10-30T01:46:01.000Z",
+    "fields": {
+      "Identified Component": "Pipe Fitting",
+      "OT KEY (Sub-Type)": [
+        "rec8xMGhCPu3hrv1g"
+      ],
+      "Autonumber": 903,
+      "Entity Key": [
+        "recZ9vdQbmr5y6Xog"
+      ],
+      "IP Key (Component_Parameter)": [
+        "rec5U5wnYkhwFexVB"
+      ],
+      "Status": "Required (New)",
+      "IFC4 Sub Type": [
+        "STRAP*"
+      ],
+      "CO KEY": "PIP_STR_903",
+      "IFC4 Entities": [
+        "IfcPipeFitting"
+      ],
+      "Subtype or IFC": [
+        "STRAP*"
+      ],
+      "Properties [Data Type]": "Material [Label]",
+      "Agency": [],
+      "Discipline (Entity Key)": [
+        "MEP"
+      ],
+      "Regulatory Codes and Standards": [],
+      "IFC4 Entity.Sub-Type": "IfcPipeFitting.STRAP*"
     }
   },
   {
@@ -88140,26 +88167,33 @@
     "id": "rechK0Jqm0iiBnL9d",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Waste Terminal",
+      "Identified Component": "Sump",
       "OT KEY (Sub-Type)": [
         "recHanB2aq9291lNC"
       ],
       "Autonumber": 847,
       "Entity Key": [
-        "recG6bgYFdu0fLby5"
+        "reclV2BJR2YX7vC0c"
+      ],
+      "IP Key (Component_Parameter)": [
+        "recxgznZxOA7VjRi7",
+        "recn7NwrosH5aBHVf",
+        "recz84aiiThEKB8yo",
+        "recqEzIaJsB0FY7Lz",
+        "recpMq9NIkxoPOiwk"
       ],
       "Map to Rule": [
         "rec8b5ubo4S0izdmT",
         "recLOJqmDDUTudSK8",
         "recF53gIpJGevYRpy"
       ],
-      "Status": "Pending",
+      "Status": "Required",
       "IFC4 Sub Type": [
         "GULLYSUMP"
       ],
-      "CO KEY": "WAS_GUL_847",
+      "CO KEY": "SUM_GUL_847",
       "IFC4 Entities": [
-        "IfcWasteTerminal"
+        "IfcDistributionChamberElement"
       ],
       "Subtype or IFC": [
         "GULLYSUMP"
@@ -88169,6 +88203,7 @@
         "Batch X",
         "Batch X"
       ],
+      "Properties [Data Type]": "InvertLevel [Real]; \nTopLevel [Real]; \nLength [Length]; \nDepth [Length]; \nWidth [Length]",
       "Agency": [
         "PUB"
       ],
@@ -88178,13 +88213,12 @@
         "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
-        "ARC",
         "MEP"
       ],
       "Regulatory Codes and Standards": [
         "Code of Practice on Sewerage and Sanitary Works"
       ],
-      "IFC4 Entity.Sub-Type": "IfcWasteTerminal.GULLYSUMP"
+      "IFC4 Entity.Sub-Type": "IfcDistributionChamberElement.GULLYSUMP"
     }
   },
   {
@@ -89317,7 +89351,7 @@
     "id": "recipzcUciXSbeU3e",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Shading Device",
+      "Identified Component": "Screen",
       "OT KEY (Sub-Type)": [
         "recUB4mj2dZDwqtnZ"
       ],
@@ -89428,13 +89462,14 @@
         "recdpHJdgehwJBp3S",
         "recIDHPLP5evQXepG",
         "recvIbXsDBVfY56Kb",
-        "rec84VqMayoCxHqg4"
+        "rec84VqMayoCxHqg4",
+        "recomzWoPznGmfvAx"
       ],
-      "Status": "Pending",
+      "Status": "Required",
       "IFC4 Sub Type": [
         "SCREEN*"
       ],
-      "CO KEY": "SHA_SCR_577",
+      "CO KEY": "SCR_SCR_577",
       "IFC4 Entities": [
         "IfcShadingDevice"
       ],
@@ -89539,11 +89574,13 @@
         "NA",
         "Batch X",
         "NA",
-        "NA"
+        "NA",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Porosity [Label]",
       "Agency": [
-        "URA"
+        "URA",
+        "BCA"
       ],
       "Codes and Standards": [
         "Urban Design Guidelines",
@@ -89643,7 +89680,8 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Envelope Control Guidelines"
+        "Envelope Control Guidelines",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -89668,7 +89706,8 @@
         "Residential Handbooks (Bungalows)",
         "Residential Handbooks (Semi-Detached Houses)",
         "Residential Handbooks (Terrace Houses)",
-        "Envelope Control Guidelines"
+        "Envelope Control Guidelines",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "50% (Porosity)"
@@ -94390,7 +94429,7 @@
     "id": "recnNANH23z3tYwKW",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "M&E Screen",
+      "Identified Component": "Screen",
       "OT KEY (Sub-Type)": [
         "recUB4mj2dZDwqtnZ"
       ],
@@ -94403,11 +94442,11 @@
         "recOLNPGtQLdkR7eW",
         "recpGf0XO7RaaKBpe"
       ],
-      "Status": "Pending",
+      "Status": "To be removed",
       "IFC4 Sub Type": [
         "SCREEN*"
       ],
-      "CO KEY": "M&E_SCR_371",
+      "CO KEY": "SCR_SCR_371",
       "IFC4 Entities": [
         "IfcWall"
       ],
@@ -100184,26 +100223,33 @@
     "id": "recrU01KLSED4mrKQ",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Waste Terminal",
+      "Identified Component": "Sump",
       "OT KEY (Sub-Type)": [
         "recqpmyKe2d94Itaa"
       ],
       "Autonumber": 844,
       "Entity Key": [
-        "recG6bgYFdu0fLby5"
+        "reclV2BJR2YX7vC0c"
+      ],
+      "IP Key (Component_Parameter)": [
+        "reciIGOclpk5lwfDp",
+        "recPqFkzcCzIhfYy0",
+        "recFMFyleJONJYMN0",
+        "recoNWyhnxZQrynM0",
+        "recAkxXXBj1AJzgGT"
       ],
       "Map to Rule": [
         "rec8b5ubo4S0izdmT",
         "recEvTRLWLhAhyc0P",
         "recyEUrhMDyhZLlgL"
       ],
-      "Status": "Pending",
+      "Status": "Required",
       "IFC4 Sub Type": [
         "WASTESUMP*"
       ],
-      "CO KEY": "WAS_WAS_844",
+      "CO KEY": "SUM_WAS_844",
       "IFC4 Entities": [
-        "IfcWasteTerminal"
+        "IfcDistributionChamberElement"
       ],
       "Subtype or IFC": [
         "WASTESUMP*"
@@ -100213,6 +100259,7 @@
         "Batch 1",
         "Batch X"
       ],
+      "Properties [Data Type]": "InvertLevel [Real]; \nTopLevel [Real]; \nWidth [Length]; \nLength [Length]; \nDepth [Length]",
       "Agency": [
         "PUB"
       ],
@@ -100222,13 +100269,12 @@
         "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
-        "ARC",
         "MEP"
       ],
       "Regulatory Codes and Standards": [
         "Code of Practice on Sewerage and Sanitary Works"
       ],
-      "IFC4 Entity.Sub-Type": "IfcWasteTerminal.WASTESUMP*"
+      "IFC4 Entity.Sub-Type": "IfcDistributionChamberElement.WASTESUMP*"
     }
   },
   {
@@ -107468,7 +107514,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "AirTight [Boolean]; \nDepth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nFinishType [Label]; \nGrade [Label]; \nInvertLevel [Label]; \nLength [Length]; \nMaterial [Label]; \nTopLevel [Real]; \nWatertight [Boolean]; \nWidth [Length]; \nVortexDropType [Label]; \nWithBackdrop [Boolean]; \nWithVortexDrop [Boolean]; \nWithTumblingBay [Boolean]",
+      "Properties [Data Type]": "AirTight [Boolean]; \nDepth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nFinishType [Label]; \nGrade [Label]; \nInvertLevel [Real]; \nLength [Length]; \nMaterial [Label]; \nTopLevel [Real]; \nWatertight [Boolean]; \nWidth [Length]; \nVortexDropType [Label]; \nWithBackdrop [Boolean]; \nWithVortexDrop [Boolean]; \nWithTumblingBay [Boolean]",
       "Agency": [
         "PUB",
         "NEA",
@@ -110010,7 +110056,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Depth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nInvertLevel [Label]; \nLength [Length]; \nMaterial [Label]; \nTopLevel [Real]; \nWidth [Length]",
+      "Properties [Data Type]": "Depth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nInvertLevel [Real]; \nLength [Length]; \nMaterial [Label]; \nTopLevel [Real]; \nWidth [Length]",
       "Agency": [
         "PUB",
         "NEA"
@@ -111205,6 +111251,37 @@
         "Urban Design Guidelines"
       ],
       "IFC4 Entity.Sub-Type": "IfcShadingDevice.ROLLDOWNCURTAIN*"
+    }
+  },
+  {
+    "id": "recuAkJhOqYGOk5ZD",
+    "createdTime": "2023-10-27T15:04:31.000Z",
+    "fields": {
+      "Identified Component": "Sump",
+      "OT KEY (Sub-Type)": [
+        "recoJKijt21rKkmjf"
+      ],
+      "Autonumber": 902,
+      "Entity Key": [
+        "reclV2BJR2YX7vC0c"
+      ],
+      "Status": "Required (New)",
+      "IFC4 Sub Type": [
+        "FLOORSUMP*"
+      ],
+      "CO KEY": "SUM_FLO_902",
+      "IFC4 Entities": [
+        "IfcDistributionChamberElement"
+      ],
+      "Subtype or IFC": [
+        "FLOORSUMP*"
+      ],
+      "Agency": [],
+      "Discipline (Entity Key)": [
+        "MEP"
+      ],
+      "Regulatory Codes and Standards": [],
+      "IFC4 Entity.Sub-Type": "IfcDistributionChamberElement.FLOORSUMP*"
     }
   },
   {

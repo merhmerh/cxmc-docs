@@ -59,18 +59,22 @@ for (const item of arr) {
 
     const gateway = []
     const regex = new RegExp(`^${IC}$`, "i")
+
     for (const { fields } of rule) {
         if (!fields["Identified Components"]) {
             continue;
         }
-        const rule_ics = fields["Identified Components"].split(';').map(c => c.trim())
-        const match = rule_ics.some(x => regex.test(x))
 
         if (fields["Status"] !== 'Finalised') {
             continue;
         }
 
+
+        const rule_ics = fields["Identified Components"].split(';').map(c => c.trim())
+        const match = rule_ics.some(x => regex.test(x))
         if (!match) continue;
+
+
 
         const agency = fields.Agency[0]
         if (!fields.Chapter) continue;
@@ -79,6 +83,9 @@ for (const item of arr) {
         const code = fields["Codes and Standards"][0]
         const clauseNumber = fields["Clause Number"] ? fields["Clause Number"][0] : ""
 
+        // console.log(code, clauseNumber);
+
+
         let agencyObject = gateway.find(obj => obj.Agency == agency)
         if (!agencyObject) {
             agencyObject = { Agency: agency, Requirement: [{ Code: code, Chapter: chapter, ClauseNumber: clauseNumber, Clause: [clause] }] }
@@ -86,12 +93,68 @@ for (const item of arr) {
             continue;
         }
 
+
         let reqObject = agencyObject.Requirement.find(obj => obj.Chapter === chapter)
         if (reqObject && !reqObject.Clause.includes(clause)) {
             reqObject.Clause.push(clause)
         }
 
+        if (!agencyObject.Requirement.find(x => x.ClauseNumber == clauseNumber)) {
+            agencyObject.Requirement.push({ Code: code, Chapter: chapter, ClauseNumber: clauseNumber, Clause: [clause] })
+        }
     }
+
+
+
+    const g = []
+    if (gateway.length) {
+        for (const agency of gateway) {
+            const input = agency.Requirement
+
+            const output = [];
+
+            input.forEach((item) => {
+                // Check if a chapter with the same name already exists in the output
+                const existingChapter = output.find((chapter) => chapter.chapterName === item.Chapter);
+
+                if (existingChapter) {
+                    // Chapter already exists, add the clause to the existing chapter
+                    existingChapter.clauseNumbers.push({
+                        clauseNumber: item.ClauseNumber,
+                        clauses: item.Clause,
+                    });
+                } else {
+                    // Chapter does not exist, create a new chapter and add it to the output
+                    const newChapter = {
+                        chapterName: item.Chapter,
+                        clauseNumbers: [
+                            {
+                                clauseNumber: item.ClauseNumber,
+                                clauses: item.Clause,
+                            },
+                        ],
+                    };
+
+                    // Add the new chapter to the output array
+                    output.push(newChapter);
+                }
+            });
+
+            const sorted = output.sort((a, b) => b.clauseNumber = a.clauseNumber)
+
+            // Create the final output object with code and chapters
+            const finalOutput = {
+                code: input[0].Code, // Assuming all items have the same code
+                agency: agency.Agency,
+                chapters: sorted,
+            };
+
+            console.log(finalOutput);
+            g.push(finalOutput)
+        }
+        fs.writeFileSync('./output/test.json', JSON.stringify(g, null, 2))
+    }
+
 
 
     let revit = [],
@@ -117,36 +180,42 @@ for (const item of arr) {
         Bentley: [...new Set(bentley)]
     }
 
-    item.gateway = gateway
+    item.gateway = g
     item.SubTypeKeys = SubTypeKeys
+
+
+    // if (IC == 'Stair Flight') {
+    //     break;
+    // }
 }
 
 const t2 = performance.now()
 const elapsed = t2 - t1
 console.log(elapsed.toFixed(2), 'ms');
 
-fs.writeFileSync(`./output/mg_comp.json`, JSON.stringify(arr, null, 2))
+fs.writeFileSync('./output/mg_comp.json', JSON.stringify(arr, null, 2))
+fs.writeFileSync('./../src/routes/(main)/identified-component/mg_comp.json', JSON.stringify(arr, null, 2))
 
 
-const rules = []
-for (const { fields: f } of rule) {
-    if (f['Status'] == 'Finalised') {
-        const ic = f['Identified Components'].split(/\n/g).map(x => {
-            return x.trim().replace(/;/g, "")
-        })
-        rules.push({
-            agency: f["Agency"].join(),
-            code: f["Codes and Standards"].join(),
-            chapter: f["Chapter"].join(),
-            clauseNumber: f["Clause Number"] ? f["Clause Number"].join() : null,
-            clause: f["Regulatory Requirement"].join(),
-            ruleGroup: f["Rule Group (Batch 1)"].join(),
-            gateway: f['Gateway'].join(),
-            identifiedComponents: ic,
-        })
-    }
-}
-fs.writeFileSync('./../src/routes/(main)/codes/rules.json', JSON.stringify(rules, null, 2))
+// const rules = []
+// for (const { fields: f } of rule) {
+//     if (f['Status'] == 'Finalised') {
+//         const ic = f['Identified Components'].split(/\n/g).map(x => {
+//             return x.trim().replace(/;/g, "")
+//         })
+//         rules.push({
+//             agency: f["Agency"].join(),
+//             code: f["Codes and Standards"].join(),
+//             chapter: f["Chapter"].join(),
+//             clauseNumber: f["Clause Number"] ? f["Clause Number"].join() : null,
+//             clause: f["Regulatory Requirement"].join(),
+//             ruleGroup: f["Rule Group (Batch 1)"].join(),
+//             gateway: f['Gateway'].join(),
+//             identifiedComponents: ic,
+//         })
+//     }
+// }
+// fs.writeFileSync('./../src/routes/(main)/codes/rules.json', JSON.stringify(rules, null, 2))
 
 
 console.log('end');
