@@ -49,15 +49,14 @@ async function update() {
     const resp = await fetch(url);
     mg_data.prop = await resp.json();
     original = JSON.parse(JSON.stringify(mg_data));
-    console.log("when beta?");
+    console.log("update");
 }
 
 function toggleBetaContent() {
-    console.log("toggling");
     if (original) {
         if ($beta) {
-            console.log(mg_data.prop);
-            mg_data.prop = mg_data.prop.filter((x) => x.Beta);
+            console.log("toggle");
+            mg_data.prop = mg_data.prop.filter((x) => x.beta);
             for (const item of mg_data.prop) {
                 if (!item.pset) {
                     continue;
@@ -261,8 +260,9 @@ async function showCode(clause, clauses) {
         <div class="table_wrapper">
             <table class="{$theme} noActionColumn noHover horizontal ifcSubtype">
                 <tr>
-                    <th><div>IfcEntity</div></th>
-                    <td><div>{[...new Set(mg_data.prop.map((x) => x.entity))]}</div></td>
+                    <th><div>IfcEntity {console.log("!", mg_data.prop)}</div></th>
+                    <th><div>{mg_data.prop.map((x) => x.entity)}</div></th>
+                    <!-- <td><div>{[...new Set(mg_data.prop.map((x) => x.entity))]}</div></td> -->
                 </tr>
                 <tr>
                     <th><div>SubTypes</div></th>
