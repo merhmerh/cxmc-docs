@@ -1,0 +1,84 @@
+<table style="width:100%!important; font-family:Arial, Helvetica, sans-serif; color:#000" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody>
+        <tr>
+            <td align="center">
+                <table cellpadding="30" cellspacing="0" border="0" width="600" style="border:1px solid #eaeaea;border-radius:5px; margin:40px 0">
+                    <tbody>
+                        <tr>
+                            <td align="center">
+                                <div style="width: 480px;">
+                                    <table style="width:100%!important" cellpadding="20" cellspacing="0" border="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center">
+                                                    <img title="CX-MC" alt="CX-MC" height="48" width="48" src="https://cxmc-ifcsg.netlify.app/favicon.png" />
+                                                    <p style="font-size:20px">
+                                                        Verify your email to log on to <strong style="font-weight:800">CX-MC Portal</strong>
+                                                    </p>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        To complete the login process, please click the button
+                                                        below:
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center">
+                                                    <a style="background-color:#3d83bd; padding:12px 50px; border-radius:8px; color:#fff; text-decoration:none" href="{{ .ConfirmationURL }}">Verify</a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <p style="color:#000">
+                                                        Or copy and paste this URL into a new tab of your browser:<br /><br />
+                                                        <a style="text-decoration:none; color:#3792dc" href="{{ .ConfirmationURL }}">{{ .ConfirmationURL }}</a>
+                                                    </p>
+                                                    <!-- <br /> -->
+                                                    <hr style="border:0; border-top: 1px solid #eaeaea; width:100%" />
+                                                    <!-- <br /> -->
+
+                                                    <p style="color:#888"> This confirmation link only work in the same browser from which it was generated.<br /><br />If you encounter difficulties opening this link in the same browser, please proceed with the 6-digit OTP provided.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <table style="width:100%!important" cellpadding="20" cellspacing="0" border="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="font-size:18px;">
+                                                    <p style="background-color:#f6f6f6;padding:18px;">
+                                                        <strong>{{.Token}}</strong>
+                                                    </p>
+
+                                                    <br />
+                                                    <hr style="border:0; border-top: 1px solid #eaeaea; width:100%" />
+                                                    <br />
+                                                    <p style="font-size:14px; color:#888">
+                                                        If you didn't attempt to log in but received this email,
+                                                        please ignore this email.
+                                                    </p>
+
+                                                </td>
+                                            </tr>
+
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

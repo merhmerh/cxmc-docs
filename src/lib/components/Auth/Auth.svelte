@@ -18,6 +18,7 @@ let emailfield,
     useOTP;
 
 const dispatch = createEventDispatcher();
+
 const redirect = (() => {
     let redirectPath = $page.url.searchParams.get("redirect") || $page.url.pathname.replace("/", "");
     if (redirectPath == "login") {
@@ -34,8 +35,8 @@ async function signInWithMagicLink() {
     }
 
     awaiting = true;
-    let redirectURL = dev ? PUBLIC_DEV_URL : PUBLIC_APP_URL;
-    redirectURL = redirectURL + "/email-confirmed";
+    // let redirectURL = dev ? PUBLIC_DEV_URL : PUBLIC_APP_URL;
+    const redirectURL = $page.url.origin + "/email-confirmed";
 
     const { data, error } = await $supabase.auth.signInWithOtp({
         email: email,
