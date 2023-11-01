@@ -2,9 +2,10 @@
 import { theme } from "$comp/theme.store";
 import areaPset from "./areaPset.json";
 import { toURLPath } from "$fn/helper";
+import Image from "./Image.svelte";
 
 export let data;
-// console.log(data);
+console.log(data);
 </script>
 
 {#each data.pageContent.content as { type, content }}
@@ -22,13 +23,17 @@ export let data;
     {/if}
 
     {#if type == "images"}
-        <div class="image_container">
-            {#each content as image}
-                <div class="img-container">
-                    <img src={image} alt="" />
-                </div>
-            {/each}
-        </div>
+        {#if content.length == 1}
+            <div class="img-container">
+                <img src={content[0]} alt="" />
+            </div>
+        {:else}
+            <div class="image_container">
+                {#each content as image}
+                    <Image src={image}></Image>
+                {/each}
+            </div>
+        {/if}
     {/if}
 {/each}
 

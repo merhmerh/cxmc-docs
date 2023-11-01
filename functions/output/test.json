@@ -107,6 +107,17 @@
     "beta": true
   },
   {
+    "key": "IfcBuildingElementProxy:USERDEFINED:HUMP",
+    "identifiedComponent": "Hump",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "HUMP",
+    "pset": null,
+    "status": true,
+    "componentName": "HUMP",
+    "beta": true
+  },
+  {
     "key": "IfcWall:USERDEFINED:KNOCKOUTPANEL",
     "identifiedComponent": "Wall",
     "entity": "IfcWall",
@@ -135,17 +146,6 @@
     },
     "status": true,
     "componentName": "WINDOW",
-    "beta": true
-  },
-  {
-    "key": "IfcBuildingElementProxy:USERDEFINED:HUMP",
-    "identifiedComponent": "Hump",
-    "entity": "IfcBuildingElementProxy",
-    "predefinedType": "USERDEFINED",
-    "objectType": "HUMP",
-    "pset": null,
-    "status": true,
-    "componentName": "HUMP",
     "beta": true
   },
   {
@@ -393,6 +393,20 @@
     "predefinedType": "INSPECTIONCHAMBER",
     "objectType": null,
     "pset": {
+      "SGPset_DistributionChamberElement": [
+        {
+          "propertyName": "WithBackdrop",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "WithTumblingBay",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        }
+      ],
       "SGPset_DistributionChamberElementDimension": [
         {
           "propertyName": "Depth",
@@ -425,6 +439,28 @@
     "predefinedType": "MANHOLE",
     "objectType": null,
     "pset": {
+      "SGPset_DistributionChamberElementDimension": [
+        {
+          "propertyName": "Depth",
+          "dataType": "Length",
+          "measureResource": "",
+          "beta": true
+        }
+      ],
+      "SGPset_DistributionChamberElement": [
+        {
+          "propertyName": "WithBackdrop",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "WithTumblingBay",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        }
+      ],
       "Pset_DistributionChamberElementCommon": [
         {
           "propertyName": "Status",
@@ -467,6 +503,20 @@
     "predefinedType": "DOOR",
     "objectType": null,
     "pset": {
+      "SGPset_Door": [
+        {
+          "propertyName": "OneWayLockingDevice",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "ClearHeight",
+          "dataType": "Length",
+          "measureResource": "",
+          "beta": true
+        }
+      ],
       "Pset_DoorCommon": [
         {
           "propertyName": "SelfClosing",
@@ -509,17 +559,6 @@
     "pset": null,
     "status": true,
     "componentName": "ACCESSHATCH",
-    "beta": true
-  },
-  {
-    "key": "IfcWall:NOTDEFINED:null",
-    "identifiedComponent": "Wall",
-    "entity": "IfcWall",
-    "predefinedType": "NOTDEFINED",
-    "objectType": null,
-    "pset": null,
-    "status": true,
-    "componentName": "NOTDEFINED",
     "beta": true
   },
   {
@@ -584,6 +623,24 @@
     "predefinedType": "NOTDEFINED",
     "objectType": null,
     "pset": {
+      "SGPset_PipeSegment": [
+        {
+          "propertyName": "DemountableStrutureAbovePipe",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true,
+          "id": 76,
+          "PropertyName": "DemountableStrutureAbovePipe",
+          "Entity": "IfcPipeSegment",
+          "ParentKey": "IfcPipeSegment:NOTDEFINED:null",
+          "PropertySet": "SGPset_PipeSegment",
+          "IfcMeasureResource": null,
+          "Enums": null,
+          "Description": "DemountableStrutureAbovePipe spelling error\nplease use DemountableStructureAbovePipe",
+          "Required": null,
+          "inUse": null
+        }
+      ],
       "SGPset_PipeSegmentDimension": [
         {
           "propertyName": "InnerDiameter",
@@ -623,17 +680,6 @@
     "pset": null,
     "status": true,
     "componentName": "NOTDEFINED",
-    "beta": true
-  },
-  {
-    "key": "IfcWall:PARAPET:null",
-    "identifiedComponent": "Wall",
-    "entity": "IfcWall",
-    "predefinedType": "PARAPET",
-    "objectType": null,
-    "pset": null,
-    "status": true,
-    "componentName": "PARAPET",
     "beta": true
   },
   {
@@ -874,6 +920,28 @@
     "pset": null,
     "status": true,
     "componentName": "LIFT",
+    "beta": true
+  },
+  {
+    "key": "IfcWall:NOTDEFINED:null",
+    "identifiedComponent": "Wall",
+    "entity": "IfcWall",
+    "predefinedType": "NOTDEFINED",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "NOTDEFINED",
+    "beta": true
+  },
+  {
+    "key": "IfcWall:PARAPET:null",
+    "identifiedComponent": "Wall",
+    "entity": "IfcWall",
+    "predefinedType": "PARAPET",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "PARAPET",
     "beta": true
   },
   {

@@ -1,0 +1,18 @@
+#help
+Press Ctrl/Alt+Enter to add a new todo
+Press Alt+D to mark a todo as done
+Press Alt+C to mark a todo as cancelled
+There are some special, customizable tags with @ : critical high low today
+
+
+Features:
+    ☐ Add downloads for non beta
+
+Bugs: 
+    ☐ When uploading new file to 'downloads' page, if file contain same name it will override
+    ☐ Redirect to 404 if user enter non-beta page
+    ☐ area requirement images loads very slow (Will need to serve the image directly from the website / db storage)
+    ☐ Some identified component in Identified Component page still does not have gateway.
+    ☐ Driveway does not have IfcData in identified Component page
+
+Archive:

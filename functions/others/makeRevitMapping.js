@@ -10,11 +10,11 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_SECRET)
 main()
 async function main() {
     const result = await getIfc({ beta: true })
-    fs.writeFileSync('./output/test.json', JSON.stringify(result, null, 2))
 
     let mapping = ""
     for (const { entity, pset } of result) {
         if (!pset) continue;
+
         for (const [psetName, prop] of Object.entries(pset)) {
             mapping += `PropertySet:\t${psetName}\tI\t${entity}\n`
 
@@ -34,34 +34,46 @@ async function getIfc(opt) {
         .from("ifcsg")
         .select()
 
+    // const result = data
+    const { beta } = opt
+
     const result = data.filter(x => {
-        if (opt.beta) {
-            return x.beta
-        } else {
+        if (!beta) {
             return x
+        } else {
+            return x.beta == true
         }
     })
+
 
     for (const item of result) {
         if (!item.pset) continue;
 
-        let psets;
+        // if (item.key !== 'IfcBuilding:null:null') continue;
+
+        let psets = {};
         for (const [psetName, prop] of Object.entries(item.pset)) {
 
             const betaProps = prop.filter(x => {
-                if (opt.beta) {
-                    return x.beta
-                } else {
+                if (!beta) {
                     return x
+                } else {
+                    return x.beta == true
                 }
             })
+
             if (betaProps.length) {
-                psets = { [psetName]: betaProps }
+                psets[psetName] = betaProps
             }
         }
 
-        item.pset = psets || null
+        if (Object.entries(psets).length == 0) {
+            psets = null
+        }
+        item.pset = psets
     }
+
+    fs.writeFileSync('./output/test.json', JSON.stringify(result, null, 2))
 
     return result
 

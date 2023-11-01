@@ -15,20 +15,33 @@ PropertySet:	SGPset_BuildingStorey	I	IfcBuildingStorey
 PropertySet:	SGPset_Material	I	IfcCovering
 	Material	Label
 
+PropertySet:	SGPset_DistributionChamberElement	I	IfcDistributionChamberElement
+	WithBackdrop	Boolean
+	WithTumblingBay	Boolean
 PropertySet:	SGPset_DistributionChamberElementDimension	I	IfcDistributionChamberElement
 	Depth	Length
 	Length	Length
 	Width	Length
 
+PropertySet:	SGPset_DistributionChamberElementDimension	I	IfcDistributionChamberElement
+	Depth	Length
+PropertySet:	SGPset_DistributionChamberElement	I	IfcDistributionChamberElement
+	WithBackdrop	Boolean
+	WithTumblingBay	Boolean
 PropertySet:	Pset_DistributionChamberElementCommon	I	IfcDistributionChamberElement
 	Status	Label
 
+PropertySet:	SGPset_Door	I	IfcDoor
+	OneWayLockingDevice	Boolean
+	ClearHeight	Length
 PropertySet:	Pset_DoorCommon	I	IfcDoor
 	SelfClosing	Boolean
 
 PropertySet:	Pset_DoorCommon	I	IfcDoor
 	SelfClosing	Boolean
 
+PropertySet:	SGPset_PipeSegment	I	IfcPipeSegment
+	DemountableStrutureAbovePipe	Boolean
 PropertySet:	SGPset_PipeSegmentDimension	I	IfcPipeSegment
 	InnerDiameter	Length
 	Gradient	Label

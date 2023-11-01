@@ -2,6 +2,7 @@
 export let data;
 import { theme } from "$comp/theme.store";
 import { Tooltip } from "merh-forge-ui";
+import Image from "../Image.svelte";
 </script>
 
 {#each data.content.content as { type, content }}
@@ -17,15 +18,11 @@ import { Tooltip } from "merh-forge-ui";
 
     {#if type == "images"}
         {#if content.length == 1}
-            <div class="img-container">
-                <img src={content[0]} alt="" />
-            </div>
+            <Image src={content[0]} />
         {:else}
             <div class="image_container">
                 {#each content as image}
-                    <div class="img-container">
-                        <img src={image} alt="" />
-                    </div>
+                    <Image src={image} />
                 {/each}
             </div>
         {/if}
