@@ -11,7 +11,7 @@ const navList = [
     { href: "/area-requirements", name: "Area Requirements" },
     { href: "/spacename/all-spaces", name: "SpaceName" },
     { href: "/occupancy-type", name: "OccupancyType" },
-    { href: "/downloads", name: "Download" },
+    { href: "/downloads", name: "Downloads" },
 ];
 </script>
 

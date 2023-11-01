@@ -5,9 +5,12 @@ export async function GET({ url, locals: { supabase } }) {
     const email = url.searchParams.get('email')
     const info = url.searchParams.get('info')
 
-    // if (!email) {
-    //     return json({ error: { code: 400, message: 'Email is required' } })
-    // }
+
+
+    const { data: { users } } = await supabase.auth.admin.listUsers()
+    if (users.find(user => user.email == email)) {
+        return json({ error: { code: 400, message: 'Account have already been registered' } })
+    }
 
 
     const { data: exist } = await supabase

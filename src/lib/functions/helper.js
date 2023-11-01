@@ -29,6 +29,15 @@ export function fromNow(dateString) {
 
 }
 
+export function toMemoryUnit(floatValue) {
+    const MB = 1024 * 1024;
+    if (floatValue < MB) {
+        return (floatValue / 1024).toFixed(2) + ' KB';
+    } else {
+        return (floatValue / MB).toFixed(2) + ' MB';
+    }
+}
+
 export function isValidEmail(email) {
     const pattern = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
 
@@ -50,6 +59,27 @@ export function debounce(func, delay) {
             func.apply(context, args);
         }, delay);
     };
+}
+
+export function calculateChecksum(file, algorithm = "SHA-256") {
+    return new Promise(async (resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = async (e) => {
+            const arrayBuffer = e.target.result;
+            try {
+                const hashBuffer = await crypto.subtle.digest(algorithm, arrayBuffer);
+                const hashArray = Array.from(new Uint8Array(hashBuffer)); // convert buffer to byte array
+                const hashHex = hashArray.map((b) => b.toString(16).padStart(2, "0")).join(""); // convert bytes to hex string
+                resolve(hashHex);
+            } catch (error) {
+                reject(error);
+            }
+        };
+        reader.onerror = (error) => {
+            reject(error);
+        };
+        reader.readAsArrayBuffer(file);
+    });
 }
 
 export function isObjectEmpty(obj) {
@@ -104,6 +134,7 @@ export async function authCheck(supabase, session, roles) {
     }
 
 }
+
 
 export function replaceSpaceWithDash(string) {
     return string.replace(/[\s\/]+/g, '-').toLowerCase()

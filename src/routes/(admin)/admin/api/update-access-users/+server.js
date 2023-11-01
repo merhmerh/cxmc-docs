@@ -16,13 +16,14 @@ export async function PUT({ request, locals: { supabase, getSession } }) {
             .from('requestAccess')
             .delete()
             .eq('email', body.email)
+            .select()
 
-        console.log('??', data);
         if (error) {
             console.log('e', error);
             return json({ error: { code: error.code, message: error.message } })
         }
-        return json({ success: 'ok' })
+        console.log(data);
+        return json(data[0])
     }
 
     if (body.type == 'reject') {
@@ -36,7 +37,6 @@ export async function PUT({ request, locals: { supabase, getSession } }) {
             return json({ error: { code: error.code, message: error.message } })
         }
 
-        console.log(data);
         return json(data[0])
     }
 

@@ -56,16 +56,17 @@ async function reject(req) {
     await fetch("/admin/api/update-access-users", {
         method: "PUT",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ type: "reject", email: req.email }),
+        body: JSON.stringify({ type: "delete", email: req.email }),
     })
         .then((res) => res.json())
         .then((res) => {
-            for (const [index, item] of requests.entries()) {
-                if (item.email == res.email) {
-                    requests[index] = res;
-                    break;
-                }
-            }
+            // for (const [index, item] of requests.entries()) {
+            //     if (item.email == res.email) {
+            //         requests[index] = res;
+            //         break;
+            //     }
+            // }
+            requests = requests.filter((x) => x.email !== res.email);
         });
 
     await timeout(500);

@@ -21,7 +21,7 @@ const dispatch = createEventDispatcher();
 const redirect = (() => {
     let redirectPath = $page.url.searchParams.get("redirect") || $page.url.pathname.replace("/", "");
     if (redirectPath == "login") {
-        redirectPath = "";
+        redirectPath = "ifcsg";
     }
     return `/${redirectPath}`;
 })();
@@ -61,8 +61,6 @@ async function signInWithMagicLink() {
 
     awaitingVerification = true;
     errorMessage = null;
-
-    console.log("?hello!!");
 }
 
 async function signInWithEmail() {
@@ -117,11 +115,12 @@ async function logInWithOTP() {
 }
 
 $: $session,
-    (() => {
+    (async () => {
+        console.log($session);
         if ($session) {
             dispatch("success");
             console.log("redirect to", redirect);
-            goto(redirect);
+            location.href = redirect;
         }
     })();
 

@@ -5,7 +5,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": "SCDF needs to differentiate individual units.\nOL of PG 2 residential unit is based on total area of unit including household shelter, kitchen, toilet, private lift lobby and etc.",
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -13,7 +15,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -21,7 +25,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -29,7 +35,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -37,7 +45,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -45,7 +55,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -53,7 +65,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -61,7 +75,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -69,7 +85,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -77,7 +95,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -85,7 +105,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -93,7 +115,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -101,7 +125,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -109,7 +135,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -117,7 +145,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Living spaces",
@@ -125,7 +155,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Apartment, residential | Maisonettes, residential",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -133,7 +165,9 @@
     "occupancyType": "hotel",
     "remarks": null,
     "functionalSpace": "Backpacker hotel",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": "To check for all the spaces within hotel/ apartment room",
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -141,7 +175,9 @@
     "occupancyType": "serviced apartment",
     "remarks": null,
     "functionalSpace": "Serviced apartment (based on per unit)",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -149,7 +185,9 @@
     "occupancyType": "dormitory",
     "remarks": null,
     "functionalSpace": "Dormitory",
-    "occupancyLoad": 4.2
+    "occupancyLoad": 4.2,
+    "SCDF_remarks": "OL only applies to dormitory bedroom",
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -157,7 +195,9 @@
     "occupancyType": "workers dormitory",
     "remarks": null,
     "functionalSpace": "Dormitory",
-    "occupancyLoad": 4.2
+    "occupancyLoad": 4.2,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -165,7 +205,9 @@
     "occupancyType": "hotel",
     "remarks": null,
     "functionalSpace": "Guestroom/accommodation unit",
-    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -173,7 +215,9 @@
     "occupancyType": "hostel",
     "remarks": null,
     "functionalSpace": "Guestroom/accommodation unit",
-    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -181,7 +225,9 @@
     "occupancyType": "capsule hotel",
     "remarks": null,
     "functionalSpace": "Guestroom/accommodation unit",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -189,7 +235,9 @@
     "occupancyType": null,
     "remarks": null,
     "functionalSpace": "Staff quarters",
-    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -197,7 +245,9 @@
     "occupancyType": "hostel",
     "remarks": null,
     "functionalSpace": "Student bedroom",
-    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher"
+    "occupancyLoad": "Min 2 persons per room or 15msq/person, whichever is higher",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -205,7 +255,9 @@
     "occupancyType": "hostel",
     "remarks": null,
     "functionalSpace": "Student bedroom",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Temporary residences",
@@ -213,7 +265,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Housekeeping",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -221,7 +275,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Bath room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -229,7 +285,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Toilet",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -237,7 +295,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Toilet",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -245,7 +305,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] = True\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Toilet (handicap)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -253,7 +315,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Toilet (male)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -261,7 +325,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Toilet (female)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -269,7 +335,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Toilet",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -277,7 +345,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Family-friendly washroom",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -285,7 +355,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Washroom with shower",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Toilet spaces \n(non-residential)",
@@ -293,7 +365,9 @@
     "occupancyType": "any",
     "remarks": "Referring to spaces containing water closet. Space may be indicated at cubicle level.\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible washroom/ toilets and cubicles\nChildrenFriendly [Boolean] - To indicate true for child-friendly washroom/ toilets and cubicles\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled washroom/ toilets and cubicles",
     "functionalSpace": "Powder room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -301,7 +375,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Bath room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -309,7 +385,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Changing room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -317,7 +395,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Changing room (female)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -325,7 +405,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Changing room (male)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -333,7 +415,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Locker room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -341,7 +425,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Restroom",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -349,7 +435,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "lactation room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -357,7 +445,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Sick room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -365,7 +455,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "shower room | shower stall",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Resting/ Care/ Hygiene spaces",
@@ -373,7 +465,9 @@
     "occupancyType": "any",
     "remarks": "Refer to spaces without water closet\nBarrierFreeAccessibility [Boolean] - To indicate true for accessible rooms/ stalls\nChildrenFriendly [Boolean] - To indicate true for child-friendly rooms/ stalls\nAmbulantDisabled [Boolean] - To indicate true for ambulant disabled rooms/ stalls",
     "functionalSpace": "Wash area",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -381,7 +475,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Archive room - reading area",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -389,7 +485,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Archive room - stack area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -397,7 +495,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Ball room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -405,7 +505,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Banking hall",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -413,7 +515,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bazaar",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -421,7 +525,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Business centre/office",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -429,7 +535,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Business centre/office",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -437,7 +545,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Classroom",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -445,7 +555,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Computer classroom",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -453,7 +565,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Common room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -461,7 +575,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Computer room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -469,7 +585,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Conference room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -477,7 +595,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Consultant room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -485,7 +605,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Crematoria",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -493,7 +615,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Dance studio",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -501,7 +625,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Department store",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -509,7 +635,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Design studio",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -517,7 +645,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Detention room",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -525,7 +655,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Exposition/trade fair area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -533,7 +665,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Exposition/trade fair area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -541,7 +675,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Filing room/store",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -549,7 +685,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Filing room/store",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -557,7 +695,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Fire command centre",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -565,7 +705,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Function room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -573,7 +715,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - exhibits",
-    "occupancyLoad": 2.5
+    "occupancyLoad": 2.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -581,7 +725,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - choir",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -589,7 +735,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - prayer",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -597,7 +745,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - seating",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -605,7 +755,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - trading",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -613,7 +765,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - viewing",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -621,7 +775,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Guard house",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": "Guardhouse here to SCDF refers to the standalone structure away from main building.",
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -629,7 +785,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Hobby room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -637,7 +795,9 @@
     "occupancyType": "shop",
     "remarks": null,
     "functionalSpace": "Kiosk - retail",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -645,7 +805,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Laboratory",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -653,7 +815,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Laboratory",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -661,7 +825,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Laundry - with machine operation",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": "Refers to laundry areas/ shops with machine operation",
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -669,7 +835,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Library room - stack area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -677,7 +845,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Library room - reading area",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -685,7 +855,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lounge",
-    "occupancyLoad": 2.5
+    "occupancyLoad": 2.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -693,7 +865,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Machine/printing room",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -701,7 +875,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Mailroom",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -709,7 +885,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Meeting room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -717,7 +895,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Music studio",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -725,7 +905,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Night club",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -733,7 +915,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Office - admin/general",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -741,7 +925,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Office - admin/general",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -749,7 +935,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Office - ancillary",
-    "occupancyLoad": 7.5
+    "occupancyLoad": 7.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -757,7 +945,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Office - director/manager",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -765,7 +955,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Office - director/manager",
-    "occupancyLoad": 15
+    "occupancyLoad": 15,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -773,7 +965,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Office - drafting",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -781,7 +975,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Outdoor display area",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -789,7 +985,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Packing/distribution area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -797,7 +995,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Packing/distribution area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -805,7 +1005,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pantry",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -813,7 +1015,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Prayer hall",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -821,7 +1025,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pre-function room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -829,7 +1035,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Production area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -837,7 +1045,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Promotion area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -845,7 +1055,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Reading room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -853,7 +1065,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Reception area",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -861,7 +1075,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Seminar room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -869,7 +1085,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Security room",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -877,7 +1095,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Service area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -885,7 +1105,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shed",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -893,7 +1115,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shop",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -901,7 +1125,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Showflat",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -909,7 +1135,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Showroom",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -917,7 +1145,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Society room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -925,7 +1155,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Spray painting room",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -933,7 +1165,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Staff office",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -941,7 +1175,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Staff lounge",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -949,7 +1185,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Supermarket",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -957,7 +1195,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Therapy centre",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -965,7 +1205,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Ticketing office",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -973,7 +1215,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Trading floor",
-    "occupancyLoad": 2
+    "occupancyLoad": 2,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -981,7 +1225,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Visitors lounge",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -989,7 +1235,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Waiting area",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -997,7 +1245,9 @@
     "occupancyType": "public education institution",
     "remarks": null,
     "functionalSpace": "Workshop - institutional",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1005,7 +1255,9 @@
     "occupancyType": "private education institution",
     "remarks": null,
     "functionalSpace": "Workshop - institutional",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1013,7 +1265,9 @@
     "occupancyType": "petrol station",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1021,7 +1275,9 @@
     "occupancyType": "factory",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1029,7 +1285,9 @@
     "occupancyType": "food production factory",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1037,7 +1295,9 @@
     "occupancyType": "M&E area",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1045,7 +1305,9 @@
     "occupancyType": "wafer fabrication plant",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1053,7 +1315,9 @@
     "occupancyType": "waste management and recycling",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1061,7 +1325,9 @@
     "occupancyType": "embalming facility",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1069,7 +1335,9 @@
     "occupancyType": "agriculture",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1077,7 +1345,9 @@
     "occupancyType": "animal related facility",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1085,7 +1355,9 @@
     "occupancyType": "high containment facility",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1093,7 +1365,9 @@
     "occupancyType": "electrical & gas facility",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commercial, Work, Institutional spaces",
@@ -1101,7 +1375,9 @@
     "occupancyType": "road tunnel",
     "remarks": null,
     "functionalSpace": "Workshop - industrial",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1109,7 +1385,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bar/pub",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1117,7 +1395,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bar/pub",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1125,7 +1405,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Café",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1133,7 +1415,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Cafeteria",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1141,7 +1425,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Canteen",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1149,7 +1435,9 @@
     "occupancyType": "F&B outlet",
     "remarks": null,
     "functionalSpace": "Dining area - coffee shop/eating house/food court/hawker centre",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": "Dining is more generic, including eating and drinking. BCA to align with SCDF",
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1157,7 +1445,9 @@
     "occupancyType": "ORA",
     "remarks": null,
     "functionalSpace": "Dining area - coffee shop/eating house/food court/hawker centre",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1165,7 +1455,9 @@
     "occupancyType": "food centre",
     "remarks": null,
     "functionalSpace": "Dining area - coffee shop/eating house/food court/hawker centre",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1173,7 +1465,9 @@
     "occupancyType": "fast food outlet",
     "remarks": null,
     "functionalSpace": "Dining area - fast food outlet",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1181,7 +1475,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Food stall",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1189,7 +1485,9 @@
     "occupancyType": "F&B outlet",
     "remarks": null,
     "functionalSpace": "Kiosk - take-away F&B",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1197,7 +1495,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1205,7 +1505,9 @@
     "occupancyType": "hotel",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1213,7 +1515,9 @@
     "occupancyType": "hospital without A&E services",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1221,7 +1525,9 @@
     "occupancyType": "hospital with A&E services",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1229,7 +1535,9 @@
     "occupancyType": "factory",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1237,7 +1545,9 @@
     "occupancyType": "F&B outlet",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1245,7 +1555,9 @@
     "occupancyType": "food production factory",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1253,7 +1565,9 @@
     "occupancyType": "food centre",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1261,7 +1575,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1269,7 +1585,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Kitchen/service area/service counter",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1277,7 +1595,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pub",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1285,7 +1605,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Restaurant",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1293,7 +1615,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Snack bar",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Food and Beverages",
@@ -1301,7 +1625,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Staff canteen",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1309,7 +1635,9 @@
     "occupancyType": "ambulatory care facility",
     "remarks": null,
     "functionalSpace": "Area of refuge - ambulatory care facility",
-    "occupancyLoad": 1.4
+    "occupancyLoad": 1.4,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1317,7 +1645,9 @@
     "occupancyType": "ambulatory care facility (standalone)",
     "remarks": null,
     "functionalSpace": "Area of refuge - ambulatory care facility",
-    "occupancyLoad": 1.4
+    "occupancyLoad": 1.4,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1325,7 +1655,9 @@
     "occupancyType": "custodian care facility",
     "remarks": null,
     "functionalSpace": "Area of refuge - custodian care facility",
-    "occupancyLoad": 1.4
+    "occupancyLoad": 1.4,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1333,7 +1665,9 @@
     "occupancyType": "custodian care facility (nursery)",
     "remarks": null,
     "functionalSpace": "Area of refuge - custodian care facility",
-    "occupancyLoad": 1.4
+    "occupancyLoad": 1.4,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1341,7 +1675,9 @@
     "occupancyType": "hospital without A&E services",
     "remarks": null,
     "functionalSpace": "Area of refuge - hospital space with patient accomodation",
-    "occupancyLoad": 2.8
+    "occupancyLoad": 2.8,
+    "SCDF_remarks": "MC to detect patient accomodation area to determine OT is with or without patient accomodation by floor",
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1349,7 +1685,9 @@
     "occupancyType": "hospital with A&E services",
     "remarks": null,
     "functionalSpace": "Area of refuge - hospital space with patient accomodation",
-    "occupancyLoad": 2.8
+    "occupancyLoad": 2.8,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1357,7 +1695,9 @@
     "occupancyType": "hospital without A&E services",
     "remarks": null,
     "functionalSpace": "Area of refuge - hospital space without patient accomodation",
-    "occupancyLoad": 0.56
+    "occupancyLoad": 0.56,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1365,7 +1705,9 @@
     "occupancyType": "hospital with A&E services",
     "remarks": null,
     "functionalSpace": "Area of refuge - hospital space without patient accomodation",
-    "occupancyLoad": 0.56
+    "occupancyLoad": 0.56,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1373,7 +1715,9 @@
     "occupancyType": "nursing care facilities",
     "remarks": null,
     "functionalSpace": "Area of refuge - nursing care facility space with patient accomodation",
-    "occupancyLoad": 2.8
+    "occupancyLoad": 2.8,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1381,7 +1725,9 @@
     "occupancyType": "nursing care facilities",
     "remarks": null,
     "functionalSpace": "Area of refuge - nursing care facility space without patient accomodation",
-    "occupancyLoad": 0.56
+    "occupancyLoad": 0.56,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1389,7 +1735,9 @@
     "occupancyType": "assisted living facility",
     "remarks": null,
     "functionalSpace": "Area of refuge - supervisory care facility",
-    "occupancyLoad": 0.56
+    "occupancyLoad": 0.56,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1397,7 +1745,9 @@
     "occupancyType": "supervisory care facility",
     "remarks": null,
     "functionalSpace": "Area of refuge - supervisory care facility",
-    "occupancyLoad": 0.56
+    "occupancyLoad": 0.56,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1405,7 +1755,9 @@
     "occupancyType": "supervisory care facility (detention)",
     "remarks": null,
     "functionalSpace": "Area of refuge - supervisory care facility",
-    "occupancyLoad": 0.56
+    "occupancyLoad": 0.56,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1413,7 +1765,9 @@
     "occupancyType": "outpatient clinic",
     "remarks": null,
     "functionalSpace": "Clinic (outpatient) - Consultation room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1421,7 +1775,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Examination room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1429,7 +1785,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gallery - surgical viewing",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1437,7 +1795,9 @@
     "occupancyType": "assisted living facility",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1445,7 +1805,9 @@
     "occupancyType": "supervisory care facility",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1453,7 +1815,9 @@
     "occupancyType": "supervisory care facility (detention)",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1461,7 +1825,9 @@
     "occupancyType": "nursing care facilityies",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1469,7 +1835,9 @@
     "occupancyType": "hospital without A&E services",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1477,7 +1845,9 @@
     "occupancyType": "hospital with A&E services",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1485,7 +1855,9 @@
     "occupancyType": "ambulatory care facility",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1493,7 +1865,9 @@
     "occupancyType": "ambulatory care facility (standalone)",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1501,7 +1875,9 @@
     "occupancyType": "custodian care facility",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1509,7 +1885,9 @@
     "occupancyType": "custodian care facility (nursery)",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1517,7 +1895,9 @@
     "occupancyType": "outpatient clinic",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1525,7 +1905,9 @@
     "occupancyType": "polyclinic",
     "remarks": null,
     "functionalSpace": "Laboratory - healthcare occupancy",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1533,7 +1915,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Nursing room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1541,7 +1925,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Nursing station",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1549,7 +1935,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Operation theatre",
-    "occupancyLoad": 7.5
+    "occupancyLoad": 7.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1557,7 +1945,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Out-patient waiting area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1565,7 +1955,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Patient accommodation - intensive care",
-    "occupancyLoad": 20
+    "occupancyLoad": 20,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1573,7 +1965,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Patient accommodation - ward",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1581,7 +1975,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Isolation ward",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1589,7 +1985,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pharmacy - staff area",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1597,7 +1995,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pharmacy - public waiting area",
-    "occupancyLoad": 2
+    "occupancyLoad": 2,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Medical/ Healthcare",
@@ -1605,7 +2005,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Treatment room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1613,7 +2015,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Amphitheatre with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": "Refers to amphitheatres with covering/ roof/ shelter or at upper storey of a building, MC to additionally check for these conditions for SCDF",
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1621,7 +2025,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Amphitheatre with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1629,7 +2035,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Amphitheatre without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1637,7 +2045,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Auditorium - with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": "Circulation spaces in these areas are non-simultaneous\n\nIf QP does not declare without fixed seating and did not model the furniture, to flag out to SCDF\nFor benches with irregular shape, use inner diameter/ shorter side for calculating OL",
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1645,7 +2055,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Auditorium - with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1653,7 +2065,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Auditorium - without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1661,7 +2075,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Cinema - with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1669,7 +2085,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Cinema - with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1677,7 +2095,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Cinema - without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1685,7 +2105,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Grandstand with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1693,7 +2115,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Grandstand with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1701,7 +2125,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Grandstand without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1709,7 +2135,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Hall - assembly hall with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1717,7 +2145,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Hall - assembly hall with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1725,7 +2155,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Hall - assembly hall without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1733,7 +2165,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Hall - concert hall with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1741,7 +2175,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Hall - concert hall with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1749,7 +2185,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Hall - concert hall without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1757,7 +2195,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Hall - exhibition hall with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1765,7 +2205,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Hall - exhibition hall with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1773,7 +2215,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Hall - exhibition hall without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1781,7 +2225,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Hall - conference hall with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1789,7 +2235,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Hall - conference hall with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1797,7 +2245,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Hall - conference hall without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1805,7 +2255,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Hall - function hall with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1813,7 +2265,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Hall - function hall with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1821,7 +2275,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Hall - function hall without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1829,7 +2285,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Lecture room with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1837,7 +2295,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Lecture room with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1845,7 +2305,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lecture room without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1853,7 +2315,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Spectator area with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1861,7 +2325,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Spectator area with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1869,7 +2335,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Spectator area without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1877,7 +2345,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.BENCH to be modelled in space",
     "functionalSpace": "Theatre with fixed bench seating",
-    "occupancyLoad": "0.45m of length of benches per person"
+    "occupancyLoad": "0.45m of length of benches per person",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1885,7 +2355,9 @@
     "occupancyType": "any",
     "remarks": "IfcFurniture.CHAIR to be modelled in space",
     "functionalSpace": "Theatre with individual fixed seating",
-    "occupancyLoad": "based on number of fixed seating"
+    "occupancyLoad": "based on number of fixed seating",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1893,7 +2365,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Theatre without individual fixed seating/bench",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1901,7 +2375,9 @@
     "occupancyType": "public education institution",
     "remarks": null,
     "functionalSpace": "Indoor sport hall - school with multi-purpose hall",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1909,7 +2385,9 @@
     "occupancyType": "private education institution",
     "remarks": null,
     "functionalSpace": "Indoor sport hall - school with multi-purpose hall",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1917,7 +2395,9 @@
     "occupancyType": "public education institution",
     "remarks": null,
     "functionalSpace": "Indoor sport hall - school without multi-purpose hall",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1925,7 +2405,9 @@
     "occupancyType": "private education institution",
     "remarks": null,
     "functionalSpace": "Indoor sport hall - school without multi-purpose hall",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1933,7 +2415,9 @@
     "occupancyType": "public education institution",
     "remarks": null,
     "functionalSpace": "Multi-purpose hall/room - school/colleges",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1941,7 +2425,9 @@
     "occupancyType": "private education institution",
     "remarks": null,
     "functionalSpace": "Multi-purpose hall/room - school/colleges",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1949,7 +2435,9 @@
     "occupancyType": "public education institution",
     "remarks": null,
     "functionalSpace": "Multi-purpose hall/room - school/colleges",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1957,7 +2445,9 @@
     "occupancyType": "private education institution",
     "remarks": null,
     "functionalSpace": "Multi-purpose hall/room - school/colleges",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1965,7 +2455,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Multi-purpose sports hall - public sport complex",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1973,7 +2465,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Multi-purpose sports hall - public swimming complex",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Assembly spaces",
@@ -1981,7 +2475,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Multi-purpose sports hall - stadium",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -1989,7 +2485,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Audio visual area",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -1997,7 +2495,9 @@
     "occupancyType": "assembly place",
     "remarks": null,
     "functionalSpace": "Audio visual control room - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2005,7 +2505,9 @@
     "occupancyType": "cinema",
     "remarks": null,
     "functionalSpace": "Audio visual control room - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2013,7 +2515,9 @@
     "occupancyType": "assembly place",
     "remarks": null,
     "functionalSpace": "Lighting control room - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2021,7 +2525,9 @@
     "occupancyType": "cinema",
     "remarks": null,
     "functionalSpace": "Lighting control room - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2029,7 +2535,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Live entertainment",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2037,7 +2545,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Live performance",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2045,7 +2555,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Orchestral pit",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2053,7 +2565,9 @@
     "occupancyType": "assembly place",
     "remarks": null,
     "functionalSpace": "Projection room - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2061,7 +2575,9 @@
     "occupancyType": "cinema",
     "remarks": null,
     "functionalSpace": "Projection room - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2069,7 +2585,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Stage, back",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2077,7 +2595,9 @@
     "occupancyType": "public education institution",
     "remarks": null,
     "functionalSpace": "Stage, front - schools/colleges/tertiary institutions",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2085,7 +2605,9 @@
     "occupancyType": "private education institution",
     "remarks": null,
     "functionalSpace": "Stage, front - schools/colleges/tertiary institutions",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2093,7 +2615,9 @@
     "occupancyType": "assembly place",
     "remarks": null,
     "functionalSpace": "Stage, front - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Supporting spaces for performing",
@@ -2101,7 +2625,9 @@
     "occupancyType": "cinema",
     "remarks": null,
     "functionalSpace": "Stage, front - auditorium/theatre/cinema/hall",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2109,7 +2635,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Amusement park (excluding machine area)",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2117,7 +2645,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Billiards room",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2125,7 +2655,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Body massage",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2133,7 +2665,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bowling alley (excluding bowling lane)",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2141,7 +2675,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bowling lane",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2149,7 +2685,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Casino",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2157,7 +2695,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Children playground",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2165,7 +2705,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Club room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2173,7 +2715,9 @@
     "occupancyType": "entertainment place",
     "remarks": null,
     "functionalSpace": "Discotheque",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2181,7 +2725,9 @@
     "occupancyType": "entertainment place",
     "remarks": null,
     "functionalSpace": "Discotheque",
-    "occupancyLoad": 1
+    "occupancyLoad": 1,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2189,7 +2735,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Field/pitch - Hockey field/pitch",
-    "occupancyLoad": "22 persons"
+    "occupancyLoad": "22 persons",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2197,7 +2745,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Field/pitch - Hockey field/pitch",
-    "occupancyLoad": "22 persons"
+    "occupancyLoad": "22 persons",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2205,7 +2755,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Field/pitch - Rugby field/pitch",
-    "occupancyLoad": "30 persons"
+    "occupancyLoad": "30 persons",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2213,7 +2765,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Field/pitch - Rugby field/pitch",
-    "occupancyLoad": "30 persons"
+    "occupancyLoad": "30 persons",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2221,7 +2775,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Field/pitch - Soccer field/pitch",
-    "occupancyLoad": "22 persons"
+    "occupancyLoad": "22 persons",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2229,7 +2785,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Field/pitch - Soccer field/pitch",
-    "occupancyLoad": "22 persons"
+    "occupancyLoad": "22 persons",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2237,7 +2795,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Fitness/exercise/health corner",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2245,7 +2805,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Foot reflexology",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2253,7 +2815,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Fitness/exercise/health club/centre",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2261,7 +2825,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Fitness/exercise/health club/centre",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2269,7 +2835,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gaming centre (excluding machine area)",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2277,7 +2845,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Gymnasium",
-    "occupancyLoad": 3.5
+    "occupancyLoad": 3.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2285,7 +2855,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Health club/centre",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2293,7 +2865,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Health club/centre",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2301,7 +2875,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Indoor games room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2309,7 +2885,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Karaoke lounge",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2317,7 +2895,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Karaoke dining area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2325,7 +2905,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Recreation room",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2333,7 +2915,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Refreshment area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2341,7 +2925,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Skating rink - rink area",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2349,7 +2935,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Spa",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2357,7 +2945,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Badminton court",
-    "occupancyLoad": "4 persons per court"
+    "occupancyLoad": "4 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2365,7 +2955,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Basketball court",
-    "occupancyLoad": "10 persons per court"
+    "occupancyLoad": "10 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2373,7 +2965,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Basketball court (half-court)",
-    "occupancyLoad": "6 persons per court"
+    "occupancyLoad": "6 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2381,7 +2975,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Futsal court",
-    "occupancyLoad": "14 persons per court"
+    "occupancyLoad": "14 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2389,7 +2985,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Netball court",
-    "occupancyLoad": "14 persons per court"
+    "occupancyLoad": "14 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2397,7 +2995,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Netball court (half-court)",
-    "occupancyLoad": "8 persons per court"
+    "occupancyLoad": "8 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2405,7 +3005,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Squash court",
-    "occupancyLoad": "2 persons per court"
+    "occupancyLoad": "2 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2413,7 +3015,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Tennis court",
-    "occupancyLoad": "4 persons per court"
+    "occupancyLoad": "4 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2421,7 +3025,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Tennis court (half-court)",
-    "occupancyLoad": "2 persons per court"
+    "occupancyLoad": "2 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2429,7 +3035,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Sports court - Volleyball court",
-    "occupancyLoad": "12 persons per court"
+    "occupancyLoad": "12 persons per court",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2437,7 +3045,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Swimming pool - condominium/apartment",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2445,7 +3055,9 @@
     "occupancyType": "hotel",
     "remarks": null,
     "functionalSpace": "Swimming pool - hotel",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2453,7 +3065,9 @@
     "occupancyType": "social club",
     "remarks": null,
     "functionalSpace": "Swimming pool - private club",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2461,7 +3075,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Swimming pool - public sports complex",
-    "occupancyLoad": 2.5
+    "occupancyLoad": 2.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2469,7 +3085,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Swimming pool - public swimming complex",
-    "occupancyLoad": 2.5
+    "occupancyLoad": 2.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2477,7 +3095,9 @@
     "occupancyType": "serviced apartment",
     "remarks": null,
     "functionalSpace": "Swimming pool - serviced apartment",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2485,7 +3105,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Swimming pool deck - condominium/apartment",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2493,7 +3115,9 @@
     "occupancyType": "hotel",
     "remarks": null,
     "functionalSpace": "Swimming pool deck - hotel",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2501,7 +3125,9 @@
     "occupancyType": "social club",
     "remarks": null,
     "functionalSpace": "Swimming pool deck - private club",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2509,7 +3135,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Swimming pool deck - public sports complex",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2517,7 +3145,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Swimming pool deck - public swimming complex",
-    "occupancyLoad": 5
+    "occupancyLoad": 5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2525,7 +3155,9 @@
     "occupancyType": "serviced apartment",
     "remarks": null,
     "functionalSpace": "Swimming pool deck - serviced apartment",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2533,7 +3165,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Training area - public sports complex",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2541,7 +3175,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Training area - public swimming complex",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Entertainment / recreation spaces",
@@ -2549,7 +3185,9 @@
     "occupancyType": "sports facility",
     "remarks": null,
     "functionalSpace": "Training area - stadium",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2557,7 +3195,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "-",
-    "occupancyLoad": "-"
+    "occupancyLoad": "-",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2565,7 +3205,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "-",
-    "occupancyLoad": "-"
+    "occupancyLoad": "-",
+    "SCDF_remarks": "Refers to spaces in PG1",
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2573,7 +3215,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "-",
-    "occupancyLoad": "-"
+    "occupancyLoad": "-",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2581,7 +3225,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Service yard",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2589,7 +3235,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Construction site - open to space",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "Construction site here to SCDF excludes all building structure eg workers' dorm, office etc. Construction site (open-to-sky area): OL factor = 0 m2/pax",
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2597,7 +3245,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Outdoor refreshment area",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2605,7 +3255,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pavilion",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2613,7 +3265,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": null,
     "functionalSpace": "Roof (public)",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2621,7 +3275,9 @@
     "occupancyType": "M&E area",
     "remarks": null,
     "functionalSpace": "Roof (access for maintenance only)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2629,7 +3285,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": null,
     "functionalSpace": "Roof - green roof (public)",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2637,7 +3295,9 @@
     "occupancyType": "M&E area",
     "remarks": null,
     "functionalSpace": "Roof - green roof (access for maintenance only)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2645,7 +3305,9 @@
     "occupancyType": "single dwelling residential",
     "remarks": null,
     "functionalSpace": "Roof garden/roof terrace, private (of individual residential unit)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "Space must be within residential unit",
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2653,7 +3315,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Roof garden/roof terrace, private (of individual residential unit)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2661,7 +3325,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": null,
     "functionalSpace": "Roof garden/roof terrace, public - jogging track/designated foot path <=3m in width",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2669,7 +3335,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": null,
     "functionalSpace": "Roof garden/roof terrace, public - jogging track/designated foot path <=3m in width",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2677,7 +3345,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "IfcFurniture.PLANTERBOX to be modelled in space",
     "functionalSpace": "Roof garden/roof terrace, public - planter box <300mm high",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2685,7 +3355,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nFullyCoveredWithTreesShrub [Boolean] = TRUE",
     "functionalSpace": "Roof garden/roof terrace, public - planter box =>300mm & <= 500mm high & covered fully with trees/shrubs",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2693,7 +3365,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nFullyCoveredWithTreesShrub [Boolean] = FALSE",
     "functionalSpace": "Roof garden/roof terrace, public - planter box =>300mm & <= 500mm high & not covered fully with trees/shrubs",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2701,7 +3375,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nStepRampAccess [Boolean] = FALSE",
     "functionalSpace": "Roof garden/roof terrace, public - planter box >500mm high without step/ramp access",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2709,7 +3385,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "IfcFurniture.PLANTERBOX to be modelled in space\nStepRampAccess [Boolean] = TRUE",
     "functionalSpace": "Roof garden/roof terrace, public - planter box >500mm high with step/ramp access",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2717,7 +3395,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "Water features typically modelled as a floor slab \nExport to IfcGeographicElement.WATERFEATURE",
     "functionalSpace": "Roof garden/roof terrace, public - water feature <300mm in depth/height",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2725,7 +3405,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "Water features typically modelled as a floor slab \nExport to IfcGeographicElement.WATERFEATURE",
     "functionalSpace": "Roof garden/roof terrace, public - water feature =>300mm in depth/height",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2733,7 +3415,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "FulllyCoveredWithTreesShrub [Boolean] = TRUE",
     "functionalSpace": "Roof garden/roof terrace, public - sunken planting area (fully covered with trees/shrubs)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2741,7 +3425,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": "FulllyCoveredWithTreesShrub [Boolean] = FALSE",
     "functionalSpace": "Roof garden/roof terrace, public - sunken planting area (turf)",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Open space/ Open-sided space",
@@ -2749,7 +3435,9 @@
     "occupancyType": "sky garden/ terrace",
     "remarks": null,
     "functionalSpace": "Roof garden/roof terrace, public - other areas",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "M&E spaces",
@@ -2757,7 +3445,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Battery room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2765,7 +3455,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Cooling tower",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2773,7 +3465,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Disinfection room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2781,7 +3475,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Equipment washing bay",
-    "occupancyLoad": 10
+    "occupancyLoad": 10,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2789,7 +3485,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Lubrication bay",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2797,7 +3495,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Pulley room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2805,7 +3505,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2813,7 +3515,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - AC plant room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2821,7 +3525,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - AHU room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2829,7 +3535,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - boiler room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2837,7 +3545,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - boiler room (oil fired)",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2845,7 +3555,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - chiller room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2853,7 +3565,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - discharge valve room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2861,7 +3575,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - electric lift motor room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2869,7 +3585,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - electrical room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2877,7 +3595,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - essential fan room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2885,7 +3605,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - fire pump room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2893,7 +3615,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Balancing pump room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2901,7 +3625,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Domestic pump room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2909,7 +3635,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Irrigation pump room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2917,7 +3645,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Portable water pump room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2925,7 +3655,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Sprinkler pump room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2933,7 +3665,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Pumped sanitary system room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2941,7 +3675,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Pumped drainage system room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2949,7 +3685,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Ejector room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2957,7 +3695,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - emergency generator room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2965,7 +3705,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - generator room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2973,7 +3715,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - high voltage switch room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2981,7 +3725,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - hydraulic lift motor room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2989,7 +3735,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - lift machine room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -2997,7 +3745,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - lift motor room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3005,7 +3755,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - low voltage switch room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3013,7 +3765,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - oil tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3021,7 +3775,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - sprinkler tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3029,7 +3785,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - telecommunication/non-essential equipment room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3037,7 +3795,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - telecommunication/non-essential equipment room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3045,7 +3805,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - transformer room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3053,7 +3815,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mechanical plant room - wet riser tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3061,7 +3825,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "PABX room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3069,7 +3835,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Server room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3077,7 +3845,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "MDF room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3085,7 +3855,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mobile installation space/ deployment space",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3093,7 +3865,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Mobile installation space/ deployment space",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3101,7 +3875,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Electronics parking system room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3109,7 +3885,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Police equipment room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3117,7 +3895,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Vent room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3125,7 +3905,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Substation",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3133,7 +3915,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Meter Compartment",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3141,7 +3925,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Potable water tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3149,7 +3935,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "NEWater tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3157,7 +3945,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Hosereel tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3165,7 +3955,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Non-potable water tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3173,7 +3965,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Hydrant tank room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3181,7 +3975,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Balancing tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3189,7 +3985,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Detention tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3197,7 +3995,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Domestic water tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3205,7 +4005,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Hot water tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3213,7 +4015,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Make up water tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3221,7 +4025,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "NEWater tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3229,7 +4035,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Portable water tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3237,7 +4045,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Rainwater Harvesting tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3245,7 +4055,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Irrigation tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "M&E spaces",
@@ -3253,7 +4065,9 @@
     "occupancyType": "m&e area",
     "remarks": null,
     "functionalSpace": "Sprinkler tank",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Storage spaces",
@@ -3261,7 +4075,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bin center",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": "Should be building instead of functional space? But the refute collection space within a bin center can be OL factor = 30 m2/pax",
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3269,7 +4085,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Coldroom",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3277,7 +4095,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Deposit/strong room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3285,7 +4105,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Deposit/strong room",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3293,7 +4115,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Mortuary",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3301,7 +4125,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Storage/store",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3309,7 +4135,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Storage/store",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Storage spaces",
@@ -3317,7 +4145,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Warehouse",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3325,7 +4155,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Driveway",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3333,7 +4165,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Garage",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": "to exclude PG1",
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3341,7 +4175,9 @@
     "occupancyType": "any",
     "remarks": "ParkingType [Label] = bicycle",
     "functionalSpace": "Parking area - bicycle",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": "SCDF to align with LTA's term \"parking place\"",
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3349,7 +4185,9 @@
     "occupancyType": "any",
     "remarks": "ParkingType [Label] = car",
     "functionalSpace": "Parking area - car/lorry/bus",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3357,7 +4195,9 @@
     "occupancyType": "any",
     "remarks": "ParkingType [Label] = heavy vehicle",
     "functionalSpace": "Parking area - car/lorry/bus",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3365,7 +4205,9 @@
     "occupancyType": "any",
     "remarks": "BarrierFreeAccessibility [Boolean] = True",
     "functionalSpace": "Parking area - handicap",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3373,7 +4215,9 @@
     "occupancyType": "any",
     "remarks": "ParkingType [Label] = motorcycle",
     "functionalSpace": "Parking area - motorcycle",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3381,7 +4225,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Parking area - washing",
-    "occupancyLoad": 30
+    "occupancyLoad": 30,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3389,7 +4235,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Loading/unloading area/bay/platform",
-    "occupancyLoad": "4 persons per bay"
+    "occupancyLoad": "4 persons per bay",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3397,7 +4245,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Loading/unloading area/bay/platform",
-    "occupancyLoad": "4 persons per bay"
+    "occupancyLoad": "4 persons per bay",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3405,7 +4255,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Loading/unloading area/bay/platform",
-    "occupancyLoad": "4 persons per bay"
+    "occupancyLoad": "4 persons per bay",
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3413,7 +4265,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Alighting/boarding point",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3421,7 +4275,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Alighting/boarding point",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3429,7 +4285,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Drop off point",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3437,7 +4295,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Bus stop",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3445,7 +4305,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Taxi bay",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Commuter facilities",
@@ -3453,7 +4315,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Taxi shelter",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3461,7 +4325,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Atrium floor",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3469,7 +4335,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Concourse",
-    "occupancyLoad": 3
+    "occupancyLoad": 3,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3477,7 +4345,9 @@
     "occupancyType": "transport terminal",
     "remarks": null,
     "functionalSpace": "Foyer - bus/airport/ferry terminal or station",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3485,7 +4355,9 @@
     "occupancyType": "transport terminal",
     "remarks": null,
     "functionalSpace": "Passenger arrival/departure areas - bus/airport/ferry terminal or station",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3493,7 +4365,9 @@
     "occupancyType": "transport terminal",
     "remarks": null,
     "functionalSpace": "Passenger arrival/departure areas - bus/airport/ferry terminal or station",
-    "occupancyLoad": 1.5
+    "occupancyLoad": 1.5,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3501,7 +4375,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - cargo/ goods lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3509,7 +4385,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - cargo/ goods lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3517,7 +4395,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - common lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3525,7 +4405,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - evacuation lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3533,7 +4415,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - fire lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3541,7 +4425,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - passenger lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3549,7 +4435,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - protected lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3557,7 +4445,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - smoke-free lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3565,7 +4455,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lobby - service lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3573,7 +4465,9 @@
     "occupancyType": "multi-unit residential",
     "remarks": null,
     "functionalSpace": "Lobby - private lift lobby",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "SCDF's private lift lobby refers to lobby that are located within the residential unit PG 2. This is not a common space. \nExcluding PG2",
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3581,7 +4475,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Clean room",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3589,7 +4485,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Equipment platform",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3597,7 +4495,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Linkway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3605,7 +4505,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pedestrian linkway - with commercial activities",
-    "occupancyLoad": 2
+    "occupancyLoad": 2,
+    "SCDF_remarks": "All needs to be indicated with or without commercial activities to be assigned the correct OL factor.\nIf these is commercial activity, the path must be indicated as elevated or underground pedestrain linkway. Any other terms eg walkway, footpath, pathway cannot be used as they are all 0m2/pax.",
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3613,7 +4515,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pedestrian linkway - without commercial activities",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3621,7 +4525,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Elevated pedestrian linkway - with commercial activities",
-    "occupancyLoad": 2
+    "occupancyLoad": 2,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3629,7 +4535,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Elevated pedestrian linkway - without commercial activities",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3637,7 +4545,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Underground pedestrian linkway - with commercial activities",
-    "occupancyLoad": 2
+    "occupancyLoad": 2,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3645,7 +4555,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Underground pedestrian linkway - without commercial activities",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3653,7 +4565,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "promenade",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "not within a building",
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3661,7 +4575,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "boardwalk",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3669,7 +4585,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "through-block link",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "similar to common corridor in mall",
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3677,7 +4595,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "access aisle",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3685,7 +4605,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Corridor (Private)",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3693,7 +4615,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Corridor - common corridor",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "Refers to both internal and common corridor",
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3701,7 +4625,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Corridor - external corridor",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3709,7 +4635,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Walkway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3717,7 +4645,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Walkway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3725,7 +4655,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Footway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3733,7 +4665,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Pathway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3741,7 +4675,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Veranda",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3749,7 +4685,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Void-deck",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Circulation",
@@ -3757,7 +4695,9 @@
     "occupancyType": "any",
     "remarks": "IfcStair to be modelled in space",
     "functionalSpace": "Exit - external circular staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "SCDF has a list of conditions for what is internal or external",
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3765,7 +4705,9 @@
     "occupancyType": "any",
     "remarks": "IfcStair to be modelled in space",
     "functionalSpace": "Exit - external exit staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3773,7 +4715,9 @@
     "occupancyType": "any",
     "remarks": "IfcStair to be modelled in space",
     "functionalSpace": "Exit - external spiral staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3781,7 +4725,9 @@
     "occupancyType": "any",
     "remarks": "IfcStair to be modelled in space",
     "functionalSpace": "Exit - internal circular staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3789,7 +4735,9 @@
     "occupancyType": "any",
     "remarks": "IfcStair to be modelled in space",
     "functionalSpace": "Exit - internal exit staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3797,7 +4745,9 @@
     "occupancyType": "any",
     "remarks": "IfcStair to be modelled in space",
     "functionalSpace": "Exit - internal spiral staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3805,7 +4755,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Exit - external exit passageway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3813,7 +4765,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Exit - internal exit passageway",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3821,7 +4775,9 @@
     "occupancyType": "any",
     "remarks": "IfcRamp to be modelled in space",
     "functionalSpace": "Exit - external exit ramp",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": "SCDF has a list of conditions for what is internal or external",
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3829,7 +4785,9 @@
     "occupancyType": "any",
     "remarks": "IfcRamp to be modelled in space",
     "functionalSpace": "Exit - internal exit ramp",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3837,7 +4795,9 @@
     "occupancyType": "any",
     "remarks": "indicate hardwood via material",
     "functionalSpace": "Staircase - hardwood staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Circulation",
@@ -3845,7 +4805,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Staircase - access staircase",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3853,7 +4815,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Airlock",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3861,7 +4825,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Letter box",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3869,7 +4835,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shaft - dry riser",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3877,7 +4845,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shaft - electrical",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3885,7 +4855,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shaft - gas",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3893,7 +4865,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shaft - ventilation",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3901,7 +4875,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shaft - water",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3909,7 +4885,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Shaft - wet riser",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3917,7 +4895,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Lift shaft",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3925,7 +4905,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Non-shelter",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3933,7 +4915,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Storey shelter",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": "Yes"
   },
   {
     "category": "Other Non-simultaneous spaces",
@@ -3941,7 +4925,9 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "Rest area",
-    "occupancyLoad": 0
+    "occupancyLoad": 0,
+    "SCDF_remarks": null,
+    "BCA_notForPublic": null
   },
   {
     "category": "OTHERS",
@@ -3949,6 +4935,8 @@
     "occupancyType": "any",
     "remarks": null,
     "functionalSpace": "-",
-    "occupancyLoad": "-"
+    "occupancyLoad": "-",
+    "SCDF_remarks": "Not a functional space",
+    "BCA_notForPublic": "Yes"
   }
 ]

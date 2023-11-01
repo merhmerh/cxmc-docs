@@ -2,11 +2,11 @@
 import Icon from "@iconify/svelte";
 import { supabase, session } from "$comp/supabase.store.js";
 import Auth from "$comp/Auth/Auth.svelte";
-import { tick } from "svelte";
+import { onMount, tick } from "svelte";
 import { goto } from "$app/navigation";
 
-import { Modal } from "merh-forge-ui";
-let showOptions, showLogin, awaitingVerification, usePassword;
+import { Modal, notify } from "merh-forge-ui";
+let showOptions, passwordModal, revealPassword, passwordField;
 
 async function signOut() {
     showOptions = false;
@@ -14,7 +14,61 @@ async function signOut() {
     $session = null;
     goto("/login");
 }
+
+async function setPassword() {
+    const resp = await fetch("/api/auth/update-password", {
+        method: "PUT",
+        headers: {
+            "content-type": "application/json",
+        },
+        body: JSON.stringify({ password: passwordField.value }),
+    });
+
+    const result = await resp.json();
+
+    if (result.error) {
+        //
+        return;
+    }
+
+    notify.add("Password Updated");
+    passwordField = null;
+    revealPassword = false;
+    showOptions = false;
+    passwordModal.close();
+}
 </script>
+
+<Modal bind:this={passwordModal} exitOutsideClick={false}>
+    <div class="modal">
+        <h3>Update Password</h3>
+        <span style="font-size:0.875rem;"
+            >This website implements passwordless sign-in. Setting a password is not mandatory unless you encounter
+            difficulties in receiving the verification link sent to your email during the sign-in process.</span>
+        <div class="inputBox">
+            <input type={revealPassword ? "text" : "password"} placeholder="Enter Password" bind:this={passwordField} />
+            <button
+                class="none icon"
+                on:click={() => {
+                    revealPassword = !revealPassword;
+                }}>
+                {#if revealPassword}
+                    <Icon icon="mdi:hide" />
+                {:else}
+                    <Icon icon="mdi:show" />
+                {/if}
+            </button>
+        </div>
+        <div class="buttonGroup">
+            <button class="alt" on:click={() => setPassword()}>Save</button>
+            <button
+                on:click={() => {
+                    showOptions = false;
+                    passwordModal.close();
+                }}>Cancel</button>
+        </div>
+    </div>
+</Modal>
 
 <div class="auth none">
     <button
@@ -32,43 +86,22 @@ async function signOut() {
 
     {#if showOptions}
         <div class="dropdown">
-            {#if !$session}
-                <button
-                    class="none"
-                    on:click={async () => {
-                        showLogin = true;
-                        usePassword = false;
-                        awaitingVerification = false;
-                        showOptions = false;
-                        await tick();
-                    }}>
-                    <Icon icon="material-symbols:login" width="24" />
-                    <span>Sign In</span>
-                </button>
-            {:else}
-                <button class="none" on:click={signOut}>
-                    <Icon icon="material-symbols:login" width="24" />
-                    <span>Sign Out</span>
-                </button>
-            {/if}
+            <button
+                class="none"
+                on:click={() => {
+                    passwordModal.show();
+                }}>
+                <Icon icon="ph:password" width="24" />
+                <span>Update Password</span>
+            </button>
+
+            <button class="none" on:click={signOut}>
+                <Icon icon="material-symbols:login" width="24" />
+                <span>Sign Out</span>
+            </button>
         </div>
     {/if}
 </div>
-
-{#if showLogin}
-    <Modal
-        show="true"
-        on:close={() => {
-            showLogin = false;
-        }}>
-        <div class="modal__content">
-            <Auth
-                on:success={() => {
-                    showLogin = false;
-                }} />
-        </div>
-    </Modal>
-{/if}
 
 <style lang="scss">
 .auth {
@@ -100,7 +133,6 @@ async function signOut() {
     .dropdown {
         background-color: $bg-p;
         position: absolute;
-        width: 150px;
         border: 1px solid $grey-lighter;
         border-radius: 0.5rem;
         right: 0;
@@ -108,6 +140,7 @@ async function signOut() {
         display: grid;
         gap: 0.25rem;
         overflow: hidden;
+        width: max-content;
         button {
             width: 100%;
             font-weight: 400;
@@ -131,9 +164,17 @@ async function signOut() {
         }
     }
 }
-.modal__content {
-    width: 400px;
+.modal {
+    width: 350px;
     display: grid;
     gap: 1rem;
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+    }
+    .inputBox {
+        input {
+            width: 100%;
+        }
+    }
 }
 </style>

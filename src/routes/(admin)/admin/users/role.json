@@ -1,5 +1,16 @@
 [
     {
+        "operation": "Read beta content",
+        "roles": [
+            "beta",
+            "reader",
+            "manager",
+            "editor",
+            "admin",
+            "owner"
+        ]
+    },
+    {
         "operation": "Read all front-end content",
         "roles": [
             "reader",

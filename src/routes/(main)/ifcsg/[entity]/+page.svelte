@@ -9,10 +9,12 @@ import { page } from "$app/stores";
 import { timeout, replaceSpaceWithDash } from "$fn/helper";
 import Update from "./Update.svelte";
 import { beta } from "$routes/main.store";
+import { getPermission } from "$comp/supabase.store";
 
 let ifc = [];
 
-const role = data.session.user.user_metadata.role || null;
+const { role, permission } = getPermission();
+
 const isEditor = role !== "reader" && role !== null;
 
 let updateModal,
@@ -211,32 +213,6 @@ function ifIsInBeta(type) {
                                         <tr class:isUpdating={isUpdating == obj.propertyName}>
                                             <td>
                                                 <div class="tblPset__propName">
-                                                    <!-- <button
-                                                        class="none noHover tblPset__propName__inUse"
-                                                        class:inUse={obj.inUse}
-                                                        class:noEvent={!isEditor}
-                                                        on:click={async (e) => {
-                                                            if (!isEditor) return;
-                                                            const data = {
-                                                                source: {
-                                                                    key: itemKey,
-                                                                    pset: psetName,
-                                                                    propName: obj.propertyName,
-                                                                },
-                                                                prop: {
-                                                                    id: obj.id,
-                                                                    PropertyName: obj.propertyName,
-                                                                    ParentKey: `${entity}:${
-                                                                        predefinedType || null
-                                                                    }:${objectType}`,
-                                                                    Entity: entity,
-                                                                    PropertySet: psetName,
-                                                                    inUse: !obj.inUse,
-                                                                },
-                                                            };
-                                                            await updateModal.updateProp(data);
-                                                        }} /> -->
-
                                                     <button
                                                         class="none noHover tblPset__propName__name"
                                                         on:click={async (e) => {
@@ -277,24 +253,26 @@ function ifIsInBeta(type) {
                                             <td
                                                 ><div class="tblPset__measureResource">
                                                     {obj.IfcMeasureResource == null ? "-" : obj.IfcMeasureResource}
-                                                    <button
-                                                        class:hide={!isEditor}
-                                                        class="none icon"
-                                                        on:click={(e) => {
-                                                            updateData = {
-                                                                code: "update-IfcMeasureResource",
-                                                                extg: obj.IfcMeasureResource,
-                                                                source: {
-                                                                    key: itemKey,
-                                                                    pset: psetName,
-                                                                    propName: obj.propertyName,
-                                                                },
-                                                                prop: obj,
-                                                            };
-                                                            updateModal.show();
-                                                        }}>
-                                                        <Icon icon="ic:baseline-edit" width={14} />
-                                                    </button>
+                                                    {#if permission.edit}
+                                                        <button
+                                                            class:hide={!isEditor}
+                                                            class="none icon"
+                                                            on:click={(e) => {
+                                                                updateData = {
+                                                                    code: "update-IfcMeasureResource",
+                                                                    extg: obj.IfcMeasureResource,
+                                                                    source: {
+                                                                        key: itemKey,
+                                                                        pset: psetName,
+                                                                        propName: obj.propertyName,
+                                                                    },
+                                                                    prop: obj,
+                                                                };
+                                                                updateModal.show();
+                                                            }}>
+                                                            <Icon icon="ic:baseline-edit" width={14} />
+                                                        </button>
+                                                    {/if}
                                                 </div></td>
                                             <td>
                                                 <div class="tblPset__enums">
@@ -332,35 +310,37 @@ function ifIsInBeta(type) {
                                                             -
                                                         {/if}
                                                     </div>
-                                                    <button
-                                                        class="none icon"
-                                                        class:hide={!isEditor}
-                                                        on:click={(e) => {
-                                                            const prop = {
-                                                                id: obj.id,
-                                                                PropertyName: obj.propertyName,
-                                                                ParentKey: `${entity}:${predefinedType}:${objectType}`,
-                                                                DataType: obj.dataType,
-                                                                Entity: entity,
-                                                                Enums: obj.Enums || [],
-                                                                IfcMeasureResource: obj.IfcMeasureResource,
-                                                            };
+                                                    {#if permission.edit}
+                                                        <button
+                                                            class="none icon"
+                                                            class:hide={!isEditor}
+                                                            on:click={(e) => {
+                                                                const prop = {
+                                                                    id: obj.id,
+                                                                    PropertyName: obj.propertyName,
+                                                                    ParentKey: `${entity}:${predefinedType}:${objectType}`,
+                                                                    DataType: obj.dataType,
+                                                                    Entity: entity,
+                                                                    Enums: obj.Enums || [],
+                                                                    IfcMeasureResource: obj.IfcMeasureResource,
+                                                                };
 
-                                                            updateData = {
-                                                                code: "update-enums",
-                                                                extg: obj.Enums || [],
-                                                                source: {
-                                                                    key: itemKey,
-                                                                    pset: psetName,
-                                                                    propName: obj.propertyName,
-                                                                },
-                                                                prop,
-                                                            };
+                                                                updateData = {
+                                                                    code: "update-enums",
+                                                                    extg: obj.Enums || [],
+                                                                    source: {
+                                                                        key: itemKey,
+                                                                        pset: psetName,
+                                                                        propName: obj.propertyName,
+                                                                    },
+                                                                    prop,
+                                                                };
 
-                                                            updateModal.show();
-                                                        }}>
-                                                        <Icon icon="ic:baseline-edit" width={14} />
-                                                    </button>
+                                                                updateModal.show();
+                                                            }}>
+                                                            <Icon icon="ic:baseline-edit" width={14} />
+                                                        </button>
+                                                    {/if}
                                                 </div>
                                             </td>
                                             <td>
@@ -375,36 +355,38 @@ function ifIsInBeta(type) {
                                                             -
                                                         {/if}
                                                     </span>
-                                                    <button
-                                                        class="none icon"
-                                                        class:hide={!isEditor}
-                                                        on:click={(e) => {
-                                                            const prop = {
-                                                                id: obj.id,
-                                                                PropertyName: obj.propertyName,
-                                                                ParentKey: `${entity}:${predefinedType}:${objectType}`,
-                                                                DataType: obj.dataType,
-                                                                PropertySet: psetName,
-                                                                Entity: entity,
-                                                                IfcMeasureResource: obj.IfcMeasureResource,
-                                                                Description: obj.Description,
-                                                            };
+                                                    {#if permission.edit}
+                                                        <button
+                                                            class="none icon"
+                                                            class:hide={!isEditor}
+                                                            on:click={(e) => {
+                                                                const prop = {
+                                                                    id: obj.id,
+                                                                    PropertyName: obj.propertyName,
+                                                                    ParentKey: `${entity}:${predefinedType}:${objectType}`,
+                                                                    DataType: obj.dataType,
+                                                                    PropertySet: psetName,
+                                                                    Entity: entity,
+                                                                    IfcMeasureResource: obj.IfcMeasureResource,
+                                                                    Description: obj.Description,
+                                                                };
 
-                                                            updateData = {
-                                                                code: "update-description",
-                                                                extg: obj.Description,
-                                                                source: {
-                                                                    key: itemKey,
-                                                                    pset: psetName,
-                                                                    propName: obj.propertyName,
-                                                                },
-                                                                prop,
-                                                            };
+                                                                updateData = {
+                                                                    code: "update-description",
+                                                                    extg: obj.Description,
+                                                                    source: {
+                                                                        key: itemKey,
+                                                                        pset: psetName,
+                                                                        propName: obj.propertyName,
+                                                                    },
+                                                                    prop,
+                                                                };
 
-                                                            updateModal.show();
-                                                        }}>
-                                                        <Icon icon="ic:baseline-edit" width={14} />
-                                                    </button>
+                                                                updateModal.show();
+                                                            }}>
+                                                            <Icon icon="ic:baseline-edit" width={14} />
+                                                        </button>
+                                                    {/if}
                                                 </div>
                                             </td>
                                         </tr>

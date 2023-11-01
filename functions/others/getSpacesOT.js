@@ -18,7 +18,9 @@ async function main() {
             occupancyType: row[0],
             ref: row[1],
             pg: row[2],
-            pg_def: row[3]
+            pg_def: row[3],
+            bca_acc_code: row[5],
+            bca_acc_def: row[6],
         })
 
     }
@@ -32,13 +34,16 @@ async function main() {
     for (const [index, row] of spaceName.entries()) {
         if (index == 0) continue;
 
+
         spaceNameData.push({
             category: row[0],
             spaceName: row[1],
             occupancyType: row[2],
             remarks: row[4],
             functionalSpace: row[5],
-            occupancyLoad: row[6]
+            occupancyLoad: row[6],
+            SCDF_remarks: row[8],
+            BCA_notForPublic: row[9]
         })
 
     }
@@ -47,3 +52,4 @@ async function main() {
 }
 
 main()
+console.log('end');

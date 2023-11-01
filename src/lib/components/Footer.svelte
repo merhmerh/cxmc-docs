@@ -17,11 +17,10 @@ const managerRoles = ["manager", "admin", "owner"];
             </a>
         {/if}
 
-        <a class="github" href="https://github.com/merhmerh/cxmc-docs">
+        <a class="github" target="_blank" href="https://github.com/merhmerh/cxmc-docs">
             <div class="icon">
                 <Icon icon="mdi:github" height="20" />
             </div>
-            <div>merhmerh</div>
         </a>
     </div>
 </footer>

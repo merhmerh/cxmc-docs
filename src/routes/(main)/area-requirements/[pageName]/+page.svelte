@@ -50,7 +50,7 @@ import { Tooltip } from "merh-forge-ui";
                                 Refer to <a href="/area-requirements/area_gfa/agf-name?q=residential-(none-landed)"
                                     >AGF_Name</a> Page.
                             {/if}
-                            {#if table.data.length > 1}
+                            {#if table.data.length}
                                 {#each table.data as value}
                                     {#if value.includes("*")}
                                         {value.replace("*", "")}
@@ -77,8 +77,6 @@ import { Tooltip } from "merh-forge-ui";
                                         </Tooltip>
                                     {/if}
                                 {/each}
-                            {:else}
-                                {table.data[0] || ""}
                             {/if}
                         </div>
                     </td>

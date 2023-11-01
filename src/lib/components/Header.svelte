@@ -7,6 +7,9 @@ import { isMobile } from "$comp/device.store";
 import { Switch } from "merh-forge-ui";
 import { fly } from "svelte/transition";
 import { beta } from "$routes/main.store";
+import { getPermission } from "$comp/supabase.store";
+
+const { role } = getPermission();
 
 let showMobileNav;
 </script>
@@ -33,7 +36,13 @@ let showMobileNav;
             <img src="/logo.svg" alt="" />
             <span>IFC-SG Docs</span>
         </a>
-        <Switch bind:isChecked={$beta}><strong>Beta</strong></Switch>
+        {#if role !== "beta"}
+            <Switch
+                bind:isChecked={$beta}
+                on:toggle={() => {
+                    $beta = !$beta;
+                }}><strong>Beta</strong></Switch>
+        {/if}
     </div>
 
     <div class="center" />

@@ -1,0 +1,7340 @@
+[
+  [
+    "!Agricultural",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "!Airwell",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "!Ancillary Facilities",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "!Ancillary Office",
+    "",
+    "!Agriculture",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "!Animal Shelter",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "!Bin Centre",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "!Bin Point",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Columbarium",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Common Area ",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Common area serving two or more uses*",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "!Agriculture",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Corridor (Common) ",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Courtyard - Agricultural and Others",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Crematorium",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Farms _ Ancillary _ Visitor Centre",
+    "",
+    "!Agriculture",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Farms _ Ancillary _Farm-Stay",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Farms_ Predominant",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Funeral Parlour",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift (Common)- Agricultural and Others",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Lobby (Common) - Agricultural and Others",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Lobby (Common) in Carpark Floor - Agricultural and Others",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "",
+    "!Agriculture",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Others ",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Pedestrian Mall - Agricultural and Others",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Pet Crematorium",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Plant Nursery",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Planter Box  ",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Quarantine Facilities",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Research Facilities",
+    "",
+    "!Agriculture",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Service Duct",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Substation ",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Swimming Pool (Covered)",
+    "",
+    "!Agriculture",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Workers' Quarters",
+    "",
+    "!Agriculture",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "!Beach Area",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "!Beach Area",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "!Beach Area",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "",
+    "",
+    "!Beach Area",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Business 1",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Business 1",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cloud Kitchen",
+    "0",
+    "Business 1",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Core Media",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Data centres/ Server areas/ IT equipment",
+    "0",
+    "Business 1",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "E-Business",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Business 1",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Business 1",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Industrial Canteen",
+    "0",
+    "Business 1",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Industrial Training Room",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area/ Food Stall",
+    "0",
+    "Business 1",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Business 1",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Media/ Audio Visual/ Filming/ Streaming",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Meeting Room",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Office",
+    "0",
+    "Business 1",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "On-Site Food Waste Treatment Area",
+    "0",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Others",
+    "0",
+    "Business 1",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Printing / Publishing",
+    "0",
+    "Business 1",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Business 1",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Substation",
+    "0",
+    "Business 1",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Business 1",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Business 1",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Warehouse/ Storage / Staging",
+    "0",
+    "Business 1",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Workshop/ Manufacturing / Production/ Processing/ Yard",
+    "0",
+    "Business 1",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Assembly",
+    "0",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Business 2",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cloud Kitchen",
+    "0",
+    "Business 2",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Core Media",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Data centres/ Server areas/ IT equipment",
+    "0",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "E-Business",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Business 2",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Business 2",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Industrial Canteen",
+    "0",
+    "Business 2",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Industrial Training Room",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area/ Food Stall",
+    "0",
+    "Business 2",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Business 2",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Media/ Audio Visual/ Filming/ Streaming",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Meeting Room",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Office",
+    "0",
+    "Business 2",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "On-Site Food Waste Treatment Area",
+    "0",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Others",
+    "0",
+    "Business 2",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Printing / Publishing",
+    "0",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Repair / Servicing",
+    "0",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Substation",
+    "0",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Business 2",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Business 2",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Warehouse/ Storage / Staging",
+    "0",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Workshop/ Manufacturing / Production/ Processing/ Yard",
+    "0",
+    "Business 2",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Business Park",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Central Distribution Centre",
+    "0",
+    "Business Park",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Cloud Kitchen",
+    "0",
+    "Business Park",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Core media ",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Data centres/ Server areas/ IT equipment",
+    "0",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Data processing",
+    "0",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "E-Business",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Business Park",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Business Park",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Industrial Canteen",
+    "0",
+    "Business Park",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Industrial Training Room",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area/ Food Stall",
+    "0",
+    "Business Park",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Business Park",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Manufacturing (High Tech)",
+    "0",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Office",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "On-Site Food Waste Treatment Area",
+    "0",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Others",
+    "0",
+    "Business Park",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Area",
+    "1",
+    "Business Park",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Kiosk",
+    "1",
+    "Business Park",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Product Design / Development",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Research / Research & Development",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Stage",
+    "1",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Substation",
+    "0",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Business Park",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Test Laboratory",
+    "0",
+    "Business Park",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Business Park",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Warehouse/ Storage / Staging",
+    "0",
+    "Business Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Workrooms/ Meeting Area/ Collaboration",
+    "0",
+    "Business Park",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Agricultural",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Ancillary Facilities",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Ancillary Office",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Point",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Columbarium",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Common Area",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Common area serving two or more uses*",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Corridor (Common)",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Courtyard",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Crematorium",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Farms _ Ancillary _ Visitor Centre",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Farms _ Ancillary _Farm-Stay",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Farms_ Predominant",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Funeral Parlour",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift (Common)",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Lobby (Common)",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Lobby (Common) in Carpark Floor",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Motor Room",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Others",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Pedestrian Mall ",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Plant Nursery",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Planter Box",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Service Duct",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Substation",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Swimming Pool (Covered)",
+    "",
+    "!Cemetery",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Workers' Dormitory",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Columbarium",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Embalming Facilities",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Funeral-related Uses",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Arts Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Association",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Civic & Community Institution ",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Boys' / Girls' Home",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Bunk/ Resting",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Child Care Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Classroom",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Community/ Social Uses ",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Court/ Pitch/ Field",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtroom",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cultural Centre / Heritage Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Educational / Training Institutions",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Elderly Day-Care Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Embassy / Consulate / High Commision",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Civic & Community Institution ",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Evidence Room",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Examination Room",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Exhibit Area",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Façade Articulation",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Family Service Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Function Room",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Funeral Parlour",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Government Building / Office",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Civic & Community Institution ",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Holding Area/ Cell",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Inmate Dayrooms",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Interview Room",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Judge Chambers",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Civic & Community Institution ",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Library",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Meditation Space",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Meeting Room",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Museum",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Office",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Others",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Area",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Kiosk",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Performance/ Theatre/ Auditorium",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Secure Visiting Room",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Security /Control",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Social Services Facilities",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Stage",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Student Care Centre",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Substation",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Civic & Community Institution ",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Welfare Home",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Workers' Dormitory",
+    "0",
+    "Civic & Community Institution ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Amusement Centre",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Auto Accessories/Tyre & Battery Shop",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Commercial",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bank",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Bar/Pub",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Beauty Salon",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Betting Centre",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Polishing & Waxing",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Cinema",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Coffin Shop",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Commercial School",
+    "0",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Convention Centre / Exhibition",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Court/ Pitch/ Field",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Commercial",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "0",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Façade Articulation",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Foot Reflexology",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Function Room",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Commercial",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gym/Fitness Centre",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Hawker/Food Centre/Canteen",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Karaoke Lounge",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Kiosk (Retail)",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area/ Food Stall",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Laundromat",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Commercial",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Market",
+    "0",
+    "Commercial",
+    "",
+    "Supermarket / market/department store",
+    "1"
+  ],
+  [
+    "Massage Establishment",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Medical Clinic",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Medical Clinic/ Suites",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Meditation Centre",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Meeting Room",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Minimart",
+    "0",
+    "Commercial",
+    "",
+    "Supermarket / market/department store",
+    "1"
+  ],
+  [
+    "Nightclub",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Office",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "On-Site Food Waste Treatment Area",
+    "0",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Others",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Area",
+    "1",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Kiosk",
+    "1",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Pet Boarding/Pet Day Care",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Pet Shop/Pet Grooming",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Petrol Station",
+    "0",
+    "Commercial",
+    "",
+    "",
+    "300"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Private Commercial Foreign System School",
+    "0",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Restaurant",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Restaurant and bar",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Restaurant and bar with live entertainment",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Restaurant with live entertainment",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Shop",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Showroom",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Stage",
+    "1",
+    "Commercial",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Substation",
+    "0",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Supermarket",
+    "0",
+    "Commercial",
+    "",
+    "Supermarket / market/department store",
+    "1"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Commercial",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Takeaway Food Shop",
+    "0",
+    "Commercial",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Traditional Chinese Medicine",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Vet Clinic/ Animal Hospital",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Visitor Centre",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Wholesale and Distribution Centre",
+    "0",
+    "Commercial",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Work Booth",
+    "0",
+    "Commercial",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Religious Facilities",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Students' Hostel",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Educational Institution",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Classroom",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Computer room",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Court/ Pitch/ Field",
+    "0",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Educational Institution",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Façade Articulation",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Educational Institution",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Home Economics/ Cooking",
+    "0",
+    "Educational Institution",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Kindergarten",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Laboratory",
+    "0",
+    "Educational Institution",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Lecture Theatre",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Leisure Room",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Educational Institution",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Multipurpose Hall/ Sports Hall",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Music room",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Others",
+    "0",
+    "Educational Institution",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "School Canteen",
+    "0",
+    "Educational Institution",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "School Gym",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "School Library",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Special Needs",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Stage",
+    "1",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Studio",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Study Area",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Substation",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Educational Institution",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Teachers / Staff room",
+    "0",
+    "Educational Institution",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Educational Institution",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Workshop",
+    "0",
+    "Educational Institution",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Health & Medical Care",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Consulting rooms",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Health & Medical Care",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Façade Articulation",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "First aid rooms",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Foyer/ Lobby",
+    "0",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0.1"
+  ],
+  [
+    "Function Room",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Health & Medical Care",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Hospice",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Intensive care units",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Isolation units",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Health & Medical Care",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lounge",
+    "0",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "1"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Medical Clinic/ Suites",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Medical scanning and x-ray rooms",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Medical treatment rooms",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Meeting Room",
+    "",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Nursing Home",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Occupational therapy rooms",
+    "",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Office",
+    "",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Operating theatres",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Others",
+    "",
+    "Health & Medical Care",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Area",
+    "",
+    "Health & Medical Care",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Kiosk",
+    "",
+    "Health & Medical Care",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pharmacy",
+    "",
+    "Health & Medical Care",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Phototherapy",
+    "",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Physiotherapy",
+    "",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Rehabilitation rooms",
+    "",
+    "Health & Medical Care",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Staff Quarters",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.15"
+  ],
+  [
+    "Stage",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Substation",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "",
+    "Health & Medical Care",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "",
+    "Health & Medical Care",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Wards",
+    "",
+    "Health & Medical Care",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Audio Visual Room",
+    "",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Back of House",
+    "",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Backpackers' Hostel",
+    "",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Hotel",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Banquet Hall/ Ballroom",
+    "",
+    "Hotel",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Clubhouse",
+    "",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Conserved Bungalow",
+    "1",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Hotel",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Façade Articulation",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Foyer/ Lobby",
+    "",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Function Room",
+    "",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Hotel",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Guest Room/ Hotel Room",
+    "",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Gym/Fitness Centre (for Hotel guests only)",
+    "",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Kitchen/ Food Preparation area",
+    "",
+    "Hotel",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Hotel",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lounge",
+    "",
+    "Hotel",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Meeting/ Board/ Conference Room",
+    "",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Others",
+    "",
+    "Hotel",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Area",
+    "1",
+    "Hotel",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Kiosk",
+    "1",
+    "Hotel",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Reflexology/ Massage (for Hotel guests only)",
+    "",
+    "Hotel",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Staff Quarters",
+    "",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Stage",
+    "1",
+    "Hotel",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Substation",
+    "",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Hotel",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Hotel",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Agricultural",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Ancillary Facilities",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Ancillary Office",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Point",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Columbarium",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Common Area -Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Common area serving two or more uses*",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Corridor (Common) - Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Courtyard - Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Crematorium",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Farms _ Ancillary _ Visitor Centre",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Farms _ Ancillary _Farm-Stay",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Farms_ Predominant",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Funeral Parlour",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift (Common)- Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Lobby (Common) - Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Lobby (Common) in Carpark Floor - Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Motor Room",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Others ",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Pedestrian Mall - Agricultural and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Plant Nursery",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Planter Box - Agricultural, Open Space and Others",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Service Duct",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Substation ",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Swimming Pool (Covered)",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "",
+    "",
+    "!Open Space",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "!Park",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Point",
+    "",
+    "!Park",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "!Park",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "",
+    "",
+    "!Park",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Place of Worship ",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Chapel",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Columbarium",
+    "",
+    "Place of Worship ",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cultural",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Place of Worship ",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Function Room",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Place of Worship ",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Kitchen/ Pantry/ Food Preparation area",
+    "",
+    "Place of Worship ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Place of Worship ",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Library",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Meditation Space",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Meeting Room",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Non-religious Use",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Office",
+    "",
+    "Place of Worship ",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Others",
+    "",
+    "Place of Worship ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Praying Area",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Quarters",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Religious School",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Religious Teachings",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Religious Use",
+    "",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Shrine",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Stage",
+    "1",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Substation",
+    "",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Place of Worship ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Theatre/ Auditorium",
+    "",
+    "Place of Worship ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Place of Worship ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Activity Space",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell  ",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Point",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bus Depot/Station/Interchange/Terminal",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Business Park _ Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Business Park_ Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Business Park_White Uses((Food Court)",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Business Park_White Uses((Restaurant)",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Business Park_White Uses((Shops)",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Business Park_White Uses(Childcare)",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Canteen",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Car/Lorry/Bus Parking",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Carpark",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Clean Industry _ Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Clean Industry_ Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Common Area ",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Common area serving two or more uses*",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "!Port/Airport",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Corridor (Common)",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Courtyard",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Food Catering Service",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "General Industry (Multi-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "General Industry (Multi-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "General Industry (Single-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "General Industry (Single-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Landscape and Open Space ",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift (Common) - Industry and Warehouse",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Lobby (Common) - Industry and Warehouse",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Lobby (Common) in Carpark Floor - Industry and Warehouse",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Motor Room",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Light Industry (Multi-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Light Industry (Multi-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Light Industry (Single-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Light Industry (Single-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "",
+    "!Port/Airport",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "LRT Station & Related Use",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "MRT Station & Related Use",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Others",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Pedestrian Mall",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Planter Box ",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Port/Airport",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Power Station & Related Use",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Railway Station & Related Use",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Service Duct",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Special Industry (Multi-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Special Industry (Multi-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Special Industry (Single-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Special Industry (Single-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Substation",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Telecommunication",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Utility",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse (Multi-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse (Multi-User) _Ancillary Retail",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse (Multi-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse (Single-User) _Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse (Single-User) _Ancillary Retail",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse (Single-User) _Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse_ Ancillary",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse_ Ancillary Retail",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Warehouse_ Predominant",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Water Treatment Works & Related Use",
+    "",
+    "!Port/Airport",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Rapid Transit",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cleaning Area",
+    "",
+    "Rapid Transit",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "Rapid Transit",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Rapid Transit",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "",
+    "Rapid Transit",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Inspection",
+    "",
+    "Rapid Transit",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Rapid Transit",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Office",
+    "",
+    "Rapid Transit",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Others",
+    "",
+    "Rapid Transit",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Platform Area",
+    "",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Rapid Transit",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Station Control",
+    "",
+    "Rapid Transit",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Substation",
+    "",
+    "Rapid Transit",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Rapid Transit",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "",
+    "",
+    "!Reserve Site ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Residential (Landed) ",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bathroom",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bedroom",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Bomb Shelter ",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Car Porch/Garage",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Dining Room",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Family area",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Household Shelter",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Kitchen",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Living Room",
+    "0",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Meter Compartment",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Private Enclosed Space",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Residential (Landed) ",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Residential (Non-landed)",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Car Parking Lot (Mechanised)",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Clubhouse",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Conserved Bungalow",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Control Room/ Centre",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Dwelling Unit (Nett)",
+    "1",
+    "Residential (Non-landed)",
+    "Voids, Balconies, AC ledges and other external areas are to be excluded from verging.",
+    "",
+    "#N/A",
+    "No. of DU * 20"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Residential (Non-landed)",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Foyer/ Lobby",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Residential (Non-landed)",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Household Shelter",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Indoor Recreation Space",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Residential (Non-landed)",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Others",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Private Enclosed Space",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Serviced Apartment (Nett)",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "",
+    "#N/A",
+    "No. of DU * 20"
+  ],
+  [
+    "Students' Hostel",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Substation",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Tennis Court",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Residential (Non-landed)",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Visitors' Hostel",
+    "0",
+    "Residential (Non-landed)",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "",
+    "",
+    "!Road",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Special Use",
+    "",
+    "!Special Use",
+    "",
+    "",
+    "#N/A"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Audio Visual Room",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Back of House",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Balcony",
+    "1",
+    "Sports & Recreation ",
+    "Blinds and screens of retractable nature are not to be modelled. Instead, they are to be submitted as supplementary drawings. The extent of a Balcony is to begin from the external surface of the wall, and to terminate at the centre of vertical structure.\n(i.e. centre of Top handrail, centre of parapet wall's top surface)",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Chalet / Bungalow",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Clubhouse",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Court/ Pitch/ Field",
+    "",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Dressroom",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Sports & Recreation ",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment/ Storage",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Exhibition Room",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Function Room",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Guardhouse / Sentry Post",
+    "1",
+    "Sports & Recreation ",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Gym/Fitness Centre",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Sports & Recreation ",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lounge",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Services (non-load bearing covering above)",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Meeting Room",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Multipurpose Hall/ Sports Hall",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Office",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Others",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Area",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Outdoor Refreshment Kiosk",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pavilion",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Recreational Club",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Supermarket / market/department store",
+    "1"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Security / Control",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Stage",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Studio",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Substation",
+    "",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Swimming Pool",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Theatre/ Auditorium",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Theme Park",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Sports & Recreation ",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Viewing Gallery",
+    "",
+    "Sports & Recreation ",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Transport Facilities",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cleaning Area",
+    "",
+    "Transport Facilities",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "Transport Facilities",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Depot",
+    "",
+    "Transport Facilities",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Transport Facilities",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Equipment Storage",
+    "",
+    "Transport Facilities",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Fuelling Space",
+    "",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Transport Facilities",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Office",
+    "",
+    "Transport Facilities",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Others",
+    "",
+    "Transport Facilities",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Repair Yard",
+    "",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Servicing and Testing",
+    "",
+    "Transport Facilities",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Standing space (Vehicular)",
+    "",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Substation",
+    "",
+    "Transport Facilities",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Transport Facilities",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Airwell",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "ATM Kiosk",
+    "1",
+    "Utility",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Bicycle Parking Space",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Centre",
+    "",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Bin Point",
+    "",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Cable Chamber",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Control Room/ Centre",
+    "",
+    "Utility",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Courtyard",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Covered Walkway / Linkages",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Driveways",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "End of Trip Facilities",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Entrance Canopy",
+    "1",
+    "Utility",
+    "Smallest Entrance Canopy will be excluded from GFA.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Gondola and working platform",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Letter Box Area",
+    "1",
+    "Utility",
+    "Unique level will have to be created if the elevation differs from intended level.",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Area",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Lift Motor Room",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Loading and Unloading Bay",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Floor",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Room (enclosed)",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "M&E Space (unenclosed)",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Office",
+    "",
+    "Utility",
+    "",
+    "Office",
+    "0.15"
+  ],
+  [
+    "Others",
+    "",
+    "Utility",
+    "",
+    "Restaurant / eating house/food centre / canteen",
+    "2"
+  ],
+  [
+    "Pick-up/ Drop-off Point",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Privately Owned Public Space",
+    "1",
+    "Utility",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Receiving/ Transmitting",
+    "",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Refuse Chamber",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Residual Area (Carpark Floor)",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Roof Terrace/Garden",
+    "1",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Substation",
+    "",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ],
+  [
+    "Treatment Area",
+    "",
+    "Utility",
+    "",
+    "Hotel / dormitory",
+    "0.1"
+  ],
+  [
+    "Vending Machine Kiosk",
+    "1",
+    "Utility",
+    "",
+    "Shop / trade premises",
+    "0.3"
+  ],
+  [
+    "Voltage/ Transformer",
+    "",
+    "Utility",
+    "",
+    "N.A",
+    "0"
+  ]
+]

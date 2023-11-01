@@ -1,4 +1,4 @@
-import ot from './table_content.json'
+import ot from './occupancyType.json'
 
 export function load() {
 

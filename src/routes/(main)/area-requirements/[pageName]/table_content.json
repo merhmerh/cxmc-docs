@@ -67,7 +67,7 @@
   {
     "scheme": "AGF_Note",
     "data": [
-      "* accompanying notes for QP to elaborate on use and purpose of spaces. If \"Others\" have been entered under AGF_Name, to fill in actual use of the area/space"
+      "*accompanying notes for QP to elaborate on use and purpose of spaces. If \"Others\" have been entered under AGF_Name, to fill in actual use of the area/space"
     ]
   },
   {
@@ -88,12 +88,12 @@
   {
     "scheme": "AGF_UnitNumber",
     "data": [
-      "B3-01a",
-      "B2M-120D",
-      "B1M-05A",
-      "01-03A",
-      "01-03b",
-      "10-04ab"
+      "{{B3-01a}}",
+      "{{B2M-120D}}",
+      "{{B1M-05A}}",
+      "{{01-03A}}",
+      "{{01-03b}}",
+      "{{10-04c}}"
     ]
   },
   {
@@ -153,7 +153,7 @@
   {
     "scheme": "ACN_PavingSpecification",
     "data": [
-      "<UDAREA>PavingSpecification*",
+      "{{<UDAREA>PavingSpecification}}",
       "*Provide a link to a specification document for each UD area"
     ]
   },
@@ -167,14 +167,14 @@
   {
     "scheme": "ACN_OpenTime",
     "data": [
-      "hh:mm:ss*",
+      "{{hh:mm:ss}}",
       " *similar implementation for IfcTime"
     ]
   },
   {
     "scheme": "ACN_CloseTime",
     "data": [
-      "hh:mm:ss*",
+      "{{hh:mm:ss}}",
       " *similar implementation for IfcTime"
     ]
   },
@@ -191,26 +191,26 @@
   {
     "scheme": "AST_AssociatedTo",
     "data": [
-      "MK03-U017049L",
+      "{{MK03-U017049L}}",
       "*note: only applicable to AccessoryLot"
     ]
   },
   {
     "scheme": "AST_LegalArea",
     "data": [
-      "96"
+      "{{96}}"
     ]
   },
   {
     "scheme": "AST_Prop_StrataLotNumber",
     "data": [
-      "MK03-U017049L"
+      "{{MK03-U017049L}}"
     ]
   },
   {
     "scheme": "AST_Extg_StrataLotNumber",
     "data": [
-      "MK02-U017646Z"
+      "{{MK02-U017646Z}}"
     ]
   },
   {
@@ -277,13 +277,13 @@
   {
     "scheme": "AVF_Name",
     "data": [
-      "Work in Progress"
+      "*Work in Progress"
     ]
   },
   {
     "scheme": "AVF_Note",
     "data": [
-      "* accompanying notes for QP to elaborate on use and purpose of spaces. If \"Others\" have been entered under AVF_Name, to fill in actual use of the area/space"
+      "*accompanying notes for QP to elaborate on use and purpose of spaces. If \"Others\" have been entered under AVF_Name, to fill in actual use of the area/space"
     ]
   },
   {

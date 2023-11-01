@@ -23,7 +23,8 @@ function filter() {
 
         const regex = new RegExp(searchString.trim(), "i");
         for (const item of ot) {
-            if (item.occupancyType.match(regex)) {
+            const ref = item.ref || "";
+            if (item.occupancyType.match(regex) || ref.match(regex)) {
                 result.push(item);
                 continue;
             }
@@ -53,12 +54,7 @@ function resetFilter() {
             <div class="icon">
                 <Icon icon="akar-icons:search" hFlip={true} height="18" />
             </div>
-            <input
-                bind:this={searchbar}
-                on:input={filter}
-                class="search"
-                type="search"
-                placeholder="Search by OccupancyType" />
+            <input bind:this={searchbar} on:input={filter} class="search" type="search" placeholder="Search" />
             <div class="kbs">
                 <code>Ctrl</code>
                 <code>E</code>
@@ -71,9 +67,9 @@ function resetFilter() {
             <thead>
                 <tr>
                     <th><div>Occupancy Type</div></th>
-                    <th><div>Building Types</div></th>
-                    <th><div class="center">Purpose Group</div></th>
-                    <th><div>Purpose Group Definition</div></th>
+                    <th><div>Building Types (example)</div></th>
+                    <th><div>SCDF Purpose Group</div></th>
+                    <th><div>BCA accessibility code</div></th>
                 </tr>
             </thead>
 
@@ -96,8 +92,8 @@ function resetFilter() {
                             </div>
                         </td>
                         <td><div>{item.ref || ""}</div></td>
-                        <td><div class="center">{item.pg}</div></td>
-                        <td><div>{item.pg_def}</div></td>
+                        <td><div>{item.pg} - {item.pg_def}</div></td>
+                        <td><div>{item.bca_acc_code} - {item.bca_acc_def}</div></td>
                     </tr>
                 {/each}
             </tbody>
@@ -173,11 +169,12 @@ h1 {
                 }
             }
             td:nth-child(2) {
-                width: 400px;
+                width: 300px;
             }
             td:nth-child(3) {
-                width: 120px;
+                width: 200px;
             }
+
             td:nth-child(4) {
                 width: 200px;
             }

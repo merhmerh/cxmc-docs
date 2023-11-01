@@ -17,8 +17,13 @@
       {
         "type": "images",
         "content": [
-          "https://drive.google.com/uc?export=view&id=1uJlZa4tXTJUV5NgZq73hkiH_vt3GtVMf",
-          "https://drive.google.com/uc?export=view&id=1uK-dU3LsJqtVUJK_lXaP4DkmNuVgUImT"
+          "https://drive.google.com/uc?export=view&id=1Yz6GURSXjgJ9Jy02SyoGx1Ya_kW3iT8J"
+        ]
+      },
+      {
+        "type": "images",
+        "content": [
+          "https://drive.google.com/uc?export=view&id=1E2Ina1sII6J9whO_Ju0UVB7sgeIC1VBs"
         ]
       }
     ]
@@ -68,7 +73,7 @@
       },
       {
         "type": "paragraph",
-        "content": "This layer is primarily for the verging of landscape related areas.\nIt allows types of landscaping (such as shrubs or footpaths) to be organised within greenery features, such as Sky Terraces or Communal Ground Gardens."
+        "content": "This layer is primarily for the verging of landscape related areas.\nIt allows types of landscaping (such as shrubs or footpaths) to be organised within greenery features, such as Sky Terraces or Communal Ground Gardens.\n\nOnly properties with a prefix “ALS” are relevant to this layer."
       }
     ]
   },
@@ -81,7 +86,7 @@
       },
       {
         "type": "paragraph",
-        "content": "This layer is primarily for the verging of connectivity related areas.\nIt facilitates the checking of pedestrian/cyclist access around and within the development. It also helps to trigger checks for public spaces, such as Privately-Owned Public Spaces (POPS) which is registered as “PublicSpaceNode” under ACN_ConnectivityType."
+        "content": "This layer is primarily for the verging of connectivity related areas.\nIt facilitates the checking of pedestrian/cyclist access around and within the development. It also helps to trigger checks for public spaces, such as Privately-Owned Public Spaces (POPS) which is registered as “PublicSpaceNode” under ACN_ConnectivityType.\n\nOnly properties with a prefix “ACN” are relevant to this layer."
       }
     ]
   },
@@ -95,6 +100,16 @@
       {
         "type": "paragraph",
         "content": "This layer is primarily for the verging of strata related areas.\nA property key to this layer is AST_AreaType, as it helps to inform whether a space is intended to be private strata or common area. This information is then fed into checks such as Planter Boxes and GFA computation, among many others."
+      },
+      {
+        "type": "images",
+        "content": [
+          "https://drive.google.com/uc?export=view&id=1vT-uyoeFgR0bSm-3r9-LiL8HCq5HVqfr"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Only properties with a prefix “AST” are relevant to this layer."
       }
     ]
   },
@@ -107,7 +122,7 @@
       },
       {
         "type": "paragraph",
-        "content": "This layer is intended for the manual verification of computationally-derived AREA_GFA areas, and will be retired after the Model Checker matures as a solution.\nFor example, Planter Boxes and Staircases are modelled as Building Objects. Without requiring the corresponding areas of these objects to be modelled, the Model Checker has algorithms to compute their resultant GFA. In order to verify the accuracy of these algorithms, this verification layer is necessary. (We promise that it will only be around for the first few years.)"
+        "content": "This layer is intended for the manual verification of computationally-derived AREA_GFA areas, and will be retired after the Model Checker matures as a solution.\nFor example, Planter Boxes and Staircases are modelled as Building Objects. Without requiring the corresponding areas of these objects to be modelled, the Model Checker has algorithms to compute their resultant GFA. In order to verify the accuracy of these algorithms, this verification layer is necessary. (We promise that it will only be around for the first few years.)\n\nOnly properties with a prefix “AVF” are relevant to this layer."
       }
     ]
   }

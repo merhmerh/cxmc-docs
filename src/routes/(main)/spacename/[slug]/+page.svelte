@@ -126,9 +126,12 @@ function resetFilter() {
                 <th class="OccupancyType"><div>OccupancyType</div></th>
                 <th class="Remarks"><div>Remarks</div></th>
                 <th class="FunctionalSpace"><div>FunctionalSpace</div></th>
+
                 {#if !$beta}
                     <th class="OccupancyLoad"><div>OccupancyLoad</div></th>
                 {/if}
+                <th class="scdfRemarks"><div>SCDF remarks</div></th>
+                <th class="bcaRemarks"><div>BCA - spaces not for public access</div></th>
             </tr>
         </thead>
 
@@ -165,11 +168,14 @@ function resetFilter() {
                             {/if}
                         </div>
                     </td>
-                    <td><div>{space.remarks || "–"}</div></td>
+                    <td><div>{space.remarks || ""}</div></td>
                     <td class="FunctionalSpace"><div>{space.functionalSpace}</div></td>
                     {#if !$beta}
                         <td class="OccupancyLoad"><div>{space.occupancyLoad}</div></td>
                     {/if}
+
+                    <td class="scdf_remarks"><div>{space.SCDF_remarks || ""}</div></td>
+                    <td class="bca_remarks"><div class="center">{space.BCA_notForPublic || ""}</div></td>
                 </tr>
             {/each}
         </tbody>
@@ -180,6 +186,7 @@ function resetFilter() {
 table {
     width: 100%;
     font-size: 0.875rem;
+    min-width: 1200px;
     tr {
         th {
             &.spaceName {
@@ -232,15 +239,25 @@ table {
             }
 
             &.FunctionalSpace {
-                width: 200px;
                 div {
-                    width: calc(200px - 3px);
+                    // width: calc(200px - 3px);
                 }
             }
             &.OccupancyLoad {
                 div {
                     display: block;
                     text-align: center;
+                }
+            }
+            &.scdf_remarks {
+                div {
+                    width: auto;
+                    min-width: 200px;
+                }
+            }
+            &.bca_remarks {
+                div {
+                    width: 120px;
                 }
             }
         }

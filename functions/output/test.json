@@ -1,45 +1,899 @@
 [
   {
-    "code": "Approved Document - Acceptable Solutions",
-    "agency": "BCA",
-    "chapters": [
-      {
-        "chapterName": "Headroom and Ceiling Height: Ceiling Height",
-        "clauseNumbers": [
-          {
-            "clauseNumber": "C.3.3.1",
-            "clauses": [
-              "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
-              "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-            ]
-          },
-          {
-            "clauseNumber": "C.3.3 Note",
-            "clauses": [
-              "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-            ]
-          }
-        ]
-      }
-    ]
+    "key": "IfcBeam:BEAM:null",
+    "identifiedComponent": "Beam",
+    "entity": "IfcBeam",
+    "predefinedType": "BEAM",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "BEAM",
+    "beta": true
   },
   {
-    "code": "Gross Floor Area Handbook",
-    "agency": "URA",
-    "chapters": [
-      {
-        "chapterName": "6",
-        "clauseNumbers": [
-          {
-            "clauseNumber": "",
-            "clauses": [
-              "Metal Ceiling Grids within Indoor Performance Venue",
-              "Lift Motor Room",
-              "Lift Shaft"
-            ]
-          }
-        ]
-      }
-    ]
+    "key": "IfcBuilding:null:null",
+    "identifiedComponent": "Building",
+    "entity": "IfcBuilding",
+    "predefinedType": null,
+    "objectType": null,
+    "pset": {
+      "SGPset_Building": [
+        {
+          "propertyName": "OwnerBuiltOwnerStay",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true,
+          "id": 47,
+          "PropertyName": "OwnerBuiltOwnerStay",
+          "Entity": "IfcBuilding",
+          "ParentKey": "IfcBuilding:null:null",
+          "PropertySet": "SGPset_Building",
+          "IfcMeasureResource": null,
+          "Enums": [],
+          "Description": "@HTML Applicable only when ProjectDevelopmentType is \"Residential (landed)\"",
+          "Required": null,
+          "inUse": true
+        },
+        {
+          "propertyName": "ProjectDevelopmentType",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true,
+          "id": 1,
+          "PropertyName": "ProjectDevelopmentType",
+          "Entity": "IfcBuilding",
+          "ParentKey": "IfcBuilding:null:null",
+          "PropertySet": "SGPset_Building",
+          "IfcMeasureResource": null,
+          "Enums": [
+            "Residential (landed)",
+            "Residential (non-landed)",
+            "Mixed development",
+            "Commercial",
+            "Industrial",
+            "Healthcare",
+            "Institutional",
+            "Agriculture",
+            "Transport stations",
+            "Civil engineering works / Infrastructure",
+            "Free-standing structures",
+            "Others"
+          ],
+          "Description": "The type of development this project represent. There can only one of such property in the entire IFC model.",
+          "Required": true,
+          "inUse": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "BUILDING",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingElementProxy:USERDEFINED:BICYCLELOT",
+    "identifiedComponent": "Parking Lot",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "BICYCLELOT",
+    "pset": {
+      "SGPset_BuildingElementProxy": [
+        {
+          "propertyName": "BicycleRack_Type",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "BicycleLotCount",
+          "dataType": "Integer",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "BICYCLELOT",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingElementProxy:USERDEFINED:CARLOT",
+    "identifiedComponent": "Parking Lot",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "CARLOT",
+    "pset": null,
+    "status": true,
+    "componentName": "CARLOT",
+    "beta": true
+  },
+  {
+    "key": "IfcWall:USERDEFINED:KNOCKOUTPANEL",
+    "identifiedComponent": "Wall",
+    "entity": "IfcWall",
+    "predefinedType": "USERDEFINED",
+    "objectType": "KNOCKOUTPANEL",
+    "pset": null,
+    "status": true,
+    "componentName": "KNOCKOUTPANEL",
+    "beta": true
+  },
+  {
+    "key": "IfcWindow:WINDOW:null",
+    "identifiedComponent": "Window",
+    "entity": "IfcWindow",
+    "predefinedType": "WINDOW",
+    "objectType": null,
+    "pset": {
+      "SGPset_Window": [
+        {
+          "propertyName": "SafetyBarrierHeight",
+          "dataType": "Real",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "WINDOW",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingElementProxy:USERDEFINED:HUMP",
+    "identifiedComponent": "Hump",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "HUMP",
+    "pset": null,
+    "status": true,
+    "componentName": "HUMP",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingElementProxy:USERDEFINED:LANDSCAPE_PLANTINGTROUGH",
+    "identifiedComponent": "Planting Trough",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "LANDSCAPE_PLANTINGTROUGH",
+    "pset": null,
+    "status": true,
+    "componentName": "LANDSCAPE_PLANTINGTROUGH",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingElementProxy:USERDEFINED:LINEMARKING",
+    "identifiedComponent": "Line Marking",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "LINEMARKING",
+    "pset": null,
+    "status": true,
+    "componentName": "LINEMARKING",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingElementProxy:USERDEFINED:MOTOR-CYCLELOT",
+    "identifiedComponent": "Parking Lot",
+    "entity": "IfcBuildingElementProxy",
+    "predefinedType": "USERDEFINED",
+    "objectType": "MOTOR-CYCLELOT",
+    "pset": null,
+    "status": true,
+    "componentName": "MOTOR-CYCLELOT",
+    "beta": true
+  },
+  {
+    "key": "IfcBuildingStorey:null:null",
+    "identifiedComponent": "Building Storey",
+    "entity": "IfcBuildingStorey",
+    "predefinedType": null,
+    "objectType": null,
+    "pset": {
+      "SGPset_BuildingStorey": [
+        {
+          "propertyName": "AtticLevel",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "BUILDINGSTOREY",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:CULVERT:null",
+    "identifiedComponent": "Culvert",
+    "entity": "IfcCivilElement",
+    "predefinedType": "CULVERT",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "CULVERT",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:BOXCULVERT",
+    "identifiedComponent": "Culvert",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "BOXCULVERT",
+    "pset": null,
+    "status": true,
+    "componentName": "BOXCULVERT",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:CHANNELDRAIN",
+    "identifiedComponent": "Drain",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "CHANNELDRAIN",
+    "pset": null,
+    "status": true,
+    "componentName": "CHANNELDRAIN",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:DRIVEWAY",
+    "identifiedComponent": "Road",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "DRIVEWAY",
+    "pset": null,
+    "status": true,
+    "componentName": "DRIVEWAY",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:ENTRANCECULVERT",
+    "identifiedComponent": "Culvert",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "ENTRANCECULVERT",
+    "pset": null,
+    "status": true,
+    "componentName": "ENTRANCECULVERT",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:FLOORDRAIN",
+    "identifiedComponent": "Drain",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "FLOORDRAIN",
+    "pset": null,
+    "status": true,
+    "componentName": "FLOORDRAIN",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:FOOTPATH",
+    "identifiedComponent": "Footpath",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "FOOTPATH",
+    "pset": null,
+    "status": true,
+    "componentName": "FOOTPATH",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:GUTTERDRAIN",
+    "identifiedComponent": "Drain",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "GUTTERDRAIN",
+    "pset": null,
+    "status": true,
+    "componentName": "GUTTERDRAIN",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:LAMPPOST",
+    "identifiedComponent": "Lamp Post",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "LAMPPOST",
+    "pset": null,
+    "status": true,
+    "componentName": "LAMPPOST",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:STORMWATERDRAIN",
+    "identifiedComponent": "Drain",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "STORMWATERDRAIN",
+    "pset": null,
+    "status": true,
+    "componentName": "STORMWATERDRAIN",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:SURFACEDRAIN",
+    "identifiedComponent": "Drain",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "SURFACEDRAIN",
+    "pset": null,
+    "status": true,
+    "componentName": "SURFACEDRAIN",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:TRENCH",
+    "identifiedComponent": "Trench",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "TRENCH",
+    "pset": null,
+    "status": true,
+    "componentName": "TRENCH",
+    "beta": true
+  },
+  {
+    "key": "IfcCivilElement:USERDEFINED:TRENCHDRAIN",
+    "identifiedComponent": "Drain",
+    "entity": "IfcCivilElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "TRENCHDRAIN",
+    "pset": null,
+    "status": true,
+    "componentName": "TRENCHDRAIN",
+    "beta": true
+  },
+  {
+    "key": "IfcColumn:COLUMN:null",
+    "identifiedComponent": "Column",
+    "entity": "IfcColumn",
+    "predefinedType": "COLUMN",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "COLUMN",
+    "beta": true
+  },
+  {
+    "key": "IfcCovering:CEILING:null",
+    "identifiedComponent": "Ceiling",
+    "entity": "IfcCovering",
+    "predefinedType": "CEILING",
+    "objectType": null,
+    "pset": {
+      "SGPset_Material": [
+        {
+          "propertyName": "Material",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "CEILING",
+    "beta": true
+  },
+  {
+    "key": "IfcCurtainWall:NOTDEFINED:null",
+    "identifiedComponent": "Curtain Wall",
+    "entity": "IfcCurtainWall",
+    "predefinedType": "NOTDEFINED",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "NOTDEFINED",
+    "beta": true
+  },
+  {
+    "key": "IfcDistributionChamberElement:INSPECTIONCHAMBER:null",
+    "identifiedComponent": "Inspection Chamber",
+    "entity": "IfcDistributionChamberElement",
+    "predefinedType": "INSPECTIONCHAMBER",
+    "objectType": null,
+    "pset": {
+      "SGPset_DistributionChamberElementDimension": [
+        {
+          "propertyName": "Depth",
+          "dataType": "Length",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "Length",
+          "dataType": "Length",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "Width",
+          "dataType": "Length",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "INSPECTIONCHAMBER",
+    "beta": true
+  },
+  {
+    "key": "IfcDistributionChamberElement:MANHOLE:null",
+    "identifiedComponent": "Manhole",
+    "entity": "IfcDistributionChamberElement",
+    "predefinedType": "MANHOLE",
+    "objectType": null,
+    "pset": {
+      "Pset_DistributionChamberElementCommon": [
+        {
+          "propertyName": "Status",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "MANHOLE",
+    "beta": true
+  },
+  {
+    "key": "IfcDistributionSystem:USERDEFINED:SANITARY",
+    "identifiedComponent": "Sanitary System",
+    "entity": "IfcDistributionSystem",
+    "predefinedType": "USERDEFINED",
+    "objectType": "SANITARY",
+    "pset": null,
+    "status": true,
+    "componentName": "SANITARY",
+    "beta": true
+  },
+  {
+    "key": "IfcDistributionSystem:USERDEFINED:SEWAGE",
+    "identifiedComponent": "Sewerage System",
+    "entity": "IfcDistributionSystem",
+    "predefinedType": "USERDEFINED",
+    "objectType": "SEWAGE",
+    "pset": null,
+    "status": true,
+    "componentName": "SEWAGE",
+    "beta": true
+  },
+  {
+    "key": "IfcDoor:DOOR:null",
+    "identifiedComponent": "Door",
+    "entity": "IfcDoor",
+    "predefinedType": "DOOR",
+    "objectType": null,
+    "pset": {
+      "Pset_DoorCommon": [
+        {
+          "propertyName": "SelfClosing",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "DOOR",
+    "beta": true
+  },
+  {
+    "key": "IfcDoor:GATE:null",
+    "identifiedComponent": "Door",
+    "entity": "IfcDoor",
+    "predefinedType": "GATE",
+    "objectType": null,
+    "pset": {
+      "Pset_DoorCommon": [
+        {
+          "propertyName": "SelfClosing",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "GATE",
+    "beta": true
+  },
+  {
+    "key": "IfcDoor:USERDEFINED:ACCESSHATCH",
+    "identifiedComponent": "Access Hatch",
+    "entity": "IfcDoor",
+    "predefinedType": "USERDEFINED",
+    "objectType": "ACCESSHATCH",
+    "pset": null,
+    "status": true,
+    "componentName": "ACCESSHATCH",
+    "beta": true
+  },
+  {
+    "key": "IfcWall:NOTDEFINED:null",
+    "identifiedComponent": "Wall",
+    "entity": "IfcWall",
+    "predefinedType": "NOTDEFINED",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "NOTDEFINED",
+    "beta": true
+  },
+  {
+    "key": "IfcFurniture:CHAIR:null",
+    "identifiedComponent": "Fixed Seating",
+    "entity": "IfcFurniture",
+    "predefinedType": "CHAIR",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "CHAIR",
+    "beta": true
+  },
+  {
+    "key": "IfcFurniture:USERDEFINED:BENCH",
+    "identifiedComponent": "Fixed Seating",
+    "entity": "IfcFurniture",
+    "predefinedType": "USERDEFINED",
+    "objectType": "BENCH",
+    "pset": null,
+    "status": true,
+    "componentName": "BENCH",
+    "beta": true
+  },
+  {
+    "key": "IfcGeographicElement:USERDEFINED:GREENVERGE",
+    "identifiedComponent": "Green Verge",
+    "entity": "IfcGeographicElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "GREENVERGE",
+    "pset": null,
+    "status": true,
+    "componentName": "GREENVERGE",
+    "beta": true
+  },
+  {
+    "key": "IfcGeographicElement:USERDEFINED:PLANTINGAREA",
+    "identifiedComponent": "Planting Area",
+    "entity": "IfcGeographicElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "PLANTINGAREA",
+    "pset": null,
+    "status": true,
+    "componentName": "PLANTINGAREA",
+    "beta": true
+  },
+  {
+    "key": "IfcGeographicElement:USERDEFINED:SITEBOUNDARY",
+    "identifiedComponent": "Site Boundary",
+    "entity": "IfcGeographicElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "SITEBOUNDARY",
+    "pset": null,
+    "status": true,
+    "componentName": "SITEBOUNDARY",
+    "beta": true
+  },
+  {
+    "key": "IfcPipeSegment:NOTDEFINED:null",
+    "identifiedComponent": "Pipe Segment",
+    "entity": "IfcPipeSegment",
+    "predefinedType": "NOTDEFINED",
+    "objectType": null,
+    "pset": {
+      "SGPset_PipeSegmentDimension": [
+        {
+          "propertyName": "InnerDiameter",
+          "dataType": "Length",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "Gradient",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "NOTDEFINED",
+    "beta": true
+  },
+  {
+    "key": "IfcRailing:NOTDEFINED:null",
+    "identifiedComponent": "Railing",
+    "entity": "IfcRailing",
+    "predefinedType": "NOTDEFINED",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "NOTDEFINED",
+    "beta": true
+  },
+  {
+    "key": "IfcRamp:NOTDEFINED:null",
+    "identifiedComponent": "Ramp",
+    "entity": "IfcRamp",
+    "predefinedType": "NOTDEFINED",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "NOTDEFINED",
+    "beta": true
+  },
+  {
+    "key": "IfcWall:PARAPET:null",
+    "identifiedComponent": "Wall",
+    "entity": "IfcWall",
+    "predefinedType": "PARAPET",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "PARAPET",
+    "beta": true
+  },
+  {
+    "key": "IfcSlab:FLOOR:null",
+    "identifiedComponent": "Slab",
+    "entity": "IfcSlab",
+    "predefinedType": "FLOOR",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "FLOOR",
+    "beta": true
+  },
+  {
+    "key": "IfcSlab:LANDING:null",
+    "identifiedComponent": "Staircase Landing",
+    "entity": "IfcSlab",
+    "predefinedType": "LANDING",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "LANDING",
+    "beta": true
+  },
+  {
+    "key": "IfcSpace:SPACE:null",
+    "identifiedComponent": "Space",
+    "entity": "IfcSpace",
+    "predefinedType": "SPACE",
+    "objectType": null,
+    "pset": {
+      "SGPset_Space": [
+        {
+          "propertyName": "VentilationMode",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        },
+        {
+          "propertyName": "OccupancyType",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true,
+          "id": 71,
+          "PropertyName": "OccupancyType",
+          "Entity": "IfcSpace",
+          "ParentKey": "IfcSpace:SPACE:null",
+          "PropertySet": "SGPset_Space",
+          "IfcMeasureResource": null,
+          "Enums": [],
+          "Description": "@HTML Refer to <a href=\"/occupancy-type\">OccupancyType</a> page",
+          "Required": null,
+          "inUse": null
+        },
+        {
+          "propertyName": "SpaceName",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true,
+          "id": 44,
+          "PropertyName": "SpaceName",
+          "Entity": "IfcSpace",
+          "ParentKey": "IfcSpace:SPACE:null",
+          "PropertySet": "SGPset_Space",
+          "IfcMeasureResource": null,
+          "Enums": [],
+          "Description": "@html Refer to <a href=\"/spacename/all-spaces\">SpaceName</a> page",
+          "Required": null,
+          "inUse": null
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "SPACE",
+    "beta": true
+  },
+  {
+    "key": "IfcSpace:USERDEFINED:ACCESSIBLEROUTE",
+    "identifiedComponent": "Accessible Route",
+    "entity": "IfcSpace",
+    "predefinedType": "USERDEFINED",
+    "objectType": "ACCESSIBLEROUTE",
+    "pset": null,
+    "status": true,
+    "componentName": "ACCESSIBLEROUTE",
+    "beta": true
+  },
+  {
+    "key": "IfcSpace:USERDEFINED:ACCESSWAY",
+    "identifiedComponent": "Accessway",
+    "entity": "IfcSpace",
+    "predefinedType": "USERDEFINED",
+    "objectType": "ACCESSWAY",
+    "pset": {
+      "SGPset_Space": [
+        {
+          "propertyName": "SpaceName",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true,
+          "id": 44,
+          "PropertyName": "SpaceName",
+          "Entity": "IfcSpace",
+          "ParentKey": "IfcSpace:SPACE:null",
+          "PropertySet": "SGPset_Space",
+          "IfcMeasureResource": null,
+          "Enums": [],
+          "Description": "@html Refer to <a href=\"/spacename/all-spaces\">SpaceName</a> page",
+          "Required": null,
+          "inUse": null
+        },
+        {
+          "propertyName": "AccesswayType",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "ACCESSWAY",
+    "beta": true
+  },
+  {
+    "key": "IfcSpace:USERDEFINED:AREA_GFA",
+    "identifiedComponent": "Area",
+    "entity": "IfcSpace",
+    "predefinedType": "USERDEFINED",
+    "objectType": "AREA_GFA",
+    "pset": {
+      "SGPset_SpaceArea_GFA": [
+        {
+          "propertyName": "AGF_Name",
+          "dataType": "Label",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "AREA_GFA",
+    "beta": true
+  },
+  {
+    "key": "IfcStair:CURVED_RUN_STAIR:null",
+    "identifiedComponent": "Stair",
+    "entity": "IfcStair",
+    "predefinedType": "CURVED_RUN_STAIR",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "CURVED_RUN_STAIR",
+    "beta": true
+  },
+  {
+    "key": "IfcStair:SPIRAL_STAIR:null",
+    "identifiedComponent": "Stair",
+    "entity": "IfcStair",
+    "predefinedType": "SPIRAL_STAIR",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "SPIRAL_STAIR",
+    "beta": true
+  },
+  {
+    "key": "IfcStair:STRAIGHT_RUN_STAIR:null",
+    "identifiedComponent": "Stair",
+    "entity": "IfcStair",
+    "predefinedType": "STRAIGHT_RUN_STAIR",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "STRAIGHT_RUN_STAIR",
+    "beta": true
+  },
+  {
+    "key": "IfcStairFlight:CURVED:null",
+    "identifiedComponent": "Stair Flight",
+    "entity": "IfcStairFlight",
+    "predefinedType": "CURVED",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "CURVED",
+    "beta": true
+  },
+  {
+    "key": "IfcStairFlight:SPIRAL:null",
+    "identifiedComponent": "Stair Flight",
+    "entity": "IfcStairFlight",
+    "predefinedType": "SPIRAL",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "SPIRAL",
+    "beta": true
+  },
+  {
+    "key": "IfcStairFlight:STRAIGHT:null",
+    "identifiedComponent": "Stair Flight",
+    "entity": "IfcStairFlight",
+    "predefinedType": "STRAIGHT",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "STRAIGHT",
+    "beta": true
+  },
+  {
+    "key": "IfcStairFlight:USERDEFINED:WINDER",
+    "identifiedComponent": "Stair Flight",
+    "entity": "IfcStairFlight",
+    "predefinedType": "USERDEFINED",
+    "objectType": "WINDER",
+    "pset": null,
+    "status": true,
+    "componentName": "WINDER",
+    "beta": true
+  },
+  {
+    "key": "IfcTransportElement:ESCALATOR:null",
+    "identifiedComponent": "Escalator",
+    "entity": "IfcTransportElement",
+    "predefinedType": "ESCALATOR",
+    "objectType": null,
+    "pset": null,
+    "status": true,
+    "componentName": "ESCALATOR",
+    "beta": true
+  },
+  {
+    "key": "IfcTransportElement:USERDEFINED:LIFT",
+    "identifiedComponent": "Lift",
+    "entity": "IfcTransportElement",
+    "predefinedType": "USERDEFINED",
+    "objectType": "LIFT",
+    "pset": null,
+    "status": true,
+    "componentName": "LIFT",
+    "beta": true
+  },
+  {
+    "key": "IfcWall:USERDEFINED:BOUNDARYWALL",
+    "identifiedComponent": "Boundary wall/ Boundary fence",
+    "entity": "IfcWall",
+    "predefinedType": "USERDEFINED",
+    "objectType": "BOUNDARYWALL",
+    "pset": {
+      "SGPset_Wall": [
+        {
+          "propertyName": "PorousFence",
+          "dataType": "Boolean",
+          "measureResource": "",
+          "beta": true
+        }
+      ]
+    },
+    "status": true,
+    "componentName": "BOUNDARYWALL",
+    "beta": true
   }
 ]

@@ -31,7 +31,7 @@ let users = originalUsers,
     modalError = {};
 
 async function updateRole() {
-    const currentRole = modalContent.user.user_metadata["role"] || "reader";
+    const currentRole = modalContent.user.user_metadata["role"] || "beta";
     if (modalContent.newRole == currentRole) {
         modalContent = false;
         return;
@@ -470,7 +470,7 @@ async function verifyEmail() {
                                                 modalContent = {
                                                     type: "role",
                                                     user: user,
-                                                    newRole: user.user_metadata.role || "reader",
+                                                    newRole: user.user_metadata.role || "beta",
                                                 };
                                             }}>
                                             {#if user.user_metadata["role"] == "Updating"}
@@ -478,7 +478,7 @@ async function verifyEmail() {
                                             {:else}
                                                 {user.user_metadata["role"]
                                                     ? capitalizeFirstCharacter(user.user_metadata["role"])
-                                                    : "Reader"}
+                                                    : "*Beta"}
                                             {/if}
                                         </button>
                                     {:else}

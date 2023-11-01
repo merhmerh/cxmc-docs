@@ -8,13 +8,13 @@ import { beta } from "$routes/main.store";
 import ModellingGuide from "./ModellingGuide.svelte";
 import { Modal } from "merh-forge-ui";
 import CodeTable from "../../codes/[agency]/CodeTable.svelte";
+import { getPermission } from "$comp/supabase.store";
 
-export let data;
 let original;
 let mg_data = {};
 let prop_selected, isEditing, editor, notFound, modal, codeData;
-const role = data.session.user.user_metadata.role || null;
-const isEditor = role !== "reader" && role !== null;
+
+const { role, permission } = getPermission();
 
 $: $page, update();
 $: {
@@ -49,7 +49,6 @@ async function update() {
     const resp = await fetch(url);
     mg_data.prop = await resp.json();
     original = JSON.parse(JSON.stringify(mg_data));
-    console.log("update");
 }
 
 function toggleBetaContent() {
@@ -192,7 +191,7 @@ async function showCode(clause, clauses) {
     <h3 id="modelling-guide" class="modellingGuide__header">
         <a href="{$page.url.origin}{$page.url.pathname}#modelling-guide">Modelling Guide</a>
         <div class="buttonGroup">
-            {#if isEditor}
+            {#if permission.edit}
                 {#if isEditing}
                     <button
                         on:click={() => {
@@ -260,7 +259,7 @@ async function showCode(clause, clauses) {
         <div class="table_wrapper">
             <table class="{$theme} noActionColumn noHover horizontal ifcSubtype">
                 <tr>
-                    <th><div>IfcEntity {console.log("!", mg_data.prop)}</div></th>
+                    <th><div>IfcEntity</div></th>
                     <th><div>{mg_data.prop.map((x) => x.entity)}</div></th>
                     <!-- <td><div>{[...new Set(mg_data.prop.map((x) => x.entity))]}</div></td> -->
                 </tr>
