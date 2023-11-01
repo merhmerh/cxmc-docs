@@ -4,6 +4,8 @@ import { isMobile } from "$comp/device.store";
 import Icon from "@iconify/svelte";
 import { page } from "$app/stores";
 import { goto } from "$app/navigation";
+import Image from "../../Image.svelte";
+
 let showMobileSidebar;
 
 export let data;
@@ -50,9 +52,7 @@ const selectItems = [...new Set(data.areaNames.map((x) => x[2]))];
         {#if type == "images"}
             <div class="image_container {content.length == 1 ? 'single' : ''}">
                 {#each content as image}
-                    <div class="img-container">
-                        <img src={image} alt="" />
-                    </div>
+                    <Image src={image} />
                 {/each}
             </div>
         {/if}

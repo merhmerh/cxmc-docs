@@ -165,9 +165,6 @@ table {
             td:first-child {
                 width: 350px;
             }
-            td:last-child {
-                //
-            }
         }
     }
 

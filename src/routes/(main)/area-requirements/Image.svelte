@@ -41,8 +41,9 @@ let modal;
     .img-container {
         // max-height: 450px;
         width: 100%;
+        height: 100%;
         overflow: hidden;
-        border-radius: 0.25rem;
+        border-radius: 0.5rem;
         display: flex;
         position: relative;
         background-color: #fff;
@@ -66,6 +67,9 @@ let modal;
             padding: 3rem;
             border-radius: 1rem;
             background-color: color-mix(in srgb, var(--mono) 24%, transparent);
+            .icon {
+                color: #344957;
+            }
         }
         span {
             position: absolute;
