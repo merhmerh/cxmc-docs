@@ -104,7 +104,8 @@ const categories = ["Common Documents", "Revit", "Archicad"];
                     const dataPromise = new Promise(async (resolve) => {
                         const { data, error } = await $sb.from("downloads").select().eq("category", category);
                         const result = data.map((x) => x.title).filter((x) => x !== null);
-                        resolve(result);
+                        const titles = [...new Set(result)];
+                        resolve(titles);
                     });
 
                     setTimeout(() => {

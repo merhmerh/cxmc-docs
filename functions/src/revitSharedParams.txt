@@ -1,0 +1,33 @@
+# Base Name: ifcsg-revit-shared-params-v1
+# Base Namespace: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+# GUID is generated using uuidv5(PropertyName,uuidv5(baseNameSpace,baseName))
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	1	ifcsg
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USERMODIFIABLE	HIDEWHENNOVALUE
+PARAM	2a830019-21d6-500a-81a1-acbb80c6b29c	OwnerBuiltOwnerStay	YESNO		1	1		1	0
+PARAM	bf62c655-055c-5802-b34f-60a6ec689b85	ProjectDevelopmentType	TEXT		1	1		1	0
+PARAM	4a1c3bf7-75d4-555b-b452-86d5322f8580	BicycleRack_Type	TEXT		1	1		1	0
+PARAM	fc27b7ce-a180-5ab8-bc0c-55574fdb05ab	BicycleLotCount	INTEGER		1	1		1	0
+PARAM	c4b5b0b1-3adb-5c63-b8c5-075ffbaa40d4	AtticLevel	YESNO		1	1		1	0
+PARAM	20034333-671b-5ccb-b1cb-5f0784ca0398	Material	TEXT		1	1		1	0
+PARAM	7cbbd388-8a9b-5840-a485-a3cb8107d29e	WithBackdrop	YESNO		1	1		1	0
+PARAM	64682f1f-9251-5428-924c-d244d075044b	WithTumblingBay	YESNO		1	1		1	0
+PARAM	13437d94-54d1-5ca0-8b80-e08e41f632d7	Depth	LENGTH		1	1		1	0
+PARAM	8bd23406-8a68-5ba5-80c6-93c3708e65ec	Length	LENGTH		1	1		1	0
+PARAM	f05d5a1b-09dd-5ec4-af15-aa3eca21c188	Width	LENGTH		1	1		1	0
+PARAM	dfbb9a86-bf7a-595c-8f40-518b93eef92b	Status	TEXT		1	1		1	0
+PARAM	dddccbab-78b1-5b74-a15a-db06aa971743	OneWayLockingDevice	YESNO		1	1		1	0
+PARAM	5733bee3-a069-56a6-925f-6fafa25b7e81	ClearHeight	LENGTH		1	1		1	0
+PARAM	ecbab178-822d-5625-8504-9c563a817e41	SelfClosing	YESNO		1	1		1	0
+PARAM	b246def5-fe38-5ed7-b2bd-e394f87d8186	DemountableStrutureAbovePipe	YESNO		1	1		1	0
+PARAM	4e9a5e98-f78c-5f9b-94ae-67f72fa4cad0	InnerDiameter	LENGTH		1	1		1	0
+PARAM	ac5d2ef5-d6ba-537f-b208-fa29614d1119	Gradient	TEXT		1	1		1	0
+PARAM	d0d437e7-d644-5661-9ccb-ef9bf37d3c25	PorousFence	YESNO		1	1		1	0
+PARAM	07c5e5e0-eac0-55a0-b4c7-c7babfb74a09	VentilationMode	TEXT		1	1		1	0
+PARAM	a33881e9-8a04-5872-b317-5b6ebd1bf181	OccupancyType	TEXT		1	1		1	0
+PARAM	30ec5f82-7521-52d4-9f23-286f03661c02	SpaceName	TEXT		1	1		1	0
+PARAM	5c82fa2a-1233-5b03-b4bd-c28331dd55b0	AccesswayType	TEXT		1	1		1	0
+PARAM	b80532fd-c250-50ad-ae48-bb10697f7660	AGF_Name	TEXT		1	1		1	0
+PARAM	a3c69511-d8c0-507b-824d-1251d5c6b951	SafetyBarrierHeight	NUMBER		1	1		1	0

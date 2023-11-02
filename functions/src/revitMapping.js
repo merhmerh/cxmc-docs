@@ -91,7 +91,7 @@ function sortPset(ifcsg) {
     return psets
 }
 
-async function getIfc(opt) {
+export async function getIfc(opt) {
     const { data, error } = await supabase
         .from("ifcsg")
         .select()
@@ -138,6 +138,5 @@ async function getIfc(opt) {
     // fs.writeFileSync('./output/test.json', JSON.stringify(result, null, 2))
 
     return result
-
 }
 
