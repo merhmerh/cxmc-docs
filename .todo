@@ -8,7 +8,12 @@ There are some special, customizable tags with @ : critical high low today
 Features:
     ☐ Add downloads for non beta
 
+Updates:
+    ☐ Remove Spacename keep to 4 columns
+    ☐ OccupancyType columns
+
 Bugs: 
+    ☐ IFC revit export .txt file
     ☐ When uploading new file to 'downloads' page, if file contain same name it will override
     ☐ Redirect to 404 if user enter non-beta page
     ☐ area requirement images loads very slow (Will need to serve the image directly from the website / db storage)

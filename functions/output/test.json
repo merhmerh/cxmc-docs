@@ -1,65 +1,290 @@
-[
-  {
-    "code": "Code of Practice on Sewerage and Sanitary Works",
-    "agency": "PUB",
-    "chapters": [
+{
+  "SGPset_Building": {
+    "entity": "IfcBuilding",
+    "prop": [
       {
-        "chapterName": "Planning Considerations: Structures over Sewer",
-        "clauseNumbers": [
-          {
-            "clauseNumber": "1.2.4 ",
-            "clauses": [
-              "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-              "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-              "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-              "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-            ]
-          }
-        ]
+        "propertyName": "OwnerBuiltOwnerStay",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true,
+        "id": 47,
+        "PropertyName": "OwnerBuiltOwnerStay",
+        "Entity": "IfcBuilding",
+        "ParentKey": "IfcBuilding:null:null",
+        "PropertySet": "SGPset_Building",
+        "IfcMeasureResource": null,
+        "Enums": [],
+        "Description": "@HTML Applicable only when ProjectDevelopmentType is \"Residential (landed)\"",
+        "Required": null,
+        "inUse": true
+      },
+      {
+        "propertyName": "ProjectDevelopmentType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true,
+        "id": 1,
+        "PropertyName": "ProjectDevelopmentType",
+        "Entity": "IfcBuilding",
+        "ParentKey": "IfcBuilding:null:null",
+        "PropertySet": "SGPset_Building",
+        "IfcMeasureResource": null,
+        "Enums": [
+          "Residential (landed)",
+          "Residential (non-landed)",
+          "Mixed development",
+          "Commercial",
+          "Industrial",
+          "Healthcare",
+          "Institutional",
+          "Agriculture",
+          "Transport stations",
+          "Civil engineering works / Infrastructure",
+          "Free-standing structures",
+          "Others"
+        ],
+        "Description": "The type of development this project represent. There can only one of such property in the entire IFC model.",
+        "Required": true,
+        "inUse": true
       }
     ]
   },
-  {
-    "code": "Approved Document - Acceptable Solutions",
-    "agency": "BCA",
-    "chapters": [
+  "SGPset_BuildingElementProxy": {
+    "entity": "IfcBuildingElementProxy",
+    "prop": [
       {
-        "chapterName": "Headroom and Ceiling Height: Ceiling Height",
-        "clauseNumbers": [
-          {
-            "clauseNumber": "C.3.3.1",
-            "clauses": [
-              "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
-              "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-            ]
-          },
-          {
-            "clauseNumber": "C.3.3 Note",
-            "clauses": [
-              "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-            ]
-          }
-        ]
+        "propertyName": "BicycleRack_Type",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "BicycleLotCount",
+        "dataType": "Integer",
+        "measureResource": "",
+        "beta": true
       }
     ]
   },
-  {
-    "code": "Gross Floor Area Handbook",
-    "agency": "URA",
-    "chapters": [
+  "SGPset_BuildingStorey": {
+    "entity": "IfcBuildingStorey",
+    "prop": [
       {
-        "chapterName": "6",
-        "clauseNumbers": [
-          {
-            "clauseNumber": "",
-            "clauses": [
-              "Metal Ceiling Grids within Indoor Performance Venue",
-              "Lift Motor Room",
-              "Lift Shaft"
-            ]
-          }
-        ]
+        "propertyName": "AtticLevel",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_Material": {
+    "entity": "IfcCovering",
+    "prop": [
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_DistributionChamberElement": {
+    "entity": "IfcDistributionChamberElement",
+    "prop": [
+      {
+        "propertyName": "WithBackdrop",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "WithTumblingBay",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_DistributionChamberElementDimension": {
+    "entity": "IfcDistributionChamberElement",
+    "prop": [
+      {
+        "propertyName": "Depth",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "Pset_DistributionChamberElementCommon": {
+    "entity": "IfcDistributionChamberElement",
+    "prop": [
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_Door": {
+    "entity": "IfcDoor",
+    "prop": [
+      {
+        "propertyName": "OneWayLockingDevice",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "ClearHeight",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "Pset_DoorCommon": {
+    "entity": "IfcDoor",
+    "prop": [
+      {
+        "propertyName": "SelfClosing",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_PipeSegment": {
+    "entity": "IfcPipeSegment",
+    "prop": [
+      {
+        "propertyName": "DemountableStrutureAbovePipe",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true,
+        "id": 76,
+        "PropertyName": "DemountableStrutureAbovePipe",
+        "Entity": "IfcPipeSegment",
+        "ParentKey": "IfcPipeSegment:NOTDEFINED:null",
+        "PropertySet": "SGPset_PipeSegment",
+        "IfcMeasureResource": null,
+        "Enums": null,
+        "Description": "DemountableStrutureAbovePipe spelling error\nplease use DemountableStructureAbovePipe",
+        "Required": null,
+        "inUse": null
+      }
+    ]
+  },
+  "SGPset_PipeSegmentDimension": {
+    "entity": "IfcPipeSegment",
+    "prop": [
+      {
+        "propertyName": "InnerDiameter",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Gradient",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_Space": {
+    "entity": "IfcSpace",
+    "prop": [
+      {
+        "propertyName": "VentilationMode",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "OccupancyType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true,
+        "id": 71,
+        "PropertyName": "OccupancyType",
+        "Entity": "IfcSpace",
+        "ParentKey": "IfcSpace:SPACE:null",
+        "PropertySet": "SGPset_Space",
+        "IfcMeasureResource": null,
+        "Enums": [],
+        "Description": "@HTML Refer to <a href=\"/occupancy-type\">OccupancyType</a> page",
+        "Required": null,
+        "inUse": null
+      },
+      {
+        "propertyName": "SpaceName",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true,
+        "id": 44,
+        "PropertyName": "SpaceName",
+        "Entity": "IfcSpace",
+        "ParentKey": "IfcSpace:SPACE:null",
+        "PropertySet": "SGPset_Space",
+        "IfcMeasureResource": null,
+        "Enums": [],
+        "Description": "@html Refer to <a href=\"/spacename/all-spaces\">SpaceName</a> page",
+        "Required": null,
+        "inUse": null
+      },
+      {
+        "propertyName": "AccesswayType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_SpaceArea_GFA": {
+    "entity": "IfcSpace",
+    "prop": [
+      {
+        "propertyName": "AGF_Name",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_Wall": {
+    "entity": "IfcWall",
+    "prop": [
+      {
+        "propertyName": "PorousFence",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "SGPset_Window": {
+    "entity": "IfcWindow",
+    "prop": [
+      {
+        "propertyName": "SafetyBarrierHeight",
+        "dataType": "Real",
+        "measureResource": "",
+        "beta": true
       }
     ]
   }
-]
+}

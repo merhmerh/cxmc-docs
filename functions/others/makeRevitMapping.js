@@ -2,6 +2,7 @@ const { createClient } = require('@supabase/supabase-js')
 const fs = require('fs')
 require('dotenv').config();
 
+
 const SUPABASE_URL = process.env.SUPABASE_URL
 const SUPABASE_SECRET = process.env.SUPABASE_SECRET
 
@@ -9,24 +10,47 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_SECRET)
 
 main()
 async function main() {
+    const t0 = performance.now()
     const result = await getIfc({ beta: true })
 
-    let mapping = ""
-    for (const { entity, pset } of result) {
-        if (!pset) continue;
+    const pset_obj = sortPset(result)
+    // fs.writeFileSync('./output/test.json', JSON.stringify(pset_obj, null, 2))
 
+    let mapping = ""
+    for (const [psetName, { entity, prop }] of Object.entries(pset_obj)) {
+        mapping += `\nPropertySet:\t${psetName}\tI\t${entity}\n`
+        for (const p of prop) {
+            mapping += `\t${p.propertyName}\t${p.dataType}\n`
+        }
+    }
+
+    const t1 = performance.now()
+    console.log('done in', (t1 - t0).toFixed(2));
+    fs.writeFileSync('./output/Revit_IFC_Mapping.txt', mapping)
+}
+
+function sortPset(ifcsg) {
+
+    const psets = {}
+
+    for (const { entity, pset } of ifcsg) {
+        if (!pset) continue;
         for (const [psetName, prop] of Object.entries(pset)) {
-            mapping += `PropertySet:\t${psetName}\tI\t${entity}\n`
+            if (!psets[psetName]) {
+                psets[psetName] = { entity: entity, prop: [] }
+            }
 
             prop.forEach(p => {
-                mapping += `\t${p.propertyName}\t${p.dataType}\n`
+                if (psets[psetName].prop.find(x => x.propertyName == p.propertyName)) {
+                    return
+                }
+                psets[psetName].prop.push(p)
             })
 
         }
-        mapping += `\n`
     }
 
-    fs.writeFileSync('./output/Revit_IFC_Mapping.txt', mapping)
+    return psets
 }
 
 async function getIfc(opt) {
@@ -73,7 +97,7 @@ async function getIfc(opt) {
         item.pset = psets
     }
 
-    fs.writeFileSync('./output/test.json', JSON.stringify(result, null, 2))
+    // fs.writeFileSync('./output/test.json', JSON.stringify(result, null, 2))
 
     return result
 
