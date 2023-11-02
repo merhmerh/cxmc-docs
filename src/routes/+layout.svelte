@@ -30,8 +30,10 @@ onMount(async () => {
     initDevice();
     if (getPermission().role == "beta") {
         beta.set(true);
+        console.log("??");
     } else {
         const isBeta = localStorage.getItem("beta") == "true" ? true : false;
+        console.log(isBeta);
         beta.set(isBeta);
     }
 

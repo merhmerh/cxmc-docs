@@ -1,6 +1,5 @@
 <script>
 import { rules } from "./rules.store";
-
 import { isMobile } from "$comp/device.store";
 import { goto } from "$app/navigation";
 import { page } from "$app/stores";

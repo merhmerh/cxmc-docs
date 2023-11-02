@@ -81,9 +81,9 @@ function resetFilter() {
         <input
             bind:this={searchbar}
             on:input={filter}
-            class="search"
+            class="search placeholder-smaller"
             type="search"
-            placeholder="Search by space name or occupancy type" />
+            placeholder="Search spacename or occupancy type" />
         <div class="kbs">
             <code>Ctrl</code>
             <code>E</code>
@@ -238,11 +238,11 @@ table {
                 }
             }
 
-            &.FunctionalSpace {
-                div {
-                    // width: calc(200px - 3px);
-                }
-            }
+            // &.FunctionalSpace {
+            //     div {
+            //         // width: calc(200px - 3px);
+            //     }
+            // }
             &.OccupancyLoad {
                 div {
                     display: block;

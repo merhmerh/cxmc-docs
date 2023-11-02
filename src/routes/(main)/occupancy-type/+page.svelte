@@ -8,8 +8,6 @@ let ot = data.ot;
 let list = ot,
     searchbar;
 
-console.log(list.map((x) => x.occupancyType));
-
 function filter() {
     resetFilter();
 

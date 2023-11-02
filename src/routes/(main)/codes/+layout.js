@@ -1,4 +1,4 @@
-import rulesJSON from "./rules.json";
+import rulesJSON from "../api/ifcsg/get-code/rules.json";
 import { rules } from "./rules.store";
 
 export function load() {

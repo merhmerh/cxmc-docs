@@ -10,11 +10,6 @@ for (const item of comp) {
     if (field.Status && field.Status.match(/not\sused|removed/i)) {
         continue;
     }
-
-    // if (field.Beta !== true) {
-    //     continue;
-    // }
-
     ics.push(field["Identified Component"])
 }
 
@@ -209,7 +204,7 @@ for (const { fields: f } of rule) {
     }
 }
 
-fs.writeFileSync('./../src/routes/(main)/codes/rules.json', JSON.stringify(rules, null, 2))
+fs.writeFileSync('./../src/routes/(main)/api/ifcsg/get-code/rules.json', JSON.stringify(rules, null, 2))
 
 
 console.log('end');

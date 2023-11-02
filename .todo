@@ -13,6 +13,6 @@ Bugs:
     ☐ Redirect to 404 if user enter non-beta page
     ☐ area requirement images loads very slow (Will need to serve the image directly from the website / db storage)
     ☐ Some identified component in Identified Component page still does not have gateway.
-    ☐ Driveway does not have IfcData in identified Component page
+    ✔ Driveway does not have IfcData in identified Component page @done(23-11-02 15:55)
 
 Archive:

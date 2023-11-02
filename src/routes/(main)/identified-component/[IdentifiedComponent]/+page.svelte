@@ -413,13 +413,19 @@ h3 {
                 width: 80px;
             }
             td.code {
-                width: 200px;
+                width: 250px;
             }
 
             td.chapters {
                 width: 1000px;
                 padding: 0;
+                position: relative;
                 div.chapter {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
                     padding: 0;
                     gap: 0;
                     .row {

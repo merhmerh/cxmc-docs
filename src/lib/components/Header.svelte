@@ -39,8 +39,8 @@ let showMobileNav;
         {#if role !== "beta"}
             <Switch
                 bind:isChecked={$beta}
-                on:toggle={() => {
-                    $beta = !$beta;
+                on:change={() => {
+                    localStorage.setItem("beta", $beta);
                 }}><strong>Beta</strong></Switch>
         {/if}
     </div>
