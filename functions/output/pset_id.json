@@ -192,7 +192,7 @@
         "recsTV4DU2TW4wnJs",
         "reczbKBkNs0qsKXhj"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean];\nThermalTransmittance [Thermal Transmittance];\nCombustible [Boolean];\nFireRating [Label];\nStatus [Label]",
+      "Properties [Data Type]": "ThermalTransmittance [Thermal Transmittance];\nCombustible [Boolean];\nFireRating [Label];\nStatus [Label]",
       "Parameter Value (Actual)": "EXISTING (Status);\nTEMPORARY (Status);\nNEW (Status)",
       "IFC4 Entities": [
         "IfcSlab"
@@ -504,7 +504,7 @@
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "DOUBLE T SLAB (TypeDesignatorFunction);\nHOLLOW CORE (TypeDesignator)",
+      "Parameter Value (Sample)": "DOUBLE T SLAB (TypeDesignator; Function);\nHOLLOW CORE (TypeDesignator)",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -1725,7 +1725,6 @@
         "rec3qdTMhbGOyRNlO",
         "recpoCDpSimFZEDRY"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean]",
       "IFC4 Entities": [
         "IfcRailing"
       ],
@@ -2114,7 +2113,7 @@
         "recDpPEp31wHG0dkE",
         "recEMDiBVJwaVa29t"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean];\nFireExit [Boolean];\nFireRating [Label];\nCombustible [Boolean]",
+      "Properties [Data Type]": "FireExit [Boolean];\nFireRating [Label];\nCombustible [Boolean]",
       "IFC4 Entities": [
         "IfcStair"
       ],
@@ -3374,7 +3373,7 @@
         "recImUqlMqXqxfBWZ",
         "recf7Tumu689VCJwo"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean];\nFireRating [Label];\nCombustible [Boolean]",
+      "Properties [Data Type]": "FireRating [Label];\nCombustible [Boolean]",
       "IFC4 Entities": [
         "IfcBeam"
       ],
@@ -4768,7 +4767,7 @@
         "recwmsaGWSd1DoqmZ"
       ],
       "Properties [Data Type]": "AGF_BonusGFAType [Label];\nAGF_SupportingFacility [Label];\nAGF_DevelopmentUse [Label];\nAGF_BuildingTypology [Label];\nAGF_Name [Label];\nAGF_Note [Label];\nAGF_UnitNumber [Label];\nAGF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "RESIDENTIAL (LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUseAVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUseAVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUseAVF_DevelopmentUse);\nROAD (AGF_DevelopmentUseAVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUseAVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUseAVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUseAVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUseAVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUseAVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUseAVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_BuildingTypology);\nORNAMENTAL BIRD FARM (AGF_BuildingTypology);\nORNAMENTAL FISH FARM (AGF_BuildingTypology);\nPLANT NURSERY (AGF_BuildingTypology);\nPOULTRY HATCHERY (AGF_BuildingTypology);\nPOULTRY FARM (AGF_BuildingTypology);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name)",
+      "Parameter Value (Actual)": "RESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nROAD (AGF_DevelopmentUse; AVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_BuildingTypology);\nORNAMENTAL BIRD FARM (AGF_BuildingTypology);\nORNAMENTAL FISH FARM (AGF_BuildingTypology);\nPLANT NURSERY (AGF_BuildingTypology);\nPOULTRY HATCHERY (AGF_BuildingTypology);\nPOULTRY FARM (AGF_BuildingTypology);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name)",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -5812,7 +5811,7 @@
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "POWER FLOAT CONCRETE (FinishType);\nCEMENT SCREED (FinishType);\nTERRACOTTA (FinishType);\nCLAY TILES (FinishType);\nCEMENT TERRAZZO (FinishType);\nMOSAIC (FinishType);\nONE-WAY (SlabType);\nPRECAST (ConstructionMethod);\nPREFABRICATED (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nDOUBLE T SLAB (TypeDesignatorFunction);\nLEDGE (Function);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nPT BEAM (ConstructionMethod);\n100 kg (Weight)",
+      "Parameter Value (Sample)": "POWER FLOAT CONCRETE (FinishType);\nCEMENT SCREED (FinishType);\nTERRACOTTA (FinishType);\nCLAY TILES (FinishType);\nCEMENT TERRAZZO (FinishType);\nMOSAIC (FinishType);\nONE-WAY (SlabType);\nPRECAST (ConstructionMethod);\nPREFABRICATED (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nDOUBLE T SLAB (TypeDesignator; Function);\nLEDGE (Function);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nPT BEAM (ConstructionMethod);\n100 kg (Weight)",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -6245,7 +6244,7 @@
         "rec2tNoVXYt7n4Npc"
       ],
       "Properties [Data Type]": "AVF_AreaType [Label];\nAVF_BonusGFAType [Label];\nAVF_DetailedUse [Label];\nAVF_DevelopmentUse [Label];\nAVF_Name [Label];\nAVF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "BUSINESS PARK (AGF_DevelopmentUseAVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nROAD (AGF_DevelopmentUseAVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESIDENTIAL (LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUseAVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUseAVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUseAVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUseAVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUseAVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUseAVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUseAVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUseAVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUseAVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUseAVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUseAVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse);\nPARK (AGF_DevelopmentUseAVF_DevelopmentUse)",
+      "Parameter Value (Actual)": "BUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nROAD (AGF_DevelopmentUse; AVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPARK (AGF_DevelopmentUse; AVF_DevelopmentUse)",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -6322,7 +6321,7 @@
         "recm8ce4jWDtmtYt4",
         "recyBmT9i8dLRPcG7"
       ],
-      "Properties [Data Type]": "FireExit [Boolean];\nIsExternal [Boolean]",
+      "Properties [Data Type]": "FireExit [Boolean]",
       "IFC4 Entities": [
         "IfcRamp"
       ],
@@ -6399,7 +6398,7 @@
         "recTo4Zc8kXsZBXeD",
         "recgix9E5l5xEb4yb"
       ],
-      "Properties [Data Type]": "PubliclyAccessible [Boolean];\nIsExternal [Boolean]",
+      "Properties [Data Type]": "PubliclyAccessible [Boolean]",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -6712,7 +6711,7 @@
         "rec6uyVwzybwJU6Ua",
         "recgmKoeO4COp2DD2"
       ],
-      "Properties [Data Type]": "ThermalTransmittance [Thermal Transmittance];\nIsExternal [Boolean];\nFireRating [Label]",
+      "Properties [Data Type]": "ThermalTransmittance [Thermal Transmittance];\nFireRating [Label]",
       "IFC4 Entities": [
         "IfcCurtainWall"
       ],
@@ -7018,6 +7017,8 @@
         "recgJsXeSP1e1oRN7",
         "reciPJn0U1aY1KWzL"
       ],
+      "Properties [Data Type]": "Status [Label]",
+      "Parameter Value (Actual)": "ABANDONED (Status);\nNEW (Status);\nEXISTING (Status)",
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
       ],
@@ -7291,7 +7292,7 @@
         "reclOPa9uP0wSOKq1",
         "recAIHa6hSTOlVYoN"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean];\nCombustible [Boolean];\nFireRating [Label];\nStatus [Label]",
+      "Properties [Data Type]": "Combustible [Boolean];\nFireRating [Label];\nStatus [Label]",
       "Parameter Value (Actual)": "EXISTING (Status);\nTEMPORARY (Status);\nNEW (Status)",
       "IFC4 Entities": [
         "IfcColumn"
@@ -7999,7 +8000,7 @@
         "rec7UavucN6nPFRf1",
         "recrhoNEGJIsqUvSw"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean];\nStatus [Label];\nFireRating [Label];\nCombustible [Boolean];\nThermalTransmittance [Thermal Transmittance];\nLoadBearing [Boolean]",
+      "Properties [Data Type]": "Status [Label];\nFireRating [Label];\nCombustible [Boolean];\nThermalTransmittance [Thermal Transmittance];\nLoadBearing [Boolean]",
       "Parameter Value (Actual)": "DEMOLISHED (Status);\nEXISTING (Status);\nNEW (Status)",
       "IFC4 Entities": [
         "IfcWall"

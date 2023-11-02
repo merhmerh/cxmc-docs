@@ -1,5 +1,21 @@
 [
   {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+    "clauseNumber": "3.2.2",
+    "clause": "(c) The distance between manholes shall not be more than 120m.",
+    "ruleGroup": "recTsayEue6hIqdeU",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Manhole",
+      "Inspection Chamber",
+      "Pipe Segment",
+      "Slab",
+      "Sewerage System"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Headroom and Ceiling Height: Headroom",
@@ -35,6 +51,36 @@
     "gateway": "Construction",
     "identifiedComponents": [
       "Area"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Planning Considerations: Structures over Sewer",
+    "clauseNumber": "1.2.4 ",
+    "clause": "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+    "ruleGroup": "recDO1IlZhN1p6ePZ",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Pipe Segment",
+      "Boundary wall/ Boundary fence",
+      "Drain",
+      "Footpath",
+      "Sanitary System",
+      "Sewerage System",
+      "Manhole",
+      "Planting Trough",
+      "Parking Lot",
+      "Slab",
+      "Inspection Chamber",
+      "Site Boundary",
+      "Planting Area",
+      "Green Verge",
+      "Ceiling",
+      "Road",
+      "Trench",
+      "Lamp Post",
+      "Culvert"
     ]
   },
   {
@@ -139,6 +185,52 @@
       "Stair",
       "Stair Flight",
       "Railing"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Planning Considerations: Structures over Sewer",
+    "clauseNumber": "1.2.4 ",
+    "clause": "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+    "ruleGroup": "recDO1IlZhN1p6ePZ",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Pipe Segment",
+      "Boundary wall/ Boundary fence",
+      "Drain",
+      "Footpath",
+      "Sanitary System",
+      "Sewerage System",
+      "Manhole",
+      "Planting Trough",
+      "Parking Lot",
+      "Slab",
+      "Inspection Chamber",
+      "Site Boundary",
+      "Planting Area",
+      "Green Verge",
+      "Ceiling",
+      "Road",
+      "Trench",
+      "Lamp Post",
+      "Culvert"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+    "clauseNumber": "3.2.2",
+    "clause": "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+    "ruleGroup": "recTsayEue6hIqdeU",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Manhole",
+      "Inspection Chamber",
+      "Pipe Segment",
+      "Slab",
+      "Sewerage System"
     ]
   },
   {
@@ -274,6 +366,22 @@
     ]
   },
   {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+    "clauseNumber": "3.2.2",
+    "clause": "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+    "ruleGroup": "recTsayEue6hIqdeU",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Manhole",
+      "Inspection Chamber",
+      "Pipe Segment",
+      "Slab",
+      "Sewerage System"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Safety from Falling: Height of Barrier",
@@ -376,6 +484,21 @@
     "identifiedComponents": [
       "Parking Lot",
       "Space"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Sewerage System Design: Hydraulic Drop Structures",
+    "clauseNumber": "STD.dwg.3.4",
+    "clause": "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm.",
+    "ruleGroup": "rec2fWEhIyOqxizob",
+    "gateway": "Construction",
+    "identifiedComponents": [
+      "Pipe Segment",
+      "Manhole",
+      "Sewerage System",
+      "Inspection Chamber"
     ]
   },
   {
@@ -607,7 +730,7 @@
     "gateway": "Design,Construction",
     "identifiedComponents": [
       "Space",
-      "Driveway",
+      "Road",
       "Parking Lot",
       "Ramp",
       "Hump"
@@ -745,6 +868,52 @@
     ]
   },
   {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+    "clauseNumber": "3.2.2",
+    "clause": "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+    "ruleGroup": "recTsayEue6hIqdeU",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Manhole",
+      "Inspection Chamber",
+      "Pipe Segment",
+      "Slab",
+      "Sewerage System"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Planning Considerations: Structures over Sewer",
+    "clauseNumber": "1.2.4 ",
+    "clause": "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+    "ruleGroup": "recDO1IlZhN1p6ePZ",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Pipe Segment",
+      "Boundary wall/ Boundary fence",
+      "Drain",
+      "Footpath",
+      "Sanitary System",
+      "Sewerage System",
+      "Manhole",
+      "Planting Trough",
+      "Parking Lot",
+      "Slab",
+      "Inspection Chamber",
+      "Site Boundary",
+      "Planting Area",
+      "Green Verge",
+      "Ceiling",
+      "Road",
+      "Trench",
+      "Lamp Post",
+      "Culvert"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Safety from Falling: Height of Barrier",
@@ -812,6 +981,36 @@
       "Stair",
       "Stair Flight",
       "Railing"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Planning Considerations: Structures over Sewer",
+    "clauseNumber": "1.2.4 ",
+    "clause": "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB.",
+    "ruleGroup": "recDO1IlZhN1p6ePZ",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Pipe Segment",
+      "Boundary wall/ Boundary fence",
+      "Drain",
+      "Footpath",
+      "Sanitary System",
+      "Sewerage System",
+      "Manhole",
+      "Planting Trough",
+      "Parking Lot",
+      "Slab",
+      "Inspection Chamber",
+      "Site Boundary",
+      "Planting Area",
+      "Green Verge",
+      "Ceiling",
+      "Road",
+      "Trench",
+      "Lamp Post",
+      "Culvert"
     ]
   },
   {
@@ -885,6 +1084,22 @@
       "Stair Flight",
       "Fixed Seating",
       "Building"
+    ]
+  },
+  {
+    "agency": "PUB",
+    "code": "Code of Practice on Sewerage and Sanitary Works",
+    "chapter": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+    "clauseNumber": "3.2.2",
+    "clause": "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining.",
+    "ruleGroup": "recTsayEue6hIqdeU",
+    "gateway": "Design,Construction",
+    "identifiedComponents": [
+      "Manhole",
+      "Inspection Chamber",
+      "Pipe Segment",
+      "Slab",
+      "Sewerage System"
     ]
   },
   {

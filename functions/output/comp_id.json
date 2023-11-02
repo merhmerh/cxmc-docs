@@ -584,9 +584,10 @@
         "rec7zLb08n1VcaY27",
         "recM4iZZ07VdUPSOJ",
         "recucMQk8jptVwCw2",
-        "recqq580K1c5ezb6o",
         "recFQ8hWfsznmoA1j",
-        "rec6kqES5yZ9eN70e"
+        "rec6kqES5yZ9eN70e",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -680,9 +681,10 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch 1",
         "NA",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Combustible [Boolean]; \nFireRating [Label]; \nFlameSpreadClass [Label]; \nMaterial [Label]; \nPerforated [Boolean]; \nThermalTransmittance [Thermal Transmittance]; \nWeight [Real]; \nWeightGroup [Label]",
       "Agency": [
@@ -774,9 +776,10 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -908,30 +911,30 @@
         null
       ],
       "Actual Value (Property)": [
-        "BUSINESS PARK (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "EDUCATIONAL INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "ROAD (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "TRANSPORT FACILITIES (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RESIDENTIAL (LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RESIDENTIAL (NON-LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "CEMETERY (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BUSINESS 1 (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BUSINESS 2 (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "HEALTH & MEDICAL CARE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "CIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BEACH AREA (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "SPORTS AND RECREATION (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RAPID TRANSIT (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "UTILITY (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "AGRICULTURE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "PORT/AIRPORT (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "SPIRAL CONNECTOR (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "WATERBODY (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RESERVE SITE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "HOTEL (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "PLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "OPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "PARK (AGF_DevelopmentUseAVF_DevelopmentUse)"
+        "BUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "EDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "ROAD (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "TRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "CEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "HEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "CIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "SPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "UTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "AGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "PORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "SPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "WATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "HOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "PLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "OPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "PARK (AGF_DevelopmentUse; AVF_DevelopmentUse)"
       ],
       "IFC4 Entity.Sub-Type": "IfcSpace.AREA_VERIFICATION*"
     }
@@ -2221,7 +2224,7 @@
     "id": "rec1YrcOuKzY1O4sf",
     "createdTime": "2023-08-11T02:12:05.000Z",
     "fields": {
-      "Identified Component": "Non-shelter Household Shelter",
+      "Identified Component": "CD Shelter (Non-shelter)",
       "OT KEY (Sub-Type)": [
         "recLjaQSQfKZFBeqC"
       ],
@@ -2233,7 +2236,7 @@
       "IFC4 Sub Type": [
         "NONSHELTERHOUSEHOLDSHELTER*"
       ],
-      "CO KEY": "NON_NON_877",
+      "CO KEY": "CD _NON_877",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
@@ -4155,7 +4158,6 @@
         "recP352mf09jE48kx",
         "recvf6Ec3G29XcNCI",
         "recyWvmgNqsaVWlQL",
-        "recNrMUepOpIaq4w5",
         "recLOKWGDl14ZOwkq",
         "rec9zjULa5cb4EDJL",
         "recNK6P5VQ5qKcjKQ",
@@ -4651,7 +4653,6 @@
         "Batch X",
         "Batch X",
         "Batch 2",
-        "Batch 1",
         "Batch X",
         "Batch 3",
         "Batch 3",
@@ -5147,7 +5148,6 @@
         "Conservation Guidelines",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Sewerage and Sanitary Works",
-        "Code of Practice on Sewerage and Sanitary Works",
         "SS636 Code of Practice for Water Services",
         "SS636 Code of Practice for Water Services",
         "Code of Practice for Fire Precautions in Building",
@@ -5283,7 +5283,14 @@
       "Entity Key": [
         "recbD6dHNzV92X01s"
       ],
+      "Map to Rule": [
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
+      ],
       "Status": "Required (New)",
+      "Beta": true,
       "IFC4 Sub Type": [
         "TRENCH*"
       ],
@@ -5294,12 +5301,28 @@
       "Subtype or IFC": [
         "TRENCH*"
       ],
-      "Agency": [],
+      "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
+      ],
+      "Agency": [
+        "PUB"
+      ],
+      "Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "Discipline (Entity Key)": [
         "ARC",
         "MEP"
       ],
-      "Regulatory Codes and Standards": [],
+      "Regulatory Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.TRENCH*"
     }
   },
@@ -6070,7 +6093,9 @@
         "recWznENziEHKIvqU",
         "recYufpnnvdSZmXkp",
         "recgMYIzJYuAJIDzR",
-        "reclv72ivKVjWE5pT"
+        "reclv72ivKVjWE5pT",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -6095,12 +6120,15 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "PerforationDiameter [Length]; \nPorosity [Label]",
       "Agency": [
         "SCDF",
-        "URA"
+        "URA",
+        "BCA"
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
@@ -6114,7 +6142,9 @@
         "Envelope Control Guidelines",
         "Envelope Control Guidelines",
         "Envelope Control Guidelines",
-        "Urban Design Guidelines"
+        "Urban Design Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -6123,7 +6153,8 @@
         "Code of Practice for Fire Precautions in Building",
         "Urban Design Guidelines",
         "Conservation Guidelines",
-        "Envelope Control Guidelines"
+        "Envelope Control Guidelines",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "50% (Porosity)"
@@ -7413,7 +7444,6 @@
         "recMmBl9NVjtzVKJm",
         "recXobauZbcfPGm7I",
         "recrZFSICmjXjfAsn",
-        "recOLn5erYzoZxm6O",
         "recgQI87pWO31dBcV",
         "recgEd0gyUSNAICRq",
         "recDyi75UOhtKMkvn",
@@ -7437,7 +7467,6 @@
         "recZ7B5ta8wL6Ef1I",
         "receLn39FyQluTYqa",
         "rectz0tgfwJKnWDCD",
-        "recFwzC8AMVrHQEXC",
         "recGSpyQOJwGsj1UH",
         "recyPrQ1MRMXqOw99",
         "recu8vLtt357uOZt0",
@@ -7630,7 +7659,6 @@
         "rec0VRpTYcMtmoObj",
         "recrlU9wWrhi8nLg9",
         "rec9nSj072zmrn7Q2",
-        "recqq580K1c5ezb6o",
         "rec5Sb7YBZZvEsZVQ",
         "recxQhsbG5gMNjrpS",
         "reca4CqPBevInlVkf",
@@ -8682,7 +8710,6 @@
         "Batch X",
         "Batch 1",
         "Batch 3",
-        "Batch 1",
         "Batch X",
         "Batch X",
         "Batch X",
@@ -8706,7 +8733,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 3",
-        "Batch 1",
         "Batch 3",
         "Batch 1",
         "Batch 3",
@@ -8899,7 +8925,6 @@
         "Batch X",
         "Batch X",
         "NA",
-        "Batch 1",
         "Batch 3",
         "Batch 3",
         "Batch X",
@@ -8923,7 +8948,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nCorrectionFactor [Real]; \nFinishType [Label]; \nFireRating [Label]; \nFireStop [Boolean]; \nFlameSpreadClass [Label]; \nHeight [Length]; \nHorizontalRebar [Label]; \nIsExternal [Boolean]; \nIsPartyWall [Boolean]; \nLength [Length]; \nLoadBearing [Boolean]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMechanicalConnectionType [Label]; \nPrefabricatedReinforcementCage [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nShelterUsage [Boolean]; \nStirrups [Label]; \nStirrupsType [Label]; \nThermalTransmittance [Thermal Transmittance]; \nThickness [Length]; \nVerticalRebar [Label]; \nWaterSealant [Boolean]; \nWatertight [Boolean]; \nBuildingEnvelopeWallSetback [Real]; \nArrangementType [Label]",
+      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nCorrectionFactor [Real]; \nFinishType [Label]; \nFireRating [Label]; \nFireStop [Boolean]; \nFlameSpreadClass [Label]; \nHeight [Length]; \nHorizontalRebar [Label]; \nIsPartyWall [Boolean]; \nLength [Length]; \nLoadBearing [Boolean]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMechanicalConnectionType [Label]; \nPrefabricatedReinforcementCage [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nShelterUsage [Boolean]; \nStirrups [Label]; \nStirrupsType [Label]; \nThermalTransmittance [Thermal Transmittance]; \nThickness [Length]; \nVerticalRebar [Label]; \nWaterSealant [Boolean]; \nWatertight [Boolean]; \nBuildingEnvelopeWallSetback [Real]; \nArrangementType [Label]",
       "Agency": [
         "SCDF",
         "URA",
@@ -9950,7 +9975,6 @@
         "Conservation Guidelines",
         "Technical Requirements for Storey Shelters",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
@@ -9974,7 +9998,6 @@
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Residential Handbook (Flats and Condos)",
         "Code of Practice for Fire Precautions in Building",
@@ -10167,7 +10190,6 @@
         "Envelope Control Guidelines",
         "Envelope Control Guidelines",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Conservation Guidelines",
@@ -11623,7 +11645,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nBeamCage [Boolean]; \nBeamSpanType [Label]; \nBottomLeft [Label]; \nBottomMiddle [Label]; \nBottomRight [Label]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nDepth [Length]; \nExternalReference [Label]; \nFireRating [Label]; \nIsExternal [Boolean]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMechanicalConnectionType [Label]; \nMemberSection [Label]; \nPrefabricatedReinforcementCage [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSectionFabricationMethod [Label]; \nSideBar [Label]; \nStirrupsLeft [Label]; \nStirrupsMiddle [Label]; \nStirrupsRight [Label]; \nStirrupsTypeLeft [Label]; \nStirrupsTypeMiddle [Label]; \nStirrupsTypeRight [Label]; \nTopLeft [Label]; \nTopMiddle [Label]; \nTopRight [Label]; \nWidth [Length]",
+      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nBeamCage [Boolean]; \nBeamSpanType [Label]; \nBottomLeft [Label]; \nBottomMiddle [Label]; \nBottomRight [Label]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nDepth [Length]; \nExternalReference [Label]; \nFireRating [Label]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMechanicalConnectionType [Label]; \nMemberSection [Label]; \nPrefabricatedReinforcementCage [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSectionFabricationMethod [Label]; \nSideBar [Label]; \nStirrupsLeft [Label]; \nStirrupsMiddle [Label]; \nStirrupsRight [Label]; \nStirrupsTypeLeft [Label]; \nStirrupsTypeMiddle [Label]; \nStirrupsTypeRight [Label]; \nTopLeft [Label]; \nTopMiddle [Label]; \nTopRight [Label]; \nWidth [Length]",
       "Agency": [
         "SCDF",
         "URA",
@@ -13327,7 +13349,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nBottomDistribution [Label]; \nBottomMain [Label]; \nCombustible [Boolean]; \nConnectionDetailsBottom [Label]; \nConnectionDetailsTop [Label]; \nConnectionTypeBottom [Label]; \nConnectionTypeTop [Label]; \nConstructionMethod [Label]; \nFireExit [Boolean]; \nFireRating [Label]; \nFunction [Label]; \nIsExternal [Boolean]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMemberSection [Label]; \nPerforated [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSectionFabricationMethod [Label]; \nThickness [Length]; \nTopDistribution [Label]; \nTopMain [Label]; \nWidth [Length]",
+      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nBottomDistribution [Label]; \nBottomMain [Label]; \nCombustible [Boolean]; \nConnectionDetailsBottom [Label]; \nConnectionDetailsTop [Label]; \nConnectionTypeBottom [Label]; \nConnectionTypeTop [Label]; \nConstructionMethod [Label]; \nFireExit [Boolean]; \nFireRating [Label]; \nFunction [Label]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMemberSection [Label]; \nPerforated [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSectionFabricationMethod [Label]; \nThickness [Length]; \nTopDistribution [Label]; \nTopMain [Label]; \nWidth [Length]",
       "Agency": [
         "SCDF",
         "URA",
@@ -15214,7 +15236,6 @@
         "recI1zSd3hQM7JgPl",
         "recdU07jjkAqP7N56",
         "recrIfJANvD3fYbYj",
-        "recPKBILdwiJTMRta",
         "rec1Z84g9bjItilu3",
         "recfgJ9JbBybpc0ip",
         "reccoMwvrCzau4TgM",
@@ -15234,7 +15255,9 @@
         "recuEMGEuNoPmLmb0",
         "recE3t5fKjMD5Sc1E",
         "rec3N1aBNsCHLqtbM",
-        "recRAr1QatG1AOINt"
+        "recRAr1QatG1AOINt",
+        "recRC6f1PDuWgP8fG",
+        "recPKBILdwiJTMRta"
       ],
       "Status": "Required",
       "Beta": true,
@@ -15346,7 +15369,6 @@
         "Batch X",
         "Batch 4",
         "Batch 2",
-        "Batch 1",
         "NA",
         "Batch 2",
         "NA",
@@ -15366,9 +15388,11 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "ConstructionMethod [Label]; \nFireRating [Label]; \nFireStop [Boolean]; \nIsExternal [Boolean]; \nLS_NaturalComponentElement [Boolean]; \nMaterial [Label]; \nShadingCoefficient_Glass [Real]; \nThermalTransmittance [Thermal Transmittance]; \nIsLaminated [Boolean]",
+      "Properties [Data Type]": "ConstructionMethod [Label]; \nFireRating [Label]; \nFireStop [Boolean]; \nLS_NaturalComponentElement [Boolean]; \nMaterial [Label]; \nShadingCoefficient_Glass [Real]; \nThermalTransmittance [Thermal Transmittance]; \nIsLaminated [Boolean]",
       "Agency": [
         "URA",
         "BCA",
@@ -15475,7 +15499,6 @@
         "Conservation Guidelines",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Urban Design Guidelines",
         "Urban Design Guidelines",
         "Approved Document - Acceptable Solutions",
@@ -15486,6 +15509,8 @@
         "Code of Practice on Buildability",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Surface Water Drainage",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -16145,7 +16170,6 @@
         "reciQz2Up6kubh48O",
         "reciRhJ23UO275cRE",
         "recpx7Ve7CLwttoiT",
-        "recPKBILdwiJTMRta",
         "reccoMwvrCzau4TgM",
         "reclH3n19iRTIRsr0",
         "recMqpiDm8Bl31ejN",
@@ -16155,7 +16179,6 @@
         "rec2OBptHa4ijmA21",
         "recS0Hjz5Wutmx8zg",
         "recpSMeJcB1cyCG6r",
-        "recRC6f1PDuWgP8fG",
         "recVRrbUnJilT8sGU",
         "rec0NbO4NlfYHbXPh",
         "recqXSDG61TVmXiey",
@@ -16185,16 +16208,13 @@
         "recCn6taSfGz3ToV1",
         "recvaZ5iEZmid3BAG",
         "recZ1fNHzJmd0A8wq",
-        "recKnZdFtDDGIFp7q",
         "recznESpOGynY2t84",
-        "recOLn5erYzoZxm6O",
         "recHvuyplkxJr2WZn",
         "recQ29aFsoaZICrUT",
         "recMuIuC7wUFKzS67",
         "recdLQe7DplH7sVok",
         "rec1EQbnhnSOOxbKd",
         "rec5huz1nrEUgr7RX",
-        "recFwzC8AMVrHQEXC",
         "rec9uXKrUmiPSXvDH",
         "rec03UZb3fl7vJ8fe",
         "recG5Z7OYFVr7e4xk",
@@ -16304,7 +16324,10 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Required",
       "Beta": true,
@@ -16604,7 +16627,6 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch 1",
         "NA",
         "NA",
         "Batch 1",
@@ -16614,7 +16636,6 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch 1",
         "Batch X",
         "Batch X",
         "Batch X",
@@ -16644,14 +16665,11 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch 1",
         "NA",
-        "Batch 1",
         "NA",
         "Batch X",
         "Batch 4",
         "Batch 4",
-        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 2",
@@ -16758,6 +16776,9 @@
         "NA",
         "NA",
         "Batch 3",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -17061,7 +17082,6 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Approved Document - Acceptable Solutions",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
@@ -17070,7 +17090,6 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Approved Document - Acceptable Solutions",
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
@@ -17100,16 +17119,13 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Approved Document - Acceptable Solutions",
         "Conservation Guidelines",
-        "Approved Document - Acceptable Solutions",
         "Conservation Guidelines",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Conservation Guidelines",
@@ -17214,6 +17230,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Code of Practice on Buildability",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -17278,7 +17297,14 @@
       "Entity Key": [
         "recbD6dHNzV92X01s"
       ],
+      "Map to Rule": [
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
+      ],
       "Status": "Required (New)",
+      "Beta": true,
       "IFC4 Sub Type": [
         "SURFACEDRAIN*"
       ],
@@ -17289,12 +17315,28 @@
       "Subtype or IFC": [
         "SURFACEDRAIN*"
       ],
-      "Agency": [],
+      "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
+      ],
+      "Agency": [
+        "PUB"
+      ],
+      "Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "Discipline (Entity Key)": [
         "ARC",
         "MEP"
       ],
-      "Regulatory Codes and Standards": [],
+      "Regulatory Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.SURFACEDRAIN*"
     }
   },
@@ -20045,7 +20087,15 @@
       "IP Key (Component_Parameter)": [
         "recf84EfJWroMYrNS"
       ],
+      "Map to Rule": [
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recVrzpFZUg366Kzc"
+      ],
       "Status": "Required (New)",
+      "Beta": true,
       "IFC4 Sub Type": [
         "SITEBOUNDARY*"
       ],
@@ -20056,14 +20106,34 @@
       "Subtype or IFC": [
         "SITEBOUNDARY*"
       ],
+      "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
+      ],
       "Properties [Data Type]": "BroadLandUse [Label]",
-      "Agency": [],
+      "Agency": [
+        "PUB",
+        "NParks"
+      ],
+      "Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+      ],
       "Discipline (Entity Key)": [
         "ARC",
         "External Works",
         "MEP"
       ],
-      "Regulatory Codes and Standards": [],
+      "Regulatory Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+      ],
       "IFC4 Entity.Sub-Type": "IfcGeographicElement.SITEBOUNDARY*"
     }
   },
@@ -20249,7 +20319,6 @@
         "recy6A6gGncGan4dy",
         "recvcGs5B37JJ89Wt",
         "recY6B29zRfALddx5",
-        "rec5IMI5Qnigg7hwD",
         "rectVgqXNCeXme2L2",
         "recpZjfdLhEO5bXE6",
         "recRbdoZBKw7vPf3D",
@@ -21795,7 +21864,6 @@
         "NA",
         "NA",
         "NA",
-        "Batch 1",
         "Batch 4",
         "Batch 4",
         "Batch 2",
@@ -23295,9 +23363,9 @@
       "Agency": [
         "SCDF",
         "URA",
-        "NParks",
         "NEA",
         "PUB",
+        "NParks",
         "BCA"
       ],
       "Codes and Standards": [
@@ -23338,7 +23406,6 @@
         "Conservation Guidelines",
         "Envelope Control Guidelines",
         "Envelope Control Guidelines",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Urban Design Guidelines",
@@ -24849,10 +24916,10 @@
         "Hotel Handbook",
         "Conservation Guidelines",
         "Envelope Control Guidelines",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "SS 593: Code of Practice for Pollution Control (COPPC)",
         "Code of Practice on Surface Water Drainage",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Sewerage and Sanitary Works",
         "Business 1 (Industrial) Handbook",
         "Business 2 (Industrial) Handbook",
@@ -25151,7 +25218,14 @@
       "Entity Key": [
         "recbD6dHNzV92X01s"
       ],
+      "Map to Rule": [
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
+      ],
       "Status": "Required (New)",
+      "Beta": true,
       "IFC4 Sub Type": [
         "LAMPPOST*"
       ],
@@ -25162,12 +25236,28 @@
       "Subtype or IFC": [
         "LAMPPOST*"
       ],
-      "Agency": [],
+      "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
+      ],
+      "Agency": [
+        "PUB"
+      ],
+      "Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "Discipline (Entity Key)": [
         "ARC",
         "MEP"
       ],
-      "Regulatory Codes and Standards": [],
+      "Regulatory Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.LAMPPOST*"
     }
   },
@@ -25350,7 +25440,14 @@
       "Entity Key": [
         "recbD6dHNzV92X01s"
       ],
+      "Map to Rule": [
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
+      ],
       "Status": "Required (New)",
+      "Beta": true,
       "IFC4 Sub Type": [
         "STORMWATERDRAIN*"
       ],
@@ -25361,12 +25458,28 @@
       "Subtype or IFC": [
         "STORMWATERDRAIN*"
       ],
-      "Agency": [],
+      "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
+      ],
+      "Agency": [
+        "PUB"
+      ],
+      "Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "Discipline (Entity Key)": [
         "ARC",
         "MEP"
       ],
-      "Regulatory Codes and Standards": [],
+      "Regulatory Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.STORMWATERDRAIN*"
     }
   },
@@ -26607,8 +26720,7 @@
         "reca4F9xPP3fBRAa8",
         "recxwDYYZMwnaCyaG",
         "rectPAKRwV8ZXoenB",
-        "recoBCXEOkuggeM2G",
-        "recRC6f1PDuWgP8fG"
+        "recoBCXEOkuggeM2G"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -26637,8 +26749,7 @@
         "Batch 1",
         "NA",
         "Batch 1",
-        "Batch 2",
-        "Batch 1"
+        "Batch 2"
       ],
       "Properties [Data Type]": "ExternalReference [Label]; \nHeight [Length]; \nLateralLoad [Label]; \nMaterial [Label]",
       "Agency": [
@@ -26663,8 +26774,7 @@
         "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Code of Practice on Surface Water Drainage",
-        "Approved Document - Acceptable Solutions"
+        "Code of Practice on Surface Water Drainage"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -28459,7 +28569,6 @@
         "recgehOfi7X8qwyLb",
         "rec5F3uKfp3MW8IZE",
         "recSGo2b2B9mRkNOe",
-        "recVrzpFZUg366Kzc",
         "recEEAhPqIf8QOUGi",
         "recEQMREoOv5eDN6b",
         "recQiCKMfGLi66niZ",
@@ -28738,7 +28847,6 @@
         "recVdcGSmcNWrthNN",
         "recp95x5M6WnK7CqB",
         "recEonL0ircLFpeqA",
-        "recIVqoolhxMVWvv4",
         "recu7Rb4elihIh171",
         "recgOkBlskVusG5du",
         "rec63IwS0urGnRkfX",
@@ -28785,7 +28893,6 @@
         "recrTep8Fr65PKTPp",
         "recOl983VhlMd5ejf",
         "rec5Tvl3DFqq4SW4S",
-        "recqq580K1c5ezb6o",
         "recCgbaUbmYD6FUIA",
         "recvIrJUKqP1TWSiP",
         "recrhgh0qkA15Lbqu",
@@ -29613,7 +29720,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "Batch X",
         "Batch 3",
         "Batch 1",
@@ -29889,7 +29995,6 @@
         "Batch 2",
         "Batch 4",
         "Batch 4",
-        "Batch 1",
         "Batch 4",
         "Batch 1",
         "Batch 2",
@@ -29936,7 +30041,6 @@
         "Batch X",
         "NA",
         "Batch 4",
-        "Batch 1",
         "NA",
         "NA",
         "Batch 1",
@@ -30763,7 +30867,6 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Buildability",
         "Code of Practice on Buildability",
@@ -31039,7 +31142,6 @@
         "Urban Design Guidelines",
         "Residential Handbooks (Strata Landed Housing)",
         "Residential Handbooks (Strata Landed Housing)",
-        "Approved Document - Acceptable Solutions",
         "Code of Accessibility in the Built Environment",
         "Approved Document - Acceptable Solutions",
         "Code of Accessibility in the Built Environment",
@@ -31086,7 +31188,6 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Code of Accessibility in the Built Environment",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Approved Document - Acceptable Solutions",
@@ -31541,7 +31642,7 @@
     "id": "recCvrpgJOtusMAf5",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Household Shelter",
+      "Identified Component": "CD Shelter",
       "OT KEY (Sub-Type)": [
         "reckOLr1bH3OPhX1F"
       ],
@@ -31567,7 +31668,7 @@
       "IFC4 Sub Type": [
         "HOUSEHOLDSHELTER*"
       ],
-      "CO KEY": "HOU_HOU_470",
+      "CO KEY": "CD _HOU_470",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
@@ -31989,7 +32090,6 @@
         "rechDCgBOWnXZnL6H",
         "reciEssDRrLr05566",
         "rec4rZXrJg9PX7zFD",
-        "recNrMUepOpIaq4w5",
         "recDLZsD9VoIFEDpu",
         "recOzZKAkmZV1ajNq",
         "recWoT3hwoPL59GIQ",
@@ -31998,12 +32098,18 @@
         "recMGBdTa0YVLexbT",
         "recUU5HDvSOxR9kij",
         "recINT3WVz2mZKH9H",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recNrMUepOpIaq4w5",
         "rec09q8PIl48avsfY",
         "rectLgVhy6p0tRXAX",
         "rec9gqSRMP4vONxXZ",
         "recj9wraDqI4DXEzG"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "MANHOLE"
       ],
@@ -32043,7 +32149,6 @@
         "Batch 1",
         "Batch X",
         "Batch 1",
-        "Batch 1",
         "NA",
         "Batch 1",
         "Batch X",
@@ -32055,9 +32160,14 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Depth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nInvertLevel [Real]; \nTopLevel [Real]; \nWithBackdrop [Boolean]; \nWithVortexDrop [Boolean]; \nWithTumblingBay [Boolean]; \nVortexDropType [Label]",
+      "Properties [Data Type]": "Depth [Length]; \nDiameter [Length]; \nExternalReference [Label]; \nInvertLevel [Real]; \nStatus [Label]; \nTopLevel [Real]; \nWithBackdrop [Boolean]; \nWithVortexDrop [Boolean]; \nWithTumblingBay [Boolean]; \nVortexDropType [Label]",
       "Agency": [
         "NParks",
         "PUB",
@@ -32094,8 +32204,12 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
-        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice for Fire Precautions in Building",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
@@ -32127,6 +32241,12 @@
         "PUB/WRN/STD/009 (VortexDropType)",
         "QP DESIGN (VortexDropType)"
       ],
+      "Actual Value (Property)": [
+        "ABANDONED (Status)",
+        "NEW (Status)",
+        "EXISTING (Status)"
+      ],
+      "Beta Properties [Data Type]": "Depth [Length]; \nStatus [Label]; \nWithBackdrop [Boolean]; \nWithTumblingBay [Boolean]",
       "IFC4 Entity.Sub-Type": "IfcDistributionChamberElement.MANHOLE"
     }
   },
@@ -32546,9 +32666,14 @@
         "reckqHxgvG2LUFngS",
         "rectw1CMOTFmaXvBq",
         "recXT29bQHEtfgeZT",
-        "recSKlxBua6VxepJZ"
+        "recSKlxBua6VxepJZ",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "CHANNELDRAIN*"
       ],
@@ -32571,7 +32696,11 @@
         "Batch 1",
         "NA",
         "Batch 2",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
         "PUB"
@@ -32588,7 +32717,11 @@
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
-        "Code of Practice on Surface Water Drainage"
+        "Code of Practice on Surface Water Drainage",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -35152,9 +35285,14 @@
         "recfOrUgEeIuadbnb",
         "rechCQaZz91UyLdJd",
         "recjDyXWs5MIdrxK4",
-        "recDwV5oP0PtX42uz"
+        "recDwV5oP0PtX42uz",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "TRENCHDRAIN*"
       ],
@@ -35170,7 +35308,11 @@
         "NA",
         "Batch 3",
         "Batch 1",
-        "NA"
+        "NA",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Material [Label]; \nRemovable [Boolean]; \nWithLiftingFeature [Boolean]",
       "Agency": [
@@ -35181,6 +35323,10 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice for Pneumatic Waste Conveyance System",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works"
       ],
@@ -35912,7 +36058,10 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Required",
       "Beta": true,
@@ -35981,6 +36130,9 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "BarrierFreeAccessibility [Boolean]; \nOperationType [Label]; \nSelfClosing [Boolean]",
@@ -36031,6 +36183,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -36978,6 +37133,11 @@
         "recT3pRUpedH1X9zT",
         "recRsd9Vqa0JvG8is",
         "recOzZKAkmZV1ajNq",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recNrMUepOpIaq4w5",
         "recINT3WVz2mZKH9H",
         "rec09q8PIl48avsfY",
         "rectLgVhy6p0tRXAX",
@@ -36985,6 +37145,7 @@
         "recj9wraDqI4DXEzG"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "NOTDEFINED"
       ],
@@ -37025,6 +37186,11 @@
         "Batch 3",
         "Batch X",
         "Batch X",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -37074,6 +37240,11 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
@@ -37100,6 +37271,7 @@
         "EXISTING (Status)",
         "ABANDONED (Status)"
       ],
+      "Beta Properties [Data Type]": "InnerDiameter [Length]; \nGradient [Label]; \nDemountableStrutureAbovePipe [Boolean]",
       "IFC4 Entity.Sub-Type": "IfcPipeSegment.NOTDEFINED"
     }
   },
@@ -37170,7 +37342,9 @@
         "reczwa3fO6MUZgSFs",
         "recf6w7MhzUaqwDlm",
         "recqcQiiRLFGK9Wqc",
-        "recCkQBP33skPEFLC"
+        "recCkQBP33skPEFLC",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -37188,23 +37362,29 @@
         "Batch 4",
         "Batch 4",
         "Batch 4",
-        "Batch 4"
+        "Batch 4",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
-        "SCDF"
+        "SCDF",
+        "BCA"
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
       ],
       "Regulatory Codes and Standards": [
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Approved Document - Acceptable Solutions"
       ],
       "IFC4 Entity.Sub-Type": "IfcShadingDevice.PARASOL*"
     }
@@ -38723,7 +38903,7 @@
         "4hr (FireRating)",
         "BRICK (FireRating)",
         "TIMBER (FireRating)",
-        "DOUBLE T SLAB (TypeDesignatorFunction)",
+        "DOUBLE T SLAB (TypeDesignator; Function)",
         "LEDGE (Function)",
         "240 L (Length)",
         "2400mm (Length)",
@@ -38739,7 +38919,7 @@
         "FYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade)",
         "500 (ReinforcementSteelGrade)",
         "ONE-WAY (SlabType)",
-        "DOUBLE T SLAB (TypeDesignatorFunction)",
+        "DOUBLE T SLAB (TypeDesignator; Function)",
         "HOLLOW CORE (TypeDesignator)"
       ],
       "Actual Value (Property)": [
@@ -38787,7 +38967,9 @@
         "recH0nXdAT7CwXLob",
         "recX7lHTHprB6ytiK",
         "recTGxedotBQdUxHD",
-        "recLz1xdsUwIbOQbX"
+        "recLz1xdsUwIbOQbX",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -38816,11 +38998,14 @@
         "NA",
         "NA",
         "NA",
-        "NA"
+        "NA",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Spacing [Length]",
       "Agency": [
-        "URA"
+        "URA",
+        "BCA"
       ],
       "Codes and Standards": [
         "Sports and Recreation Handbook",
@@ -38838,7 +39023,9 @@
         "Residential Handbooks (Semi-Detached Houses)",
         "Residential Handbooks (Terrace Houses)",
         "Residential Handbooks (Strata Landed Housing)",
-        "Residential Handbook (Flats and Condos)"
+        "Residential Handbook (Flats and Condos)",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -38852,7 +39039,8 @@
         "Residential Handbooks (Terrace Houses)",
         "Residential Handbooks (Strata Landed Housing)",
         "Conservation Guidelines",
-        "Civic and Community Institution Handbook"
+        "Civic and Community Institution Handbook",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "0.2m/s (Spacing)"
@@ -39616,7 +39804,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "BarrierFreeAccessibility [Boolean]; \nFireExit [Boolean]; \nIsExternal [Boolean]; \nKerbHeight [Length]; \nTransitionRamp [Boolean]",
+      "Properties [Data Type]": "BarrierFreeAccessibility [Boolean]; \nFireExit [Boolean]; \nKerbHeight [Length]; \nTransitionRamp [Boolean]",
       "Agency": [
         "SCDF",
         "PUB",
@@ -39825,7 +40013,9 @@
         "recKLNMD8lVbTvcXV",
         "recEP2YwdFYbRkTGQ",
         "rec2Ru6ppVi2K6OzD",
-        "recsjiIBXxWxbycM3"
+        "recsjiIBXxWxbycM3",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -39856,7 +40046,9 @@
         "NA",
         "Batch 2",
         "Batch 2",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Inclination [Integer]; \nPanelDepth [Length]; \nPanelSpacing [Length]; \nPorosity [Label]; \nShadingDeviceType [Label]",
       "Agency": [
@@ -39882,7 +40074,9 @@
         "Code for Environmental Sustainability of Buildings",
         "Code of Practice for Fire Precautions in Building",
         "Urban Design Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -39892,7 +40086,8 @@
         "Code of Practice for Fire Precautions in Building",
         "Urban Design Guidelines",
         "Envelope Control Guidelines",
-        "Code for Environmental Sustainability of Buildings"
+        "Code for Environmental Sustainability of Buildings",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "50% (Porosity)"
@@ -40460,7 +40655,9 @@
         "recOl7u6IAO0zdP5Y",
         "recGc8hVcSgYK9IbN",
         "rec84go8vMo3Y6kp3",
-        "rectebFlc9k9f9gjJ"
+        "rectebFlc9k9f9gjJ",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -40514,13 +40711,16 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Combustible [Boolean]; \nFireRating [Label]; \nFlameSpreadClass [Label]; \nMaterial [Label]",
       "Agency": [
         "SCDF",
         "NParks",
-        "URA"
+        "URA",
+        "BCA"
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
@@ -40563,7 +40763,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -40571,7 +40773,8 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "4hr (FireRating)",
@@ -40610,7 +40813,9 @@
         "recEBeX3pIId8iVrY",
         "recAIyCxKk4QHRL4e",
         "recKkUodXcdbtD0L9",
-        "rechyA1PRCHFiYJ1N"
+        "rechyA1PRCHFiYJ1N",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -40634,10 +40839,13 @@
         "Batch 1",
         "Batch 2",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Agency": [
-        "URA"
+        "URA",
+        "BCA"
       ],
       "Codes and Standards": [
         "Gross Floor Area Handbook",
@@ -40650,7 +40858,9 @@
         "Sports and Recreation Handbook",
         "Urban Design Guidelines",
         "Gross Floor Area Handbook",
-        "Gross Floor Area Handbook"
+        "Gross Floor Area Handbook",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -40664,7 +40874,8 @@
         "Hotel Handbook",
         "Residential Handbook (Flats and Condos)",
         "Sports and Recreation Handbook",
-        "Urban Design Guidelines"
+        "Urban Design Guidelines",
+        "Approved Document - Acceptable Solutions"
       ],
       "IFC4 Entity.Sub-Type": "IfcShadingDevice.DROPDOWNPANEL*"
     }
@@ -40843,7 +41054,7 @@
     "id": "recI8oEAkdSkuIo7O",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Precast Refuse Chute",
+      "Identified Component": "Refuse Chute",
       "OT KEY (Sub-Type)": [
         "recJQjn8F6Umqv0yt"
       ],
@@ -40864,7 +41075,7 @@
       "IFC4 Sub Type": [
         "REFUSECHUTE*"
       ],
-      "CO KEY": "PRE_REF_471",
+      "CO KEY": "REF_REF_471",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
@@ -41461,7 +41672,6 @@
         "recQvTtjLpsOiIUVV",
         "rec4ELKpSULYo57Ik",
         "recbzbOpqHxHHIXLM",
-        "recPKBILdwiJTMRta",
         "recLsrSbwG2I3wVRD",
         "recjMXL5pRQeVtZDl",
         "recol2hqmqEgFoieb",
@@ -41542,7 +41752,6 @@
         "Batch 3",
         "Batch 3",
         "Batch 3",
-        "Batch 1",
         "Batch 3",
         "Batch 2",
         "Batch 1",
@@ -41552,8 +41761,7 @@
       "Agency": [
         "URA",
         "SCDF",
-        "NParks",
-        "BCA"
+        "NParks"
       ],
       "Codes and Standards": [
         "Residential Handbook (Flats and Condos)",
@@ -41619,7 +41827,6 @@
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Business Park Handbook",
         "Residential Handbook (Flats and Condos)",
@@ -41645,8 +41852,7 @@
         "Urban Design Guidelines",
         "Educational Institution Handbook",
         "Business Park Handbook",
-        "Business 2 (Industrial) Handbook",
-        "Approved Document - Acceptable Solutions"
+        "Business 2 (Industrial) Handbook"
       ],
       "Sample Value (Property)": [
         "HOMOGENOUS (CladdingType)",
@@ -43162,9 +43368,14 @@
         "recF5JGjg7A2ho0Cy",
         "recjEjggB6HNj28br",
         "receHNmhQtChU6KWV",
-        "recP0YWCTaBe4t3QF"
+        "recP0YWCTaBe4t3QF",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
-      "Status": "Pending",
+      "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "CULVERT"
       ],
@@ -43222,6 +43433,10 @@
         "Batch 1",
         "Batch 1",
         "NA",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1"
       ],
@@ -43281,7 +43496,11 @@
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
-        "Code of Practice on Surface Water Drainage"
+        "Code of Practice on Surface Water Drainage",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -43293,7 +43512,8 @@
         "Conservation Guidelines",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Street Work Proposals relating to Development Works",
-        "SS636 Code of Practice for Water Services"
+        "SS636 Code of Practice for Water Services",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Sample Value (Property)": [
         "8000 (Height)",
@@ -43967,7 +44187,6 @@
         "reciw6riXhWsS1sEQ",
         "rec1qJx4GETpdMxEu",
         "recEwnIHYf9JgFEHc",
-        "recNrMUepOpIaq4w5",
         "recNK6P5VQ5qKcjKQ",
         "recQK0gYIP5iVuWK6",
         "recvEbLEbipbyIOAY",
@@ -44014,7 +44233,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "Batch 3",
         "Batch 1",
         "Batch 1",
@@ -44051,7 +44269,6 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "SS636 Code of Practice for Water Services",
-        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
@@ -48536,11 +48753,9 @@
         "recvaZ5iEZmid3BAG",
         "recZ1fNHzJmd0A8wq",
         "recvg1gshAe0jcD6B",
-        "recKnZdFtDDGIFp7q",
         "recbIVCZ7OQm5WRZq",
         "recznESpOGynY2t84",
         "recUeSi7fqPb14Ywe",
-        "recOLn5erYzoZxm6O",
         "recgEd0gyUSNAICRq",
         "recDyi75UOhtKMkvn",
         "recHvuyplkxJr2WZn",
@@ -48693,7 +48908,10 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Required",
       "Beta": true,
@@ -49508,11 +49726,9 @@
         "Batch X",
         "Batch X",
         "Batch 4",
-        "Batch 1",
         "Batch 4",
         "NA",
         "Batch 2",
-        "Batch 1",
         "Batch X",
         "Batch X",
         "NA",
@@ -49648,6 +49864,9 @@
         "NA",
         "Batch 2",
         "Batch 4",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -50477,11 +50696,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Conservation Guidelines",
         "Code of Accessibility in the Built Environment",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Conservation Guidelines",
@@ -50634,6 +50851,9 @@
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
@@ -50661,10 +50881,10 @@
         "Technical Requirements for S10 to S29 Public Shelters",
         "Envelope Control Guidelines",
         "Commercial Handbook",
-        "Approved Document - Acceptable Solutions",
         "Urban Design Guidelines",
         "Residential Handbooks (Bungalows)",
-        "Residential Handbooks (Semi-Detached Houses)"
+        "Residential Handbooks (Semi-Detached Houses)",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "4hr (FireRating)",
@@ -51022,7 +51242,11 @@
         "recIemV6kRc9UPKSQ",
         "recNOM8crggelXdNF",
         "recm2C8jiL4UTTW2P",
-        "recbOA9qGqV2nRqOd"
+        "recbOA9qGqV2nRqOd",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
       "Beta": true,
@@ -51103,6 +51327,10 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "BarrierFreeAccessibility [Boolean]; \nCarParking_ServedByCarLift [Boolean]; \nFamilyLot [Boolean]; \nLength [Length]; \nLotNumber [Label]; \nWidth [Length]; \nEVLot [Boolean]; \nPerforated [Boolean]; \nOpenAtGrade [Boolean]",
@@ -51112,7 +51340,8 @@
         "NEA",
         "NParks",
         "BCA",
-        "URA"
+        "URA",
+        "PUB"
       ],
       "Codes and Standards": [
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
@@ -51181,7 +51410,11 @@
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
-        "Code of Practice on Vehicle Parking Provision in Development Proposals"
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -51195,7 +51428,8 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Accessibility in the Built Environment",
         "Business 1 (Industrial) Handbook",
-        "Business 2 (Industrial) Handbook"
+        "Business 2 (Industrial) Handbook",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Sample Value (Property)": [
         "240 L (Length)",
@@ -53023,7 +53257,6 @@
         "recpx7Ve7CLwttoiT",
         "reca7QgzX2CkaPot0",
         "recbzbOpqHxHHIXLM",
-        "recPKBILdwiJTMRta",
         "recLsrSbwG2I3wVRD",
         "reccoMwvrCzau4TgM",
         "reczEbMPxtQm2Zc3K",
@@ -53190,7 +53423,6 @@
         "recVnPwIC7GrFrsrC",
         "recq1q2l29LEhScfZ",
         "recclJ0vx8zngRZv9",
-        "recqq580K1c5ezb6o",
         "recKxmBPORrmJKHKW",
         "recxrbXACmZR7lnb9",
         "recsE9vayXYszfrbE",
@@ -53204,7 +53436,9 @@
         "recxQhsbG5gMNjrpS",
         "recFQ8hWfsznmoA1j",
         "recEjB7299FiDoUqb",
-        "recWvcepJwrxZJ7z4"
+        "recWvcepJwrxZJ7z4",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -53430,7 +53664,6 @@
         "Batch X",
         "Batch 3",
         "Batch 3",
-        "Batch 1",
         "Batch 3",
         "NA",
         "NA",
@@ -53597,7 +53830,6 @@
         "Batch X",
         "NA",
         "NA",
-        "Batch 1",
         "Batch X",
         "Batch X",
         "Batch X",
@@ -53611,7 +53843,9 @@
         "Batch 3",
         "NA",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "AcousticRating [Label]; \nCombustible [Boolean]; \nExternalReference [Label]; \nFireRating [Label]; \nFlameSpreadClass [Label]; \nFunction [Label]; \nLS_NaturalComponentElement [Boolean]; \nMaterial [Label]; \nPerforated [Boolean]; \nRTTV [Label]; \nStatus [Label]; \nThermalTransmittance [Thermal Transmittance]; \nWeight [Real]; \nWeightGroup [Label]; \nConstructionMethod [Label]",
       "Agency": [
@@ -53836,7 +54070,6 @@
         "Conservation Guidelines",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Approved Document - Acceptable Solutions",
         "Conservation Guidelines",
@@ -54003,7 +54236,6 @@
         "Conservation Guidelines",
         "Envelope Control Guidelines",
         "Envelope Control Guidelines",
-        "Approved Document - Acceptable Solutions",
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
@@ -54017,7 +54249,9 @@
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Code of Practice for Fire Precautions in Building",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -56924,7 +57158,9 @@
         "recCtapRXxX7Nl8hW"
       ],
       "Map to Rule": [
-        "recomzWoPznGmfvAx"
+        "recomzWoPznGmfvAx",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -56938,12 +57174,16 @@
         "SHIELD*"
       ],
       "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Agency": [
         "BCA"
       ],
       "Codes and Standards": [
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
@@ -59840,7 +60080,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nArrangementType [Label]; \nBreadth [Length]; \nColumnCage [Boolean]; \nCombustible [Boolean]; \nConnectionDetailsBottom [Label]; \nConnectionDetailsTop [Label]; \nConnectionTypeBottom [Label]; \nConnectionTypeTop [Label]; \nConstructionMethod [Label]; \nDiameter [Length]; \nEndStorey [Label]; \nExternalReference [Label]; \nFireRating [Label]; \nIsExternal [Boolean]; \nMainRebar [Label]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMechanicalConnectionType [Label]; \nMemberSection [Label]; \nPrefabricatedReinforcementCage [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSectionFabricationMethod [Label]; \nSpliceDetail [Label]; \nStartingStorey [Label]; \nStatus [Label]; \nStirrups [Label]; \nStirrupsType [Label]; \nWidth [Length]; \nWorkingLoad_DA1-1 [Integer]; \nWorkingLoad_DA1-2 [Integer]",
+      "Properties [Data Type]": "Accreditation_PAS [Boolean]; \nArrangementType [Label]; \nBreadth [Length]; \nColumnCage [Boolean]; \nCombustible [Boolean]; \nConnectionDetailsBottom [Label]; \nConnectionDetailsTop [Label]; \nConnectionTypeBottom [Label]; \nConnectionTypeTop [Label]; \nConstructionMethod [Label]; \nDiameter [Length]; \nEndStorey [Label]; \nExternalReference [Label]; \nFireRating [Label]; \nMainRebar [Label]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nMechanicalConnectionType [Label]; \nMemberSection [Label]; \nPrefabricatedReinforcementCage [Boolean]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSectionFabricationMethod [Label]; \nSpliceDetail [Label]; \nStartingStorey [Label]; \nStatus [Label]; \nStirrups [Label]; \nStirrupsType [Label]; \nWidth [Length]; \nWorkingLoad_DA1-1 [Integer]; \nWorkingLoad_DA1-2 [Integer]",
       "Agency": [
         "SCDF",
         "URA",
@@ -60568,7 +60808,8 @@
         "recLKTHecBbLfAZX0",
         "recQV9x8dss2ZnLzc",
         "recdIyGRGvvfibdCV",
-        "recFiSq1Aygzr6fHb"
+        "recFiSq1Aygzr6fHb",
+        "recVrzpFZUg366Kzc"
       ],
       "Status": "Required",
       "Beta": true,
@@ -60589,11 +60830,13 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "AGF_BonusGFAType [Label]; \nAGF_SupportingFacility [Label]; \nAGF_DevelopmentUse [Label]; \nAGF_BuildingTypology [Label]; \nAGF_Name [Label]; \nAGF_Note [Label]; \nAGF_UnitNumber [Label]; \nAGF_UseQuantum [Label]",
       "Agency": [
-        "URA"
+        "URA",
+        "NParks"
       ],
       "Codes and Standards": [
         null,
@@ -60603,40 +60846,42 @@
         "Gross Floor Area Handbook",
         "Gross Floor Area Handbook",
         "Gross Floor Area Handbook",
-        "Gross Floor Area Handbook"
+        "Gross Floor Area Handbook",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Discipline (Entity Key)": [
         "ARC"
       ],
       "Regulatory Codes and Standards": [
         null,
-        "Gross Floor Area Handbook"
+        "Gross Floor Area Handbook",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Actual Value (Property)": [
-        "RESIDENTIAL (LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RESIDENTIAL (NON-LANDED) (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "CEMETERY (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BUSINESS PARK (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "EDUCATIONAL INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BEACH AREA (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BUSINESS 1 (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "BUSINESS 2 (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "HEALTH & MEDICAL CARE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "CIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "SPORTS AND RECREATION (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "ROAD (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "TRANSPORT FACILITIES (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RAPID TRANSIT (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "UTILITY (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "AGRICULTURE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "PORT/AIRPORT (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "SPIRAL CONNECTOR (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "WATERBODY (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "RESERVE SITE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "HOTEL (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "PLACE OF WORSHIP (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "OPEN SPACE (AGF_DevelopmentUseAVF_DevelopmentUse)",
-        "PARK (AGF_DevelopmentUseAVF_DevelopmentUse)",
+        "RESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "CEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "EDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "BUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "HEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "CIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "SPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "ROAD (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "TRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "UTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "AGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "PORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "SPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "WATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "RESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "HOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "PLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "OPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+        "PARK (AGF_DevelopmentUse; AVF_DevelopmentUse)",
         "AQUACULTURE HATCHERY (AGF_BuildingTypology)",
         "ORNAMENTAL BIRD FARM (AGF_BuildingTypology)",
         "ORNAMENTAL FISH FARM (AGF_BuildingTypology)",
@@ -60865,7 +61110,7 @@
     "id": "recUPzTRkr8TM982E",
     "createdTime": "2023-08-11T02:09:57.000Z",
     "fields": {
-      "Identified Component": "Storey Shelter",
+      "Identified Component": "CD Shelter",
       "OT KEY (Sub-Type)": [
         "recayHSnWkLIhcxql"
       ],
@@ -60877,7 +61122,7 @@
       "IFC4 Sub Type": [
         "STOREYSHELTER*"
       ],
-      "CO KEY": "STO_STO_876",
+      "CO KEY": "CD _STO_876",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
@@ -61170,7 +61415,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "FireExit [Boolean]; \nIsExternal [Boolean]; \nMaterial [Label]",
+      "Properties [Data Type]": "FireExit [Boolean]; \nMaterial [Label]",
       "Agency": [
         "SCDF",
         "BCA"
@@ -62851,7 +63096,8 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recRC6f1PDuWgP8fG"
       ],
       "Status": "Required",
       "Beta": true,
@@ -62973,9 +63219,10 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "ConstructionMethod [Label]; \nExternalReference [Label]; \nFunction [Label]; \nIsExternal [Boolean]; \nLateralLoad [Label]; \nLS_NaturalComponentElement [Boolean]; \nMaterial [Label]; \nIsLaminated [Boolean]",
+      "Properties [Data Type]": "ConstructionMethod [Label]; \nExternalReference [Label]; \nFunction [Label]; \nLateralLoad [Label]; \nLS_NaturalComponentElement [Boolean]; \nMaterial [Label]; \nIsLaminated [Boolean]",
       "Agency": [
         "LTA",
         "NParks",
@@ -63060,6 +63307,7 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Code of Practice on Surface Water Drainage",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -63818,7 +64066,6 @@
         "recFzWQiiT2qYgNAz",
         "rec9L2C8tqtND6sA6",
         "recwIN3a0OwNNhbPR",
-        "recKnZdFtDDGIFp7q",
         "recrZFSICmjXjfAsn",
         "recIP8lacbkOKVKiR",
         "recQ29aFsoaZICrUT",
@@ -63869,7 +64116,10 @@
         "rec4FzW1oG9ChUTnO",
         "recVQbep40TfeCNTI",
         "recPmkebbeJBsr1Js",
-        "recdvietvdpJLqV0O"
+        "recdvietvdpJLqV0O",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -64169,7 +64419,6 @@
         "Batch 4",
         "Batch X",
         "Batch X",
-        "Batch 1",
         "Batch 3",
         "Batch 3",
         "Batch X",
@@ -64220,7 +64469,10 @@
         "Batch X",
         "Batch X",
         "Batch 2",
-        "NA"
+        "NA",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "BarrierFreeAccessibility [Boolean]; \nEngineeredSmokeControlSystem [Boolean]; \nMainEntrance [Boolean]; \nFireExit [Boolean]",
       "Agency": [
@@ -64518,7 +64770,6 @@
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
@@ -64569,7 +64820,10 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Urban Design Guidelines",
-        "Code of Practice for Pneumatic Waste Conveyance System"
+        "Code of Practice for Pneumatic Waste Conveyance System",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -64601,8 +64855,8 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "SS550 Code of Practice for Installation Operation and Maintenance of Electric Passenger and Goods Lift",
         "SS636 Code of Practice for Water Services",
-        "Approved Document - Acceptable Solutions",
-        "Envelope Control Guidelines"
+        "Envelope Control Guidelines",
+        "Approved Document - Acceptable Solutions"
       ],
       "IFC4 Entity.Sub-Type": "IfcOpeningElement.OPENING"
     }
@@ -64984,9 +65238,14 @@
         "recwDxJmFfDwtQG1A",
         "recG0Y3YFpxghBRsT",
         "recirNOqmjeW9igI8",
-        "recOzZKAkmZV1ajNq"
+        "recOzZKAkmZV1ajNq",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "SANITARY*"
       ],
@@ -65085,6 +65344,10 @@
         "NA",
         "Batch X",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "Diameter [Length]; \nGradient [Label]; \nLength [Length]",
@@ -65182,6 +65445,10 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Technical Requirements for S10 to S29 Public Shelters",
         "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
@@ -65258,7 +65525,7 @@
     "id": "recXMTvbMgBAjt8hI",
     "createdTime": "2023-08-11T02:14:48.000Z",
     "fields": {
-      "Identified Component": "Non-shelter Storey Shelter",
+      "Identified Component": "CD Shelter (Non-shelter)",
       "OT KEY (Sub-Type)": [
         "rectWcIoSWZwdiaWm"
       ],
@@ -65270,7 +65537,7 @@
       "IFC4 Sub Type": [
         "NONSHELTERSTOREYSHELTER*"
       ],
-      "CO KEY": "NON_NON_878",
+      "CO KEY": "CD _NON_878",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
@@ -66205,7 +66472,6 @@
         "recaBAdDxlZmORN8a"
       ],
       "Map to Rule": [
-        "recPKBILdwiJTMRta",
         "reccoMwvrCzau4TgM"
       ],
       "Status": "Pending",
@@ -66220,7 +66486,6 @@
         "CURTAIN_PANEL"
       ],
       "Batch (Rules)": [
-        "Batch 1",
         "NA"
       ],
       "Properties [Data Type]": "Material [Label]",
@@ -66228,7 +66493,6 @@
         "BCA"
       ],
       "Codes and Standards": [
-        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
@@ -66252,7 +66516,14 @@
       "Entity Key": [
         "recbD6dHNzV92X01s"
       ],
+      "Map to Rule": [
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
+      ],
       "Status": "Required (New)",
+      "Beta": true,
       "IFC4 Sub Type": [
         "FLOORDRAIN*"
       ],
@@ -66263,12 +66534,28 @@
       "Subtype or IFC": [
         "FLOORDRAIN*"
       ],
-      "Agency": [],
+      "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
+      ],
+      "Agency": [
+        "PUB"
+      ],
+      "Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "Discipline (Entity Key)": [
         "ARC",
         "MEP"
       ],
-      "Regulatory Codes and Standards": [],
+      "Regulatory Codes and Standards": [
+        "Code of Practice on Sewerage and Sanitary Works"
+      ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.FLOORDRAIN*"
     }
   },
@@ -67016,7 +67303,9 @@
         "recbNzT6ukUAwHv0K",
         "recK2UBuerNmRJGu4",
         "recKtobDT0rs9PfSh",
-        "recs0VWkZx1zqNNGO"
+        "recs0VWkZx1zqNNGO",
+        "recFwzC8AMVrHQEXC",
+        "recPKBILdwiJTMRta"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -67088,12 +67377,15 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Combustible [Boolean]; \nExternalReference [Label]; \nFlameSpreadClass [Label]; \nMaterial [Label]; \nPerforated [Boolean]",
       "Agency": [
         "URA",
-        "SCDF"
+        "SCDF",
+        "BCA"
       ],
       "Codes and Standards": [
         "Gross Floor Area Handbook",
@@ -67154,7 +67446,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "MEP",
@@ -67164,7 +67458,8 @@
       "Regulatory Codes and Standards": [
         "Gross Floor Area Handbook",
         "Conservation Guidelines",
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "ASTM E108 STANDARD TEST METHODS FOR FIRE TESTS (ExternalReference)",
@@ -69663,9 +69958,8 @@
       ],
       "Map to Rule": [
         "rec8v0LksR7c5qvJw",
-        "recMcjExBJuWxeTMl",
-        "reccxAfcsgHr7TVTc",
-        "recbgeCoj2zqyzNvZ"
+        "recbgeCoj2zqyzNvZ",
+        "recMcjExBJuWxeTMl"
       ],
       "Status": "Required",
       "IFC4 Sub Type": [
@@ -69681,14 +69975,12 @@
       "Batch (Rules)": [
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "Batch 1"
       ],
       "Agency": [
         "NParks"
       ],
       "Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments"
@@ -69778,9 +70070,20 @@
         "rec1TMabra7kNJJiR",
         "recfOrUgEeIuadbnb",
         "recOzZKAkmZV1ajNq",
-        "recKuywdXuBlNowCV"
+        "recKuywdXuBlNowCV",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recNrMUepOpIaq4w5",
+        "recINT3WVz2mZKH9H",
+        "rec09q8PIl48avsfY",
+        "rectLgVhy6p0tRXAX",
+        "rec9gqSRMP4vONxXZ",
+        "recj9wraDqI4DXEzG"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "SEWAGE*"
       ],
@@ -69853,6 +70156,16 @@
         "Batch 3",
         "NA",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Agency": [
@@ -69920,6 +70233,16 @@
         "Code of Practice on Environmental Health (COPEH)",
         "Code of Practice on Environmental Health (COPEH)",
         "Energy Efficiency Opportunities Assessment (EEOA) for New Ventures",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works"
@@ -70045,7 +70368,7 @@
     "id": "recb9AaBO0wYbcDlE",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Civil Element",
+      "Identified Component": "Road",
       "OT KEY (Sub-Type)": [
         "recj2pBhx3hYF0D4b"
       ],
@@ -70062,7 +70385,7 @@
       "IFC4 Sub Type": [
         "LAYBY*"
       ],
-      "CO KEY": "CIV_LAY_117",
+      "CO KEY": "ROA_LAY_117",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
@@ -71169,7 +71492,7 @@
     "id": "reccH0au2bM7XoyfG",
     "createdTime": "2023-08-11T02:06:18.000Z",
     "fields": {
-      "Identified Component": "Staircase Storey Shelter",
+      "Identified Component": "CD Shelter",
       "OT KEY (Sub-Type)": [
         "rec2noWZ07VcJbSMO"
       ],
@@ -71181,7 +71504,7 @@
       "IFC4 Sub Type": [
         "STAIRCASESTOREYSHELTER*"
       ],
-      "CO KEY": "STA_STA_875",
+      "CO KEY": "CD _STA_875",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
@@ -72782,7 +73105,6 @@
         "recgehOfi7X8qwyLb",
         "rec5F3uKfp3MW8IZE",
         "recSGo2b2B9mRkNOe",
-        "recVrzpFZUg366Kzc",
         "recEEAhPqIf8QOUGi",
         "recEQMREoOv5eDN6b",
         "recQiCKMfGLi66niZ",
@@ -73119,7 +73441,6 @@
         "recrMp1y2jMU4Hwr8",
         "recp95x5M6WnK7CqB",
         "recEonL0ircLFpeqA",
-        "recIVqoolhxMVWvv4",
         "recu7Rb4elihIh171",
         "rec6s6ePtNExZIzyA",
         "recgOkBlskVusG5du",
@@ -73177,7 +73498,6 @@
         "recOl983VhlMd5ejf",
         "rec5Tvl3DFqq4SW4S",
         "rec2R10YWwShnUzHE",
-        "recqq580K1c5ezb6o",
         "recCgbaUbmYD6FUIA",
         "recvIrJUKqP1TWSiP",
         "recrhgh0qkA15Lbqu",
@@ -73245,7 +73565,8 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recIVqoolhxMVWvv4"
       ],
       "Status": "Required",
       "Beta": true,
@@ -74414,7 +74735,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "Batch X",
         "Batch 2",
         "Batch 3",
@@ -74748,7 +75068,6 @@
         "NA",
         "Batch 4",
         "Batch 4",
-        "Batch 1",
         "Batch 4",
         "Batch 1",
         "Batch 1",
@@ -74806,7 +75125,6 @@
         "NA",
         "Batch 4",
         "Batch 2",
-        "Batch 1",
         "NA",
         "NA",
         "Batch 1",
@@ -74836,6 +75154,7 @@
         "Batch 2",
         "Batch 2",
         "Batch 4",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -76041,7 +76360,6 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Buildability",
@@ -76375,7 +76693,6 @@
         "Urban Design Guidelines",
         "Residential Handbooks (Strata Landed Housing)",
         "Residential Handbooks (Strata Landed Housing)",
-        "Approved Document - Acceptable Solutions",
         "Code of Accessibility in the Built Environment",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -76433,7 +76750,6 @@
         "Conservation Guidelines",
         "Code of Accessibility in the Built Environment",
         "Code of Accessibility in the Built Environment",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
         "Approved Document - Acceptable Solutions",
@@ -76463,6 +76779,7 @@
         "Commercial Handbook",
         "Commercial Handbook",
         "Code of Practice for Fire Precautions in Building",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -76892,9 +77209,14 @@
         "rec3MiSdGe1orzagc",
         "recT6E1JJaRq9C6WL",
         "recBlPVPcbvBy9eTT",
-        "recq0t3ulUB73l6RQ"
+        "recq0t3ulUB73l6RQ",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
-      "Status": "Pending",
+      "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "BOXCULVERT*"
       ],
@@ -76912,7 +77234,11 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
         "PUB"
@@ -76924,14 +77250,19 @@
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
-        "Code of Practice on Surface Water Drainage"
+        "Code of Practice on Surface Water Drainage",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
         "MEP"
       ],
       "Regulatory Codes and Standards": [
-        "Code of Practice on Surface Water Drainage"
+        "Code of Practice on Surface Water Drainage",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.BOXCULVERT*"
     }
@@ -77945,7 +78276,6 @@
         "rec3NiDXVLftdJPm9",
         "recF4wXNfaOCb1zoQ",
         "reckLnBQOz5ZkqFbE",
-        "rec5IMI5Qnigg7hwD",
         "recd72mIKSxiXaJRg",
         "recMfO4FFRsvZLYXj",
         "rec6iIZkqPml3J06S",
@@ -79259,7 +79589,6 @@
         "Batch 3",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "Batch 2",
         "Batch 2",
         "Batch 2",
@@ -80544,9 +80873,9 @@
       "Properties [Data Type]": "ApprovedSoilMixture [Boolean]; \nArea [Area]; \nBroadLandUse [Label]; \nVacantLand [Boolean]; \nTreeConservationArea [Boolean]",
       "Agency": [
         "URA",
-        "NParks",
         "NEA",
         "SCDF",
+        "NParks",
         "LTA",
         "BCA"
       ],
@@ -80571,7 +80900,6 @@
         "Place of Worship Handbook",
         "Civic and Community Institution Handbook",
         "Commercial Handbook",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "Urban Design Guidelines",
         "Urban Design Guidelines",
@@ -81866,7 +82194,6 @@
         "Place of Worship Handbook",
         "Civic and Community Institution Handbook",
         "Commercial Handbook",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "SS 593: Code of Practice for Pollution Control (COPPC)",
         "Code of Practice for Fire Precautions in Building",
@@ -81882,6 +82209,7 @@
         "Sports and Recreation Handbook",
         "Transport Facilities Handbook",
         "Gross Floor Area Handbook",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Environmental Health (COPEH)",
         "Technical guideline on boundary noise limits for air conditioning and mechanical ventilation systems in non-industrial buildings",
         "Code of Practice for Pneumatic Waste Conveyance System",
@@ -82018,7 +82346,7 @@
     "id": "recddHtxlB77ExY47",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Driveway",
+      "Identified Component": "Road",
       "OT KEY (Sub-Type)": [
         "recpsYDy5l6MHOonT"
       ],
@@ -82110,14 +82438,19 @@
         "recOfqCY8s94XJ3ja",
         "reco7p6lJ3OpM30MF",
         "recKqUs05nYCW6lxl",
-        "recbOA9qGqV2nRqOd"
+        "recbOA9qGqV2nRqOd",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recVrzpFZUg366Kzc"
       ],
       "Status": "Required",
       "Beta": true,
       "IFC4 Sub Type": [
         "DRIVEWAY*"
       ],
-      "CO KEY": "DRI_DRI_114",
+      "CO KEY": "ROA_DRI_114",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
@@ -82200,6 +82533,11 @@
         "NA",
         "Batch 4",
         "Batch 4",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "VisitorLaneEntry [Boolean]; \nEgress [Boolean]; \nMaterial [Label]; \nIngress [Boolean]; \nRoadCategory [Label]",
@@ -82209,7 +82547,8 @@
         "LTA",
         "NEA",
         "BCA",
-        "URA"
+        "URA",
+        "NParks"
       ],
       "Codes and Standards": [
         "Code of Practice on Surface Water Drainage",
@@ -82287,7 +82626,12 @@
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Code of Accessibility in the Built Environment",
         "Code of Accessibility in the Built Environment",
-        "Code of Practice on Vehicle Parking Provision in Development Proposals"
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -82309,7 +82653,8 @@
         "Residential Handbooks (Strata Landed Housing)",
         "Conservation Guidelines",
         "Gross Floor Area Handbook",
-        "Urban Design Guidelines"
+        "Urban Design Guidelines",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.DRIVEWAY*"
     }
@@ -83558,9 +83903,14 @@
         "recrRo05c0epT6xNX",
         "recLdtqo2AhDrphM8",
         "recjXtImY23cz10sK",
-        "recixhIoB8zz8Nl3l"
+        "recixhIoB8zz8Nl3l",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "GREENVERGE*"
       ],
@@ -83580,11 +83930,16 @@
         "Batch 1",
         "Batch X",
         "Batch 2",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "ApprovedSoilMixture [Boolean]; \nArea [Area]; \nShrubs [Boolean]; \nStatus [Label]; \nShrubSpecies [Label]; \nApprovedTurfSpecies [Label]",
       "Agency": [
-        "NParks"
+        "NParks",
+        "PUB"
       ],
       "Codes and Standards": [
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
@@ -83595,7 +83950,11 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -83603,7 +83962,8 @@
         "MEP"
       ],
       "Regulatory Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Actual Value (Property)": [
         "EXISTING (Status)",
@@ -85061,7 +85421,16 @@
         "rec8xPJpZYnxNrNlk",
         "recRxL4jg1EL8zcEx",
         "recQV9x8dss2ZnLzc",
-        "recdIyGRGvvfibdCV"
+        "recdIyGRGvvfibdCV",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recINT3WVz2mZKH9H",
+        "rec09q8PIl48avsfY",
+        "rectLgVhy6p0tRXAX",
+        "rec9gqSRMP4vONxXZ",
+        "recj9wraDqI4DXEzG"
       ],
       "Status": "Required",
       "Beta": true,
@@ -85731,9 +86100,18 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "BottomDistribution_nominal [Label]; \nBottomMain_nominal [Label]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nFinishType [Label]; \nFireRating [Label]; \nFireStop [Boolean]; \nFlameSpreadClass [Label]; \nIsExternal [Boolean]; \nLength [Length]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nReinforcementSteelGrade [Label]; \nStirrups [Label]; \nStirrupsType [Label]; \nThickness [Length]; \nTopDistribution_nominal [Label]; \nTopMain_nominal [Label]; \nWatertight [Boolean]; \nWidth [Length]; \nWeldedMesh [Boolean]; \nBuildabilityBlkName [Label]",
+      "Properties [Data Type]": "BottomDistribution_nominal [Label]; \nBottomMain_nominal [Label]; \nCombustible [Boolean]; \nConstructionMethod [Label]; \nFinishType [Label]; \nFireRating [Label]; \nFireStop [Boolean]; \nFlameSpreadClass [Label]; \nLength [Length]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nReinforcementSteelGrade [Label]; \nStirrups [Label]; \nStirrupsType [Label]; \nThickness [Length]; \nTopDistribution_nominal [Label]; \nTopMain_nominal [Label]; \nWatertight [Boolean]; \nWidth [Length]; \nWeldedMesh [Boolean]; \nBuildabilityBlkName [Label]",
       "Agency": [
         "SCDF",
         "URA",
@@ -86399,7 +86777,16 @@
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Gross Floor Area Handbook",
-        "Gross Floor Area Handbook"
+        "Gross Floor Area Handbook",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -86436,7 +86823,8 @@
         "SS EN 1992-1-1 and NA to SS EN 1992-1-1",
         "Place of Worship Handbook",
         "SS636 Code of Practice for Water Services",
-        "BS EN81-41 - Safety Rules for the Construction and Installation of Lifts – Special Lifts for the Transport of Persons and Goods Part 41: Vertical lifting platforms intended for use by persons with impaired mobility"
+        "BS EN81-41 - Safety Rules for the Construction and Installation of Lifts – Special Lifts for the Transport of Persons and Goods Part 41: Vertical lifting platforms intended for use by persons with impaired mobility",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Sample Value (Property)": [
         "H25-150+H16-300 (BottomDistribution_nominal)",
@@ -86770,7 +87158,6 @@
         "rece4zbsLsBHsXLhk"
       ],
       "Map to Rule": [
-        "rec5IMI5Qnigg7hwD",
         "recd6QH6zlWxRuxcG",
         "recbc12q2bQUlPvdT",
         "recvH56fTJFH4gclW",
@@ -86813,7 +87200,6 @@
         "rec5CGr4pB2BfphIf",
         "recrZPg9ToRxleC6T",
         "rec5Bxqp6rGrokGMG",
-        "recVrzpFZUg366Kzc",
         "rec6PMHuIgRnvL3ZU",
         "recZPnI5E9v3cCKLg",
         "recRpV7LK9qpxj54c",
@@ -86895,9 +87281,16 @@
         "rec73hsHoGITAmWti",
         "recgA1BTXFANvGy5Q",
         "recJnyWqlCmqoHi2I",
-        "rec0ozyrqdCRni03N"
+        "rec0ozyrqdCRni03N",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recVrzpFZUg366Kzc",
+        "rec5IMI5Qnigg7hwD"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "PLANTINGAREA*"
       ],
@@ -86909,7 +87302,6 @@
         "PLANTINGAREA*"
       ],
       "Batch (Rules)": [
-        "Batch 1",
         "Batch 2",
         "Batch 1",
         "Batch 1",
@@ -86951,7 +87343,6 @@
         "Batch 2",
         "Batch 2",
         "Batch 2",
-        "Batch 1",
         "Batch 1",
         "Batch X",
         "Batch 1",
@@ -87032,6 +87423,12 @@
         "NA",
         "NA",
         "NA",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1"
@@ -87045,7 +87442,6 @@
         "PUB"
       ],
       "Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
@@ -87072,7 +87468,6 @@
         "Residential Handbooks (Strata Landed Housing)",
         "Code of Practice on Street Work Proposals relating to Development Works",
         "Code of Practice for Pneumatic Waste Conveyance System",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
@@ -87170,7 +87565,13 @@
         "Educational Institution Handbook",
         "Residential Handbook (Flats and Condos)",
         "Business 2 (Industrial) Handbook",
-        "Business Park Handbook"
+        "Business Park Handbook",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -87302,7 +87703,6 @@
       ],
       "Map to Rule": [
         "recWYqJTKIVLO6qKK",
-        "rec5IMI5Qnigg7hwD",
         "reckTbs4DBWpNwJdE",
         "recbokoHT983ZWIeT",
         "recWo3VwWPBX7vZT1",
@@ -87360,7 +87760,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "NA",
         "Batch 1",
         "Batch 1",
@@ -87397,15 +87796,14 @@
       "Properties [Data Type]": "BottomDistribution [Label]; \nBottomMain [Label]; \nBreadth [Length]; \nDA1-2_BearingCapacity [Integer]; \nDepth [Length]; \nMark [Label]; \nMaterial [Label]; \nMaterialGrade [Label]; \nReferTo2DDetail [Label]; \nReinforcementSteelGrade [Label]; \nSideBar [Label]; \nStirrups [Label]; \nStirrupsType [Label]; \nTopDistribution [Label]; \nWorkingLoad [Integer]",
       "Agency": [
         "SCDF",
-        "NParks",
         "PUB",
         "URA",
+        "NParks",
         "BCA",
         "NEA"
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
@@ -87452,13 +87850,13 @@
       ],
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Surface Water Drainage",
         "Business Park Handbook",
         "Residential Handbook (Flats and Condos)",
         "Commercial Handbook",
         "Business 1 (Industrial) Handbook",
         "Business 2 (Industrial) Handbook",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         null,
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Conservation Guidelines",
@@ -89030,7 +89428,7 @@
     "id": "reciS9Mht6HKPLIH0",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Civil Element",
+      "Identified Component": "Pavement",
       "OT KEY (Sub-Type)": [
         "recZ0eBkCGC6fm2Op"
       ],
@@ -89045,7 +89443,7 @@
       "IFC4 Sub Type": [
         "PAVEMENT*"
       ],
-      "CO KEY": "CIV_PAV_118",
+      "CO KEY": "PAV_PAV_118",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
@@ -90236,9 +90634,14 @@
         "rec12eVVdwQUGYhCy",
         "recX4f2XbmKkxfE0L",
         "rec8CUV9TlsqP8KbC",
-        "recEwkM9kyRVxsP7j"
+        "recEwkM9kyRVxsP7j",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "GUTTERDRAIN*"
       ],
@@ -90313,6 +90716,10 @@
         "Batch 2",
         "Batch 1",
         "Batch 2",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "CatchmentArea [Area]; \nConstructionMethod [Label]; \nFreeboard [Boolean]; \nHeight [Length]; \nLength [Length]; \nRoughnessCoefficient [Label]; \nShared [Boolean]; \nStatus [Label]; \nThickness [Length]; \nWidth [Length]",
@@ -90387,7 +90794,11 @@
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
-        "Code of Practice on Surface Water Drainage"
+        "Code of Practice on Surface Water Drainage",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -91219,9 +91630,14 @@
         "recd6QH6zlWxRuxcG",
         "recoWK7fhbwYJ344X",
         "recVR25TCU52Lo0GO",
-        "recy1ikfzS7GJCFn9"
+        "recy1ikfzS7GJCFn9",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
-      "Status": "Pending",
+      "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "ENTRANCECULVERT*"
       ],
@@ -91237,7 +91653,11 @@
         "Batch 2",
         "Batch 2",
         "Batch 1",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
         "PUB",
@@ -91248,7 +91668,11 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
-        "Code of Practice on Surface Water Drainage"
+        "Code of Practice on Surface Water Drainage",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -91256,7 +91680,8 @@
       ],
       "Regulatory Codes and Standards": [
         "Code of Practice on Surface Water Drainage",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.ENTRANCECULVERT*"
     }
@@ -93422,7 +93847,10 @@
         "recuWn9rk24C3kGz0",
         "recLJRjzKpxVeSV3h",
         "reccALtvAfVKXqyOT",
-        "rec9EEuW4gBkdEx0v"
+        "rec9EEuW4gBkdEx0v",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Required",
       "IFC4 Sub Type": [
@@ -93470,12 +93898,16 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
         "URA",
         "SCDF",
-        "NParks"
+        "NParks",
+        "BCA"
       ],
       "Codes and Standards": [
         "Conservation Guidelines",
@@ -93512,7 +93944,10 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -93522,7 +93957,8 @@
         "Conservation Guidelines",
         "Gross Floor Area Handbook",
         "Code of Practice for Fire Precautions in Building",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Approved Document - Acceptable Solutions"
       ],
       "IFC4 Entity.Sub-Type": "IfcWindow.SKYLIGHT"
     }
@@ -98192,7 +98628,9 @@
         "recV4oamrfXgnj8qb",
         "rec2mHYKMwMGYjfxN",
         "receMBDotojRcG3x8",
-        "rec6Wm4HirqBOZ8WM"
+        "rec6Wm4HirqBOZ8WM",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -98262,11 +98700,14 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Agency": [
         "URA",
-        "SCDF"
+        "SCDF",
+        "BCA"
       ],
       "Codes and Standards": [
         "Conservation Guidelines",
@@ -98325,7 +98766,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -98333,7 +98776,8 @@
       "Regulatory Codes and Standards": [
         "Conservation Guidelines",
         "Gross Floor Area Handbook",
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Approved Document - Acceptable Solutions"
       ],
       "IFC4 Entity.Sub-Type": "IfcShadingDevice.CANOPY*"
     }
@@ -98401,7 +98845,6 @@
         "recvWzLKk3N6wN9zR"
       ],
       "Map to Rule": [
-        "rec5IMI5Qnigg7hwD",
         "recMfO4FFRsvZLYXj",
         "recX1Bx8f3Jz79wty",
         "recFCxQSkZoAFpOM1",
@@ -98525,9 +98968,15 @@
         "recEiiMKzY0GvWFbc",
         "recVLhULY7JlqakFN",
         "recyQzLU5BCUujcTn",
-        "recD2RZ95W0AKkCHU"
+        "recD2RZ95W0AKkCHU",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "rec5IMI5Qnigg7hwD"
       ],
-      "Status": "Pending",
+      "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "BOUNDARYWALL*"
       ],
@@ -98539,7 +98988,6 @@
         "BOUNDARYWALL*"
       ],
       "Batch (Rules)": [
-        "Batch 1",
         "Batch 2",
         "Batch 1",
         "Batch 1",
@@ -98651,6 +99099,11 @@
         "Batch X",
         "Batch X",
         "Batch X",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -98665,17 +99118,16 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "IsExternal [Boolean]; \nMaterial [Label]; \nPorousFence [Boolean]; \nStatus [Label]",
+      "Properties [Data Type]": "Material [Label]; \nPorousFence [Boolean]; \nStatus [Label]",
       "Agency": [
-        "NParks",
         "URA",
         "PUB",
         "SCDF",
         "BCA",
-        "LTA"
+        "LTA",
+        "NParks"
       ],
       "Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
@@ -98799,7 +99251,12 @@
         "Sports and Recreation Handbook",
         "Transport Facilities Handbook",
         "Educational Institution Handbook",
-        "Agriculture Handbook"
+        "Agriculture Handbook",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -98807,7 +99264,6 @@
         "External Works"
       ],
       "Regulatory Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "Code of Practice on Surface Water Drainage",
         "Residential Handbook (Flats and Condos)",
@@ -98828,6 +99284,7 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "SS555 - 3 Protection Against Lightning",
         "Code of Practice on Street Work Proposals relating to Development Works",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Agriculture Handbook",
         "Residential Handbooks (Bungalows)",
         "Residential Handbooks (Semi-Detached Houses)",
@@ -98842,6 +99299,7 @@
         "EXISTING (Status)",
         "NEW (Status)"
       ],
+      "Beta Properties [Data Type]": "PorousFence [Boolean]",
       "IFC4 Entity.Sub-Type": "IfcWall.BOUNDARYWALL*"
     }
   },
@@ -99618,7 +100076,7 @@
     "id": "recrB9JQTJFX3vjQP",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Civil Element",
+      "Identified Component": "Footpath",
       "OT KEY (Sub-Type)": [
         "recL64MuqA8UGYoTI"
       ],
@@ -99637,13 +100095,18 @@
         "recnXztpEhws548EK",
         "rec8X0at58e1JtJfe",
         "recViBwF4Oxd4FrAH",
-        "rec4PxN7UfOT4u9Zw"
+        "rec4PxN7UfOT4u9Zw",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
-      "Status": "Pending",
+      "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "FOOTPATH*"
       ],
-      "CO KEY": "CIV_FOO_115",
+      "CO KEY": "FOO_FOO_115",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
@@ -99658,14 +100121,19 @@
         "Batch 2",
         "Batch 1",
         "Batch 2",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Material [Label]",
       "Agency": [
         "LTA",
         "NParks",
         "BCA",
-        "NEA"
+        "NEA",
+        "PUB"
       ],
       "Codes and Standards": [
         "Code of Practice on Street Work Proposals relating to Development Works",
@@ -99675,7 +100143,11 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Environmental Health (COPEH)",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -99685,7 +100157,8 @@
         "Code of Practice on Street Work Proposals relating to Development Works",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Accessibility in the Built Environment",
-        "Code of Practice on Environmental Health (COPEH)"
+        "Code of Practice on Environmental Health (COPEH)",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "IFC4 Entity.Sub-Type": "IfcCivilElement.FOOTPATH*"
     }
@@ -99832,7 +100305,6 @@
         "recrhoNEGJIsqUvSw"
       ],
       "Map to Rule": [
-        "rec5IMI5Qnigg7hwD",
         "recMfO4FFRsvZLYXj",
         "recbRu13HznJMUbrx",
         "recsLqSDuyVDStg5s",
@@ -99912,7 +100384,8 @@
         "recniE6H6qtHJ8XLC",
         "rec8DXdh2U3qLCL83",
         "rec0OTOhFboB6uc3S",
-        "rec73jNK5b0Jpw010"
+        "rec73jNK5b0Jpw010",
+        "rec5IMI5Qnigg7hwD"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -99926,7 +100399,6 @@
         "RETAININGWALL*"
       ],
       "Batch (Rules)": [
-        "Batch 1",
         "Batch 2",
         "Batch 1",
         "Batch 1",
@@ -100004,18 +100476,18 @@
         "Batch 1",
         "Batch X",
         "Batch X",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "Height [Length]; \nIsExternal [Boolean]",
+      "Properties [Data Type]": "Height [Length]",
       "Agency": [
-        "NParks",
         "URA",
+        "NParks",
         "PUB"
       ],
       "Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "Business 1 (Industrial) Handbook",
         "Place of Worship Handbook",
@@ -100095,7 +100567,8 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Code of Practice on Surface Water Drainage",
         "Business 2 (Industrial) Handbook",
-        "Business Park Handbook"
+        "Business Park Handbook",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -100103,7 +100576,6 @@
         "External Works"
       ],
       "Regulatory Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Urban Design Guidelines",
         "Business 1 (Industrial) Handbook",
         "Place of Worship Handbook",
@@ -100117,6 +100589,7 @@
         "Hotel Handbook",
         "Health & Medical Care Handbook",
         "Transport Facilities Handbook",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Agriculture Handbook",
         "Residential Handbooks (Bungalows)",
         "Residential Handbooks (Semi-Detached Houses)",
@@ -102274,7 +102747,6 @@
         "recT76YXBWWxRGrfs",
         "rec7PUg9jjjXC1rXA",
         "rec6VdRKMI3swaCnA",
-        "recKnZdFtDDGIFp7q",
         "rec5Eupc1b16WcSGB",
         "rec5rCEg9Z0jf7aPo",
         "recc6VmjsTcthm6IC",
@@ -102298,7 +102770,6 @@
         "recrZFSICmjXjfAsn",
         "recgZJR1O9oH5nJ56",
         "recgDAky0DpEEFjdW",
-        "recOLn5erYzoZxm6O",
         "recgQI87pWO31dBcV",
         "rectTXUdjowl8T1Fk",
         "rec2VOoIvxhWkvSHn",
@@ -102361,7 +102832,6 @@
         "recQcRM36QHmJvPo2",
         "rec7PUAoOgcgiMmX9",
         "recl6DT4SfG7BNCcH",
-        "recFwzC8AMVrHQEXC",
         "recbpKVLuu2kcHsox",
         "recATWfdb97C37T4C",
         "reclpg7B9ayLpPn60",
@@ -102468,7 +102938,6 @@
         "recVvlsdb8JYdZ0ul",
         "recYHGnixNwYm6RFh",
         "rec3gD2xg2h1jk69w",
-        "recIVqoolhxMVWvv4",
         "recu7Rb4elihIh171",
         "rec63IwS0urGnRkfX",
         "rec8YpMGTIrG0ME89",
@@ -102558,7 +103027,10 @@
         "reckPAyTs273G1jy1",
         "recFmZGenQJdhpFtw",
         "recIXLt1nfJup7YxK",
-        "recsl1epasOPLja4U"
+        "recsl1epasOPLja4U",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Required",
       "Beta": true,
@@ -104110,7 +104582,6 @@
         "Batch 4",
         "Batch X",
         "Batch 4",
-        "Batch 1",
         "Batch 4",
         "Batch 1",
         "Batch 2",
@@ -104132,7 +104603,6 @@
         "Batch 2",
         "Batch 2",
         "Batch 3",
-        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch X",
@@ -104197,7 +104667,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 4",
-        "Batch 1",
         "Batch 2",
         "Batch X",
         "Batch X",
@@ -104304,7 +104773,6 @@
         "Batch 2",
         "Batch 2",
         "Batch 3",
-        "Batch 1",
         "Batch 4",
         "Batch 2",
         "Batch X",
@@ -104350,6 +104818,9 @@
         "Batch 4",
         "Batch 4",
         "Batch 4",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -104396,7 +104867,7 @@
         "Batch 1",
         "Batch 1"
       ],
-      "Properties [Data Type]": "AirConditioning [Boolean]; \nAirPressurization [Boolean]; \nArea [Area]; \nAreaIDServed [Label]; \nAutoIgnitionTemperature [Label]; \nBarrierFreeAccessibility [Boolean]; \nCategoryOfStorage [Real]; \nConstructionPhase [Label]; \nDischargePoint [Boolean]; \nElderlyFriendly [Boolean]; \nEmergencyUse [Boolean]; \nFireEmergencyVentilationMode [Label]; \nFlammableStorage [Boolean]; \nFloorFinishType [Label]; \nHearingEnhancement [Boolean]; \nHeight [Length]; \nIlluminance [Real]; \nIsExternal [Boolean]; \nMain [Boolean]; \nNegativeRoomPressure [Label]; \nVentilationMode [Label]; \nOccupancyType [Label]; \nPool_TurnoverTime [Label]; \nPool_WithRecyclingFacilities [Boolean]; \nPowerRating [Label]; \nPubliclyAccessible [Boolean]; \nPublicToiletGenderID [Label]; \nRetrofit [Boolean]; \nRoomPressure [Label]; \nSeatingCapacity [Integer]; \nSpaceName [Label]; \nSubmissionByFutureTenant [Boolean]; \nVolume [Label]; \nWaterLevel [Label]; \nParkingType [Label]; \nHighHazard [Boolean]; \nFireDetectionSuppressionSystem [Label]; \nSmokeControlSystem [Label]; \nEmergencyVoiceCommunicationSystem [Label]; \nServedByRefuseChuteID [Label]",
+      "Properties [Data Type]": "AirConditioning [Boolean]; \nAirPressurization [Boolean]; \nArea [Area]; \nAreaIDServed [Label]; \nAutoIgnitionTemperature [Label]; \nBarrierFreeAccessibility [Boolean]; \nCategoryOfStorage [Real]; \nConstructionPhase [Label]; \nDischargePoint [Boolean]; \nElderlyFriendly [Boolean]; \nEmergencyUse [Boolean]; \nFireEmergencyVentilationMode [Label]; \nFlammableStorage [Boolean]; \nFloorFinishType [Label]; \nHearingEnhancement [Boolean]; \nHeight [Length]; \nIlluminance [Real]; \nMain [Boolean]; \nNegativeRoomPressure [Label]; \nVentilationMode [Label]; \nOccupancyType [Label]; \nPool_TurnoverTime [Label]; \nPool_WithRecyclingFacilities [Boolean]; \nPowerRating [Label]; \nPubliclyAccessible [Boolean]; \nPublicToiletGenderID [Label]; \nRetrofit [Boolean]; \nRoomPressure [Label]; \nSeatingCapacity [Integer]; \nSpaceName [Label]; \nSubmissionByFutureTenant [Boolean]; \nVolume [Label]; \nWaterLevel [Label]; \nParkingType [Label]; \nHighHazard [Boolean]; \nFireDetectionSuppressionSystem [Label]; \nSmokeControlSystem [Label]; \nEmergencyVoiceCommunicationSystem [Label]; \nServedByRefuseChuteID [Label]",
       "Agency": [
         "SCDF",
         "NEA",
@@ -105943,7 +106414,6 @@
         "Code of Practice for Fire Precautions in Building",
         "Technical Requirements for S10 to S29 Public Shelters",
         "Code of Accessibility in the Built Environment",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Surface Water Drainage",
         "Code of Accessibility in the Built Environment",
@@ -105967,7 +106437,6 @@
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Surface Water Drainage",
         "Code of Practice on Surface Water Drainage",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Accessibility in the Built Environment",
@@ -106030,7 +106499,6 @@
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice for Fire Precautions in Building",
-        "Approved Document - Acceptable Solutions",
         "Code of Practice on Street Work Proposals relating to Development Works",
         "Code of Practice for Fire Precautions in Building",
         "Code of Practice for Fire Precautions in Building",
@@ -106137,7 +106605,6 @@
         "Code of Practice on Environmental Health (COPEH)",
         "Code of Accessibility in the Built Environment",
         "SS636 Code of Practice for Water Services",
-        "Approved Document - Acceptable Solutions",
         "Code of Accessibility in the Built Environment",
         "Code of Accessibility in the Built Environment",
         "Technical Requirements for S10 to S29 Public Shelters",
@@ -106193,6 +106660,9 @@
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
@@ -107429,7 +107899,6 @@
         "recLH5kjwbYKCQXmw",
         "rec4rZXrJg9PX7zFD",
         "rec7Ta2EIfA1AZQeA",
-        "recNrMUepOpIaq4w5",
         "recDLZsD9VoIFEDpu",
         "recvBIjRon1d6xrz2",
         "recOzZKAkmZV1ajNq",
@@ -107443,7 +107912,17 @@
         "recUa2itnVuy559MZ",
         "recUlpYEUJGf51O8K",
         "recH6FzfPQudqYQO0",
-        "recudHGznaEa43oSa"
+        "recudHGznaEa43oSa",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC",
+        "recNrMUepOpIaq4w5",
+        "recINT3WVz2mZKH9H",
+        "rec09q8PIl48avsfY",
+        "rectLgVhy6p0tRXAX",
+        "rec9gqSRMP4vONxXZ",
+        "recj9wraDqI4DXEzG"
       ],
       "Status": "Required",
       "Beta": true,
@@ -107498,7 +107977,6 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
         "NA",
         "Batch 1",
         "Batch 1",
@@ -107511,6 +107989,16 @@
         "Batch 3",
         "Batch 2",
         "NA",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1"
       ],
@@ -107567,13 +108055,22 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
-        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Code of Practice on Sewerage and Sanitary Works",
         "Urban Design Guidelines",
         "Code of Practice for Pneumatic Waste Conveyance System",
         "Urban Design Guidelines",
         "Urban Design Guidelines",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works"
       ],
@@ -109879,8 +110376,6 @@
         "recC11pdj2EUJvyD0",
         "recnXztpEhws548EK",
         "recDKeXro7yPbCz5w",
-        "recMcjExBJuWxeTMl",
-        "reccxAfcsgHr7TVTc",
         "recbgeCoj2zqyzNvZ",
         "recrRo05c0epT6xNX",
         "recLdtqo2AhDrphM8",
@@ -109893,7 +110388,8 @@
         "recAmHx8Mfipt8ecc",
         "rec0MTGUJasNXhGOf",
         "recZK696yljszpu7f",
-        "recvCy3eTfl3Ljwm1"
+        "recvCy3eTfl3Ljwm1",
+        "recMcjExBJuWxeTMl"
       ],
       "Status": "Required",
       "IFC4 Sub Type": [
@@ -109919,8 +110415,6 @@
         "Batch X",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
-        "Batch 1",
         "Batch X",
         "Batch 2",
         "Batch X",
@@ -109931,7 +110425,8 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Girth [Length]; \nSingleStem [Boolean]; \nReasonForRemoval [Label]; \nSpecies [Label]; \nStatus [Label]; \nTreeHeight [Label]; \nTreeNumber [Label]; \nTreeSize [Label]",
       "Agency": [
@@ -109960,9 +110455,8 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Design for Safety of Skyrise Greenery"
+        "Guidelines on Design for Safety of Skyrise Greenery",
+        "Guidelines on Greenery Provision and Tree Conversation for Developments"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -110128,9 +110622,14 @@
         "recCtOVXYZBQGjU7w",
         "recniE6H6qtHJ8XLC",
         "recvA4EsintZaADFD",
-        "recKltvNSGK5v44cN"
+        "recKltvNSGK5v44cN",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
-      "Status": "Pending",
+      "Status": "Required",
+      "Beta": true,
       "IFC4 Sub Type": [
         "LANDSCAPE_PLANTINGTROUGH*"
       ],
@@ -110145,17 +110644,26 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Material [Label]; \nVegetation_HasCreepers [Boolean]",
       "Agency": [
-        "NParks"
+        "NParks",
+        "PUB"
       ],
       "Codes and Standards": [
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -110163,7 +110671,8 @@
         "MEP"
       ],
       "Regulatory Codes and Standards": [
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Sample Value (Property)": [
         "WATERPROOFING (Material)"
@@ -111364,8 +111873,6 @@
         "recC11pdj2EUJvyD0",
         "recnXztpEhws548EK",
         "recDKeXro7yPbCz5w",
-        "recMcjExBJuWxeTMl",
-        "reccxAfcsgHr7TVTc",
         "recbgeCoj2zqyzNvZ",
         "recrRo05c0epT6xNX",
         "recLdtqo2AhDrphM8",
@@ -111377,7 +111884,8 @@
         "recnUcTpL7SMQeNJt",
         "recAmHx8Mfipt8ecc",
         "rec0MTGUJasNXhGOf",
-        "recZK696yljszpu7f"
+        "recZK696yljszpu7f",
+        "recMcjExBJuWxeTMl"
       ],
       "Status": "Required",
       "IFC4 Sub Type": [
@@ -111404,8 +111912,6 @@
         "Batch X",
         "Batch 1",
         "Batch 1",
-        "Batch 1",
-        "Batch 1",
         "Batch X",
         "Batch 2",
         "Batch X",
@@ -111413,6 +111919,7 @@
         "Batch X",
         "Batch 1",
         "Batch X",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1"
@@ -111431,7 +111938,6 @@
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Design for Safety of Skyrise Greenery",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
@@ -112193,7 +112699,7 @@
     "id": "recvXynji8vw2q3zs",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Civil Element",
+      "Identified Component": "Road",
       "OT KEY (Sub-Type)": [
         "recZG2iQx6gGue1fO"
       ],
@@ -112220,7 +112726,7 @@
       "IFC4 Sub Type": [
         "BACKLANE*"
       ],
-      "CO KEY": "CIV_BAC_113",
+      "CO KEY": "ROA_BAC_113",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
@@ -112957,7 +113463,9 @@
         "recXxdt3r8SuZUYrW",
         "recAVVJjZIPM1uyD3",
         "recXoDVtqrHJyLCrM",
-        "rec9l5kv0V75hMzwg"
+        "rec9l5kv0V75hMzwg",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -113025,11 +113533,14 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Material [Label]",
       "Agency": [
-        "URA"
+        "URA",
+        "BCA"
       ],
       "Codes and Standards": [
         "Conservation Guidelines",
@@ -113086,7 +113597,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -113099,7 +113612,8 @@
         "Business 2 (Industrial) Handbook",
         "Business Park Handbook",
         "Residential Handbook (Flats and Condos)",
-        "Commercial Handbook"
+        "Commercial Handbook",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "REINFORCED CONCRETE (Material)"
@@ -113123,7 +113637,10 @@
         "rec3cAiwIMvPXfwat"
       ],
       "Map to Rule": [
-        "rec9iEUujIsp23zNX"
+        "rec9iEUujIsp23zNX",
+        "recIVqoolhxMVWvv4",
+        "recFwzC8AMVrHQEXC",
+        "recFXZRjhPtO8VXm3"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -113137,6 +113654,9 @@
         "LOUVRE"
       ],
       "Batch (Rules)": [
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "FixedLouvreBlade [Boolean]",
@@ -113144,14 +113664,18 @@
         "BCA"
       ],
       "Codes and Standards": [
-        "Code for Environmental Sustainability of Buildings"
+        "Code for Environmental Sustainability of Buildings",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC",
         "External Works"
       ],
       "Regulatory Codes and Standards": [
-        "Code for Environmental Sustainability of Buildings"
+        "Code for Environmental Sustainability of Buildings",
+        "Approved Document - Acceptable Solutions"
       ],
       "IFC4 Entity.Sub-Type": "IfcWindow.LOUVRE"
     }
@@ -114776,7 +115300,9 @@
         "recnjRigk331OOu2u",
         "recMT0CEAOnbz6yiV",
         "receRDy4gIv3DZBc9",
-        "recPZublPZ1lS3Gut"
+        "recPZublPZ1lS3Gut",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -114898,7 +115424,9 @@
         "Batch X",
         "Batch X",
         "Batch X",
-        "Batch X"
+        "Batch X",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "Function [Label]; \nStatus [Label]",
       "Agency": [
@@ -115016,7 +115544,9 @@
         "Conservation Guidelines",
         "Conservation Guidelines",
         "Conservation Guidelines",
-        "Conservation Guidelines"
+        "Conservation Guidelines",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -115043,7 +115573,8 @@
         "Conservation Guidelines",
         "Code of Practice for Fire Precautions in Building",
         "Commercial Handbook",
-        "Residential Handbooks (Strata Landed Housing)"
+        "Residential Handbooks (Strata Landed Housing)",
+        "Approved Document - Acceptable Solutions"
       ],
       "Actual Value (Property)": [
         "SHELTER (Function)",
@@ -117207,7 +117738,11 @@
         "recRxL4jg1EL8zcEx",
         "recQV9x8dss2ZnLzc",
         "recdIyGRGvvfibdCV",
-        "recFiSq1Aygzr6fHb"
+        "recFiSq1Aygzr6fHb",
+        "recmyONCTv4y7xWv8",
+        "recjDfpJZ9HCeOJQ7",
+        "rec2k9z0aD9BUNJ5I",
+        "rec9FEGZGQ59iuPCC"
       ],
       "Status": "Required",
       "Beta": true,
@@ -117423,6 +117958,10 @@
         "NA",
         "Batch 3",
         "Batch 3",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -117643,7 +118182,11 @@
         "Approved Document - Acceptable Solutions",
         "Gross Floor Area Handbook",
         "Gross Floor Area Handbook",
-        "Gross Floor Area Handbook"
+        "Gross Floor Area Handbook",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Sewerage and Sanitary Works"
       ],
       "Discipline (Entity Key)": [
         "MEP",
@@ -118276,7 +118819,9 @@
         "rec2e7hpOPrZkQy2N",
         "recc8aMca1Xhmet7Q",
         "reciQht9xosZLkNdw",
-        "recEP2YwdFYbRkTGQ"
+        "recEP2YwdFYbRkTGQ",
+        "recFwzC8AMVrHQEXC",
+        "recqq580K1c5ezb6o"
       ],
       "Status": "Pending",
       "IFC4 Sub Type": [
@@ -118296,7 +118841,9 @@
         "Batch 4",
         "Batch 1",
         "Batch 1",
-        "Batch 2"
+        "Batch 2",
+        "Batch 1",
+        "Batch 1"
       ],
       "Properties [Data Type]": "LS_NaturalComponentElement [Boolean]; \nMaterial [Label]; \nPorosity [Label]",
       "Agency": [
@@ -118311,7 +118858,9 @@
         "SS555 - 3 Protection Against Lightning",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
         "Guidelines on Greenery Provision and Tree Conversation for Developments",
-        "Code of Practice for Fire Precautions in Building"
+        "Code of Practice for Fire Precautions in Building",
+        "Approved Document - Acceptable Solutions",
+        "Approved Document - Acceptable Solutions"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -118319,7 +118868,8 @@
       "Regulatory Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
         "SS555 - 3 Protection Against Lightning",
-        "Guidelines on Greenery Provision and Tree Conversation for Developments"
+        "Guidelines on Greenery Provision and Tree Conversation for Developments",
+        "Approved Document - Acceptable Solutions"
       ],
       "Sample Value (Property)": [
         "MET (Material)",
@@ -118385,7 +118935,7 @@
     "id": "reczxwB6Rp3eu6Nbx",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Civil Element",
+      "Identified Component": "Road Island",
       "OT KEY (Sub-Type)": [
         "recD3OYXRIAkWjMJX"
       ],
@@ -118403,7 +118953,7 @@
       "IFC4 Sub Type": [
         "ISLAND*"
       ],
-      "CO KEY": "CIV_ISL_116",
+      "CO KEY": "ROA_ISL_116",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],

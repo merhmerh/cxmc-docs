@@ -213,8 +213,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -296,6 +294,41 @@
       ]
     },
     "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         "code": "Approved Document - Acceptable Solutions",
         "agency": "BCA",
@@ -473,8 +506,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -535,8 +566,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -609,7 +638,7 @@
   },
   {
     "IdentifiedComponent": "Pipe Segment",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Plumbing Fixtures",
@@ -636,6 +665,46 @@
         "code": "Code of Practice on Sewerage and Sanitary Works",
         "agency": "PUB",
         "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Sewerage System Design: Hydraulic Drop Structures",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "STD.dwg.3.4",
+                "clauses": [
+                  "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
+                ]
+              }
+            ]
+          },
           {
             "chapterName": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
             "clauseNumbers": [
@@ -752,8 +821,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -840,27 +907,18 @@
     ]
   },
   {
-    "IdentifiedComponent": "Non-shelter Household Shelter",
+    "IdentifiedComponent": "CD Shelter (Non-shelter)",
     "Beta": false,
     "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
+      "Revit": [],
+      "ArchiCAD": [],
+      "Tekla": [],
+      "Bentley": []
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:NONSHELTERHOUSEHOLDSHELTER"
+      "IfcBuildingSystem:USERDEFINED:NONSHELTERHOUSEHOLDSHELTER",
+      "IfcBuildingSystem:USERDEFINED:NONSHELTERSTOREYSHELTER"
     ]
   },
   {
@@ -918,8 +976,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -1454,7 +1510,7 @@
   },
   {
     "IdentifiedComponent": "Trench",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Floors",
@@ -1473,7 +1529,28 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:TRENCH"
     ]
@@ -1600,8 +1677,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -1631,8 +1706,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2020,8 +2093,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2051,8 +2122,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2082,8 +2151,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2457,8 +2524,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2512,8 +2577,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2568,8 +2631,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -2763,7 +2824,7 @@
   },
   {
     "IdentifiedComponent": "Drain",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Floors",
@@ -2782,7 +2843,28 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:SURFACEDRAIN",
       "IfcCivilElement:USERDEFINED:STORMWATERDRAIN",
@@ -3016,8 +3098,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -3048,8 +3128,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -3079,8 +3157,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -3134,8 +3210,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -3152,6 +3226,26 @@
       ]
     },
     "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "agency": "LTA",
@@ -3222,7 +3316,7 @@
   },
   {
     "IdentifiedComponent": "Site Boundary",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Topography",
@@ -3241,7 +3335,28 @@
         "Object"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:SITEBOUNDARY"
     ]
@@ -3567,7 +3682,7 @@
   },
   {
     "IdentifiedComponent": "Lamp Post",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Floors",
@@ -3586,7 +3701,28 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:LAMPPOST"
     ]
@@ -4536,7 +4672,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Household Shelter",
+    "IdentifiedComponent": "CD Shelter",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -4556,7 +4692,9 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:HOUSEHOLDSHELTER"
+      "IfcBuildingSystem:USERDEFINED:HOUSEHOLDSHELTER",
+      "IfcBuildingSystem:USERDEFINED:STOREYSHELTER",
+      "IfcBuildingSystem:USERDEFINED:STAIRCASESTOREYSHELTER"
     ]
   },
   {
@@ -4568,8 +4706,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -4592,7 +4728,7 @@
   },
   {
     "IdentifiedComponent": "Manhole",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Plumbing Fixtures",
@@ -4615,6 +4751,46 @@
         "code": "Code of Practice on Sewerage and Sanitary Works",
         "agency": "PUB",
         "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Sewerage System Design: Hydraulic Drop Structures",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "STD.dwg.3.4",
+                "clauses": [
+                  "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
+                ]
+              }
+            ]
+          },
           {
             "chapterName": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
             "clauseNumbers": [
@@ -4790,8 +4966,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -5146,8 +5320,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -5177,8 +5349,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -5355,8 +5525,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -5378,26 +5546,32 @@
     ]
   },
   {
-    "IdentifiedComponent": "Precast Refuse Chute",
+    "IdentifiedComponent": "Refuse Chute",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Model Groups"
+        "Model Groups",
+        "Walls"
       ],
       "ArchiCAD": [
         "IFC Assignments",
-        "Group"
+        "Group",
+        "Wall"
       ],
       "Tekla": [
-        "N.A"
+        "N.A",
+        "Panel",
+        "Concrete Panel"
       ],
       "Bentley": [
         "System",
-        "Group"
+        "Group",
+        "Wall"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
+      "IfcWall:USERDEFINED:REFUSECHUTE",
       "IfcBuildingSystem:USERDEFINED:REFUSECHUTE"
     ]
   },
@@ -5584,7 +5758,7 @@
   },
   {
     "IdentifiedComponent": "Culvert",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Floors",
@@ -5603,7 +5777,28 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:CULVERT:null",
       "IfcCivilElement:USERDEFINED:BOXCULVERT",
@@ -5619,8 +5814,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -5674,8 +5867,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -5951,8 +6142,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -6120,8 +6309,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -6496,8 +6683,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -6689,8 +6874,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -6825,8 +7008,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -7136,30 +7317,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Storey Shelter",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:STOREYSHELTER"
-    ]
-  },
-  {
     "IdentifiedComponent": "Service System",
     "Beta": false,
     "representation": {
@@ -7192,8 +7349,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -7366,8 +7521,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -7397,8 +7550,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -7458,8 +7609,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -7553,7 +7702,7 @@
   },
   {
     "IdentifiedComponent": "Sanitary System",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Piping Systems",
@@ -7576,6 +7725,20 @@
         "agency": "PUB",
         "chapters": [
           {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          },
+          {
             "chapterName": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
             "clauseNumbers": [
               {
@@ -7591,30 +7754,6 @@
     ],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:SANITARY"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Non-shelter Storey Shelter",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:NONSHELTERSTOREYSHELTER"
     ]
   },
   {
@@ -7956,8 +8095,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -7980,7 +8117,7 @@
   },
   {
     "IdentifiedComponent": "Sewerage System",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Piping Systems",
@@ -8002,6 +8139,46 @@
         "code": "Code of Practice on Sewerage and Sanitary Works",
         "agency": "PUB",
         "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Sewerage System Design: Hydraulic Drop Structures",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "STD.dwg.3.4",
+                "clauses": [
+                  "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
+                ]
+              }
+            ]
+          },
           {
             "chapterName": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
             "clauseNumbers": [
@@ -8043,8 +8220,8 @@
     ]
   },
   {
-    "IdentifiedComponent": "Civil Element",
-    "Beta": false,
+    "IdentifiedComponent": "Road",
+    "Beta": true,
     "representation": {
       "Revit": [
         "Floors",
@@ -8063,14 +8240,49 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "agency": "LTA",
+        "chapters": [
+          {
+            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "2.1.5",
+                "clauses": [
+                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:LAYBY",
-      "IfcCivilElement:USERDEFINED:PAVEMENT",
-      "IfcCivilElement:USERDEFINED:FOOTPATH",
-      "IfcCivilElement:USERDEFINED:BACKLANE",
-      "IfcCivilElement:USERDEFINED:ROADKERB",
-      "IfcCivilElement:USERDEFINED:ISLAND"
+      "IfcCivilElement:USERDEFINED:DRIVEWAY",
+      "IfcCivilElement:USERDEFINED:BACKLANE"
     ]
   },
   {
@@ -8082,8 +8294,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -8196,30 +8406,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcTransportElement:MOVINGWALKWAY:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Staircase Storey Shelter",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:STAIRCASESTOREYSHELTER"
     ]
   },
   {
@@ -8607,8 +8793,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -8627,50 +8811,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:GONDOLA"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Driveway",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Floors",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Slab",
-        "Object"
-      ],
-      "Tekla": [
-        "Slab",
-        "Panel"
-      ],
-      "Bentley": [
-        "Slab",
-        "Drains&Basins"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
-        "agency": "LTA",
-        "chapters": [
-          {
-            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
-            "clauseNumbers": [
-              {
-                "clauseNumber": "2.1.5",
-                "clauses": [
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcCivilElement:USERDEFINED:DRIVEWAY"
     ]
   },
   {
@@ -8816,7 +8956,7 @@
   },
   {
     "IdentifiedComponent": "Green Verge",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Topography",
@@ -8835,7 +8975,28 @@
         "Object"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:GREENVERGE"
     ]
@@ -8944,8 +9105,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -8968,7 +9127,7 @@
   },
   {
     "IdentifiedComponent": "Planting Area",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Topography",
@@ -8987,7 +9146,28 @@
         "Object"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:PLANTINGAREA"
     ]
@@ -9305,8 +9485,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -9622,8 +9800,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -9726,8 +9902,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -9961,8 +10135,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -10127,7 +10299,7 @@
   },
   {
     "IdentifiedComponent": "Boundary wall/ Boundary fence",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Walls"
@@ -10143,7 +10315,28 @@
         "Wall"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcWall:USERDEFINED:BOUNDARYWALL"
     ]
@@ -10227,6 +10420,53 @@
     ]
   },
   {
+    "IdentifiedComponent": "Footpath",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Floors",
+        "Generic Models"
+      ],
+      "ArchiCAD": [
+        "Slab",
+        "Object"
+      ],
+      "Tekla": [
+        "Slab",
+        "Panel"
+      ],
+      "Bentley": [
+        "Slab",
+        "Drains&Basins"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcCivilElement:USERDEFINED:FOOTPATH"
+    ]
+  },
+  {
     "IdentifiedComponent": "Urinal",
     "Beta": false,
     "representation": {
@@ -10265,8 +10505,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -10441,6 +10679,35 @@
         "agency": "PUB",
         "chapters": [
           {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          },
+          {
             "chapterName": "Inspection Chamber (IC)",
             "clauseNumbers": [
               {
@@ -10448,6 +10715,17 @@
                 "clauses": [
                   "(b) (1)• This rule shall check for the maximum depth of inspection chamber.\n• System will check for presence of inspection chamber.\n• Maximum depth of inspection chamber shall be 2500 mm.\n• If maximum depth is more than 2500 mm, checking shall flag as “Attention” and shall follow the standard for manhole.",
                   "(b) (2) • This rule shall check for the internal width and length of inspection chamber.\n• System will check for presence of inspection chamber.\n• Checking shall flag as Non-Compliant if the minimum and maximum width/length is not provided.\nNote: This rule only checks for inspection chambers designed as IC’s only and does not include inspection chambers  \n           designed using manhole."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Sewerage System Design: Hydraulic Drop Structures",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "STD.dwg.3.4",
+                "clauses": [
+                  "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
                 ]
               }
             ]
@@ -10498,15 +10776,13 @@
   },
   {
     "IdentifiedComponent": "Planting Trough",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Generic Models",
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -10522,7 +10798,28 @@
         "Forms"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:LANDSCAPE_PLANTINGTROUGH"
     ]
@@ -10558,8 +10855,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -10685,8 +10980,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11020,8 +11313,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11178,8 +11469,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11209,8 +11498,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11240,8 +11527,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11312,6 +11597,32 @@
     ]
   },
   {
+    "IdentifiedComponent": "Civil Element",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Floors",
+        "Generic Models"
+      ],
+      "ArchiCAD": [
+        "Slab",
+        "Object"
+      ],
+      "Tekla": [
+        "Slab",
+        "Panel"
+      ],
+      "Bentley": [
+        "Slab",
+        "Drains&Basins"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcCivilElement:USERDEFINED:ROADKERB"
+    ]
+  },
+  {
     "IdentifiedComponent": "Ceiling",
     "Beta": true,
     "representation": {
@@ -11341,6 +11652,26 @@
       ]
     },
     "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         "code": "Approved Document - Acceptable Solutions",
         "agency": "BCA",
@@ -11422,8 +11753,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11453,8 +11782,6 @@
         "Specialty Equipment",
         "Floors",
         "Massing",
-        "Component",
-        "Pipe Accessories",
         "Parking (for parking lots)"
       ],
       "ArchiCAD": [
@@ -11473,6 +11800,32 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:BACKFILL"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Road Island",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Floors",
+        "Generic Models"
+      ],
+      "ArchiCAD": [
+        "Slab",
+        "Object"
+      ],
+      "Tekla": [
+        "Slab",
+        "Panel"
+      ],
+      "Bentley": [
+        "Slab",
+        "Drains&Basins"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcCivilElement:USERDEFINED:ISLAND"
     ]
   }
 ]

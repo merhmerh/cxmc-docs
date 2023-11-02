@@ -1,8 +1,6 @@
 <script>
 import { rules } from "../rules.store";
-import { theme } from "$comp/theme.store";
 import { page } from "$app/stores";
-import { replaceSpaceWithDash } from "$fn/helper";
 import CodeTable from "./CodeTable.svelte";
 
 let list = {};
