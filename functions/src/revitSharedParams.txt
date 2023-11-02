@@ -1,6 +1,5 @@
 # Base Name: ifcsg-revit-shared-params-v1
 # Base Namespace: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
-# GUID is generated using uuidv5(PropertyName,uuidv5(baseNameSpace,baseName))
 *META	VERSION	MINVERSION
 META	2	1
 *GROUP	ID	NAME
