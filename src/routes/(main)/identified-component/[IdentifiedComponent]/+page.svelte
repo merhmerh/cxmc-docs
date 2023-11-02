@@ -421,20 +421,12 @@ h3 {
                 padding: 0;
                 position: relative;
                 div.chapter {
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    left: 0;
-                    top: 0;
                     padding: 0;
                     gap: 0;
                     .row {
                         display: grid;
                         grid-template-columns: 200px 1fr;
-                        // justify-content: space-between;
                         width: 100%;
-                        // align-items: center;
-
                         display: flex;
 
                         &:not(:last-child) {
@@ -447,6 +439,7 @@ h3 {
                             width: 200px;
                             padding: 0.325rem 0.5rem;
                         }
+
                         .col2 {
                             border-left: 1px solid var(--table__border-color);
                             display: flex;
