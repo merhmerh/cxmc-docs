@@ -1,6 +1,8 @@
-const { google } = require('googleapis')
+import { google } from 'googleapis';
+import { supabase } from './helper.js';
+import dotenv from 'dotenv';
 
-require('dotenv').config();
+dotenv.config();
 
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY
 
@@ -13,9 +15,28 @@ const sheets = google.sheets({
 const content_id = '1Ew0ImhU3wUuHCaatyD9FN7oLf6vlDCBViC2NakuzyfE'
 const areaScheme_id = '14_9NvXR8FbBpSI6w6s3lCjtmY_9bGG4dw4Tdzn4kPfc';
 
+export function updateAreaReq() {
+    return new Promise(async (resolve, reject) => {
+        const result = await getGFAData()
 
-async function main() {
+        try {
+            await supabase.from('areaRequirement')
+                .delete()
+                .neq('id', 0)
 
+            await supabase
+                .from('areaRequirement')
+                .insert({ data: result })
+
+            resolve(result)
+        } catch (error) {
+            reject(error)
+        }
+
+    })
+}
+
+async function getGFAData() {
     const [pageContent, areaScheme, AGFName] = await Promise.all([
         getPageContent(),
         getAreaScheme(),
@@ -25,7 +46,6 @@ async function main() {
     return { pageContent, areaScheme, AGFName };
 }
 
-module.exports = main
 
 async function getPageContent() {
     const sheetNames = await listSheets(content_id)

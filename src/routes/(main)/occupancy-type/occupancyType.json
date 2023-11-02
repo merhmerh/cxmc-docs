@@ -4,655 +4,901 @@
     "ref": "bungalow, detached house, semi-detached house, terrace house",
     "pg": "I",
     "pg_def": "small residential",
+    "pg_type": "detached, semi-detached & terrace house",
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": "Residential"
   },
   {
     "occupancyType": "multi-unit residential",
     "ref": "apartment, condominium, flat, maisonette, studio apartment",
     "pg": "II",
     "pg_def": "other residential",
+    "pg_type": "Block of flats/ maisonettes",
     "bca_acc_code": 1,
-    "bca_acc_def": "residential"
+    "bca_acc_def": "residential",
+    "pub": "Multi-story residential building",
+    "nea": "Residential"
   },
   {
     "occupancyType": "supervisory care facility",
     "ref": "detention centre, correction centre, dementia centre, psychiatric rehabilitation home, rehabilitation centre, home for the spastic, children's home, home for intellectually disabled, pre/post-natal care centre, welfare home, orphanage, voluntary children home,  boys'/ girls' home, adult disability home, sheltered home, assisted living facility",
     "pg": "III",
     "pg_def": "institutional (supervisory care facility)",
+    "pg_type": "healthcare facility (inpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "supervisory care facility (detention)",
     "ref": "prison holding area, police station holding area (with overnight stay)",
     "pg": "III",
     "pg_def": "institutional (supervisory care facility)",
+    "pg_type": "healthcare facility (inpatient)",
     "bca_acc_code": 17,
-    "bca_acc_def": "worker dormitories"
+    "bca_acc_def": "worker dormitories",
+    "pub": null,
+    "nea": "Special Use"
   },
   {
     "occupancyType": "nursing care facilities",
     "ref": "convalescent home, home for the aged, hospice, nursing home",
     "pg": "III",
     "pg_def": "institutional (nursing care facility)",
+    "pg_type": "healthcare facility (inpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "hospital without A&E services",
     "ref": "public hospital, private hospital, community hospital, psychiatric hospital",
     "pg": "III",
     "pg_def": "institutional (hospital facility)",
+    "pg_type": "healthcare facility (inpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": "Hospital, medical clinic & center",
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "hospital with A&E services",
     "ref": null,
     "pg": "III",
     "pg_def": "institutional (hospital facility)",
+    "pg_type": "healthcare facility (inpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": "Hospital, medical clinic & center",
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "ambulatory care facility",
     "ref": "aesthetic clinic, endoscopy clinic, non-mental rehabilitation day centre,  renal dialysis day centre located within a complex",
     "pg": "III",
     "pg_def": "institutional (ambulatory care facility)",
+    "pg_type": "healthcare facility (outpatient)",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "ambulatory care facility (standalone)",
     "ref": "standalone building consists of mainly ambulatory care facilities",
     "pg": "III",
     "pg_def": "institutional (ambulatory care facility)",
+    "pg_type": "healthcare facility (outpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "custodian care facility",
     "ref": "mental rehabilitation day care centre, daycare centre, mentally/ intellectually disabled day care centre, senior activity centre, senior care centre, school for the spastic, psychiatric day care centre",
     "pg": "III",
     "pg_def": "institutional (custodian care facility)",
+    "pg_type": "healthcare facility (outpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "custodian care facility (nursery)",
     "ref": "childcare day centre, infant-care day centre, kindergarten for childer under 6 years of age",
     "pg": "III",
     "pg_def": "institutional (custodian care facility)",
+    "pg_type": "healthcare facility (outpatient)",
     "bca_acc_code": 13,
-    "bca_acc_def": "pre-schools, schools, colleges, universities and institutions of learning"
+    "bca_acc_def": "pre-schools, schools, colleges, universities and institutions of learning",
+    "pub": "Commercial (childcare)",
+    "nea": "educational /  institution"
   },
   {
     "occupancyType": "public education institution",
     "ref": "public school, training institution, test centre",
     "pg": "III",
     "pg_def": "institutional (education/ training)",
+    "pg_type": "schools & educational buildings",
     "bca_acc_code": 13,
-    "bca_acc_def": "pre-schools, schools, colleges, universities and institutions of learning"
+    "bca_acc_def": "pre-schools, schools, colleges, universities and institutions of learning",
+    "pub": null,
+    "nea": "educational /  institution"
   },
   {
     "occupancyType": "private education institution",
     "ref": "tuition centre,  enrichment centre, private school, commercial school, training institution",
     "pg": "III",
     "pg_def": "institutional (education/ training)",
+    "pg_type": "schools & educational buildings",
     "bca_acc_code": 13,
-    "bca_acc_def": "pre-schools, schools, colleges, universities and institutions of learning"
+    "bca_acc_def": "pre-schools, schools, colleges, universities and institutions of learning",
+    "pub": "Commercial (tuition center)",
+    "nea": "educational /  institution"
   },
   {
     "occupancyType": "worker dormitory",
     "ref": "workers' dormitry",
     "pg": "III",
     "pg_def": "institutional (worker lodging)",
+    "pg_type": "Hotels, boarding houses, serviced apartments, hostels, backpacker hotel, dormitories",
     "bca_acc_code": 17,
-    "bca_acc_def": "worker dormitories"
+    "bca_acc_def": "worker dormitories",
+    "pub": null,
+    "nea": "worker dormitories"
   },
   {
     "occupancyType": "office",
     "ref": "bank, stock broker, telephone/ telegraph operating, publisher, insurance,  finance, real estate,  advertising ,  employment, marketing, embassy (administrative office)",
     "pg": "IV",
     "pg_def": "office",
+    "pg_type": "offices",
     "bca_acc_code": 3,
-    "bca_acc_def": "office building"
+    "bca_acc_def": "office building",
+    "pub": null,
+    "nea": "Office"
   },
   {
     "occupancyType": "factory office",
     "ref": "for factories/ utility/ warehouse buildings only",
     "pg": "IV",
     "pg_def": "office",
+    "pg_type": "offices",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "Office"
   },
   {
     "occupancyType": "shop",
     "ref": "beauty salon, hairdressing salon, book store, Boutique, confectionery outlet, gift shop, jwellery shop, laundry, laundromat, pawnshop, provisional shop, ticketing agency, travel agency, drugstore,  pet clinic,  vet clinic,  pet hospital, vet hospital,  animal hospital, pet shop, pet grooming , pet boarding,  pet day care, take-away food kiosk (small trade / business involving sale of goods, retail, service), showroom not located in warehouse/ factories",
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": "Commercial (retail shops, dry shops)",
+    "nea": "shop or shopping mall"
   },
   {
     "occupancyType": "ODA",
     "ref": "outdoor display area",
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "outpatient clinic",
     "ref": null,
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "polyclinic",
     "ref": null,
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": 15,
-    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
+    "bca_acc_def": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes",
+    "pub": null,
+    "nea": "hospitals, health-care centres, clinics, nursing homes, homes for the aged and welfare homes"
   },
   {
     "occupancyType": "market",
     "ref": "wet market",
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": 11,
-    "bca_acc_def": "markets, hawker or food centres"
+    "bca_acc_def": "markets, hawker or food centres",
+    "pub": "Market",
+    "nea": "Supermarket / Wet Market"
   },
   {
     "occupancyType": "Temporary showflat",
     "ref": "standalone showflat",
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": "Temporary showflat"
   },
   {
     "occupancyType": "factory showroom",
     "ref": "for factories/ utility buildings only",
     "pg": "V",
     "pg_def": "shop",
+    "pg_type": "shop, healthcare facility (outpatient)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "factory showroom"
   },
   {
     "occupancyType": "petrol station",
     "ref": null,
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": "Petrol Station"
   },
   {
     "occupancyType": "factory",
     "ref": "aircraft hangar, chemicals, consumable products, data centre, fireworks, glassware, metalwork, highly combustible substances, highly flammable products, incineration, oil refinery, pharmaceutical, rubber, ship building, telecommunication exchange, vehicle repair, woodwork",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
   },
   {
     "occupancyType": "food production factory",
     "ref": "central kitchen, food production",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "food production factory"
   },
   {
     "occupancyType": "M&E area",
     "ref": "M&E area within a buidling",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": "M&E Area"
   },
   {
     "occupancyType": "wafer fabrication plant",
     "ref": null,
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "trade effluent treatment plant",
     "ref": "disinfection plant",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "waste management and recycling",
     "ref": null,
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "embalming facility",
     "ref": null,
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "agriculture",
     "ref": "farm, plant nursery (no visitor area)",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "agriculture"
   },
   {
     "occupancyType": "animal related facility",
     "ref": "pet crematorium | animal shelter | quarantine facilities  (no visitor area)",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "animal related facility"
   },
   {
     "occupancyType": "high containment facility",
     "ref": "containment lab of biosafety level 3 & 4",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": "high containment facility"
   },
   {
     "occupancyType": "electrical & gas facility",
     "ref": "power generation plants, gas trasmission/ receiving station",
     "pg": "VI",
     "pg_def": "factory",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "road tunnel",
     "ref": "underground road network",
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "body treatment place",
     "ref": "massage establishment, foot reflexology, spa, gymnasium, fitness centre",
     "pg": "VII",
     "pg_def": "Place of public resort (body treatment)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "entertainment place",
     "ref": "arcade, computing gaming, game machine area, karaoke lounge, night club, casino",
     "pg": "VII",
     "pg_def": "Place of public resort (entertainment)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "assembly place",
     "ref": "Auditorium, theatre, concert hall",
     "pg": "VII",
     "pg_def": "Place of public resort (entertainment)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": "conference hall/ cinema/ theatre/ convention hall/ exhibition hall"
   },
   {
     "occupancyType": "cinema",
     "ref": "cinema",
     "pg": "VII",
     "pg_def": "Place of public resort (entertainment)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 4,
-    "bca_acc_def": "Shopping complexes and multi-purpose complexes"
+    "bca_acc_def": "Shopping complexes and multi-purpose complexes",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "recreational place",
     "ref": "bowling, billiard, snooker, dart (leisure sport), indoor play park",
     "pg": "VII",
     "pg_def": "Place of public resort (recreational)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 7,
-    "bca_acc_def": "Places of public resort"
+    "bca_acc_def": "Places of public resort",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "sky garden/ terrace",
     "ref": "garden/ terrace within a building, not on-grade, roof/ mid level, exclude those in residential units",
     "pg": "VII",
     "pg_def": "Place of public resort (recreational)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": "D",
-    "bca_acc_def": "follow dominant use"
+    "bca_acc_def": "follow dominant use",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "F&B outlet",
     "ref": "pub, bar, restaurant, coffee shop, café",
     "pg": "VII",
     "pg_def": "Place of public resort (F&B)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 10,
-    "bca_acc_def": "Restaurants and eating establishments"
+    "bca_acc_def": "Restaurants and eating establishments",
+    "pub": "Food establishment",
+    "nea": null
   },
   {
     "occupancyType": "Fast food outlet",
     "ref": "fast food outlet queuing & dining area",
     "pg": "VII",
     "pg_def": "Place of public resort (F&B)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 10,
-    "bca_acc_def": "Restaurants and eating establishments"
+    "bca_acc_def": "Restaurants and eating establishments",
+    "pub": "Food establishment",
+    "nea": null
   },
   {
     "occupancyType": "ORA",
     "ref": "outdoor refreshment area",
     "pg": "VII",
     "pg_def": "Place of public resort (F&B)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 10,
-    "bca_acc_def": "Restaurants and eating establishments"
+    "bca_acc_def": "Restaurants and eating establishments",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "food centre",
     "ref": "food court, hawker centre, canteen",
     "pg": "VII",
     "pg_def": "Place of public resort (F&B)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 11,
-    "bca_acc_def": "markets, hawker or food centres"
+    "bca_acc_def": "markets, hawker or food centres",
+    "pub": "Food establishment",
+    "nea": null
   },
   {
     "occupancyType": "educational place",
     "ref": "museum, exhibition centre, convention centre, art centre, gallery, library",
     "pg": "VII",
     "pg_def": "Place of public resort (educational)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 7,
-    "bca_acc_def": "Places of public resort"
+    "bca_acc_def": "Places of public resort",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "serviced apartment",
     "ref": null,
     "pg": "VII",
     "pg_def": "Place of public resort (accommodation)",
+    "pg_type": "Hotels, boarding houses, serviced apartments, hostels, backpacker hotel, dormitories",
     "bca_acc_code": 6,
-    "bca_acc_def": "Serviced apartments"
+    "bca_acc_def": "Serviced apartments",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "hostel",
     "ref": "student hostel, visitor hostel, staff quarter",
     "pg": "VII",
     "pg_def": "Place of public resort (accommodation)",
+    "pg_type": "Hotels, boarding houses, serviced apartments, hostels, backpacker hotel, dormitories",
     "bca_acc_code": 14,
-    "bca_acc_def": "hostels, halls of residence or dormitories"
+    "bca_acc_def": "hostels, halls of residence or dormitories",
+    "pub": null,
+    "nea": "Residential"
   },
   {
     "occupancyType": "hotel",
     "ref": "hotel, resort, backpacker's hotel, boarding house",
     "pg": "VII",
     "pg_def": "Place of public resort (accommodation)",
+    "pg_type": "Hotels, boarding houses, serviced apartments, hostels, backpacker hotel, dormitories",
     "bca_acc_code": 5,
-    "bca_acc_def": "Hotel, boarding houses, chalets and backpacker hotels"
+    "bca_acc_def": "Hotel, boarding houses, chalets and backpacker hotels",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "capsule hotel",
     "ref": null,
     "pg": "VII",
     "pg_def": "Place of public resort (accommodation)",
+    "pg_type": "Hotels, boarding houses, serviced apartments, hostels, backpacker hotel, dormitories",
     "bca_acc_code": 5,
-    "bca_acc_def": "Hotel, boarding houses, chalets and backpacker hotels"
+    "bca_acc_def": "Hotel, boarding houses, chalets and backpacker hotels",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "community club",
     "ref": null,
     "pg": "VII",
     "pg_def": "Place of public resort (social)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 7,
-    "bca_acc_def": "Places of public resort"
+    "bca_acc_def": "Places of public resort",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "social club",
     "ref": "private club, association",
     "pg": "VII",
     "pg_def": "Place of public resort (social)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 7,
-    "bca_acc_def": "Places of public resort"
+    "bca_acc_def": "Places of public resort",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "religious place",
     "ref": "church, mosque, temple, synagogue, funeral parlour, columbarium, crematorium visitor area",
     "pg": "VII",
     "pg_def": "Place of public resort (religious)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 7,
-    "bca_acc_def": "Places of public resort"
+    "bca_acc_def": "Places of public resort",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "park",
     "ref": "on-grade park, playground, not part or surrounded by building",
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "Parks and open spaces including zoos, civic plazas, etc"
+    "bca_acc_def": "Parks and open spaces including zoos, civic plazas, etc",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "sports facility",
     "ref": "public sport complex, public swimming complex, swimming complex, stadium, indoor sports hall",
     "pg": "VII",
     "pg_def": "Place of public resort (recreational)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 9,
-    "bca_acc_def": "Sports complexes and public swimming pools"
+    "bca_acc_def": "Sports complexes and public swimming pools",
+    "pub": null,
+    "nea": "public swimming pool/ stadium"
   },
   {
     "occupancyType": "sports facility (ancillary)",
     "ref": "sports facilities within a school",
     "pg": "VII",
     "pg_def": "Place of public resort (recreational)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": "D",
-    "bca_acc_def": "follow dominant use"
+    "bca_acc_def": "follow dominant use",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "train station",
     "ref": "rapid transit system",
     "pg": "VII",
     "pg_def": "Place of public resort (transportation)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 12,
-    "bca_acc_def": "transport stations, interchanges, and passenger terminals"
+    "bca_acc_def": "transport stations, interchanges, and passenger terminals",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "transport terminal",
     "ref": "bus interchange, bus terminal, airport terminal, ferry terminal",
     "pg": "VII",
     "pg_def": "Place of public resort (transportation)",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 12,
-    "bca_acc_def": "transport stations, interchanges, and passenger terminals"
+    "bca_acc_def": "transport stations, interchanges, and passenger terminals",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "transport depot",
     "ref": "rail depot, bus depot",
     "pg": "VIII",
     "pg_def": "storage",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "Parking",
     "ref": "vehicle park (non mechanised)",
     "pg": "VIII",
     "pg_def": "storage",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 18,
-    "bca_acc_def": "vehicle parks"
+    "bca_acc_def": "vehicle parks",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "FAMCP",
     "ref": "fully automated mechanised carpark",
     "pg": "VIII",
     "pg_def": "storage",
+    "pg_type": "Places of public resort & carpark",
     "bca_acc_code": 18,
-    "bca_acc_def": "vehicle parks"
+    "bca_acc_def": "vehicle parks",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "warehouse",
     "ref": null,
     "pg": "VIII",
     "pg_def": "storage",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "chemical/ hazmat storage",
     "ref": null,
     "pg": "VIII",
     "pg_def": "storage",
+    "pg_type": "industrial buildings (factories, workshops, godown/ warehouse)",
     "bca_acc_code": 16,
-    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses"
+    "bca_acc_def": "factories, workshops, industrial buildings and office/ showroom areas in warehouses",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "airbase",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "live firing area",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "training area",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": "E",
-    "bca_acc_def": "exempted"
+    "bca_acc_def": "exempted",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "campsite",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "wet play field",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "reservoir",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "river",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "canal",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "major drain",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "pond",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "lake",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "other waterbody",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "nature reserve",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "nature area",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "school field",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "promenade",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "marina",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   },
   {
     "occupancyType": "quarry",
     "ref": null,
     "pg": "E",
     "pg_def": "exempted",
+    "pg_type": null,
     "bca_acc_code": 8,
-    "bca_acc_def": "parks and open spaces"
+    "bca_acc_def": "parks and open spaces",
+    "pub": null,
+    "nea": null
   }
 ]

@@ -83,7 +83,7 @@ function resetFilter() {
         <thead>
             <tr>
                 <th><div>AGF_Name</div></th>
-                <th><div class="center">Description</div></th>
+                <th><div>Description</div></th>
                 <!-- <th><div class="center">AGF_DevelopmentUse</div></th>
                 <th><div class="center">Excluded from GFA</div></th> -->
                 <!-- <th><div class="center">Refuse Category</div></th>
@@ -111,7 +111,7 @@ function resetFilter() {
                                 </button>
                             </div>
                         </td>
-                        <td class="description"><div class="center">{space[3] || ""}</div></td>
+                        <td class="description"><div>{space[3] || ""}</div></td>
                         <!--<td><div class="center">{space[1] ? "yes" : "no"}</div></td> -->
                         <!-- <td><div class="center">{space[3] !== "N.A" ? space[3] : ""}</div></td> -->
 

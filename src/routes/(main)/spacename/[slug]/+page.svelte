@@ -129,9 +129,9 @@ function resetFilter() {
 
                 {#if !$beta}
                     <th class="OccupancyLoad"><div>OccupancyLoad</div></th>
+                    <th class="scdfRemarks"><div>SCDF remarks</div></th>
+                    <th class="bcaRemarks"><div>BCA - spaces not for public access</div></th>
                 {/if}
-                <th class="scdfRemarks"><div>SCDF remarks</div></th>
-                <th class="bcaRemarks"><div>BCA - spaces not for public access</div></th>
             </tr>
         </thead>
 
@@ -172,10 +172,9 @@ function resetFilter() {
                     <td class="FunctionalSpace"><div>{space.functionalSpace}</div></td>
                     {#if !$beta}
                         <td class="OccupancyLoad"><div>{space.occupancyLoad}</div></td>
+                        <td class="scdf_remarks"><div>{space.SCDF_remarks || ""}</div></td>
+                        <td class="bca_remarks"><div class="center">{space.BCA_notForPublic || ""}</div></td>
                     {/if}
-
-                    <td class="scdf_remarks"><div>{space.SCDF_remarks || ""}</div></td>
-                    <td class="bca_remarks"><div class="center">{space.BCA_notForPublic || ""}</div></td>
                 </tr>
             {/each}
         </tbody>

@@ -2,8 +2,8 @@
 import Icon from "@iconify/svelte";
 import { supabase as sb, getPermission } from "$comp/supabase.store.js";
 import { toMemoryUnit, timeout } from "$fn/helper";
-import { Popover } from "merh-forge-ui";
-
+import { Popover, Tooltip } from "merh-forge-ui";
+import dayjs from "dayjs";
 let isOpen = true;
 
 export let data;
@@ -11,7 +11,6 @@ export let data;
 const { role, permission } = getPermission();
 const canUpload = permission.edit;
 
-console.log(role, canUpload);
 async function remove(item) {
     const supabase = $sb;
     console.log(item.id);
@@ -63,18 +62,29 @@ async function forceDownloadFile(file) {
             {#each data.downloads as row}
                 <div class="row">
                     <div class="content">
-                        <span> {row.content}</span>
-                        {#if canUpload}
-                            <Popover>
-                                <span slot="button" class="popoverButton">
-                                    <button class="none">⋅⋅⋅</button>
-                                </span>
+                        <span class="flex items-center">
+                            {row.description}
+                        </span>
+                        <div class="flex items-center">
+                            <button
+                                class="info none icon noHover"
+                                on:click={() => {
+                                    row.showInfo = !row.showInfo;
+                                }}>
+                                <Icon icon="charm:info" height="18" />
+                            </button>
+                            {#if canUpload}
+                                <Popover>
+                                    <span slot="button" class="popoverButton">
+                                        <button class="none">⋅⋅⋅</button>
+                                    </span>
 
-                                <span slot="popup" class="popoverPopup">
-                                    <button class="none" on:click={() => remove(row)}>Remove</button>
-                                </span>
-                            </Popover>
-                        {/if}
+                                    <span slot="popup" class="popoverPopup">
+                                        <button class="none" on:click={() => remove(row)}>Remove</button>
+                                    </span>
+                                </Popover>
+                            {/if}
+                        </div>
                     </div>
 
                     <a
@@ -104,13 +114,21 @@ async function forceDownloadFile(file) {
                         </div>
 
                         <div class="metadata">
-                            <div class="title">{row.download.title}</div>
+                            <div class="title">{`${row.title}.${row.download.fileName.split(/\./)[1]}`}</div>
                             <div class="size">
                                 <Icon icon="ph:download" height="20" />
                                 <span>{toMemoryUnit(row.download.size)}</span>
                             </div>
                         </div>
                     </a>
+
+                    {#if row.showInfo}
+                        <div class="flex flex-col details">
+                            <span>{"Uploaded: " + dayjs(new Date(row.created_at)).format("DD MMM YYYY - HH:MM")}</span>
+                            <span>{`Type: ` + row.download.type}</span>
+                            <span>{"Checksum (SHA256): " + row.checksum}</span>
+                        </div>
+                    {/if}
                 </div>
             {/each}
         </div>
@@ -122,6 +140,10 @@ async function forceDownloadFile(file) {
     padding: 1rem 2rem;
     background-color: var(--bg-p);
     gap: 1rem;
+    @media screen and (max-width: $mobile) {
+        padding: 0.25rem 1rem;
+    }
+
     button.header {
         display: flex;
         width: 100%;
@@ -142,6 +164,7 @@ async function forceDownloadFile(file) {
             color: $url;
         }
     }
+
     .body {
         display: flex;
         flex-direction: column;
@@ -154,7 +177,11 @@ async function forceDownloadFile(file) {
             display: flex;
             flex-direction: column;
             gap: 1rem;
-
+            @media screen and (max-width: $mobile) {
+                &:last-child {
+                    margin-bottom: 1rem;
+                }
+            }
             .content {
                 padding-inline: 0rem;
                 display: flex;
@@ -162,6 +189,10 @@ async function forceDownloadFile(file) {
                 align-items: center;
                 justify-content: space-between;
             }
+            button.info {
+                color: var(--mono-400);
+            }
+
             .download {
                 display: flex;
                 align-items: center;
@@ -201,6 +232,18 @@ async function forceDownloadFile(file) {
                             color: var(--mono);
                             font-size: 14px;
                         }
+                    }
+                }
+            }
+            .details {
+                font-size: 0.875rem;
+                color: var(--mono-500);
+                font-family: var(--font-mono);
+                @media screen and (max-width: $mobile) {
+                    width: 100%;
+                    overflow: auto;
+                    span {
+                        white-space: nowrap;
                     }
                 }
             }

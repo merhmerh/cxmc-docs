@@ -8,8 +8,6 @@ export async function load({ locals: { supabase, getSession } }) {
         .single()
 
 
-
-
     return {
         pageContent: data.data.pageContent,
         areaScheme: data.data.areaScheme,

@@ -67,7 +67,10 @@ function resetFilter() {
                     <th><div>Occupancy Type</div></th>
                     <th><div>Building Types (example)</div></th>
                     <th><div>SCDF Purpose Group</div></th>
+                    <th><div>SCDF Type of Occupancy</div></th>
                     <th><div>BCA accessibility code</div></th>
+                    <th><div>PUB</div></th>
+                    <th><div>NEA</div></th>
                 </tr>
             </thead>
 
@@ -91,7 +94,11 @@ function resetFilter() {
                         </td>
                         <td><div>{item.ref || ""}</div></td>
                         <td><div>{item.pg} - {item.pg_def}</div></td>
+                        <td><div>{item.pg_type || ""}</div></td>
+
                         <td><div>{item.bca_acc_code} - {item.bca_acc_def}</div></td>
+                        <td><div>{item.pub || ""}</div></td>
+                        <td><div>{item.nea || ""}</div></td>
                     </tr>
                 {/each}
             </tbody>
@@ -106,8 +113,16 @@ h1 {
 .container {
     padding-block: 2rem;
     grid-column: 1 / -1;
-    width: 1100px;
+    width: 1400px;
     margin-inline: auto;
+
+    @media screen and (max-width: 1600px) {
+        width: 1200px;
+    }
+
+    @media screen and (max-width: 1250px) {
+        width: 900px;
+    }
 }
 
 .header {
@@ -135,7 +150,11 @@ h1 {
 
 .table_wrapper {
     table {
+        width: 1400px;
         font-size: 0.875rem;
+        th > div {
+            text-align: left;
+        }
         tbody {
             td.ot {
                 width: 250px;
@@ -169,12 +188,13 @@ h1 {
             td:nth-child(2) {
                 width: 300px;
             }
-            td:nth-child(3) {
-                width: 200px;
-            }
 
-            td:nth-child(4) {
-                width: 200px;
+            td:nth-child(3),
+            td:nth-child(4),
+            td:nth-child(5),
+            td:nth-child(6),
+            td:nth-child(7) {
+                width: 170px;
             }
         }
     }

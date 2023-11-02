@@ -1,8 +1,10 @@
 <script>
 import Card from "./Card.svelte";
 import { getPermission } from "$comp/supabase.store.js";
+import { Modal, notify } from "merh-forge-ui";
 
 import Upload from "./Upload.svelte";
+import { onMount } from "svelte";
 
 export let data;
 
@@ -13,18 +15,18 @@ const canUpload = permission.edit || false;
 </script>
 
 {#if canUpload}
-    {#if showUploader}
-        <Upload on:close={() => (showUploader = false)} />
-    {/if}
+    <Modal bind:this={showUploader} let:closeFromChild exitOutsideClick={false} exitWithEscapeKey={false}>
+        <Upload on:close={() => closeFromChild()} />
+    </Modal>
 {/if}
 
 <div class="row">
     <h1>Downloads</h1>
-    {#if canUpload && !showUploader}
+    {#if canUpload}
         <button
             class="fit"
             on:click={() => {
-                showUploader = !showUploader;
+                showUploader.show();
             }}>Upload</button>
     {/if}
 </div>

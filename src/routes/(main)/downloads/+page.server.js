@@ -1,5 +1,4 @@
-export async function load({ parent }) {
-    const { supabase } = await parent()
+export async function load({ locals: { supabase } }) {
 
     const { data } = await supabase.from('downloads')
         .select()
@@ -8,19 +7,20 @@ export async function load({ parent }) {
 
     const result = []
 
-
-
     for (const item of data) {
         const index = result.findIndex(x => x.category == item.category)
 
         const dl = {
-            content: item.description,
             id: item.id,
+            description: item.description,
             updated: item.created_at,
+            title: item.title,
+            created_at: item.created_at,
+            checksum: item.checksum,
             download: {
                 url: item.url,
                 type: item.type,
-                title: item.fileName,
+                fileName: item.fileName,
                 size: item.fileSize
             }
         }

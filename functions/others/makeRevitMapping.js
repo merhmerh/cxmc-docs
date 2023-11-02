@@ -2,6 +2,8 @@ const { createClient } = require('@supabase/supabase-js')
 const fs = require('fs')
 require('dotenv').config();
 
+const { nanoid } = require('nanoid')
+
 
 const SUPABASE_URL = process.env.SUPABASE_URL
 const SUPABASE_SECRET = process.env.SUPABASE_SECRET
@@ -26,7 +28,13 @@ async function main() {
 
     const t1 = performance.now()
     console.log('done in', (t1 - t0).toFixed(2));
-    fs.writeFileSync('./output/Revit_IFC_Mapping.txt', mapping)
+    fs.writeFileSync('./output/Revit-IFC-Mapping-Configuration.txt', mapping)
+
+    const fileName = `Revit-IFC-Mapping-Configuration-7a219af1fg.txt`
+    await supabase
+        .storage
+        .from('public')
+        .upload(`downloads/revit-ifc-mapping-configuration/${fileName}`, mapping)
 }
 
 function sortPset(ifcsg) {
