@@ -1,5 +1,4 @@
-const fs = require('fs')
-
+import fs from 'fs'
 const comp = JSON.parse(fs.readFileSync('./output/comp_id.json', 'utf-8'))
 const rule = JSON.parse(fs.readFileSync('./output/rule_id.json', 'utf-8'))
 const entity = JSON.parse(fs.readFileSync('./output/entity_id.json', 'utf-8'))

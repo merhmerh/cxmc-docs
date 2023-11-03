@@ -1,5 +1,6 @@
-const fs = require('fs')
-require('dotenv').config();
+import fs from 'fs'
+import dotenv from 'dotenv'
+dotenv.config()
 
 const baseID = process.env.AIRTABLE_BASEID
 const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN

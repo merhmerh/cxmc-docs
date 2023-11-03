@@ -1,5 +1,6 @@
 # Base Name: ifcsg-revit-shared-params-v1
 # Base Namespace: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+# Generated with uuidv5(propertyName,uuidv5(baseName,baseNameSpace))
 *META	VERSION	MINVERSION
 META	2	1
 *GROUP	ID	NAME
@@ -23,10 +24,10 @@ PARAM	ecbab178-822d-5625-8504-9c563a817e41	SelfClosing	YESNO		1	1		1	0
 PARAM	b246def5-fe38-5ed7-b2bd-e394f87d8186	DemountableStrutureAbovePipe	YESNO		1	1		1	0
 PARAM	4e9a5e98-f78c-5f9b-94ae-67f72fa4cad0	InnerDiameter	LENGTH		1	1		1	0
 PARAM	ac5d2ef5-d6ba-537f-b208-fa29614d1119	Gradient	TEXT		1	1		1	0
-PARAM	d0d437e7-d644-5661-9ccb-ef9bf37d3c25	PorousFence	YESNO		1	1		1	0
 PARAM	07c5e5e0-eac0-55a0-b4c7-c7babfb74a09	VentilationMode	TEXT		1	1		1	0
 PARAM	a33881e9-8a04-5872-b317-5b6ebd1bf181	OccupancyType	TEXT		1	1		1	0
 PARAM	30ec5f82-7521-52d4-9f23-286f03661c02	SpaceName	TEXT		1	1		1	0
 PARAM	5c82fa2a-1233-5b03-b4bd-c28331dd55b0	AccesswayType	TEXT		1	1		1	0
 PARAM	b80532fd-c250-50ad-ae48-bb10697f7660	AGF_Name	TEXT		1	1		1	0
+PARAM	d0d437e7-d644-5661-9ccb-ef9bf37d3c25	PorousFence	YESNO		1	1		1	0
 PARAM	a3c69511-d8c0-507b-824d-1251d5c6b951	SafetyBarrierHeight	NUMBER		1	1		1	0

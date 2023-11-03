@@ -108,6 +108,7 @@ export async function getIfc(opt) {
     })
 
 
+
     for (const item of result) {
         if (!item.pset) continue;
 
@@ -124,9 +125,11 @@ export async function getIfc(opt) {
                 }
             })
 
+
             if (betaProps.length) {
                 psets[psetName] = betaProps
             }
+
         }
 
         if (Object.entries(psets).length == 0) {
@@ -136,7 +139,6 @@ export async function getIfc(opt) {
     }
 
     // fs.writeFileSync('./output/test.json', JSON.stringify(result, null, 2))
-
     return result
 }
 

@@ -19,6 +19,7 @@
     "firebase-admin": "^11.8.0",
     "firebase-functions": "^4.3.1",
     "googleapis": "^126.0.1",
+    "jstoxml": "^3.2.10",
     "nanoid": "^5.0.2",
     "uuid": "^9.0.1"
   },

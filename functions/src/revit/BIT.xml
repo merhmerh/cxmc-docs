@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedParametersConfig Version="9.1" Name="" Author="" Description="" Image="">
+  <Parameters>
+    <Parameter GUID="885d7e04-cd7b-4765-af40-f09a98d4c133" Name="time" Group="template" Type="Double" UnitType="autodesk.spec.aec:time-2.0.0" UnitTypeDisplay="Time" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>
+    <Parameter GUID="e1d7451b-1a5a-41db-a26d-1dbf1c6855ca" Name="text" Group="template" Type="Text" UnitType="autodesk.spec:spec.string-2.0.0" UnitTypeDisplay="Text" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>
+    <Parameter GUID="da868f5d-a406-4518-b617-a44bc06e4be0" Name="bool" Group="template" Type="Other" UnitType="autodesk.spec.reference:image-1.0.0" UnitTypeDisplay="Image" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>
+    <Parameter GUID="3db03b5e-2e33-4de5-9a06-8ee88aa9a464" Name="number" Group="template" Type="Double" UnitType="autodesk.spec.aec:number-2.0.0" UnitTypeDisplay="Number" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>
+    <Parameter GUID="24267462-7a31-4ab2-ab6a-9f9dc1f3afd1" Name="area" Group="template" Type="Double" UnitType="autodesk.spec.aec:area-2.0.0" UnitTypeDisplay="Area" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>S
+    <Parameter GUID="6005a4ed-c68c-4d84-a909-a1adc80ff228" Name="int" Group="template" Type="Integer" UnitType="autodesk.spec:spec.int64-2.0.0" UnitTypeDisplay="Integer" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>
+    <Parameter GUID="d9456efe-07fd-4fcf-9bdd-242ee8d15a88" Name="length" Group="template" Type="Double" UnitType="autodesk.spec.aec:length-2.0.0" UnitTypeDisplay="Length" Description="" IsInstance="True" GroupUnder="autodesk.parameter.group:ifc-1.0.0" AlignGroupValues="True" UserModifiable="True" HideWhenNoValue="False">
+      <Categories>
+        <Category ID="-2000032" Name="Floors" />
+      </Categories>
+    </Parameter>
+  </Parameters>
+</SharedParametersConfig>

@@ -51246,7 +51246,12 @@
         "recmyONCTv4y7xWv8",
         "recjDfpJZ9HCeOJQ7",
         "rec2k9z0aD9BUNJ5I",
-        "rec9FEGZGQ59iuPCC"
+        "rec9FEGZGQ59iuPCC",
+        "recmkCLQGwih8MXuk",
+        "recge7TINNEkr84Ez",
+        "recvZ0v76huNLtoWX",
+        "recKws1qJ9oxv19so",
+        "recRPcyarS5dBQbzB"
       ],
       "Status": "Required",
       "Beta": true,
@@ -51303,6 +51308,11 @@
         "NA",
         "Batch 1",
         "Batch 2",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -51414,7 +51424,12 @@
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
         "Code of Practice on Sewerage and Sanitary Works",
-        "Code of Practice on Sewerage and Sanitary Works"
+        "Code of Practice on Sewerage and Sanitary Works",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals"
       ],
       "Discipline (Entity Key)": [
         "ARC",
@@ -83448,7 +83463,11 @@
         "recIemV6kRc9UPKSQ",
         "recNOM8crggelXdNF",
         "recm2C8jiL4UTTW2P",
-        "recbOA9qGqV2nRqOd"
+        "recbOA9qGqV2nRqOd",
+        "recge7TINNEkr84Ez",
+        "recvZ0v76huNLtoWX",
+        "recKws1qJ9oxv19so",
+        "recRPcyarS5dBQbzB"
       ],
       "Status": "Required",
       "Beta": true,
@@ -83477,6 +83496,10 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "LotNumber [Label]; \nWidth [Length]; \nLength [Length]; \nBicycleRack_Type [Label]; \nBicycleLotCount [Integer]",
@@ -83493,6 +83516,10 @@
         "Business 1 (Industrial) Handbook",
         "Business 2 (Industrial) Handbook",
         "Business Park Handbook",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
@@ -88120,7 +88147,12 @@
         "recIemV6kRc9UPKSQ",
         "recNOM8crggelXdNF",
         "recm2C8jiL4UTTW2P",
-        "recbOA9qGqV2nRqOd"
+        "recbOA9qGqV2nRqOd",
+        "recmkCLQGwih8MXuk",
+        "recge7TINNEkr84Ez",
+        "recvZ0v76huNLtoWX",
+        "recKws1qJ9oxv19so",
+        "recRPcyarS5dBQbzB"
       ],
       "Status": "Required",
       "Beta": true,
@@ -88149,6 +88181,11 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "Length [Length]; \nLotNumber [Label]; \nWidth [Length]; \nPerforated [Boolean]; \nOpenAtGrade [Boolean]",
@@ -88156,6 +88193,11 @@
         "LTA"
       ],
       "Codes and Standards": [
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
@@ -94359,7 +94401,7 @@
     "id": "recmvdBZGBLmfcHYk",
     "createdTime": "2023-04-18T08:26:40.000Z",
     "fields": {
-      "Identified Component": "Accessway",
+      "Identified Component": "Road",
       "OT KEY (Sub-Type)": [
         "recv3ctiCG4ogdlZg"
       ],
@@ -94384,14 +94426,15 @@
         "recgSJQVo0y7rz4df",
         "recVSJEzFWFo3HIzo",
         "recavno0sObGRy1GG",
-        "recXnKlDbN2nOc5Yc"
+        "recXnKlDbN2nOc5Yc",
+        "recmkCLQGwih8MXuk"
       ],
       "Status": "Required",
       "Beta": true,
       "IFC4 Sub Type": [
         "ACCESSWAY*"
       ],
-      "CO KEY": "ACC_ACC_672",
+      "CO KEY": "ROA_ACC_672",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -94409,6 +94452,7 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Properties [Data Type]": "SpaceName [Label]; \nStraight2-way [Boolean]; \nWidth [Length]; \nAccesswayType [Label]",
@@ -94422,6 +94466,7 @@
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Street Work Proposals relating to Development Works",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
@@ -103030,7 +103075,11 @@
         "recsl1epasOPLja4U",
         "recIVqoolhxMVWvv4",
         "recFwzC8AMVrHQEXC",
-        "recFXZRjhPtO8VXm3"
+        "recFXZRjhPtO8VXm3",
+        "recge7TINNEkr84Ez",
+        "recvZ0v76huNLtoWX",
+        "recKws1qJ9oxv19so",
+        "recRPcyarS5dBQbzB"
       ],
       "Status": "Required",
       "Beta": true,
@@ -104818,6 +104867,10 @@
         "Batch 4",
         "Batch 4",
         "Batch 4",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
+        "Batch 1",
         "Batch 1",
         "Batch 1",
         "Batch 1",
@@ -106697,7 +106750,11 @@
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
         "Approved Document - Acceptable Solutions",
-        "Approved Document - Acceptable Solutions"
+        "Approved Document - Acceptable Solutions",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals"
       ],
       "Discipline (Entity Key)": [
         "ARC"
@@ -116419,7 +116476,8 @@
         "recRhqmRVeEJp1es6",
         "recrpaGjfxGOwShnT",
         "recXTon1j1kxiFxmy",
-        "recwtLJT6mPNNk4Jp"
+        "recwtLJT6mPNNk4Jp",
+        "recmkCLQGwih8MXuk"
       ],
       "Status": "Required",
       "Beta": true,
@@ -116454,6 +116512,7 @@
         "Batch 1",
         "Batch 1",
         "Batch 1",
+        "Batch 1",
         "Batch 1"
       ],
       "Agency": [
@@ -116462,6 +116521,7 @@
       ],
       "Codes and Standards": [
         "Code of Practice for Fire Precautions in Building",
+        "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "Code of Practice on Vehicle Parking Provision in Development Proposals",

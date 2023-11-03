@@ -8225,19 +8225,25 @@
     "representation": {
       "Revit": [
         "Floors",
-        "Generic Models"
+        "Generic Models",
+        "Massing",
+        "Areas",
+        "Rooms"
       ],
       "ArchiCAD": [
         "Slab",
-        "Object"
+        "Object",
+        "Zone"
       ],
       "Tekla": [
         "Slab",
-        "Panel"
+        "Panel",
+        "N.A"
       ],
       "Bentley": [
         "Slab",
-        "Drains&Basins"
+        "Drains&Basins",
+        "Space"
       ]
     },
     "gateway": [
@@ -8282,6 +8288,7 @@
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:LAYBY",
       "IfcCivilElement:USERDEFINED:DRIVEWAY",
+      "IfcSpace:USERDEFINED:ACCESSWAY",
       "IfcCivilElement:USERDEFINED:BACKLANE"
     ]
   },
@@ -9920,30 +9927,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:FALSEBOTTOM"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Accessway",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Massing",
-        "Areas",
-        "Rooms"
-      ],
-      "ArchiCAD": [
-        "Zone"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Space"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcSpace:USERDEFINED:ACCESSWAY"
     ]
   },
   {
