@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import { supabase, calcChecksum, uuid } from './helper.js'
 dotenv.config()
 
+generateRevitIfcMappingTable()
 export function generateRevitIfcMappingTable() {
     return new Promise(async (resolve, reject) => {
         const t0 = performance.now()
@@ -21,9 +22,7 @@ export function generateRevitIfcMappingTable() {
         const t1 = performance.now()
         console.log('Mapping Generated in', (t1 - t0).toFixed(2));
 
-        const title = 'Revit-IFC-Mapping-Configuration'
-
-        // fs.writeFileSync('./output/Revit-IFC-Mapping-Configuration.txt', mapping)
+        const title = 'Revit-IFC-Mapping-Configuration-F'
 
         const checksum = calcChecksum(mapping)
         const fileName = `${title}-${uuid(8)}.txt`

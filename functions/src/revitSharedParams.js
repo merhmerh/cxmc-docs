@@ -17,8 +17,7 @@ GROUP\t1\tifcsg
 *PARAM\tGUID\tNAME\tDATATYPE\tDATACATEGORY\tGROUP\tVISIBLE\tDESCRIPTION\tUSERMODIFIABLE\tHIDEWHENNOVALUE
 `;
 
-
-export async function getSharedParams(isBeta = true) {
+export async function getSharedParams(isBeta = false) {
     const ifcsg = await getIfc({ beta: isBeta })
     const props = getProps(ifcsg);
 
@@ -40,7 +39,7 @@ export async function getSharedParams(isBeta = true) {
 
     }
 
-    fs.writeFileSync('./src/revitSharedParams.txt', file)
+    fs.writeFileSync('./src/revitSharedParams(full).txt', file)
 
     return { result, file }
 }
