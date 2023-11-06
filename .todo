@@ -13,6 +13,7 @@ Updates:
     ☐ OccupancyType columns
 
 Bugs: 
+    ☐ Identifed component -> not showing latest description and enum
     ☐ Identified component -> design gateway / construction gateway
     ☐ DemountableStrutureAbovePipe spelling error
     ☐ IFC revit export .txt file

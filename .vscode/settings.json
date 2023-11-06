@@ -1,27 +1,22 @@
 {
     "typescript.tsdk": "node_modules\\typescript\\lib",
-    "workbench.colorCustomizations": {
-        "[Everforest Dark]": {
-            // "tab.activeBackground": "#444c55"
-            "editor.background": "#2d353b",
-            "sideBar.background": "#232a2e"
-        }
-    },
+    "cSpell.words": ["mukim"],
     "editor.tokenColorCustomizations": {
-        "[Everforest Dark]": {
-            "variables": "#d699b6",
-            // "variables": "#ffe7de",
-            // "functions": "#FF0000",
-            // "keywords": "#001eff",
+        "[gruvboxConcoctis dark medium]": {
             "textMateRules": [
                 {
-                    "scope": "variable.other.object.property.js",
+                    "scope": "variable.other.constant.js, variable.other.readwrite.js",
                     "settings": {
-                        "foreground": "#d699b6"
+                        "foreground": "#7fbbb3"
+                    }
+                },
+                {
+                    "scope": "variable.other.object.js",
+                    "settings": {
+                        "foreground": "#e9bc5b"
                     }
                 }
-            ],
-            "comments": "#5c6a72"
+            ]
         }
     }
 }
