@@ -81,8 +81,18 @@ for (const item of arr) {
 
 
         let agencyObject = gateway.find(obj => obj.Agency == agency)
+
+        // console.log(fields["Gateway"].join().split(','));
+        const req = {
+            Code: code,
+            Chapter: chapter,
+            ClauseNumber: clauseNumber,
+            Clause: [clause],
+            Gateway: fields["Gateway"].join().split(',')
+        }
+
         if (!agencyObject) {
-            agencyObject = { Agency: agency, Requirement: [{ Code: code, Chapter: chapter, ClauseNumber: clauseNumber, Clause: [clause] }] }
+            agencyObject = { Agency: agency, Requirement: [req] }
             gateway.push(agencyObject)
             continue;
         }
@@ -94,7 +104,7 @@ for (const item of arr) {
         }
 
         if (!agencyObject.Requirement.find(x => x.ClauseNumber == clauseNumber)) {
-            agencyObject.Requirement.push({ Code: code, Chapter: chapter, ClauseNumber: clauseNumber, Clause: [clause] })
+            agencyObject.Requirement.push(req)
         }
     }
 
@@ -104,31 +114,33 @@ for (const item of arr) {
     if (gateway.length) {
         for (const agency of gateway) {
             const input = agency.Requirement
-
             const output = [];
 
             input.forEach((item) => {
                 // Check if a chapter with the same name already exists in the output
                 const existingChapter = output.find((chapter) => chapter.chapterName === item.Chapter);
 
+                //find gateway type
+                const clauseNumber = item.ClauseNumber
+                const clauses = item.Clause
+                const gateway = item.Gateway
+
+                const data = {
+                    clauseNumber,
+                    clauses,
+                    gateway,
+                }
+
                 if (existingChapter) {
                     // Chapter already exists, add the clause to the existing chapter
-                    existingChapter.clauseNumbers.push({
-                        clauseNumber: item.ClauseNumber,
-                        clauses: item.Clause,
-                    });
+                    existingChapter.clauseNumbers.push(data);
                 } else {
                     // Chapter does not exist, create a new chapter and add it to the output
                     const newChapter = {
                         chapterName: item.Chapter,
-                        clauseNumbers: [
-                            {
-                                clauseNumber: item.ClauseNumber,
-                                clauses: item.Clause,
-                            },
-                        ],
+                        gateway: item.Gateway,
+                        clauseNumbers: [data],
                     };
-
                     // Add the new chapter to the output array
                     output.push(newChapter);
                 }
@@ -197,11 +209,13 @@ for (const { fields: f } of rule) {
             clauseNumber: f["Clause Number"] ? f["Clause Number"].join() : null,
             clause: f["Regulatory Requirement"].join(),
             ruleGroup: f["Rule Group (Batch 1)"].join(),
-            gateway: f['Gateway'].join(),
+            gateway: f['Gateway'].join().split(','),
             identifiedComponents: ic,
         })
     }
 }
+
+fs.writeFileSync('./output/rules.json', JSON.stringify(rules, null, 2))
 
 fs.writeFileSync('./../src/routes/(main)/api/ifcsg/get-code/rules.json', JSON.stringify(rules, null, 2))
 
