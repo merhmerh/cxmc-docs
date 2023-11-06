@@ -40,6 +40,8 @@ endpoint
 https://cx.builtsearch.com/api/dumbo/ura/area_gfa
 ```
 
+#### Query Param
+
 | Parameter       | Type   | Description                                          |
 | --------------- | ------ | ---------------------------------------------------- |
 | ifcPropertyName | string | **Optional**. return result matching ifcPropertyName |
@@ -66,6 +68,8 @@ endpoint
 ```
 https://cx.builtsearch.com/api/dumbo/nea/hazard
 ```
+
+#### Query Param
 
 | Parameter | Type   | Description                                      |
 | --------- | ------ | ------------------------------------------------ |
