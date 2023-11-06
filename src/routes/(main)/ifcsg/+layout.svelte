@@ -298,9 +298,8 @@ async function loadIfcData(v) {
             }
         }
 
-        rawIfcData.latestVersionTime = latestVersionTime;
+        rawIfcData["latestVersionTime"] = latestVersionTime;
         $ifcData = rawIfcData;
-
         fetchStatus = "success";
         ready = true;
     } catch (error) {

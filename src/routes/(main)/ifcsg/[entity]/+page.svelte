@@ -6,7 +6,7 @@ import { theme } from "$comp/theme.store";
 import { notify } from "merh-forge-ui";
 import { ifcData } from "../ifcsg.store";
 import { page } from "$app/stores";
-import { timeout, replaceSpaceWithDash } from "$fn/helper";
+import { timeout, replaceSpaceWithDash, highlightDOMText } from "$fn/helper";
 import Update from "./Update.svelte";
 import { beta } from "$routes/main.store";
 import { getPermission } from "$comp/supabase.store";
@@ -228,15 +228,11 @@ function ifIsInBeta(type) {
                                                     on:click={async (e) => {
                                                         navigator.clipboard.writeText(obj.propertyName);
                                                         notify.add("Copied to clipboard", { duration: 1000 });
-                                                        const range = document.createRange();
-                                                        range.selectNodeContents(e.target);
-                                                        const selection = window.getSelection();
-                                                        selection.removeAllRanges();
-                                                        selection.addRange(range);
+                                                        highlightDOMText(e.target);
                                                     }}>
                                                     <span>{obj.propertyName}</span>
                                                     <div class="icon tblPset__copy">
-                                                        <Icon icon="charm:copy" width={16} hFlip={1} />
+                                                        <Icon icon="charm:copy" width={16} hFlip={true} />
                                                     </div>
                                                 </button>
                                             </div>
@@ -249,6 +245,7 @@ function ifIsInBeta(type) {
                                                         navigator.clipboard.writeText(obj.dataType);
                                                         notify.add("Copied to clipboard", { duration: 1000 });
                                                         const range = document.createRange();
+                                                        //@ts-ignore
                                                         range.selectNodeContents(e.target);
                                                         const selection = window.getSelection();
                                                         selection.removeAllRanges();
@@ -256,7 +253,7 @@ function ifIsInBeta(type) {
                                                     }}>
                                                     <span>{obj.dataType}</span>
                                                     <div class="icon tblPset__copy">
-                                                        <Icon icon="charm:copy" width={16} hFlip={1} />
+                                                        <Icon icon="charm:copy" width={16} hFlip={true} />
                                                     </div>
                                                 </button>
                                             </div></td>
@@ -618,7 +615,6 @@ function ifIsInBeta(type) {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            height: 100%;
             span {
                 width: calc(100% - 1.5rem);
             }

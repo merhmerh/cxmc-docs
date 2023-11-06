@@ -81,6 +81,7 @@ export function debounce(func, delay) {
     };
 }
 
+
 /**
  * @param {Blob} file
  */
@@ -171,6 +172,19 @@ export async function authCheck(supabase, session, roles) {
 
 }
 
+
+/**
+ * @param {EventTarget} target
+ */
+export function highlightDOMText(target) {
+    console.log(target);
+    const range = document.createRange();
+    // @ts-ignore
+    range.selectNodeContents(target);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+}
 
 /**
  * @param {string} string
