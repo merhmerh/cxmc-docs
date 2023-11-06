@@ -1,2 +1,27 @@
 {
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "workbench.colorCustomizations": {
+        "[Everforest Dark]": {
+            // "tab.activeBackground": "#444c55"
+            "editor.background": "#2d353b",
+            "sideBar.background": "#232a2e"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Everforest Dark]": {
+            "variables": "#d699b6",
+            // "variables": "#ffe7de",
+            // "functions": "#FF0000",
+            // "keywords": "#001eff",
+            "textMateRules": [
+                {
+                    "scope": "variable.other.object.property.js",
+                    "settings": {
+                        "foreground": "#d699b6"
+                    }
+                }
+            ],
+            "comments": "#5c6a72"
+        }
+    }
 }

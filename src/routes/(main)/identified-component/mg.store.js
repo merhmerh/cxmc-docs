@@ -1,4 +1,4 @@
 import { writable } from 'svelte/store';
 
 
-export const mg_comp = writable(0);
+export const mg_comp = writable([]);

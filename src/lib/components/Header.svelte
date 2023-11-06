@@ -40,7 +40,7 @@ let showMobileNav;
             <Switch
                 bind:isChecked={$beta}
                 on:change={() => {
-                    localStorage.setItem("beta", $beta);
+                    localStorage.setItem("beta", $beta.toString());
                 }}><strong>Beta</strong></Switch>
         {/if}
     </div>

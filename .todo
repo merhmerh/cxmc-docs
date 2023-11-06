@@ -13,6 +13,7 @@ Updates:
     ☐ OccupancyType columns
 
 Bugs: 
+    ☐ Identified component -> design gateway / construction gateway
     ☐ DemountableStrutureAbovePipe spelling error
     ☐ IFC revit export .txt file
     ☐ When uploading new file to 'downloads' page, if file contain same name it will override

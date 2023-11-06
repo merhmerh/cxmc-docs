@@ -37,6 +37,10 @@ nav {
     @media screen and (max-width: $mobile) {
         flex-direction: column;
     }
+    @media screen and (max-width: 1400px) {
+        overflow-x: scroll;
+        width: 600px;
+    }
     a {
         flex-shrink: 0;
         width: fit-content;

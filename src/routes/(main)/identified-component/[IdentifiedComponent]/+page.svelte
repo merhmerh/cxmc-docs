@@ -16,6 +16,7 @@ let prop_selected, isEditing, editor, notFound, modal, codeData;
 
 const { role, permission } = getPermission();
 
+// comments
 $: $page, update();
 $: {
     $beta;
@@ -47,7 +48,9 @@ async function update() {
     }
     const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}&beta=${$beta}`;
     const resp = await fetch(url);
-    mg_data.prop = await resp.json();
+    const result = await resp.json();
+    mg_data.prop = result;
+    console.log(mg_data);
     original = JSON.parse(JSON.stringify(mg_data));
 }
 
@@ -55,13 +58,13 @@ function toggleBetaContent() {
     if (original) {
         if ($beta) {
             console.log("toggle");
-            mg_data.prop = mg_data.prop.filter((x) => x.beta);
+            mg_data.prop = mg_data.prop.filter((/** @type {{ beta: any; }} */ x) => x.beta);
             for (const item of mg_data.prop) {
                 if (!item.pset) {
                     continue;
                 }
                 for (const [pset, props] of Object.entries(item.pset)) {
-                    item.pset[pset] = props.filter((obj) => obj.beta);
+                    item.pset[pset] = props.filter((/** @type {{ beta: any; }} */ obj) => obj.beta);
 
                     if (item.pset[pset].length == 0) {
                         delete item.pset[pset];
@@ -78,6 +81,9 @@ function toggleBetaContent() {
     }
 }
 
+/**
+ * @param {string} description
+ */
 function isHtmlDescription(description) {
     if (!description) return false;
 
@@ -85,6 +91,10 @@ function isHtmlDescription(description) {
     return description.match(regex);
 }
 
+/**
+ * @param {{ agency: any; code: any; chapter: any; clauseNumber: any; }} clause
+ * @param {any} clauses
+ */
 async function showCode(clause, clauses) {
     console.log(clause);
     const url = `/api/ifcsg/get-code?data=${encodeURIComponent(JSON.stringify(clause))}`;
@@ -260,7 +270,7 @@ async function showCode(clause, clauses) {
             <table class="{$theme} noActionColumn noHover horizontal ifcSubtype">
                 <tr>
                     <th><div>IfcEntity</div></th>
-                    <th><div>{mg_data.prop.map((x) => x.entity)}</div></th>
+                    <th><div>{mg_data.prop.map((/** @type {{ entity: any; }} */ x) => x.entity)}</div></th>
                     <!-- <td><div>{[...new Set(mg_data.prop.map((x) => x.entity))]}</div></td> -->
                 </tr>
                 <tr>
