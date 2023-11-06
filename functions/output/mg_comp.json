@@ -32,18 +32,12 @@
                 "clauses": [
                   "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "G.2.1",
                 "clauses": [
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -121,27 +115,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -157,18 +142,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -184,18 +163,12 @@
                 "clauses": [
                   "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "G.2.1",
                 "clauses": [
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -212,27 +185,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -364,10 +328,6 @@
                   "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
                   "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
                   "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -386,10 +346,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -417,27 +373,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -453,18 +400,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -480,18 +421,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -513,9 +448,6 @@
                 "clauses": [
                   "Lift Motor Room",
                   "Lift Shaft"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -566,9 +498,6 @@
                 "clauses": [
                   "Guardhouse and Sentry Posts",
                   "Automated Teller Machine and Vending Machine (Kiosk vs Standalone)"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -789,10 +718,6 @@
                   "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
                   "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
                   "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -811,10 +736,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -829,9 +750,6 @@
                 "clauseNumber": "STD.dwg.3.4",
                 "clauses": [
                   "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -847,10 +765,6 @@
                 "clauseNumber": "1.2.1 ",
                 "clauses": [
                   "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -1146,10 +1060,6 @@
                 "clauseNumber": "2.1.5",
                 "clauses": [
                   "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -1224,27 +1134,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1260,18 +1161,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1287,18 +1182,12 @@
                 "clauses": [
                   "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "G.2.1",
                 "clauses": [
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1317,18 +1206,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1343,9 +1226,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1516,27 +1396,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1552,18 +1423,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1582,27 +1447,18 @@
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
                   "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.1",
                 "clauses": [
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.3",
                 "clauses": [
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1622,9 +1478,6 @@
                   "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1639,9 +1492,6 @@
                 "clauseNumber": "E.3.4.4",
                 "clauses": [
                   "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1660,18 +1510,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1688,27 +1532,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1726,36 +1561,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1770,9 +1593,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1827,10 +1647,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -1878,18 +1694,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -1904,9 +1714,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2320,27 +2127,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2356,18 +2154,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2534,27 +2326,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2570,18 +2353,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2600,27 +2377,18 @@
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
                   "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.1",
                 "clauses": [
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.3",
                 "clauses": [
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2636,18 +2404,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2667,9 +2429,6 @@
                   "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2684,9 +2443,6 @@
                 "clauseNumber": "E.3.4.4",
                 "clauses": [
                   "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2705,18 +2461,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2733,27 +2483,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2771,36 +2512,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -2815,9 +2544,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3157,27 +2883,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3193,18 +2910,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3302,10 +3013,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -3398,18 +3105,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3424,9 +3125,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3707,10 +3405,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -3736,10 +3430,6 @@
                   "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
                   "Minimum width of single-tier bicycle lot shall be  600mm",
                   "Minimum width of 2-tiers bicycle lot shall be 650mm"
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -3755,10 +3445,6 @@
                 "clauseNumber": "2.1.5",
                 "clauses": [
                   "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -3841,10 +3527,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -3917,27 +3599,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3953,18 +3626,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -3983,27 +3650,18 @@
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
                   "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.1",
                 "clauses": [
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.3",
                 "clauses": [
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4019,18 +3677,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4050,9 +3702,6 @@
                   "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4068,18 +3717,12 @@
                 "clauses": [
                   "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "G.2.1",
                 "clauses": [
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4094,9 +3737,6 @@
                 "clauseNumber": "E.3.4.4",
                 "clauses": [
                   "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4115,18 +3755,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4143,27 +3777,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4181,36 +3806,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4225,9 +3838,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4248,9 +3858,6 @@
                 "clauseNumber": "",
                 "clauses": [
                   "Gondola platform at roof top"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4326,10 +3933,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -4480,27 +4083,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4516,18 +4110,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4546,27 +4134,18 @@
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
                   "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.1",
                 "clauses": [
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.3",
                 "clauses": [
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4582,18 +4161,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4613,9 +4186,6 @@
                   "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4631,18 +4201,12 @@
                 "clauses": [
                   "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "G.2.1",
                 "clauses": [
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4657,9 +4221,6 @@
                 "clauseNumber": "E.3.4.4",
                 "clauses": [
                   "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4678,18 +4239,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4706,27 +4261,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4744,36 +4290,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4788,9 +4322,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -4816,10 +4347,6 @@
                   "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
                   "Minimum width of single-tier bicycle lot shall be  600mm",
                   "Minimum width of 2-tiers bicycle lot shall be 650mm"
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -4835,10 +4362,6 @@
                 "clauseNumber": "2.1.5",
                 "clauses": [
                   "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -5008,27 +4531,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5044,18 +4558,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5074,27 +4582,18 @@
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
                   "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.1",
                 "clauses": [
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.3",
                 "clauses": [
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5114,9 +4613,6 @@
                   "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5131,9 +4627,6 @@
                 "clauseNumber": "E.3.4.4",
                 "clauses": [
                   "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5152,18 +4645,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5180,27 +4667,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5218,36 +4696,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5262,9 +4728,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5588,10 +5051,6 @@
                   "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
                   "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
                   "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -5610,10 +5069,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -5628,9 +5083,6 @@
                 "clauseNumber": "STD.dwg.3.4",
                 "clauses": [
                   "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -5646,10 +5098,6 @@
                 "clauseNumber": "1.2.1 ",
                 "clauses": [
                   "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -6287,27 +5735,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -6323,18 +5762,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -6356,10 +5789,6 @@
                 "clauseNumber": "2.1.5",
                 "clauses": [
                   "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -6677,10 +6106,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -7112,18 +6537,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -7138,9 +6557,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -8017,27 +7433,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -8055,36 +7462,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -8162,27 +7557,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -8198,18 +7584,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -8690,10 +8070,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -8709,10 +8085,6 @@
                 "clauseNumber": "1.2.1 ",
                 "clauses": [
                   "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -9122,10 +8494,6 @@
                   "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
                   "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
                   "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -9144,10 +8512,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -9162,9 +8526,6 @@
                 "clauseNumber": "STD.dwg.3.4",
                 "clauses": [
                   "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9180,10 +8541,6 @@
                 "clauseNumber": "1.2.1 ",
                 "clauses": [
                   "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -9263,10 +8620,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -9288,10 +8641,6 @@
                 "clauseNumber": "2.1.5",
                 "clauses": [
                   "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -9498,27 +8847,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9534,18 +8874,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9564,27 +8898,18 @@
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
                   "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.1",
                 "clauses": [
                   "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.4.3",
                 "clauses": [
                   "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9600,18 +8925,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9631,9 +8950,6 @@
                   "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
                   "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9649,18 +8965,12 @@
                 "clauses": [
                   "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "G.2.1",
                 "clauses": [
                   "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9675,9 +8985,6 @@
                 "clauseNumber": "E.3.4.4",
                 "clauses": [
                   "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9696,18 +9003,12 @@
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
                   "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
                   "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "H.3.2.1",
                 "clauses": [
                   "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9724,27 +9025,18 @@
                   "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.5",
                 "clauses": [
                   "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.6.2",
                 "clauses": [
                   "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9762,36 +9054,24 @@
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.1",
                 "clauses": [
                   "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.4",
                 "clauses": [
                   "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.5.3",
                 "clauses": [
                   "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -9806,9 +9086,6 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -10120,10 +9397,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -10299,10 +9572,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -11452,10 +10721,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -11585,10 +10850,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -11827,10 +11088,6 @@
                   "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
                   "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
                   "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -11849,10 +11106,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -11868,9 +11121,6 @@
                 "clauses": [
                   "(b) (1)• This rule shall check for the maximum depth of inspection chamber.\n• System will check for presence of inspection chamber.\n• Maximum depth of inspection chamber shall be 2500 mm.\n• If maximum depth is more than 2500 mm, checking shall flag as “Attention” and shall follow the standard for manhole.",
                   "(b) (2) • This rule shall check for the internal width and length of inspection chamber.\n• System will check for presence of inspection chamber.\n• Checking shall flag as Non-Compliant if the minimum and maximum width/length is not provided.\nNote: This rule only checks for inspection chambers designed as IC’s only and does not include inspection chambers  \n           designed using manhole."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -11885,9 +11135,6 @@
                 "clauseNumber": "STD.dwg.3.4",
                 "clauses": [
                   "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -11903,10 +11150,6 @@
                 "clauseNumber": "1.2.1 ",
                 "clauses": [
                   "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -11987,10 +11230,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -12093,27 +11332,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -12129,18 +11359,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -12156,18 +11380,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -12474,27 +11692,18 @@
                   "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
                   "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.1",
                 "clauses": [
                   "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.2.2",
                 "clauses": [
                   "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -12510,18 +11719,12 @@
                 "clauses": [
                   "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "E.3.2 Note",
                 "clauses": [
                   "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -12899,10 +12102,6 @@
                   "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
                   "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
                   "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ],
-                "gateway": [
-                  "Design",
-                  "Construction"
                 ]
               }
             ]
@@ -12924,18 +12123,12 @@
                 "clauses": [
                   "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               },
               {
                 "clauseNumber": "C.3.3 Note",
                 "clauses": [
                   "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
@@ -12958,9 +12151,6 @@
                   "Metal Ceiling Grids within Indoor Performance Venue",
                   "Lift Motor Room",
                   "Lift Shaft"
-                ],
-                "gateway": [
-                  "Construction"
                 ]
               }
             ]
