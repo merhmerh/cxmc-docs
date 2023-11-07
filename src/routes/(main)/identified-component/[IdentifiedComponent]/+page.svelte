@@ -270,7 +270,7 @@ async function showCode(clause, clauses) {
             <table class="{$theme} noActionColumn noHover horizontal ifcSubtype">
                 <tr>
                     <th><div>IfcEntity</div></th>
-                    <th><div>{mg_data.prop.map((/** @type {{ entity: any; }} */ x) => x.entity)}</div></th>
+                    <th><div>{[...new Set(mg_data.prop.map((x) => x.entity))]}</div></th>
                     <!-- <td><div>{[...new Set(mg_data.prop.map((x) => x.entity))]}</div></td> -->
                 </tr>
                 <tr>
@@ -533,6 +533,10 @@ h3 {
 
             th {
                 width: 160px;
+                &:last-child {
+                    border-radius: 0 0.25rem 0 0;
+                    border-left: 0;
+                }
             }
             td {
                 min-width: 200px;
