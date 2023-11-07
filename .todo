@@ -9,12 +9,14 @@ Features:
     ☐ Add downloads for non beta
 
 Updates:
-    ☐ Remove Spacename keep to 4 columns
-    ☐ OccupancyType columns
+    ✔ Remove Spacename keep to 4 columns @done(23-11-07 01:34)
+    ✔ OccupancyType columns @done(23-11-07 01:34)
 
 Bugs: 
-    ☐ Identified component -> design gateway / construction gateway
-    ☐ DemountableStrutureAbovePipe spelling error
+    ✔ Identifed component -> not showing latest description and enum @done(23-11-07 02:18)
+    ✔ Identified component -> design gateway / construction gateway @done(23-11-07 04:27)
+    ☐ Identified componenet -> representation border, IfcEntity remove duplicate
+    ✔ DemountableStrutureAbovePipe spelling error @done(23-11-07 04:28)
     ☐ IFC revit export .txt file
     ☐ When uploading new file to 'downloads' page, if file contain same name it will override
     ☐ Redirect to 404 if user enter non-beta page

@@ -12,7 +12,14 @@ import { getPermission } from "$comp/supabase.store";
 
 let original;
 let mg_data = {};
-let prop_selected, isEditing, editor, notFound, modal, codeData;
+let prop_selected,
+    isEditing,
+    editor,
+    notFound,
+    modal,
+    codeData,
+    running,
+    selectedGateway = "All";
 
 const { role, permission } = getPermission();
 
@@ -25,6 +32,9 @@ $: {
 }
 
 async function update() {
+    console.log(running);
+    if (running) return;
+    running = true;
     if (modal) {
         modal.close();
     }
@@ -49,9 +59,11 @@ async function update() {
     const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}&beta=${$beta}`;
     const resp = await fetch(url);
     const result = await resp.json();
+    console.log(result);
     mg_data.prop = result;
     console.log(mg_data);
     original = JSON.parse(JSON.stringify(mg_data));
+    running = false;
 }
 
 function toggleBetaContent() {
@@ -105,6 +117,12 @@ async function showCode(clause, clauses) {
     codeData.clause = clauses;
     modal.show();
 }
+
+const gateways = [
+    // { code: "All", name: "All" },
+    { code: "C", name: "Construction" },
+    { code: "D", name: "Design" },
+];
 </script>
 
 <Modal bind:this={modal}>
@@ -122,39 +140,53 @@ async function showCode(clause, clauses) {
     <h3 id="gateway">
         <a href="{$page.url.origin}{$page.url.pathname}#gateway">Gateway</a>
     </h3>
-
+    <div class="legend">
+        <!-- <span>Filter By:</span> -->
+        {#each gateways as gateway}
+            <!-- <button
+                class="none"
+                class:selected={gateway.name == selectedGateway}
+                on:click={() => (selectedGateway = gateway.name)}>
+                <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
+            </button> -->
+            <button class="none">
+                <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
+            </button>
+        {/each}
+    </div>
     <div class="table_wrapper">
-        {#if !mg_data.gateway.length}
-            <div class="errorBox">No gateway found for this Identified Component</div>
-        {/if}
-
-        <table class="{$theme} noActionColumn noHover gateway">
-            <thead>
-                <tr>
-                    <th colspan="4"><div>Design Gateway</div></th>
-                </tr>
-                <tr>
-                    <th><div>Agency</div></th>
-                    <th><div>Code Book</div></th>
-                    <th><div>Chapter</div></th>
-                </tr>
-            </thead>
-            <tbody>
-                {#each mg_data.gateway as item}
-                    <tr>
-                        <td class="agency"><div>{item.agency}</div></td>
-                        <td class="code"><div>{item.code}</div></td>
-                        <td class="chapters">
-                            <div class="chapter">
+        <table class={$theme}>
+            <div class="gatewayGrid">
+                <div class="header">
+                    <span>Agency</span>
+                    <span>Code Book</span>
+                    <span>Gateway</span>
+                    <span>Chapter</span>
+                    <span>Clause No.</span>
+                    <span>Clauses</span>
+                </div>
+                <div class="content">
+                    {#each mg_data.gateway as item}
+                        <div class="row">
+                            <div class="col1">{item.agency}</div>
+                            <div class="col2">{item.code}</div>
+                            <div class="col3">
                                 {#each item.chapters as chapter}
-                                    <div class="row">
-                                        <div class="col1">{chapter.chapterName}</div>
-                                        <div class="col2">
+                                    <div class="col3_row">
+                                        <div class="gateway">
+                                            {#each chapter.gateway.sort() as gateway}
+                                                <code class="gatewayIdentifier {gateway.substring(1, 0)}"
+                                                    >{gateway.substring(1, 0)}</code>
+                                            {/each}
+                                        </div>
+
+                                        <div class="chapter">{chapter.chapterName}</div>
+                                        <div class="clause_col">
                                             {#each chapter.clauseNumbers as clause}
-                                                <div class="clauseNumber">
-                                                    <div class="c1">{clause.clauseNumber}</div>
-                                                    <div class="c2">
-                                                        <div class="c2a">
+                                                <div class="clause_row">
+                                                    <div class="clauseNumber">{clause.clauseNumber}</div>
+                                                    <div class="clauses">
+                                                        <div class="description">
                                                             <p>{clause.clauses[0]}</p>
                                                             {#if clause.clauses.length > 1}
                                                                 <span class="more"
@@ -187,14 +219,10 @@ async function showCode(clause, clauses) {
                                     </div>
                                 {/each}
                             </div>
-                        </td>
-
-                        <!-- {#each gateway.Requirement as req} -->
-                        <!-- <td class="chapter"><div><span>{req.code}</span></div></td> -->
-                        <!-- {/each} -->
-                    </tr>
-                {/each}
-            </tbody>
+                        </div>
+                    {/each}
+                </div>
+            </div>
         </table>
     </div>
 
@@ -406,116 +434,6 @@ h3 {
     margin-top: 0;
     table {
         font-size: 0.875rem;
-        &.gateway {
-            tr:first-child {
-                th:first-child {
-                    border: 1px solid var(--mono-100);
-                    border-bottom: 0;
-                    border-radius: 0.25rem 0.25rem 0 0;
-                }
-            }
-            tr:nth-child(2) {
-                th {
-                    border-radius: 0;
-                }
-            }
-            td.agency {
-                width: 80px;
-            }
-            td.code {
-                width: 250px;
-            }
-
-            td.chapters {
-                width: 1000px;
-                padding: 0;
-                position: relative;
-                div.chapter {
-                    padding: 0;
-                    gap: 0;
-                    .row {
-                        display: grid;
-                        grid-template-columns: 200px 1fr;
-                        width: 100%;
-                        display: flex;
-
-                        &:not(:last-child) {
-                            border-bottom: 1px solid var(--table__border-color);
-                        }
-                        .col1 {
-                            display: flex;
-                            align-items: center;
-                            flex-shrink: 0;
-                            width: 200px;
-                            padding: 0.325rem 0.5rem;
-                        }
-
-                        .col2 {
-                            border-left: 1px solid var(--table__border-color);
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-
-                            .clauseNumber {
-                                flex: 1;
-                                display: flex;
-                                width: 100%;
-
-                                &:not(:last-child) {
-                                    border-bottom: 1px solid var(--table__border-color);
-                                }
-                                div {
-                                    padding: 0.325rem 0.5rem;
-                                }
-                                div.c1 {
-                                    align-items: center;
-                                    display: flex;
-                                    flex-shrink: 0;
-                                    width: 100px;
-                                    border-right: 1px solid var(--table__border-color);
-                                }
-                                div.c2 {
-                                    display: flex;
-                                    justify-content: space-between;
-                                    align-items: center;
-                                    width: 100%;
-                                    gap: 1rem;
-
-                                    .c2a {
-                                        padding: 0;
-                                        display: flex;
-                                        flex-direction: column;
-                                        gap: 0.25rem;
-                                        width: 100%;
-                                        // justify-content: space-between;
-                                        justify-content: center;
-                                        .more {
-                                            color: var(--mono-300);
-                                        }
-
-                                        p {
-                                            padding: 0;
-                                            margin: 0;
-                                            @include text-overflow-1;
-                                            white-space: normal;
-                                        }
-                                    }
-                                    button {
-                                        border: 0;
-                                        padding: 0;
-                                        width: 20px;
-                                        height: 20px;
-                                        border-radius: 0.25rem;
-                                        color: var(--mono);
-                                        background-color: var(--mono-100);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
 
         &.representation {
             width: fit-content;
@@ -591,6 +509,191 @@ h3 {
             }
         }
     }
+
+    .gatewayGrid {
+        display: grid;
+        width: 100%;
+        min-width: 1000px;
+        border-radius: 0.25rem;
+        > div {
+            display: grid;
+            font-size: 0.875rem;
+        }
+        .header {
+            grid-template-columns: 80px 200px 80px 200px 100px auto;
+            border: 1px solid var(--table__border-color);
+            border-radius: 0.25rem 0.25rem 0 0;
+            background-color: var(--table__background-color);
+            span {
+                padding: 0.5rem;
+                &:not(:last-child) {
+                    border-right: 1px solid var(--table__border-color);
+                }
+            }
+        }
+        .content {
+            border-radius: 0 0 0.25rem 0.25rem;
+            border: 1px solid var(--table__border-color);
+            border-top: 0;
+            .row {
+                display: flex;
+                align-items: center;
+                height: auto;
+                > div {
+                    padding: 0.25rem;
+                    flex-shrink: 0;
+                    display: flex;
+                    align-items: center;
+                    padding-inline: 0.5rem;
+                    height: 100%;
+                    &:not(:last-child) {
+                        border-right: 1px solid var(--table__border-color);
+                    }
+                }
+                .col1 {
+                    width: 80px;
+                }
+                .col2 {
+                    width: 200px;
+                }
+                .col3 {
+                    width: calc(100% - 80px - 200px);
+                    justify-content: center;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    .col3_row {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        &:not(:last-child) {
+                            border-bottom: 1px solid var(--table__border-color);
+                        }
+
+                        > div {
+                            &:not(:last-child) {
+                                border-right: 1px solid var(--table__border-color);
+                            }
+                            padding: 0.5rem;
+                        }
+                        .gateway {
+                            width: 80px;
+                            height: 100%;
+                            gap: 0.25rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-shrink: 0;
+                        }
+                        .chapter {
+                            display: flex;
+                            align-items: center;
+                            width: 200px;
+                            height: 100%;
+                            flex-shrink: 0;
+                        }
+                        .clause_col {
+                            padding: 0;
+                            display: flex;
+                            flex-direction: column;
+                            height: 100%;
+                            width: 100%;
+
+                            .clause_row {
+                                display: flex;
+                                flex-direction: row;
+                                width: 100%;
+                                height: 100%;
+
+                                &:not(:last-child) {
+                                    border-bottom: 1px solid var(--table__border-color);
+                                }
+                                .clauseNumber {
+                                    flex-shrink: 0;
+                                    padding: 0.5rem;
+                                    display: flex;
+                                    align-items: center;
+                                    width: 100px;
+                                    border-right: 1px solid var(--table__border-color);
+                                }
+                                .clauses {
+                                    width: calc(100% - 100px);
+                                    padding: 0.5rem;
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 1rem;
+                                    .description {
+                                        width: 100%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        gap: 0.25rem;
+                                        p {
+                                            padding: 0;
+                                            margin: 0;
+                                            @include text-overflow-1;
+                                            white-space: normal;
+                                        }
+                                        .more {
+                                            color: var(--mono-300);
+                                        }
+                                    }
+                                    button {
+                                        flex-shrink: 0;
+                                        border: 0;
+                                        padding: 0;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 0.25rem;
+                                        color: var(--mono-600);
+                                        background-color: var(--mono-100);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+code.gatewayIdentifier {
+    color: #fff;
+    background-color: $red;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font);
+    padding-block: 4px;
+    &:global(.All) {
+        background-color: #3a3a3a;
+    }
+    &:global(.C) {
+        background-color: $red;
+    }
+    &:global(.D) {
+        background-color: $green;
+    }
+}
+
+.legend {
+    margin-bottom: 0.5rem;
+    display: flex;
+    gap: 0.325rem;
+    align-items: center;
+    span {
+        font-size: 0.875rem;
+        color: var(--mono-700);
+    }
+    button {
+        padding: 0;
+        // opacity: 0.5;
+        &.selected {
+            opacity: 1;
+            outline: 2px solid var(--accent-400);
+        }
+    }
+    // flex-direction: column;
 }
 
 .card {

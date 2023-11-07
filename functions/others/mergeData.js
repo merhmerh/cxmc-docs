@@ -128,7 +128,6 @@ for (const item of arr) {
                 const data = {
                     clauseNumber,
                     clauses,
-                    gateway,
                 }
 
                 if (existingChapter) {
@@ -138,7 +137,7 @@ for (const item of arr) {
                     // Chapter does not exist, create a new chapter and add it to the output
                     const newChapter = {
                         chapterName: item.Chapter,
-                        gateway: item.Gateway,
+                        gateway,
                         clauseNumbers: [data],
                     };
                     // Add the new chapter to the output array

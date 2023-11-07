@@ -15,6 +15,25 @@ export async function GET({ locals: { supabase, getSession }, url }) {
             .in("identifiedComponent", ic)
 
 
+        const entities = [... new Set(data.map(item => item.entity))]
+
+        let result = data
+        for (const entity of entities) {
+
+            const { data: propData } = await supabase.from('property').select().eq("Entity", entity)
+
+            for (const p of propData) {
+                for (const item of result) {
+                    if (item.key == p.ParentKey) {
+                        const index = item.pset[p.PropertySet].findIndex(x => x.propertyName == p.PropertyName)
+                        const d = item.pset[p.PropertySet][index]
+                        item.pset[p.PropertySet][index] = { ...d, ...p }
+                    }
+                }
+            }
+        }
+
+
         if (error) {
             return json(error)
         }

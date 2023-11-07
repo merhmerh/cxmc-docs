@@ -1,0 +1,154 @@
+[
+    {
+        "id": "nV5lgnCl",
+        "symbol": "Fe",
+        "class": "Class 4.1",
+        "description": "Combustible substances",
+        "matrix": {
+            "Ex": "Not allowed",
+            "Fh": "Not allowed",
+            "Gh": "Not allowed",
+            "Fa": "Allowed under observation",
+            "Tx": "Not allowed",
+            "Ra": "Not allowed",
+            "Gp": "Allowed under observation"
+        }
+    },
+    {
+        "id": "Up09U2Wn",
+        "symbol": "Ex",
+        "class": "Class 1",
+        "description": "Explosive substances",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Fh": "Not allowed",
+            "Gh": "Not allowed",
+            "Fa": "Not allowed",
+            "Tx": "Not allowed",
+            "Ra": "Not allowed",
+            "Gp": "Not allowed"
+        }
+    },
+    {
+        "id": "CrERQILh",
+        "symbol": "Fh",
+        "class": "Class 4.3",
+        "description": "Substances which give off combustible gases on contact with water",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Ex": "Not allowed",
+            "Gh": "Allowed under observation",
+            "Fa": "Not allowed",
+            "Tx": "Allowed under observation",
+            "Ra": "Not allowed",
+            "Gp": "Allowed under observation"
+        }
+    },
+    {
+        "id": "vasDNWwU",
+        "symbol": "Gh",
+        "class": "Class 6",
+        "description": "Substances which give off poisonous or foul smelling gases on contact with water",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Ex": "Not allowed",
+            "Fh": "Allowed under observation",
+            "Fa": "Not allowed",
+            "Tx": "Allowed under observation",
+            "Ra": "Not allowed",
+            "Gp": "Allowed under observation"
+        }
+    },
+    {
+        "id": "6nsesG7K",
+        "symbol": "Fa",
+        "class": "Class 4.2",
+        "description": "Substances liable to spontaneous combustion",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Ex": "Not allowed",
+            "Fh": "Not allowed",
+            "Gh": "Not allowed",
+            "Tx": "Not allowed",
+            "Ra": "Not allowed",
+            "Gp": "Allowed under observation"
+        }
+    },
+    {
+        "id": "oiJfOafo",
+        "symbol": "Tx",
+        "class": "Class 6",
+        "description": "Substances which can cause death or serious damage to health",
+        "matrix": {
+            "Fe": "Allowed under observation",
+            "Ex": "Not allowed",
+            "Fh": "Allowed under observation",
+            "Gh": "Allowed under observation",
+            "Fa": "Not allowed",
+            "Ra": "Allowed under observation",
+            "Gp": "Allowed under observation"
+        }
+    },
+    {
+        "id": "W2GA4q66",
+        "symbol": "Gp",
+        "class": "Class 2",
+        "description": "Combustible and non , combustible gases under pressure including aerosol cans",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Ex": "Not allowed",
+            "Fh": "Not allowed",
+            "Gh": "Not allowed",
+            "Fa": "Allowed under observation",
+            "Tx": "Allowed",
+            "Ra": "Allowed under observation"
+        }
+    },
+    {
+        "id": "iH0lVjJL",
+        "symbol": "Ox",
+        "class": "Class 5",
+        "description": "Substances acting as oxidizing agents or sources of oxygen",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Ex": "Not allowed",
+            "Fh": "Not allowed",
+            "Gh": "Allowed under observation",
+            "Fa": "Not allowed",
+            "Tx": "Not allowed",
+            "Ra": "Allowed",
+            "Gp": "Allowed under observation"
+        }
+    },
+    {
+        "id": "h9hpIfhA",
+        "symbol": "Ra",
+        "class": "Class 7",
+        "description": "Radioactive substances",
+        "matrix": {
+            "Fe": "Not allowed",
+            "Ex": "Not allowed",
+            "Fh": "Not allowed",
+            "Gh": "Not allowed",
+            "Fa": "Not allowed",
+            "Tx": "Allowed",
+            "Gp": "Not allowed"
+        }
+    },
+    {
+        "id": "GHYxzaa0",
+        "symbol": "Xn",
+        "class": "Class 8",
+        "description": "Substances which are a health hazard including irritating and corrosive substances",
+        "matrix": {
+            "Fe": "Allowed under observation",
+            "Ex": "Not allowed",
+            "Fh": "Allowed under observation",
+            "Gh": "Allowed under observation",
+            "Fa": "Not allowed",
+            "Tx": "Not allowed",
+            "Ra": "Allowed under observation",
+            "Gp": "Allowed"
+        }
+    }
+]
