@@ -44,7 +44,7 @@
 
     --scrollthumb: #3b414f;
     --scrollthumb-hover: #2e343d;
-    --muted: #485c6c;
+    --muted: #253847;
 
     --red: #ff5b5b;
     --green: #91c17f;
@@ -532,13 +532,32 @@ pre {
     margin: 0;
 }
 
+
 code {
     background-color: $muted;
     padding: 2px;
     padding-inline: 6px;
     border-radius: 4px;
     @include font-mono;
+    a{  
+        color:var(--main);
+        &:hover{
+            text-decoration: underline !important;
+        }
+    }   
 }
+body.light{
+    code > a{
+
+        color: var(--url);
+    }
+}
+body.dark{
+    code > a{
+        color: color-mix(in srgb, var(--main) 25%, var(--url)) !important;
+    }
+}
+
 
 span.small {
     font-size: 12px;

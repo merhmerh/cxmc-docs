@@ -19,7 +19,8 @@ let prop_selected,
     modal,
     codeData,
     running,
-    selectedGateway = "All";
+    selectedGateway = "All",
+    codesTableError;
 
 const { role, permission } = getPermission();
 
@@ -119,10 +120,43 @@ async function showCode(clause, clauses) {
 }
 
 const gateways = [
-    // { code: "All", name: "All" },
+    { code: "All", name: "All" },
     { code: "C", name: "Construction" },
     { code: "D", name: "Design" },
 ];
+
+function filterByGateway(gatewayName) {
+    selectedGateway = gatewayName;
+    codesTableError = null;
+    for (const item of mg_data.gateway) {
+        item.codeHidden = false;
+
+        for (const chapter of item.chapters) {
+            chapter.chapterHidden = false;
+
+            if (gatewayName == "All") {
+                continue;
+            }
+
+            if (!chapter.gateway.includes(gatewayName)) {
+                console.log("yes?");
+                chapter.chapterHidden = true;
+            }
+        }
+
+        const allChaptersAreHidden = item.chapters.every((x) => x.chapterHidden == true);
+        if (allChaptersAreHidden) {
+            item.codeHidden = true;
+        }
+    }
+
+    const allCodesAreHidden = mg_data.gateway.every((x) => x.codeHidden == true);
+    if (allCodesAreHidden) {
+        codesTableError = "No codes founds";
+    }
+
+    mg_data = mg_data;
+}
 </script>
 
 <Modal bind:this={modal}>
@@ -141,17 +175,17 @@ const gateways = [
         <a href="{$page.url.origin}{$page.url.pathname}#gateway">Gateway</a>
     </h3>
     <div class="legend">
-        <!-- <span>Filter By:</span> -->
+        <span>Filter By:</span>
         {#each gateways as gateway}
-            <!-- <button
+            <button
                 class="none"
                 class:selected={gateway.name == selectedGateway}
-                on:click={() => (selectedGateway = gateway.name)}>
-                <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
-            </button> -->
-            <button class="none">
+                on:click={() => filterByGateway(gateway.name)}>
                 <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
             </button>
+            <!-- <button class="none">
+                <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
+            </button> -->
         {/each}
     </div>
     <div class="table_wrapper">
@@ -167,12 +201,12 @@ const gateways = [
                 </div>
                 <div class="content">
                     {#each mg_data.gateway as item}
-                        <div class="row">
+                        <div class="row" class:codeHidden={item.codeHidden}>
                             <div class="col1">{item.agency}</div>
                             <div class="col2">{item.code}</div>
                             <div class="col3">
                                 {#each item.chapters as chapter}
-                                    <div class="col3_row">
+                                    <div class="col3_row" class:chapterHidden={chapter.chapterHidden}>
                                         <div class="gateway">
                                             {#each chapter.gateway.sort() as gateway}
                                                 <code class="gatewayIdentifier {gateway.substring(1, 0)}"
@@ -222,6 +256,11 @@ const gateways = [
                         </div>
                     {/each}
                 </div>
+                {#if codesTableError}
+                    <div class="error">
+                        <span>{codesTableError}</span>
+                    </div>
+                {/if}
             </div>
         </table>
     </div>
@@ -466,7 +505,6 @@ h3 {
                         display: flex;
                         a {
                             text-decoration: none;
-                            color: inherit;
                         }
                     }
                 }
@@ -539,6 +577,10 @@ h3 {
                 display: flex;
                 align-items: center;
                 height: auto;
+                &.codeHidden {
+                    background-color: grey;
+                    display: none;
+                }
                 > div {
                     padding: 0.25rem;
                     flex-shrink: 0;
@@ -567,6 +609,10 @@ h3 {
                         align-items: center;
                         width: 100%;
                         height: 100%;
+                        &.chapterHidden {
+                            display: none;
+                            background-color: black;
+                        }
                         &:not(:last-child) {
                             border-bottom: 1px solid var(--table__border-color);
                         }
@@ -655,6 +701,15 @@ h3 {
                 }
             }
         }
+        .error {
+            padding: 0.5rem;
+            border: 1px solid var(--table__border-color);
+            border-top: 0;
+            border-radius: 0 0 0.25rem 0.25rem;
+            span {
+                color: var(--mono);
+            }
+        }
     }
 }
 
@@ -687,13 +742,12 @@ code.gatewayIdentifier {
     }
     button {
         padding: 0;
-        // opacity: 0.5;
+        opacity: 0.5;
         &.selected {
             opacity: 1;
             outline: 2px solid var(--accent-400);
         }
     }
-    // flex-direction: column;
 }
 
 .card {
