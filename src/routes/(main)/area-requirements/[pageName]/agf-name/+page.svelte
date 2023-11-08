@@ -1,9 +1,9 @@
 <script>
 import { theme } from "$comp/theme.store";
-import { notify } from "merh-forge-ui";
 import { page } from "$app/stores";
 import { toURLPath } from "$fn/helper";
 import Icon from "@iconify/svelte";
+import CodeBlock from "$comp/CodeBlock.svelte";
 
 export let data;
 let spaces = data.areaNames,
@@ -96,19 +96,11 @@ function resetFilter() {
                     <tr>
                         <td class="gfaName">
                             <div>
-                                <button
-                                    class="noHover none"
-                                    on:click={() => {
-                                        navigator.clipboard.writeText(space[0]);
-                                        notify.add("Copied to clipboard", { duration: 1000 });
-                                    }}>
+                                <CodeBlock invisible={true}>
                                     <div class="name" class:isIncluded={space[1] == "1"}>
                                         {space[0]}
                                     </div>
-                                    <div class="icon">
-                                        <Icon icon="charm:copy" width={16} hFlip={1} />
-                                    </div>
-                                </button>
+                                </CodeBlock>
                             </div>
                         </td>
                         <td class="description"><div>{space[3] || ""}</div></td>

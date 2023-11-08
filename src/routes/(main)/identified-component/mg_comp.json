@@ -55,6 +55,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -202,6 +203,28 @@
             ]
           }
         ]
+      },
+      {
+        "code": "Educational Institution Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Greenery",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "SubTypeKeys": [
@@ -217,35 +240,6 @@
       "IfcWall:SHEAR:null",
       "IfcWall:USERDEFINED:BUND",
       "IfcWall:USERDEFINED:RETAININGWALL"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Envelope Limit",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:CONCEPT_ENVELOPELIMIT"
     ]
   },
   {
@@ -275,16 +269,16 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcWasteTerminal:USERDEFINED:URINALTRAP",
+      "IfcWasteTerminal:USERDEFINED:URINALTRAPCOVER",
       "IfcWasteTerminal:USERDEFINED:CHUTEINTERFACE",
       "IfcWasteTerminal:USERDEFINED:SHALLOWFLOORTRAP",
       "IfcWasteTerminal:USERDEFINED:RETURNINLET",
       "IfcWasteTerminal:USERDEFINED:WASTEDIVERTER",
       "IfcWasteTerminal:USERDEFINED:DROPINLETCHAMBER",
       "IfcWasteTerminal:NOTDEFINED:null",
-      "IfcWasteTerminal:FLOORTRAP:null",
+      "IfcWasteTerminal:FLOORTRAPCOVER:null",
       "IfcWasteTerminal:USERDEFINED:REFUSETHROWPOINT",
-      "IfcWasteTerminal:FLOORWASTE:null",
+      "IfcWasteTerminal:FLOORWASTECOVER:null",
       "IfcWasteTerminal:WASTETRAP:null",
       "IfcWasteTerminal:USERDEFINED:RECYCLABLESTHROWPOINT",
       "IfcWasteTerminal:GULLYTRAP:null"
@@ -434,11 +428,11 @@
         ]
       },
       {
-        "code": "Gross Floor Area Handbook",
+        "code": "Educational Institution Handbook",
         "agency": "URA",
         "chapters": [
           {
-            "chapterName": "6",
+            "chapterName": "Greenery",
             "gateway": [
               "Construction"
             ],
@@ -446,8 +440,9 @@
               {
                 "clauseNumber": "",
                 "clauses": [
-                  "Lift Motor Room",
-                  "Lift Shaft"
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
                 ]
               }
             ]
@@ -468,7 +463,7 @@
     "Beta": true,
     "representation": {
       "Revit": [
-        "Massing",
+        "Mass",
         "Areas",
         "Rooms"
       ],
@@ -497,6 +492,8 @@
                 "clauseNumber": "",
                 "clauses": [
                   "Guardhouse and Sentry Posts",
+                  "Indoor Recreation Spaces",
+                  "Balconies",
                   "Automated Teller Machine and Vending Machine (Kiosk vs Standalone)"
                 ]
               }
@@ -543,8 +540,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -603,8 +600,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -873,8 +870,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -1028,8 +1025,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -1044,29 +1041,7 @@
         "Forms"
       ]
     },
-    "gateway": [
-      {
-        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
-        "agency": "LTA",
-        "chapters": [
-          {
-            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "2.1.5",
-                "clauses": [
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:HUMP"
     ]
@@ -1226,6 +1201,33 @@
                 "clauseNumber": "H.2.1",
                 "clauses": [
                   "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Residential Handbook (Flats and Condos)",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Max size of each balcony is 15% of internal nett unit size (i.e excludes voids, AC ledges & other external areas)",
+                  "GFA of balconies can be allowed above MP allowable GPR, subject to cap of 7% inclusive of planter boxes",
+                  "Railing or Parapet Wall along Balconies to be kept at 1.3m",
+                  "Balconies with exclusive access from the kitchen/yard/utility space are treated as service balconies and do not qualify for bonus GFA. \n\nBalconies which serve as the only access into a dwelling unit do not qualify for bonus GFA",
+                  "Balconies shall not be located next to M&E areas",
+                  "Balconies shall have a continuous perimeter opening of at least 40%.",
+                  "Walls in-between adjoining balconies that exceed 1.3m are not considered as \"open\"."
                 ]
               }
             ]
@@ -1785,8 +1787,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -1814,8 +1816,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -2003,9 +2005,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -2037,9 +2039,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -2066,7 +2068,7 @@
   },
   {
     "IdentifiedComponent": "Planter Box",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Furniture",
@@ -2082,7 +2084,30 @@
         "Furniture"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Educational Institution Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Greenery",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcFurniture:USERDEFINED:PLANTERBOX"
     ]
@@ -2207,8 +2232,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -2236,8 +2261,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -2265,8 +2290,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -2661,35 +2686,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Taxi Bay",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_TAXIBAY"
-    ]
-  },
-  {
     "IdentifiedComponent": "Steam System",
     "Beta": false,
     "representation": {
@@ -2721,8 +2717,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -2775,8 +2771,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -2802,6 +2798,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -3258,8 +3255,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -3281,35 +3278,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Bicycle Route",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:BICYCLEROUTE"
-    ]
-  },
-  {
     "IdentifiedComponent": "Egress Indicator Box",
     "Beta": false,
     "representation": {
@@ -3317,8 +3285,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -3370,8 +3338,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -3426,25 +3394,34 @@
                 "clauseNumber": "2.4",
                 "clauses": [
                   "There should be a minimum of 10 bicycle parking lots within a location.  ",
+                  "Minimum length of 2-tiers bicycle lot shall be 2000mm",
                   "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for 2- tiers bicycle racks shall be 2500mm",
                   "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
+                  "A bicycle parking rack shall be provided for each bicycle parking lot and anchored to the ground so as to allow cyclists to lock their bicycles with ease. ",
                   "Minimum width of single-tier bicycle lot shall be  600mm",
-                  "Minimum width of 2-tiers bicycle lot shall be 650mm"
+                  "Minimum length of single-tier bicycle lot shall be 1800mm",
+                  "Minimum width of 2-tiers bicycle lot shall be 650mm",
+                  "Bicycle parking lots shall be separated from the car park area."
                 ]
               }
             ]
           },
           {
-            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
+            "chapterName": "Parking Layout Dimensions: Motor-cycle parking provision",
             "gateway": [
               "Design",
               "Construction"
             ],
             "clauseNumbers": [
               {
-                "clauseNumber": "2.1.5",
+                "clauseNumber": "2.3",
                 "clauses": [
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
+                  "The minimum width of a motor-cycle parking lot shall be 800mm.",
+                  "The minimum width of accessway for motorcycle lots shall be 1200mm",
+                  "If provided next to parking lots, a gap of 500mm to be provided between car and motor-cycle lots.",
+                  "The lots should not obstruct movement of other vehicles and pedestrians.",
+                  "The minimum length of a motor-cycle parking lot shall be 2400mm.",
+                  "The Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for motorcycle lots shall be 2000mm"
                 ]
               }
             ]
@@ -3493,6 +3470,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -3857,7 +3835,10 @@
               {
                 "clauseNumber": "",
                 "clauses": [
-                  "Gondola platform at roof top"
+                  "Refuse Chambers and Refuse Chutes",
+                  "Service Ducts",
+                  "Gondola platform at roof top",
+                  "Lift Shaft"
                 ]
               }
             ]
@@ -4047,7 +4028,7 @@
     "Beta": true,
     "representation": {
       "Revit": [
-        "Massing",
+        "Mass",
         "Areas",
         "Rooms"
       ],
@@ -4329,6 +4310,33 @@
         ]
       },
       {
+        "code": "Residential Handbook (Flats and Condos)",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Max size of each balcony is 15% of internal nett unit size (i.e excludes voids, AC ledges & other external areas)",
+                  "GFA of balconies can be allowed above MP allowable GPR, subject to cap of 7% inclusive of planter boxes",
+                  "Railing or Parapet Wall along Balconies to be kept at 1.3m",
+                  "Balconies with exclusive access from the kitchen/yard/utility space are treated as service balconies and do not qualify for bonus GFA. \n\nBalconies which serve as the only access into a dwelling unit do not qualify for bonus GFA",
+                  "Balconies shall not be located next to M&E areas",
+                  "Balconies shall have a continuous perimeter opening of at least 40%.",
+                  "Walls in-between adjoining balconies that exceed 1.3m are not considered as \"open\"."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
         "agency": "LTA",
         "chapters": [
@@ -4343,25 +4351,14 @@
                 "clauseNumber": "2.4",
                 "clauses": [
                   "There should be a minimum of 10 bicycle parking lots within a location.  ",
+                  "Minimum length of 2-tiers bicycle lot shall be 2000mm",
                   "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for 2- tiers bicycle racks shall be 2500mm",
                   "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
+                  "A bicycle parking rack shall be provided for each bicycle parking lot and anchored to the ground so as to allow cyclists to lock their bicycles with ease. ",
                   "Minimum width of single-tier bicycle lot shall be  600mm",
-                  "Minimum width of 2-tiers bicycle lot shall be 650mm"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "2.1.5",
-                "clauses": [
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
+                  "Minimum length of single-tier bicycle lot shall be 1800mm",
+                  "Minimum width of 2-tiers bicycle lot shall be 650mm",
+                  "Bicycle parking lots shall be separated from the car park area."
                 ]
               }
             ]
@@ -4990,8 +4987,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -5115,6 +5112,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -5255,35 +5253,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcSolarDevice:SOLARCOLLECTOR:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Holding Bay",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_HOLDINGBAY"
     ]
   },
   {
@@ -5619,8 +5588,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -5648,8 +5617,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -5773,27 +5742,6 @@
             ]
           }
         ]
-      },
-      {
-        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
-        "agency": "LTA",
-        "chapters": [
-          {
-            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "2.1.5",
-                "clauses": [
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
-                ]
-              }
-            ]
-          }
-        ]
       }
     ],
     "SubTypeKeys": [
@@ -5827,37 +5775,8 @@
     ]
   },
   {
-    "IdentifiedComponent": "Building Mass",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:CONCEPT_BUILDINGMASS"
-    ]
-  },
-  {
     "IdentifiedComponent": "Refuse Chute",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Model Groups",
@@ -5879,7 +5798,30 @@
         "Wall"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Gross Floor Area Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "6",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Refuse Chambers and Refuse Chutes",
+                  "Service Ducts",
+                  "Lift Shaft"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcWall:USERDEFINED:REFUSECHUTE",
       "IfcBuildingSystem:USERDEFINED:REFUSECHUTE"
@@ -5891,6 +5833,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -5942,9 +5885,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -5999,6 +5942,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -6020,7 +5964,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Rack",
+    "IdentifiedComponent": "Racking System",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -6037,7 +5981,28 @@
         "Furniture"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Gross Floor Area Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "7",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Racking Systems for Storage Purposes"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcFurniture:USERDEFINED:RACK"
     ]
@@ -6127,8 +6092,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -6180,8 +6145,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -6223,6 +6188,28 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:RECYCLEDWATER"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Switchgear",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Electrical Equipment"
+      ],
+      "ArchiCAD": [
+        "Flow Equipment"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Equipment"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcElectricDistributionBoard:USERDEFINED:SWITCHGEAR"
     ]
   },
   {
@@ -6455,8 +6442,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -6628,8 +6615,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -6972,29 +6959,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Furniture",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:NOTDEFINED:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Fire Extinguisher",
     "Beta": false,
     "representation": {
@@ -7002,8 +6966,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -7193,8 +7157,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -7327,8 +7291,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -7346,32 +7310,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:2D_FLOORMARKING"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Foreshore Line",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:2D_FORESHORELINE"
     ]
   },
   {
@@ -7680,8 +7618,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -7845,35 +7783,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Religious Symbol",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:RELIGIOUSSYMBOL"
-    ]
-  },
-  {
     "IdentifiedComponent": "PWD Holding Point",
     "Beta": false,
     "representation": {
@@ -7881,8 +7790,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -7933,35 +7842,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Envelope Required",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Massing",
-        "Parking (for parking lots)"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:CONCEPT_ENVELOPEREQUIRED"
-    ]
-  },
-  {
     "IdentifiedComponent": "Unit",
     "Beta": false,
     "representation": {
@@ -7987,7 +7867,7 @@
   },
   {
     "IdentifiedComponent": "Opening",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Void",
@@ -8004,7 +7884,35 @@
         "Opening"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Residential Handbook (Flats and Condos)",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Max size of each balcony is 15% of internal nett unit size (i.e excludes voids, AC ledges & other external areas)",
+                  "GFA of balconies can be allowed above MP allowable GPR, subject to cap of 7% inclusive of planter boxes",
+                  "Railing or Parapet Wall along Balconies to be kept at 1.3m",
+                  "Balconies with exclusive access from the kitchen/yard/utility space are treated as service balconies and do not qualify for bonus GFA. \n\nBalconies which serve as the only access into a dwelling unit do not qualify for bonus GFA",
+                  "Balconies shall not be located next to M&E areas",
+                  "Balconies shall have a continuous perimeter opening of at least 40%.",
+                  "Walls in-between adjoining balconies that exceed 1.3m are not considered as \"open\"."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcOpeningElement:RECESS:null",
       "IfcOpeningElement:OPENING:null"
@@ -8227,9 +8135,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -8382,6 +8290,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -8434,8 +8343,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -8581,7 +8490,7 @@
       "Revit": [
         "Floors",
         "Generic Models",
-        "Massing",
+        "Mass",
         "Areas",
         "Rooms"
       ],
@@ -8631,16 +8540,21 @@
         "agency": "LTA",
         "chapters": [
           {
-            "chapterName": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
+            "chapterName": "Parking Layout Dimensions: Motor-cycle parking provision",
             "gateway": [
               "Design",
               "Construction"
             ],
             "clauseNumbers": [
               {
-                "clauseNumber": "2.1.5",
+                "clauseNumber": "2.3",
                 "clauses": [
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm."
+                  "The minimum width of a motor-cycle parking lot shall be 800mm.",
+                  "The minimum width of accessway for motorcycle lots shall be 1200mm",
+                  "If provided next to parking lots, a gap of 500mm to be provided between car and motor-cycle lots.",
+                  "The lots should not obstruct movement of other vehicles and pedestrians.",
+                  "The minimum length of a motor-cycle parking lot shall be 2400mm.",
+                  "The Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for motorcycle lots shall be 2000mm"
                 ]
               }
             ]
@@ -8663,8 +8577,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -9151,29 +9065,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Shelf",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:SHELF:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Site Boundary (Cadastral Lot)",
     "Beta": false,
     "representation": {
@@ -9195,8 +9086,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -9309,32 +9200,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Artwork",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:ARTWORK"
-    ]
-  },
-  {
     "IdentifiedComponent": "Umbrella",
     "Beta": false,
     "representation": {
@@ -9363,6 +9228,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -9511,8 +9377,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -9538,6 +9404,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -9757,33 +9624,12 @@
     ]
   },
   {
-    "IdentifiedComponent": "Switchboard",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricDistributionBoard:SWITCHBOARD:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Retention Basin",
     "Beta": false,
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -9867,6 +9713,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -9895,8 +9742,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -10111,7 +9958,7 @@
   },
   {
     "IdentifiedComponent": "Letter Box",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Furniture",
@@ -10210,8 +10057,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -10312,8 +10159,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -10364,9 +10211,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -10521,8 +10368,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -10540,29 +10387,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:2D_PASSINGSPACE"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Bed",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:BED:null"
     ]
   },
   {
@@ -10899,8 +10723,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -10922,7 +10746,7 @@
   },
   {
     "IdentifiedComponent": "Recyclables Chute",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Model Groups"
@@ -10939,7 +10763,30 @@
         "Group"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Gross Floor Area Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "6",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Refuse Chambers and Refuse Chutes",
+                  "Service Ducts",
+                  "Lift Shaft"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcBuildingSystem:USERDEFINED:RECYCLABLESCHUTE"
     ]
@@ -10951,9 +10798,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -11167,6 +11014,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -11195,8 +11043,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -11271,8 +11119,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -11405,8 +11253,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -11456,6 +11304,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -11575,6 +11424,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -11631,6 +11481,7 @@
     "representation": {
       "Revit": [
         "Topography",
+        "Area",
         "Generic Models",
         "Planting"
       ],
@@ -11656,7 +11507,7 @@
     "Beta": true,
     "representation": {
       "Revit": [
-        "Massing",
+        "Mass",
         "Areas",
         "Rooms"
       ],
@@ -11744,8 +11595,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -11900,8 +11751,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -11929,8 +11780,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -11945,7 +11796,34 @@
         "Forms"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "agency": "LTA",
+        "chapters": [
+          {
+            "chapterName": "Parking Layout Dimensions: Motor-cycle parking provision",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "2.3",
+                "clauses": [
+                  "The minimum width of a motor-cycle parking lot shall be 800mm.",
+                  "The minimum width of accessway for motorcycle lots shall be 1200mm",
+                  "If provided next to parking lots, a gap of 500mm to be provided between car and motor-cycle lots.",
+                  "The lots should not obstruct movement of other vehicles and pedestrians.",
+                  "The minimum length of a motor-cycle parking lot shall be 2400mm.",
+                  "The Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for motorcycle lots shall be 2000mm"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:LINEMARKING"
     ]
@@ -11958,8 +11836,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -12061,9 +11939,9 @@
       "Revit": [
         "Generic Models",
         "Ceilings",
-        "Curtain Wall",
+        "Curtain Systems",
         "Floors",
-        "Roof"
+        "Roofs"
       ],
       "ArchiCAD": [
         "Morph",
@@ -12109,6 +11987,28 @@
         ]
       },
       {
+        "code": "Gross Floor Area Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "6",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Refuse Chambers and Refuse Chutes",
+                  "Metal Ceiling Grids within Indoor Performance Venue",
+                  "Lift Motor Room"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "code": "Approved Document - Acceptable Solutions",
         "agency": "BCA",
         "chapters": [
@@ -12134,28 +12034,6 @@
             ]
           }
         ]
-      },
-      {
-        "code": "Gross Floor Area Handbook",
-        "agency": "URA",
-        "chapters": [
-          {
-            "chapterName": "6",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "",
-                "clauses": [
-                  "Metal Ceiling Grids within Indoor Performance Venue",
-                  "Lift Motor Room",
-                  "Lift Shaft"
-                ]
-              }
-            ]
-          }
-        ]
       }
     ],
     "SubTypeKeys": [
@@ -12167,7 +12045,7 @@
     "Beta": false,
     "representation": {
       "Revit": [
-        "Massing",
+        "Mass",
         "Areas",
         "Rooms"
       ],
@@ -12194,8 +12072,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",
@@ -12223,8 +12101,8 @@
         "Generic Models",
         "Specialty Equipment",
         "Floors",
-        "Massing",
-        "Parking (for parking lots)"
+        "Mass",
+        "Parking"
       ],
       "ArchiCAD": [
         "Object",

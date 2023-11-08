@@ -44,7 +44,7 @@ import Image from "../Image.svelte";
                     <td>
                         <div class="tags">
                             {#if table.scheme == "AGF_Name"}
-                                Refer to <a href="/area-requirements/area_gfa/agf-name?q=residential-(none-landed)"
+                                Refer to <a href="/area-requirements/area_gfa/agf-name?q=residential-(non-landed)"
                                     >AGF_Name</a> Page.
                             {/if}
                             {#if table.data.length}

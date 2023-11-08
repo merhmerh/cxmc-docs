@@ -57,7 +57,7 @@
     --background-secondary: var(--bg-s);
 
     --accent: #4692d1;
-    --accent-100: #b3f5ff;
+    --accent-100: #849193;
     --accent-200: #98dbff;
     --accent-300: #7ec2ff;
     --accent-400: #65a2d4;
@@ -532,32 +532,29 @@ pre {
     margin: 0;
 }
 
-
 code {
     background-color: $muted;
     padding: 2px;
     padding-inline: 6px;
     border-radius: 4px;
     @include font-mono;
-    a{  
-        color:var(--main);
-        &:hover{
+    a {
+        color: var(--main);
+        &:hover {
             text-decoration: underline !important;
         }
-    }   
+    }
 }
-body.light{
-    code > a{
-
+body.light {
+    code > a {
         color: var(--url);
     }
 }
-body.dark{
-    code > a{
+body.dark {
+    code > a {
         color: color-mix(in srgb, var(--main) 25%, var(--url)) !important;
     }
 }
-
 
 span.small {
     font-size: 12px;

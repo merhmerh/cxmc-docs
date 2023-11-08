@@ -3,13 +3,13 @@ export let data;
 import Icon from "@iconify/svelte";
 import { Tooltip } from "merh-forge-ui";
 import { theme } from "$comp/theme.store";
-import { notify } from "merh-forge-ui";
 import { ifcData } from "../ifcsg.store";
 import { page } from "$app/stores";
-import { timeout, replaceSpaceWithDash, highlightDOMText } from "$fn/helper";
+import { timeout, replaceSpaceWithDash } from "$fn/helper";
 import Update from "./Update.svelte";
 import { beta } from "$routes/main.store";
 import { getPermission } from "$comp/supabase.store";
+import CodeBlock from "$comp/CodeBlock.svelte";
 
 let ifc = [];
 
@@ -177,23 +177,21 @@ function ifIsInBeta(type) {
 
         <div class="field">
             IfcEntity:
-            <code>{entity}</code>
+            <CodeBlock>{entity}</CodeBlock>
         </div>
         <div class="field">
             PredefinedType:
-            <code>
-                {#if predefinedType}
-                    {predefinedType}
-                {:else}
-                    –
-                {/if}
-            </code>
+            {#if predefinedType}
+                <CodeBlock>{predefinedType}</CodeBlock>
+            {:else}
+                –
+            {/if}
         </div>
         <div class="field">
             ObjectType:
 
             {#if objectType}
-                <code> {objectType} </code>
+                <CodeBlock>{objectType}</CodeBlock>
             {:else}
                 –
             {/if}
@@ -223,39 +221,12 @@ function ifIsInBeta(type) {
                                     <tr class:isUpdating={isUpdating == obj.propertyName}>
                                         <td>
                                             <div class="tblPset__propName">
-                                                <button
-                                                    class="none noHover tblPset__propName__name"
-                                                    on:click={async (e) => {
-                                                        navigator.clipboard.writeText(obj.propertyName);
-                                                        notify.add("Copied to clipboard", { duration: 1000 });
-                                                        highlightDOMText(e.target);
-                                                    }}>
-                                                    <span>{obj.propertyName}</span>
-                                                    <div class="icon tblPset__copy">
-                                                        <Icon icon="charm:copy" width={16} hFlip={true} />
-                                                    </div>
-                                                </button>
+                                                <CodeBlock invisible={true}>{obj.propertyName}</CodeBlock>
                                             </div>
                                         </td>
                                         <td
                                             ><div>
-                                                <button
-                                                    class="none noHover tblPset__propName__dataType"
-                                                    on:click={(e) => {
-                                                        navigator.clipboard.writeText(obj.dataType);
-                                                        notify.add("Copied to clipboard", { duration: 1000 });
-                                                        const range = document.createRange();
-                                                        //@ts-ignore
-                                                        range.selectNodeContents(e.target);
-                                                        const selection = window.getSelection();
-                                                        selection.removeAllRanges();
-                                                        selection.addRange(range);
-                                                    }}>
-                                                    <span>{obj.dataType}</span>
-                                                    <div class="icon tblPset__copy">
-                                                        <Icon icon="charm:copy" width={16} hFlip={true} />
-                                                    </div>
-                                                </button>
+                                                <CodeBlock invisible={true}>{obj.dataType}</CodeBlock>
                                             </div></td>
                                         <td
                                             ><div class="tblPset__measureResource">

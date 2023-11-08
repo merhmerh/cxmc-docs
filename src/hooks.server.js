@@ -10,6 +10,8 @@ export const handle = async ({ event, resolve }) => {
         supabaseKey: SUPABASE_SERVICE_KEY,
         event,
     })
+
+    // @ts-ignore
     event.locals.supabaseAuthServer =
         /**
          * a little helper that is written for convenience so that instead

@@ -1,7 +1,7 @@
 <script>
-import { notify } from "merh-forge-ui";
 import { theme } from "$comp/theme.store";
 import Icon from "@iconify/svelte";
+import CodeBlock from "$comp/CodeBlock.svelte";
 export let data;
 
 let ot = data.ot;
@@ -79,17 +79,7 @@ function resetFilter() {
                     <tr>
                         <td class="ot">
                             <div>
-                                <button
-                                    class="noHover none"
-                                    on:click={() => {
-                                        navigator.clipboard.writeText(item.occupancyType);
-                                        notify.add("Copied to clipboard", { duration: 1000 });
-                                    }}>
-                                    <div>{item.occupancyType}</div>
-                                    <div class="icon">
-                                        <Icon icon="charm:copy" width={16} hFlip={1} />
-                                    </div>
-                                </button>
+                                <CodeBlock invisible={true}>{item.occupancyType}</CodeBlock>
                             </div>
                         </td>
                         <td><div>{item.ref || ""}</div></td>

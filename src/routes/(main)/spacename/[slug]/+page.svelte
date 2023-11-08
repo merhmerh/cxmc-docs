@@ -6,6 +6,8 @@ import { theme } from "$comp/theme.store";
 import { WaterfallSingle, dictionary, Modal } from "merh-forge-ui";
 import { notify } from "merh-forge-ui";
 import { beta } from "$routes/main.store";
+import CodeBlock from "$comp/CodeBlock.svelte";
+import { highlightDOMText } from "$fn/helper";
 
 dictionary.set(spacesDictionary);
 
@@ -62,13 +64,9 @@ function resetFilter() {
         <textarea name="" id="" cols="30" rows="10" value={clipboard}></textarea>
         <button
             on:click={async () => {
-                const textarea = document.querySelector(".modal > textarea");
-                console.log(textarea);
-                textarea.setSelectionRange(0, textarea.value.length);
-                textarea.focus();
-                notify.add("Copied SpaceName Enums");
                 await navigator.clipboard.writeText(clipboard);
-                // modal.close();
+                const textarea = document.querySelector(".modal > textarea");
+                highlightDOMText(textarea);
             }}>Copy</button>
     </div>
 </Modal>
@@ -141,17 +139,7 @@ function resetFilter() {
                     <td class="spaceName">
                         <div>
                             {#if space.spaceName !== "any"}
-                                <button
-                                    class="none noHover"
-                                    on:click={() => {
-                                        navigator.clipboard.writeText(space.spaceName);
-                                        notify.add("Copied", { duration: 3000 });
-                                    }}>
-                                    <div>{space.spaceName}</div>
-                                    <div class="icon">
-                                        <Icon icon="charm:copy" width={16} hFlip={1} />
-                                    </div>
-                                </button>
+                                <CodeBlock invisible={true}>{space.spaceName}</CodeBlock>
                             {:else}
                                 <WaterfallSingle content="any:spaceName" slotted>
                                     <span>{space.spaceName}</span>
@@ -162,13 +150,13 @@ function resetFilter() {
                     <td class="OccupancyType">
                         <div>
                             {#if space.occupancyType}
-                                {space.occupancyType}
+                                <CodeBlock invisible={true}>{space.occupancyType}</CodeBlock>
                             {:else}
                                 <span>–</span>
                             {/if}
                         </div>
                     </td>
-                    <td><div>{space.remarks || ""}</div></td>
+                    <td class="Remarks"><div>{space.remarks || ""}</div></td>
                     <td class="FunctionalSpace"><div>{space.functionalSpace}</div></td>
                     {#if !$beta}
                         <td class="OccupancyLoad"><div>{space.occupancyLoad}</div></td>
@@ -187,77 +175,57 @@ table {
     font-size: 0.875rem;
     min-width: 1200px;
     tr {
-        th {
-            &.spaceName {
-                width: 200px;
-            }
-            &.OccupancyType {
-                width: 200px;
-            }
-            &.Remarks {
-                width: 300px;
-            }
-            &.FunctionalSpace {
-                width: 300px;
-            }
-            &.OccupancyLoad {
-                width: auto;
-            }
-        }
         td {
-            &.spaceName {
-                div {
-                    button {
-                        padding: 0;
-                        text-align: left;
-                        font-size: inherit;
-                        justify-content: space-between;
-                        width: 100%;
-                        div {
-                            max-width: calc(100% - 1.25rem);
-                        }
-                        &:hover {
-                            .icon {
-                                opacity: 1;
-                            }
-                            color: $url;
-                        }
+            &.spaceName > div {
+                width: 200px;
+                button {
+                    padding: 0;
+                    text-align: left;
+                    font-size: inherit;
+                    justify-content: space-between;
+                    width: 100%;
+                    div {
+                        max-width: calc(100% - 1.25rem);
+                    }
+                    &:hover {
                         .icon {
-                            opacity: 0;
-                            transition: all 0.15s;
-                            color: var(--mono-200);
+                            opacity: 1;
                         }
+                        color: $url;
                     }
-                    span {
-                        font-style: italic;
+                    .icon {
+                        opacity: 0;
+                        transition: all 0.15s;
+                        color: var(--mono-200);
                     }
-                    & :global(.csd-tt__button-unstyled) {
-                        padding: 2px 4px;
-                    }
+                }
+                span {
+                    font-style: italic;
+                }
+                & :global(.csd-tt__button-unstyled) {
+                    padding: 2px 4px;
                 }
             }
-
-            // &.FunctionalSpace {
-            //     div {
-            //         // width: calc(200px - 3px);
-            //     }
-            // }
-            &.OccupancyLoad {
-                div {
-                    display: block;
-                    text-align: center;
-                }
+            &.OccupancyType > div {
+                width: 200px;
             }
-            &.scdf_remarks {
-                div {
-                    width: auto;
-                    min-width: 200px;
-                }
+            &.Remarks > div {
+                width: 300px;
             }
-            &.bca_remarks {
-                div {
-                    width: 120px;
-                }
+            &.OccupancyLoad > div {
+                max-width: 120px;
+                display: block;
+                text-align: center;
+            }
+            &.FunctionalSpace > div {
+                width: 200px;
+            }
+            &.scdf_remarks > div {
+                width: auto;
+                min-width: 300px;
+            }
+            &.bca_remarks > div {
+                width: 120px;
             }
         }
     }

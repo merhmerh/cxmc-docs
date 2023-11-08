@@ -20,7 +20,7 @@ Features:
     ☐ Add amc picklist
     
 Updates:
-    ☐ repull check ura rule, and lta 2.3
+    ✔ repull check ura rule, and lta 2.3 @done(23-11-08 13:36)
     ☐ add copy to objecttype (ifcsg)
     ☐ check identified component for planterbox,refusechute,etc..
     ✔ Remove Spacename keep to 4 columns @done(23-11-07 01:34)
