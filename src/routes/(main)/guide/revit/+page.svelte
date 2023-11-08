@@ -2,7 +2,7 @@
 import mdRaw from "./guide.md?raw";
 import { marked } from "marked";
 
-const md = mdRaw.replace("/static/", "./");
+const md = mdRaw.replace("/static/guide/", "./");
 const html = marked.parse(md);
 console.log(html);
 </script>
