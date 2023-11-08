@@ -23,6 +23,19 @@ export async function getSharedParams(isBeta = true) {
     const props = getProps(ifcsg);
 
     const result = []
+
+    addIfcObjectType()
+    function addIfcObjectType() {
+        const guid = uuidv5('IfcObjectType', namespace)
+        file += `PARAM\t${guid}\t${'IfcObjectType'}\t${'TEXT'}\t\t1\t1\t\t1\t0\n`
+        result.push({
+            guid,
+            name: 'IfcObjectType',
+            dataType: 'TEXT',
+            entity: 'all',
+        })
+    }
+
     for (const { name, ifcDataType, entity } of props) {
 
         const dataType = mapDataType(ifcDataType)

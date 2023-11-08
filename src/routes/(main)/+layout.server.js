@@ -10,6 +10,6 @@ export async function load({ locals: { supabase, getSession }, url }) {
     const { data } = await supabase.auth.admin.getUserById(id)
     if (data.user.user_metadata.disabled) {
         console.log('disabled');
-        throw error('403', "Your account have been disabled")
+        throw error(403, "Your account have been disabled")
     }
 }

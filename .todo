@@ -6,14 +6,14 @@ There are some special, customizable tags with @ : critical high low today
 
 
 Todo Guide:
-    ☐ start with revit 2023, work in 2024. explain how to make it work with 2022 below
-    ☐ Interop tool (revit)
-    ☐ Download config file, mapping, xml, etc...
-    ☐ Explain what each file do
-    ☐ to show predefined and userdefined
-    ☐ Import revit parameter XML to revit
-    ☐ Import IFC setup
-    ☐ Import mapping file
+    ✔ start with revit 2023, work in 2024. explain how to make it work with 2022 below @done(23-11-09 05:26)
+    ✔ Interop tool (revit) @done(23-11-09 03:47)
+    ✔ Download config file, mapping, xml, etc... @done(23-11-09 03:47)
+    ✔ Explain what each file do @done(23-11-09 03:47)
+    ✔ to show predefined and userdefined @done(23-11-09 05:26)
+    ✔ Import revit parameter XML to revit @done(23-11-09 03:48)
+    ✔ Import IFC setup @done(23-11-09 05:26)
+    ✔ Import mapping file @done(23-11-09 05:26)
 
 Features:
     ☐ Add downloads for non beta

@@ -7,9 +7,6 @@ PropertySet:	SGPset_BuildingElementProxy	I	IfcBuildingElementProxy
 	BicycleRack_Type	Label
 	BicycleLotCount	Integer
 
-PropertySet:	SGPset_Window	I	IfcWindow
-	SafetyBarrierHeight	Real
-
 PropertySet:	SGPset_BuildingStorey	I	IfcBuildingStorey
 	AtticLevel	Boolean
 
@@ -62,3 +59,6 @@ PropertySet:	SGPset_SpaceArea_Strata	I	IfcSpace
 
 PropertySet:	SGPset_Wall	I	IfcWall
 	PorousFence	Boolean
+
+PropertySet:	SGPset_Window	I	IfcWindow
+	SafetyBarrierHeight	Real

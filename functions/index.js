@@ -57,9 +57,9 @@ export const areaSync = onRequest(opts, async (req, res) => {
 })
 
 export const revitIfcMapping = onRequest(opts, async (req, res) => {
-    generateRevitIfcMappingTable().then(result => {
-        res.status(200).send(result)
-    }).catch(err => {
-        res.status(400).send(err)
-    })
+    // generateRevitIfcMappingTable().then(result => {
+    //     res.status(200).send(result)
+    // }).catch(err => {
+    //     res.status(400).send(err)
+    // })
 })

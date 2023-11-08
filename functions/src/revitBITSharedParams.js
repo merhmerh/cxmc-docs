@@ -4,6 +4,7 @@ import pkg from 'jstoxml';
 const { toXML } = pkg
 
 
+
 const map = [
     { sharedParamType: "YESNO", Type: "Boolean", UnitType: "autodesk.spec:spec.bool-1.0.0", UnitTypeDisplay: "Yes/No" },
     { sharedParamType: "INTEGER", Type: "Integer", UnitType: "autodesk.spec:spec.int64-2.0.0", UnitTypeDisplay: "Integer" },
@@ -17,12 +18,34 @@ export async function generateBIT_XML() {
     const categoryMap = generateCategoryMap()
     const entity = JSON.parse(fs.readFileSync('./output/entity_id.json', 'utf-8'))
 
+
     const { result: sharedParams } = await getSharedParams(true)
 
     const parameters = { _name: "Parameters", _content: [] }
 
     for (const prop of sharedParams) {
+
         const parameter = createParameterJSON(prop)
+
+        if (prop.name == 'IfcObjectType') {
+            parameter._content = {
+                _name: "Categories",
+                _content: []
+            }
+
+            for (const item of categoryMap) {
+                parameter._content._content.push({
+                    _name: 'Category',
+                    _attrs: {
+                        ID: item.id,
+                        Name: item.name,
+                    }
+                })
+            }
+
+            parameters._content.push(parameter)
+            continue;
+        }
 
         if (!parameter) {
             // console.log("--parameter xml cannot be created");
@@ -257,7 +280,6 @@ function generateCategoryMap() {
     <Category ID="-2006060" Name="Revision Clouds" />
     <Category ID="-2001079" Name="Toposolid" />
     `
-
     const categoryMap = []
     xmlCat.split(/\n/).forEach(line => {
         if (!line.trim()) return

@@ -24,47 +24,47 @@ export function generateRevitIfcMappingTable() {
         fs.writeFileSync('./src/revit/Revit_IFC-Mapping-Configuration.txt', mapping)
 
 
-        const title = 'Revit_IFC-Mapping-Configuration'
+        // const title = 'Revit_IFC-Mapping-Configuration'
 
-        const checksum = calcChecksum(mapping)
-        const fileName = `${title}-${uuid(8)}.txt`
-        const blob = new Blob([JSON.stringify(mapping)])
-        const fileSize = blob.size;
+        // const checksum = calcChecksum(mapping)
+        // const fileName = `${title}-${uuid(8)}.txt`
+        // const blob = new Blob([JSON.stringify(mapping)])
+        // const fileSize = blob.size;
 
-        //check if exits
-        const { data, error } = await supabase.from('downloads').select()
-            .match({ checksum: checksum, title: title.replace(/[-_]/, " ") })
+        // //check if exits
+        // const { data, error } = await supabase.from('downloads').select()
+        //     .match({ checksum: checksum, title: title.replace(/[-_]/, " ") })
 
 
-        if (data.length) {
-            return resolve({ message: "Mapping existed, checksum matches", data: mapping })
-        }
+        // if (data.length) {
+        //     return resolve({ message: "Mapping existed, checksum matches", data: mapping })
+        // }
 
-        //Does not exist -> upload
-        try {
-            const path = `downloads/revit-ifc-mapping-configuration/${fileName}`
-            await supabase
-                .storage
-                .from('public')
-                .upload(path, mapping)
+        // //Does not exist -> upload
+        // try {
+        //     const path = `downloads/revit-ifc-mapping-configuration/${fileName}`
+        //     await supabase
+        //         .storage
+        //         .from('public')
+        //         .upload(path, mapping)
 
-            const { data: url } = supabase.storage.from("public").getPublicUrl(path);
+        //     const { data: url } = supabase.storage.from("public").getPublicUrl(path);
 
-            const { data, error } = await supabase.from('downloads').insert({
-                category: 'Revit',
-                description: 'Revit IFC Parameter Mapping Table',
-                fileName: fileName,
-                fileSize: fileSize,
-                type: "text/plain",
-                checksum: checksum,
-                url: url.publicUrl,
-                title: title,
-            }).select()
+        //     const { data, error } = await supabase.from('downloads').insert({
+        //         category: 'Revit',
+        //         description: 'Revit IFC Parameter Mapping Table',
+        //         fileName: fileName,
+        //         fileSize: fileSize,
+        //         type: "text/plain",
+        //         checksum: checksum,
+        //         url: url.publicUrl,
+        //         title: title,
+        //     }).select()
 
-            resolve({ message: "Success", data: mapping })
-        } catch (error) {
-            reject(error)
-        }
+        //     resolve({ message: "Success", data: mapping })
+        // } catch (error) {
+        //     reject(error)
+        // }
     })
 }
 
