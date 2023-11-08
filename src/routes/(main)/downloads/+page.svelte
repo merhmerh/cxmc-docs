@@ -2,9 +2,9 @@
 import Card from "./Card.svelte";
 import { getPermission } from "$comp/supabase.store.js";
 import { Modal, notify } from "merh-forge-ui";
-
 import Upload from "./Upload.svelte";
 import { onMount } from "svelte";
+import ThirdParty from "./ThirdParty.svelte";
 
 export let data;
 
@@ -37,6 +37,8 @@ const canUpload = permission.edit || false;
     {#each data.downloads as item}
         <Card data={item}></Card>
     {/each}
+
+    <ThirdParty></ThirdParty>
 </div>
 
 <style lang="scss">

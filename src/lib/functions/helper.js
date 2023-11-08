@@ -245,3 +245,23 @@ export function randomList(list) {
     const randomIndex = Math.floor(Math.random() * list.length);
     return list[randomIndex]
 }
+
+
+/**
+ * @param {string} html
+ */
+export function convertToHTMLAnchor(html) {
+
+
+    const mdURL = new RegExp(/\((.+?)\)\[(.+?)\]/, "gm")
+    html = html.replace(mdURL, `<a href="$2" target="_blank">$1</a>`)
+
+    // Define a regular expression to match URLs in the message
+    const urlRegex = new RegExp(/(?<!\S)(https:\/\/.+?\S+)/, "gm");
+
+    // Replace each URL with a hyperlink tag
+    html = html.replace(urlRegex, '<a href="$1" target="_blank">$1</a>');
+
+    // Return the linked message
+    return html;
+}

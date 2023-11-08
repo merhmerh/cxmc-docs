@@ -1,19 +1,20 @@
 <script>
 import Icon from "@iconify/svelte";
-import { supabase as sb, getPermission } from "$comp/supabase.store.js";
-import { toMemoryUnit, timeout } from "$fn/helper";
+import { getPermission } from "$comp/supabase.store.js";
+import { toMemoryUnit, timeout, isObjectEmpty, convertToHTMLAnchor } from "$fn/helper";
 import { Popover, Tooltip } from "merh-forge-ui";
 import dayjs from "dayjs";
-let isOpen = true;
+import { page } from "$app/stores";
+let isOpen = false;
 
-export let data;
-
+export let data = {};
+const supabase = $page.data.supabase;
 const { role, permission } = getPermission();
 const canUpload = permission.edit;
 
 async function remove(item) {
-    const supabase = $sb;
     console.log(item.id);
+    // @ts-ignore
     const { data: res, error } = await supabase.from("downloads").update({ active: false }).eq("id", item.id).select();
     if (error) {
         return console.log(error);
@@ -42,98 +43,102 @@ async function forceDownloadFile(file) {
 }
 </script>
 
-<div class="card accordion">
-    <button
-        class="none noHover header"
-        on:click={() => {
-            isOpen = !isOpen;
-        }}>
-        <h3>{data.category}</h3>
+{#if !isObjectEmpty(data)}
+    <div class="card accordion">
+        <button
+            class="none noHover header"
+            on:click={() => {
+                isOpen = !isOpen;
+            }}>
+            <h3>{data.category}</h3>
 
-        <div class="expand">
-            <div class="icon">
-                <Icon icon="ic:round-expand-more" height="32" vFlip={isOpen} />
+            <div class="expand">
+                <div class="icon">
+                    <Icon icon="ic:round-expand-more" height="32" vFlip={isOpen} />
+                </div>
             </div>
-        </div>
-    </button>
+        </button>
 
-    {#if isOpen}
-        <div class="body">
-            {#each data.downloads as row}
-                <div class="row">
-                    <div class="content">
-                        <span class="flex items-center">
-                            {row.description}
-                        </span>
-                        <div class="flex items-center">
-                            <button
-                                class="info none icon noHover"
-                                on:click={() => {
-                                    row.showInfo = !row.showInfo;
-                                }}>
-                                <Icon icon="charm:info" height="18" />
-                            </button>
-                            {#if canUpload}
-                                <Popover>
-                                    <span slot="button" class="popoverButton">
-                                        <button class="none">⋅⋅⋅</button>
-                                    </span>
+        {#if isOpen}
+            <div class="body">
+                {#each data.downloads as row}
+                    <div class="row">
+                        <div class="content">
+                            <span class="flex items-center">
+                                {row.description}
+                            </span>
+                            <div class="flex items-center">
+                                <button
+                                    class="info none icon noHover"
+                                    on:click={() => {
+                                        row.showInfo = !row.showInfo;
+                                    }}>
+                                    <Icon icon="charm:info" height="18" />
+                                </button>
+                                {#if canUpload}
+                                    <Popover>
+                                        <span slot="button" class="popoverButton">
+                                            <button class="none">⋅⋅⋅</button>
+                                        </span>
 
-                                    <span slot="popup" class="popoverPopup">
-                                        <button class="none" on:click={() => remove(row)}>Remove</button>
-                                    </span>
-                                </Popover>
-                            {/if}
-                        </div>
-                    </div>
-
-                    <a
-                        href={row.download.url}
-                        target="_blank"
-                        on:click={async (e) => {
-                            e.preventDefault();
-                            row.downloading = !row.downloading;
-                            await forceDownloadFile(row.download);
-                            row.downloading = false;
-                        }}
-                        class="button none download">
-                        <div class="icon" class:downloading={row.downloading}>
-                            {#if row.downloading}
-                                <Icon icon="line-md:loading-twotone-loop" height="32" />
-                            {:else if row.download.type.match(/pdf/)}
-                                <Icon icon="vscode-icons:file-type-pdf2" height="48" />
-                            {:else if row.download.type.match(/xls|spreadsheet|csv/)}
-                                <Icon icon="vscode-icons:file-type-excel" height="48" />
-                            {:else if row.download.type.match(/text/)}
-                                <Icon icon="vscode-icons:file-type-text" height="48" />
-                            {:else if row.download.type.match(/zip/)}
-                                <Icon icon="vscode-icons:default-folder" height="48" />
-                            {:else}
-                                <Icon icon="vscode-icons:default-file" height="48" />
-                            {/if}
-                        </div>
-
-                        <div class="metadata">
-                            <div class="title">{`${row.title}.${row.download.fileName.split(/\./)[1]}`}</div>
-                            <div class="size">
-                                <Icon icon="ph:download" height="20" />
-                                <span>{toMemoryUnit(row.download.size)}</span>
+                                        <span slot="popup" class="popoverPopup">
+                                            <button class="none" on:click={() => remove(row)}>Remove</button>
+                                        </span>
+                                    </Popover>
+                                {/if}
                             </div>
                         </div>
-                    </a>
 
-                    {#if row.showInfo}
-                        <div class="flex flex-col details">
-                            <span>{"Uploaded: " + dayjs(new Date(row.created_at)).format("DD MMM YYYY - HH:MM")}</span>
-                            <span>{`Type: ` + row.download.type}</span>
-                            <span>{"Checksum (SHA256): " + row.checksum}</span>
-                        </div>
-                    {/if}
-                </div>
-            {/each}
-        </div>
-    {/if}
-</div>
+                        <a
+                            href={row.download.url}
+                            target="_blank"
+                            on:click={async (e) => {
+                                e.preventDefault();
+                                row.downloading = !row.downloading;
+                                await forceDownloadFile(row.download);
+                                row.downloading = false;
+                            }}
+                            class="button none download">
+                            <div class="icon" class:downloading={row.downloading}>
+                                {#if row.downloading}
+                                    <Icon icon="line-md:loading-twotone-loop" height="32" />
+                                {:else if row.download.type.match(/pdf/)}
+                                    <Icon icon="vscode-icons:file-type-pdf2" height="48" />
+                                {:else if row.download.type.match(/xls|spreadsheet|csv/)}
+                                    <Icon icon="vscode-icons:file-type-excel" height="48" />
+                                {:else if row.download.type.match(/text/)}
+                                    <Icon icon="vscode-icons:file-type-text" height="48" />
+                                {:else if row.download.type.match(/zip/)}
+                                    <Icon icon="vscode-icons:default-folder" height="48" />
+                                {:else}
+                                    <Icon icon="vscode-icons:default-file" height="48" />
+                                {/if}
+                            </div>
+
+                            <div class="metadata">
+                                <div class="title">{`${row.title}.${row.download.fileName.split(/\./)[1]}`}</div>
+                                <div class="size">
+                                    <Icon icon="ph:download" height="20" />
+                                    <span>{toMemoryUnit(row.download.size)}</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        {#if row.showInfo}
+                            <div class="flex flex-col details">
+                                <span
+                                    >{"Uploaded: " +
+                                        dayjs(new Date(row.created_at)).format("DD MMM YYYY - HH:MM")}</span>
+                                <span>{`Type: ` + row.download.type}</span>
+                                <span>{"Checksum (SHA256): " + row.checksum}</span>
+                            </div>
+                        {/if}
+                    </div>
+                {/each}
+            </div>
+        {/if}
+    </div>
+{/if}
 
 <style lang="scss">
 .card.accordion {

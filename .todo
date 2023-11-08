@@ -5,10 +5,24 @@ Press Alt+C to mark a todo as cancelled
 There are some special, customizable tags with @ : critical high low today
 
 
+Todo Guide:
+    ☐ start with revit 2023, work in 2024. explain how to make it work with 2022 below
+    ☐ Interop tool (revit)
+    ☐ Download config file, mapping, xml, etc...
+    ☐ Explain what each file do
+    ☐ to show predefined and userdefined
+    ☐ Import revit parameter XML to revit
+    ☐ Import IFC setup
+    ☐ Import mapping file
+
 Features:
     ☐ Add downloads for non beta
-
+    ☐ Add amc picklist
+    
 Updates:
+    ☐ repull check ura rule, and lta 2.3
+    ☐ add copy to objecttype (ifcsg)
+    ☐ check identified component for planterbox,refusechute,etc..
     ✔ Remove Spacename keep to 4 columns @done(23-11-07 01:34)
     ✔ OccupancyType columns @done(23-11-07 01:34)
 

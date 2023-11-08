@@ -1,0 +1,12 @@
+[
+    {
+        "title": "IFC-SG Validator",
+        "description": "IFC-SG Validator extract data from your IFC Model, and validate for IFC-SG compliance.",
+        "paragraph": "https://code.builtsearch.com/ifcsg-validator"
+    },
+    {
+        "title": "Solibri IFC-SG Validator",
+        "description": "Solibri Rulesets for IFC-SG Checking",
+        "paragraph": "Refer to (Solibri Rulesets for IFC-SG Checking)[https://graphisoftse-my.sharepoint.com/:f:/g/personal/vthangasamy_graphisoft_com/EtfSySTfOHZJsKEWsAWcUtEBAUIz559j_bUNVIJnineTmw?e=WTO28I] for materials and demo video"
+    }
+]
