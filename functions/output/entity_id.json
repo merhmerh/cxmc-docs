@@ -30,12 +30,7 @@
       "Identified Components": [
         "Pile"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "BORED",
-        "DRIVEN",
-        "NOTDEFINED",
-        "SUPPORT"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -88,15 +83,7 @@
       "Identified Components": [
         "Sensor"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "AIRIMPURITIESSENSOR*",
-        "BEAMDETECTOR*",
-        "LEAKSENSOR*",
-        "FLOWSENSOR",
-        "LEVELSENSOR",
-        "NOTDEFINED",
-        "PHSENSOR"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -156,10 +143,7 @@
       "Identified Components": [
         "Roof"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "FLAT_ROOF",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -215,13 +199,8 @@
         "Staircase Landing"
       ],
       "IFC4 Sub Types (Beta)": [
-        "CATWALK*",
-        "INTERMEDIATEPLATFORM*",
-        "RAFTSLAB*",
         "FLOOR",
-        "LANDING",
-        "NOTDEFINED",
-        "ROOF"
+        "LANDING"
       ],
       "Beta (from CO Key)": [
         null,
@@ -330,10 +309,7 @@
       "Identified Components": [
         "Flow Meter"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "FUELMETER*",
-        "WATERMETER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -405,25 +381,7 @@
       "Identified Components": [
         "Valve"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "AIRADMITTANCE*",
-        "AIRINTAKEVALVE*",
-        "DISCHARGE*",
-        "DRAINOFFCOCK*",
-        "DRAINPLUG*",
-        "LANDINGVALVE*",
-        "OVERPRESSUREPROTECTIONDEVICE*",
-        "SPRINKLERCONTROL*",
-        "ANTIVACUUM",
-        "CHECK",
-        "DOUBLECHECK",
-        "FAUCET",
-        "FLUSHING",
-        "ISOLATING",
-        "MIXING",
-        "NOTDEFINED",
-        "STOPCOCK"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -506,15 +464,7 @@
       "Identified Components": [
         "AV Appliance"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "LOUDSPEAKER*",
-        "AMPLIFIER",
-        "CAMERA",
-        "MICROPHONE",
-        "SPEAKER",
-        "SWITCHER",
-        "TELEPHONE"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -574,12 +524,7 @@
       "Identified Components": [
         "Control Element"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "LIFTCALLBUTTON*",
-        "SUBALARMPANEL*",
-        "CONTROLPANEL",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -640,7 +585,6 @@
         "Stair"
       ],
       "IFC4 Sub Types (Beta)": [
-        "LADDER*",
         "CURVED_RUN_STAIR",
         "STRAIGHT_RUN_STAIR",
         "SPIRAL_STAIR"
@@ -708,25 +652,7 @@
         "Fire Extinguishing Tank",
         "Tank Cover"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "AIRRECEIVER*",
-        "BACKWASHWATERHOLDINGTANK*",
-        "BLOWDOWN*",
-        "DETENTIONTANK*",
-        "DILUTIONTANK*",
-        "EJECTORTANK*",
-        "FIREEXTINGUISHINGTANK*",
-        "HOLDINGTANK*",
-        "RECHARGEWELL*",
-        "REFUSEHANDLINGEQUIPMENT*",
-        "RETENTIONTANK*",
-        "SECTIONAL*",
-        "SURGETANK*",
-        "BASIN",
-        "NOTDEFINED",
-        "PRESSUREVESSEL",
-        "STORAGE"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -795,9 +721,7 @@
       "Identified Components": [
         "Chiller Unit"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -864,20 +788,8 @@
       ],
       "IFC4 Sub Types (Beta)": [
         "ACCESSHATCH*",
-        "RECYCLABLESCHUTEACCESSPANEL*",
-        "RECYCLABLESCHUTEHOPPER*",
-        "REFUSECHUTEACCESSPANEL*",
-        "REFUSECHUTEHOPPER*",
-        "TRAPDOOR",
-        "BLASTDOOR*",
-        "FIRESHUTTER*",
-        "FLAPDOOR*",
-        "ROLLERSHUTTER*",
         "GATE",
-        "DOOR",
-        "FIRECURTAIN*",
-        "SMOKECURTAIN*",
-        "NOTDEFINED"
+        "DOOR"
       ],
       "Beta (from CO Key)": [
         true,
@@ -947,9 +859,7 @@
         "Pressure Gauge",
         "Thermocouple Display Panel"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "PRESSUREGAUGE"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -993,17 +903,7 @@
       "Identified Components": [
         "Pump"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "AERATOR*",
-        "JET*",
-        "JOCKEYPUMP*",
-        "VACUUMEXHAUSTER*",
-        "ENDSUCTION",
-        "NOTDEFINED",
-        "SPLITCASE",
-        "SUMPPUMP",
-        "EJECTORPUMP*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1060,13 +960,7 @@
         "Cable Carrier Segment",
         "Cable Trunking"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "AIRCONDITIONINGTRAY*",
-        "CABLETRAYSEGMENT",
-        "CABLETRUNKINGSEGMENT",
-        "CONDUITSEGMENT",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1106,9 +1000,7 @@
       "Identified Components": [
         "Engine"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -1222,19 +1114,7 @@
         "Screen",
         "Shading Device"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "CANOPY*",
-        "DROPDOWNPANEL*",
-        "EXTERNALFINS*",
-        "LOUVREDPANEL*",
-        "PARASOL*",
-        "PERFORATEDPANEL*",
-        "SCREEN*",
-        "SHIELD*",
-        "TRELLIS*",
-        "AWNING",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1300,11 +1180,7 @@
         "Genset",
         "Standby Generating Plant"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "EMERGENCYENGINEGENERATOR*",
-        "ENGINEGENERATOR",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1351,9 +1227,7 @@
         "Electrical Equipment",
         "UPS"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1433,21 +1307,7 @@
       "Identified Components": [
         "Waste Terminal"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "CHUTEINTERFACE*",
-        "DROPINLETCHAMBER*",
-        "RECYCLABLESTHROWPOINT*",
-        "REFUSETHROWPOINT*",
-        "RETURNINLET*",
-        "SHALLOWFLOORTRAP*",
-        "URINALTRAP*",
-        "WASTEDIVERTER*",
-        "FLOORTRAP",
-        "FLOORWASTE",
-        "GULLYTRAP",
-        "NOTDEFINED",
-        "WASTETRAP"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1471,12 +1331,12 @@
         "REFUSETHROWPOINT*",
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
-        "URINALTRAP*",
+        "URINALTRAPCOVER*",
         "WASTEDIVERTER*"
       ],
       "IFC4 Predefined Types": [
-        "FLOORTRAP",
-        "FLOORWASTE",
+        "FLOORTRAPCOVER",
+        "FLOORWASTECOVER",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
@@ -1502,9 +1362,7 @@
       "Identified Components": [
         "Cable Fitting"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -1546,10 +1404,7 @@
         "Integrated Communication Console",
         "Network Appliance"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "COMPUTER",
-        "INTEGRATEDCOMMUNICATIONCONSOLE*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1617,20 +1472,7 @@
         "Wash Basin",
         "Water Closet"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "BATH",
-        "BIDET",
-        "FOGGER*",
-        "MISTER*",
-        "SPRINKLER*",
-        "NOTDEFINED",
-        "SHOWER",
-        "SINK",
-        "POOLSKIMMER*",
-        "URINAL",
-        "WASHHANDBASIN",
-        "WATERCLOSET*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1687,9 +1529,7 @@
       "Identified Components": [
         "Air Compressor"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -1728,12 +1568,7 @@
       "Identified Components": [
         "Switch"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "EVACUATIONSWITCH*",
-        "FIRELIFTSWITCH*",
-        "MANUALSWITCH*",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1790,13 +1625,7 @@
         "Pipe Segment"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BYPASSCHANNEL*",
-        "FOUNDATION",
-        "RAINWATEROUTLET*",
-        "SCUPPERDRAIN*",
-        "NOTDEFINED",
-        "ROOFGUTTER",
-        "SPOOL"
+        "NOTDEFINED"
       ],
       "Beta (from CO Key)": [
         null,
@@ -1893,10 +1722,7 @@
         "Orifice Plate",
         "Steel Plate"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "CURTAIN_PANEL",
-        "SHEET"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -1932,9 +1758,7 @@
       "Identified Components": [
         "Rampflight"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -1969,9 +1793,7 @@
         "Inverter",
         "Transformer"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -2046,26 +1868,7 @@
         "Water Dispenser",
         "Water Heater"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "COFFEEMAKER*",
-        "DISHWASHER",
-        "DRINKINGFOUNTAIN*",
-        "ELECTRICCOOKER",
-        "FREESTANDINGELECTRICHEATER",
-        "FREEZER",
-        "FUMEHOOD*",
-        "HIGHPRESSURECLEANER*",
-        "ICEMAKER*",
-        "RANGEHOOD*",
-        "REFRIGERATOR",
-        "SCRAPER*",
-        "STEAMCLEANER*",
-        "TELEVISION*",
-        "WASHINGMACHINE",
-        "FREESTANDINGWATERCOOLER",
-        "WATERDISPENSER*",
-        "FREESTANDINGWATERHEATER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -2168,10 +1971,7 @@
       "Identified Components": [
         "Actuator"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "ELECTRICACTUATOR",
-        "HYDRAULICACTUATOR"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -2218,13 +2018,7 @@
         "Footing Beam",
         "Pile Cap"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "PAD_FOOTING",
-        "STRIP_FOOTING",
-        "FOOTING_BEAM",
-        "PILE_CAP"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -2399,33 +2193,7 @@
         "Recyclables Chute"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BEAMFACADEWALL*",
-        "FRAMING*",
-        "DIAPHRAGMWALLSYSTEM*",
-        "DRAINAGE*",
-        "MAINTENANCE*",
-        "MECHANIZEDCARPARKING*",
-        "FOUNDATION",
-        "OXYGENREDUCTION*",
-        "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
-        "PNEUMATICWASTECONVEYANCESYSTEM*",
-        "PPVCMODULE*",
-        "HOUSEHOLDSHELTER*",
         "REFUSECHUTE*",
-        "PREFABRICATEDANDPREFINISHEDCEILING*",
-        "PREFABRICATEDANDPREFINISHEDFLOOR*",
-        "PREFABRICATEDANDPREFINISHEDWALL*",
-        "PREFABRICATEDBATHROOMUNIT*",
-        "PREFABRICATEDMEPHORIZONTALMODULE*",
-        "PREFABRICATEDMEPPLANTMODULE*",
-        "PREFABRICATEDMEPVERTICALMODULE*",
-        "PWCSMAINCONTROL*",
-        "TRUSS*",
-        "UNIT*",
-        "STAIRCASESTOREYSHELTER*",
-        "STOREYSHELTER*",
-        "NONSHELTERHOUSEHOLDSHELTER*",
-        "NONSHELTERSTOREYSHELTER*",
         "RECYCLABLESCHUTE*"
       ],
       "Beta (from CO Key)": [
@@ -2446,6 +2214,7 @@
         null,
         null,
         null,
+        true,
         null,
         null,
         null,
@@ -2465,8 +2234,7 @@
         null,
         null,
         null,
-        null,
-        null
+        true
       ],
       "IFC KEY": "IFCBUI_010",
       "IFC4 Object Types": [
@@ -2507,7 +2275,7 @@
     "id": "recPA9bCiEdy60T2R",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
-      "Revit Representation": "Topography, Generic Models, Planting",
+      "Revit Representation": "Topography, Area, Generic Models, Planting",
       "Archicad Representation": "Mesh, Object",
       "Tekla Representation": "N.A",
       "Bentley Representation": "Mesh, Object",
@@ -2571,23 +2339,8 @@
         "Site Boundary"
       ],
       "IFC4 Sub Types (Beta)": [
-        "ARTWORK*",
-        "BEACH*",
-        "UTILITYPOLE*",
-        "EXISTINGEARTHWORKS*",
-        "2D_FORESHORELINE*",
         "GREENVERGE*",
-        "NEIGHBOURINGLOT*",
-        "LANDSCAPE_PALM*",
         "PLANTINGAREA*",
-        "PROPOSEDEARTHWORKS*",
-        "RETENTIONBASIN*",
-        "LANDSCAPE_SHRUBS*",
-        "CADASTRALLOT*",
-        "TRAFFICLIGHT*",
-        "LANDSCAPE_TREE*",
-        "WATERBODY*",
-        "WATERFEATURE*",
         "SITEBOUNDARY*"
       ],
       "Beta (from CO Key)": [
@@ -2616,11 +2369,9 @@
       ],
       "IFC KEY": "IFCGEO_047",
       "IFC4 Object Types": [
-        "ARTWORK*",
         "BEACH*",
         "UTILITYPOLE*",
         "EXISTINGEARTHWORKS*",
-        "2D_FORESHORELINE*",
         "GREENVERGE*",
         "NEIGHBOURINGLOT*",
         "LANDSCAPE_PALM*",
@@ -2642,7 +2393,7 @@
     "id": "recPerObWocqllzbc",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
-      "Revit Representation": "Generic Models, Specialty Equipment, Floors, Massing, Parking (for parking lots)",
+      "Revit Representation": "Generic Models, Specialty Equipment, Floors, Mass, Parking",
       "Archicad Representation": "Object,Morph",
       "Tekla Representation": "N.A",
       "Bentley Representation": "Object, Solid, Forms",
@@ -2867,82 +2618,12 @@
         "Egress Indicator Box"
       ],
       "IFC4 Sub Types (Beta)": [
-        "SURROUNDINGBUILDING*",
-        "BACKFILL*",
-        "BICYCLEROUTE*",
-        "BOREHOLE*",
-        "CONCEPT_BUILDINGMASS*",
-        "CHEMICALFEEDER*",
-        "CONCRETEMARKER*",
-        "CONVEYORBELT*",
-        "DROPBARRIER*",
-        "CONCEPT_ENVELOPELIMIT*",
-        "CONCEPT_ENVELOPEREQUIRED*",
-        "FAÇADE*",
-        "FALSEBOTTOM*",
-        "PORTABLEFIREEXTINGUISHER*",
-        "FLAGPOLE*",
-        "FLOODBARRIER*",
-        "2D_FLOORMARKING*",
-        "FUELBURNINGEQUIPMENT*",
-        "GONDOLA*",
-        "2D_HOLDINGBAY*",
         "HUMP*",
-        "INCINERATOR*",
         "LINEMARKING*",
-        "2D_DRIVEWAYMARKING*",
-        "FOODWASTETREATMENTSYSTEM*",
-        "ARTICULATEDVEHICLELOT*",
         "BICYCLELOT*",
         "CARLOT*",
-        "COACHLOT*",
-        "LORRYLOT*",
         "MOTOR-CYCLELOT*",
-        "REFUSETRUCKTEMPORARYPARKING*",
-        "2D_PASSINGSPACE*",
-        "PEDESTRIANCROSSING*",
-        "PERMANENTUNITNUMBERTAG*",
-        "PHOTOLUMINESCENTMARKING*",
-        "PIPERACK*",
-        "LANDSCAPE_PLANTINGTROUGH*",
-        "POLLUTIONCONTROLEQUIPMENT*",
-        "2D_PWDHOLDINGPOINT*",
-        "2D_LIFTREFUGESPACE*",
-        "RELIGIOUSSYMBOL*",
-        "RUNG*",
-        "SIGNPOST*",
-        "SIGNPOST_REFUSETEMPORARYPARKING*",
-        "SIGNAGE*",
-        "SIGNAGE_COMMUNICATIONINSTRUCTION*",
-        "SIGNAGE_COOLINGTOWER*",
-        "SIGNAGE_DIRECTIONALEXIT*",
-        "SIGNAGE_ESCAPEPLAN*",
-        "SIGNAGE_EVACUATIONLIFT*",
-        "SIGNAGE_EXIT*",
-        "SIGNAGE_EXITACCESSDOOR*",
-        "SIGNAGE_EXITSTAIRCASE*",
-        "SIGNAGE_FIREACCESSOPENING*",
-        "SIGNAGE_PWDHOLDINGPOINT*",
-        "SIGNAGE_RECYCLABLESCHUTE*",
-        "SIGNAGE_RINSESHOWER*",
-        "SIGNAGE_SMOKEVENT*",
-        "SIGNAGE_THROUGHBLOCKLINK*",
-        "SIGNAGE_WATERTAPPOINT*",
-        "SIGNAGE_WHEELCHAIRSYMBOL*",
-        "SIGNPOST_DRIVEWAY*",
-        "SLOTOUTLET*",
-        "STATIONARYVACUUMSYSTEM*",
-        "2D_TAXIBAY*",
-        "2D_TRAFFICFLOW*",
-        "2D_TREEPROTECTIONZONE*",
-        "TUNNEL*",
-        "TURNSTILE*",
-        "VALVEPROTECTINGCOVER*",
-        "VEHICULARBARRIER*",
-        "WATERPLAYGROUND*",
-        "2D_WHEELCHAIRSPACE*",
-        "EGRESSINDICATORBOX*",
-        "TOWTRACTORLOT*"
+        "LANDSCAPE_PLANTINGTROUGH*"
       ],
       "Beta (from CO Key)": [
         null,
@@ -3081,15 +2762,11 @@
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
-        "BICYCLEROUTE*",
         "BOREHOLE*",
-        "CONCEPT_BUILDINGMASS*",
         "CHEMICALFEEDER*",
         "CONCRETEMARKER*",
         "CONVEYORBELT*",
         "DROPBARRIER*",
-        "CONCEPT_ENVELOPELIMIT*",
-        "CONCEPT_ENVELOPEREQUIRED*",
         "FAÇADE*",
         "FALSEBOTTOM*",
         "PORTABLEFIREEXTINGUISHER*",
@@ -3098,7 +2775,6 @@
         "2D_FLOORMARKING*",
         "FUELBURNINGEQUIPMENT*",
         "GONDOLA*",
-        "2D_HOLDINGBAY*",
         "HUMP*",
         "INCINERATOR*",
         "LINEMARKING*",
@@ -3120,7 +2796,6 @@
         "POLLUTIONCONTROLEQUIPMENT*",
         "2D_PWDHOLDINGPOINT*",
         "2D_LIFTREFUGESPACE*",
-        "RELIGIOUSSYMBOL*",
         "RUNG*",
         "SIGNPOST*",
         "SIGNPOST_REFUSETEMPORARYPARKING*",
@@ -3138,13 +2813,11 @@
         "SIGNAGE_RECYCLABLESCHUTE*",
         "SIGNAGE_RINSESHOWER*",
         "SIGNAGE_SMOKEVENT*",
-        "SIGNAGE_THROUGHBLOCKLINK*",
         "SIGNAGE_WATERTAPPOINT*",
         "SIGNAGE_WHEELCHAIRSYMBOL*",
         "SIGNPOST_DRIVEWAY*",
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
-        "2D_TAXIBAY*",
         "2D_TRAFFICFLOW*",
         "2D_TREEPROTECTIONZONE*",
         "TUNNEL*",
@@ -3183,10 +2856,7 @@
         "Emergency Lighting",
         "Lighting Fixture"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "SECURITYLIGHTING",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -3265,10 +2935,7 @@
         "Stringer",
         "Supporting Structure"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "STRINGER",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -3356,10 +3023,8 @@
         "Wheelchair Stair Lift"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BINLIFTER*",
         "ESCALATOR",
-        "LIFT*",
-        "MOVINGWALKWAY"
+        "LIFT*"
       ],
       "Beta (from CO Key)": [
         null,
@@ -3422,10 +3087,7 @@
         "Grease Trap",
         "Oil Interceptor"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "GREASE",
-        "OIL"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -3467,13 +3129,7 @@
       "Identified Components": [
         "Air Terminal"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "DIFFUSER",
-        "GRILLE",
-        "LOUVRE",
-        "NOTDEFINED",
-        "REGISTER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -3516,10 +3172,7 @@
       "Identified Components": [
         "Junction Box"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "TRAFFICCONTROL*",
-        "POWER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -3561,13 +3214,7 @@
       "Identified Components": [
         "Unitary Equipment"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "FANCOILUNIT*",
-        "AIRCONDITIONINGUNIT",
-        "AIRHANDLER",
-        "NOTDEFINED",
-        "ROOFTOPUNIT"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -3659,22 +3306,7 @@
       "Identified Components": [
         "Pipe Fitting"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "DRAINCHANNELBEND*",
-        "PIPESILENCER*",
-        "SHORTPIECE*",
-        "SPIGOTANDSOCKET*",
-        "BEND",
-        "CONNECTOR",
-        "ENTRY",
-        "EXIT",
-        "JUNCTION",
-        "NOTDEFINED",
-        "OBSTRUCTION",
-        "TRANSITION",
-        "STRAP*",
-        "PTRAP*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -3747,11 +3379,7 @@
         "Ramp"
       ],
       "IFC4 Sub Types (Beta)": [
-        "CURVEDRAMP*",
-        "FLAREDKERBRAMP*",
-        "KERBRAMP*",
-        "NOTDEFINED",
-        "STRAIGHT_RUN_RAMP"
+        "NOTDEFINED"
       ],
       "Beta (from CO Key)": [
         null,
@@ -3823,12 +3451,8 @@
         "Lamp Post"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BACKLANE*",
         "DRIVEWAY*",
         "FOOTPATH*",
-        "ISLAND*",
-        "LAYBY*",
-        "ROADKERB*",
         "BOXCULVERT*",
         "ENTRANCECULVERT*",
         "CULVERT",
@@ -3910,10 +3534,7 @@
       "Identified Components": [
         "Cable Segment"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "LPS_DOWNCONDUCTOR*",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -3943,31 +3564,32 @@
       ],
       "CO Key": [
         "reclGNg0YP05Wthhp",
-        "reci3Tfi6h6yw7ICI"
+        "reci3Tfi6h6yw7ICI",
+        "recKuMU93czvdgqB6"
       ],
       "Identified Components": [
         "Distribution Board",
-        "Switchboard"
+        "Switchboard",
+        "Switchgear"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "SWITCHBOARD"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
+        null,
         null,
         null
       ],
       "IFC KEY": "IFCELE_034",
-      "IFC4 Object Types": [],
-      "IFC4 Predefined Types": [
-        "SWITCHBOARD"
-      ]
+      "IFC4 Object Types": [
+        "SWITCHGEAR*"
+      ],
+      "IFC4 Predefined Types": []
     }
   },
   {
     "id": "rece9UVe6hBrSP4x0",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
-      "Revit Representation": "Massing, Areas, Rooms, Rooms, Areas",
+      "Revit Representation": "Mass, Areas, Rooms, Rooms, Areas",
       "Archicad Representation": "Zone",
       "Tekla Representation": "N.A",
       "Bentley Representation": "Space",
@@ -4029,21 +3651,9 @@
       ],
       "IFC4 Sub Types (Beta)": [
         "ACCESSIBLEROUTE*",
-        "ACCESSPOINT*",
-        "ACCESSROAD*",
         "ACCESSWAY*",
-        "AREA_CONNECTIVITY*",
         "AREA_GFA*",
         "AREA_STRATA*",
-        "AREA_VERIFICATION*",
-        "EGRESS*",
-        "FIREENGINEACCESSROAD*",
-        "FIREENGINEACCESSWAY*",
-        "INGRESS*",
-        "SGFA*",
-        "STRATALOT*",
-        "VEHICULARSERVICEROAD*",
-        "AREA_LANDSCAPE*",
         "SPACE"
       ],
       "Beta (from CO Key)": [
@@ -4055,7 +3665,7 @@
         true,
         null,
         true,
-        null,
+        true,
         null,
         null,
         null,
@@ -4119,10 +3729,7 @@
       "Identified Components": [
         "Duct Segment"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "FLEXIBLESEGMENT",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -4160,9 +3767,7 @@
         "Chimney",
         "Flue"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -4202,7 +3807,7 @@
         "OPENING"
       ],
       "Beta (from CO Key)": [
-        null,
+        true,
         null
       ],
       "IFC KEY": "IFCOPE_055",
@@ -4216,7 +3821,7 @@
     "id": "recgZaeFe3TzlcUUl",
     "createdTime": "2023-04-18T05:48:51.000Z",
     "fields": {
-      "Revit Representation": "Generic Models, Ceilings, Curtain Wall, Floors, Roof",
+      "Revit Representation": "Generic Models, Ceilings, Curtain Systems, Floors, Roofs",
       "Archicad Representation": "Morph, Slab, Object, Curtain Wall, Covering, Roof",
       "Tekla Representation": "Slab",
       "Bentley Representation": "Solid, Slab, Object, Roof",
@@ -4254,14 +3859,7 @@
         "Roofing"
       ],
       "IFC4 Sub Types (Beta)": [
-        "CEILING",
-        "CLADDING",
-        "NOTDEFINED",
-        "TACTILE*",
-        "FLOORING",
-        "INSULATION",
-        "PIPESLEEVE*",
-        "ROOFING"
+        "CEILING"
       ],
       "Beta (from CO Key)": [
         true,
@@ -4317,10 +3915,7 @@
         "Motor",
         "Traction Machine"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "LIFT_GOVERNOR*",
-        "LIFT_TRACTIONMACHINE*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -4359,9 +3954,7 @@
         "Burner",
         "Cooking Hob"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "OPENFLAMECOOKING*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -4422,20 +4015,8 @@
         "Sump"
       ],
       "IFC4 Sub Types (Beta)": [
-        "LPS_EARTHPIT*",
-        "PWCSINSPECTIONCHAMBER*",
-        "PWCSMANHOLE*",
-        "SAMPLINGSUMP*",
-        "SCREENCHAMBER*",
         "INSPECTIONCHAMBER",
-        "MANHOLE",
-        "METERCHAMBER",
-        "NOTDEFINED",
-        "SUMP",
-        "VALVECHAMBER",
-        "WASTESUMP*",
-        "GULLYSUMP",
-        "FLOORSUMP*"
+        "MANHOLE"
       ],
       "Beta (from CO Key)": [
         null,
@@ -4500,9 +4081,7 @@
       "Identified Components": [
         "Cooling Tower"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -4548,10 +4127,6 @@
         "Window Ledge Material"
       ],
       "IFC4 Sub Types (Beta)": [
-        "VENTILATIONSLEEVE*",
-        "SKYLIGHT",
-        "BAYWINDOW*",
-        "LOUVRE",
         "WINDOW"
       ],
       "Beta (from CO Key)": [
@@ -4604,14 +4179,7 @@
         "Alarm",
         "Fire Alarm"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "HOMEFIREALARMDEVICE*",
-        "SOUNDER*",
-        "MANUALALARMCALLPOINT*",
-        "VISUALALARM*",
-        "NOTDEFINED",
-        "FIREALARMPANEL*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -4721,12 +4289,7 @@
       "Identified Components": [
         "Damper"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "FIREDAMPER",
-        "FIRESMOKEDAMPER",
-        "FUMEHOODEXHAUST",
-        "SMOKEDAMPER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -4765,9 +4328,7 @@
         "Gridline",
         "Structural Grid"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -4878,25 +4439,7 @@
         "Toe Board",
         "Vertical Deflector"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "LPS_AIRFINIAL*",
-        "BENCHING*",
-        "CEILINGHANGER*",
-        "DRYWEATHERFLOW*",
-        "FLUSHBOLT*",
-        "GRATING*",
-        "LIFT_GUIDEROLLER*",
-        "LIFT_GUIDESHOE*",
-        "HAUNCH*",
-        "HINGEDCOVER*",
-        "LIFT_APRON*",
-        "LPS_LIGHTNINGTAPE*",
-        "NOTDEFINED",
-        "PIPESUPPORT*",
-        "LIFT_RESCUEHOOK*",
-        "BRACKET",
-        "TAPEREDNUTS*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -4999,9 +4542,6 @@
         "Railing"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BACKGUARD*",
-        "BOLLARD*",
-        "GUARDRAIL",
         "NOTDEFINED"
       ],
       "Beta (from CO Key)": [
@@ -5050,10 +4590,7 @@
       "Identified Components": [
         "Boiler"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "WATER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -5133,7 +4670,6 @@
         "Beam"
       ],
       "IFC4 Sub Types (Beta)": [
-        "TRELLIS*",
         "BEAM"
       ],
       "Beta (from CO Key)": [
@@ -5175,10 +4711,7 @@
       "Identified Components": [
         "Duct Fitting"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "ENTRY",
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -5243,19 +4776,10 @@
         "Refuse Chute"
       ],
       "IFC4 Sub Types (Beta)": [
-        "KERB*",
-        "BARRIER*",
-        "BLOCKWALL*",
         "BOUNDARYWALL*",
-        "BUND*",
         "KNOCKOUTPANEL*",
-        "RECYCLABLESCHUTE*",
-        "RETAININGWALL*",
-        "ELEMENTEDWALL",
         "NOTDEFINED",
-        "PARAPET",
-        "PARTITIONING",
-        "SHEAR"
+        "PARAPET"
       ],
       "Beta (from CO Key)": [
         null,
@@ -5291,7 +4815,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }
@@ -5371,11 +4894,7 @@
         "Mosquito-proof Net",
         "Vent Cap"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "COWL",
-        "MOSQUITONET*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -5418,9 +4937,7 @@
       "Identified Components": [
         "Fan"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null
       ],
@@ -5458,10 +4975,7 @@
         "Solar Water Heater",
         "Springing Line"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "SOLARPANEL",
-        "SOLARCOLLECTOR"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -5505,14 +5019,7 @@
       "Identified Components": [
         "Filter"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "SCRUBBER*",
-        "WASTEAIRSEPARATOR*",
-        "AIRPARTICLEFILTER",
-        "ODORFILTER",
-        "STRAINER",
-        "WATERFILTER"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -5625,7 +5132,7 @@
         "Paper Towel Dispenser",
         "Planter Box",
         "Playground Equipment",
-        "Rack",
+        "Racking System",
         "Recyclables Compactor",
         "Recyclables Container",
         "Recycling Bin",
@@ -5646,29 +5153,10 @@
         "Workstation"
       ],
       "IFC4 Sub Types (Beta)": [
-        "BED",
         "BENCH*",
-        "BUSSHELTER*",
-        "CABINET*",
         "CHAIR",
-        "CHILDPROTECTIONSEAT*",
-        "CONVEXMIRROR*",
-        "DIAPERCHANGINGTABLE*",
-        "NOTDEFINED",
         "LETTERBOX*",
-        "MIRROR*",
-        "PLANTERBOX*",
-        "RACK*",
-        "RECYCLABLECOMPACTOR*",
-        "RECYCLABLECONTAINER*",
-        "RECYCLINGBIN*",
-        "REFUSEBIN*",
-        "REFUSECOMPACTOR*",
-        "REFUSECONTAINER*",
-        "SHELF",
-        "TABLE",
-        "TAXISHELTER*",
-        "UMBRELLA*"
+        "PLANTERBOX*"
       ],
       "Beta (from CO Key)": [
         null,
@@ -5690,11 +5178,11 @@
         null,
         null,
         null,
+        true,
         null,
         null,
         null,
-        null,
-        null,
+        true,
         null,
         null,
         null,
@@ -5738,10 +5226,7 @@
         "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
-        "BED",
         "CHAIR",
-        "NOTDEFINED",
-        "SHELF",
         "TABLE"
       ]
     }
@@ -5774,10 +5259,7 @@
         "Single Phase Socket Outlet",
         "Three Phase Socket Outlet"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "POWEROUTLET"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,
@@ -5931,47 +5413,8 @@
         "Wet Riser System"
       ],
       "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED",
-        "CABLING*",
-        "CHEMICAL*",
-        "CHILLEDWATER*",
-        "DOMESTICCOLDWATER*",
-        "COMPRESSEDAIR*",
-        "CONDENSATEWATER*",
-        "DEEPTUNNELSEWERAGE*",
-        "DRYRISER*",
-        "ELECTRICAL*",
-        "EXHAUSTAIR*",
-        "FIREPROTECTION*",
-        "FIREFIGHTING*",
-        "FRESHAIR*",
-        "FUEL*",
-        "GAS*",
-        "GREYWATER*",
-        "DOMESTICHOTWATER*",
-        "HYDRONIC*",
-        "INDUSTRIALWATER*",
-        "IRRIGATION*",
-        "LIGHTNINGPROTECTION*",
-        "MUNICIPALSOLIDWASTE*",
-        "NEWATER*",
-        "NONDOMESTICCOLDWATER*",
-        "OIL",
-        "POTABLEWATER*",
-        "PUMPINGMAIN*",
-        "RAINWATER*",
-        "RECYCLEDWATER*",
-        "RETURNAIR*",
         "SANITARY*",
-        "SEWAGE*",
-        "SMOKECONTROL*",
-        "SMOKEVENT*",
-        "SPRINKLER*",
-        "HEATING*",
-        "SUPPLYAIR*",
-        "COMMUNICATION*",
-        "VENT*",
-        "WETRISER*"
+        "SEWAGE*"
       ],
       "Beta (from CO Key)": [
         null,
@@ -6105,9 +5548,7 @@
         "Air Condensing Unit",
         "VRV Unit"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "NOTDEFINED"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null
@@ -6163,16 +5604,7 @@
         "Sprinkler",
         "Foam Outlet"
       ],
-      "IFC4 Sub Types (Beta)": [
-        "FOAMINLET*",
-        "HOSE*",
-        "STANDBYFIREHOSE*",
-        "BREECHINGINLET*",
-        "FIREHYDRANT",
-        "HOSEREEL",
-        "SPRINKLER",
-        "FOAMOUTLET*"
-      ],
+      "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
         null,
         null,

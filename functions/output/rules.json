@@ -61,6 +61,43 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Educational Institution Handbook",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "Max size of each balcony is 15% of internal nett unit size (i.e excludes voids, AC ledges & other external areas)",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "PUB",
     "code": "Code of Practice on Sewerage and Sanitary Works",
     "chapter": "Planning Considerations: Structures over Sewer",
@@ -119,6 +156,26 @@
       "Stair Flight",
       "Railing",
       "Escalator"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Refuse Chambers and Refuse Chutes",
+    "ruleGroup": "recioK2ZHIWFECNYc",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Refuse Chute",
+      "Recyclables Chute",
+      "Opening",
+      "Building Storey",
+      "Slab",
+      "Ceiling"
     ]
   },
   {
@@ -260,6 +317,23 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Planter boxes (Private Planter Boxes)",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Ventilation",
@@ -276,6 +350,40 @@
       "Door",
       "Access Hatch",
       "Building Storey"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Service Ducts",
+    "ruleGroup": "recd6iD3PRYrXNQVE",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Opening",
+      "Building Storey",
+      "Refuse Chute",
+      "Recyclables Chute"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
     ]
   },
   {
@@ -364,6 +472,26 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "GFA of balconies can be allowed above MP allowable GPR, subject to cap of 7% inclusive of planter boxes",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Headroom and Ceiling Height: Headroom",
@@ -406,6 +534,23 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Health & Medical Care Handbook",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "PUB",
     "code": "Code of Practice on Sewerage and Sanitary Works",
     "chapter": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
@@ -422,6 +567,23 @@
       "Pipe Segment",
       "Slab",
       "Sewerage System"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Hotel Handbook",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
     ]
   },
   {
@@ -492,6 +654,22 @@
     ]
   },
   {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Bicycle parking provision",
+    "clauseNumber": "2.4",
+    "clause": "Minimum length of 2-tiers bicycle lot shall be 2000mm",
+    "ruleGroup": "rect4TlZ9He39UNTa",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Parking Lot",
+      "Space"
+    ]
+  },
+  {
     "agency": "URA",
     "code": "Gross Floor Area Handbook",
     "chapter": "6",
@@ -504,6 +682,26 @@
     "identifiedComponents": [
       "Area",
       "Building Storey"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "Railing or Parapet Wall along Balconies to be kept at 1.3m",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
     ]
   },
   {
@@ -596,6 +794,20 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Meter Compartments",
+    "ruleGroup": "recJacW6a9a52GYFH",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Staircases: Width of staircase",
@@ -659,6 +871,22 @@
     ]
   },
   {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Bicycle parking provision",
+    "clauseNumber": "2.4",
+    "clause": "A bicycle parking rack shall be provided for each bicycle parking lot and anchored to the ground so as to allow cyclists to lock their bicycles with ease. ",
+    "ruleGroup": "rect4TlZ9He39UNTa",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Parking Lot",
+      "Space"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Staircases: Width of staircase",
@@ -695,6 +923,76 @@
       "Building Storey",
       "Escalator",
       "Stair"
+    ]
+  },
+  {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Motor-cycle parking provision",
+    "clauseNumber": "2.3",
+    "clause": "The minimum width of a motor-cycle parking lot shall be 800mm.",
+    "ruleGroup": "rec6Gqvp7gXs7rhIv",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Road",
+      "Parking Lot",
+      "Line Marking"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Planter boxes (Communal Planter Boxes)",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Motor-cycle parking provision",
+    "clauseNumber": "2.3",
+    "clause": "The minimum width of accessway for motorcycle lots shall be 1200mm",
+    "ruleGroup": "rec6Gqvp7gXs7rhIv",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Road",
+      "Parking Lot",
+      "Line Marking"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "Balconies with exclusive access from the kitchen/yard/utility space are treated as service balconies and do not qualify for bonus GFA. \n\nBalconies which serve as the only access into a dwelling unit do not qualify for bonus GFA",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
     ]
   },
   {
@@ -756,6 +1054,23 @@
     ]
   },
   {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Motor-cycle parking provision",
+    "clauseNumber": "2.3",
+    "clause": "If provided next to parking lots, a gap of 500mm to be provided between car and motor-cycle lots.",
+    "ruleGroup": "rec6Gqvp7gXs7rhIv",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Road",
+      "Parking Lot",
+      "Line Marking"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Safety from Falling: Height of Barrier",
@@ -809,22 +1124,53 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Sports and Recreation Handbook",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "7",
+    "clauseNumber": null,
+    "clause": "Racking Systems for Storage Purposes",
+    "ruleGroup": "reckHBkLx8wVcbNMg",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Racking System",
+      "Area",
+      "Building Storey"
+    ]
+  },
+  {
     "agency": "LTA",
     "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
-    "chapter": "Parking Layout Dimensions: Car Parking Places: Minimum headroom",
-    "clauseNumber": "2.1.5",
-    "clause": "The Parking Layout Dimensions: Car Parking Places: Minimum headroom or height clearance from floor level to the underside of any projections including beams, direction signs, sprinkler heads, electrical fittings, ect shall be 2200mm.",
-    "ruleGroup": "rec2OygG8l61bmBRj",
+    "chapter": "Parking Layout Dimensions: Motor-cycle parking provision",
+    "clauseNumber": "2.3",
+    "clause": "The lots should not obstruct movement of other vehicles and pedestrians.",
+    "ruleGroup": "rec6Gqvp7gXs7rhIv",
     "gateway": [
       "Design",
       "Construction"
     ],
     "identifiedComponents": [
-      "Space",
       "Road",
       "Parking Lot",
-      "Ramp",
-      "Hump"
+      "Line Marking"
     ]
   },
   {
@@ -851,6 +1197,20 @@
   {
     "agency": "URA",
     "code": "Gross Floor Area Handbook",
+    "chapter": "5",
+    "clauseNumber": null,
+    "clause": "Indoor Recreation Spaces",
+    "ruleGroup": "recyuTtA1k78al6Ww",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
     "chapter": "6",
     "clauseNumber": null,
     "clause": "Lift Shaft",
@@ -859,9 +1219,29 @@
       "Construction"
     ],
     "identifiedComponents": [
+      "Opening",
+      "Building Storey",
+      "Refuse Chute",
+      "Recyclables Chute"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "Balconies shall not be located next to M&E areas",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
       "Area",
-      "Ceiling",
-      "Slab"
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
     ]
   },
   {
@@ -932,6 +1312,39 @@
       "Door",
       "Access Hatch",
       "Building Storey"
+    ]
+  },
+  {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Motor-cycle parking provision",
+    "clauseNumber": "2.3",
+    "clause": "The minimum length of a motor-cycle parking lot shall be 2400mm.",
+    "ruleGroup": "rec6Gqvp7gXs7rhIv",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Road",
+      "Parking Lot",
+      "Line Marking"
+    ]
+  },
+  {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Bicycle parking provision",
+    "clauseNumber": "2.4",
+    "clause": "Minimum length of single-tier bicycle lot shall be 1800mm",
+    "ruleGroup": "rect4TlZ9He39UNTa",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Parking Lot",
+      "Space"
     ]
   },
   {
@@ -1025,6 +1438,26 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "Balconies shall have a continuous perimeter opening of at least 40%.",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Safety from Falling: Height of Barrier",
@@ -1045,6 +1478,57 @@
       "Stair Flight",
       "Fixed Seating",
       "Building"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "5",
+    "clauseNumber": null,
+    "clause": "Reinforced Concrete (RC) Slabs within Voids",
+    "ruleGroup": "recd6iD3PRYrXNQVE",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Opening",
+      "Building Storey",
+      "Refuse Chute",
+      "Recyclables Chute"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+    "clauseNumber": null,
+    "clause": "Walls in-between adjoining balconies that exceed 1.3m are not considered as \"open\".",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Letter boxes",
+    "ruleGroup": "recq01LNGyCaDqb8h",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area"
     ]
   },
   {
@@ -1069,6 +1553,23 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Commercial Handbook",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "LTA",
     "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
     "chapter": "Parking Layout Dimensions: Bicycle parking provision",
@@ -1082,6 +1583,23 @@
     "identifiedComponents": [
       "Parking Lot",
       "Space"
+    ]
+  },
+  {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Motor-cycle parking provision",
+    "clauseNumber": "2.3",
+    "clause": "The Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for motorcycle lots shall be 2000mm",
+    "ruleGroup": "rec6Gqvp7gXs7rhIv",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Road",
+      "Parking Lot",
+      "Line Marking"
     ]
   },
   {
@@ -1175,6 +1693,42 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "5",
+    "clauseNumber": null,
+    "clause": "Balconies",
+    "ruleGroup": "recobynnR4pgX4rru",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Space",
+      "Wall",
+      "Opening",
+      "Door",
+      "Planter Box"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Staircases: Landing",
@@ -1192,6 +1746,40 @@
       "Stair Flight",
       "Railing",
       "Staircase Landing"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Residential Handbook (Flats and Condos)",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building.",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "7",
+    "clauseNumber": null,
+    "clause": "Voids",
+    "ruleGroup": "recd6iD3PRYrXNQVE",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Opening",
+      "Building Storey",
+      "Refuse Chute",
+      "Recyclables Chute"
     ]
   },
   {
@@ -1321,6 +1909,38 @@
     ]
   },
   {
+    "agency": "URA",
+    "code": "Gross Floor Area Handbook",
+    "chapter": "6",
+    "clauseNumber": null,
+    "clause": "Water Tanks",
+    "ruleGroup": "recCcxhqHq3mERsxs",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Space",
+      "Area",
+      "Slab"
+    ]
+  },
+  {
+    "agency": "LTA",
+    "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+    "chapter": "Parking Layout Dimensions: Bicycle parking provision",
+    "clauseNumber": "2.4",
+    "clause": "Bicycle parking lots shall be separated from the car park area.",
+    "ruleGroup": "rect4TlZ9He39UNTa",
+    "gateway": [
+      "Design",
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Parking Lot",
+      "Space"
+    ]
+  },
+  {
     "agency": "BCA",
     "code": "Approved Document - Acceptable Solutions",
     "chapter": "Staircases: Landing",
@@ -1358,6 +1978,23 @@
       "Stair Flight",
       "Railing",
       "Staircase Landing"
+    ]
+  },
+  {
+    "agency": "URA",
+    "code": "Civic and Community Institution Handbook",
+    "chapter": "Greenery",
+    "clauseNumber": null,
+    "clause": "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+    "ruleGroup": "recBY2A5vDEAmFBqD",
+    "gateway": [
+      "Construction"
+    ],
+    "identifiedComponents": [
+      "Area",
+      "Wall",
+      "Slab",
+      "Planter Box"
     ]
   }
 ]

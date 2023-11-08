@@ -643,10 +643,7 @@
         "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
-        "BED",
         "CHAIR",
-        "NOTDEFINED",
-        "SHELF",
         "TABLE"
       ]
     }
@@ -1298,15 +1295,11 @@
         "TRELLIS*",
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
-        "BICYCLEROUTE*",
         "BOREHOLE*",
-        "CONCEPT_BUILDINGMASS*",
         "CHEMICALFEEDER*",
         "CONCRETEMARKER*",
         "CONVEYORBELT*",
         "DROPBARRIER*",
-        "CONCEPT_ENVELOPELIMIT*",
-        "CONCEPT_ENVELOPEREQUIRED*",
         "FAÇADE*",
         "FALSEBOTTOM*",
         "PORTABLEFIREEXTINGUISHER*",
@@ -1315,7 +1308,6 @@
         "2D_FLOORMARKING*",
         "FUELBURNINGEQUIPMENT*",
         "GONDOLA*",
-        "2D_HOLDINGBAY*",
         "HUMP*",
         "INCINERATOR*",
         "LINEMARKING*",
@@ -1337,7 +1329,6 @@
         "POLLUTIONCONTROLEQUIPMENT*",
         "2D_PWDHOLDINGPOINT*",
         "2D_LIFTREFUGESPACE*",
-        "RELIGIOUSSYMBOL*",
         "RUNG*",
         "SIGNPOST*",
         "SIGNPOST_REFUSETEMPORARYPARKING*",
@@ -1355,13 +1346,11 @@
         "SIGNAGE_RECYCLABLESCHUTE*",
         "SIGNAGE_RINSESHOWER*",
         "SIGNAGE_SMOKEVENT*",
-        "SIGNAGE_THROUGHBLOCKLINK*",
         "SIGNAGE_WATERTAPPOINT*",
         "SIGNAGE_WHEELCHAIRSYMBOL*",
         "SIGNPOST_DRIVEWAY*",
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
-        "2D_TAXIBAY*",
         "2D_TRAFFICFLOW*",
         "2D_TREEPROTECTIONZONE*",
         "TUNNEL*",
@@ -1576,7 +1565,7 @@
         "REFUSETHROWPOINT*",
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
-        "URINALTRAP*",
+        "URINALTRAPCOVER*",
         "WASTEDIVERTER*",
         "VENTILATIONSLEEVE*",
         "BAYWINDOW*"
@@ -1639,10 +1628,7 @@
         "STRIP_FOOTING",
         "FOOTING_BEAM",
         "PILE_CAP",
-        "BED",
         "CHAIR",
-        "NOTDEFINED",
-        "SHELF",
         "TABLE",
         "STRINGER",
         "NOTDEFINED",
@@ -1700,10 +1686,9 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR",
-        "FLOORTRAP",
-        "FLOORWASTE",
+        "FLOORTRAPCOVER",
+        "FLOORWASTECOVER",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP",
@@ -1789,7 +1774,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }
@@ -2279,11 +2263,9 @@
         "IfcGeographicElement"
       ],
       "IFC4 Object Types": [
-        "ARTWORK*",
         "BEACH*",
         "UTILITYPOLE*",
         "EXISTINGEARTHWORKS*",
-        "2D_FORESHORELINE*",
         "GREENVERGE*",
         "NEIGHBOURINGLOT*",
         "LANDSCAPE_PALM*",
@@ -2758,15 +2740,11 @@
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
-        "BICYCLEROUTE*",
         "BOREHOLE*",
-        "CONCEPT_BUILDINGMASS*",
         "CHEMICALFEEDER*",
         "CONCRETEMARKER*",
         "CONVEYORBELT*",
         "DROPBARRIER*",
-        "CONCEPT_ENVELOPELIMIT*",
-        "CONCEPT_ENVELOPEREQUIRED*",
         "FAÇADE*",
         "FALSEBOTTOM*",
         "PORTABLEFIREEXTINGUISHER*",
@@ -2775,7 +2753,6 @@
         "2D_FLOORMARKING*",
         "FUELBURNINGEQUIPMENT*",
         "GONDOLA*",
-        "2D_HOLDINGBAY*",
         "HUMP*",
         "INCINERATOR*",
         "LINEMARKING*",
@@ -2797,7 +2774,6 @@
         "POLLUTIONCONTROLEQUIPMENT*",
         "2D_PWDHOLDINGPOINT*",
         "2D_LIFTREFUGESPACE*",
-        "RELIGIOUSSYMBOL*",
         "RUNG*",
         "SIGNPOST*",
         "SIGNPOST_REFUSETEMPORARYPARKING*",
@@ -2815,13 +2791,11 @@
         "SIGNAGE_RECYCLABLESCHUTE*",
         "SIGNAGE_RINSESHOWER*",
         "SIGNAGE_SMOKEVENT*",
-        "SIGNAGE_THROUGHBLOCKLINK*",
         "SIGNAGE_WATERTAPPOINT*",
         "SIGNAGE_WHEELCHAIRSYMBOL*",
         "SIGNPOST_DRIVEWAY*",
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
-        "2D_TAXIBAY*",
         "2D_TRAFFICFLOW*",
         "2D_TREEPROTECTIONZONE*",
         "TUNNEL*",
@@ -2914,10 +2888,11 @@
         "reci6bps4uh8CZpX9",
         "reckOI98aC6wfQVnz",
         "reclxFb4lhl4AZB4B",
-        "recqMflqYUEIwR4vH"
+        "recqMflqYUEIwR4vH",
+        "recZiPWxiBZomvTit"
       ],
-      "Properties [Data Type]": "BeddingType [Label];\nCalculatedDN [Label];\nCalculatedQapproved [Label];\nFlowRate [VolumetricFlowRate];\nPWCS_VolumeOfWastePerDay [Label];\nDemountableStrutureAbovePipe [Boolean];\nStatus [Label];\nInsulation_FlameSpreadClass [Label];\nCombustible [Boolean];\nFunction [Label];\nPressureRating [Label];\nPerforated [Boolean];\nPre-insulated [Boolean];\nHighTemperatureResistant [Label];\nCorrosionResistant [Boolean]",
-      "Parameter Value (Actual)": "NEW (Status);\nEXISTING (Status);\nABANDONED (Status);\nAIR PIPE (Function);\nBLOWDOWN DISCHARGE PIPE (Function);\nCOMPRESSED AIR TUBES (Function);\nCONVEYANCE PIPE (Function);\nDRAIN-LINE (Function);\nDRAIN-OFF DISCHARGE PIPE (Function);\nFILLING PIPE (Function);\nOUTLET PIPE (Function);\nOVERFLOW DISCHARGE PIPE (Function);\nRAIN WATER PIPE (Function);\nTEMPORARY STORAGE SECTION (Function);\nVENT PIPE (Function);\nWASTE CONVEYANCE PIPE (Function);\nSHORT PIPE (Function)",
+      "Properties [Data Type]": "BeddingType [Label];\nCalculatedDN [Label];\nCalculatedQapproved [Label];\nFlowRate [VolumetricFlowRate];\nPWCS_VolumeOfWastePerDay [Label];\nDemountableStructureAbovePipe [Boolean];\nStatus [Label];\nInsulation_FlameSpreadClass [Label];\nCombustible [Boolean];\nFunction [Label];\nPressureRating [Label];\nPerforated [Boolean];\nPre-insulated [Boolean];\nHighTemperatureResistant [Label];\nCorrosionResistant [Boolean];\nDischargeStack [Label]",
+      "Parameter Value (Actual)": "NEW (Status);\nEXISTING (Status);\nABANDONED (Status);\nAIR PIPE (Function);\nBLOWDOWN DISCHARGE PIPE (Function);\nCOMPRESSED AIR TUBES (Function);\nCONVEYANCE PIPE (Function);\nDRAIN-LINE (Function);\nDRAIN-OFF DISCHARGE PIPE (Function);\nFILLING PIPE (Function);\nOUTLET PIPE (Function);\nOVERFLOW DISCHARGE PIPE (Function);\nRAIN WATER PIPE (Function);\nTEMPORARY STORAGE SECTION (Function);\nVENT PIPE (Function);\nWASTE CONVEYANCE PIPE (Function);\nSHORT PIPE (Function);\nMAIN (DischargeStack);\nSECONDARY (DischargeStack)",
       "IFC4 Entities": [
         "IfcPipeSegment"
       ],
@@ -3551,7 +3526,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }
@@ -3779,10 +3753,7 @@
         "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
-        "BED",
         "CHAIR",
-        "NOTDEFINED",
-        "SHELF",
         "TABLE"
       ]
     }
@@ -3907,15 +3878,11 @@
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
-        "BICYCLEROUTE*",
         "BOREHOLE*",
-        "CONCEPT_BUILDINGMASS*",
         "CHEMICALFEEDER*",
         "CONCRETEMARKER*",
         "CONVEYORBELT*",
         "DROPBARRIER*",
-        "CONCEPT_ENVELOPELIMIT*",
-        "CONCEPT_ENVELOPEREQUIRED*",
         "FAÇADE*",
         "FALSEBOTTOM*",
         "PORTABLEFIREEXTINGUISHER*",
@@ -3924,7 +3891,6 @@
         "2D_FLOORMARKING*",
         "FUELBURNINGEQUIPMENT*",
         "GONDOLA*",
-        "2D_HOLDINGBAY*",
         "HUMP*",
         "INCINERATOR*",
         "LINEMARKING*",
@@ -3946,7 +3912,6 @@
         "POLLUTIONCONTROLEQUIPMENT*",
         "2D_PWDHOLDINGPOINT*",
         "2D_LIFTREFUGESPACE*",
-        "RELIGIOUSSYMBOL*",
         "RUNG*",
         "SIGNPOST*",
         "SIGNPOST_REFUSETEMPORARYPARKING*",
@@ -3964,13 +3929,11 @@
         "SIGNAGE_RECYCLABLESCHUTE*",
         "SIGNAGE_RINSESHOWER*",
         "SIGNAGE_SMOKEVENT*",
-        "SIGNAGE_THROUGHBLOCKLINK*",
         "SIGNAGE_WATERTAPPOINT*",
         "SIGNAGE_WHEELCHAIRSYMBOL*",
         "SIGNPOST_DRIVEWAY*",
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
-        "2D_TAXIBAY*",
         "2D_TRAFFICFLOW*",
         "2D_TREEPROTECTIONZONE*",
         "TUNNEL*",
@@ -4063,12 +4026,12 @@
         "REFUSETHROWPOINT*",
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
-        "URINALTRAP*",
+        "URINALTRAPCOVER*",
         "WASTEDIVERTER*"
       ],
       "IFC4 Predefined Types": [
-        "FLOORTRAP",
-        "FLOORWASTE",
+        "FLOORTRAPCOVER",
+        "FLOORWASTECOVER",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
@@ -4334,12 +4297,12 @@
         "REFUSETHROWPOINT*",
         "RETURNINLET*",
         "SHALLOWFLOORTRAP*",
-        "URINALTRAP*",
+        "URINALTRAPCOVER*",
         "WASTEDIVERTER*"
       ],
       "IFC4 Predefined Types": [
-        "FLOORTRAP",
-        "FLOORWASTE",
+        "FLOORTRAPCOVER",
+        "FLOORWASTECOVER",
         "GULLYTRAP",
         "NOTDEFINED",
         "WASTETRAP"
@@ -4680,7 +4643,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }
@@ -4767,7 +4729,7 @@
         "recwmsaGWSd1DoqmZ"
       ],
       "Properties [Data Type]": "AGF_BonusGFAType [Label];\nAGF_SupportingFacility [Label];\nAGF_DevelopmentUse [Label];\nAGF_BuildingTypology [Label];\nAGF_Name [Label];\nAGF_Note [Label];\nAGF_UnitNumber [Label];\nAGF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "RESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nROAD (AGF_DevelopmentUse; AVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_BuildingTypology);\nORNAMENTAL BIRD FARM (AGF_BuildingTypology);\nORNAMENTAL FISH FARM (AGF_BuildingTypology);\nPLANT NURSERY (AGF_BuildingTypology);\nPOULTRY HATCHERY (AGF_BuildingTypology);\nPOULTRY FARM (AGF_BuildingTypology);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name)",
+      "Parameter Value (Actual)": "BALCONY INCENTIVE SCHEME (AGF_BonusGFAType);\nINDOOR RECREATION SPACE SCHEME (AGF_BonusGFAType);\nRESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nROAD (AGF_DevelopmentUse; AVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_BuildingTypology);\nORNAMENTAL BIRD FARM (AGF_BuildingTypology);\nORNAMENTAL FISH FARM (AGF_BuildingTypology);\nPLANT NURSERY (AGF_BuildingTypology);\nPOULTRY HATCHERY (AGF_BuildingTypology);\nPOULTRY FARM (AGF_BuildingTypology);\nTERRACE HOUSE (AGF_BuildingTypology);\nDETACHED HOUSE (AGF_BuildingTypology);\nSEMI-DETACHED HOUSE (AGF_BuildingTypology);\nGOOD CLASS BUNGALOW (AGF_BuildingTypology);\nSHOPHOUSE (AGF_BuildingTypology);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name);\nBALCONY (AGF_Name);\nDWELLING UNIT (AGF_Name);\nINDOOR RECREATION SPACE (AGF_Name);\nLETTER BOX AREA (AGF_Name);\nVEHICULAR PARKING AREA (AGF_Name);\nMETER COMPARTMENT (AGF_Name);\nREFUSE CHAMBER (AGF_Name)",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -5210,6 +5172,7 @@
       "IFC4 Entities": [
         "IfcSpace"
       ],
+      "Parameter Value (Sample)": "COMMON (AST_AreaType);\nCOMMUNAL (AST_AreaType)",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -5336,9 +5299,12 @@
         "recmEPzu16ck3CWkw",
         "reconZhKsz126ruek",
         "rec5U5wnYkhwFexVB",
-        "recAwE6G7aFUibkLZ"
+        "recAwE6G7aFUibkLZ",
+        "recw5XehVM2H3NNLY",
+        "recDrQxfXxHjOqmfA",
+        "reciRnYu0ql8gNpbw"
       ],
-      "Properties [Data Type]": "NominalDiameter [Length];\nWeldedJoint [Boolean];\nWithFlange [Boolean];\nInspectionOpening [Boolean];\nInsulation_FlameSpreadClass [Label];\nThickness [Length];\nPre-insulated [Boolean];\nExternalReference [Label];\nPWCS_VolumeOfWastePerDay [Label];\nMaterial [Label]",
+      "Properties [Data Type]": "NominalDiameter [Length];\nWeldedJoint [Boolean];\nWithFlange [Boolean];\nInspectionOpening [Boolean];\nInsulation_FlameSpreadClass [Label];\nThickness [Length];\nPre-insulated [Boolean];\nExternalReference [Label];\nPWCS_VolumeOfWastePerDay [Label];\nMaterial [Label];\nSupportedOnFoundation [Boolean];\nJunctionType [Label]",
       "IFC4 Entities": [
         "IfcPipeFitting"
       ],
@@ -5413,10 +5379,9 @@
         "recmmKdrqYOkWybeA",
         "recpJRiAgDsQqxCB6",
         "rec99QujyvZqyiFQE",
-        "recH7sWaJ3IyNLv1c",
         "recY2Y4dW9VvCOGiV"
       ],
-      "Properties [Data Type]": "AlternateDesignatedFloor [Boolean];\nAtticLevel [Boolean];\nDesignatedFloor [Boolean];\nGroundLevel [Boolean];\nHasActivityGeneratingUse [Boolean];\nTypicalFloor [Boolean];\nSCDFBasement [Boolean];\nSCDFBasement1 [Boolean]",
+      "Properties [Data Type]": "AtticLevel [Boolean];\nHasActivityGeneratingUse [Boolean];\nTypicalFloor [Boolean];\nSCDFBasement1 [Boolean]",
       "IFC4 Entities": [
         "IfcBuildingStorey"
       ],
@@ -5657,11 +5622,9 @@
       ],
       "Parameter Value (Sample)": "AXONOPUS COMPRESSUS (Species);\nSMOKE CHECK DOOR (TreeSize)",
       "IFC4 Object Types": [
-        "ARTWORK*",
         "BEACH*",
         "UTILITYPOLE*",
         "EXISTINGEARTHWORKS*",
-        "2D_FORESHORELINE*",
         "GREENVERGE*",
         "NEIGHBOURINGLOT*",
         "LANDSCAPE_PALM*",
@@ -5725,11 +5688,11 @@
         "rec4AS9qO7I2fvMW6",
         "reco4hpu3RmwRjIuD"
       ],
-      "Properties [Data Type]": "Height [Length];\nKerbWidth [Length];\nKerbHeight [Length]",
+      "Properties [Data Type]": "Height [Length]",
       "IFC4 Entities": [
         "IfcRailing"
       ],
-      "Parameter Value (Sample)": "8000 (Height);\n40000 (KerbWidth)",
+      "Parameter Value (Sample)": "8000 (Height)",
       "IFC4 Object Types": [
         "BACKGUARD*",
         "BOLLARD*"
@@ -7077,7 +7040,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }
@@ -7459,7 +7421,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }
@@ -7511,15 +7472,11 @@
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
-        "BICYCLEROUTE*",
         "BOREHOLE*",
-        "CONCEPT_BUILDINGMASS*",
         "CHEMICALFEEDER*",
         "CONCRETEMARKER*",
         "CONVEYORBELT*",
         "DROPBARRIER*",
-        "CONCEPT_ENVELOPELIMIT*",
-        "CONCEPT_ENVELOPEREQUIRED*",
         "FAÇADE*",
         "FALSEBOTTOM*",
         "PORTABLEFIREEXTINGUISHER*",
@@ -7528,7 +7485,6 @@
         "2D_FLOORMARKING*",
         "FUELBURNINGEQUIPMENT*",
         "GONDOLA*",
-        "2D_HOLDINGBAY*",
         "HUMP*",
         "INCINERATOR*",
         "LINEMARKING*",
@@ -7550,7 +7506,6 @@
         "POLLUTIONCONTROLEQUIPMENT*",
         "2D_PWDHOLDINGPOINT*",
         "2D_LIFTREFUGESPACE*",
-        "RELIGIOUSSYMBOL*",
         "RUNG*",
         "SIGNPOST*",
         "SIGNPOST_REFUSETEMPORARYPARKING*",
@@ -7568,13 +7523,11 @@
         "SIGNAGE_RECYCLABLESCHUTE*",
         "SIGNAGE_RINSESHOWER*",
         "SIGNAGE_SMOKEVENT*",
-        "SIGNAGE_THROUGHBLOCKLINK*",
         "SIGNAGE_WATERTAPPOINT*",
         "SIGNAGE_WHEELCHAIRSYMBOL*",
         "SIGNPOST_DRIVEWAY*",
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
-        "2D_TAXIBAY*",
         "2D_TRAFFICFLOW*",
         "2D_TREEPROTECTIONZONE*",
         "TUNNEL*",
@@ -7682,10 +7635,7 @@
         "UMBRELLA*"
       ],
       "IFC4 Predefined Types": [
-        "BED",
         "CHAIR",
-        "NOTDEFINED",
-        "SHELF",
         "TABLE"
       ]
     }
@@ -8020,7 +7970,6 @@
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
-        "PARTITIONING",
         "SHEAR"
       ]
     }

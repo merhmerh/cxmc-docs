@@ -39,19 +39,15 @@ async function getData(tableId, fileName) {
 
     fs.writeFileSync(`./output/${fileName}.json`, JSON.stringify(data, null, 2))
     const t2 = performance.now()
-    console.log('Completed:', fileName, `${(t2 - t1).toFixed(2)}ms`);
+    console.log('--Fetch Complete:', fileName, `${(t2 - t1).toFixed(2)}ms`);
     return data; // Return the accumulated data after the recursion is complete
 }
 
-async function main() {
-    console.log('start');
+export async function fetchData() {
     await Promise.all([
         getData(pset_id, "pset_id"),
         getData(comp_id, "comp_id"),
         getData(rule_id, "rule_id"),
         getData(entity_id, "entity_id"),
     ])
-    console.log('end');
 }
-
-main()
