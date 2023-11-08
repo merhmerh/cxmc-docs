@@ -152,13 +152,14 @@
         "reciKWt36TiiHofvK",
         "recNDETMZwsftPW5b",
         "recOnnFtyLyayc654",
-        "recKbN4AQFbRYXwuI"
+        "recKbN4AQFbRYXwuI",
+        "recpIf4XdVG5ghxZ3"
       ],
-      "Properties [Data Type]": "DA1-2_BearingCapacity [Integer];\nReferTo2DDetail [Label];\nReinforcementSteelGrade [Label]",
+      "Properties [Data Type]": "DA1-2_BearingCapacity [Integer];\nReferTo2DDetail [Label];\nReinforcementSteelGrade [Label];\nWorkingLoad [Integer]",
       "IFC4 Entities": [
         "IfcFooting"
       ],
-      "Parameter Value (Sample)": "100 (DA1-2_BearingCapacity);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade)",
+      "Parameter Value (Sample)": "100 (DA1-2_BearingCapacity);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\n4321 (WorkingLoad)",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -549,31 +550,6 @@
     }
   },
   {
-    "id": "rec4A8FKvF9zAHoJk",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_FireSuppressionTerminalTypeSprinkler",
-      "Entity Key": [
-        "reczfUjIjnz8XyUaW"
-      ],
-      "IFC4 Entities": [
-        "IfcFireSuppressionTerminal"
-      ],
-      "IFC4 Object Types": [
-        "FOAMINLET*",
-        "HOSE*",
-        "STANDBYFIREHOSE*",
-        "BREECHINGINLET*",
-        "FOAMOUTLET*"
-      ],
-      "IFC4 Predefined Types": [
-        "FIREHYDRANT",
-        "HOSEREEL",
-        "SPRINKLER"
-      ]
-    }
-  },
-  {
     "id": "rec4KnqSXp5Rv41tX",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -761,41 +737,6 @@
       ],
       "IFC4 Predefined Types": [
         "SPACE"
-      ]
-    }
-  },
-  {
-    "id": "rec5dJmolf5e1XOo3",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_SanitaryTerminalTypeSink",
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recs5ze42Nre6zvxP"
-      ],
-      "Properties [Data Type]": "SinkType [Label]",
-      "Parameter Value (Actual)": "VEGETABLE PREPARATION (SinkType)",
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "Parameter Value (Sample)": "RINSING (SinkType)",
-      "IFC4 Object Types": [
-        "FOGGER*",
-        "MISTER*",
-        "SPRINKLER*",
-        "POOLSKIMMER*",
-        "WATERCLOSET*"
-      ],
-      "IFC4 Predefined Types": [
-        "BATH",
-        "BIDET",
-        "NOTDEFINED",
-        "SHOWER",
-        "SINK",
-        "URINAL",
-        "WASHHANDBASIN"
       ]
     }
   },
@@ -1018,46 +959,6 @@
         "CURVED_RUN_STAIR",
         "STRAIGHT_RUN_STAIR",
         "SPIRAL_STAIR"
-      ]
-    }
-  },
-  {
-    "id": "rec9cXZIzRELHKZkc",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_ElectricApplianceTypeElectricCooker",
-      "Entity Key": [
-        "recMgfM1ibGt9lDcg"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recnnpoBpxFAhmNB4"
-      ],
-      "Properties [Data Type]": "ElectricCookerType [Label]",
-      "IFC4 Entities": [
-        "IfcElectricAppliance"
-      ],
-      "Parameter Value (Sample)": "BOILINGPAN (ElectricCookerType);\nFIXED ROASTED TIN (ElectricCookerType);\nTILTING BOILING PAN (ElectricCookerType);\nTILTING ROASTED TIN (ElectricCookerType)",
-      "IFC4 Object Types": [
-        "COFFEEMAKER*",
-        "DRINKINGFOUNTAIN*",
-        "FUMEHOOD*",
-        "HIGHPRESSURECLEANER*",
-        "ICEMAKER*",
-        "RANGEHOOD*",
-        "SCRAPER*",
-        "STEAMCLEANER*",
-        "TELEVISION*",
-        "WATERDISPENSER*"
-      ],
-      "IFC4 Predefined Types": [
-        "DISHWASHER",
-        "ELECTRICCOOKER",
-        "FREESTANDINGELECTRICHEATER",
-        "FREEZER",
-        "REFRIGERATOR",
-        "WASHINGMACHINE",
-        "FREESTANDINGWATERCOOLER",
-        "FREESTANDINGWATERHEATER"
       ]
     }
   },
@@ -1724,23 +1625,6 @@
     }
   },
   {
-    "id": "rec9vWLAi3nsMJdtc",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_FanPHistory",
-      "Entity Key": [
-        "rectdZe9EJAAa0JQt"
-      ],
-      "IFC4 Entities": [
-        "IfcFan"
-      ],
-      "IFC4 Object Types": [],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
-    }
-  },
-  {
     "id": "recBEHzM0AB5tECM8",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -1775,105 +1659,6 @@
         "NOTDEFINED",
         "PARAPET",
         "SHEAR"
-      ]
-    }
-  },
-  {
-    "id": "recBQlMdYubmeCTYr",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_DistributionChamberElementSamplingSump",
-      "Entity Key": [
-        "reclV2BJR2YX7vC0c"
-      ],
-      "PR Key (Component_Parameter)": [
-        "rec2sk26kLlxa4ANM",
-        "rec4OJNN8Z3OdeyMa",
-        "recbsBKdlEo23v6kR",
-        "recbfUfW0mCjzQljc",
-        "recDAPqorW75EUeuv",
-        "recEoPkkibyF66jz2",
-        "recE5w6oZ9Cv0nan8",
-        "recEHDDrsN5Tuzt8L",
-        "recF0fxKATw1ZGQWl",
-        "recF3lplcNpYn9nkY",
-        "recGlAYgkM8rkKeJz",
-        "recH7tz9k3o0StVXr",
-        "recJiSmc7Uty46V4K",
-        "recJDQ3pqOI8RcQAU",
-        "recLniWiIGK49zaHm",
-        "recO3b8O75ACZqAeK",
-        "recOzOy6n2boKAXk2",
-        "recQ0llXjrV5tyWQO",
-        "recQdtZ1TNIQ3iM5x",
-        "recRbyvoMKupOMg7X",
-        "recSjlQsg4OuDYs14",
-        "recWMo9xLs4nDRd6Q",
-        "recWUZlxJ76Yf4Wy9",
-        "recZLlNcYEG74Ju9g",
-        "rec1ocdkHCRk7bHFl",
-        "recfWrHVEH3vEAF2G",
-        "rechW8BhWHvuOO101",
-        "rechX9Cpoc6t09GW7",
-        "reckqLKhLA7jRAhKo",
-        "reck9Cupv7FJDN9Cd",
-        "recmXi3PmWWPgQUu4",
-        "recn9fEVIq0wCefSj",
-        "recrCLQgh5BMOuFzo",
-        "recrRK6jcgZw4TYrv",
-        "rectfoHLnaKFD71RG",
-        "recwHw44YxVnZjICK"
-      ],
-      "Properties [Data Type]": "TED_TemperatureOfDischarge [Label];\nTED_Sulphide [Label];\nTED_TotalSuspendedSolid [Label];\nTED_Calcium [Label];\nTED_Chromium [Label];\nTED_Lead [Label];\nTED_Nickel [Label];\nTED_TotalDissolvedSolid [Label];\nTED_Chlorine [Label];\nTED_Chloride [Label];\nTED_Sulphate [Label];\nTED_Barium [Label];\nTED_PHValue [Label];\nTED_Phosphate [Label];\nTED_Magnesium [Label];\nTED_Tin [Label];\nTED_Detergent [Label];\nTED_ChemicalOxygenDemand [Label];\nTED_Colour [Label];\nTED_MetalsInTotal [Label];\nTED_Boron [Label];\nTED_Manganese [Label];\nTED_Arsenic [Label];\nTED_Mercury [Label];\nTED_Nitrate [Label];\nTED_Copper [Label];\nTED_BiochemicalOxygenDemand [Label];\nTED_GreaseAndOil [Label];\nTED_Iron [Label];\nTED_Beryllium [Label];\nTED_PhenolicCompound [Label];\nTED_Cadmium [Label];\nTED_Silver [Label];\nTED_Cyanide [Label];\nTED_Selenium [Label];\nTED_Zinc [Label]",
-      "IFC4 Entities": [
-        "IfcDistributionChamberElement"
-      ],
-      "IFC4 Object Types": [
-        "LPS_EARTHPIT*",
-        "PWCSINSPECTIONCHAMBER*",
-        "PWCSMANHOLE*",
-        "SAMPLINGSUMP*",
-        "SCREENCHAMBER*",
-        "WASTESUMP*",
-        "FLOORSUMP*"
-      ],
-      "IFC4 Predefined Types": [
-        "INSPECTIONCHAMBER",
-        "MANHOLE",
-        "METERCHAMBER",
-        "NOTDEFINED",
-        "SUMP",
-        "VALVECHAMBER",
-        "GULLYSUMP"
-      ]
-    }
-  },
-  {
-    "id": "recBYr9KdlCFINktj",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_SanitaryTerminalTypeWashHandBasin",
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "IFC4 Object Types": [
-        "FOGGER*",
-        "MISTER*",
-        "SPRINKLER*",
-        "POOLSKIMMER*",
-        "WATERCLOSET*"
-      ],
-      "IFC4 Predefined Types": [
-        "BATH",
-        "BIDET",
-        "NOTDEFINED",
-        "SHOWER",
-        "SINK",
-        "URINAL",
-        "WASHHANDBASIN"
       ]
     }
   },
@@ -2400,39 +2185,6 @@
     }
   },
   {
-    "id": "recHhF5VVcotdf39u",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_SanitaryTerminalTypeUrinal",
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "PR Key (Component_Parameter)": [
-        "rec40sYmf9aZkot2Y"
-      ],
-      "Properties [Data Type]": "Waterless [Boolean]",
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "IFC4 Object Types": [
-        "FOGGER*",
-        "MISTER*",
-        "SPRINKLER*",
-        "POOLSKIMMER*",
-        "WATERCLOSET*"
-      ],
-      "IFC4 Predefined Types": [
-        "BATH",
-        "BIDET",
-        "NOTDEFINED",
-        "SHOWER",
-        "SINK",
-        "URINAL",
-        "WASHHANDBASIN"
-      ]
-    }
-  },
-  {
     "id": "recHy0m8LTTkGzJos",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -2451,37 +2203,6 @@
       ],
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
-    }
-  },
-  {
-    "id": "recJT5pR0TllqPcx8",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_DistributionChamberElementTypeInspectionChamber",
-      "Entity Key": [
-        "reclV2BJR2YX7vC0c"
-      ],
-      "IFC4 Entities": [
-        "IfcDistributionChamberElement"
-      ],
-      "IFC4 Object Types": [
-        "LPS_EARTHPIT*",
-        "PWCSINSPECTIONCHAMBER*",
-        "PWCSMANHOLE*",
-        "SAMPLINGSUMP*",
-        "SCREENCHAMBER*",
-        "WASTESUMP*",
-        "FLOORSUMP*"
-      ],
-      "IFC4 Predefined Types": [
-        "INSPECTIONCHAMBER",
-        "MANHOLE",
-        "METERCHAMBER",
-        "NOTDEFINED",
-        "SUMP",
-        "VALVECHAMBER",
-        "GULLYSUMP"
-      ]
     }
   },
   {
@@ -3270,37 +2991,6 @@
     }
   },
   {
-    "id": "recOda5xZdD8N1ToL",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_DistributionChamberElementTypeManhole",
-      "Entity Key": [
-        "reclV2BJR2YX7vC0c"
-      ],
-      "IFC4 Entities": [
-        "IfcDistributionChamberElement"
-      ],
-      "IFC4 Object Types": [
-        "LPS_EARTHPIT*",
-        "PWCSINSPECTIONCHAMBER*",
-        "PWCSMANHOLE*",
-        "SAMPLINGSUMP*",
-        "SCREENCHAMBER*",
-        "WASTESUMP*",
-        "FLOORSUMP*"
-      ],
-      "IFC4 Predefined Types": [
-        "INSPECTIONCHAMBER",
-        "MANHOLE",
-        "METERCHAMBER",
-        "NOTDEFINED",
-        "SUMP",
-        "VALVECHAMBER",
-        "GULLYSUMP"
-      ]
-    }
-  },
-  {
     "id": "recPI2V24U915NEiS",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -3819,32 +3509,6 @@
     }
   },
   {
-    "id": "recUbNW2rabtK18Rn",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_FoundationStructuralLoad",
-      "Entity Key": [
-        "recNu6EPX8sB9mxTF"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recpIf4XdVG5ghxZ3"
-      ],
-      "Properties [Data Type]": "WorkingLoad [Integer]",
-      "IFC4 Entities": [
-        "IfcFooting"
-      ],
-      "Parameter Value (Sample)": "4321 (WorkingLoad)",
-      "IFC4 Object Types": [],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "PAD_FOOTING",
-        "STRIP_FOOTING",
-        "FOOTING_BEAM",
-        "PILE_CAP"
-      ]
-    }
-  },
-  {
     "id": "recUwkSwR26cdk5F4",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -3949,41 +3613,6 @@
     }
   },
   {
-    "id": "recV4S1OiyE6lrsfj",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_SanitaryTerminalTypeWaterCloset",
-      "Entity Key": [
-        "recKKmopvM5vWItDb"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recTCUbqsVrWFqT8E",
-        "recZIomXnmCXgHyh7"
-      ],
-      "Properties [Data Type]": "PanMounting [Label];\nToiletPanType [Label]",
-      "IFC4 Entities": [
-        "IfcSanitaryTerminal"
-      ],
-      "Parameter Value (Sample)": "PEDESTAL (PanMounting);\nSS 30 MANHOLE TOPS AND SURFACE-BOX TOPS (ToiletPanType)",
-      "IFC4 Object Types": [
-        "FOGGER*",
-        "MISTER*",
-        "SPRINKLER*",
-        "POOLSKIMMER*",
-        "WATERCLOSET*"
-      ],
-      "IFC4 Predefined Types": [
-        "BATH",
-        "BIDET",
-        "NOTDEFINED",
-        "SHOWER",
-        "SINK",
-        "URINAL",
-        "WASHHANDBASIN"
-      ]
-    }
-  },
-  {
     "id": "recV6mdCgSQNaVUar",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -4075,34 +3704,6 @@
       "IFC4 Predefined Types": [
         "ESCALATOR",
         "MOVINGWALKWAY"
-      ]
-    }
-  },
-  {
-    "id": "recXGTwYUGKjAf7xE",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_FilterTypeWaterFilter",
-      "Entity Key": [
-        "recvduAhxY0RHp9nd"
-      ],
-      "PR Key (Component_Parameter)": [
-        "rec5iEFsZEokdBriX"
-      ],
-      "Properties [Data Type]": "WaterFilterType [Label]",
-      "IFC4 Entities": [
-        "IfcFilter"
-      ],
-      "Parameter Value (Sample)": "FILTRATION_DIATOMACEOUS_EARTH, FILTRATION_SAND, SOFTENING_ZEOLITE (WaterFilterType)",
-      "IFC4 Object Types": [
-        "SCRUBBER*",
-        "WASTEAIRSEPARATOR*"
-      ],
-      "IFC4 Predefined Types": [
-        "AIRPARTICLEFILTER",
-        "ODORFILTER",
-        "STRAINER",
-        "WATERFILTER"
       ]
     }
   },
@@ -5402,9 +5003,10 @@
         "recNU5saQLni3gEX8",
         "recrObHLjqyOL3VZz",
         "recMHDopqMFGlUaMB",
-        "rec9nOFizCyDvf4fX"
+        "rec9nOFizCyDvf4fX",
+        "recQWVHrTssqNF7tC"
       ],
-      "Properties [Data Type]": "ConnectionSize [Length];\nUnitNumber [Label];\nUnitNumberTag [Boolean];\nWaterSupplySource [Label];\nCapacity [Volume]",
+      "Properties [Data Type]": "ConnectionSize [Length];\nUnitNumber [Label];\nUnitNumberTag [Boolean];\nWaterSupplySource [Label];\nCapacity [Volume];\nMaximumFlowRate [VolumetricFlowRate]",
       "IFC4 Entities": [
         "IfcFlowMeter"
       ],
@@ -5459,13 +5061,14 @@
         "rectAPCEMbMmv2FVE",
         "recF4DoFhtNskQ5OD",
         "recc46Ckp6LisOvGY",
-        "recthNO6Yc4uqLvuL"
+        "recthNO6Yc4uqLvuL",
+        "recnnpoBpxFAhmNB4"
       ],
-      "Properties [Data Type]": "CapacityWeight [Real];\nWithHoodedJet [Boolean];\nApprovedExtinguishingSystem [Boolean];\nMainsPressureType [Boolean];\nPressureAndTemperatureReliefValveWithControllingStopcock [Boolean]",
+      "Properties [Data Type]": "CapacityWeight [Real];\nWithHoodedJet [Boolean];\nApprovedExtinguishingSystem [Boolean];\nMainsPressureType [Boolean];\nPressureAndTemperatureReliefValveWithControllingStopcock [Boolean];\nElectricCookerType [Label]",
       "IFC4 Entities": [
         "IfcElectricAppliance"
       ],
-      "Parameter Value (Sample)": "50kg (CapacityWeight)",
+      "Parameter Value (Sample)": "50kg (CapacityWeight);\nBOILINGPAN (ElectricCookerType);\nFIXED ROASTED TIN (ElectricCookerType);\nTILTING BOILING PAN (ElectricCookerType);\nTILTING ROASTED TIN (ElectricCookerType)",
       "IFC4 Object Types": [
         "COFFEEMAKER*",
         "DRINKINGFOUNTAIN*",
@@ -5997,14 +5600,19 @@
         "recJ8gTkFFtRAMcro",
         "recgT56GgKwKVA0va",
         "recrDAjBKpFACPtqa",
-        "recvndaqcKLzr4BXf"
+        "recvndaqcKLzr4BXf",
+        "rec626um9No3GyqCz",
+        "recs5ze42Nre6zvxP",
+        "rec40sYmf9aZkot2Y",
+        "recTCUbqsVrWFqT8E",
+        "recZIomXnmCXgHyh7"
       ],
-      "Properties [Data Type]": "WithPlug [Boolean];\nSiphoning [Boolean];\nAmbulantDisabled [Boolean];\nChildrenFriendly [Boolean];\nFlushVolume [Label];\nFullFlushVolume [Label];\nIsSingleFlush [Boolean];\nReducedFlushVolume [Label];\nFunction [Label];\nFlowRate [VolumetricFlowRate];\nExternalReference [Label];\nMounting [Label];\nBarrierFreeAccessibility [Boolean]",
-      "Parameter Value (Actual)": "REFUSE CHUTE FLUSHING SPRINKLER (Function);\nCOUNTER TOP (Mounting)",
+      "Properties [Data Type]": "WithPlug [Boolean];\nSiphoning [Boolean];\nAmbulantDisabled [Boolean];\nChildrenFriendly [Boolean];\nFlushVolume [Label];\nFullFlushVolume [Label];\nIsSingleFlush [Boolean];\nReducedFlushVolume [Label];\nFunction [Label];\nFlowRate [VolumetricFlowRate];\nExternalReference [Label];\nMounting [Label];\nBarrierFreeAccessibility [Boolean];\nOnGround [Boolean];\nSinkType [Label];\nWaterless [Boolean];\nPanMounting [Label];\nToiletPanType [Label]",
+      "Parameter Value (Actual)": "REFUSE CHUTE FLUSHING SPRINKLER (Function);\nCOUNTER TOP (Mounting);\nVEGETABLE PREPARATION (SinkType)",
       "IFC4 Entities": [
         "IfcSanitaryTerminal"
       ],
-      "Parameter Value (Sample)": "ASME A112.19.19 VITREOUS CHINA NONWATER URINALS (ExternalReference);\nWALL HUNG (Mounting);\nSS 563 CODE OF PRACTICE FOR THE DESIGN, INSTALLATION AND MAINTENANCE OF EMERGENCY LIGHTING AND POWER SUPPLY SYSTEMS IN BUILDINGS (ExternalReference)",
+      "Parameter Value (Sample)": "ASME A112.19.19 VITREOUS CHINA NONWATER URINALS (ExternalReference);\nWALL HUNG (Mounting);\nSS 563 CODE OF PRACTICE FOR THE DESIGN, INSTALLATION AND MAINTENANCE OF EMERGENCY LIGHTING AND POWER SUPPLY SYSTEMS IN BUILDINGS (ExternalReference);\nRINSING (SinkType);\nPEDESTAL (PanMounting);\nSS 30 MANHOLE TOPS AND SURFACE-BOX TOPS (ToiletPanType)",
       "IFC4 Object Types": [
         "FOGGER*",
         "MISTER*",
@@ -6296,29 +5904,6 @@
       "IFC4 Predefined Types": [
         "NOTDEFINED",
         "STRAIGHT_RUN_RAMP"
-      ]
-    }
-  },
-  {
-    "id": "recozq8TdpP66824o",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_FlowMeterTypeWaterMeter",
-      "Entity Key": [
-        "rec6Ms6HBFqFB8ofR"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recQWVHrTssqNF7tC"
-      ],
-      "Properties [Data Type]": "MaximumFlowRate [VolumetricFlowRate]",
-      "IFC4 Entities": [
-        "IfcFlowMeter"
-      ],
-      "IFC4 Object Types": [
-        "FUELMETER*"
-      ],
-      "IFC4 Predefined Types": [
-        "WATERMETER"
       ]
     }
   },
@@ -6769,9 +6354,45 @@
         "recPqFkzcCzIhfYy0",
         "reciIGOclpk5lwfDp",
         "recxgznZxOA7VjRi7",
-        "recn7NwrosH5aBHVf"
+        "recn7NwrosH5aBHVf",
+        "rec2sk26kLlxa4ANM",
+        "rec4OJNN8Z3OdeyMa",
+        "recbsBKdlEo23v6kR",
+        "recbfUfW0mCjzQljc",
+        "recDAPqorW75EUeuv",
+        "recEoPkkibyF66jz2",
+        "recE5w6oZ9Cv0nan8",
+        "recEHDDrsN5Tuzt8L",
+        "recF0fxKATw1ZGQWl",
+        "recF3lplcNpYn9nkY",
+        "recGlAYgkM8rkKeJz",
+        "recH7tz9k3o0StVXr",
+        "recJiSmc7Uty46V4K",
+        "recJDQ3pqOI8RcQAU",
+        "recLniWiIGK49zaHm",
+        "recO3b8O75ACZqAeK",
+        "recOzOy6n2boKAXk2",
+        "recQ0llXjrV5tyWQO",
+        "recQdtZ1TNIQ3iM5x",
+        "recRbyvoMKupOMg7X",
+        "recSjlQsg4OuDYs14",
+        "recWMo9xLs4nDRd6Q",
+        "recWUZlxJ76Yf4Wy9",
+        "recZLlNcYEG74Ju9g",
+        "rec1ocdkHCRk7bHFl",
+        "recfWrHVEH3vEAF2G",
+        "rechW8BhWHvuOO101",
+        "rechX9Cpoc6t09GW7",
+        "reckqLKhLA7jRAhKo",
+        "reck9Cupv7FJDN9Cd",
+        "recmXi3PmWWPgQUu4",
+        "recn9fEVIq0wCefSj",
+        "recrCLQgh5BMOuFzo",
+        "recrRK6jcgZw4TYrv",
+        "rectfoHLnaKFD71RG",
+        "recwHw44YxVnZjICK"
       ],
-      "Properties [Data Type]": "Grade [Label];\nRemovable [Boolean];\nWithBackdrop [Boolean];\nWithLiftingFeature [Boolean];\nWithVortexDrop [Boolean];\nWithTumblingBay [Boolean];\nVortexDropType [Label];\nFinishType [Label];\nExternalReference [Label];\nWatertight [Boolean];\nAirTight [Boolean];\nFunction [Label];\nTopLevel [Real];\nInvertLevel [Real]",
+      "Properties [Data Type]": "Grade [Label];\nRemovable [Boolean];\nWithBackdrop [Boolean];\nWithLiftingFeature [Boolean];\nWithVortexDrop [Boolean];\nWithTumblingBay [Boolean];\nVortexDropType [Label];\nFinishType [Label];\nExternalReference [Label];\nWatertight [Boolean];\nAirTight [Boolean];\nFunction [Label];\nTopLevel [Real];\nInvertLevel [Real];\nTED_TemperatureOfDischarge [Label];\nTED_Sulphide [Label];\nTED_TotalSuspendedSolid [Label];\nTED_Calcium [Label];\nTED_Chromium [Label];\nTED_Lead [Label];\nTED_Nickel [Label];\nTED_TotalDissolvedSolid [Label];\nTED_Chlorine [Label];\nTED_Chloride [Label];\nTED_Sulphate [Label];\nTED_Barium [Label];\nTED_PHValue [Label];\nTED_Phosphate [Label];\nTED_Magnesium [Label];\nTED_Tin [Label];\nTED_Detergent [Label];\nTED_ChemicalOxygenDemand [Label];\nTED_Colour [Label];\nTED_MetalsInTotal [Label];\nTED_Boron [Label];\nTED_Manganese [Label];\nTED_Arsenic [Label];\nTED_Mercury [Label];\nTED_Nitrate [Label];\nTED_Copper [Label];\nTED_BiochemicalOxygenDemand [Label];\nTED_GreaseAndOil [Label];\nTED_Iron [Label];\nTED_Beryllium [Label];\nTED_PhenolicCompound [Label];\nTED_Cadmium [Label];\nTED_Silver [Label];\nTED_Cyanide [Label];\nTED_Selenium [Label];\nTED_Zinc [Label]",
       "Parameter Value (Actual)": "TRADE EFFLUENT DISCHARGE (Function)",
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
@@ -7343,12 +6964,14 @@
         "recFv2M8viTzH0iAo",
         "recsEbE3pL1IhH1cA",
         "recA7e97jbKD11Mr4",
-        "recntR2cb9rhevZPN"
+        "recntR2cb9rhevZPN",
+        "rec5iEFsZEokdBriX"
       ],
-      "Properties [Data Type]": "CorrosionResistant [Boolean]",
+      "Properties [Data Type]": "CorrosionResistant [Boolean];\nWaterFilterType [Label]",
       "IFC4 Entities": [
         "IfcFilter"
       ],
+      "Parameter Value (Sample)": "FILTRATION_DIATOMACEOUS_EARTH, FILTRATION_SAND, SOFTENING_ZEOLITE (WaterFilterType)",
       "IFC4 Object Types": [
         "SCRUBBER*",
         "WASTEAIRSEPARATOR*"
