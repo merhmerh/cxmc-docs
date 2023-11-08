@@ -342,9 +342,6 @@
       "Property Set": [
         "recs3LMK3gWjogyGp",
         "rec3Neqw6I9NdBtmF",
-        "rec0e058DFeN39aGk",
-        "reczRkmzRRizmGHIM",
-        "recdorfbldTlr59fk",
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
@@ -643,17 +640,14 @@
         "recI1DxlkPVtE546z",
         "recF4ZMATTZzmOJaW",
         "rec7bG8ajyPRaY0tp",
-        "recnrVJgRKDiIW4Hd",
-        "recXOX3Ry14lkwWtP"
+        "recnrVJgRKDiIW4Hd"
       ],
       "Identified Components": [
         "Tank",
-        "Fire Extinguishing Tank",
-        "Tank Cover"
+        "Fire Extinguishing Tank"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null,
         null,
         null,
@@ -952,8 +946,7 @@
         "recyDdvE5yfsU4zoY",
         "rec7OuIz8KrRBnDff",
         "reckNT9fr8hBkgVRs",
-        "rec2yyHAyvlG1jqvf",
-        "recmqKtALGpueBtMT"
+        "rec2yyHAyvlG1jqvf"
       ],
       "Identified Components": [
         "Cable Carrier Segment",
@@ -961,7 +954,6 @@
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null,
         null,
         null,
@@ -1215,21 +1207,15 @@
       "CO Key": [
         "recz2KLE24eocRXtF",
         "recktEjtNm4GmMLNK",
-        "rec73iUrkNAsJBLrL",
-        "recCECRXeZ7XxhA2K",
-        "recLI1MEhAcxKOzVr"
+        "rec73iUrkNAsJBLrL"
       ],
       "Identified Components": [
         "Battery",
-        "Battery Backup Power Supply",
-        "Electric Flow Storage Device",
-        "Electrical Equipment",
-        "UPS"
+        "UPS",
+        "Electrical Equipment"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
-        null,
         null,
         null,
         null
@@ -1668,22 +1654,13 @@
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
-        "recsmyvltqhwDCJwF",
-        "rec1yukkUWfJH2Ooe",
-        "rectK8lqdO1JIUwVO",
-        "recXnHqDyS6ibTnWB"
+        "recsmyvltqhwDCJwF"
       ],
       "Identified Components": [
-        "Building Element",
-        "Encumbrances",
-        "Interior Element",
-        "Obstruction"
+        "Building Element"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
-        null,
-        null,
         null
       ],
       "IFC KEY": "IFCELE_038",
@@ -2114,10 +2091,8 @@
         "rec9ivrWRe2BLcrL1",
         "recN1wS0gukquLGvb",
         "recPx2Ni1eJpSvkdP",
-        "rec1fQqEMLDW8hoKC",
         "recF6VVIl7oM4hL77",
         "recoreyAwcp40Q1iG",
-        "recOANyibgSrsAIZB",
         "reccB4lRKSSDhss0N",
         "recKDule6ZEKujoaS",
         "recDG61NZWaO7MeiF",
@@ -2151,13 +2126,11 @@
       "Identified Components": [
         "Air Speed Measuring Device",
         "Beam-Facade Wall",
-        "Ceiling Support",
+        "Duct Framing",
         "Diaphragm Wall System",
         "Drainage System",
-        "Duct Framing",
         "Energy Storage System",
         "Lift Drive System",
-        "Maintenance Platform",
         "Master Antenna Television System",
         "Mechanized Car Parking",
         "Outfall Structure",
@@ -2181,7 +2154,7 @@
         "Solar PV System",
         "Truss",
         "Unit",
-        "Working Platform",
+        "Maintenance Platform",
         "CD Shelter (Non-shelter)",
         "Recyclables Chute"
       ],
@@ -2190,8 +2163,6 @@
         "RECYCLABLESCHUTE*"
       ],
       "Beta (from CO Key)": [
-        null,
-        null,
         null,
         null,
         null,
@@ -2235,7 +2206,6 @@
         "FRAMING*",
         "DIAPHRAGMWALLSYSTEM*",
         "DRAINAGE*",
-        "MAINTENANCE*",
         "MECHANIZEDCARPARKING*",
         "OXYGENREDUCTION*",
         "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
@@ -2435,7 +2405,6 @@
         "rec0micd34z34iNOh",
         "recSgxUVRMGB5hlgk",
         "recyUWbLK62ISuIyc",
-        "rec26Rw9QVsqrZJ7S",
         "recdb95f1aJMB7qM6",
         "recVT90NSamPgvShB",
         "recE9fpt3RnnBxZTo",
@@ -2568,7 +2537,6 @@
         "Flood Barrier",
         "Floor Marking",
         "Fuel Burning Equipment",
-        "Fuel Dispensing Unit",
         "Gondola",
         "Guide Rail",
         "Holding Bay",
@@ -2619,7 +2587,6 @@
         "LANDSCAPE_PLANTINGTROUGH*"
       ],
       "Beta (from CO Key)": [
-        null,
         null,
         null,
         null,
@@ -2880,20 +2847,14 @@
       ],
       "CO Key": [
         "recI7MXX6A2vfAof7",
-        "recn1NsjpkX5xIXUa",
-        "recSaPnKkM3CvGlLX",
-        "recXmp0VEn3M2OWZq"
+        "recn1NsjpkX5xIXUa"
       ],
       "Identified Components": [
         "Circuit Breaker",
-        "Fused Switch",
-        "High Rupturing Capacity Fuse",
-        "Moulded Case Circuit Breaker"
+        "Fused Switch"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
-        null,
         null,
         null
       ],
@@ -2958,11 +2919,8 @@
       "Property Set": [
         "recolxnTTzAMEttc8",
         "recNYOgb5ouY596ZM",
-        "recKkb9qLuTe9jglg",
-        "recmF4Oydfq9JWeLE",
         "recX5UelNJIZxt2lO",
         "recF0lUeyojje3FCg",
-        "recdg5DPsTzA7JiQk",
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
@@ -3898,19 +3856,16 @@
       ],
       "CO Key": [
         "recvA01o5GHsK1rUQ",
-        "recxSwtsuC6j7kAin",
         "recryawf2PXbOZsX6",
         "recEO8a3FyEuU80me"
       ],
       "Identified Components": [
         "Governor",
-        "Governor Rope",
         "Motor",
         "Traction Machine"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null,
         null,
         null
@@ -3940,16 +3895,13 @@
         "recNxZQDwrOc445t7"
       ],
       "CO Key": [
-        "rechpw1Fehn2wP4KK",
-        "recHmayFmbrA4wbJv"
+        "rechpw1Fehn2wP4KK"
       ],
       "Identified Components": [
-        "Burner",
-        "Cooking Hob"
+        "Burner"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null
       ],
       "IFC KEY": "IFCBUR_011",
@@ -4311,16 +4263,13 @@
         "ARC"
       ],
       "CO Key": [
-        "recgvN4S0rvwHUSo6",
-        "recfwslEEnLxAUptI"
+        "recgvN4S0rvwHUSo6"
       ],
       "Identified Components": [
-        "Gridline",
         "Structural Grid"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null
       ],
       "IFC KEY": "IFCGRI_048",
@@ -4359,7 +4308,6 @@
         "recRuFofrT7oeIsB9",
         "recIWYjfxfuzaiwIG",
         "recUyOjOpKAoSo1sn",
-        "recYzZ4EfkIM3V61z",
         "recTQzmL37SjjMcV8",
         "recUQb4YoD5Xemce0",
         "recOGjEZWGSr0HQby",
@@ -4373,15 +4321,12 @@
         "recVEL6CvpDiKksWb",
         "recoHErB5BkNoZYBu",
         "rec8yzzVDiiwDDn82",
-        "recJEJ6prRcd8QOCB",
         "recvwRGrWKNqknxWb",
-        "rec3UAIirXyl8Ajr1",
         "recXYSef2Y83LTPhl",
         "recLBevraTIMutT5m",
         "recVSscERpS8To35U",
         "recxEgAT7nNOzs8Gy",
         "recJQ9yJhwOu7Z3ZT",
-        "recnG8xvGeYvlcKST",
         "rec0y1k617R0Wovp2",
         "recWFMU6GNbnypIP9",
         "recbTHb3DaFLAOr78",
@@ -4399,7 +4344,6 @@
         "Bridging Plate",
         "Ceiling Hanger",
         "Deflector",
-        "Detachable Bridging Plate",
         "Dry Weather Flow",
         "Fire Hose Cradle",
         "Flush Bolt",
@@ -4412,16 +4356,13 @@
         "Lift Guiding Yoke",
         "Lift Landing Door Lock",
         "Lightning Tape",
-        "Locking Device",
-        "M&E Bracket",
-        "Metal capping",
         "Panic Device",
+        "Metal capping",
         "Pawl Device",
         "Pipe Support",
         "Rescue Hook",
         "Safety Gear",
         "Sheave",
-        "Stainless Steel Bracket",
         "Stainless Steel Tapered Round Nut",
         "Strike Pad",
         "Tensioning Device",
@@ -4431,10 +4372,6 @@
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -4489,8 +4426,7 @@
         "TAPEREDNUTS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "BRACKET"
+        "NOTDEFINED"
       ]
     }
   },
@@ -4742,7 +4678,6 @@
         "recxY38DGUGkBHkCU",
         "recZCShGOWj8pgbBB",
         "recnNANH23z3tYwKW",
-        "rec0ICo1s7ko9Q7f3",
         "recbZQNrkRVsbELfB",
         "recqSNWV2wMcYjryN",
         "recmoz9dRf5DiPtwL",
@@ -4759,9 +4694,8 @@
       ],
       "Identified Components": [
         "Kerb",
-        "Lift Shaft Partition",
-        "Screen",
         "Wall",
+        "Screen",
         "Boundary wall/ Boundary fence",
         "Refuse Chute"
       ],
@@ -4772,7 +4706,6 @@
         "PARAPET"
       ],
       "Beta (from CO Key)": [
-        null,
         null,
         null,
         null,
@@ -4875,18 +4808,15 @@
       "CO Key": [
         "recMorAS8SA5S7Vgc",
         "rec7OV9cp0xfztiFl",
-        "recerVnF6iKVWmhCt",
-        "recAe2T3uR2HWyERK"
+        "recerVnF6iKVWmhCt"
       ],
       "Identified Components": [
         "Catch Screen",
         "Cowl",
-        "Mosquito-proof Net",
-        "Vent Cap"
+        "Mosquito-proof Net"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null,
         null,
         null
@@ -4956,17 +4886,14 @@
       ],
       "CO Key": [
         "recEeTZE6uxLbS1uk",
-        "recE2vSQFooZsAYxz",
-        "rec1R1MorbfXi0JZN"
+        "recE2vSQFooZsAYxz"
       ],
       "Identified Components": [
         "Solar Panel",
-        "Solar Water Heater",
-        "Springing Line"
+        "Solar Water Heater"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null,
         null
       ],
@@ -5050,8 +4977,6 @@
         "rec9deXZBT4E6DnY6"
       ],
       "CO Key": [
-        "recvaoTdR1zn8EyzV",
-        "recJrpVClT7AHJHuk",
         "recpGYHfaU6WTMhWn",
         "rec7x5vWegr0UohOB",
         "recvwx9RZJl9KmKFO",
@@ -5060,7 +4985,6 @@
         "recTCXm0bBpyrPnoa",
         "recSUF70Y9DBM4OQb",
         "recZipuCGwb7NJK6F",
-        "recdHu57yyFi5wou7",
         "recxwKkNwxMUrcR2N",
         "recbLq3WqcWfi96i5",
         "rec7SUDWyVHvfc1l4",
@@ -5084,7 +5008,6 @@
         "recOBuPZN7k0ob4LX",
         "rec6iYjASMIsa1bS8",
         "recdCDf1uxjLEMYJ8",
-        "rec5Mdds4u2oHHSRe",
         "recUs0y6FoqW0V5Hi",
         "reccT2mU48EcW5BTv",
         "rec2iY70Fqpvwt80t",
@@ -5092,12 +5015,9 @@
         "recqug30smRayuN8U",
         "recf2ikoDysXOeQyu",
         "reczPMOm0nnNAKl4U",
-        "recnhy5B85EcylGN5",
-        "recBLZKBtLYe1UrxE"
+        "recnhy5B85EcylGN5"
       ],
       "Identified Components": [
-        "Accessible Water Closet Compartment",
-        "Ambulant Disabled Water Closet Compartment",
         "Bed",
         "Fixed Seating",
         "Breathing Apparatus Cabinet",
@@ -5105,7 +5025,6 @@
         "Cabinet",
         "Child Protection Seat",
         "Convex Mirror",
-        "Cubicle",
         "Desk",
         "Diaper Changing Station",
         "Display Case",
@@ -5129,7 +5048,6 @@
         "Refuse Container",
         "Sanitary Bin",
         "Shelf",
-        "Shower Cubicle",
         "Shut-off Valve Pull Box",
         "Soap Dispenser",
         "Table",
@@ -5137,8 +5055,7 @@
         "Toilet Paper Holder",
         "Umbrella",
         "Utility Box",
-        "Water Closet Compartment",
-        "Workstation"
+        "Cubicle"
       ],
       "IFC4 Sub Types (Beta)": [
         "BENCH*",
@@ -5148,8 +5065,6 @@
       ],
       "Beta (from CO Key)": [
         null,
-        null,
-        null,
         true,
         null,
         null,
@@ -5165,14 +5080,11 @@
         null,
         null,
         null,
-        null,
         true,
         null,
         null,
         null,
         true,
-        null,
-        null,
         null,
         null,
         null,
@@ -5237,20 +5149,14 @@
       ],
       "CO Key": [
         "recbmhXS97wJ2wXll",
-        "recF3QDiYQDbxWqHW",
-        "recB3VHFntkXPVonB",
-        "recymCFh4eAQ6kWIo"
+        "recF3QDiYQDbxWqHW"
       ],
       "Identified Components": [
         "Electrical Fixture",
-        "Electrical Socket Outlet",
-        "Single Phase Socket Outlet",
-        "Three Phase Socket Outlet"
+        "Electrical Socket Outlet"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
-        null,
         null,
         null
       ],
@@ -5316,7 +5222,6 @@
         "recoBbrd5ZBLXJGVF",
         "recx0dkDEucNzR7tU",
         "reclydRSHHrqROL4x",
-        "recxoD3HUK5D0Z00r",
         "recgFXmZ1LxB3MSPK",
         "recKq9CMF4S9vsWj0",
         "recVmtK6EQquh4E53",
@@ -5326,18 +5231,12 @@
         "recfKSBxVrHlttTzt",
         "rectr6SFASqup2OCd",
         "rec83sjnIKonVV9Gd",
-        "recIzszTJ5UIoCyDq",
         "recfpjIKmXSsADeET",
         "rec6jOjjwNF2v2k6j",
         "recjN1Hw0153TdN5R",
         "recKzDY3OXQM5r7WD",
         "recBhm7fe0wfhWS0E",
-        "recdPFS4cqB6iR6E1",
-        "recyCALSfq0JVlmbE",
-        "recUU9KwFvdqivS3I",
-        "rec0cWrsG4sGv7aZz",
         "recCc4pLBPA0GSrnI",
-        "recgi3WUF2iwp4M1K",
         "recrkTDz2xAVRzg2m"
       ],
       "Identified Components": [
@@ -5350,7 +5249,7 @@
         "Condensate System",
         "Deep Tunnel Sewerage System",
         "Dry Riser System",
-        "Electrical System",
+        "SPPG",
         "Engineered Smoke Control System",
         "Exhaust Air System",
         "Fire Extinguishing System",
@@ -5376,7 +5275,6 @@
         "Plumbing System",
         "Potable Water System",
         "Pumping Main",
-        "Pumping System",
         "Rainwater System",
         "Recycled Water System",
         "Return Air System",
@@ -5386,18 +5284,12 @@
         "Smoke Control System",
         "Smoke Purging System",
         "Smoke Vent System",
-        "SPPG",
         "Sprinkler System",
         "Steam System",
         "Supply Air System",
         "System",
         "Telecommunication System",
-        "Underground Services",
-        "Vapour Recovery System",
-        "Vent Exhaust System",
-        "Vent Supply System",
         "Vent System",
-        "Watering System Pipe",
         "Wet Riser System"
       ],
       "IFC4 Sub Types (Beta)": [
@@ -5443,16 +5335,9 @@
         null,
         null,
         null,
-        null,
         true,
         null,
         true,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -5474,7 +5359,6 @@
         "CONDENSATEWATER*",
         "DEEPTUNNELSEWERAGE*",
         "DRYRISER*",
-        "ELECTRICAL*",
         "EXHAUSTAIR*",
         "FIREPROTECTION*",
         "FIREFIGHTING*",
@@ -5529,23 +5413,18 @@
         "recMswD2xnFbMBX0R"
       ],
       "CO Key": [
-        "recZnlfO92Cwboylx",
-        "recOyPEtr9Ld6lV2w"
+        "recZnlfO92Cwboylx"
       ],
       "Identified Components": [
-        "Air Condensing Unit",
-        "VRV Unit"
+        "Air Condensing Unit"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
-        null,
         null
       ],
       "IFC KEY": "IFCCON_022",
       "IFC4 Object Types": [],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Predefined Types": []
     }
   },
   {

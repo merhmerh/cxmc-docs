@@ -21,8 +21,8 @@ Features:
     
 Updates:
     ✔ repull check ura rule, and lta 2.3 @done(23-11-08 13:36)
-    ☐ add copy to objecttype (ifcsg)
-    ☐ check identified component for planterbox,refusechute,etc..
+    ✔ add copy to objecttype (ifcsg) @done(23-11-08 15:28)
+    ✔ check identified component for planterbox,refusechute,etc.. @done(23-11-08 15:28)
     ✔ Remove Spacename keep to 4 columns @done(23-11-07 01:34)
     ✔ OccupancyType columns @done(23-11-07 01:34)
 

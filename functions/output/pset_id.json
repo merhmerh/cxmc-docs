@@ -29,7 +29,7 @@
       "IFC4 Entities": [
         "IfcBeam"
       ],
-      "Parameter Value (Sample)": "3H25 (BottomLeft);\n3H32+3H25+3H20 (BottomMiddle);\n3H25 (BottomRight);\n1H13-250 (SideBar);\n1H16-250 (StirrupsLeft);\n1H16-250 (StirrupsMiddle);\n1H16-250 (StirrupsRight);\nU TYPE (StirrupsTypeLeft);\nTORSION, U TYPE (StirrupsTypeLeft);\nTORSION, U TYPE (StirrupsTypeMiddle);\nU TYPE (StirrupsTypeMiddle);\nU TYPE (StirrupsTypeRight);\nTORSION, U TYPE (StirrupsTypeRight);\n3H32+3H25 (TopLeft);\n3H25 (TopMiddle);\n3H32+3H25 (TopRight);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod)",
+      "Parameter Value (Sample)": "BottomLeft: 3H25;\nBottomMiddle: 3H32+3H25+3H20;\nBottomRight: 3H25;\nSideBar: 1H13-250;\nStirrupsLeft: 1H16-250;\nStirrupsMiddle: 1H16-250;\nStirrupsRight: 1H16-250;\nStirrupsTypeLeft: U TYPE, TORSION, U TYPE;\nStirrupsTypeMiddle: TORSION, U TYPE, U TYPE;\nStirrupsTypeRight: U TYPE, TORSION, U TYPE;\nTopLeft: 3H32+3H25;\nTopMiddle: 3H25;\nTopRight: 3H32+3H25;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE",
       "IFC4 Object Types": [
         "TRELLIS*"
       ],
@@ -60,40 +60,6 @@
     }
   },
   {
-    "id": "rec0e058DFeN39aGk",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_ValveTypePressureRelief",
-      "Entity Key": [
-        "rec6v6VG1mhOtznHM"
-      ],
-      "IFC4 Entities": [
-        "IfcValve"
-      ],
-      "IFC4 Object Types": [
-        "AIRADMITTANCE*",
-        "AIRINTAKEVALVE*",
-        "DISCHARGE*",
-        "DRAINOFFCOCK*",
-        "DRAINPLUG*",
-        "LANDINGVALVE*",
-        "OVERPRESSUREPROTECTIONDEVICE*",
-        "SPRINKLERCONTROL*"
-      ],
-      "IFC4 Predefined Types": [
-        "ANTIVACUUM",
-        "CHECK",
-        "DOUBLECHECK",
-        "FAUCET",
-        "FLUSHING",
-        "ISOLATING",
-        "MIXING",
-        "NOTDEFINED",
-        "STOPCOCK"
-      ]
-    }
-  },
-  {
     "id": "rec0ed6lnU3rnJ8bI",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -112,7 +78,6 @@
         "rec4LzMzoW6rOPjF6",
         "recafPQNQwO5vSkYu",
         "recNCy1nPfcabtTBo",
-        "recx3cHk2nmullIgC",
         "recU41uQMTnNoohHZ",
         "recwSH2mZxeYP9ALm",
         "rec4LfmeYlSn8qvrJ",
@@ -121,11 +86,11 @@
         "recTeXQWvk2oKIo5n"
       ],
       "Properties [Data Type]": "FireRating [Label];\nCombustible [Boolean];\nStatus [Label]",
-      "Parameter Value (Actual)": "TEMPORARY (Status)",
+      "Parameter Value (Actual)": "Status: TEMPORARY",
       "IFC4 Entities": [
         "IfcCovering"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "TACTILE*",
         "PIPESLEEVE*"
@@ -159,7 +124,7 @@
       "IFC4 Entities": [
         "IfcFooting"
       ],
-      "Parameter Value (Sample)": "100 (DA1-2_BearingCapacity);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\n4321 (WorkingLoad)",
+      "Parameter Value (Sample)": "DA1-2_BearingCapacity: 100;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500;\nWorkingLoad: 4321",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -194,11 +159,11 @@
         "reczbKBkNs0qsKXhj"
       ],
       "Properties [Data Type]": "ThermalTransmittance [Thermal Transmittance];\nCombustible [Boolean];\nFireRating [Label];\nStatus [Label]",
-      "Parameter Value (Actual)": "EXISTING (Status);\nTEMPORARY (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Status: EXISTING, TEMPORARY, NEW",
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "ThermalTransmittance: 1 W/m2 K;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -248,11 +213,11 @@
         "recSa6BERrXdq2hOs"
       ],
       "Properties [Data Type]": "FlameSpreadClass [Label];\nCladdingType [Label];\nOuterLayer_Combustible [Boolean];\nVegetation_PlantedArea [Area];\nVegetation_PlantName [Label];\nPerforated [Boolean];\nConstructionMethod [Label];\nVegetation_HasCreepers [Boolean];\nExternalReference [Label];\nAntiMosquitoDevice [Boolean]",
-      "Parameter Value (Actual)": "PREFABRICATED AND PREFINISHED (ConstructionMethod)",
+      "Parameter Value (Actual)": "ConstructionMethod: PREFABRICATED AND PREFINISHED",
       "IFC4 Entities": [
         "IfcCovering"
       ],
-      "Parameter Value (Sample)": "CLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nHOMOGENOUS (CladdingType);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nEN 13501-1 FIRE CLASSIFICATION OF CONSTRUCTION PRODUCTS AND BUILDING ELEMENTS (ExternalReference);\nNFPA 285 STANDARD FIRE TEST METHOD FOR EVALUATION OF FIRE PROPAGATION CHARACTERISTICS OF EXTERIOR WALL ASSEMBLIES CONTAINING COMBUSTIBLE COMPONENTS (ExternalReference);\nSS 233 SPECIFICATION FOR FLEXIBLE RUBBER TUBING, RUBBER HOSE AND RUBBER HOSE ASSEMBLIES FOR USE IN LPG VAPOUR PHASE INSTALLATIONS (ExternalReference);\nASTM E108 STANDARD TEST METHODS FOR FIRE TESTS (ExternalReference)",
+      "Parameter Value (Sample)": "FlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nCladdingType: HOMOGENOUS;\nConstructionMethod: PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nExternalReference: EN 13501-1 FIRE CLASSIFICATION OF CONSTRUCTION PRODUCTS AND BUILDING ELEMENTS, NFPA 285 STANDARD FIRE TEST METHOD FOR EVALUATION OF FIRE PROPAGATION CHARACTERISTICS OF EXTERIOR WALL ASSEMBLIES CONTAINING COMBUSTIBLE COMPONENTS;\nExternalReference: SS 233 SPECIFICATION FOR FLEXIBLE RUBBER TUBING, RUBBER HOSE AND RUBBER HOSE ASSEMBLIES FOR USE IN LPG VAPOUR PHASE INSTALLATIONS;\nExternalReference: ASTM E108 STANDARD TEST METHODS FOR FIRE TESTS",
       "IFC4 Object Types": [
         "TACTILE*",
         "PIPESLEEVE*"
@@ -288,7 +253,7 @@
       "IFC4 Entities": [
         "IfcColumn"
       ],
-      "Parameter Value (Sample)": "300 (Breadth);\n40 (Breadth);\n6200 (Breadth);\n8400 (Breadth);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\nCHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n10 mm (Diameter);\n600 (Diameter)",
+      "Parameter Value (Sample)": "Breadth: 300, 40, 6200, 8400;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nMemberSection: CHS500X3.0, 254X254X63 KG/M, RHS600x30x4, CHS500x3.0, RHS600x30x4, CHS500x3.0, 254x254x63 kg/m;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nDiameter: 10 mm, 600",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "COLUMN"
@@ -313,11 +278,11 @@
         "recna4J9NZC28dzmJ"
       ],
       "Properties [Data Type]": "IsLaminated [Boolean];\nExternalReference [Label];\nLS_NaturalComponentElement [Boolean];\nConstructionMethod [Label];\nFunction [Label]",
-      "Parameter Value (Actual)": "OUTRIGGER (Function);\nSAFETY RAILING (Function);\nSECURITY FENCE (Function)",
+      "Parameter Value (Actual)": "Function: OUTRIGGER, SAFETY RAILING, SECURITY FENCE",
       "IFC4 Entities": [
         "IfcRailing"
       ],
-      "Parameter Value (Sample)": "DRAWING NO. <NO> (ExternalReference);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nLTA/SDRE14/4/GRA1/GRA6 STANDARD DETAILS OF ROAD ELEMENTS (ExternalReference)",
+      "Parameter Value (Sample)": "ExternalReference: DRAWING NO. <NO>;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nExternalReference: DRAWING NO. <NO>, LTA/SDRE14/4/GRA1/GRA6 STANDARD DETAILS OF ROAD ELEMENTS",
       "IFC4 Object Types": [
         "BACKGUARD*",
         "BOLLARD*"
@@ -371,7 +336,7 @@
         "recMWbRGGQdOTrTWN"
       ],
       "Properties [Data Type]": "ACN_ActivityGeneratingUseType [Label];\nACN_CloseTime [Label];\nACN_ConnectivityType [Label];\nACN_IsOpen24HoursToPublic [Boolean];\nACN_IsPavingSpecified [Boolean];\nACN_OpenTime [Label];\nACN_PavingSpecification [Label]",
-      "Parameter Value (Actual)": "THROUGHBLOCKLINK (ACN_ConnectivityType)",
+      "Parameter Value (Actual)": "ACN_ConnectivityType: THROUGHBLOCKLINK",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -460,13 +425,16 @@
         "rec4r9b8tfzf1eGrz",
         "recu1nXyrgKivuFX8",
         "recMp18EjSsnr6oCj",
-        "recXywwfBDy8iAFGd"
+        "recXywwfBDy8iAFGd",
+        "reciC4DPWK7co8PBV",
+        "rec55PCdw4EpTHrag",
+        "recFFHRnRLvZUlZKO"
       ],
-      "Properties [Data Type]": "BatteryOperated [Boolean];\nChargeableBatteryOperated [Boolean];\nHandle [Boolean];\nIntegratedCheckValve [Boolean];\nNormallyClosed [Boolean];\nOpeningDiameter [Length];\nSensorOperated [Boolean];\nVacuumBreaker [Boolean];\nWithAirFilterSilencer [Boolean];\nWithPositionSensor [Boolean];\nIsBuiltIn [Boolean];\nAirTight [Boolean];\nLockable [Boolean];\nManualOverride [Boolean];\nFlowRate [VolumetricFlowRate]",
+      "Properties [Data Type]": "BatteryOperated [Boolean];\nChargeableBatteryOperated [Boolean];\nHandle [Boolean];\nIntegratedCheckValve [Boolean];\nNormallyClosed [Boolean];\nOpeningDiameter [Length];\nSensorOperated [Boolean];\nVacuumBreaker [Boolean];\nWithAirFilterSilencer [Boolean];\nWithPositionSensor [Boolean];\nIsBuiltIn [Boolean];\nAirTight [Boolean];\nLockable [Boolean];\nManualOverride [Boolean];\nFlowRate [VolumetricFlowRate];\nFaucetOperation [Label];\nFaucetType [Label];\nDownstreamPressure [Label]",
       "IFC4 Entities": [
         "IfcValve"
       ],
-      "Parameter Value (Sample)": "450 mm (OpeningDiameter)",
+      "Parameter Value (Sample)": "OpeningDiameter: 450 mm;\nFaucetOperation: TIMED SELF CLOSING;\nFaucetType: SPRAY PAINTING ROOM",
       "IFC4 Object Types": [
         "AIRADMITTANCE*",
         "AIRINTAKEVALVE*",
@@ -505,7 +473,7 @@
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "DOUBLE T SLAB (TypeDesignator; Function);\nHOLLOW CORE (TypeDesignator)",
+      "Parameter Value (Sample)": "TypeDesignator: DOUBLE T SLAB, HOLLOW CORE",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -535,7 +503,7 @@
       "IFC4 Entities": [
         "IfcPipeSegment"
       ],
-      "Parameter Value (Sample)": "500 mm (NominalDiameter);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "NominalDiameter: 500 mm;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "BYPASSCHANNEL*",
         "RAINWATEROUTLET*",
@@ -573,7 +541,7 @@
         "recSdim6zWsq3HgxC"
       ],
       "Properties [Data Type]": "AirTreatmentDevice [Boolean];\nAutomaticallyActivated [Boolean];\nOneDirectionFlap [Boolean];\nReplacementAir [Boolean];\nCombustible [Boolean];\nFunction [Label]",
-      "Parameter Value (Actual)": "AIR DIFFUSER (Function);\nAIR VENT (Function);\nVENTILATION OPENING (Function)",
+      "Parameter Value (Actual)": "Function: AIR DIFFUSER, AIR VENT, VENTILATION OPENING",
       "IFC4 Entities": [
         "IfcAirTerminal"
       ],
@@ -652,7 +620,7 @@
       "IFC4 Entities": [
         "IfcUnitaryEquipment"
       ],
-      "Parameter Value (Sample)": "4 (AirChangePerHour);\n12 (AirChangePerHour);\n20 (AirChangePerHour);\n10 (AirChangePerHour);\n15000 (AirFlowRate);\n2000 m^3/h (AirFlowRate)",
+      "Parameter Value (Sample)": "AirChangePerHour: 4, 12, 20, 10;\nAirFlowRate: 15000, 2000 m^3/h",
       "IFC4 Object Types": [
         "FANCOILUNIT*"
       ],
@@ -691,7 +659,7 @@
       "IFC4 Entities": [
         "IfcSite"
       ],
-      "Parameter Value (Sample)": "FIRM GROUND (Condition);\nSOIL (Condition);\nNEW (ConstructionPhase);\nRECONSTRUCTION (ConstructionPhase);\nREDEVELOPMENT (ConstructionPhase);\nEXISTING (ConstructionPhase)",
+      "Parameter Value (Sample)": "Condition: FIRM GROUND, SOIL;\nConstructionPhase: NEW, RECONSTRUCTION, REDEVELOPMENT, EXISTING",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -716,7 +684,7 @@
       "IFC4 Entities": [
         "IfcSpace"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n8000 (Height)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000;\nHeight: 8000",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -779,7 +747,7 @@
       "IFC4 Entities": [
         "IfcDamper"
       ],
-      "Parameter Value (Sample)": "NFPA 55 COMPRESSED GASES AND CRYOGENIC FLUIDS CODE (ExternalReference);\nSS 489 SPECIFICATION FOR FIRE SHUTTERS (ExternalReference);\n4 (AirChangePerHour);\n12 (AirChangePerHour);\n20 (AirChangePerHour);\n10 (AirChangePerHour)",
+      "Parameter Value (Sample)": "ExternalReference: NFPA 55 COMPRESSED GASES AND CRYOGENIC FLUIDS CODE, SS 489 SPECIFICATION FOR FIRE SHUTTERS;\nAirChangePerHour: 4, 12, 20, 10;\nExternalReference: SS 489 SPECIFICATION FOR FIRE SHUTTERS",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FIREDAMPER",
@@ -870,7 +838,7 @@
       "IFC4 Entities": [
         "IfcInterceptor"
       ],
-      "Parameter Value (Sample)": "PUB/WRN/STD/040 PUB/WRN/STD/041 STANDARD GREASE TRAP (ExternalReference);\nBS-EN1825 GREASE SEPARATORS. PRINCIPLES OF DESIGN, PERFORMANCE AND TESTING, MARKING AND QUALITY CONTROL (ExternalReference);\nASME A112.14.3 HYDROMECHANICAL GREASE INTERCEPTORS (ExternalReference)",
+      "Parameter Value (Sample)": "ExternalReference: PUB/WRN/STD/040 PUB/WRN/STD/041 STANDARD GREASE TRAP, BS-EN1825 GREASE SEPARATORS. PRINCIPLES OF DESIGN, PERFORMANCE AND TESTING, MARKING AND QUALITY CONTROL, ASME A112.14.3 HYDROMECHANICAL GREASE INTERCEPTORS",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "GREASE",
@@ -947,11 +915,11 @@
         "recCKEz3a4JDY7r5K"
       ],
       "Properties [Data Type]": "LadderType [Label];\nSectionFabricationMethod [Label];\nFunction [Label];\nConstructionMethod [Label];\nReinforcementSteelGrade [Label];\nAccreditation_PAS [Boolean];\nPerforated [Boolean];\nReferTo2DDetail [Label];\nFireExit [Boolean]",
-      "Parameter Value (Actual)": "ACCESS LADDER (Function);\nACCESS STAIRCASE (Function);\nEXTERNAL EXIT STAIRCASE (Function)",
+      "Parameter Value (Actual)": "Function: ACCESS LADDER;\nFunction: ACCESS STAIRCASE, EXTERNAL EXIT STAIRCASE",
       "IFC4 Entities": [
         "IfcStair"
       ],
-      "Parameter Value (Sample)": "CAT LADDER (LadderType);\nSHIP LADDER (LadderType);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade)",
+      "Parameter Value (Sample)": "LadderType: CAT LADDER, SHIP LADDER;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500",
       "IFC4 Object Types": [
         "LADDER*"
       ],
@@ -1058,7 +1026,6 @@
         "rec8xFYIjNHeTBBbY",
         "recdB0wZN0jXfImac",
         "recGTif4T7KAHC6Ie",
-        "rec6X6CcSQLggj3NO",
         "recniA411xv0dnAma",
         "recraPNREjhYPn7US",
         "recz6vr8hcRQz3ptE",
@@ -1132,8 +1099,6 @@
         "recLaEsRqGgpAUhJ9",
         "rec4aFzmd6AgVQLhG",
         "rec2BMsD9gXA4nt9B",
-        "recIzVUu2QTHCNUk6",
-        "recOky4KtQt9xcXhB",
         "recq3w1dOtFGvbWKU",
         "recTsqebtLUuHmFzS",
         "rechHA4edqpetC8XF",
@@ -1141,11 +1106,10 @@
         "reckRLKQd6Kq3RXtL",
         "recHIkHmkcd2IYw37",
         "recOMKWt62WzdGH1c",
-        "recz4kBJTAH8ocpbi",
         "recPhvrdVKK6TuS0E"
       ],
       "Properties [Data Type]": "MaterialGrade [Label];\nMaterial [Label];\nMaterial_MeltingPoint [Label];\nThermalInsulation_Material [Label];\nThermalInsulation_Material_MeltingPoint [Label]",
-      "Parameter Value (Actual)": "ALUMINUM (MaterialGrade)",
+      "Parameter Value (Actual)": "MaterialGrade: ALUMINUM",
       "IFC4 Entities": [
         "IfcAirTerminal",
         "IfcBeam",
@@ -1191,7 +1155,7 @@
         "IfcWasteTerminal",
         "IfcWindow"
       ],
-      "Parameter Value (Sample)": "C60/75 (MaterialGrade);\nCONCRETE (MaterialGrade);\nCOMPOSITE (MaterialGrade);\nTIMBER (MaterialGrade);\nSTORAGE AND GENERAL (MaterialGrade);\nINTUMESCENT PAINT (Material);\nSTEEL (Material);\nTIMBER (Material);\nENGINEERED TIMBER (Material);\nCONCRETE (Material);\nWOOD (Material);\nBRICK (Material);\nREINFORCED CONCRETE (Material);\nMEN'S RESTROOM (Material);\nSAND, COREY DUST, GRANITE DUST, GRAVEL, CRUSHER RUN, RECYCLED AGGREGATES (Material);\nWATERPROOFING (Material);\nNON-SKID ALUMINIUM (Material);\nMET (Material);\nFLEXIBLE METAL (Material);\nLIQUID TIGHT FLEXIBLE METAL (Material);\nRIGID METAL (Material);\nPLASTIC (Material);\nNYLON (Material);\nMETAL (Material);\nSTAINLESS STEEL, MILD STEEL (Material);\nCONTRASTING COLOUR BAND (Material);\nNON-SKID TILES (Material);\nTILES (Material);\nCARPET (Material);\nVINYL (Material);\nGLASS (Material);\nSPECIAL EDUCATION SCHOOL (Material);\nGALVANIZED MILD STEEL HEAVY DUTY (Material);\nHEAVY DUTY CAST IRON (Material);\nHDPE (Material);\nHIGH DENSITY POLYETHYLENE (Material);\nLOTUS-ROOT CONNECTION SYSTEM (Material);\nPHENOLIC (Material);\nINTUMESCENT GLASS (Material);\nHEAVY GAUGE STEEL (Material);\nGALVANISED STEEL (Material);\nPLASTERED (Material);\nFAIR-FACED BRICKWALLS (Material);\nSAMPLES OF CONCRETE ELEMENTS ARE AS FOLLOWS: INTERNAL WALL, COLUMN AND BEAM, STAIRCASE, KERBS, RAMPS, SERVICES RISERS, PARAPETS, ROOF , ROOMS THAT USED PRECAST PANEL, LIGHT WEIGHT PANEL, PPVC, SUSPENDED STRUCTURES LIKE PLANTER BOXES, BAY WINDOWS, LEDGES ETC (Material);\nUPVC (SS 213), DUCTILE IRON (BS EN 598), HUBLESS CAST IRON WITH EPOXY COATING (BS EN 877), POLYPROPYLENE (BS EN 1451-1), HDPE (BS EN 1519) (Material);\nDUCTILE IRON (Material);\nLINED CAST IRON (Material);\nVITRIFIED CLAY (Material);\nUPVC (SS 272), DUCTILE IRON (BS EN 598), VITRIFIED CLAY (BS EN 295), REINFORCED CONCRETE (RC) (SS 183/BS EN 1916), POLYMER CONCRETE (BS EN 14636), HDPE (BS EN 1519) (Material);\nCAST IRON (Material);\nUPVC (Material);\nRC PIPE (Material);\nPOLYETHYLENE (Material);\nVITRIFIED CLAY BS EN 295, REINFORCED CONCRETE SS183, REINFORCED CONCRETE BS EN 1916, POLYMER CONCRETE BS EN 14636, DUCTILE IRON BS EN 598 (Material);\nSTAIR (Material);\nNON-DRIP ACRYLIC (Material);\nNATURAL STONE (Material);\nENGINEERED STONE (Material);\nCAST IRON [SS30] (Material);\nPLANT (Material);\nGLASS BLOCK (Material);\nVAPOUR BARRIER (Material);\nCERAMIC TILES (Material);\nAUTOCLAVED LIGHTWEIGHT CONCRETE (Material);\nWALL PAPER (Material);\nPLASTERBOARD (Material);\nUPVC (SS 272), DUCTILE IRON (BS EN 598), HDPE (BS EN 1519 (Material);\nLEDGE (Material)",
+      "Parameter Value (Sample)": "MaterialGrade: C60/75, CONCRETE, COMPOSITE, TIMBER, STORAGE AND GENERAL;\nMaterial: INTUMESCENT PAINT, STEEL, TIMBER, ENGINEERED TIMBER, CONCRETE, WOOD, BRICK, REINFORCED CONCRETE, MEN'S RESTROOM;\nMaterial: STEEL, REINFORCED CONCRETE;\nMaterial: SAND, COREY DUST, GRANITE DUST, GRAVEL, CRUSHER RUN, RECYCLED AGGREGATES;\nMaterial: WATERPROOFING;\nMaterial: NON-SKID ALUMINIUM;\nMaterial: MEN'S RESTROOM;\nMaterial: MET;\nMaterial: FLEXIBLE METAL, LIQUID TIGHT FLEXIBLE METAL, RIGID METAL, MET;\nMaterial: REINFORCED CONCRETE;\nMaterial: STEEL, INTUMESCENT PAINT, ENGINEERED TIMBER, CONCRETE, BRICK, REINFORCED CONCRETE, MEN'S RESTROOM;\nMaterial: PLASTIC, BRICK, NYLON, STEEL, METAL;\nMaterial: STAINLESS STEEL, MILD STEEL, PLASTIC, TIMBER;\nMaterial: TIMBER, CONTRASTING COLOUR BAND, WOOD, NON-SKID TILES, TILES, CARPET, VINYL;\nMaterial: GLASS;\nMaterial: PLASTIC, NYLON;\nMaterial: GLASS, SPECIAL EDUCATION SCHOOL;\nMaterial: GALVANIZED MILD STEEL HEAVY DUTY;\nMaterial: HEAVY DUTY CAST IRON, HDPE, HIGH DENSITY POLYETHYLENE;\nMaterial: LOTUS-ROOT CONNECTION SYSTEM, PHENOLIC, GLASS, INTUMESCENT GLASS;\nMaterial: HEAVY GAUGE STEEL, STEEL, GALVANISED STEEL;\nMaterial: PLASTIC, PLASTERED, TIMBER, FAIR-FACED BRICKWALLS, SAMPLES OF CONCRETE ELEMENTS ARE AS FOLLOWS: INTERNAL WALL, COLUMN AND BEAM, STAIRCASE, KERBS, RAMPS, SERVICES RISERS, PARAPETS, ROOF , ROOMS THAT USED PRECAST PANEL, LIGHT WEIGHT PANEL, PPVC, SUSPENDED STRUCTURES LIKE PLANTER BOXES, BAY WINDOWS, LEDGES ETC;\nMaterial: BRICK;\nMaterial: UPVC (SS 213), DUCTILE IRON (BS EN 598), HUBLESS CAST IRON WITH EPOXY COATING (BS EN 877), POLYPROPYLENE (BS EN 1451-1), HDPE (BS EN 1519), DUCTILE IRON, LINED CAST IRON;\nMaterial: MET, DUCTILE IRON, VITRIFIED CLAY;\nMaterial: UPVC (SS 213), DUCTILE IRON (BS EN 598), HUBLESS CAST IRON WITH EPOXY COATING (BS EN 877), POLYPROPYLENE (BS EN 1451-1), HDPE (BS EN 1519);\nMaterial: UPVC (SS 213), DUCTILE IRON (BS EN 598), HUBLESS CAST IRON WITH EPOXY COATING (BS EN 877), POLYPROPYLENE (BS EN 1451-1), HDPE (BS EN 1519), UPVC (SS 272), DUCTILE IRON (BS EN 598), VITRIFIED CLAY (BS EN 295), REINFORCED CONCRETE (RC) (SS 183/BS EN 1916), POLYMER CONCRETE (BS EN 14636), HDPE (BS EN 1519), CAST IRON, DUCTILE IRON, UPVC, VITRIFIED CLAY, RC PIPE, HDPE, MET, STAINLESS STEEL, MILD STEEL, POLYETHYLENE, VITRIFIED CLAY BS EN 295, REINFORCED CONCRETE SS183, REINFORCED CONCRETE BS EN 1916, POLYMER CONCRETE BS EN 14636, DUCTILE IRON BS EN 598, REINFORCED CONCRETE;\nMaterial: STAIR;\nMaterial: PLASTIC, MET, MEN'S RESTROOM;\nMaterial: NON-DRIP ACRYLIC;\nMaterial: ENGINEERED TIMBER, TIMBER, BRICK, CONCRETE, NYLON, PLASTIC, NATURAL STONE, WOOD, MEN'S RESTROOM, GLASS, ENGINEERED STONE, STEEL, REINFORCED CONCRETE;\nMaterial: CONCRETE, REINFORCED CONCRETE, CAST IRON [SS30];\nMaterial: PLANT, REINFORCED CONCRETE;\nMaterial: TIMBER, MET;\nMaterial: STEEL, MET;\nMaterial: TILES, CONCRETE, GLASS, ENGINEERED TIMBER, BRICK, GLASS BLOCK, VAPOUR BARRIER, PLASTIC, REINFORCED CONCRETE, NYLON, CERAMIC TILES, AUTOCLAVED LIGHTWEIGHT CONCRETE, WALL PAPER, PLASTERBOARD, PLASTERED, VINYL;\nMaterial: PHENOLIC, GLASS;\nMaterial: UPVC (SS 213), DUCTILE IRON (BS EN 598), HUBLESS CAST IRON WITH EPOXY COATING (BS EN 877), POLYPROPYLENE (BS EN 1451-1), HDPE (BS EN 1519), UPVC (SS 272), DUCTILE IRON (BS EN 598), HDPE (BS EN 1519;\nMaterial: LEDGE",
       "IFC4 Object Types": [
         "TRELLIS*",
         "SURROUNDINGBUILDING*",
@@ -1266,7 +1230,6 @@
         "FRAMING*",
         "DIAPHRAGMWALLSYSTEM*",
         "DRAINAGE*",
-        "MAINTENANCE*",
         "MECHANIZEDCARPARKING*",
         "OXYGENREDUCTION*",
         "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
@@ -1340,7 +1303,6 @@
         "CONDENSATEWATER*",
         "DEEPTUNNELSEWERAGE*",
         "DRYRISER*",
-        "ELECTRICAL*",
         "EXHAUSTAIR*",
         "FIREPROTECTION*",
         "FIREFIGHTING*",
@@ -1500,7 +1462,6 @@
         "FUMEHOODEXHAUST",
         "SMOKEDAMPER",
         "NOTDEFINED",
-        "BRACKET",
         "INSPECTIONCHAMBER",
         "MANHOLE",
         "METERCHAMBER",
@@ -1643,7 +1604,7 @@
       "IFC4 Entities": [
         "IfcWall"
       ],
-      "Parameter Value (Sample)": "H20-150 (HorizontalRebar);\nH25-150 (VerticalRebar);\nH32-150+H25-150 (VerticalRebar);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
+      "Parameter Value (Sample)": "HorizontalRebar: H20-150;\nVerticalRebar: H25-150, H32-150+H25-150;\nStirrupsType: DOUBLE U LINK, CLOSE LINK, SPORTS & RECREATION, U TYPE,  C/L TYPE;\nStirrups: 1H10-150-300, T10-150-300, 1H16-250",
       "IFC4 Object Types": [
         "KERB*",
         "BARRIER*",
@@ -1712,11 +1673,11 @@
         "recDpXRMHsMIJw6v7"
       ],
       "Properties [Data Type]": "Hose_NominalDiameter [Length];\nID [Label];\nPrivate [Boolean];\nPublic [Boolean];\nStatus [Label]",
-      "Parameter Value (Actual)": "TEMPORARY (Status)",
+      "Parameter Value (Actual)": "Status: TEMPORARY",
       "IFC4 Entities": [
         "IfcFireSuppressionTerminal"
       ],
-      "Parameter Value (Sample)": "50 mm (Hose_NominalDiameter)",
+      "Parameter Value (Sample)": "Hose_NominalDiameter: 50 mm",
       "IFC4 Object Types": [
         "FOAMINLET*",
         "HOSE*",
@@ -1747,7 +1708,7 @@
       "IFC4 Entities": [
         "IfcFan"
       ],
-      "Parameter Value (Sample)": "SUPPORTING PERFORMANCE SPACES (ApplicationOfFan);\nEXHAUST AIR (ApplicationOfFan);\nSWAN NECK (FanMountingType)",
+      "Parameter Value (Sample)": "ApplicationOfFan: SUPPORTING PERFORMANCE SPACES, EXHAUST AIR;\nFanMountingType: SWAN NECK",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1770,7 +1731,7 @@
       "IFC4 Entities": [
         "IfcCovering"
       ],
-      "Parameter Value (Sample)": "240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "Parameter Value (Sample)": "Length: 240 L, 2400mm, 40000, 1350;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000",
       "IFC4 Object Types": [
         "TACTILE*",
         "PIPESLEEVE*"
@@ -1824,7 +1785,7 @@
       "IFC4 Entities": [
         "IfcFlowMeter"
       ],
-      "Parameter Value (Sample)": "10 mm (Diameter);\n600 (Diameter);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
+      "Parameter Value (Sample)": "Diameter: 10 mm, 600;\nLength: 240 L, 2400mm, 40000, 1350",
       "IFC4 Object Types": [
         "FUELMETER*"
       ],
@@ -1854,7 +1815,7 @@
       "IFC4 Entities": [
         "IfcTransportElement"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000;\nLength: 240 L, 2400mm, 40000, 1350",
       "IFC4 Object Types": [
         "BINLIFTER*",
         "LIFT*"
@@ -1886,7 +1847,7 @@
       "IFC4 Entities": [
         "IfcStair"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "LADDER*"
       ],
@@ -1921,7 +1882,7 @@
       "IFC4 Entities": [
         "IfcDuctSegment"
       ],
-      "Parameter Value (Sample)": "BS 476 PART 5 METHOD OF TEST FOR IGNITABILITY (ExternalReference);\nCLASS 0 (Insulation_FlameSpreadClass);\nPREFABRICATED (ConstructionMethod);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "ExternalReference: BS 476 PART 5 METHOD OF TEST FOR IGNITABILITY;\nInsulation_FlameSpreadClass: CLASS 0;\nConstructionMethod: PREFABRICATED;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLEXIBLESEGMENT",
@@ -2119,7 +2080,7 @@
       "IFC4 Entities": [
         "IfcSensor"
       ],
-      "Parameter Value (Sample)": "POINT TYPE (SmokeDetectorType);\nOPTIONAL (SmokeDetectorType);\nOPTICAL BEAM LINE SMOKE DETECTOR (SmokeDetectorType);\nPOINT SMOKE DETECTOR (SmokeDetectorType)",
+      "Parameter Value (Sample)": "SmokeDetectorType: POINT TYPE, OPTIONAL, OPTICAL BEAM LINE SMOKE DETECTOR, POINT SMOKE DETECTOR",
       "IFC4 Object Types": [
         "AIRIMPURITIESSENSOR*",
         "BEAMDETECTOR*",
@@ -2162,11 +2123,11 @@
         "reckaCVJEXtrNcfRp"
       ],
       "Properties [Data Type]": "Inclination [Integer];\nPanelSpacing [Length];\nPerforationDiameter [Length];\nPorosity [Label];\nRetractable [Boolean];\nSpacing [Length];\nLS_NaturalComponentElement [Boolean];\nFlameSpreadClass [Label];\nFunction [Label]",
-      "Parameter Value (Actual)": "SHELTER (Function);\nSUPERMARKET (Function)",
+      "Parameter Value (Actual)": "Function: SHELTER, SUPERMARKET",
       "IFC4 Entities": [
         "IfcShadingDevice"
       ],
-      "Parameter Value (Sample)": "50% (Porosity);\n0.2m/s (Spacing);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass)",
+      "Parameter Value (Sample)": "Porosity: 50%;\nSpacing: 0.2m/s;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4",
       "IFC4 Object Types": [
         "CANOPY*",
         "DROPDOWNPANEL*",
@@ -2213,46 +2174,6 @@
     }
   },
   {
-    "id": "recKkb9qLuTe9jglg",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_TransportElementTypeEscalator",
-      "Entity Key": [
-        "recTKQhG1UHX2t846"
-      ],
-      "PR Key (Component_Parameter)": [
-        "rec2H4BMEe9cQwin5",
-        "rec75iSKT0hwfbQOo",
-        "rec8sJw4SQEb5FMqF",
-        "recDQwlvQKy9uSeFG",
-        "recIjZpggDLPo8i7p",
-        "recIjSXETN486fWTY",
-        "recJEItcyx5XAHc3K",
-        "recKCbnftC6pkoig2",
-        "recLEbaskgJVlnM2M",
-        "recNJQKTvGKOt99IW",
-        "recQnpRYXtUBL3NAt",
-        "recZISpfYChF3GgJs",
-        "recdNgYpLMwOQgay2",
-        "recmJV1LjPxaa6vSV",
-        "recpAOr3uYQotXUnU",
-        "recAMvPfUiZt9sk57",
-        "recBXNhESlae3RxmU"
-      ],
-      "IFC4 Entities": [
-        "IfcTransportElement"
-      ],
-      "IFC4 Object Types": [
-        "BINLIFTER*",
-        "LIFT*"
-      ],
-      "IFC4 Predefined Types": [
-        "ESCALATOR",
-        "MOVINGWALKWAY"
-      ]
-    }
-  },
-  {
     "id": "recKkgX5YuQXkV4Vv",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -2272,7 +2193,7 @@
       "IFC4 Entities": [
         "IfcFooting"
       ],
-      "Parameter Value (Sample)": "S1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n300 (Breadth);\n40 (Breadth);\n6200 (Breadth);\n8400 (Breadth);\n2500 (Depth);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "Parameter Value (Sample)": "Mark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nBreadth: 300, 40, 6200, 8400;\nDepth: 2500, 300;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -2453,11 +2374,11 @@
         "recYkGtT4xrBdzDI2"
       ],
       "Properties [Data Type]": "BicycleLotCount [Integer];\nBicycleRack_Type [Label];\nAI_HydrogenChloride [Label];\nAI_SulphurTrioxideAndAcidGases [Label];\nFamilyLot [Boolean];\nLotNumber [Label];\nRigidFrameLessThan7.5m [Boolean];\nVegetation_HasCreepers [Boolean];\nTED_Mercury [Label];\nRefugeSpace_Type [Integer];\nEVLot [Boolean];\nOpenAtGrade [Boolean];\nParkingType [Label];\nTED_Sulphide [Label];\nTED_Chlorine [Label];\nTED_Detergent [Label];\nTED_MetalsInTotal [Label];\nTED_Chromium [Label];\nTED_Colour [Label];\nTED_Calcium [Label];\nTED_Phosphate [Label];\nTED_Selenium [Label];\nTED_ChemicalOxygenDemand [Label];\nTED_Cyanide [Label];\nTED_PhenolicCompound [Label];\nTED_Zinc [Label];\nTED_Arsenic [Label];\nTED_Nickel [Label];\nTED_Tin [Label];\nTED_BiochemicalOxygenDemand [Label];\nTED_Barium [Label];\nTED_TotalSuspendedSolid [Label];\nTED_TemperatureOfDischarge [Label];\nTED_PHValue [Label];\nTED_Sulphate [Label];\nTED_Copper [Label];\nTED_Cadmium [Label];\nTED_Boron [Label];\nTED_TotalDissolvedSolid [Label];\nTED_GreaseAndOil [Label];\nTED_Beryllium [Label];\nTED_Chloride [Label];\nTED_Iron [Label];\nTED_Nitrate [Label];\nTED_Lead [Label];\nTED_Magnesium [Label];\nTED_Manganese [Label];\nTED_Silver [Label];\nAI_ParticulateSubstances [Label];\nAI_Arsenic [Label];\nAI_OxidesOfNitrogen [Label];\nAI_DioxinsAndFurans [Label];\nAI_SulphurDioxide [Label];\nAI_Lead [Label];\nAI_Copper [Label];\nAI_AmmoniaAndAmmonium [Label];\nAI_HydrogenSulphide [Label];\nAI_CarbonMonoxide [Label];\nAI_StyreneMonomer [Label];\nAI_Cadmium [Label];\nAI_VinylChlorideMonomer [Label];\nAI_Formaldehyde [Label];\nAI_Chlorine [Label];\nAI_Mercury [Label];\nAI_FluorineAndHydrofluoricAcid [Label];\nAI_SulphurTrioxideOrSulphuricAcidMist [Label];\nAI_Benzene [Label];\nAI_EthyleneOxide [Label];\nAI_Antimony [Label];\nBarrierFreeAccessibility [Boolean];\nTopLevel [Real];\nMark [Label];\nPerforated [Boolean];\nLS_NaturalComponentElement [Boolean];\nEquipmentType [Label];\nUnitNumber [Label];\nCarParking_ServedByCarLift [Boolean]",
-      "Parameter Value (Actual)": "1 (BicycleLotCount);\n2 (BicycleLotCount);\nDOUBLE TIER (BicycleRack_Type);\nSINGLE TIER WHEEL RACK (BicycleRack_Type);\nSINGLE TIER U BAR (BicycleRack_Type);\nBICYCLE (ParkingType);\nMOTOR-CYCLE (ParkingType)",
+      "Parameter Value (Actual)": "BicycleLotCount: 1, 2;\nBicycleRack_Type: DOUBLE TIER, SINGLE TIER WHEEL RACK, SINGLE TIER U BAR;\nParkingType: BICYCLE, MOTOR-CYCLE",
       "IFC4 Entities": [
         "IfcBuildingElementProxy"
       ],
-      "Parameter Value (Sample)": "RIGID-FRAMED VEHICLE (RigidFrameLessThan7.5m);\n1 (RefugeSpace_Type);\nSHD-50 m, SHD3.423 m (TopLevel);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\nRORO COMPACTOR (EquipmentType);\n5 (UnitNumber)",
+      "Parameter Value (Sample)": "RigidFrameLessThan7.5m: RIGID-FRAMED VEHICLE;\nRefugeSpace_Type: 1;\nTopLevel: SHD-50 m, SHD3.423 m;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nEquipmentType: RORO COMPACTOR;\nUnitNumber: 5",
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
@@ -2613,11 +2534,11 @@
         "recZiPWxiBZomvTit"
       ],
       "Properties [Data Type]": "BeddingType [Label];\nCalculatedDN [Label];\nCalculatedQapproved [Label];\nFlowRate [VolumetricFlowRate];\nPWCS_VolumeOfWastePerDay [Label];\nDemountableStructureAbovePipe [Boolean];\nStatus [Label];\nInsulation_FlameSpreadClass [Label];\nCombustible [Boolean];\nFunction [Label];\nPressureRating [Label];\nPerforated [Boolean];\nPre-insulated [Boolean];\nHighTemperatureResistant [Label];\nCorrosionResistant [Boolean];\nDischargeStack [Label]",
-      "Parameter Value (Actual)": "NEW (Status);\nEXISTING (Status);\nABANDONED (Status);\nAIR PIPE (Function);\nBLOWDOWN DISCHARGE PIPE (Function);\nCOMPRESSED AIR TUBES (Function);\nCONVEYANCE PIPE (Function);\nDRAIN-LINE (Function);\nDRAIN-OFF DISCHARGE PIPE (Function);\nFILLING PIPE (Function);\nOUTLET PIPE (Function);\nOVERFLOW DISCHARGE PIPE (Function);\nRAIN WATER PIPE (Function);\nTEMPORARY STORAGE SECTION (Function);\nVENT PIPE (Function);\nWASTE CONVEYANCE PIPE (Function);\nSHORT PIPE (Function);\nMAIN (DischargeStack);\nSECONDARY (DischargeStack)",
+      "Parameter Value (Actual)": "Status: NEW, EXISTING, ABANDONED;\nFunction: AIR PIPE, BLOWDOWN DISCHARGE PIPE, COMPRESSED AIR TUBES, CONVEYANCE PIPE, DRAIN-LINE, DRAIN-OFF DISCHARGE PIPE, FILLING PIPE, OUTLET PIPE, OVERFLOW DISCHARGE PIPE, RAIN WATER PIPE, TEMPORARY STORAGE SECTION, VENT PIPE, WASTE CONVEYANCE PIPE;\nFunction: SHORT PIPE;\nDischargeStack: MAIN, SECONDARY",
       "IFC4 Entities": [
         "IfcPipeSegment"
       ],
-      "Parameter Value (Sample)": "TYPE 1, TYPE 2, TYPE 3 (BeddingType);\n15000 L (PWCS_VolumeOfWastePerDay);\nCLASS 0 (Insulation_FlameSpreadClass)",
+      "Parameter Value (Sample)": "BeddingType: TYPE 1, TYPE 2, TYPE 3;\nPWCS_VolumeOfWastePerDay: 15000 L;\nInsulation_FlameSpreadClass: CLASS 0",
       "IFC4 Object Types": [
         "BYPASSCHANNEL*",
         "RAINWATEROUTLET*",
@@ -2650,9 +2571,7 @@
         "IfcCondenser"
       ],
       "IFC4 Object Types": [],
-      "IFC4 Predefined Types": [
-        "NOTDEFINED"
-      ]
+      "IFC4 Predefined Types": []
     }
   },
   {
@@ -2675,11 +2594,11 @@
         "rec9ujLt9mKCU0moG"
       ],
       "Properties [Data Type]": "AcousticRating [Label];\nThermalTransmittance [Thermal Transmittance];\nCombustible [Boolean];\nStatus [Label];\nFireRating [Label]",
-      "Parameter Value (Actual)": "EXISTING (Status);\nTEMPORARY (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Status: EXISTING, TEMPORARY, NEW",
       "IFC4 Entities": [
         "IfcRoof"
       ],
-      "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "ThermalTransmittance: 1 W/m2 K;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLAT_ROOF",
@@ -2697,11 +2616,8 @@
       ],
       "PR Key (Component_Parameter)": [
         "rec1z3WYvE6nnGK0b",
-        "recgw89KZkQNJLbof",
-        "recxT7fHeKI2Jrebc"
+        "recgw89KZkQNJLbof"
       ],
-      "Properties [Data Type]": "Function [Label]",
-      "Parameter Value (Actual)": "OBSTRUCTION (Function)",
       "IFC4 Entities": [
         "IfcElement"
       ],
@@ -2747,13 +2663,57 @@
         "rec5sBrLi6Zo3EkE7",
         "rec6FqcP3psfxUp00",
         "rec03QHNhuWnoS1bR",
-        "recnjPf7OkHNkyJEN"
+        "recnjPf7OkHNkyJEN",
+        "recqZnWvvwFbFQkvr",
+        "rec8th6IaBQO3uTAw",
+        "recTh3OhJZvUOiSm3",
+        "recBmHoqxqp872h5P",
+        "rectHz0UBSlyQ4dfo",
+        "reccOljl0spYDzup4",
+        "rec88RU1vweG20APm",
+        "recTq8i3mjRqbRsql",
+        "recPcbWtIYZOwybzI",
+        "recy2WkU6M8KwjAU8",
+        "rectXyNDLXapH9PBe",
+        "rec8WLw1oXL3V2li6",
+        "rec9qPgESrglsAhb3",
+        "reca3u5IrmJCXXOEY",
+        "recaP77WcdzcM1pdO",
+        "recFWEXV8QjGemcK9",
+        "recLekGTQemoYPJ61",
+        "recUEI46a9NeMB7jz",
+        "recZmj4iaZZsBYr7L",
+        "recZxdBZIKBsO7Hzg",
+        "recgPgUOKP9l3jymm",
+        "reciDKuiPix24Kfsv",
+        "recpE2mYQETnX3IUb",
+        "recqrFO4FEnteXtOh",
+        "recwsELH55bScrdda",
+        "recAk5dfPYzrWnSsc",
+        "rec2H4BMEe9cQwin5",
+        "rec75iSKT0hwfbQOo",
+        "rec8sJw4SQEb5FMqF",
+        "recDQwlvQKy9uSeFG",
+        "recIjZpggDLPo8i7p",
+        "recIjSXETN486fWTY",
+        "recJEItcyx5XAHc3K",
+        "recKCbnftC6pkoig2",
+        "recLEbaskgJVlnM2M",
+        "recNJQKTvGKOt99IW",
+        "recQnpRYXtUBL3NAt",
+        "recZISpfYChF3GgJs",
+        "recdNgYpLMwOQgay2",
+        "recmJV1LjPxaa6vSV",
+        "recpAOr3uYQotXUnU",
+        "recAMvPfUiZt9sk57",
+        "recBXNhESlae3RxmU"
       ],
-      "Properties [Data Type]": "DischargeCapacityRate [Label];\nRatedSpeed [Label]",
+      "Properties [Data Type]": "DischargeCapacityRate [Label];\nRatedSpeed [Label];\nLiftType [Label];\nRatedLoad [Label];\nTravelHeight [Length];\nTrapDoor_OpenOutward [Boolean]",
+      "Parameter Value (Actual)": "LiftType: EVACUATION LIFT",
       "IFC4 Entities": [
         "IfcTransportElement"
       ],
-      "Parameter Value (Sample)": "30 cars/hr (DischargeCapacityRate);\n30 m/min (RatedSpeed)",
+      "Parameter Value (Sample)": "DischargeCapacityRate: 30 cars/hr;\nRatedSpeed: 30 m/min;\nRatedLoad: 700kg;\nTravelHeight: 30m",
       "IFC4 Object Types": [
         "BINLIFTER*",
         "LIFT*"
@@ -2796,7 +2756,7 @@
         "recYlC5nmqherhbq4"
       ],
       "Properties [Data Type]": "Function [Label]",
-      "Parameter Value (Actual)": "OPEN FLAME APPLIANCE (Function)",
+      "Parameter Value (Actual)": "Function: OPEN FLAME APPLIANCE",
       "IFC4 Entities": [
         "IfcBurner"
       ],
@@ -2870,11 +2830,11 @@
         "reckw13MrCRMuq2uX"
       ],
       "Properties [Data Type]": "FixedLouvreBlade [Boolean];\nInsectScreen [Boolean];\nIsBuiltIn [Boolean];\nOperationType [Label];\nPercentageOfOpening [Real];\nShadingCoefficient [Real];\nWithMetalGrill [Boolean];\nSafetyBarrierHeight [Real];\nFunction [Label];\nCombustible [Boolean];\nShadingCoefficient_Glass [Real];\nIsLaminated [Boolean];\nLS_NaturalComponentElement [Boolean];\nCorrosionResistant [Boolean];\nFireAccessOpening [Boolean]",
-      "Parameter Value (Actual)": "FRAGMENTATION PLATE (Function)",
+      "Parameter Value (Actual)": "Function: FRAGMENTATION PLATE",
       "IFC4 Entities": [
         "IfcWindow"
       ],
-      "Parameter Value (Sample)": "50 (PercentageOfOpening);\n50% (PercentageOfOpening);\nSLIDING GATE (OperationType)",
+      "Parameter Value (Sample)": "PercentageOfOpening: 50, 50%;\nOperationType: SLIDING GATE",
       "IFC4 Object Types": [
         "VENTILATIONSLEEVE*",
         "BAYWINDOW*"
@@ -2929,7 +2889,7 @@
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
       ],
-      "Parameter Value (Sample)": "10 mm (Diameter);\n600 (Diameter);\n1350 (Width);\n2500 (Depth);\n1350 (Length);\nSHD-50 m, SHD3.423 m (TopLevel);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length)",
+      "Parameter Value (Sample)": "Diameter: 10 mm, 600;\nWidth: 1350;\nDepth: 2500;\nLength: 1350;\nTopLevel: SHD-50 m, SHD3.423 m;\nDepth: 2500, 300;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nLength: 240 L, 2400mm, 40000, 1350",
       "IFC4 Object Types": [
         "LPS_EARTHPIT*",
         "PWCSINSPECTIONCHAMBER*",
@@ -2963,7 +2923,7 @@
         "recC6sAzQ6pGoGc8r"
       ],
       "Properties [Data Type]": "ALS_GreeneryFeatures [Label];\nALS_LandscapeType [Label]",
-      "Parameter Value (Actual)": "WATER BODY (ALS_LandscapeType)",
+      "Parameter Value (Actual)": "ALS_LandscapeType: WATER BODY",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -3012,7 +2972,7 @@
       "IFC4 Entities": [
         "IfcBeam"
       ],
-      "Parameter Value (Sample)": "INTERIOR SPAN (BeamSpanType);\nSINGLE SPAN (BeamSpanType);\nCANTILEVER (BeamSpanType);\nEND SPAN (BeamSpanType);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nTELESCOPIC BEAM CONNECTOR (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nLORRY PARKING LOT (MechanicalConnectionType);\nSMALL RESIDENTIAL (MechanicalConnectionType);\nDELTA BEAM (MechanicalConnectionType)",
+      "Parameter Value (Sample)": "BeamSpanType: INTERIOR SPAN, SINGLE SPAN, CANTILEVER, END SPAN;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500;\nMechanicalConnectionType: TELESCOPIC BEAM CONNECTOR, GROUTED SLEEVES, COLUMN SHOES, SPIRAL, CLOSED, LORRY PARKING LOT, SMALL RESIDENTIAL, DELTA BEAM",
       "IFC4 Object Types": [
         "TRELLIS*"
       ],
@@ -3042,7 +3002,7 @@
       "IFC4 Entities": [
         "IfcBeam"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "TRELLIS*"
       ],
@@ -3070,7 +3030,7 @@
       "IFC4 Entities": [
         "IfcAirTerminal"
       ],
-      "Parameter Value (Sample)": "EXHAUST AIR (AirflowType);\nRETURN AIR (AirflowType);\nSUPPLY AIR (AirflowType)",
+      "Parameter Value (Sample)": "AirflowType: EXHAUST AIR, RETURN AIR, SUPPLY AIR",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "DIFFUSER",
@@ -3098,7 +3058,7 @@
       "IFC4 Entities": [
         "IfcDamper"
       ],
-      "Parameter Value (Sample)": "AUTOMATIC (Operation);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "Operation: AUTOMATIC;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FIREDAMPER",
@@ -3138,11 +3098,11 @@
         "recZB9NzaO4relpc6"
       ],
       "Properties [Data Type]": "Combustible [Boolean];\nChequeredPlate [Boolean];\nHinged [Boolean];\nHingedOpen [Boolean];\nLPS_ConnectedToRebar [Boolean];\nThickness [Length];\nFlameSpreadClass [Label];\nExternalReference [Label];\nFunction [Label];\nLPS_ConnectedToFoundation [Boolean];\nTensileStress [Label]",
-      "Parameter Value (Actual)": "LOCKER ROOM (Function)",
+      "Parameter Value (Actual)": "Function: LOCKER ROOM",
       "IFC4 Entities": [
         "IfcDiscreteAccessory"
       ],
-      "Parameter Value (Sample)": "8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nLTA/SDRE14/2/DRA6 STANDARD DETAILS OF ROAD ELEMENTS (ExternalReference);\n10N/mm2 (TensileStress)",
+      "Parameter Value (Sample)": "Thickness: 8 mm, 500 mm, 300;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nExternalReference: LTA/SDRE14/2/DRA6 STANDARD DETAILS OF ROAD ELEMENTS;\nTensileStress: 10N/mm2",
       "IFC4 Object Types": [
         "LPS_AIRFINIAL*",
         "BENCHING*",
@@ -3161,8 +3121,7 @@
         "TAPEREDNUTS*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "BRACKET"
+        "NOTDEFINED"
       ]
     }
   },
@@ -3184,7 +3143,7 @@
         "IfcDiscreteAccessory",
         "IfcWall"
       ],
-      "Parameter Value (Sample)": "500 (ReinforcementStrengthClass)",
+      "Parameter Value (Sample)": "ReinforcementStrengthClass: 500",
       "IFC4 Object Types": [
         "LPS_AIRFINIAL*",
         "BENCHING*",
@@ -3212,7 +3171,6 @@
       ],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
-        "BRACKET",
         "ELEMENTEDWALL",
         "NOTDEFINED",
         "PARAPET",
@@ -3232,7 +3190,7 @@
         "recDqLzBccMzSAH8u"
       ],
       "Properties [Data Type]": "Function [Label]",
-      "Parameter Value (Actual)": "LIGHTNING CONTROL BOX (Function);\nOG BOX (Function);\nSCV BOX (Function)",
+      "Parameter Value (Actual)": "Function: LIGHTNING CONTROL BOX, OG BOX, SCV BOX",
       "IFC4 Entities": [
         "IfcJunctionBox"
       ],
@@ -3266,7 +3224,7 @@
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nLength: 240 L, 2400mm, 40000, 1350;\nThickness: 8 mm, 500 mm, 300",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -3296,7 +3254,7 @@
       "IFC4 Entities": [
         "IfcMember"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "STRINGER",
@@ -3421,7 +3379,7 @@
       "IFC4 Entities": [
         "IfcFurniture"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000",
       "IFC4 Object Types": [
         "BENCH*",
         "BUSSHELTER*",
@@ -3467,7 +3425,7 @@
       "IFC4 Entities": [
         "IfcPile"
       ],
-      "Parameter Value (Sample)": "100 (DA1-1_TensionCapacity);\n100 (DA1-2_TensionCapacity);\n16.5 (MinRockSocketingLength);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nDRIVEN (ConstructionMethod);\nBORED (ConstructionMethod);\nJACKED IN (ConstructionMethod)",
+      "Parameter Value (Sample)": "DA1-1_TensionCapacity: 100;\nDA1-2_TensionCapacity: 100;\nMinRockSocketingLength: 16.5;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500;\nConstructionMethod: DRIVEN, BORED, JACKED IN",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
@@ -3496,7 +3454,7 @@
       "IFC4 Entities": [
         "IfcRamp"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000",
       "IFC4 Object Types": [
         "CURVEDRAMP*",
         "FLAREDKERBRAMP*",
@@ -3538,7 +3496,7 @@
       "IFC4 Entities": [
         "IfcBuildingElementProxy"
       ],
-      "Parameter Value (Sample)": "SHD-50 m, SHD3.423 m (TerminationLevel);\n2500 (Depth);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
+      "Parameter Value (Sample)": "TerminationLevel: SHD-50 m, SHD3.423 m;\nDepth: 2500, 300;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nLength: 240 L, 2400mm, 40000, 1350",
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
@@ -3733,7 +3691,7 @@
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "H25-150+H16-300 (BottomDistribution_nominal);\nH25-150+H16-300 (BottomMain_nominal);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\nH25-150+H16-300 (TopDistribution_nominal);\nH32-150+H20-300 (TopMain_nominal)",
+      "Parameter Value (Sample)": "BottomDistribution_nominal: H25-150+H16-300;\nBottomMain_nominal: H25-150+H16-300;\nStirrups: 1H10-150-300, T10-150-300, 1H16-250;\nStirrupsType: DOUBLE U LINK, CLOSE LINK, SPORTS & RECREATION, U TYPE,  C/L TYPE;\nTopDistribution_nominal: H25-150+H16-300;\nTopMain_nominal: H32-150+H20-300",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -3815,11 +3773,11 @@
         "reccm5u2v15sC4XjR"
       ],
       "Properties [Data Type]": "ConservationProgramme [Boolean];\nDrainageBoundary [Label];\nETTV [Real];\nOwnerBuiltOwnerStay [Boolean];\nProjectDevelopmentType [Label];\nRETV [Label];\nRTS_ForIntegration [Boolean];\nShadingCoefficient_East [Real];\nShadingCoefficient_North [Real];\nShadingCoefficient_NorthEast [Real];\nShadingCoefficient_NorthWest [Real];\nShadingCoefficient_South [Real];\nShadingCoefficient_SouthEast [Real];\nShadingCoefficient_SouthWest [Real];\nShadingCoefficient_West [Real];\nWindowToWallRatio [Real];\nWindowToWallRatio_East [Real];\nWindowToWallRatio_North [Real];\nWindowToWallRatio_NorthEast [Real];\nWindowToWallRatio_NorthWest [Real];\nWindowToWallRatio_South [Real];\nWindowToWallRatio_SouthEast [Real];\nWindowToWallRatio_SouthWest [Real];\nWindowToWallRatio_West [Real];\nConstructionPhase [Label];\nNumberOfWorkers [Integer];\nIsPublicBuilding [Boolean]",
-      "Parameter Value (Actual)": "Residential (landed) (ProjectDevelopmentType);\nResidential (non-landed) (ProjectDevelopmentType);\nMixed development (ProjectDevelopmentType);\nCommercial (ProjectDevelopmentType);\nIndustrial (ProjectDevelopmentType);\nHealthcare (ProjectDevelopmentType);\nInstitutional (ProjectDevelopmentType);\nAgriculture (ProjectDevelopmentType);\nTransport stations (ProjectDevelopmentType);\nCivil engineering works / Infrastructure (ProjectDevelopmentType);\nFree-standing structures (ProjectDevelopmentType);\nOthers (ProjectDevelopmentType)",
+      "Parameter Value (Actual)": "ProjectDevelopmentType: Residential (landed), Residential (non-landed), Mixed development, Commercial, Industrial, Healthcare, Institutional, Agriculture, Transport stations, Civil engineering works / Infrastructure, Free-standing structures, Others",
       "IFC4 Entities": [
         "IfcBuilding"
       ],
-      "Parameter Value (Sample)": "NORTHERN (DrainageBoundary);\nSPA POOL (DrainageBoundary);\n50 W/m2 (ETTV);\nA AND A (ConstructionPhase);\nALTERATION (ConstructionPhase);\nCONSERVATION (ConstructionPhase);\nEXTENSION (ConstructionPhase);\nNEW (ConstructionPhase);\nPARTIAL RECONSTRUCTION (ConstructionPhase);\nRECONSTRUCTION (ConstructionPhase);\nREDEVELOPMENT (ConstructionPhase);\nTEMPORARY (ConstructionPhase);\nEXISTING (ConstructionPhase)",
+      "Parameter Value (Sample)": "DrainageBoundary: NORTHERN, SPA POOL;\nETTV: 50 W/m2;\nConstructionPhase: A AND A, ALTERATION, CONSERVATION, EXTENSION, NEW, PARTIAL RECONSTRUCTION, RECONSTRUCTION, REDEVELOPMENT, TEMPORARY, EXISTING",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -3840,7 +3798,7 @@
       "IFC4 Entities": [
         "IfcColumn"
       ],
-      "Parameter Value (Sample)": "1234 (WorkingLoad_DA1-1);\n1234 (WorkingLoad_DA1-2)",
+      "Parameter Value (Sample)": "WorkingLoad_DA1-1: 1234;\nWorkingLoad_DA1-2: 1234",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "COLUMN"
@@ -3884,13 +3842,18 @@
         "recMLtSeY0itvZvqx",
         "recyShZwuzUqCVK1u",
         "recgEXiNvEUhkZQte",
-        "rec8OdiHPe6PH1fF5"
+        "rec8OdiHPe6PH1fF5",
+        "rec0aPvxtAcmX7oDL",
+        "recMh5PzgkbdxxrMz",
+        "rec7zGfJpin6sVgBG",
+        "recjEuSSXMiMLDHBx",
+        "recqlBE3k6zSSOQK0"
       ],
-      "Properties [Data Type]": "IsBolted [Boolean];\nIsScrewed [Boolean];\nMaterial_WasteFlowDiverterValve [Label];\nPassageClearance [Length];\nWaterSealCompartment [Length];\nWithApprovedSeal [Boolean];\nExternalReference [Label]",
+      "Properties [Data Type]": "IsBolted [Boolean];\nIsScrewed [Boolean];\nMaterial_WasteFlowDiverterValve [Label];\nPassageClearance [Length];\nWaterSealCompartment [Length];\nWithApprovedSeal [Boolean];\nExternalReference [Label];\nOnGround [Boolean]",
       "IFC4 Entities": [
         "IfcWasteTerminal"
       ],
-      "Parameter Value (Sample)": "DRAWING NO. <NO> (ExternalReference);\nLSC ROOM (ExternalReference);\nBS EN 1253-1 GULLIES FOR BUILDINGS. REQUIREMENTS (ExternalReference)",
+      "Parameter Value (Sample)": "ExternalReference: DRAWING NO. <NO>, LSC ROOM;\nExternalReference: BS EN 1253-1 GULLIES FOR BUILDINGS. REQUIREMENTS",
       "IFC4 Object Types": [
         "CHUTEINTERFACE*",
         "DROPINLETCHAMBER*",
@@ -3934,7 +3897,7 @@
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
-      "Parameter Value (Sample)": "8000 (Height);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
+      "Parameter Value (Sample)": "Height: 8000;\nLength: 240 L, 2400mm, 40000, 1350;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nThickness: 8 mm, 500 mm, 300",
       "IFC4 Object Types": [
         "BACKLANE*",
         "DRIVEWAY*",
@@ -4004,7 +3967,7 @@
       "IFC4 Entities": [
         "IfcDuctFitting"
       ],
-      "Parameter Value (Sample)": "PREFABRICATED (ConstructionMethod);\nBS 476 PART 5 METHOD OF TEST FOR IGNITABILITY (ExternalReference);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "ConstructionMethod: PREFABRICATED;\nExternalReference: BS 476 PART 5 METHOD OF TEST FOR IGNITABILITY;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ENTRY",
@@ -4034,7 +3997,7 @@
       "IFC4 Entities": [
         "IfcTank"
       ],
-      "Parameter Value (Sample)": "8000 (Height);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n10 mm (Diameter);\n600 (Diameter);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
+      "Parameter Value (Sample)": "Height: 8000;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nLength: 240 L, 2400mm, 40000, 1350;\nDiameter: 10 mm, 600;\nThickness: 8 mm, 500 mm, 300",
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
@@ -4178,7 +4141,7 @@
       "IFC4 Entities": [
         "IfcPile"
       ],
-      "Parameter Value (Sample)": "21321 (DA1-1_CompressionDesignLoad);\n4321 (DA1-2_CompressionDesignLoad)",
+      "Parameter Value (Sample)": "DA1-1_CompressionDesignLoad: 21321;\nDA1-2_CompressionDesignLoad: 4321",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
@@ -4229,7 +4192,7 @@
       "IFC4 Entities": [
         "IfcWall"
       ],
-      "Parameter Value (Sample)": "8000 (Height);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
+      "Parameter Value (Sample)": "Height: 8000;\nThickness: 8 mm, 500 mm, 300;\nLength: 240 L, 2400mm, 40000, 1350",
       "IFC4 Object Types": [
         "KERB*",
         "BARRIER*",
@@ -4292,11 +4255,11 @@
         "recBiq21G7Rwgvgnh"
       ],
       "Properties [Data Type]": "AutomaticFireAlarmSystem [Boolean];\nFireAlarmPanel [Boolean];\nIPRating [Integer];\nPWCS_AirIntakeValve [Boolean];\nPWCS_CollectionStation [Boolean];\nPWCS_DischargeValve [Boolean];\nPWCS_Flushing [Boolean];\nPWCS_TemporaryStorageSection [Boolean];\nSmokePurging [Boolean];\nPurpose [Label];\nEngineeredSmokeControlSystem [Boolean]",
-      "Parameter Value (Actual)": "SUBMETER COMPARTMENT (Purpose)",
+      "Parameter Value (Actual)": "Purpose: SUBMETER COMPARTMENT",
       "IFC4 Entities": [
         "IfcUnitaryControlElement"
       ],
-      "Parameter Value (Sample)": "65 (IPRating);\nMAIN DISTRIBUTION FRAME ROOM (Purpose);\nMARKET (Purpose);\nPRIVATE (Purpose);\nSUB-PANEL (Purpose)",
+      "Parameter Value (Sample)": "IPRating: 65;\nPurpose: MAIN DISTRIBUTION FRAME ROOM, MARKET, PRIVATE, SUB-PANEL",
       "IFC4 Object Types": [
         "LIFTCALLBUTTON*",
         "SUBALARMPANEL*"
@@ -4330,7 +4293,7 @@
         "recwmsaGWSd1DoqmZ"
       ],
       "Properties [Data Type]": "AGF_BonusGFAType [Label];\nAGF_SupportingFacility [Label];\nAGF_DevelopmentUse [Label];\nAGF_BuildingTypology [Label];\nAGF_Name [Label];\nAGF_Note [Label];\nAGF_UnitNumber [Label];\nAGF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "BALCONY INCENTIVE SCHEME (AGF_BonusGFAType);\nINDOOR RECREATION SPACE SCHEME (AGF_BonusGFAType);\nRESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nROAD (AGF_DevelopmentUse; AVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAQUACULTURE HATCHERY (AGF_BuildingTypology);\nORNAMENTAL BIRD FARM (AGF_BuildingTypology);\nORNAMENTAL FISH FARM (AGF_BuildingTypology);\nPLANT NURSERY (AGF_BuildingTypology);\nPOULTRY HATCHERY (AGF_BuildingTypology);\nPOULTRY FARM (AGF_BuildingTypology);\nTERRACE HOUSE (AGF_BuildingTypology);\nDETACHED HOUSE (AGF_BuildingTypology);\nSEMI-DETACHED HOUSE (AGF_BuildingTypology);\nGOOD CLASS BUNGALOW (AGF_BuildingTypology);\nSHOPHOUSE (AGF_BuildingTypology);\nINDUSTRIAL CANTEEN (AGF_Name);\nCLOUD KITCHEN (AGF_Name);\nATM KIOSK (AGF_Name);\nVENDING MACHINE KIOSK (AGF_Name);\nGUARDHOUSE (AGF_Name);\nSENTRY POST (AGF_Name);\nENTRANCE CANOPY (AGF_Name);\nGONDOLA AND WORKING PLATFORM (AGF_Name);\nLIFT MOTOR ROOM (AGF_Name);\nSTAGE (AGF_Name);\nBALCONY (AGF_Name);\nDWELLING UNIT (AGF_Name);\nINDOOR RECREATION SPACE (AGF_Name);\nLETTER BOX AREA (AGF_Name);\nVEHICULAR PARKING AREA (AGF_Name);\nMETER COMPARTMENT (AGF_Name);\nREFUSE CHAMBER (AGF_Name)",
+      "Parameter Value (Actual)": "AGF_BonusGFAType: BALCONY INCENTIVE SCHEME, INDOOR RECREATION SPACE SCHEME;\nAGF_DevelopmentUse: RESIDENTIAL (LANDED), RESIDENTIAL (NON-LANDED), CEMETERY, BUSINESS PARK, EDUCATIONAL INSTITUTION, BEACH AREA, BUSINESS 1, BUSINESS 2, HEALTH & MEDICAL CARE, CIVIC & COMMUNITY INSTITUTION, SPORTS AND RECREATION, ROAD, TRANSPORT FACILITIES, RAPID TRANSIT, UTILITY, AGRICULTURE, PORT/AIRPORT, SPIRAL CONNECTOR, WATERBODY, RESERVE SITE, HOTEL, PLACE OF WORSHIP, OPEN SPACE, PARK;\nAGF_BuildingTypology: AQUACULTURE HATCHERY, ORNAMENTAL BIRD FARM, ORNAMENTAL FISH FARM, PLANT NURSERY, POULTRY HATCHERY, POULTRY FARM, TERRACE HOUSE, DETACHED HOUSE, SEMI-DETACHED HOUSE, GOOD CLASS BUNGALOW, SHOPHOUSE;\nAGF_Name: INDUSTRIAL CANTEEN, CLOUD KITCHEN, ATM KIOSK, VENDING MACHINE KIOSK, GUARDHOUSE, SENTRY POST, ENTRANCE CANOPY, GONDOLA AND WORKING PLATFORM, LIFT MOTOR ROOM, STAGE, BALCONY, DWELLING UNIT, INDOOR RECREATION SPACE, LETTER BOX AREA, VEHICULAR PARKING AREA, METER COMPARTMENT, REFUSE CHAMBER",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -4373,11 +4336,11 @@
         "recIz9QHvn4RuZUad"
       ],
       "Properties [Data Type]": "LS_NaturalComponentElement [Boolean];\nConstructionMethod [Label];\nFireStop [Boolean];\nShadingCoefficient_Glass [Real];\nIsLaminated [Boolean]",
-      "Parameter Value (Actual)": "PREFABRICATED AND PREFINISHED (ConstructionMethod)",
+      "Parameter Value (Actual)": "ConstructionMethod: PREFABRICATED AND PREFINISHED",
       "IFC4 Entities": [
         "IfcCurtainWall"
       ],
-      "Parameter Value (Sample)": "PRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod)",
+      "Parameter Value (Sample)": "ConstructionMethod: PRECAST, CAST-IN-SITU, INSTALL ON-SITE",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -4408,34 +4371,13 @@
       "IFC4 Entities": [
         "IfcPile"
       ],
-      "Parameter Value (Sample)": "SHD-50 m, SHD3.423 m (CutOffLevel_SHD);\n10 mm (Diameter);\n600 (Diameter);\nSHD-50 m, SHD3.423 m (ToeLevel_SHD);\n300 (Breadth);\n40 (Breadth);\n6200 (Breadth);\n8400 (Breadth);\nCHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length)",
+      "Parameter Value (Sample)": "CutOffLevel_SHD: SHD-50 m, SHD3.423 m;\nDiameter: 10 mm, 600;\nToeLevel_SHD: SHD-50 m, SHD3.423 m;\nBreadth: 300, 40, 6200, 8400;\nMemberSection: CHS500X3.0, 254X254X63 KG/M, RHS600x30x4, CHS500x3.0, RHS600x30x4, CHS500x3.0, 254x254x63 kg/m;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nLength: 240 L, 2400mm, 40000, 1350",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
         "DRIVEN",
         "NOTDEFINED",
         "SUPPORT"
-      ]
-    }
-  },
-  {
-    "id": "recdg5DPsTzA7JiQk",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_TransportElementTypeMovingWalkway",
-      "Entity Key": [
-        "recTKQhG1UHX2t846"
-      ],
-      "IFC4 Entities": [
-        "IfcTransportElement"
-      ],
-      "IFC4 Object Types": [
-        "BINLIFTER*",
-        "LIFT*"
-      ],
-      "IFC4 Predefined Types": [
-        "ESCALATOR",
-        "MOVINGWALKWAY"
       ]
     }
   },
@@ -4448,8 +4390,6 @@
         "recAFISJyNfTeNrVZ"
       ],
       "PR Key (Component_Parameter)": [
-        "rectQtyZeeClhGG2N",
-        "recLXoUzn7vx35JzF",
         "recryiYCx33KOMqxZ",
         "rech8knLK3vhURpdm",
         "recOVxQC9nviGW1Jw",
@@ -4497,7 +4437,7 @@
       "IFC4 Entities": [
         "IfcTank"
       ],
-      "Parameter Value (Sample)": "CYANIDE, BORIC ACID (ChemicalType);\nDIESEL (FuelType);\nLOUVRE (FuelType);\nHYDRAULIC OIL, LUBRICANT OIL (OilType);\nSOUTHERN (StateofMatter);\nCLEAN AGENT (ExtinguisherType);\nDRY CHEMICAL (ExtinguisherType);\nWET CHEMICAL (ExtinguisherType);\n2:01 (CompactionRatio);\nRORO COMPACTOR (EquipmentType)",
+      "Parameter Value (Sample)": "ChemicalType: CYANIDE, BORIC ACID;\nFuelType: DIESEL, LOUVRE;\nOilType: HYDRAULIC OIL, LUBRICANT OIL;\nStateofMatter: SOUTHERN;\nExtinguisherType: CLEAN AGENT, DRY CHEMICAL, WET CHEMICAL;\nCompactionRatio: 2:01;\nEquipmentType: RORO COMPACTOR",
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
@@ -4518,44 +4458,6 @@
         "NOTDEFINED",
         "PRESSUREVESSEL",
         "STORAGE"
-      ]
-    }
-  },
-  {
-    "id": "recdorfbldTlr59fk",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_ValveTypePressureReducing",
-      "Entity Key": [
-        "rec6v6VG1mhOtznHM"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recFFHRnRLvZUlZKO"
-      ],
-      "Properties [Data Type]": "DownstreamPressure [Label]",
-      "IFC4 Entities": [
-        "IfcValve"
-      ],
-      "IFC4 Object Types": [
-        "AIRADMITTANCE*",
-        "AIRINTAKEVALVE*",
-        "DISCHARGE*",
-        "DRAINOFFCOCK*",
-        "DRAINPLUG*",
-        "LANDINGVALVE*",
-        "OVERPRESSUREPROTECTIONDEVICE*",
-        "SPRINKLERCONTROL*"
-      ],
-      "IFC4 Predefined Types": [
-        "ANTIVACUUM",
-        "CHECK",
-        "DOUBLECHECK",
-        "FAUCET",
-        "FLUSHING",
-        "ISOLATING",
-        "MIXING",
-        "NOTDEFINED",
-        "STOPCOCK"
       ]
     }
   },
@@ -4652,11 +4554,11 @@
         "rec7gO6RQsGy2b7Dm"
       ],
       "Properties [Data Type]": "AutoIgnitionTemperature [Label];\nCategoryOfStorage [Real];\nConstructionPhase [Label];\nDischargePoint [Boolean];\nElderlyFriendly [Boolean];\nEmergencyUse [Boolean];\nFireEmergencyVentilationMode [Label];\nFloorFinishType [Label];\nHearingEnhancement [Boolean];\nLoadingCapacity [Real];\nMain [Boolean];\nNegativeRoomPressure [Label];\nPool_TurnoverTime [Label];\nPool_WithRecyclingFacilities [Boolean];\nPowerRating [Label];\nPublicToiletGenderID [Label];\nRetrofit [Boolean];\nRoomPressure [Label];\nSeatingCapacity [Integer];\nSpaceName [Label];\nStraight2-way [Boolean];\nSubmissionByFutureTenant [Boolean];\nWaterLevel [Label];\nAccesswayType [Label];\nHighHazard [Boolean];\nFireDetectionSuppressionSystem [Label];\nSmokeControlSystem [Label];\nEmergencyVoiceCommunicationSystem [Label];\nVentilationMode [Label];\nBarrierFreeAccessibility [Boolean];\nAreaIDServed [Label];\nOccupancyType [Label];\nServedByRefuseChuteID [Label]",
-      "Parameter Value (Actual)": "NATURAL VENTILATION (FireEmergencyVentilationMode);\nMECHANICAL VENTILATION (FireEmergencyVentilationMode);\nPRESSURISATION (FireEmergencyVentilationMode);\nCROSS VENTILATION (FireEmergencyVentilationMode);\nCROSS VENTILATION WITH INTERMEDIATE VENTILATION OPENING (FireEmergencyVentilationMode);\nVAPOUR EXTRACTION SYSTEM (FOR SPRAY PAINTING ROOM) (FireEmergencyVentilationMode);\nbalcony (SpaceName);\nbedroom (SpaceName);\nmaster bedroom (SpaceName);\nbathroom (SpaceName);\nmaster bath (SpaceName);\nmaid bath (SpaceName);\nyard bath (SpaceName);\ndining room (SpaceName);\nhousehold shelter (SpaceName);\nkitchen (SpaceName);\nliving room (SpaceName);\nloft (SpaceName);\nprivate lift lobby (SpaceName);\nservice yard (SpaceName);\ntoilet (SpaceName);\nwalkin wardrobe (SpaceName);\nguestroom (SpaceName);\nstaff quarters (SpaceName);\nstudent bedroom individual (SpaceName);\nstudent bedroom multipax (SpaceName);\nhousekeeping (SpaceName);\nisolation ward toilet (SpaceName);\naccessible washroom (SpaceName);\nmale toilet (SpaceName);\nfemale toilet (SpaceName);\nunisex toilet (SpaceName);\nfamily-friendly washroom (SpaceName);\nwashroom with shower (SpaceName);\npowder room (SpaceName);\nchanging room (SpaceName);\nfemale changing room (SpaceName);\nmale changing room (SpaceName);\nlocker room (SpaceName);\nrestroom (SpaceName);\nlactation room (SpaceName);\nsick room (SpaceName);\nshower room | shower stall (SpaceName);\nwash area (SpaceName);\narchive room (reading) (SpaceName);\narchive room (stack) (SpaceName);\nball room (SpaceName);\nbanking hall (SpaceName);\nbazaar (SpaceName);\nbusiness centre (SpaceName);\nbusiness office (SpaceName);\nclassroom (SpaceName);\ncomputer classroom (SpaceName);\ncommon room (SpaceName);\ncomputer room (SpaceName);\nconference room (SpaceName);\nconsultant room (SpaceName);\ncrematoria (SpaceName);\ndance studio (SpaceName);\ndepartment store (SpaceName);\ndesign studio (SpaceName);\ndetention room (SpaceName);\nexposition (SpaceName);\ntrade fair area (SpaceName);\nfiling room (SpaceName);\nstorage (SpaceName);\nfire command centre (SpaceName);\nfunction room (SpaceName);\nexhibits gallery (SpaceName);\nchoir gallery (SpaceName);\nprayer gallery (SpaceName);\nseating gallery (SpaceName);\ntrading gallery (SpaceName);\nviewing gallery (SpaceName);\nguard house (SpaceName);\nhobby room (SpaceName);\nkiosk (SpaceName);\nlaboratory (SpaceName);\nlaundry (SpaceName);\nlibrary room (stack) (SpaceName);\nlibrary room (reading) (SpaceName);\nlounge (SpaceName);\nmachine/printing room (SpaceName);\nmailroom (SpaceName);\nmeeting room (SpaceName);\nmusic studio (SpaceName);\nnight club (SpaceName);\nadmin office (SpaceName);\ngeneral office (SpaceName);\nancillary office (SpaceName);\ndirector office (SpaceName);\nmanager office (SpaceName);\ndrafting office (SpaceName);\noutdoor display area (SpaceName);\npacking area (SpaceName);\ndistribution area (SpaceName);\npantry (SpaceName);\nprayer hall (SpaceName);\npre-function room (SpaceName);\nproduction area (SpaceName);\npromotion area (SpaceName);\nreading room (SpaceName);\nreception area (SpaceName);\nseminar room (SpaceName);\nsecurity room (SpaceName);\nservice area (SpaceName);\nshed (SpaceName);\nshop (SpaceName);\nshowflat (SpaceName);\nshowroom (SpaceName);\nsociety room (SpaceName);\nspray painting room (SpaceName);\nstaff office (SpaceName);\nstaff lounge (SpaceName);\nsupermarket (SpaceName);\ntherapy centre (SpaceName);\nticketing office (SpaceName);\ntrading floor (SpaceName);\nvisitors lounge (SpaceName);\nwaiting area (SpaceName);\nworkshop (SpaceName);\nbar (SpaceName);\npub (SpaceName);\ncafé (SpaceName);\ncafeteria (SpaceName);\ncanteen (SpaceName);\ndining area (SpaceName);\nfood stall (SpaceName);\nservice counter (SpaceName);\nrestaurant (SpaceName);\nsnack bar (SpaceName);\nstaff canteen (SpaceName);\narea of refuge (SpaceName);\nconsultation room (SpaceName);\nexamination room (SpaceName);\nsurgical viewing gallery (SpaceName);\nnursing room (SpaceName);\nnursing station (SpaceName);\noperation theatre (SpaceName);\noutpatient waiting area (SpaceName);\npatient accommodation intensive care (SpaceName);\npatient accommodation ward (SpaceName);\nisolation ward (SpaceName);\npharmacy staff area (SpaceName);\npharmacy waiting area (SpaceName);\ntreatment room (SpaceName);\namphitheatre (SpaceName);\namphitheatre without fixed seating (SpaceName);\nauditorium (SpaceName);\nauditorium without fixed seating (SpaceName);\ncinema (SpaceName);\ncinema without fixed seating (SpaceName);\ngrandstand (SpaceName);\ngrandstand without fixed seating (SpaceName);\nassembly hall (SpaceName);\nassembly hall without fixed seating (SpaceName);\nconcert hall (SpaceName);\nconcert hall without fixed seating (SpaceName);\nexhibition hall (SpaceName);\nexhibition hall without fixed seating (SpaceName);\nconference hall (SpaceName);\nconference hall without fixed seating (SpaceName);\nfunction hall (SpaceName);\nfunction hall without fixed seating (SpaceName);\nlecture room (SpaceName);\nlecture room without fixed seating (SpaceName);\nspectator area (SpaceName);\nspectator area without fixed seating (SpaceName);\ntheatre (SpaceName);\ntheatre without fixed seating (SpaceName);\nindoor sport hall (SpaceName);\nmulti-purpose hall (SpaceName);\nmulti-purpose room (SpaceName);\nmulti-purpose sports hall (SpaceName);\naudio visual area (SpaceName);\naudio visual control room (SpaceName);\naudio visual lighting control room (SpaceName);\nlive entertainment (SpaceName);\nlive performance (SpaceName);\norchestral pit (SpaceName);\nprojection room (SpaceName);\nback stage (SpaceName);\nfront stage (SpaceName);\namusement park (SpaceName);\nbilliards room (SpaceName);\nbody massage (SpaceName);\nbowling alley (SpaceName);\nbowling lane (SpaceName);\ncasino (SpaceName);\nchildren playground (SpaceName);\nclub room (SpaceName);\ndiscotheque dancing area (SpaceName);\ndiscotheque dining area (SpaceName);\nhockey field (SpaceName);\nhockey pitch (SpaceName);\nrugby field (SpaceName);\nrugby pitch (SpaceName);\nsoccer field (SpaceName);\nsoccer pitch (SpaceName);\nfitness corner (SpaceName);\nfoot reflexology (SpaceName);\nfitness club (SpaceName);\nfitness centre (SpaceName);\ngaming centre (SpaceName);\ngymnasium (SpaceName);\nhealth club (SpaceName);\nhealth centre (SpaceName);\nindoor games room (SpaceName);\nkaraoke lounge (SpaceName);\nkaraoke dining area (SpaceName);\nrecreation room (SpaceName);\nrefreshmen area (SpaceName);\nskating rink (SpaceName);\nspa (SpaceName);\nbadminton court (SpaceName);\nbasketball court (SpaceName);\nbasketball half court (SpaceName);\nfutsal court (SpaceName);\nnetball court (SpaceName);\nnetball half court (SpaceName);\nsquash court (SpaceName);\ntennis court (SpaceName);\ntennis half court (SpaceName);\nvolleyball court (SpaceName);\nswimming pool (SpaceName);\nswimming pool deck (SpaceName);\ntraining area (SpaceName);\nac ledge (SpaceName);\nbackyard (SpaceName);\ncourtyard (SpaceName);\nconstruction site (SpaceName);\noutdoor refreshment area (SpaceName);\npavilion (SpaceName);\nroof (SpaceName);\ngreen roof (SpaceName);\nroof garden | roof terrace (SpaceName);\njogging track (SpaceName);\nfootpath (SpaceName);\nsunken planting area (SpaceName);\nbattery room (SpaceName);\ncooling tower (SpaceName);\nequipment disinfection room (SpaceName);\nequipment washing bay (SpaceName);\nlubrication bay (SpaceName);\npulley room (SpaceName);\nmechnical plant room (SpaceName);\nac plant room (SpaceName);\nahu room (SpaceName);\nboiler room (SpaceName);\nchiller room (SpaceName);\ndischarge valve room (SpaceName);\nelectric lift motor room (SpaceName);\nelectrical room (SpaceName);\nessential fan room (SpaceName);\nfire pump room (SpaceName);\nbalancing pump room (SpaceName);\ndomestic pump room (SpaceName);\nirrigation pump room (SpaceName);\nsprinkler pump room (SpaceName);\npumped sanitary system room (SpaceName);\npumped drainage system room (SpaceName);\nemergency generator room (SpaceName);\ngenerator room (SpaceName);\nhigh voltage switch room (SpaceName);\nhydraulic lift motor room (SpaceName);\nlift machine room (SpaceName);\nlift motor room (SpaceName);\nlow voltage switch room (SpaceName);\noil tank room (SpaceName);\nsprinkler tank room (SpaceName);\ntelecommunication room (SpaceName);\nequipment room (SpaceName);\ntransformer room (SpaceName);\nwet riser tank room (SpaceName);\nserver room (SpaceName);\nmdf room (SpaceName);\nmobile installation space (SpaceName);\nmobile deployment space (SpaceName);\nvent room (SpaceName);\nsubstation (SpaceName);\nmeter compartment (SpaceName);\npotable water tank room (SpaceName);\nNEWater tank room (SpaceName);\nhosereel tank room (SpaceName);\nnon-potable water tank room (SpaceName);\nhydrant tank room (SpaceName);\nbalancing tank (SpaceName);\ndetention tank (SpaceName);\ndomestic water tank (SpaceName);\nhot water tank (SpaceName);\nmake up water tank (SpaceName);\nNEWater tank (SpaceName);\nrainwater harvesting tank (SpaceName);\nirrigation tank (SpaceName);\nsprinkler tank (SpaceName);\nbin center (SpaceName);\ncoldroom (SpaceName);\ndeposit room (SpaceName);\nstrong room (SpaceName);\nmortuary (SpaceName);\nstore (SpaceName);\nstoreroom (SpaceName);\nwarehouse (SpaceName);\ndriveway (SpaceName);\ngarage (SpaceName);\nparking place (SpaceName);\nvehicle washing bay (SpaceName);\nloading/unloading bay (SpaceName);\nloading/unloading area (SpaceName);\nloading/unloading platform (SpaceName);\nalighting point (SpaceName);\nboarding point (SpaceName);\ndrop off point (SpaceName);\nbus stop (SpaceName);\ntaxi bay (SpaceName);\ntaxi shelter (SpaceName);\natrium (SpaceName);\nconcourse (SpaceName);\nfoyer (SpaceName);\npassenger arrival area (SpaceName);\npassenger departure area (SpaceName);\ncargo lift lobby (SpaceName);\ngoods lift lobby (SpaceName);\ncommon lobby (SpaceName);\nevacuation lift lobby (SpaceName);\nfire lift lobby (SpaceName);\npassenger lift lobby (SpaceName);\nprotected lobby (SpaceName);\nsmoke-free lobby (SpaceName);\nservice lift lobby (SpaceName);\nclean room (SpaceName);\nequipment platform (SpaceName);\nlinkway (SpaceName);\npedestrian linkway (SpaceName);\nelevated pedestrian linkway (SpaceName);\nunderground pedestrian linkway (SpaceName);\npromenade (SpaceName);\nboardwalk (SpaceName);\nthrough-block link (SpaceName);\naccess aisle (SpaceName);\nprivate corridor (SpaceName);\ncorridor (SpaceName);\nexternal corridor (SpaceName);\nopen walkway (SpaceName);\ncovered walkway (SpaceName);\nfootway (SpaceName);\npathway (SpaceName);\nveranda (SpaceName);\nvoid deck (SpaceName);\nexternal exit staircase (SpaceName);\ninternal exit staircase (SpaceName);\nexternal exit passageway (SpaceName);\ninternal exit passageway (SpaceName);\nexternal exit ramp (SpaceName);\ninternal exit ramp (SpaceName);\nstaircase (SpaceName);\nairlock (SpaceName);\nletter box (SpaceName);\ndry riser shaft (SpaceName);\nelectrical shaft (SpaceName);\ngas shaft (SpaceName);\nventilation shaft (SpaceName);\nwater shaft (SpaceName);\nwet riser shaft (SpaceName);\nlift shaft (SpaceName);\nnon-shelter (SpaceName);\nstorey shelter (SpaceName);\nrest area (SpaceName);\nairwell (SpaceName);\nMOTOR-CYCLE (AccesswayType);\nAUTOMATIC FIRE ALARM SYSTEM (FireDetectionSuppressionSystem);\nAUTOMATIC SPRINKLER SYSTEM (FireDetectionSuppressionSystem);\nWATER MIST SYSTEM (FireDetectionSuppressionSystem);\nVIDEO IMAGE FIRE DETECTOR SYSTEM (FireDetectionSuppressionSystem);\nKITCHEN HOOD FIRE EXTINGUISHING SYSTEM (FireDetectionSuppressionSystem);\nCLEAN AGENT FIRE EXTINGUISHING SYSTEM (FireDetectionSuppressionSystem);\nSMOKE PURGING SYSTEM (SmokeControlSystem);\nDUCTLESS JET FAN SYSTEM (SmokeControlSystem);\nSMOKE VENT (SmokeControlSystem);\nENGINEERED SMOKE CONTROL SYSTEM (SmokeControlSystem);\n1 WAY EVC SYSTEM (EmergencyVoiceCommunicationSystem);\n2 WAY EVC SYSTEM (EmergencyVoiceCommunicationSystem);\nPUBLIC ADDRESS SYSTEM (EmergencyVoiceCommunicationSystem);\nAIR-CONDITIONING (VentilationMode);\nMECHANICAL VENTILATION (VentilationMode);\nNATURAL VENTILATION (VentilationMode);\nNV (VentilationMode);\nAC (VentilationMode);\nMV (VentilationMode);\nAREA_GFA (AreaIDServed);\nsingle dwelling residential (OccupancyType);\nmulti-unit residential (OccupancyType);\nsupervisory care facility (OccupancyType);\nsupervisory care facility (detention) (OccupancyType);\nnursing care facilities (OccupancyType);\nhospital without A&E services (OccupancyType);\nhospital with A&E services (OccupancyType);\nambulatory care facility (OccupancyType);\nambulatory care facility (standalone) (OccupancyType);\ncustodian care facility (OccupancyType);\ncustodian care facility (nursery) (OccupancyType);\npublic education institution (OccupancyType);\nprivate education institution (OccupancyType);\nworker dormitory (OccupancyType);\noffice (OccupancyType);\nfactory office (OccupancyType);\nshop (OccupancyType);\nODA (OccupancyType);\noutpatient clinic (OccupancyType);\npolyclinic (OccupancyType);\nmarket (OccupancyType);\nTemporary showflat (OccupancyType);\nfactory showroom (OccupancyType);\npetrol station (OccupancyType);\nfactory (OccupancyType);\nfood production factory (OccupancyType);\nM&E area (OccupancyType);\nwafer fabrication plant (OccupancyType);\ntrade effluent treatment plant (OccupancyType);\nwaste management and recycling (OccupancyType);\nembalming facility (OccupancyType);\nagriculture (OccupancyType);\nanimal related facility (OccupancyType);\nhigh containment facility (OccupancyType);\nelectrical & gas facility (OccupancyType);\nroad tunnel (OccupancyType);\nbody treatment place (OccupancyType);\nentertainment place (OccupancyType);\nassembly place (OccupancyType);\ncinema (OccupancyType);\nrecreational place (OccupancyType);\nsky garden/ terrace (OccupancyType);\nF&B outlet (OccupancyType);\nFast food outlet (OccupancyType);\nORA (OccupancyType);\nfood centre (OccupancyType);\neducational place (OccupancyType);\nserviced apartment (OccupancyType);\nhostel (OccupancyType);\nhotel (OccupancyType);\ncapsule hotel (OccupancyType);\ncommunity club (OccupancyType);\nsocial club (OccupancyType);\nreligious place (OccupancyType);\npark (OccupancyType);\nsports facility (OccupancyType);\nsports facility (ancillary) (OccupancyType);\ntrain station (OccupancyType);\ntransport terminal (OccupancyType);\ntransport depot (OccupancyType);\nParking (OccupancyType);\nFAMCP (OccupancyType);\nwarehouse (OccupancyType);\nchemical/ hazmat storage (OccupancyType);\nairbase (OccupancyType);\nlive firing area (OccupancyType);\ntraining area (OccupancyType);\ncampsite (OccupancyType);\nwet play field (OccupancyType);\nreservoir (OccupancyType);\nriver (OccupancyType);\ncanal (OccupancyType);\nmajor drain (OccupancyType);\npond (OccupancyType);\nlake (OccupancyType);\nother waterbody (OccupancyType);\nnature reserve (OccupancyType);\nnature area (OccupancyType);\nschool field (OccupancyType);\npromenade (OccupancyType);\nmarina (OccupancyType);\nquarry (OccupancyType)",
+      "Parameter Value (Actual)": "FireEmergencyVentilationMode: NATURAL VENTILATION, MECHANICAL VENTILATION, PRESSURISATION, CROSS VENTILATION, CROSS VENTILATION WITH INTERMEDIATE VENTILATION OPENING, VAPOUR EXTRACTION SYSTEM (FOR SPRAY PAINTING ROOM);\nSpaceName: balcony, bedroom, master bedroom, bathroom, master bath, maid bath, yard bath, dining room, household shelter, kitchen, living room, loft, private lift lobby, service yard, toilet, walkin wardrobe, guestroom, staff quarters, student bedroom individual, student bedroom multipax, housekeeping, isolation ward toilet, accessible washroom, male toilet, female toilet, unisex toilet, family-friendly washroom, washroom with shower, powder room, changing room, female changing room, male changing room, locker room, restroom, lactation room, sick room, shower room | shower stall, wash area, archive room (reading), archive room (stack), ball room, banking hall, bazaar, business centre, business office, classroom, computer classroom, common room, computer room, conference room, consultant room, crematoria, dance studio, department store, design studio, detention room, exposition, trade fair area, filing room, storage, fire command centre, function room, exhibits gallery, choir gallery, prayer gallery, seating gallery, trading gallery, viewing gallery, guard house, hobby room, kiosk, laboratory, laundry, library room (stack), library room (reading), lounge, machine/printing room, mailroom, meeting room, music studio, night club, admin office, general office, ancillary office, director office, manager office, drafting office, outdoor display area, packing area, distribution area, pantry, prayer hall, pre-function room, production area, promotion area, reading room, reception area, seminar room, security room, service area, shed, shop, showflat, showroom, society room, spray painting room, staff office, staff lounge, supermarket, therapy centre, ticketing office, trading floor, visitors lounge, waiting area, workshop, bar, pub, café, cafeteria, canteen, dining area, food stall, service counter, restaurant, snack bar, staff canteen, area of refuge, consultation room, examination room, surgical viewing gallery, nursing room, nursing station, operation theatre, outpatient waiting area, patient accommodation intensive care, patient accommodation ward, isolation ward, pharmacy staff area, pharmacy waiting area, treatment room, amphitheatre, amphitheatre without fixed seating, auditorium, auditorium without fixed seating, cinema, cinema without fixed seating, grandstand, grandstand without fixed seating, assembly hall, assembly hall without fixed seating, concert hall, concert hall without fixed seating, exhibition hall, exhibition hall without fixed seating, conference hall, conference hall without fixed seating, function hall, function hall without fixed seating, lecture room, lecture room without fixed seating, spectator area, spectator area without fixed seating, theatre, theatre without fixed seating, indoor sport hall, multi-purpose hall, multi-purpose room, multi-purpose sports hall, audio visual area, audio visual control room, audio visual lighting control room, live entertainment, live performance, orchestral pit, projection room, back stage, front stage, amusement park, billiards room, body massage, bowling alley, bowling lane, casino, children playground, club room, discotheque dancing area, discotheque dining area, hockey field, hockey pitch, rugby field, rugby pitch, soccer field, soccer pitch, fitness corner, foot reflexology, fitness club, fitness centre, gaming centre, gymnasium, health club, health centre, indoor games room, karaoke lounge, karaoke dining area, recreation room, refreshmen area, skating rink, spa, badminton court, basketball court, basketball half court, futsal court, netball court, netball half court, squash court, tennis court, tennis half court, volleyball court, swimming pool, swimming pool deck, training area, ac ledge, backyard, courtyard, construction site, outdoor refreshment area, pavilion, roof, green roof, roof garden | roof terrace, jogging track, footpath, sunken planting area, battery room, cooling tower, equipment disinfection room, equipment washing bay, lubrication bay, pulley room, mechnical plant room, ac plant room, ahu room, boiler room, chiller room, discharge valve room, electric lift motor room, electrical room, essential fan room, fire pump room, balancing pump room, domestic pump room, irrigation pump room, sprinkler pump room, pumped sanitary system room, pumped drainage system room, emergency generator room, generator room, high voltage switch room, hydraulic lift motor room, lift machine room, lift motor room, low voltage switch room, oil tank room, sprinkler tank room, telecommunication room, equipment room, transformer room, wet riser tank room, server room, mdf room, mobile installation space, mobile deployment space, vent room, substation, meter compartment, potable water tank room, NEWater tank room, hosereel tank room, non-potable water tank room, hydrant tank room, balancing tank, detention tank, domestic water tank, hot water tank, make up water tank, NEWater tank, rainwater harvesting tank, irrigation tank, sprinkler tank, bin center, coldroom, deposit room, strong room, mortuary, store, storeroom, warehouse, driveway, garage, parking place, vehicle washing bay, loading/unloading bay, loading/unloading area, loading/unloading platform, alighting point, boarding point, drop off point, bus stop, taxi bay, taxi shelter, atrium, concourse, foyer, passenger arrival area, passenger departure area, cargo lift lobby, goods lift lobby, common lobby, evacuation lift lobby, fire lift lobby, passenger lift lobby, protected lobby, smoke-free lobby, service lift lobby, clean room, equipment platform, linkway, pedestrian linkway, elevated pedestrian linkway, underground pedestrian linkway, promenade, boardwalk, through-block link, access aisle, private corridor, corridor, external corridor, open walkway, covered walkway, footway, pathway, veranda, void deck, external exit staircase, internal exit staircase, external exit passageway, internal exit passageway, external exit ramp, internal exit ramp, staircase, airlock, letter box, dry riser shaft, electrical shaft, gas shaft, ventilation shaft, water shaft, wet riser shaft, lift shaft, non-shelter, storey shelter, rest area, airwell;\nAccesswayType: MOTOR-CYCLE;\nFireDetectionSuppressionSystem: AUTOMATIC FIRE ALARM SYSTEM, AUTOMATIC SPRINKLER SYSTEM, WATER MIST SYSTEM, VIDEO IMAGE FIRE DETECTOR SYSTEM, KITCHEN HOOD FIRE EXTINGUISHING SYSTEM, CLEAN AGENT FIRE EXTINGUISHING SYSTEM;\nSmokeControlSystem: SMOKE PURGING SYSTEM, DUCTLESS JET FAN SYSTEM, SMOKE VENT, ENGINEERED SMOKE CONTROL SYSTEM;\nEmergencyVoiceCommunicationSystem: 1 WAY EVC SYSTEM, 2 WAY EVC SYSTEM, PUBLIC ADDRESS SYSTEM;\nVentilationMode: AIR-CONDITIONING, MECHANICAL VENTILATION, NATURAL VENTILATION, NV, AC, MV;\nAreaIDServed: AREA_GFA;\nOccupancyType: single dwelling residential, multi-unit residential, supervisory care facility, supervisory care facility (detention), nursing care facilities, hospital without A&E services, hospital with A&E services, ambulatory care facility, ambulatory care facility (standalone), custodian care facility, custodian care facility (nursery), public education institution, private education institution, worker dormitory, office, factory office, shop, ODA, outpatient clinic, polyclinic, market, Temporary showflat, factory showroom, petrol station, factory, food production factory, M&E area, wafer fabrication plant, trade effluent treatment plant, waste management and recycling, embalming facility, agriculture, animal related facility, high containment facility, electrical & gas facility, road tunnel, body treatment place, entertainment place, assembly place, cinema, recreational place, sky garden/ terrace, F&B outlet, Fast food outlet, ORA, food centre, educational place, serviced apartment, hostel, hotel, capsule hotel, community club, social club, religious place, park, sports facility, sports facility (ancillary), train station, transport terminal, transport depot, Parking, FAMCP, warehouse, chemical/ hazmat storage, airbase, live firing area, training area, campsite, wet play field, reservoir, river, canal, major drain, pond, lake, other waterbody, nature reserve, nature area, school field, promenade, marina, quarry",
       "IFC4 Entities": [
         "IfcSpace"
       ],
-      "Parameter Value (Sample)": "TEMPORARY (ConstructionPhase);\nCARPET (FloorFinishType);\n30 tonnes (LoadingCapacity);\n2 kN/m^2 (NegativeRoomPressure);\n22 kV (PowerRating);\nMALE TOILET CLUSTER (PublicToiletGenderID);\n2 kPa (RoomPressure);\n50 (RoomPressure)",
+      "Parameter Value (Sample)": "ConstructionPhase: TEMPORARY;\nFloorFinishType: CARPET;\nLoadingCapacity: 30 tonnes;\nNegativeRoomPressure: 2 kN/m^2;\nPowerRating: 22 kV;\nPublicToiletGenderID: MALE TOILET CLUSTER;\nRoomPressure: 2 kPa, 50",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -4691,7 +4593,6 @@
       "PR Key (Component_Parameter)": [
         "recjOjiALCW9vbZ4a",
         "rec1SMK7B2YZMxGN9",
-        "recppJdJPmxk0Z5XH",
         "recU9pcJEjnlFKfyx",
         "recZGIixIw2pSgs9y"
       ],
@@ -4773,7 +4674,7 @@
       "IFC4 Entities": [
         "IfcSpace"
       ],
-      "Parameter Value (Sample)": "COMMON (AST_AreaType);\nCOMMUNAL (AST_AreaType)",
+      "Parameter Value (Sample)": "AST_AreaType: COMMON, COMMUNAL",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -4828,11 +4729,11 @@
         "recnxImFxpMlW6LZv"
       ],
       "Properties [Data Type]": "OwnershipType [Label];\nVisitorLaneEntry [Boolean];\nFootpath [Boolean];\nLoadBearing [Boolean];\nShared [Boolean];\nCatchmentArea [Area];\nFreeboard [Boolean];\nRoughnessCoefficient [Label];\nKerbType [Label];\nRoadCategory [Label];\nConstructionMethod [Label];\nFunction [Label];\nStatus [Label]",
-      "Parameter Value (Actual)": "DROP BARRIER DIVIDER (Function);\nEXISTING (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Function: DROP BARRIER DIVIDER;\nStatus: EXISTING;\nStatus: NEW, EXISTING",
       "IFC4 Entities": [
         "IfcCivilElement"
       ],
-      "Parameter Value (Sample)": "IMPROVEMENT (ConstructionMethod);\nRECONSTRUCTION (ConstructionMethod)",
+      "Parameter Value (Sample)": "ConstructionMethod: IMPROVEMENT, RECONSTRUCTION",
       "IFC4 Object Types": [
         "BACKLANE*",
         "DRIVEWAY*",
@@ -4909,7 +4810,7 @@
       "IFC4 Entities": [
         "IfcPipeFitting"
       ],
-      "Parameter Value (Sample)": "500 mm (NominalDiameter);\nCLASS 0 (Insulation_FlameSpreadClass);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness);\nDRAWING NO. <NO> (ExternalReference);\n15000 L (PWCS_VolumeOfWastePerDay)",
+      "Parameter Value (Sample)": "NominalDiameter: 500 mm;\nInsulation_FlameSpreadClass: CLASS 0;\nThickness: 8 mm, 500 mm, 300;\nExternalReference: DRAWING NO. <NO>;\nPWCS_VolumeOfWastePerDay: 15000 L",
       "IFC4 Object Types": [
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
@@ -5010,7 +4911,7 @@
       "IFC4 Entities": [
         "IfcFlowMeter"
       ],
-      "Parameter Value (Sample)": "5 (UnitNumber)",
+      "Parameter Value (Sample)": "UnitNumber: 5",
       "IFC4 Object Types": [
         "FUELMETER*"
       ],
@@ -5062,13 +4963,16 @@
         "recF4DoFhtNskQ5OD",
         "recc46Ckp6LisOvGY",
         "recthNO6Yc4uqLvuL",
-        "recnnpoBpxFAhmNB4"
+        "recnnpoBpxFAhmNB4",
+        "recGTwwkgrXcd8n8h",
+        "recAV1QlapXzTK8jL",
+        "rec0peX9T8kglCmf6"
       ],
-      "Properties [Data Type]": "CapacityWeight [Real];\nWithHoodedJet [Boolean];\nApprovedExtinguishingSystem [Boolean];\nMainsPressureType [Boolean];\nPressureAndTemperatureReliefValveWithControllingStopcock [Boolean];\nElectricCookerType [Label]",
+      "Properties [Data Type]": "CapacityWeight [Real];\nWithHoodedJet [Boolean];\nApprovedExtinguishingSystem [Boolean];\nMainsPressureType [Boolean];\nPressureAndTemperatureReliefValveWithControllingStopcock [Boolean];\nElectricCookerType [Label];\nOnGround [Boolean]",
       "IFC4 Entities": [
         "IfcElectricAppliance"
       ],
-      "Parameter Value (Sample)": "50kg (CapacityWeight);\nBOILINGPAN (ElectricCookerType);\nFIXED ROASTED TIN (ElectricCookerType);\nTILTING BOILING PAN (ElectricCookerType);\nTILTING ROASTED TIN (ElectricCookerType)",
+      "Parameter Value (Sample)": "CapacityWeight: 50kg;\nElectricCookerType: BOILINGPAN, FIXED ROASTED TIN, TILTING BOILING PAN, TILTING ROASTED TIN",
       "IFC4 Object Types": [
         "COFFEEMAKER*",
         "DRINKINGFOUNTAIN*",
@@ -5219,11 +5123,11 @@
         "rec3nVj3otaqTMqtP"
       ],
       "Properties [Data Type]": "ApprovedSoilMixture [Boolean];\nShrubs [Boolean];\nStatus [Label];\nVacantLand [Boolean];\nSingleStem [Boolean];\nPalmHeight [Label];\nReasonForRemoval [Label];\nSpecies [Label];\nTreeNumber [Label];\nTurf [Boolean];\nTurfSpecies [Label];\nShrubNumber [Label];\nBroadLandUse [Label];\nTreeSize [Label];\nPUBControlled [Boolean];\nShrubSpecies [Label];\nApprovedTurfSpecies [Label];\nTreeConservationArea [Boolean]",
-      "Parameter Value (Actual)": "EXISTING (Status);\nTO BE REMOVED (Status);\nPROPOSED/NEW (Status);\nTO BE FELLED (Status);\nTO BE PLANTED (Status);\nTO BE RETAINED (Status);\nTO BE TRANSPLANTED (Status)",
+      "Parameter Value (Actual)": "Status: EXISTING, TO BE REMOVED, PROPOSED/NEW;\nStatus: TO BE FELLED, TO BE PLANTED, TO BE REMOVED, TO BE RETAINED, TO BE TRANSPLANTED;\nStatus: EXISTING, TO BE FELLED, TO BE PLANTED, TO BE REMOVED, TO BE RETAINED, TO BE TRANSPLANTED, PROPOSED/NEW",
       "IFC4 Entities": [
         "IfcGeographicElement"
       ],
-      "Parameter Value (Sample)": "AXONOPUS COMPRESSUS (Species);\nSMOKE CHECK DOOR (TreeSize)",
+      "Parameter Value (Sample)": "Species: AXONOPUS COMPRESSUS;\nTreeSize: SMOKE CHECK DOOR",
       "IFC4 Object Types": [
         "BEACH*",
         "UTILITYPOLE*",
@@ -5269,7 +5173,7 @@
       "IFC4 Entities": [
         "IfcColumn"
       ],
-      "Parameter Value (Sample)": "BS 476 PART 20/21 BRITISH STANDARD 476 FIRE TESTS (ExternalReference);\nBS 8202 PART 2 COATINGS FOR FIRE PROTECTION OF BUILDING ELEMENTS (ExternalReference);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade)",
+      "Parameter Value (Sample)": "ExternalReference: BS 476 PART 20/21 BRITISH STANDARD 476 FIRE TESTS, BS 8202 PART 2 COATINGS FOR FIRE PROTECTION OF BUILDING ELEMENTS;\nMechanicalConnectionType: GROUTED SLEEVES, COLUMN SHOES, SPIRAL, CLOSED;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "COLUMN"
@@ -5295,7 +5199,7 @@
       "IFC4 Entities": [
         "IfcRailing"
       ],
-      "Parameter Value (Sample)": "8000 (Height)",
+      "Parameter Value (Sample)": "Height: 8000",
       "IFC4 Object Types": [
         "BACKGUARD*",
         "BOLLARD*"
@@ -5318,11 +5222,11 @@
         "recskMLTUUa7o5RXU"
       ],
       "Properties [Data Type]": "Purpose [Label]",
-      "Parameter Value (Actual)": "SUBMETER COMPARTMENT (Purpose)",
+      "Parameter Value (Actual)": "Purpose: SUBMETER COMPARTMENT",
       "IFC4 Entities": [
         "IfcFlowMeter"
       ],
-      "Parameter Value (Sample)": "MAIN DISTRIBUTION FRAME ROOM (Purpose);\nMARKET (Purpose);\nPRIVATE (Purpose);\nSUB-PANEL (Purpose)",
+      "Parameter Value (Sample)": "Purpose: MAIN DISTRIBUTION FRAME ROOM, MARKET, PRIVATE, SUB-PANEL",
       "IFC4 Object Types": [
         "FUELMETER*"
       ],
@@ -5373,11 +5277,11 @@
         "recY0Jze0621SHmuu"
       ],
       "Properties [Data Type]": "ChemicalResistantMaterial [Boolean];\nFinishType [Label];\nSlabType [Label];\nPerforated [Boolean];\nConstructionMethod [Label];\nFlameSpreadClass [Label];\nWatertight [Boolean];\nReinforcementSteelGrade [Label];\nFireStop [Boolean];\nFunction [Label];\nReferTo2DDetail [Label];\nShelterUsage [Boolean];\nMechanicalConnectionType [Label];\nAccreditation_PAS [Boolean];\nWeightGroup [Label];\nWeight [Real];\nWeldedMesh [Boolean];\nBuildabilityBlkName [Label]",
-      "Parameter Value (Actual)": "PREFABRICATED AND PREFINISHED (ConstructionMethod);\nSERVICE PLATFORM (Function);\nACCESS PLATFORM (Function);\nCEILING SLAB (Function);\nFLARED SIDE RAMP (Function);\nINTERMEDIATE SLAB (Function);\nSERVICE ROAD (Function);\nSHELTER (Function)",
+      "Parameter Value (Actual)": "ConstructionMethod: PREFABRICATED AND PREFINISHED;\nFunction: SERVICE PLATFORM;\nFunction: ACCESS PLATFORM, CEILING SLAB, FLARED SIDE RAMP, INTERMEDIATE SLAB, SERVICE ROAD, SHELTER",
       "IFC4 Entities": [
         "IfcSlab"
       ],
-      "Parameter Value (Sample)": "POWER FLOAT CONCRETE (FinishType);\nCEMENT SCREED (FinishType);\nTERRACOTTA (FinishType);\nCLAY TILES (FinishType);\nCEMENT TERRAZZO (FinishType);\nMOSAIC (FinishType);\nONE-WAY (SlabType);\nPRECAST (ConstructionMethod);\nPREFABRICATED (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nDOUBLE T SLAB (TypeDesignator; Function);\nLEDGE (Function);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nPT BEAM (ConstructionMethod);\n100 kg (Weight)",
+      "Parameter Value (Sample)": "FinishType: POWER FLOAT CONCRETE, CEMENT SCREED, TERRACOTTA, CLAY TILES, CEMENT TERRAZZO, MOSAIC;\nSlabType: ONE-WAY;\nConstructionMethod: PRECAST, PREFABRICATED, CAST-IN-SITU, INSTALL ON-SITE;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500;\nFunction: DOUBLE T SLAB, LEDGE;\nMechanicalConnectionType: FLEXIBLE LOOPS, GROUTED SLEEVES, COLUMN SHOES, SPIRAL, CLOSED;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, PT BEAM, INSTALL ON-SITE;\nMechanicalConnectionType: FLEXIBLE LOOPS;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nWeight: 100 kg",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
@@ -5409,7 +5313,7 @@
       "IFC4 Entities": [
         "IfcStairFlight"
       ],
-      "Parameter Value (Sample)": "PREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod)",
+      "Parameter Value (Sample)": "ConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE",
       "IFC4 Object Types": [
         "WINDER*"
       ],
@@ -5439,7 +5343,7 @@
       "IFC4 Entities": [
         "IfcLightFixture"
       ],
-      "Parameter Value (Sample)": "IP66 (IndexOfProtection)",
+      "Parameter Value (Sample)": "IndexOfProtection: IP66",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SECURITYLIGHTING",
@@ -5494,17 +5398,16 @@
         "recsMRniCKSKsLBWz"
       ],
       "Properties [Data Type]": "ElectromechanicalForSelfClosingDevice [Boolean];\nMechanizedCarParking_Type [Label];\nAccreditation_MAS [Boolean];\nCommunicationSystem [Boolean];\nConstructionMethod [Label];\nCombustible [Boolean];\nAccreditation_PAS [Boolean];\nLength [Length]",
-      "Parameter Value (Actual)": "PREFABRICATED AND PREFINISHED (ConstructionMethod)",
+      "Parameter Value (Actual)": "ConstructionMethod: PREFABRICATED AND PREFINISHED",
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
-      "Parameter Value (Sample)": "FULLY AUTOMATED SYSTEM (MechanizedCarParking_Type);\nSTADIUM (MechanizedCarParking_Type);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\n240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\nPPVC (ConstructionMethod)",
+      "Parameter Value (Sample)": "MechanizedCarParking_Type: FULLY AUTOMATED SYSTEM, STADIUM;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nConstructionMethod: PRECAST;\nLength: 240 L, 2400mm, 40000, 1350;\nConstructionMethod: PPVC;\nConstructionMethod: PREFABRICATED",
       "IFC4 Object Types": [
         "BEAMFACADEWALL*",
         "FRAMING*",
         "DIAPHRAGMWALLSYSTEM*",
         "DRAINAGE*",
-        "MAINTENANCE*",
         "MECHANIZEDCARPARKING*",
         "OXYGENREDUCTION*",
         "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
@@ -5550,11 +5453,11 @@
         "rec3YOajOrChe43Br"
       ],
       "Properties [Data Type]": "ShadingDeviceType [Label];\nCombustible [Boolean];\nFireRating [Label];\nStatus [Label]",
-      "Parameter Value (Actual)": "TEMPORARY (Status)",
+      "Parameter Value (Actual)": "Status: TEMPORARY",
       "IFC4 Entities": [
         "IfcShadingDevice"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "CANOPY*",
         "DROPDOWNPANEL*",
@@ -5605,14 +5508,18 @@
         "recs5ze42Nre6zvxP",
         "rec40sYmf9aZkot2Y",
         "recTCUbqsVrWFqT8E",
-        "recZIomXnmCXgHyh7"
+        "recZIomXnmCXgHyh7",
+        "receEH6AnOKfSL585",
+        "recIOSR4sMtaldz88",
+        "recC22xKZR3hOK2jG",
+        "recZs3ECaXtVwYKlO"
       ],
       "Properties [Data Type]": "WithPlug [Boolean];\nSiphoning [Boolean];\nAmbulantDisabled [Boolean];\nChildrenFriendly [Boolean];\nFlushVolume [Label];\nFullFlushVolume [Label];\nIsSingleFlush [Boolean];\nReducedFlushVolume [Label];\nFunction [Label];\nFlowRate [VolumetricFlowRate];\nExternalReference [Label];\nMounting [Label];\nBarrierFreeAccessibility [Boolean];\nOnGround [Boolean];\nSinkType [Label];\nWaterless [Boolean];\nPanMounting [Label];\nToiletPanType [Label]",
-      "Parameter Value (Actual)": "REFUSE CHUTE FLUSHING SPRINKLER (Function);\nCOUNTER TOP (Mounting);\nVEGETABLE PREPARATION (SinkType)",
+      "Parameter Value (Actual)": "Function: REFUSE CHUTE FLUSHING SPRINKLER;\nMounting: COUNTER TOP;\nSinkType: VEGETABLE PREPARATION",
       "IFC4 Entities": [
         "IfcSanitaryTerminal"
       ],
-      "Parameter Value (Sample)": "ASME A112.19.19 VITREOUS CHINA NONWATER URINALS (ExternalReference);\nWALL HUNG (Mounting);\nSS 563 CODE OF PRACTICE FOR THE DESIGN, INSTALLATION AND MAINTENANCE OF EMERGENCY LIGHTING AND POWER SUPPLY SYSTEMS IN BUILDINGS (ExternalReference);\nRINSING (SinkType);\nPEDESTAL (PanMounting);\nSS 30 MANHOLE TOPS AND SURFACE-BOX TOPS (ToiletPanType)",
+      "Parameter Value (Sample)": "ExternalReference: ASME A112.19.19 VITREOUS CHINA NONWATER URINALS;\nMounting: WALL HUNG;\nExternalReference: SS 563 CODE OF PRACTICE FOR THE DESIGN, INSTALLATION AND MAINTENANCE OF EMERGENCY LIGHTING AND POWER SUPPLY SYSTEMS IN BUILDINGS;\nSinkType: RINSING;\nPanMounting: PEDESTAL;\nToiletPanType: SS 30 MANHOLE TOPS AND SURFACE-BOX TOPS",
       "IFC4 Object Types": [
         "FOGGER*",
         "MISTER*",
@@ -5672,63 +5579,11 @@
       "IFC4 Entities": [
         "IfcActuator"
       ],
-      "Parameter Value (Sample)": "FIRE SMOKE DAMPER ACTUATOR (Application)",
+      "Parameter Value (Sample)": "Application: FIRE SMOKE DAMPER ACTUATOR",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
         "HYDRAULICACTUATOR"
-      ]
-    }
-  },
-  {
-    "id": "recmF4Oydfq9JWeLE",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_TransportElementTypeLift",
-      "Entity Key": [
-        "recTKQhG1UHX2t846"
-      ],
-      "PR Key (Component_Parameter)": [
-        "recqZnWvvwFbFQkvr",
-        "rec8th6IaBQO3uTAw",
-        "recTh3OhJZvUOiSm3",
-        "recBmHoqxqp872h5P",
-        "rectHz0UBSlyQ4dfo",
-        "reccOljl0spYDzup4",
-        "rec88RU1vweG20APm",
-        "recTq8i3mjRqbRsql",
-        "recPcbWtIYZOwybzI",
-        "recy2WkU6M8KwjAU8",
-        "rectXyNDLXapH9PBe",
-        "rec8WLw1oXL3V2li6",
-        "rec9qPgESrglsAhb3",
-        "reca3u5IrmJCXXOEY",
-        "recaP77WcdzcM1pdO",
-        "recFWEXV8QjGemcK9",
-        "recLekGTQemoYPJ61",
-        "recUEI46a9NeMB7jz",
-        "recZmj4iaZZsBYr7L",
-        "recZxdBZIKBsO7Hzg",
-        "recgPgUOKP9l3jymm",
-        "reciDKuiPix24Kfsv",
-        "recpE2mYQETnX3IUb",
-        "recqrFO4FEnteXtOh",
-        "recwsELH55bScrdda",
-        "recAk5dfPYzrWnSsc"
-      ],
-      "Properties [Data Type]": "LiftType [Label];\nRatedLoad [Label];\nTravelHeight [Length];\nTrapDoor_OpenOutward [Boolean]",
-      "Parameter Value (Actual)": "EVACUATION LIFT (LiftType)",
-      "IFC4 Entities": [
-        "IfcTransportElement"
-      ],
-      "Parameter Value (Sample)": "700kg (RatedLoad);\n30m (TravelHeight)",
-      "IFC4 Object Types": [
-        "BINLIFTER*",
-        "LIFT*"
-      ],
-      "IFC4 Predefined Types": [
-        "ESCALATOR",
-        "MOVINGWALKWAY"
       ]
     }
   },
@@ -5750,7 +5605,7 @@
       "IFC4 Entities": [
         "IfcStackTerminal"
       ],
-      "Parameter Value (Sample)": "COARSE METAL SCREEN (AirParticleFilterType)",
+      "Parameter Value (Sample)": "AirParticleFilterType: COARSE METAL SCREEN",
       "IFC4 Object Types": [
         "MOSQUITONET*"
       ],
@@ -5815,7 +5670,7 @@
         "rec2tNoVXYt7n4Npc"
       ],
       "Properties [Data Type]": "AVF_AreaType [Label];\nAVF_BonusGFAType [Label];\nAVF_DetailedUse [Label];\nAVF_DevelopmentUse [Label];\nAVF_Name [Label];\nAVF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "BUSINESS PARK (AGF_DevelopmentUse; AVF_DevelopmentUse);\nEDUCATIONAL INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nROAD (AGF_DevelopmentUse; AVF_DevelopmentUse);\nTRANSPORT FACILITIES (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESIDENTIAL (NON-LANDED) (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCEMETERY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 1 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBUSINESS 2 (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHEALTH & MEDICAL CARE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nCIVIC & COMMUNITY INSTITUTION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nBEACH AREA (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPORTS AND RECREATION (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRAPID TRANSIT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nUTILITY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nAGRICULTURE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPORT/AIRPORT (AGF_DevelopmentUse; AVF_DevelopmentUse);\nSPIRAL CONNECTOR (AGF_DevelopmentUse; AVF_DevelopmentUse);\nWATERBODY (AGF_DevelopmentUse; AVF_DevelopmentUse);\nRESERVE SITE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nHOTEL (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPLACE OF WORSHIP (AGF_DevelopmentUse; AVF_DevelopmentUse);\nOPEN SPACE (AGF_DevelopmentUse; AVF_DevelopmentUse);\nPARK (AGF_DevelopmentUse; AVF_DevelopmentUse)",
+      "Parameter Value (Actual)": "AVF_DevelopmentUse: BUSINESS PARK, EDUCATIONAL INSTITUTION, ROAD, TRANSPORT FACILITIES, RESIDENTIAL (LANDED), RESIDENTIAL (NON-LANDED), CEMETERY, BUSINESS 1, BUSINESS 2, HEALTH & MEDICAL CARE, CIVIC & COMMUNITY INSTITUTION, BEACH AREA, SPORTS AND RECREATION, RAPID TRANSIT, UTILITY, AGRICULTURE, PORT/AIRPORT, SPIRAL CONNECTOR, WATERBODY, RESERVE SITE, HOTEL, PLACE OF WORSHIP, OPEN SPACE, PARK",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -5869,7 +5724,7 @@
       "IFC4 Entities": [
         "IfcTransportElement"
       ],
-      "Parameter Value (Sample)": "50kg (CapacityWeight)",
+      "Parameter Value (Sample)": "CapacityWeight: 50kg",
       "IFC4 Object Types": [
         "BINLIFTER*",
         "LIFT*"
@@ -5923,7 +5778,7 @@
       "IFC4 Entities": [
         "IfcRailing"
       ],
-      "Parameter Value (Sample)": "1.5 (LateralLoad)",
+      "Parameter Value (Sample)": "LateralLoad: 1.5",
       "IFC4 Object Types": [
         "BACKGUARD*",
         "BOLLARD*"
@@ -6027,7 +5882,7 @@
       "IFC4 Entities": [
         "IfcPipeFitting"
       ],
-      "Parameter Value (Sample)": "10 mm (Diameter);\n600 (Diameter)",
+      "Parameter Value (Sample)": "Diameter: 10 mm, 600",
       "IFC4 Object Types": [
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
@@ -6154,7 +6009,7 @@
       "IFC4 Entities": [
         "IfcDoor"
       ],
-      "Parameter Value (Sample)": "ROLLINGUP (OperationType);\nSINGLE_SWING_LEFT (OperationType);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nDOUBLE_SWING (OperationType);\nFOLDING_TO_LEFT (OperationType);\nREVOLVING (OperationType);\nSLIDING GATE (OperationType);\nSLIDING_TO_RIGHT (OperationType);\nSLIM FLOOR SYSTEM (OperationType)",
+      "Parameter Value (Sample)": "OperationType: ROLLINGUP;\nOperationType: SINGLE_SWING_LEFT;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nOperationType: DOUBLE_SWING, FOLDING_TO_LEFT, REVOLVING, ROLLINGUP, SINGLE_SWING_LEFT, SLIDING GATE, SLIDING_TO_RIGHT, SLIM FLOOR SYSTEM;\nOperationType: SINGLE_SWING_LEFT, SLIDING_TO_RIGHT",
       "IFC4 Object Types": [
         "ACCESSHATCH*",
         "RECYCLABLESCHUTEACCESSPANEL*",
@@ -6204,7 +6059,7 @@
       "IFC4 Entities": [
         "IfcFooting"
       ],
-      "Parameter Value (Sample)": "T20-150 (BottomDistribution);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\nT32-150 (BottomMain);\nT16-150 (TopDistribution);\n1H13-250 (SideBar);\nT25-150 (TopMain)",
+      "Parameter Value (Sample)": "BottomDistribution: T20-150;\nStirrups: 1H10-150-300, T10-150-300, 1H16-250;\nStirrupsType: DOUBLE U LINK, CLOSE LINK, SPORTS & RECREATION, U TYPE,  C/L TYPE;\nBottomMain: T32-150;\nTopDistribution: T16-150;\nSideBar: 1H13-250;\nTopMain: T25-150",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -6230,11 +6085,11 @@
         "recxnBi30iCYC26nr"
       ],
       "Properties [Data Type]": "ThermalTransmittance [Thermal Transmittance];\nStatus [Label]",
-      "Parameter Value (Actual)": "EXISTING (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Status: EXISTING, NEW",
       "IFC4 Entities": [
         "IfcWindow"
       ],
-      "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance)",
+      "Parameter Value (Sample)": "ThermalTransmittance: 1 W/m2 K",
       "IFC4 Object Types": [
         "VENTILATIONSLEEVE*",
         "BAYWINDOW*"
@@ -6263,7 +6118,7 @@
       "IFC4 Entities": [
         "IfcCurtainWall"
       ],
-      "Parameter Value (Sample)": "1 W/m2 K (ThermalTransmittance);\n4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "ThermalTransmittance: 1 W/m2 K;\nFireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -6292,7 +6147,7 @@
       "IFC4 Entities": [
         "IfcValve"
       ],
-      "Parameter Value (Sample)": "BALL (ValveMechanism);\nDROPWEIGHT (ValveOperation);\nFLOAT (ValveOperation);\nLEVER (ValveOperation);\nSOLID, LIQUID, GAS (ValveOperation);\nTHERMOSTATIC (ValveOperation);\nWHEEL (ValveOperation)",
+      "Parameter Value (Sample)": "ValveMechanism: BALL;\nValveOperation: DROPWEIGHT, FLOAT, LEVER, SOLID, LIQUID, GAS, THERMOSTATIC, WHEEL",
       "IFC4 Object Types": [
         "AIRADMITTANCE*",
         "AIRINTAKEVALVE*",
@@ -6348,7 +6203,6 @@
         "recex4kVCwWi29Kkz",
         "recjsOGa539yyu7xP",
         "rectkJUP7RMIrzC7m",
-        "recGEY2XhAQ73Y2TL",
         "reciIBqv1bxWWR5Bx",
         "recgZ0kDriutbkkl9",
         "recPqFkzcCzIhfYy0",
@@ -6393,11 +6247,11 @@
         "recwHw44YxVnZjICK"
       ],
       "Properties [Data Type]": "Grade [Label];\nRemovable [Boolean];\nWithBackdrop [Boolean];\nWithLiftingFeature [Boolean];\nWithVortexDrop [Boolean];\nWithTumblingBay [Boolean];\nVortexDropType [Label];\nFinishType [Label];\nExternalReference [Label];\nWatertight [Boolean];\nAirTight [Boolean];\nFunction [Label];\nTopLevel [Real];\nInvertLevel [Real];\nTED_TemperatureOfDischarge [Label];\nTED_Sulphide [Label];\nTED_TotalSuspendedSolid [Label];\nTED_Calcium [Label];\nTED_Chromium [Label];\nTED_Lead [Label];\nTED_Nickel [Label];\nTED_TotalDissolvedSolid [Label];\nTED_Chlorine [Label];\nTED_Chloride [Label];\nTED_Sulphate [Label];\nTED_Barium [Label];\nTED_PHValue [Label];\nTED_Phosphate [Label];\nTED_Magnesium [Label];\nTED_Tin [Label];\nTED_Detergent [Label];\nTED_ChemicalOxygenDemand [Label];\nTED_Colour [Label];\nTED_MetalsInTotal [Label];\nTED_Boron [Label];\nTED_Manganese [Label];\nTED_Arsenic [Label];\nTED_Mercury [Label];\nTED_Nitrate [Label];\nTED_Copper [Label];\nTED_BiochemicalOxygenDemand [Label];\nTED_GreaseAndOil [Label];\nTED_Iron [Label];\nTED_Beryllium [Label];\nTED_PhenolicCompound [Label];\nTED_Cadmium [Label];\nTED_Silver [Label];\nTED_Cyanide [Label];\nTED_Selenium [Label];\nTED_Zinc [Label]",
-      "Parameter Value (Actual)": "TRADE EFFLUENT DISCHARGE (Function)",
+      "Parameter Value (Actual)": "Function: TRADE EFFLUENT DISCHARGE",
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
       ],
-      "Parameter Value (Sample)": "GRADE A2 (Grade);\nPUB/WRN/STD/009 (VortexDropType);\nQP DESIGN (VortexDropType);\nPUB/WRN/STD/017A STANDARD INSPECTION CHAMBER FRAME AND COVER (ExternalReference);\nSS574 SPECIFICATION FOR DUAL FLUSH LOW CAPACITY WATER CLOSET (WC) UP TO 4.5/3.0 LITRES CAPACITY (ExternalReference);\nBS EN 13598-1 PLASTICS PIPING SYSTEMS FOR NON-PRESSURE UNDERGROUND DRAINAGE AND SEWERAGE. (ExternalReference);\nPUB/WRN/STD/015A PUB/WRN/STD/016A STANDARD MEDIUM DUTY MANHOLE FRAME AND COVER (ExternalReference)",
+      "Parameter Value (Sample)": "Grade: GRADE A2;\nVortexDropType: PUB/WRN/STD/009, QP DESIGN;\nExternalReference: PUB/WRN/STD/017A STANDARD INSPECTION CHAMBER FRAME AND COVER, SS574 SPECIFICATION FOR DUAL FLUSH LOW CAPACITY WATER CLOSET (WC) UP TO 4.5/3.0 LITRES CAPACITY, BS EN 13598-1 PLASTICS PIPING SYSTEMS FOR NON-PRESSURE UNDERGROUND DRAINAGE AND SEWERAGE.;\nExternalReference: PUB/WRN/STD/015A PUB/WRN/STD/016A STANDARD MEDIUM DUTY MANHOLE FRAME AND COVER, SS574 SPECIFICATION FOR DUAL FLUSH LOW CAPACITY WATER CLOSET (WC) UP TO 4.5/3.0 LITRES CAPACITY;\nExternalReference: SS574 SPECIFICATION FOR DUAL FLUSH LOW CAPACITY WATER CLOSET (WC) UP TO 4.5/3.0 LITRES CAPACITY",
       "IFC4 Object Types": [
         "LPS_EARTHPIT*",
         "PWCSINSPECTIONCHAMBER*",
@@ -6434,11 +6288,11 @@
         "rec9ruG0mus8CJN2W"
       ],
       "Properties [Data Type]": "NominalCapacity [Volume];\nStorageType [Label]",
-      "Parameter Value (Actual)": "WATER TANK (StorageType)",
+      "Parameter Value (Actual)": "StorageType: WATER TANK",
       "IFC4 Entities": [
         "IfcTank"
       ],
-      "Parameter Value (Sample)": "1000 L (NominalCapacity);\n40 m3 (NominalCapacity);\nCHEMICAL (StorageType);\nFERTILIZER (StorageType);\nFUEL (StorageType);\nGAS (StorageType);\nOIL (StorageType);\nPESTICIDE (StorageType);\nWASTE (StorageType)",
+      "Parameter Value (Sample)": "NominalCapacity: 1000 L, 40 m3;\nStorageType: CHEMICAL, FERTILIZER, FUEL, GAS, OIL, PESTICIDE, WASTE",
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
@@ -6489,11 +6343,11 @@
         "recb0n0bRbkRbCd4g"
       ],
       "Properties [Data Type]": "SelfClosing [Boolean];\nHasDrive [Boolean];\nMechanicalLoadRating [Label];\nStatus [Label];\nFireExit [Boolean];\nFireRating [Label]",
-      "Parameter Value (Actual)": "EXISTING (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Status: EXISTING, NEW",
       "IFC4 Entities": [
         "IfcDoor"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [
         "ACCESSHATCH*",
         "RECYCLABLESCHUTEACCESSPANEL*",
@@ -6581,7 +6435,7 @@
       "IFC4 Entities": [
         "IfcSolarDevice"
       ],
-      "Parameter Value (Sample)": "8000 (Height)",
+      "Parameter Value (Sample)": "Height: 8000",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SOLARPANEL",
@@ -6602,7 +6456,7 @@
         "reciPJn0U1aY1KWzL"
       ],
       "Properties [Data Type]": "Status [Label]",
-      "Parameter Value (Actual)": "ABANDONED (Status);\nNEW (Status);\nEXISTING (Status)",
+      "Parameter Value (Actual)": "Status: ABANDONED, NEW, EXISTING",
       "IFC4 Entities": [
         "IfcDistributionChamberElement"
       ],
@@ -6637,7 +6491,6 @@
       ],
       "PR Key (Component_Parameter)": [
         "recey72gt7AvcBXqE",
-        "recfiDcWQORn0JmzW",
         "rec2XPBXF5UUZIyAj"
       ],
       "Properties [Data Type]": "ArrangementType [Label]",
@@ -6645,7 +6498,7 @@
         "IfcColumn",
         "IfcWall"
       ],
-      "Parameter Value (Sample)": "DOUBLE BAY FACADE WALL (ArrangementType);\nMULTI-TIER WALL (ArrangementType);\nMULTI-TIER COLUMN (ArrangementType)",
+      "Parameter Value (Sample)": "ArrangementType: DOUBLE BAY FACADE WALL, MULTI-TIER WALL, MULTI-TIER COLUMN",
       "IFC4 Object Types": [
         "KERB*",
         "BARRIER*",
@@ -6684,7 +6537,7 @@
       "IFC4 Entities": [
         "IfcPile"
       ],
-      "Parameter Value (Sample)": "10H32+10H16 (MainRebar);\n4H32 (MainRebar);\nSQUAT (PileType);\nPRECAST (PileType);\nCAST-IN-SITU (PileType);\n1000 (ReinforcementLength);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
+      "Parameter Value (Sample)": "MainRebar: 10H32+10H16, 4H32;\nPileType: SQUAT, PRECAST, CAST-IN-SITU;\nReinforcementLength: 1000;\nStirrups: 1H10-150-300, T10-150-300, 1H16-250",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
@@ -6717,7 +6570,7 @@
       "IFC4 Entities": [
         "IfcFan"
       ],
-      "Parameter Value (Sample)": "4 (AirChangePerHour);\n12 (AirChangePerHour);\n20 (AirChangePerHour);\n10 (AirChangePerHour)",
+      "Parameter Value (Sample)": "AirChangePerHour: 4, 12, 20, 10",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -6779,7 +6632,7 @@
       "IFC4 Entities": [
         "IfcSpace"
       ],
-      "Parameter Value (Sample)": "5 (UnitNumber)",
+      "Parameter Value (Sample)": "UnitNumber: 5",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -6821,7 +6674,7 @@
       "IFC4 Entities": [
         "IfcStair"
       ],
-      "Parameter Value (Sample)": "CHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
+      "Parameter Value (Sample)": "MemberSection: CHS500X3.0, 254X254X63 KG/M, RHS600x30x4, CHS500x3.0, RHS600x30x4, CHS500x3.0, 254x254x63 kg/m;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nThickness: 8 mm, 500 mm, 300",
       "IFC4 Object Types": [
         "LADDER*"
       ],
@@ -6852,7 +6705,7 @@
       "IFC4 Entities": [
         "IfcBeam"
       ],
-      "Parameter Value (Sample)": "2500 (Depth);\n300 (Depth);\n240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\nCHS500X3.0, 254X254X63 KG/M (MemberSection);\nRHS600x30x4, CHS500x3.0 (MemberSection);\nRHS600x30x4, CHS500x3.0, 254x254x63 kg/m (MemberSection);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark);\nBS 476 PART 20/21 BRITISH STANDARD 476 FIRE TESTS (ExternalReference);\nBS 8202 PART 2 COATINGS FOR FIRE PROTECTION OF BUILDING ELEMENTS (ExternalReference)",
+      "Parameter Value (Sample)": "Depth: 2500, 300;\nWidth: 240 L, 2400mm, 8400, 300, 1350, 40000;\nMemberSection: CHS500X3.0, 254X254X63 KG/M, RHS600x30x4, CHS500x3.0, RHS600x30x4, CHS500x3.0, 254x254x63 kg/m;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1;\nExternalReference: BS 476 PART 20/21 BRITISH STANDARD 476 FIRE TESTS, BS 8202 PART 2 COATINGS FOR FIRE PROTECTION OF BUILDING ELEMENTS",
       "IFC4 Object Types": [
         "TRELLIS*"
       ],
@@ -6876,11 +6729,11 @@
         "recAIHa6hSTOlVYoN"
       ],
       "Properties [Data Type]": "Combustible [Boolean];\nFireRating [Label];\nStatus [Label]",
-      "Parameter Value (Actual)": "EXISTING (Status);\nTEMPORARY (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Status: EXISTING, TEMPORARY, NEW",
       "IFC4 Entities": [
         "IfcColumn"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "COLUMN"
@@ -6934,7 +6787,7 @@
       "IFC4 Entities": [
         "IfcPipeSegment"
       ],
-      "Parameter Value (Sample)": "240 L (Length);\n2400mm (Length);\n40000 (Length);\n1350 (Length);\n8 mm (Thickness);\n500 mm (Thickness);\n300 (Thickness)",
+      "Parameter Value (Sample)": "Length: 240 L, 2400mm, 40000, 1350;\nThickness: 8 mm, 500 mm, 300",
       "IFC4 Object Types": [
         "BYPASSCHANNEL*",
         "RAINWATEROUTLET*",
@@ -6971,7 +6824,7 @@
       "IFC4 Entities": [
         "IfcFilter"
       ],
-      "Parameter Value (Sample)": "FILTRATION_DIATOMACEOUS_EARTH, FILTRATION_SAND, SOFTENING_ZEOLITE (WaterFilterType)",
+      "Parameter Value (Sample)": "WaterFilterType: FILTRATION_DIATOMACEOUS_EARTH, FILTRATION_SAND, SOFTENING_ZEOLITE",
       "IFC4 Object Types": [
         "SCRUBBER*",
         "WASTEAIRSEPARATOR*"
@@ -7008,8 +6861,6 @@
         "recKBIcqrbdoy0J1F",
         "recNAQfhfWUCxWGXK",
         "recRRMc237J9nGSw1",
-        "recVxHezs30oVdjE2",
-        "recZTIQh23Viu1xT6",
         "rec0WqfwKyOzlJQbw",
         "recgtijQ2NKg3BcJz",
         "recmeeCupHSf0gpmW",
@@ -7025,11 +6876,11 @@
         "recQPEWJcbFVlK90z"
       ],
       "Properties [Data Type]": "CorrectionFactor [Real];\nIsPartyWall [Boolean];\nPorousFence [Boolean];\nPrecisionBlockwall [Boolean];\nRecyclablesChuteID [Label];\nRefuseChuteID [Label];\nRightOfWay [Boolean];\nShelterUsage [Boolean];\nBuildingEnvelopeWallSetback [Real];\nWatertight [Boolean];\nConstructionMethod [Label];\nReinforcementSteelGrade [Label];\nReferTo2DDetail [Label];\nFlameSpreadClass [Label];\nWaterSealant [Boolean];\nFireStop [Boolean];\nAccreditation_PAS [Boolean];\nFinishType [Label];\nMechanicalConnectionType [Label];\nAreaIDServed [Label];\nMark [Label]",
-      "Parameter Value (Actual)": "PREFABRICATED AND PREFINISHED (ConstructionMethod);\nOFF-FORM PRECAST (ConstructionMethod);\nSKIM COAT (FinishType);\nAREA_GFA (AreaIDServed)",
+      "Parameter Value (Actual)": "ConstructionMethod: PREFABRICATED AND PREFINISHED, OFF-FORM PRECAST;\nFinishType: SKIM COAT;\nAreaIDServed: AREA_GFA",
       "IFC4 Entities": [
         "IfcWall"
       ],
-      "Parameter Value (Sample)": "1.17 (CorrectionFactor);\nRECYCLABLESCHUTE1 (RecyclablesChuteID);\nREFUSECHUTE1 (RefuseChuteID);\nPREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\nFYK = 500 N/MM2, CLASS B (ReinforcementSteelGrade);\n500 (ReinforcementSteelGrade);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\nFAIR-FACED BRICKWALLS (FinishType);\nLIME PLASTER (FinishType);\nTIMBER (FinishType);\nSHANGHAI PLASTER (FinishType);\nFLEXIBLE LOOPS (MechanicalConnectionType);\nGROUTED SLEEVES (MechanicalConnectionType);\nCOLUMN SHOES (MechanicalConnectionType);\nSPIRAL, CLOSED (MechanicalConnectionType);\nS1 (Mark);\nTC1, C1 (Mark);\nVB1, B1, 600X300 (Mark);\nW1 (Mark);\nF2, PC1, PC2, PC4_1 (Mark)",
+      "Parameter Value (Sample)": "CorrectionFactor: 1.17;\nRecyclablesChuteID: RECYCLABLESCHUTE1;\nRefuseChuteID: REFUSECHUTE1;\nConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nReinforcementSteelGrade: FYK = 500 N/MM2, CLASS B, 500;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nFinishType: FAIR-FACED BRICKWALLS, LIME PLASTER, TIMBER, SHANGHAI PLASTER;\nMechanicalConnectionType: FLEXIBLE LOOPS, GROUTED SLEEVES, COLUMN SHOES, SPIRAL, CLOSED;\nMechanicalConnectionType: FLEXIBLE LOOPS;\nMark: S1, TC1, C1, VB1, B1, 600X300, W1, F2, PC1, PC2, PC4_1",
       "IFC4 Object Types": [
         "KERB*",
         "BARRIER*",
@@ -7069,11 +6920,11 @@
         "recM4Mso7mkGmue4w"
       ],
       "Properties [Data Type]": "RTTV [Label];\nWeightGroup [Label];\nExternalReference [Label];\nPerforated [Boolean];\nLS_NaturalComponentElement [Boolean];\nFunction [Label];\nFlameSpreadClass [Label];\nWeight [Real];\nConstructionMethod [Label]",
-      "Parameter Value (Actual)": "SHELTER (Function)",
+      "Parameter Value (Actual)": "Function: SHELTER",
       "IFC4 Entities": [
         "IfcRoof"
       ],
-      "Parameter Value (Sample)": "ASTM E108 STANDARD TEST METHODS FOR FIRE TESTS (ExternalReference);\nCLASS 0 (FlameSpreadClass);\nCLASS 1 (FlameSpreadClass);\nCLASS 2 (FlameSpreadClass);\nCLASS 3 (FlameSpreadClass);\nCLASS 4 (FlameSpreadClass);\n100 kg (Weight)",
+      "Parameter Value (Sample)": "ExternalReference: ASTM E108 STANDARD TEST METHODS FOR FIRE TESTS;\nFlameSpreadClass: CLASS 0, CLASS 1, CLASS 2, CLASS 3, CLASS 4;\nWeight: 100 kg",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLAT_ROOF",
@@ -7204,7 +7055,6 @@
         "rec7JvoO0oqQfnMP4",
         "recmvGjHzHqTb6tgP",
         "rec5aufrVaDpatq8M",
-        "recHJxnVkZJVK7dHg",
         "recKDk0bmsjE1WlXO",
         "recZ2fPBZYUR1JkiL",
         "recq1G0dTmSgcMrnt",
@@ -7231,12 +7081,11 @@
         "recv6RgLUhuN2E7IS",
         "reclp5gctR0IJetXF"
       ],
-      "Properties [Data Type]": "BasePlate_Thickness [Length];\nColourCode [Label];\nHookUpPoint [Label];\nLitre [Label];\nMaterial_BasePlate [Label];\nTailGateOrientation [Label];\nWheeled [Boolean];\nCompactionRatio [Label];\nFunction [Label];\nIsBuiltIn [Boolean];\nBarrierFreeAccessibility [Boolean];\nAmbulantDisabled [Boolean];\nExternalReference [Label];\nCapacity [Volume]",
-      "Parameter Value (Actual)": "SEATING (Function)",
+      "Properties [Data Type]": "BasePlate_Thickness [Length];\nColourCode [Label];\nHookUpPoint [Label];\nLitre [Label];\nMaterial_BasePlate [Label];\nTailGateOrientation [Label];\nWheeled [Boolean];\nCompactionRatio [Label];\nIsBuiltIn [Boolean];\nBarrierFreeAccessibility [Boolean];\nAmbulantDisabled [Boolean];\nExternalReference [Label];\nCapacity [Volume]",
       "IFC4 Entities": [
         "IfcFurniture"
       ],
-      "Parameter Value (Sample)": "6 mm (BasePlate_Thickness);\nOUTWARD FACING (HookUpPoint);\nMEZZANINE (Material_BasePlate);\nINWARD FACING (TailGateOrientation);\n2:01 (CompactionRatio);\nDIN 30722 ROLLER CONTACT TIPPER VEHICLES, ROLLER CONTAINERS (ExternalReference);\nSS30 MANHOLE TOPS AND SURFACE-BOX TOPS (ExternalReference)",
+      "Parameter Value (Sample)": "BasePlate_Thickness: 6 mm;\nHookUpPoint: OUTWARD FACING;\nMaterial_BasePlate: MEZZANINE;\nTailGateOrientation: INWARD FACING;\nCompactionRatio: 2:01;\nExternalReference: DIN 30722 ROLLER CONTACT TIPPER VEHICLES, ROLLER CONTAINERS;\nExternalReference: SS30 MANHOLE TOPS AND SURFACE-BOX TOPS",
       "IFC4 Object Types": [
         "BENCH*",
         "BUSSHELTER*",
@@ -7385,7 +7234,7 @@
       "IFC4 Entities": [
         "IfcColumn"
       ],
-      "Parameter Value (Sample)": "PREFABRICATED (ConstructionMethod);\nPRECAST (ConstructionMethod);\nCAST-IN-SITU (ConstructionMethod);\nINSTALL ON-SITE (ConstructionMethod);\n10H32+10H16 (MainRebar);\n4H32 (MainRebar);\nDOUBLE U LINK, CLOSE LINK (StirrupsType);\nSPORTS & RECREATION (StirrupsType);\nU TYPE,  C/L TYPE (StirrupsType);\n1H10-150-300 (Stirrups);\nT10-150-300 (Stirrups);\n1H16-250 (Stirrups)",
+      "Parameter Value (Sample)": "ConstructionMethod: PREFABRICATED, PRECAST, CAST-IN-SITU, INSTALL ON-SITE;\nMainRebar: 10H32+10H16, 4H32;\nStirrupsType: DOUBLE U LINK, CLOSE LINK, SPORTS & RECREATION, U TYPE,  C/L TYPE;\nStirrups: 1H10-150-300, T10-150-300, 1H16-250",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "COLUMN"
@@ -7434,13 +7283,12 @@
       "IFC4 Entities": [
         "IfcBuildingSystem"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000",
       "IFC4 Object Types": [
         "BEAMFACADEWALL*",
         "FRAMING*",
         "DIAPHRAGMWALLSYSTEM*",
         "DRAINAGE*",
-        "MAINTENANCE*",
         "MECHANIZEDCARPARKING*",
         "OXYGENREDUCTION*",
         "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
@@ -7470,46 +7318,6 @@
     }
   },
   {
-    "id": "reczRkmzRRizmGHIM",
-    "createdTime": "2023-04-18T08:27:02.000Z",
-    "fields": {
-      "Property Set": "SGPset_ValveTypeFaucet",
-      "Entity Key": [
-        "rec6v6VG1mhOtznHM"
-      ],
-      "PR Key (Component_Parameter)": [
-        "reciC4DPWK7co8PBV",
-        "rec55PCdw4EpTHrag"
-      ],
-      "Properties [Data Type]": "FaucetOperation [Label];\nFaucetType [Label]",
-      "IFC4 Entities": [
-        "IfcValve"
-      ],
-      "Parameter Value (Sample)": "TIMED SELF CLOSING (FaucetOperation);\nSPRAY PAINTING ROOM (FaucetType)",
-      "IFC4 Object Types": [
-        "AIRADMITTANCE*",
-        "AIRINTAKEVALVE*",
-        "DISCHARGE*",
-        "DRAINOFFCOCK*",
-        "DRAINPLUG*",
-        "LANDINGVALVE*",
-        "OVERPRESSUREPROTECTIONDEVICE*",
-        "SPRINKLERCONTROL*"
-      ],
-      "IFC4 Predefined Types": [
-        "ANTIVACUUM",
-        "CHECK",
-        "DOUBLECHECK",
-        "FAUCET",
-        "FLUSHING",
-        "ISOLATING",
-        "MIXING",
-        "NOTDEFINED",
-        "STOPCOCK"
-      ]
-    }
-  },
-  {
     "id": "reczTEO1LnhyfA3sD",
     "createdTime": "2023-04-18T08:27:02.000Z",
     "fields": {
@@ -7526,7 +7334,7 @@
       "IFC4 Entities": [
         "IfcDoor"
       ],
-      "Parameter Value (Sample)": "240 L (Width);\n2400mm (Width);\n8400 (Width);\n300 (Width);\n1350 (Width);\n40000 (Width);\n8000 (Height)",
+      "Parameter Value (Sample)": "Width: 240 L, 2400mm, 8400, 300, 1350, 40000;\nHeight: 8000",
       "IFC4 Object Types": [
         "ACCESSHATCH*",
         "RECYCLABLESCHUTEACCESSPANEL*",
@@ -7574,11 +7382,11 @@
         "recrhoNEGJIsqUvSw"
       ],
       "Properties [Data Type]": "Status [Label];\nFireRating [Label];\nCombustible [Boolean];\nThermalTransmittance [Thermal Transmittance];\nLoadBearing [Boolean]",
-      "Parameter Value (Actual)": "DEMOLISHED (Status);\nEXISTING (Status);\nNEW (Status)",
+      "Parameter Value (Actual)": "Status: DEMOLISHED, EXISTING, NEW",
       "IFC4 Entities": [
         "IfcWall"
       ],
-      "Parameter Value (Sample)": "4hr (FireRating);\nBRICK (FireRating);\nTIMBER (FireRating);\n1 W/m2 K (ThermalTransmittance)",
+      "Parameter Value (Sample)": "FireRating: 4hr, BRICK, TIMBER;\nThermalTransmittance: 1 W/m2 K",
       "IFC4 Object Types": [
         "KERB*",
         "BARRIER*",
@@ -7615,7 +7423,7 @@
       "IFC4 Entities": [
         "IfcStair"
       ],
-      "Parameter Value (Sample)": "T16-150 (TopDistribution);\nT25-150 (TopMain);\nT20-150 (BottomDistribution);\nT32-150 (BottomMain)",
+      "Parameter Value (Sample)": "TopDistribution: T16-150;\nTopMain: T25-150;\nBottomDistribution: T20-150;\nBottomMain: T32-150",
       "IFC4 Object Types": [
         "LADDER*"
       ],
