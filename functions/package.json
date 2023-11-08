@@ -21,7 +21,8 @@
     "googleapis": "^126.0.1",
     "jstoxml": "^3.2.10",
     "nanoid": "^5.0.2",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "write-excel-file": "^1.4.27"
   },
   "devDependencies": {
     "firebase-functions-test": "^3.1.0"

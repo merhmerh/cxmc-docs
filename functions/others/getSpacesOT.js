@@ -48,4 +48,5 @@ export async function parseSpaceAndOccupancyType() {
 
     fs.writeFileSync('./../src/routes/(main)/spacename/spaceName.json', JSON.stringify(spaceNameData, null, 2))
     console.log('--Written spaceName.json');
+    return { ot: otData, spaceName: spaceNameData }
 }

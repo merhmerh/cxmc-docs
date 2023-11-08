@@ -12,7 +12,7 @@ const map = [
     { sharedParamType: "NUMBER", Type: "Double", UnitType: "autodesk.spec.aec:number-2.0.0", UnitTypeDisplay: "Number" },
 ]
 
-generateBIT_XML()
+
 export async function generateBIT_XML() {
     const categoryMap = generateCategoryMap()
     const entity = JSON.parse(fs.readFileSync('./output/entity_id.json', 'utf-8'))
@@ -60,8 +60,9 @@ export async function generateBIT_XML() {
         parameters._content.push(parameter)
     }
 
-    const testXML = toXML(parameters, { indent: "\t" })
-    fs.writeFileSync('./src/revit/Revit-IFCSG-BIT.xml', testXML)
+    const dataXML = toXML(parameters, { indent: "\t" })
+    const resultXML = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n` + dataXML
+    fs.writeFileSync('./src/revit/Revit_BIT-IFCSG-Parameters.xml', resultXML)
 }
 
 
