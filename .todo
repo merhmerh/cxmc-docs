@@ -16,6 +16,7 @@ Bugs:
     ✔ Identifed component -> not showing latest description and enum @done(23-11-07 02:18)
     ✔ Identified component -> design gateway / construction gateway @done(23-11-07 04:27)
     ✔ Identified componenet -> representation border, IfcEntity remove duplicate @done(23-11-07 12:05)
+    ☐ Identified component -> check ceiling
     ✔ DemountableStrutureAbovePipe spelling error @done(23-11-07 04:28)
     ☐ IFC revit export .txt file
     ☐ When uploading new file to 'downloads' page, if file contain same name it will override
