@@ -31,7 +31,7 @@ async function forceDownloadFile(file) {
 
         const link = document.createElement("a");
         link.href = window.URL.createObjectURL(blob);
-        link.download = file.title;
+        link.download = file.fileName;
 
         link.click();
 
@@ -106,10 +106,12 @@ async function forceDownloadFile(file) {
                                     <Icon icon="vscode-icons:file-type-pdf2" height="48" />
                                 {:else if row.download.type.match(/xls|spreadsheet|csv/)}
                                     <Icon icon="vscode-icons:file-type-excel" height="48" />
-                                {:else if row.download.type.match(/text/)}
-                                    <Icon icon="vscode-icons:file-type-text" height="48" />
                                 {:else if row.download.type.match(/zip/)}
                                     <Icon icon="vscode-icons:default-folder" height="48" />
+                                {:else if row.download.type.match(/xml/)}
+                                    <Icon icon="vscode-icons:file-type-xml" height="48" />
+                                {:else if row.download.type.match(/text/)}
+                                    <Icon icon="vscode-icons:file-type-text" height="48" />
                                 {:else}
                                     <Icon icon="vscode-icons:default-file" height="48" />
                                 {/if}

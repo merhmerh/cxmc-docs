@@ -47,5 +47,17 @@ export async function load({ locals: { supabase } }) {
         return 0;
     })
 
+    for (const obj of sorted) {
+        obj.downloads.sort((a, b) => {
+            if (a.download.type < b.download.type) {
+                return -1;
+            }
+            if (a.download.type > b.download.type) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+
     return ({ downloads: sorted })
 }

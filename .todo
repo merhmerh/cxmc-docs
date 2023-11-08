@@ -17,7 +17,7 @@ Todo Guide:
 
 Features:
     ☐ Add downloads for non beta
-    ☐ Add amc picklist
+    ✔ Add amc picklist @done(23-11-09 02:48)
     
 Updates:
     ✔ repull check ura rule, and lta 2.3 @done(23-11-08 13:36)
@@ -32,7 +32,7 @@ Bugs:
     ✔ Identified componenet -> representation border, IfcEntity remove duplicate @done(23-11-07 12:05)
     ☐ Identified component -> check ceiling
     ✔ DemountableStrutureAbovePipe spelling error @done(23-11-07 04:28)
-    ☐ IFC revit export .txt file
+    ✔ IFC revit export .txt file @done(23-11-09 02:48)
     ☐ When uploading new file to 'downloads' page, if file contain same name it will override
     ☐ Redirect to 404 if user enter non-beta page
     ☐ area requirement images loads very slow (Will need to serve the image directly from the website / db storage)

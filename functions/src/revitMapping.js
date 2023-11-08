@@ -33,7 +33,7 @@ export function generateRevitIfcMappingTable() {
 
         //check if exits
         const { data, error } = await supabase.from('downloads').select()
-            .match({ checksum: checksum, title: title })
+            .match({ checksum: checksum, title: title.replace(/[-_]/, " ") })
 
 
         if (data.length) {

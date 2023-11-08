@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 import thirdPartyApps from "./thirdPartyApps.json";
 import { convertToHTMLAnchor } from "$fn/helper";
 
-let isOpen = true;
+let isOpen = false;
 </script>
 
 <div class="card accordion">

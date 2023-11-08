@@ -16,7 +16,7 @@ const canUpload = permission.edit || false;
 {#if canUpload}
     <Modal bind:this={showUploader} let:closeFromChild exitOutsideClick={false} exitWithEscapeKey={false}>
         <Upload on:close={() => closeFromChild()} />
-    </Modal>mn
+    </Modal>
 {/if}
 
 <div class="row">
