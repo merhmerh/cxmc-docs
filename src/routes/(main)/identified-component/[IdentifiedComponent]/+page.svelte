@@ -635,6 +635,9 @@ h3 {
                 display: flex;
                 align-items: center;
                 height: auto;
+                &:not(:last-child) {
+                    border-bottom: 1px solid var(--table__border-color);
+                }
                 &.codeHidden {
                     background-color: grey;
                     display: none;
