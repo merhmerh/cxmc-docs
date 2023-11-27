@@ -77,172 +77,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Wall",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Walls"
-      ],
-      "ArchiCAD": [
-        "Wall"
-      ],
-      "Tekla": [
-        "Panel",
-        "Concrete Panel"
-      ],
-      "Bentley": [
-        "Wall"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Approved Document - Acceptable Solutions",
-        "agency": "BCA",
-        "chapters": [
-          {
-            "chapterName": "Headroom and Ceiling Height: Headroom",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.2 Note",
-                "clauses": [
-                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
-                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
-                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
-                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
-                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
-                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.1",
-                "clauses": [
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.2",
-                "clauses": [
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.2.1",
-                "clauses": [
-                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.2 Note",
-                "clauses": [
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Ventilation",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "G.2.2",
-                "clauses": [
-                  "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
-                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ]
-              },
-              {
-                "clauseNumber": "G.2.1",
-                "clauses": [
-                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Handrails ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.6.1",
-                "clauses": [
-                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.5",
-                "clauses": [
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.2",
-                "clauses": [
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": "Educational Institution Handbook",
-        "agency": "URA",
-        "chapters": [
-          {
-            "chapterName": "Greenery",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "",
-                "clauses": [
-                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
-                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
-                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcWall:USERDEFINED:BARRIER",
-      "IfcWall:USERDEFINED:RECYCLABLESCHUTE",
-      "IfcWall:NOTDEFINED:null",
-      "IfcWall:PARAPET:null",
-      "IfcWall:USERDEFINED:KNOCKOUTPANEL",
-      "IfcWall:PARTITIONING:null",
-      "IfcWall:USERDEFINED:WIREMESHSCREEN",
-      "IfcWall:USERDEFINED:BLOCKWALL",
-      "IfcWall:ELEMENTEDWALL:null",
-      "IfcWall:SHEAR:null",
-      "IfcWall:USERDEFINED:BUND",
-      "IfcWall:USERDEFINED:RETAININGWALL"
-    ]
-  },
-  {
     "IdentifiedComponent": "Waste Terminal",
     "Beta": false,
     "representation": {
@@ -994,30 +828,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Duct Framing",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:FRAMING"
-    ]
-  },
-  {
     "IdentifiedComponent": "Hump",
     "Beta": true,
     "representation": {
@@ -1291,7 +1101,174 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcElectricAppliance:FREESTANDINGELECTRICHEATER:null"
+      "IfcElectricAppliance:ELECTRICHEATER:null"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Wall",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Walls"
+      ],
+      "ArchiCAD": [
+        "Wall"
+      ],
+      "Tekla": [
+        "Panel",
+        "Concrete Panel"
+      ],
+      "Bentley": [
+        "Wall"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Approved Document - Acceptable Solutions",
+        "agency": "BCA",
+        "chapters": [
+          {
+            "chapterName": "Headroom and Ceiling Height: Headroom",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.2 Note",
+                "clauses": [
+                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
+                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
+                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
+                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
+                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
+                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.1",
+                "clauses": [
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.2",
+                "clauses": [
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.2.1",
+                "clauses": [
+                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.2 Note",
+                "clauses": [
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Ventilation",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "G.2.2",
+                "clauses": [
+                  "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
+                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
+                ]
+              },
+              {
+                "clauseNumber": "G.2.1",
+                "clauses": [
+                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Handrails ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.6.1",
+                "clauses": [
+                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.5",
+                "clauses": [
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.2",
+                "clauses": [
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Educational Institution Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Greenery",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcWall:USERDEFINED:RECYCLABLESCHUTE",
+      "IfcWall:NOTDEFINED:null",
+      "IfcWall:PARAPET:null",
+      "IfcWall:USERDEFINED:DRYWALLPARTITION",
+      "IfcWall:USERDEFINED:KNOCKOUTPANEL",
+      "IfcWall:PARTITIONING:null",
+      "IfcWall:USERDEFINED:WIREMESHSCREEN",
+      "IfcWall:USERDEFINED:BARRIER",
+      "IfcWall:USERDEFINED:BLOCKWALL",
+      "IfcWall:ELEMENTEDWALL:null",
+      "IfcWall:SHEAR:null",
+      "IfcWall:USERDEFINED:BUND",
+      "IfcWall:USERDEFINED:RETAININGWALL"
     ]
   },
   {
@@ -1317,10 +1294,284 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcCableCarrierSegment:NOTDEFINED:null",
-      "IfcCableCarrierSegment:CABLETRUNKINGSEGMENT:null",
       "IfcCableCarrierSegment:USERDEFINED:AIRCONDITIONINGTRAY",
       "IfcCableCarrierSegment:CONDUITSEGMENT:null",
       "IfcCableCarrierSegment:CABLETRAYSEGMENT:null"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Stair",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Stairs"
+      ],
+      "ArchiCAD": [
+        "Stair"
+      ],
+      "Tekla": [
+        "Item",
+        "Component"
+      ],
+      "Bentley": [
+        "Stair"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Approved Document - Acceptable Solutions",
+        "agency": "BCA",
+        "chapters": [
+          {
+            "chapterName": "Headroom and Ceiling Height: Headroom",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.2 Note",
+                "clauses": [
+                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
+                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
+                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
+                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
+                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
+                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.1",
+                "clauses": [
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.2",
+                "clauses": [
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.2.1",
+                "clauses": [
+                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.2 Note",
+                "clauses": [
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Risers and treads",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.4.2",
+                "clauses": [
+                  "(b) 250mm, if the staircase is in an industrial building, or;",
+                  "The width of a thread of a staircase (see Figure E.3.4.2(a) for measurement of \"tread\") shall not be less than:\n(a) 225 mm, if the staircase is in a residential unit within a residential building;",
+                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
+                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
+                  "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.4.1",
+                "clauses": [
+                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.4.3",
+                "clauses": [
+                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Headroom and Ceiling Height: Ceiling Height",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.3.1",
+                "clauses": [
+                  "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
+                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+                ]
+              },
+              {
+                "clauseNumber": "C.3.3 Note",
+                "clauses": [
+                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Width of staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.3.1",
+                "clauses": [
+                  "Note: If the projection of the handrail into the clear width does not exceed 80mm on each side of the staircase, the width is measured from\n(a) The finished surfaces of the walls, if the staircase is enclosed on both sides by walls only; or",
+                  "(c) The inner sides of the balustrades if the staircase has balustrades on both sides ",
+                  "(b) The inner sides of the handrails if the staircase has handrails on both sides. ",
+                  "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
+                  "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
+                  "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase: Risers and treads",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.4.4",
+                "clauses": [
+                  "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Safety from Falling: Height of Barrier",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "H.3.2 Note",
+                "clauses": [
+                  "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
+                  "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
+                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
+                  "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
+                  "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
+                ]
+              },
+              {
+                "clauseNumber": "H.3.2.1",
+                "clauses": [
+                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Handrails ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.6.1",
+                "clauses": [
+                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.5",
+                "clauses": [
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.2",
+                "clauses": [
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Landing",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.5.2",
+                "clauses": [
+                  "Except for spiral staircases, an intermediate landing shall be provided in between floor levels at intervals of not more than 18 risers. ",
+                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
+                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
+                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.5.1",
+                "clauses": [
+                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.5.4",
+                "clauses": [
+                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.5.3",
+                "clauses": [
+                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Safety from Falling: Safety from falling ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "H.2.1",
+                "clauses": [
+                  "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcStair:QUARTER_TURN_STAIR:null",
+      "IfcStair:STRAIGHT_RUN_STAIR:null",
+      "IfcStair:DOUBLE_RETURN_STAIR:null",
+      "IfcStair:THREE_QUARTER_TURN_STAIR:null",
+      "IfcStair:SPIRAL_STAIR:null",
+      "IfcStair:CURVED_RUN_STAIR:null",
+      "IfcStair:HALF_TURN_STAIR:null"
     ]
   },
   {
@@ -1604,6 +1855,7 @@
     ],
     "SubTypeKeys": [
       "IfcStairFlight:CURVED:null",
+      "IfcStairFlight:NOTDEFINED:null",
       "IfcStairFlight:SPIRAL:null",
       "IfcStairFlight:STRAIGHT:null",
       "IfcStairFlight:USERDEFINED:WINDER"
@@ -1729,30 +1981,6 @@
       "IfcWindow:WINDOW:null",
       "IfcWindow:SKYLIGHT:null",
       "IfcWindow:LOUVRE:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Panic Device",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:NOTDEFINED:null"
     ]
   },
   {
@@ -2312,277 +2540,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Stair",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Stairs"
-      ],
-      "ArchiCAD": [
-        "Stair"
-      ],
-      "Tekla": [
-        "Item",
-        "Component"
-      ],
-      "Bentley": [
-        "Stair"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Approved Document - Acceptable Solutions",
-        "agency": "BCA",
-        "chapters": [
-          {
-            "chapterName": "Headroom and Ceiling Height: Headroom",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.2 Note",
-                "clauses": [
-                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
-                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
-                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
-                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
-                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
-                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.1",
-                "clauses": [
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.2",
-                "clauses": [
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.2.1",
-                "clauses": [
-                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.2 Note",
-                "clauses": [
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Risers and treads",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.4.2",
-                "clauses": [
-                  "(b) 250mm, if the staircase is in an industrial building, or;",
-                  "The width of a thread of a staircase (see Figure E.3.4.2(a) for measurement of \"tread\") shall not be less than:\n(a) 225 mm, if the staircase is in a residential unit within a residential building;",
-                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
-                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
-                  "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.4.1",
-                "clauses": [
-                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.4.3",
-                "clauses": [
-                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Headroom and Ceiling Height: Ceiling Height",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.3.1",
-                "clauses": [
-                  "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
-                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ]
-              },
-              {
-                "clauseNumber": "C.3.3 Note",
-                "clauses": [
-                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Width of staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.3.1",
-                "clauses": [
-                  "Note: If the projection of the handrail into the clear width does not exceed 80mm on each side of the staircase, the width is measured from\n(a) The finished surfaces of the walls, if the staircase is enclosed on both sides by walls only; or",
-                  "(c) The inner sides of the balustrades if the staircase has balustrades on both sides ",
-                  "(b) The inner sides of the handrails if the staircase has handrails on both sides. ",
-                  "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
-                  "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
-                  "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase: Risers and treads",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.4.4",
-                "clauses": [
-                  "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Safety from Falling: Height of Barrier",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "H.3.2 Note",
-                "clauses": [
-                  "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
-                  "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
-                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
-                  "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
-                  "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ]
-              },
-              {
-                "clauseNumber": "H.3.2.1",
-                "clauses": [
-                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Handrails ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.6.1",
-                "clauses": [
-                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.5",
-                "clauses": [
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.2",
-                "clauses": [
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Landing",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.5.2",
-                "clauses": [
-                  "Except for spiral staircases, an intermediate landing shall be provided in between floor levels at intervals of not more than 18 risers. ",
-                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
-                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
-                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.5.1",
-                "clauses": [
-                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.5.4",
-                "clauses": [
-                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.5.3",
-                "clauses": [
-                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Safety from Falling: Safety from falling ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "H.2.1",
-                "clauses": [
-                  "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcStair:STRAIGHT_RUN_STAIR:null",
-      "IfcStair:SPIRAL_STAIR:null",
-      "IfcStair:CURVED_RUN_STAIR:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Grey Water System",
     "Beta": false,
     "representation": {
@@ -2789,7 +2746,7 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_TRAFFICFLOW"
+      "IfcBuildingElementProxy:USERDEFINED:TRAFFICFLOW"
     ]
   },
   {
@@ -2820,7 +2777,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Electric Flow Storage Device",
+    "IdentifiedComponent": "Electrical Equipment",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -2947,6 +2904,31 @@
     ]
   },
   {
+    "IdentifiedComponent": "Cable Trunking",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Cable Trays",
+        "Conduits"
+      ],
+      "ArchiCAD": [
+        "Cable Tray",
+        "Duct"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Place Raceray",
+        "Duct"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcCableCarrierSegment:CABLETRUNKINGSEGMENT:null"
+    ]
+  },
+  {
     "IdentifiedComponent": "Truss",
     "Beta": false,
     "representation": {
@@ -3050,7 +3032,6 @@
       "IfcTank:NOTDEFINED:null",
       "IfcTank:USERDEFINED:DILUTIONTANK",
       "IfcTank:USERDEFINED:RETENTIONTANK",
-      "IfcTank:USERDEFINED:REFUSEHANDLINGEQUIPMENT",
       "IfcTank:BASIN:null",
       "IfcTank:USERDEFINED:SAMPLINGTANK",
       "IfcTank:USERDEFINED:SURGETANK",
@@ -3465,6 +3446,30 @@
     ]
   },
   {
+    "IdentifiedComponent": "Panic Device",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Generic Models"
+      ],
+      "ArchiCAD": [
+        "Object",
+        "Morph"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Object",
+        "Solid"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcDiscreteAccessory:NOTDEFINED:null"
+    ]
+  },
+  {
     "IdentifiedComponent": "Site Boundary",
     "Beta": true,
     "representation": {
@@ -3851,7 +3856,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Ceiling Support",
+    "IdentifiedComponent": "Duct Framing",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -3997,30 +4002,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:CONDENSATEWATER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Electrical System",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Piping Systems",
-        "MEP Fabrication Pipework",
-        "Duct Systems"
-      ],
-      "ArchiCAD": [
-        "MEP System"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDistributionSystem:USERDEFINED:ELECTRICAL"
     ]
   },
   {
@@ -5179,7 +5160,7 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcElectricAppliance:FREESTANDINGWATERCOOLER:null"
+      "IfcElectricAppliance:WATERCOOLER:null"
     ]
   },
   {
@@ -5512,8 +5493,7 @@
     "Beta": false,
     "representation": {
       "Revit": [
-        "Furniture",
-        "Generic Models"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
         "Object"
@@ -5522,12 +5502,12 @@
         "N.A"
       ],
       "Bentley": [
-        "Furniture"
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:REFUSECOMPACTOR"
+      "IfcTank:USERDEFINED:REFUSECOMPACTOR"
     ]
   },
   {
@@ -5639,28 +5619,25 @@
     ]
   },
   {
-    "IdentifiedComponent": "Coffee Maker",
+    "IdentifiedComponent": "Refuse Handling Equipment",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Electrical Equipment",
         "Mechanical Equipment"
       ],
       "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
+        "Object"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
-        "Equipment",
-        "Fire Protection"
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:COFFEEMAKER"
+      "IfcTank:USERDEFINED:REFUSEHANDLINGEQUIPMENT"
     ]
   },
   {
@@ -6213,30 +6190,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "System",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Piping Systems",
-        "MEP Fabrication Pipework",
-        "Duct Systems"
-      ],
-      "ArchiCAD": [
-        "MEP System"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDistributionSystem:NOTDEFINED:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Pipe Support",
     "Beta": false,
     "representation": {
@@ -6743,36 +6696,11 @@
     ]
   },
   {
-    "IdentifiedComponent": "Maintenance Platform",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:MAINTENANCE"
-    ]
-  },
-  {
     "IdentifiedComponent": "Refuse Container",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Furniture",
-        "Generic Models"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
         "Object"
@@ -6781,12 +6709,12 @@
         "N.A"
       ],
       "Bentley": [
-        "Furniture"
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:REFUSECONTAINER"
+      "IfcTank:USERDEFINED:REFUSECONTAINER"
     ]
   },
   {
@@ -6885,54 +6813,7 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcElectricAppliance:FREESTANDINGWATERHEATER:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "VRV Unit",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcCondenser:NOTDEFINED:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Television",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:TELEVISION"
+      "IfcElectricAppliance:WATERHEATER:null"
     ]
   },
   {
@@ -7687,30 +7568,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Deep Tunnel Sewerage System",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Piping Systems",
-        "MEP Fabrication Pipework",
-        "Duct Systems"
-      ],
-      "ArchiCAD": [
-        "MEP System"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDistributionSystem:USERDEFINED:DEEPTUNNELSEWERAGE"
-    ]
-  },
-  {
     "IdentifiedComponent": "Rescue Hook",
     "Beta": false,
     "representation": {
@@ -8185,30 +8042,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingSystem:USERDEFINED:PREFABRICATEDANDPREFINISHEDFLOOR"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Oxygen-reduction System",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:OXYGENREDUCTION"
     ]
   },
   {
@@ -9346,6 +9179,30 @@
     ]
   },
   {
+    "IdentifiedComponent": "Foam Sprinkler System",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Piping Systems",
+        "MEP Fabrication Pipework",
+        "Duct Systems"
+      ],
+      "ArchiCAD": [
+        "MEP System"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "System"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcDistributionSystem:USERDEFINED:FOAMSPRINKLER"
+    ]
+  },
+  {
     "IdentifiedComponent": "Rainwater System",
     "Beta": false,
     "representation": {
@@ -9451,7 +9308,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Gridline",
+    "IdentifiedComponent": "Structural Grid",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -9648,31 +9505,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:RETENTIONBASIN"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Electric Cooker",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:ELECTRICCOOKER:null"
     ]
   },
   {
@@ -9933,6 +9765,30 @@
     ]
   },
   {
+    "IdentifiedComponent": "Foam Fire Extinguishing System",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Piping Systems",
+        "MEP Fabrication Pipework",
+        "Duct Systems"
+      ],
+      "ArchiCAD": [
+        "MEP System"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "System"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcDistributionSystem:USERDEFINED:FOAMFIREEXTINGUISHING"
+    ]
+  },
+  {
     "IdentifiedComponent": "Cold Water System",
     "Beta": false,
     "representation": {
@@ -10181,30 +10037,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Stainless Steel Bracket",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:BRACKET:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Flooring",
     "Beta": false,
     "representation": {
@@ -10337,6 +10169,35 @@
     ]
   },
   {
+    "IdentifiedComponent": "Swept Path",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Generic Models",
+        "Specialty Equipment",
+        "Floors",
+        "Mass",
+        "Parking"
+      ],
+      "ArchiCAD": [
+        "Object",
+        "Morph"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Object",
+        "Solid",
+        "Forms"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcBuildingElementProxy:USERDEFINED:REFUSETRUCKSWEPTPATH"
+    ]
+  },
+  {
     "IdentifiedComponent": "Lightning Tape",
     "Beta": false,
     "representation": {
@@ -10460,7 +10321,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "ACMV System",
+    "IdentifiedComponent": "Air Conditioning System",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -10480,7 +10341,7 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcDistributionSystem:NOTDEFINED:null"
+      "IfcDistributionSystem:AIRCONDITIONING:null"
     ]
   },
   {
@@ -11009,6 +10870,28 @@
     ]
   },
   {
+    "IdentifiedComponent": "Building Element",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "N.A"
+      ],
+      "ArchiCAD": [
+        "N.A"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "N.A"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcElement:NOTDEFINED:null"
+    ]
+  },
+  {
     "IdentifiedComponent": "Tree",
     "Beta": false,
     "representation": {
@@ -11443,6 +11326,29 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:BEACH"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Ledge",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Floors"
+      ],
+      "ArchiCAD": [
+        "Slab"
+      ],
+      "Tekla": [
+        "Slab",
+        "Concrete Slab"
+      ],
+      "Bentley": [
+        "Slab"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcSlab:USERDEFINED:LEDGE"
     ]
   },
   {
