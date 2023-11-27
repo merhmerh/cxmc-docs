@@ -1,69 +1,68 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 import { supabase } from "./helper.js";
-import crypto from 'crypto'
+import crypto from "crypto";
 import { getJsonSize, sortObject } from "./helper.js";
 dotenv.config();
 
-const comp_id = process.env.AIRTABLE_TABLE_ID_COMP
-const pset_id = process.env.AIRTABLE_TABLE_ID_PSET
-const baseID = process.env.AIRTABLE_BASEID
-const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN
-
+const comp_id = process.env.AIRTABLE_TABLE_ID_COMP;
+const pset_id = process.env.AIRTABLE_TABLE_ID_PSET;
+const baseID = process.env.AIRTABLE_BASEID;
+const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN;
 
 export async function updateIfcSG() {
     return new Promise(async (resolve, reject) => {
         try {
-            const result = await getFromAirtable()
+            const result = await getFromAirtable();
 
-            const jsonString = JSON.stringify(result)
-            console.log('Result size from airtable:', getJsonSize(jsonString))
+            const jsonString = JSON.stringify(result);
+            console.log("Result size from airtable:", getJsonSize(jsonString));
 
-            const sha256 = crypto.createHash('sha256');
-            const sorted = sortObject(JSON.parse(jsonString))
+            const sha256 = crypto.createHash("sha256");
+            const sorted = sortObject(JSON.parse(jsonString));
             sha256.update(JSON.stringify(sorted));
-            const checksum = sha256.digest('hex');
+            const checksum = sha256.digest("hex");
 
-            const resp = await uploadToDB(checksum, result)
+            const resp = await uploadToDB(checksum, result);
 
-            const ifcsg = await reset_IFCSG_Database(resp)
-            resolve(ifcsg)
+            const ifcsg = await reset_IFCSG_Database(resp);
+            resolve(ifcsg);
         } catch (error) {
-            reject(error)
+            reject(error);
         }
-    })
+    });
 }
 
 export async function getFromAirtable() {
-    const comp = await getData(comp_id)
-    const pset = await getData(pset_id)
+    const comp = await getData(comp_id);
+    const pset = await getData(pset_id);
 
     const data = {
-        airtable: { comp, pset }
-    }
+        airtable: { comp, pset },
+    };
 
-    return data
+    return data;
 }
 
 async function getData(tableId) {
     const data = [];
 
     async function fetchPage(offset) {
-        let query = ''
+        let query = "";
 
         if (offset) {
-            query = `?offset=${offset}`
+            query = `?offset=${offset}`;
         }
         const resp = await fetch(`${baseID}/${tableId}${query}`, {
             headers: {
-                "Authorization": `Bearer ${AIRTABLE_TOKEN}`
-            }
-        })
+                Authorization: `Bearer ${AIRTABLE_TOKEN}`,
+            },
+        });
 
-        const res = await resp.json()
-        data.push(...res.records)
-        const nextOffset = res.offset
+        const res = await resp.json();
+        data.push(...res.records);
+        const nextOffset = res.offset;
         if (nextOffset) {
-            await fetchPage(nextOffset)
+            await fetchPage(nextOffset);
         }
     }
 
@@ -72,56 +71,52 @@ async function getData(tableId) {
     return data; // Return the accumulated data after the recursion is complete
 }
 
-
 export async function uploadToDB(checksum, json) {
     //get latest data
     const { data: last, error: last_error } = await supabase
-        .from('airtable')
+        .from("airtable")
         .select()
-        .order('id', { ascending: false })
-        .limit(1)
+        .order("id", { ascending: false })
+        .limit(1);
 
     if (last[0].checksum == checksum) {
-
         const { error: updateError } = await supabase
-            .from('airtable')
+            .from("airtable")
             .update({ last_updated: new Date().toISOString() })
-            .eq("id", last[0].id)
+            .eq("id", last[0].id);
 
-        console.log(updateError)
+        console.log(updateError);
 
-        console.log('Checksum is same, updated timestamp, retrieving latest data')
-        return last
+        console.log("Checksum is same, updated timestamp, retrieving latest data");
+        return last;
     }
 
     const { data, error } = await supabase
-        .from('airtable')
+        .from("airtable")
         .insert({
             checksum: checksum,
-            result: json
+            result: json,
         })
-        .select()
+        .select();
 
     if (error) {
-        return (error)
+        return error;
     }
 
-    return data
+    return data;
 }
 
 export async function reset_IFCSG_Database(data) {
-    const ifcsg = data[0].result.airtable
+    const ifcsg = data[0].result.airtable;
 
-    const { data: properties, error: propError } = await supabase.from('property').select()
+    const { data: properties, error: propError } = await supabase.from("property").select();
 
     const pset = sanitizePset(ifcsg.comp, ifcsg.pset);
     const rawIfcData = sanitizeAirtableComp(ifcsg.comp, pset);
 
     for (const [index, item] of rawIfcData.entries()) {
         const entity = item.entity;
-        const matchingProps = properties.filter(
-            (x) => x.Entity === entity && item.pset && item.pset[x.PropertySet],
-        );
+        const matchingProps = properties.filter((x) => x.Entity === entity && item.pset && item.pset[x.PropertySet]);
 
         if (matchingProps.length) {
             for (const prop of matchingProps) {
@@ -135,28 +130,24 @@ export async function reset_IFCSG_Database(data) {
         }
     }
 
-    const result = rawIfcData
+    const result = rawIfcData;
 
     try {
-        await supabase.from('ifcsg')
-            .delete()
-            .neq('key', 0)
+        await supabase.from("ifcsg").delete().neq("key", 0);
     } catch (error) {
-        return error
+        return error;
     }
 
-    const { data: ifcData, error: ifcsgError } = await supabase
-        .from('ifcsg')
-        .insert(result)
+    const { data: ifcData, error: ifcsgError } = await supabase.from("ifcsg").insert(result);
 
     if (ifcsgError) {
-        return ifcsgError
+        return ifcsgError;
     }
 
-    return result
+    return result;
 }
 
-function sanitizePset(comp, pset) {
+export function sanitizePset(comp, pset) {
     const simplifiedPset = {};
     pset.forEach((row) => {
         const propsString = row.fields["Properties [Data Type]"];
@@ -187,10 +178,10 @@ function sanitizePset(comp, pset) {
         });
     });
 
-    const betaProps = []
+    const betaProps = [];
     for (const item of comp) {
-        const f = item.fields
-        const betaPropString = f['Beta Properties [Data Type]']
+        const f = item.fields;
+        const betaPropString = f["Beta Properties [Data Type]"];
         const props = [];
         if (betaPropString) {
             const arr = betaPropString.split(";");
@@ -209,21 +200,21 @@ function sanitizePset(comp, pset) {
         }
 
         if (props.length) {
-            betaProps.push({ subtype, props })
+            betaProps.push({ subtype, props });
         }
     }
 
-    const clonedPset = JSON.parse(JSON.stringify(simplifiedPset))
+    const clonedPset = JSON.parse(JSON.stringify(simplifiedPset));
 
     for (const { subtype, props: betaPropsArray } of betaProps) {
-        const entity = subtype.split(/\./)[0]
+        const entity = subtype.split(/\./)[0];
         if (clonedPset[entity]) {
-            let betaPropName = betaPropsArray.map(x => x.propertyName)
+            let betaPropName = betaPropsArray.map((x) => x.propertyName);
 
             for (const [pset, props] of Object.entries(clonedPset[entity])) {
                 for (const [index, prop] of props.entries()) {
                     if (betaPropName.includes(prop.propertyName)) {
-                        clonedPset[entity][pset][index].beta = true
+                        clonedPset[entity][pset][index].beta = true;
                     }
                 }
             }
@@ -233,7 +224,7 @@ function sanitizePset(comp, pset) {
     return clonedPset;
 }
 
-function sanitizeAirtableComp(obj, pset) {
+export function sanitizeAirtableComp(obj, pset) {
     const ifc = {};
     for (const row of obj) {
         const item = row.fields;
@@ -255,7 +246,7 @@ function sanitizeAirtableComp(obj, pset) {
 
         let componentName = subtype.replace(entity, "").replace(/\./g, "").replace(/\*/g, "");
         if (!predefinedType && !objectType) {
-            componentName = entity.replace(/^ifc/i, "").toUpperCase()
+            componentName = entity.replace(/^ifc/i, "").toUpperCase();
             // console.log(componentName);
         }
 
@@ -285,7 +276,7 @@ function sanitizeAirtableComp(obj, pset) {
                 pset: {},
                 status: status,
                 componentName,
-                beta: item["Beta"] ? true : false
+                beta: item["Beta"] ? true : false,
             };
         }
 

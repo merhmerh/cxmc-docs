@@ -56,6 +56,7 @@ PropertySet:	SGPset_SpaceArea_GFA	I	IfcSpace
 
 PropertySet:	SGPset_SpaceArea_Strata	I	IfcSpace
 	AST_AreaType	Label
+	AST_AssociatedTo	Label
 
 PropertySet:	SGPset_Wall	I	IfcWall
 	PorousFence	Boolean

@@ -1,0 +1,5932 @@
+{
+  "IfcBeam": {
+    "SGPset_BeamReinforcement": [
+      {
+        "propertyName": "BeamCage",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomLeft",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomMiddle",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomRight",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SideBar",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsLeft",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsMiddle",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsRight",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsTypeLeft",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsTypeMiddle",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsTypeRight",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopLeft",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopMiddle",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopRight",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PrefabricatedReinforcementCage",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Beam": [
+      {
+        "propertyName": "BeamSpanType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MechanicalConnectionType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReferTo2DDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SectionFabricationMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_PAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "Pset_BeamCommon": [
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SteelConnection": [
+      {
+        "propertyName": "SpliceDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_BeamDimension": [
+      {
+        "propertyName": "Depth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MemberSection",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcTransformer": {
+    "SGPset_Transformer": []
+  },
+  "IfcCovering": {
+    "Pset_CoveringCommon": [
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Covering": [
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CladdingType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Vegetation_PlantedArea",
+        "dataType": "Area",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Vegetation_PlantName",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Perforated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Vegetation_HasCreepers",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_CoveringDimension": [
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcFooting": {
+    "SGPset_Footing": [
+      {
+        "propertyName": "DA1-2_BearingCapacity",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReferTo2DDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WorkingLoad",
+        "dataType": "Integer",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_FootingDimension": [
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Breadth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Depth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_FootingReinforcement": [
+      {
+        "propertyName": "BottomDistribution",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Stirrups",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomMain",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopDistribution",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SideBar",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopMain",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcSlab": {
+    "Pset_SlabCommon": [
+      {
+        "propertyName": "ThermalTransmittance",
+        "dataType": "Thermal Transmittance",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_PrecastSlab": [
+      {
+        "propertyName": "TypeDesignator",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SlabDimension": [
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SlabReinforcement": [
+      {
+        "propertyName": "BottomDistribution_nominal",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomMain_nominal",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LatticeGirderReinforcement",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Stirrups",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopDistribution_nominal",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopMain_nominal",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WeldedMesh",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Slab": [
+      {
+        "propertyName": "FinishType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SlabType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Perforated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireStop",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReferTo2DDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MechanicalConnectionType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_PAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WeightGroup",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Weight",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WeldedMesh",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcColumn": {
+    "SGPset_ColumnDimension": [
+      {
+        "propertyName": "Breadth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "EndStorey",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StartingStorey",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MemberSection",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Diameter",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SteelConnection": [
+      {
+        "propertyName": "SpliceDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_ColumnStructuralLoad": [
+      {
+        "propertyName": "WorkingLoad_DA1-1",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WorkingLoad_DA1-2",
+        "dataType": "Integer",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Column": [
+      {
+        "propertyName": "ConnectionTypeBottom",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_PAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SectionFabricationMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConnectionDetailsBottom",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConnectionTypeTop",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReferTo2DDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MechanicalConnectionType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConnectionDetailsTop",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PrecastConcreteElementGeneral": [
+      {
+        "propertyName": "ArrangementType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_ColumnCommon": [
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_ColumnReinforcement": [
+      {
+        "propertyName": "ColumnCage",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PrefabricatedReinforcementCage",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MainRebar",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Stirrups",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcRailing": {
+    "SGPset_Railing": [
+      {
+        "propertyName": "IsLaminated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_RailingCommon": [],
+    "SGPset_RailingDimension": [
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_RailingStructuralLoad": [
+      {
+        "propertyName": "LateralLoad",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcFireSuppressionTerminal": {
+    "Pset_FireSuppressionTerminalTypeCommon": [],
+    "SGPset_FireSuppressionTerminal": [
+      {
+        "propertyName": "Hose_NominalDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ID",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_FireSuppressionTerminalDimension": []
+  },
+  "IfcSpace": {
+    "SGPset_SpaceArea_Connectivity": [
+      {
+        "propertyName": "ACN_ActivityGeneratingUseType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ACN_CloseTime",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ACN_ConnectivityType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ACN_IsOpen24HoursToPublic",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ACN_IsPavingSpecified",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ACN_OpenTime",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ACN_PavingSpecification",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SpaceDimension": [
+      {
+        "propertyName": "Volume",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Area",
+        "dataType": "Area",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SpaceOccupancyRequirements": [],
+    "SGPset_SpaceArea_FST": [],
+    "SGPset_SpaceArea_Landscape": [
+      {
+        "propertyName": "ALS_GreeneryFeatures",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "ALS_LandscapeType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_AccessoryLot": [],
+    "SGPset_SpaceThermalRequirements": [],
+    "SGPset_SpaceArea_GFA": [
+      {
+        "propertyName": "AGF_BonusGFAType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AGF_SupportingFacility",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AGF_DevelopmentUse",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AGF_BuildingTypology",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AGF_Name",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AGF_Note",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AGF_UnitNumber",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AGF_UseQuantum",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Space": [
+      {
+        "propertyName": "AutoIgnitionTemperature",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CategoryOfStorage",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionPhase",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DischargePoint",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ElderlyFriendly",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireEmergencyVentilationMode",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FloorFinishType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "HearingEnhancement",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LoadingCapacity",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "NegativeRoomPressure",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Pool_TurnoverTime",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PowerRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PublicToiletGenderID",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Retrofit",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RoomPressure",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SeatingCapacity",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SpaceName",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "WaterLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AccesswayType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "HighHazard",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireDetectionSuppressionSystem",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SmokeControlSystem",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "EmergencyVoiceCommunicationSystem",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "VentilationMode",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AreaIDServed",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OccupancyType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "ServedByRefuseChuteID",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OpenToSky",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SpaceArea_Strata": [
+      {
+        "propertyName": "AST_AreaType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AST_Associated to",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AST_Extg_StrataLotNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AST_LegalArea",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AST_Prop_StrataLotNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SpaceLightingRequirements": [
+      {
+        "propertyName": "Illuminance",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SpaceArea_Verification": [
+      {
+        "propertyName": "AVF_AreaType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AVF_BonusGFAType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AVF_DetailedUse",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AVF_DevelopmentUse",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AVF_Name",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AVF_UseQuantum",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_SpaceCommon": [],
+    "SGPset_CommonProperty": [],
+    "SGPset_StrataLot": [
+      {
+        "propertyName": "UnitNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_SpaceFireSafetyRequirements": [
+      {
+        "propertyName": "FlammableStorage",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcProtectiveDevice": {
+    "SGPset_ProtectiveDevice": []
+  },
+  "IfcValve": {
+    "SGPset_Valve": [
+      {
+        "propertyName": "Handle",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IntegratedCheckValve",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OpeningDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WithAirFilterSilencer",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WithPositionSensor",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsBuiltIn",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlowRate",
+        "dataType": "VolumetricFlowRate",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FaucetOperation",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FaucetType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DownstreamPressure",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_ValveTypeCommon": [
+      {
+        "propertyName": "Size",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ValveMechanism",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ValveOperation",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcPipeSegment": {
+    "Pset_PipeSegmentTypeCommon": [
+      {
+        "propertyName": "NominalDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PipeSegment": [
+      {
+        "propertyName": "BeddingType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CalculatedDN",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CalculatedQapproved",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlowRate",
+        "dataType": "VolumetricFlowRate",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_VolumeOfWastePerDay",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DemountableStructureAbovePipe",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Insulation_FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PressureRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Perforated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Pre-insulated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "HighTemperatureResistant",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CorrosionResistant",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DischargeStack",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PipeSegmentDimension": [
+      {
+        "propertyName": "Gradient",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "OuterDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InnerDiameter",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcAirTerminal": {
+    "SGPset_AirTerminal": [
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_AirTerminalOccurrence": [
+      {
+        "propertyName": "AirflowType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcFurniture": {
+    "Pset_FurnitureTypeCommon": [],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_FurnitureDimension": [
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Furniture": [
+      {
+        "propertyName": "BasePlate_Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ColourCode",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "HookUpPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Litre",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_BasePlate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TailGateOrientation",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CompactionRatio",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Capacity",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcUnitaryEquipment": {
+    "SGPset_UnitaryEquipment": [
+      {
+        "propertyName": "SoundPressureLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SoundPowerLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ModelName",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AirChangePerHour",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AirFlowRate",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcSite": {
+    "SGPset_Site": [
+      {
+        "propertyName": "Condition",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Extg_GrossPlotRatio",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Phase",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RainfallIntensity",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RunoffCoefficient",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionPhase",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "NumberOfWorkers",
+        "dataType": "Integer",
+        "measureResource": ""
+      }
+    ],
+    "Pset_SiteCommon": [
+      {
+        "propertyName": "FloorAreaRatio",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TotalArea",
+        "dataType": "Area",
+        "measureResource": ""
+      }
+    ],
+    "Pset_LandRegistration": [
+      {
+        "propertyName": "LandID",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcDamper": {
+    "SGPset_Damper": [
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AirChangePerHour",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_DamperTypeCommon": [
+      {
+        "propertyName": "Operation",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcPump": {
+    "SGPset_Pump": [
+      {
+        "propertyName": "InflowRate",
+        "dataType": "VolumetricFlowRate",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InternalSurfaceArea",
+        "dataType": "Area",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StandbyGenerator",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlowRate",
+        "dataType": "VolumetricFlowRate",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Standby",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Duty",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Capacity",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ],
+    "Pset_PumpOccurrence": []
+  },
+  "IfcInterceptor": {
+    "SGPset_Interceptor": [
+      {
+        "propertyName": "CalculatedNS",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MaxWasteWaterFlow",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MassDensity",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_InterceptorDimension": []
+  },
+  "IfcBuilding": {
+    "SGPset_WorkControlCommon": [
+      {
+        "propertyName": "WorkDayDuration",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Building": [
+      {
+        "propertyName": "DrainageBoundary",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ETTV",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OwnerBuiltOwnerStay",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "ProjectDevelopmentType",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "RETV",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_East",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_North",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_NorthEast",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_NorthWest",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_South",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_SouthEast",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_SouthWest",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_West",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_East",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_North",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_NorthEast",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_NorthWest",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_South",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_SouthEast",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_SouthWest",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WindowToWallRatio_West",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionPhase",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "NumberOfWorkers",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsPublicBuilding",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "Pset_BuildingCommon": [
+      {
+        "propertyName": "GrossPlannedArea",
+        "dataType": "Area",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "YearOfConstruction",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcCompressor": {
+    "SGPset_Compressor": []
+  },
+  "IfcStair": {
+    "SGPset_Stair": [
+      {
+        "propertyName": "LadderType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SectionFabricationMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_PAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReferTo2DDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireExit",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_StairCommon": [
+      {
+        "propertyName": "FireExit",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_StairSteelConnection": [
+      {
+        "propertyName": "ConnectionDetailsBottom",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConnectionDetailsTop",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConnectionTypeBottom",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConnectionTypeTop",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_StairDimension": [
+      {
+        "propertyName": "MemberSection",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_StairReinforcement": [
+      {
+        "propertyName": "TopDistribution",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopMain",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomDistribution",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BottomMain",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcBuildingElementProxy": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_BuildingElementProxy": [
+      {
+        "propertyName": "BicycleLotCount",
+        "dataType": "Integer",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "BicycleRack_Type",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "AI_HydrogenChloride",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurTrioxideAndAcidGases",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FamilyLot",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LotNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RigidFrameLessThan7.5m",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Vegetation_HasCreepers",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Mercury",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RefugeSpace_Type",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "EVLot",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OpenAtGrade",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ParkingType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Sulphide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Chlorine",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Detergent",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_MetalsInTotal",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Chromium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Colour",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Calcium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Phosphate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Selenium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_ChemicalOxygenDemand",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Cyanide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_PhenolicCompound",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Zinc",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Arsenic",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Nickel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Tin",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_BiochemicalOxygenDemand",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Barium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_TotalSuspendedSolid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_TemperatureOfDischarge",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_PHValue",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Sulphate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Copper",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Cadmium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Boron",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_TotalDissolvedSolid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_GreaseAndOil",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Beryllium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Chloride",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Iron",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Nitrate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Lead",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Magnesium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Manganese",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Silver",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_ParticulateSubstances",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Arsenic",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_OxidesOfNitrogen",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_DioxinsAndFurans",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurDioxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Lead",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Copper",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_AmmoniaAndAmmonium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_HydrogenSulphide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_CarbonMonoxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_StyreneMonomer",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Cadmium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_VinylChlorideMonomer",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Formaldehyde",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Chlorine",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Mercury",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_FluorineAndHydrofluoricAcid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurTrioxideOrSulphuricAcidMist",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Benzene",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_EthyleneOxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Antimony",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Perforated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "EquipmentType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "UnitNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CarParking_ServedByCarLift",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_BuildingElementProxyDimension": [
+      {
+        "propertyName": "SHDLevel_SPT_MoreThan_60N",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SHDLevel_SPT_MoreThan_100N",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TerminationLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Depth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "Pset_BuildingElementProxyCommon": []
+  },
+  "IfcBuildingSystem": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_BuildingSystem": [
+      {
+        "propertyName": "MechanizedCarParking_Type",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_MAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_PAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RefuseChuteID",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BuildabilityBlkName",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_BuildingSystemDimension": [
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcCableCarrierSegment": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcCableSegment": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_CableSegment": []
+  },
+  "IfcChimney": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_ChimneyCommon": []
+  },
+  "IfcCivilElement": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_CivilElementDimension": [
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_CivilElement": [
+      {
+        "propertyName": "OwnershipType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "VisitorLaneEntry",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LoadBearing",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CatchmentArea",
+        "dataType": "Area",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RoughnessCoefficient",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "KerbType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RoadCategory",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcCommunicationsAppliance": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_CommunicationsAppliance": []
+  },
+  "IfcCurtainWall": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_CurtainWall": [
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_Glass",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsLaminated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "Pset_CurtainWallCommon": [
+      {
+        "propertyName": "ThermalTransmittance",
+        "dataType": "Thermal Transmittance",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcDiscreteAccessory": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_DiscreteAccessory": [
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LPS_ConnectedToRebar",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LPS_ConnectedToFoundation",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TensileStress",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_ConcreteElementGeneral": [
+      {
+        "propertyName": "ReinforcementStrengthClass",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcDistributionChamberElement": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_DistributionChamberElementDimension": [
+      {
+        "propertyName": "InvertLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Diameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Depth",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "TopLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Gradient",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_DistributionChamberElement": [
+      {
+        "propertyName": "Grade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WithBackdrop",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "WithVortexDrop",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WithTumblingBay",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "VortexDropType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FinishType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Watertight",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TopLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InvertLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_TemperatureOfDischarge",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Sulphide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_TotalSuspendedSolid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Calcium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Chromium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Lead",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Nickel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_TotalDissolvedSolid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Chlorine",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Chloride",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Sulphate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Barium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_PHValue",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Phosphate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Magnesium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Tin",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Detergent",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_ChemicalOxygenDemand",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Colour",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_MetalsInTotal",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Boron",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Manganese",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Arsenic",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Mercury",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Nitrate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Copper",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_BiochemicalOxygenDemand",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_GreaseAndOil",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Iron",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Beryllium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_PhenolicCompound",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Cadmium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Silver",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Cyanide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Selenium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TED_Zinc",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_DistributionChamberElementCommon": [
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": "",
+        "beta": true
+      }
+    ]
+  },
+  "IfcDistributionSystem": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcDoor": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Door": [
+      {
+        "propertyName": "SoftClosing",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "VolumeControlled",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Counterbalanced",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FinalDischargeDoor",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OneWayLockingDevice",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "OpeningSize",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TransomFireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WithRubberGasket",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FusibleLink",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Hardware",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InspectionOpening",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OperationType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PanelDepth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AirTight",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MainEntrance",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Lockable",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AcousticRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ClearWidth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ClearHeight",
+        "dataType": "Length",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "PercentageOfOpening",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ],
+    "Pset_DoorCommon": [
+      {
+        "propertyName": "SelfClosing",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "MechanicalLoadRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireExit",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_DoorDimension": [
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcDuctFitting": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_DuctFitting": [
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcDuctSegment": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_DuctSegment": [
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Insulation_FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_DuctSegmentOccurrence": []
+  },
+  "IfcElement": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Element": [
+      {
+        "propertyName": "BuildabilityBlkName",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcFan": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_FanOccurrence": [
+      {
+        "propertyName": "ApplicationOfFan",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FanMountingType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_FanTypeCommon": [
+      {
+        "propertyName": "OperationalCriteria",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OperationTemperatureRange",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Fan": [
+      {
+        "propertyName": "SoundPressureLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AirChangePerHour",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SoundPowerLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcFilter": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Filter": [
+      {
+        "propertyName": "CorrosionResistant",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WaterFilterType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcFlowMeter": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_FlowMeterDimension": [
+      {
+        "propertyName": "Diameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "Pset_EnvironmentalImpactIndicators": [
+      {
+        "propertyName": "WaterConsumptionPerUnit",
+        "dataType": "Volume",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_FlowMeter": [
+      {
+        "propertyName": "ConnectionSize",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "UnitNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "UnitNumberTag",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WaterSupplySource",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Capacity",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MaximumFlowRate",
+        "dataType": "VolumetricFlowRate",
+        "measureResource": ""
+      }
+    ],
+    "Pset_FlowMeterOccurrence": [
+      {
+        "propertyName": "Purpose",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcMember": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Member": [
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_MemberCommon": []
+  },
+  "IfcPile": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Pile": [
+      {
+        "propertyName": "DA1-1_TensionCapacity",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DA1-2_TensionCapacity",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MinRockSocketingLength",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PileStructuralLoad": [
+      {
+        "propertyName": "DA1-1_CompressionDesignLoad",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DA1-1_TensionDesignLoad",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DA1-2_CompressionDesignLoad",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DA1-2_TensionDesignLoad",
+        "dataType": "Integer",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PileDimension": [
+      {
+        "propertyName": "CutOffLevel_SHD",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Diameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ToeLevel_SHD",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Breadth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MemberSection",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PileReinforcement": [
+      {
+        "propertyName": "MainRebar",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PileType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementLength",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Stirrups",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcPipeFitting": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PipeFitting": [
+      {
+        "propertyName": "NominalDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WithFlange",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InspectionOpening",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Insulation_FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_VolumeOfWastePerDay",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SupportedOnFoundation",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "JunctionType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WaterSealCompartment",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PipeFittingDimension": [
+      {
+        "propertyName": "Radius",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Diameter",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcPlate": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcRoof": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_RoofCommon": [
+      {
+        "propertyName": "AcousticRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalTransmittance",
+        "dataType": "Thermal Transmittance",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Roof": [
+      {
+        "propertyName": "RTTV",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WeightGroup",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Weight",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcShadingDevice": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_ShadingDevice": [
+      {
+        "propertyName": "Inclination",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PanelSpacing",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PerforationDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Porosity",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Retractable",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Spacing",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LS_NaturalComponentElement",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_ShadingDeviceCommon": [
+      {
+        "propertyName": "ShadingDeviceType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_ShadingDeviceDimension": [
+      {
+        "propertyName": "PanelDepth",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcStackTerminal": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_StackTerminal": [
+      {
+        "propertyName": "AirParticleFilterType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ApertureSize",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CorrosionResistant",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcStairFlight": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_StairFlightCommon": [
+      {
+        "propertyName": "RiserHeight",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TreadLength",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_StairFlight": [
+      {
+        "propertyName": "HasMechanicalConnection",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcTank": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_TankDimension": [
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Diameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Tank": [
+      {
+        "propertyName": "AnchorPoint",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AquaticFacility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BoltWithStainlessSteelBracket",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ChemicalType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ContinuousUse",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FasternWithStainlessSteelFasterners",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FuelType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "HazardousSubstancesMass",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsPotable",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OilType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OneDayRequirement",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StateofMatter",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TradeEffluent",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "VerticalLifeline",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExtinguisherType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CompactionRatio",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "EquipmentType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CorrosionResistant",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "NonDuplicableKeyLock",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Lockable",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WaterSealant",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Watertight",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Capacity",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ],
+    "Pset_TankTypeCommon": [
+      {
+        "propertyName": "NominalCapacity",
+        "dataType": "Volume",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StorageType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcTransportElement": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_TransportElementTypeLiftDimension": [
+      {
+        "propertyName": "ClearDepth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ClearWidth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_TransportElement": [
+      {
+        "propertyName": "DischargeCapacityRate",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RatedSpeed",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LiftType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RatedLoad",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TravelHeight",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TrapDoor_OpenOutward",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_TransportElementTypeEscalatorDimension": [],
+    "Pset_TransportElementCommon": [
+      {
+        "propertyName": "CapacityPeople",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "CapacityWeight",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcWall": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_WallReinforcement": [
+      {
+        "propertyName": "HorizontalRebar",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PrefabricatedReinforcementCage",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "VerticalRebar",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "StirrupsType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Stirrups",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_ConcreteElementGeneral": [
+      {
+        "propertyName": "ReinforcementStrengthClass",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_WallDimension": [
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Thickness",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Length",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_PrecastConcreteElementGeneral": [
+      {
+        "propertyName": "ArrangementType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Wall": [
+      {
+        "propertyName": "CorrectionFactor",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsPartyWall",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PorousFence",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "PrecisionBlockwall",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RecyclablesChuteID",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "RightOfWay",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShelterWallSetback",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ConstructionMethod",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReinforcementSteelGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReferTo2DDetail",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlameSpreadClass",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireStop",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Accreditation_PAS",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FinishType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MechanicalConnectionType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AreaIDServed",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mark",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_WallCommon": [
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireRating",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalTransmittance",
+        "dataType": "Thermal Transmittance",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "LoadBearing",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcWasteTerminal": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "Pset_WasteTerminalTypeCommon": [],
+    "SGPset_WasteTerminal": [
+      {
+        "propertyName": "Material_WasteFlowDiverterValve",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PassageClearance",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "WaterSealCompartment",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OnGround",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InvertLevel",
+        "dataType": "Real",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcWindow": {
+    "SGPset_Material": [
+      {
+        "propertyName": "MaterialGrade",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ThermalInsulation_Material_MeltingPoint",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Window": [
+      {
+        "propertyName": "IsBuiltIn",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OperationType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PercentageOfOpening",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SafetyBarrierHeight",
+        "dataType": "Real",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Combustible",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShadingCoefficient_Glass",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsLaminated",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_WindowDimension": [
+      {
+        "propertyName": "OuterDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "InnerDiameter",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "Pset_WindowCommon": [
+      {
+        "propertyName": "ThermalTransmittance",
+        "dataType": "Thermal Transmittance",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcCoolingTower": {
+    "SGPset_CoolingTower": [
+      {
+        "propertyName": "SoundPowerLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SoundPressureLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcBoiler": {
+    "SGPset_Boiler": [
+      {
+        "propertyName": "AI_OxidesOfNitrogen",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_AmmoniaAndAmmonium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurTrioxideOrSulphuricAcidMist",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_VinylChlorideMonomer",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_ParticulateSubstances",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_EthyleneOxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Chlorine",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Lead",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Mercury",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_HydrogenSulphide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Cadmium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Antimony",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_CarbonMonoxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Copper",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_HydrogenChloride",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurTrioxideAndAcidGases",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_StyreneMonomer",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Formaldehyde",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Benzene",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_FluorineAndHydrofluoricAcid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurDioxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_DioxinsAndFurans",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Arsenic",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcOpeningElement": {
+    "Pset_OpeningElementCommon": [
+      {
+        "propertyName": "FireExit",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_OpeningElement": [
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "MainEntrance",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcGeographicElement": {
+    "SGPset_GeographicElementDimension": [
+      {
+        "propertyName": "Girth",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Area",
+        "dataType": "Area",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Size",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_GeographicElement": [
+      {
+        "propertyName": "ApprovedSoilMixture",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Shrubs",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Status",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "VacantLand",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SingleStem",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReasonForRemoval",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Species",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TreeNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Turf",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TurfSpecies",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShrubNumber",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BroadLandUse",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PUBControlled",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ShrubSpecies",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ApprovedTurfSpecies",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TreeConservationArea",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcSensor": {
+    "SGPset_Sensor": [
+      {
+        "propertyName": "AC",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Antimony",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "DC",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Declaration",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IndependentPowerSupply",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReactionTime",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Chlorine",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Formaldehyde",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_CarbonMonoxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_FluorineAndHydrofluoricAcid",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_StyreneMonomer",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurTrioxideAndAcidGases",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Cadmium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_VinylChlorideMonomer",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_AmmoniaAndAmmonium",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurTrioxideOrSulphuricAcidMist",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Mercury",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_ParticulateSubstances",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Arsenic",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Benzene",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_HydrogenSulphide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_EthyleneOxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_SulphurDioxide",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Lead",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_OxidesOfNitrogen",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_Copper",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_DioxinsAndFurans",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "AI_HydrogenChloride",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SmokeDetectorType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcBuildingStorey": {
+    "Pset_BuildingStoreyCommon": [],
+    "SGPset_BuildingStorey": [
+      {
+        "propertyName": "AtticLevel",
+        "dataType": "Boolean",
+        "measureResource": "",
+        "beta": true
+      },
+      {
+        "propertyName": "HasActivityGeneratingUse",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SCDFBasement1",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcCondenser": {
+    "SGPset_Condenser": [
+      {
+        "propertyName": "SoundPressureLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SoundPowerLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcChiller": {
+    "SGPset_Chiller": [
+      {
+        "propertyName": "SoundPressureLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SoundPowerLevel",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcBurner": {
+    "SGPset_Burner": [
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcJunctionBox": {
+    "SGPset_JunctionBox": [
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcActuator": {
+    "SGPset_Actuator": [],
+    "SGPset_ActuatorDimension": [],
+    "Pset_ActuatorTypeCommon": [
+      {
+        "propertyName": "Application",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcRamp": {
+    "SGPset_RampDimension": [
+      {
+        "propertyName": "Gradient",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "KerbHeight",
+        "dataType": "Length",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ],
+    "SGPset_Ramp": [
+      {
+        "propertyName": "Accessway",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Egress",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Ingress",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "TransitionRamp",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Width",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Vehicular",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ],
+    "Pset_RampCommon": [
+      {
+        "propertyName": "FireExit",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcRampFlight": {
+    "SGPset_RampFlight": [
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcUnitaryControlElement": {
+    "SGPset_UnitaryControlElement": [
+      {
+        "propertyName": "AutomaticFireAlarmSystem",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FireAlarmPanel",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IPRating",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_AirIntakeValve",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_CollectionStation",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_DischargeValve",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_Flushing",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PWCS_TemporaryStorageSection",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Purpose",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcElectricFlowStorageDevice": {
+    "SGPset_ElectricFlowStorageDevice": []
+  },
+  "IfcMotorConnection": {
+    "SGPset_MotorConnection": []
+  },
+  "IfcElectricGenerator": {
+    "SGPset_ElectricGenerator": []
+  },
+  "IfcElectricAppliance": {
+    "SGPset_ElectricAppliance": [
+      {
+        "propertyName": "CapacityWeight",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ApprovedExtinguishingSystem",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ElectricCookerType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OnGround",
+        "dataType": "Boolean",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcLightFixture": {
+    "SGPset_LightFixture": [
+      {
+        "propertyName": "ColorRenderingIndex",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ColorTemperature",
+        "dataType": "Real",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "EnergyEfficiency",
+        "dataType": "Integer",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IndexOfProtection",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Intensity",
+        "dataType": "Integer",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcSanitaryTerminal": {
+    "SGPset_SanitaryTerminal": [
+      {
+        "propertyName": "AmbulantDisabled",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ChildrenFriendly",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlushVolume",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FullFlushVolume",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "IsSingleFlush",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ReducedFlushVolume",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Function",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "FlowRate",
+        "dataType": "VolumetricFlowRate",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ExternalReference",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Mounting",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "BarrierFreeAccessibility",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "OnGround",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "SinkType",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "Waterless",
+        "dataType": "Boolean",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "PanMounting",
+        "dataType": "Label",
+        "measureResource": ""
+      },
+      {
+        "propertyName": "ToiletPanType",
+        "dataType": "Label",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcSwitchingDevice": {
+    "SGPset_SwitchingDevice": []
+  },
+  "IfcFlowInstrument": {
+    "SGPset_FlowInstrument": []
+  },
+  "IfcAlarm": {
+    "SGPset_Alarm": []
+  },
+  "IfcSolarDevice": {
+    "SGPset_SolarDeviceDimension": [
+      {
+        "propertyName": "Height",
+        "dataType": "Length",
+        "measureResource": ""
+      }
+    ]
+  },
+  "IfcOutlet": {
+    "SGPset_Outlet": []
+  },
+  "IfcAudioVisualAppliance": {
+    "SGPset_AudioVisualAppliance": []
+  }
+}

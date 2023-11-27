@@ -27,6 +27,7 @@
         "reckiIuekkITVxjKf",
         "recERToDKfHI8XPKL"
       ],
+      "IFC KEY": "IFCPIL_057",
       "Identified Components": [
         "Pile"
       ],
@@ -37,7 +38,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCPIL_057",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "BORED",
@@ -80,6 +80,7 @@
         "rec81DH2XzMAEvhXe",
         "recwQ83bNZ6wgcFrI"
       ],
+      "IFC KEY": "IFCSEN_071",
       "Identified Components": [
         "Sensor"
       ],
@@ -100,7 +101,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCSEN_071",
       "IFC4 Object Types": [
         "AIRIMPURITIESSENSOR*",
         "BEAMDETECTOR*",
@@ -140,6 +140,7 @@
         "recOO9imyvJwKOGhq",
         "recsMVDPClTwqFk0z"
       ],
+      "IFC KEY": "IFCROO_069",
       "Identified Components": [
         "Roof"
       ],
@@ -151,7 +152,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCROO_069",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLAT_ROOF",
@@ -190,13 +190,16 @@
         "recg7gSYImmwhWXxW",
         "recTSTcUXBLjVpEZg",
         "recGlrLZZP7exrTgW",
-        "rec0RJXHtqj7P971L"
+        "rec0RJXHtqj7P971L",
+        "recvTUZsiWBwyASEx"
       ],
+      "IFC KEY": "IFCSLA_074",
       "Identified Components": [
         "Catwalk",
         "Service Platform",
         "Slab",
-        "Staircase Landing"
+        "Staircase Landing",
+        "Ledge"
       ],
       "IFC4 Sub Types (Beta)": [
         "FLOOR",
@@ -210,13 +213,14 @@
         true,
         true,
         null,
+        null,
         null
       ],
-      "IFC KEY": "IFCSLA_074",
       "IFC4 Object Types": [
         "CATWALK*",
         "INTERMEDIATEPLATFORM*",
-        "RAFTSLAB*"
+        "RAFTSLAB*",
+        "LEDGE*"
       ],
       "IFC4 Predefined Types": [
         "FLOOR",
@@ -249,8 +253,10 @@
         "recvzIBX1k7YTmCkd",
         "rec38pzEYhJGVJr9S",
         "recpnjyZ5poZLSRRv",
-        "recFIYpYGVBEnF2xp"
+        "recFIYpYGVBEnF2xp",
+        "rec9liXcRqPc4HfJT"
       ],
+      "IFC KEY": "IFCSTA_079",
       "Identified Components": [
         "Stair Flight"
       ],
@@ -258,22 +264,24 @@
         "WINDER*",
         "CURVED",
         "STRAIGHT",
-        "SPIRAL"
+        "SPIRAL",
+        "NOTDEFINED"
       ],
       "Beta (from CO Key)": [
         true,
         true,
         true,
+        true,
         true
       ],
-      "IFC KEY": "IFCSTA_079",
       "IFC4 Object Types": [
         "WINDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED",
         "STRAIGHT",
-        "SPIRAL"
+        "SPIRAL",
+        "NOTDEFINED"
       ]
     }
   },
@@ -305,6 +313,7 @@
         "recqv6s7J0QHMk9BZ",
         "recd6TkcNZR1z59Dq"
       ],
+      "IFC KEY": "IFCFLO_044",
       "Identified Components": [
         "Flow Meter"
       ],
@@ -317,7 +326,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCFLO_044",
       "IFC4 Object Types": [
         "FUELMETER*"
       ],
@@ -374,6 +382,7 @@
         "recz8PoiIMepyBVcc",
         "recLi640DjJrS5y42"
       ],
+      "IFC KEY": "IFCVAL_087",
       "Identified Components": [
         "Valve"
       ],
@@ -408,7 +417,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCVAL_087",
       "IFC4 Object Types": [
         "AIRADMITTANCE*",
         "AIRINTAKEVALVE*",
@@ -457,6 +465,7 @@
         "rec0nGCuhidXgRweC",
         "recI0F4LQJUHZ7psZ"
       ],
+      "IFC KEY": "IFCAUD_004",
       "Identified Components": [
         "AV Appliance"
       ],
@@ -470,7 +479,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCAUD_004",
       "IFC4 Object Types": [
         "LOUDSPEAKER*"
       ],
@@ -517,6 +525,7 @@
         "recEfUzOmZ8FsMD1A",
         "recDe97R5d8Zzhvbm"
       ],
+      "IFC KEY": "IFCUNI_085",
       "Identified Components": [
         "Control Element"
       ],
@@ -537,7 +546,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCUNI_085",
       "IFC4 Object Types": [
         "LIFTCALLBUTTON*",
         "SUBALARMPANEL*"
@@ -574,8 +582,13 @@
         "recg6v7RwpOiEzJRY",
         "recX3jE7FZGlNuoXv",
         "rec5YVJvtqJHnEas4",
-        "recUVwZVH49uCNYC4"
+        "recUVwZVH49uCNYC4",
+        "recRu1gBaRrUpKnDd",
+        "rec9N0agzubzgraOO",
+        "recevdaP25oTnLlti",
+        "rec33WHfgCiEEmDMS"
       ],
+      "IFC KEY": "IFCSTA_078",
       "Identified Components": [
         "Ladder",
         "Stair"
@@ -583,22 +596,33 @@
       "IFC4 Sub Types (Beta)": [
         "CURVED_RUN_STAIR",
         "STRAIGHT_RUN_STAIR",
-        "SPIRAL_STAIR"
+        "SPIRAL_STAIR",
+        "THREE_QUARTER_TURN_STAIR",
+        "DOUBLE_RETURN_STAIR",
+        "HALF_TURN_STAIR",
+        "QUARTER_TURN_STAIR"
       ],
       "Beta (from CO Key)": [
         null,
         true,
         true,
+        true,
+        true,
+        true,
+        true,
         true
       ],
-      "IFC KEY": "IFCSTA_078",
       "IFC4 Object Types": [
         "LADDER*"
       ],
       "IFC4 Predefined Types": [
         "CURVED_RUN_STAIR",
         "STRAIGHT_RUN_STAIR",
-        "SPIRAL_STAIR"
+        "SPIRAL_STAIR",
+        "THREE_QUARTER_TURN_STAIR",
+        "DOUBLE_RETURN_STAIR",
+        "HALF_TURN_STAIR",
+        "QUARTER_TURN_STAIR"
       ]
     }
   },
@@ -640,11 +664,17 @@
         "recI1DxlkPVtE546z",
         "recF4ZMATTZzmOJaW",
         "rec7bG8ajyPRaY0tp",
-        "recnrVJgRKDiIW4Hd"
+        "recnrVJgRKDiIW4Hd",
+        "recF6BRfKxbJTVvyx",
+        "recOBuPZN7k0ob4LX"
       ],
+      "IFC KEY": "IFCTAN_082",
       "Identified Components": [
         "Tank",
-        "Fire Extinguishing Tank"
+        "Fire Extinguishing Tank",
+        "Refuse Handling Equipment",
+        "Refuse Compactor",
+        "Refuse Container"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
@@ -666,9 +696,10 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
-      "IFC KEY": "IFCTAN_082",
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
@@ -682,7 +713,9 @@
         "REFUSEHANDLINGEQUIPMENT*",
         "RETENTIONTANK*",
         "SECTIONAL*",
-        "SURGETANK*"
+        "SURGETANK*",
+        "REFUSECOMPACTOR*",
+        "REFUSECONTAINER*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
@@ -711,6 +744,7 @@
       "CO Key": [
         "recdhk6kqFGyFLhsj"
       ],
+      "IFC KEY": "IFCCHI_016",
       "Identified Components": [
         "Chiller Unit"
       ],
@@ -718,7 +752,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCCHI_016",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -766,6 +799,7 @@
         "recHmJOrRWWezEgz1",
         "recEE1BZB685J64zo"
       ],
+      "IFC KEY": "IFCDOO_030",
       "Identified Components": [
         "Access Hatch",
         "Access Panel",
@@ -806,7 +840,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCDOO_030",
       "IFC4 Object Types": [
         "ACCESSHATCH*",
         "RECYCLABLESCHUTEACCESSPANEL*",
@@ -848,6 +881,7 @@
         "rec5JVBnzmCHQuaDp",
         "recaFhvieUdTmHMc1"
       ],
+      "IFC KEY": "IFCFLO_043",
       "Identified Components": [
         "Pressure Gauge",
         "Thermocouple Display Panel"
@@ -857,7 +891,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCFLO_043",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "PRESSUREGAUGE"
@@ -893,6 +926,7 @@
         "recLbiaTTSjQZADKl",
         "recEvBDNphZM6JL26"
       ],
+      "IFC KEY": "IFCPUM_064",
       "Identified Components": [
         "Pump"
       ],
@@ -909,7 +943,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCPUM_064",
       "IFC4 Object Types": [
         "AERATOR*",
         "JET*",
@@ -948,6 +981,7 @@
         "reckNT9fr8hBkgVRs",
         "rec2yyHAyvlG1jqvf"
       ],
+      "IFC KEY": "IFCCAB_013",
       "Identified Components": [
         "Cable Carrier Segment",
         "Cable Trunking"
@@ -960,7 +994,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCCAB_013",
       "IFC4 Object Types": [
         "AIRCONDITIONINGTRAY*"
       ],
@@ -988,6 +1021,7 @@
       "CO Key": [
         "recbcq8FZ8JdWVJzq"
       ],
+      "IFC KEY": "IFCENG_039",
       "Identified Components": [
         "Engine"
       ],
@@ -995,7 +1029,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCENG_039",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1018,6 +1051,7 @@
       "CO Key": [
         "recTCczcfyjXkGHK2"
       ],
+      "IFC KEY": "IFCHEA_049",
       "Identified Components": [
         "Vaporiser"
       ],
@@ -1025,7 +1059,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCHEA_049",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -1051,6 +1084,7 @@
       "CO Key": [
         "recccSvrKKo0SU6wY"
       ],
+      "IFC KEY": "IFCBUI_007",
       "Identified Components": [
         "Building"
       ],
@@ -1058,7 +1092,6 @@
       "Beta (from CO Key)": [
         true
       ],
-      "IFC KEY": "IFCBUI_007",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -1101,6 +1134,7 @@
         "recxdSl4ukuR4mEMI",
         "reckW2cCUqJKARCO7"
       ],
+      "IFC KEY": "IFCSHA_072",
       "Identified Components": [
         "Screen",
         "Shading Device"
@@ -1125,7 +1159,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCSHA_072",
       "IFC4 Object Types": [
         "CANOPY*",
         "DROPDOWNPANEL*",
@@ -1165,6 +1198,7 @@
         "recXsTCNQrKwuc9EQ",
         "recRNyu242zDkwODc"
       ],
+      "IFC KEY": "IFCELE_036",
       "Identified Components": [
         "Emergency Generator",
         "Generator",
@@ -1178,7 +1212,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCELE_036",
       "IFC4 Object Types": [
         "EMERGENCYENGINEGENERATOR*"
       ],
@@ -1209,6 +1242,7 @@
         "recktEjtNm4GmMLNK",
         "rec73iUrkNAsJBLrL"
       ],
+      "IFC KEY": "IFCELE_035",
       "Identified Components": [
         "Battery",
         "UPS",
@@ -1220,7 +1254,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCELE_035",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1243,6 +1276,7 @@
       "CO Key": [
         "recUOaFcGXrSXBFUe"
       ],
+      "IFC KEY": "IFCPRO_063",
       "Identified Components": [
         "Electro Magnetic"
       ],
@@ -1250,7 +1284,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCPRO_063",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -1289,6 +1322,7 @@
         "recWcLCDS56Gk3bhm",
         "rect7tp4zV8fthNJ6"
       ],
+      "IFC KEY": "IFCWAS_089",
       "Identified Components": [
         "Waste Terminal"
       ],
@@ -1308,7 +1342,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCWAS_089",
       "IFC4 Object Types": [
         "CHUTEINTERFACE*",
         "DROPINLETCHAMBER*",
@@ -1344,6 +1377,7 @@
       "CO Key": [
         "rec9NjBrBaL88fWyN"
       ],
+      "IFC KEY": "IFCCAB_014",
       "Identified Components": [
         "Cable Fitting"
       ],
@@ -1351,7 +1385,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCCAB_014",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1382,6 +1415,7 @@
         "recQdFWGsv2a0KnVp",
         "rechYfuhoamlYVaWS"
       ],
+      "IFC KEY": "IFCCOM_020",
       "Identified Components": [
         "Antennae",
         "Computer",
@@ -1397,7 +1431,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCCOM_020",
       "IFC4 Object Types": [
         "INTEGRATEDCOMMUNICATIONCONSOLE*"
       ],
@@ -1438,6 +1471,7 @@
         "recvcpYXULwLR27JV",
         "recELaM2cwi6ROaWw"
       ],
+      "IFC KEY": "IFCSAN_070",
       "Identified Components": [
         "Bathtub",
         "Bidet",
@@ -1469,7 +1503,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCSAN_070",
       "IFC4 Object Types": [
         "FOGGER*",
         "MISTER*",
@@ -1507,6 +1540,7 @@
       "CO Key": [
         "recb2sKtwspBySCFw"
       ],
+      "IFC KEY": "IFCCOM_021",
       "Identified Components": [
         "Air Compressor"
       ],
@@ -1514,7 +1548,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCCOM_021",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1546,6 +1579,7 @@
         "recuYbPi8lfNyy4LQ",
         "recBLLdwN5aCobbrI"
       ],
+      "IFC KEY": "IFCSWI_080",
       "Identified Components": [
         "Switch"
       ],
@@ -1559,7 +1593,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCSWI_080",
       "IFC4 Object Types": [
         "EVACUATIONSWITCH*",
         "FIRELIFTSWITCH*",
@@ -1602,6 +1635,7 @@
         "recdMUXRI1fpOI9e9",
         "rec0sKQtTZJMGuF50"
       ],
+      "IFC KEY": "IFCPIP_059",
       "Identified Components": [
         "Pipe Segment"
       ],
@@ -1620,7 +1654,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCPIP_059",
       "IFC4 Object Types": [
         "BYPASSCHANNEL*",
         "RAINWATEROUTLET*",
@@ -1656,6 +1689,7 @@
       "CO Key": [
         "recsmyvltqhwDCJwF"
       ],
+      "IFC KEY": "IFCELE_038",
       "Identified Components": [
         "Building Element"
       ],
@@ -1663,9 +1697,10 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCELE_038",
       "IFC4 Object Types": [],
-      "IFC4 Predefined Types": []
+      "IFC4 Predefined Types": [
+        "NOTDEFINED"
+      ]
     }
   },
   {
@@ -1689,6 +1724,7 @@
         "recp5oT7Nic0UUqqK",
         "recufbzADMF0kYlmw"
       ],
+      "IFC KEY": "IFCPLA_060",
       "Identified Components": [
         "Curtain Panel",
         "Orifice Plate",
@@ -1700,7 +1736,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCPLA_060",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "CURTAIN_PANEL",
@@ -1727,6 +1762,7 @@
       "CO Key": [
         "rec50dM9Kh7NwLPQS"
       ],
+      "IFC KEY": "IFCRAM_067",
       "Identified Components": [
         "Rampflight"
       ],
@@ -1734,7 +1770,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCRAM_067",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1761,6 +1796,7 @@
         "recGy0YhnIUBQDKjB",
         "reckPLkJeUS8j55m0"
       ],
+      "IFC KEY": "IFCTRA_083",
       "Identified Components": [
         "Inverter",
         "Transformer"
@@ -1770,7 +1806,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCTRA_083",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -1816,6 +1851,7 @@
         "recjx68EQUEe565j5",
         "recOxvImFxwdrUcwh"
       ],
+      "IFC KEY": "IFCELE_033",
       "Identified Components": [
         "Air Cleaning Equipment",
         "Coffee Maker",
@@ -1863,9 +1899,7 @@
         null,
         null
       ],
-      "IFC KEY": "IFCELE_033",
       "IFC4 Object Types": [
-        "COFFEEMAKER*",
         "DRINKINGFOUNTAIN*",
         "FUMEHOOD*",
         "HIGHPRESSURECLEANER*",
@@ -1873,18 +1907,16 @@
         "RANGEHOOD*",
         "SCRAPER*",
         "STEAMCLEANER*",
-        "TELEVISION*",
         "WATERDISPENSER*"
       ],
       "IFC4 Predefined Types": [
         "DISHWASHER",
-        "ELECTRICCOOKER",
-        "FREESTANDINGELECTRICHEATER",
+        "ELECTRICHEATER",
         "FREEZER",
         "REFRIGERATOR",
         "WASHINGMACHINE",
-        "FREESTANDINGWATERCOOLER",
-        "FREESTANDINGWATERHEATER"
+        "WATERCOOLER",
+        "WATERHEATER"
       ]
     }
   },
@@ -1904,6 +1936,7 @@
       "CO Key": [
         "recJ0Gl5TvaT4IVzD"
       ],
+      "IFC KEY": "IFCCAB_012",
       "Identified Components": [
         "Trunking"
       ],
@@ -1911,7 +1944,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCCAB_012",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -1939,6 +1971,7 @@
         "recr9KftjNUONqf0G",
         "reccobAl6eZBzeo4K"
       ],
+      "IFC KEY": "IFCACT_001",
       "Identified Components": [
         "Actuator"
       ],
@@ -1947,7 +1980,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCACT_001",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ELECTRICACTUATOR",
@@ -1983,6 +2015,7 @@
         "rechvu8aUOUsR3G76",
         "recmXW1eQY3aE4Uua"
       ],
+      "IFC KEY": "IFCFOO_045",
       "Identified Components": [
         "Footing",
         "Footing Beam",
@@ -1996,7 +2029,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCFOO_045",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -2020,9 +2052,9 @@
       "Discipline": [
         "ARC"
       ],
+      "IFC KEY": "IFCSYS_081",
       "Identified Components": [],
       "IFC4 Sub Types (Beta)": [],
-      "IFC KEY": "IFCSYS_081",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -2049,6 +2081,7 @@
       "CO Key": [
         "rec77Fj7ghGAy774z"
       ],
+      "IFC KEY": "IFCCUR_025",
       "Identified Components": [
         "Curtain Wall"
       ],
@@ -2058,7 +2091,6 @@
       "Beta (from CO Key)": [
         true
       ],
-      "IFC KEY": "IFCCUR_025",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -2123,6 +2155,7 @@
         "recXMTvbMgBAjt8hI",
         "recrO9UxYMLp3UsUX"
       ],
+      "IFC KEY": "IFCBUI_010",
       "Identified Components": [
         "Air Speed Measuring Device",
         "Beam-Facade Wall",
@@ -2200,14 +2233,12 @@
         null,
         true
       ],
-      "IFC KEY": "IFCBUI_010",
       "IFC4 Object Types": [
         "BEAMFACADEWALL*",
         "FRAMING*",
         "DIAPHRAGMWALLSYSTEM*",
         "DRAINAGE*",
         "MECHANIZEDCARPARKING*",
-        "OXYGENREDUCTION*",
         "PNEUMATICRECYCLABLESCHUTECONVEYANCESYSTEM*",
         "PNEUMATICWASTECONVEYANCESYSTEM*",
         "PPVCMODULE*",
@@ -2277,6 +2308,7 @@
         "recIN93NxVp5WPTU0",
         "rec9FTTgkGVsXQTGE"
       ],
+      "IFC KEY": "IFCGEO_047",
       "Identified Components": [
         "Artwork",
         "Beach",
@@ -2330,7 +2362,6 @@
         null,
         true
       ],
-      "IFC KEY": "IFCGEO_047",
       "IFC4 Object Types": [
         "BEACH*",
         "UTILITYPOLE*",
@@ -2503,8 +2534,10 @@
         "recGdOFcUYeEGPSaj",
         "recmIbGJi9loQzVt1",
         "rec8o65fiTlJ6jdzX",
-        "reccQoe2GptDeydcX"
+        "reccQoe2GptDeydcX",
+        "recoGQEdggQEn1Ayk"
       ],
+      "IFC KEY": "IFCBUI_008",
       "Identified Components": [
         "Adjacent Building",
         "Autosampler",
@@ -2576,7 +2609,8 @@
         "Vehicular Barrier",
         "Water Playground",
         "Wheelchair Space",
-        "Egress Indicator Box"
+        "Egress Indicator Box",
+        "Swept Path"
       ],
       "IFC4 Sub Types (Beta)": [
         "HUMP*",
@@ -2716,9 +2750,9 @@
         null,
         null,
         null,
+        null,
         null
       ],
-      "IFC KEY": "IFCBUI_008",
       "IFC4 Object Types": [
         "SURROUNDINGBUILDING*",
         "BACKFILL*",
@@ -2778,7 +2812,7 @@
         "SIGNPOST_DRIVEWAY*",
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
-        "2D_TRAFFICFLOW*",
+        "TRAFFICFLOW*",
         "2D_TREEPROTECTIONZONE*",
         "TUNNEL*",
         "TURNSTILE*",
@@ -2787,7 +2821,8 @@
         "WATERPLAYGROUND*",
         "2D_WHEELCHAIRSPACE*",
         "EGRESSINDICATORBOX*",
-        "TOWTRACTORLOT*"
+        "TOWTRACTORLOT*",
+        "REFUSETRUCKSWEPTPATH*"
       ],
       "IFC4 Predefined Types": []
     }
@@ -2812,6 +2847,7 @@
         "recQOsfh11grlJHzT",
         "recuU9v0DlVNlYaTD"
       ],
+      "IFC KEY": "IFCLIG_052",
       "Identified Components": [
         "Emergency Lighting",
         "Lighting Fixture"
@@ -2821,7 +2857,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCLIG_052",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SECURITYLIGHTING",
@@ -2849,6 +2884,7 @@
         "recI7MXX6A2vfAof7",
         "recn1NsjpkX5xIXUa"
       ],
+      "IFC KEY": "IFCPRO_062",
       "Identified Components": [
         "Circuit Breaker",
         "Fused Switch"
@@ -2858,7 +2894,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCPRO_062",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -2885,6 +2920,7 @@
         "recjg2ULCHJ5wqIDl",
         "rec6sWFo5KJpZcatV"
       ],
+      "IFC KEY": "IFCMEM_053",
       "Identified Components": [
         "Stringer",
         "Supporting Structure"
@@ -2894,7 +2930,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCMEM_053",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "STRINGER",
@@ -2948,6 +2983,7 @@
         "recJItUjPqYBuCgGU",
         "recMy6kVj4oRVcTzI"
       ],
+      "IFC KEY": "IFCTRA_084",
       "Identified Components": [
         "Bed Lift",
         "Bin Lifter",
@@ -3002,7 +3038,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCTRA_084",
       "IFC4 Object Types": [
         "BINLIFTER*",
         "LIFT*"
@@ -3034,6 +3069,7 @@
         "recTzAHCO8ZK43CAA",
         "rectN5IeHb0o7i1ue"
       ],
+      "IFC KEY": "IFCINT_050",
       "Identified Components": [
         "Grease Trap",
         "Oil Interceptor"
@@ -3043,7 +3079,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCINT_050",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "GREASE",
@@ -3077,6 +3112,7 @@
         "recmlyyyQxsMWxAON",
         "recIyITFghmA0pLWe"
       ],
+      "IFC KEY": "IFCAIR_002",
       "Identified Components": [
         "Air Terminal"
       ],
@@ -3088,7 +3124,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCAIR_002",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "DIFFUSER",
@@ -3120,6 +3155,7 @@
         "reckuTeHQDAUy7GJi",
         "rec6EIrp2RSSc72o0"
       ],
+      "IFC KEY": "IFCJUN_051",
       "Identified Components": [
         "Junction Box"
       ],
@@ -3129,7 +3165,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCJUN_051",
       "IFC4 Object Types": [
         "TRAFFICCONTROL*"
       ],
@@ -3162,6 +3197,7 @@
         "rec4Eq2YY9bMu5TEM",
         "recPv0yUHpluQRohj"
       ],
+      "IFC KEY": "IFCUNI_086",
       "Identified Components": [
         "Unitary Equipment"
       ],
@@ -3174,7 +3210,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCUNI_086",
       "IFC4 Object Types": [
         "FANCOILUNIT*"
       ],
@@ -3203,6 +3238,7 @@
       "CO Key": [
         "rectZIQrOZfk4sUpe"
       ],
+      "IFC KEY": "IFCPRO_061",
       "Identified Components": [
         "Project Global Positioning"
       ],
@@ -3210,7 +3246,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCPRO_061",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -3254,6 +3289,7 @@
         "recZ0Fp6sewoJZZW9",
         "recLR3H5o375t8PLW"
       ],
+      "IFC KEY": "IFCPIP_058",
       "Identified Components": [
         "Pipe Fitting"
       ],
@@ -3279,7 +3315,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCPIP_058",
       "IFC4 Object Types": [
         "DRAINCHANNELBEND*",
         "PIPESILENCER*",
@@ -3326,6 +3361,7 @@
         "recHXwbTzjMhavpHI",
         "recnIla5KTpOIn0z7"
       ],
+      "IFC KEY": "IFCRAM_066",
       "Identified Components": [
         "Ramp"
       ],
@@ -3339,7 +3375,6 @@
         true,
         null
       ],
-      "IFC KEY": "IFCRAM_066",
       "IFC4 Object Types": [
         "CURVEDRAMP*",
         "FLAREDKERBRAMP*",
@@ -3390,6 +3425,7 @@
         "rec3HUTPSv3pe1KEr",
         "rec9njgykhOOJwCVM"
       ],
+      "IFC KEY": "IFCCIV_018",
       "Identified Components": [
         "Road",
         "Footpath",
@@ -3436,7 +3472,6 @@
         true,
         true
       ],
-      "IFC KEY": "IFCCIV_018",
       "IFC4 Object Types": [
         "BACKLANE*",
         "DRIVEWAY*",
@@ -3482,6 +3517,7 @@
         "rec9L4GtHN4NIVYwT",
         "recjOOaWsKnY5nDam"
       ],
+      "IFC KEY": "IFCCAB_015",
       "Identified Components": [
         "Cable Segment"
       ],
@@ -3491,7 +3527,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCCAB_015",
       "IFC4 Object Types": [
         "LPS_DOWNCONDUCTOR*"
       ],
@@ -3518,6 +3553,7 @@
         "reci3Tfi6h6yw7ICI",
         "recKuMU93czvdgqB6"
       ],
+      "IFC KEY": "IFCELE_034",
       "Identified Components": [
         "Distribution Board",
         "Switchboard",
@@ -3529,7 +3565,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCELE_034",
       "IFC4 Object Types": [
         "SWITCHGEAR*"
       ],
@@ -3591,6 +3626,7 @@
         "recrkhmW18hcdqYpj",
         "recgOcl6l8fY2pMWo"
       ],
+      "IFC KEY": "IFCSPA_076",
       "Identified Components": [
         "Accessible Route",
         "Air Space Lot",
@@ -3631,7 +3667,6 @@
         true,
         null
       ],
-      "IFC KEY": "IFCSPA_076",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -3677,6 +3712,7 @@
         "recgbOJzkY8jxwY3x",
         "recGGoI330ogrWie6"
       ],
+      "IFC KEY": "IFCDUC_032",
       "Identified Components": [
         "Duct Segment"
       ],
@@ -3685,7 +3721,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCDUC_032",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FLEXIBLESEGMENT",
@@ -3714,6 +3749,7 @@
         "recNbpJJCpT4WM7Ht",
         "recMl7lUDmDxtjl6U"
       ],
+      "IFC KEY": "IFCCHI_017",
       "Identified Components": [
         "Chimney",
         "Flue"
@@ -3723,7 +3759,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCCHI_017",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -3751,6 +3786,7 @@
         "recWhRjIb6oZ7UQBT",
         "recB1ehKcUPGftKD4"
       ],
+      "IFC KEY": "IFCOPE_055",
       "Identified Components": [
         "Opening"
       ],
@@ -3761,7 +3797,6 @@
         true,
         null
       ],
-      "IFC KEY": "IFCOPE_055",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "OPENING"
@@ -3800,6 +3835,7 @@
         "recjnAIDWzsL2C4mp",
         "recYUm1Zj1VDy4MH3"
       ],
+      "IFC KEY": "IFCCOV_024",
       "Identified Components": [
         "Ceiling",
         "Cladding",
@@ -3823,7 +3859,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCCOV_024",
       "IFC4 Object Types": [
         "TACTILE*",
         "PIPESLEEVE*"
@@ -3859,6 +3894,7 @@
         "recryawf2PXbOZsX6",
         "recEO8a3FyEuU80me"
       ],
+      "IFC KEY": "IFCMOT_054",
       "Identified Components": [
         "Governor",
         "Motor",
@@ -3870,7 +3906,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCMOT_054",
       "IFC4 Object Types": [
         "LIFT_GOVERNOR*",
         "LIFT_TRACTIONMACHINE*"
@@ -3897,6 +3932,7 @@
       "CO Key": [
         "rechpw1Fehn2wP4KK"
       ],
+      "IFC KEY": "IFCBUR_011",
       "Identified Components": [
         "Burner"
       ],
@@ -3904,7 +3940,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCBUR_011",
       "IFC4 Object Types": [
         "OPENFLAMECOOKING*"
       ],
@@ -3950,6 +3985,7 @@
         "rechK0Jqm0iiBnL9d",
         "recuAkJhOqYGOk5ZD"
       ],
+      "IFC KEY": "IFCDIS_028",
       "Identified Components": [
         "Distribution Chamber",
         "Inspection Chamber",
@@ -3980,7 +4016,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCDIS_028",
       "IFC4 Object Types": [
         "LPS_EARTHPIT*",
         "PWCSINSPECTIONCHAMBER*",
@@ -4020,6 +4055,7 @@
       "CO Key": [
         "recsJCPyybn7oRmr9"
       ],
+      "IFC KEY": "IFCCOO_023",
       "Identified Components": [
         "Cooling Tower"
       ],
@@ -4027,7 +4063,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCCOO_023",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -4063,6 +4098,7 @@
         "rec7V5JYRxIWGH7iz",
         "recqvwfgnp2sImrTq"
       ],
+      "IFC KEY": "IFCWIN_090",
       "Identified Components": [
         "Fragmentation Plate",
         "Window",
@@ -4080,7 +4116,6 @@
         true,
         null
       ],
-      "IFC KEY": "IFCWIN_090",
       "IFC4 Object Types": [
         "VENTILATIONSLEEVE*",
         "BAYWINDOW*"
@@ -4117,6 +4152,7 @@
         "recAIS0gs5z8mNiwl",
         "rec1q0zwF9AJOQcnu"
       ],
+      "IFC KEY": "IFCALA_003",
       "Identified Components": [
         "Alarm",
         "Fire Alarm"
@@ -4130,7 +4166,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCALA_003",
       "IFC4 Object Types": [
         "HOMEFIREALARMDEVICE*",
         "SOUNDER*",
@@ -4159,6 +4194,7 @@
       "CO Key": [
         "recE9j5xTrszJsjnT"
       ],
+      "IFC KEY": "IFCREI_068",
       "Identified Components": [
         "Rebar"
       ],
@@ -4166,7 +4202,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCREI_068",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -4191,6 +4226,7 @@
       "CO Key": [
         "rec9QmYhYESdscnCP"
       ],
+      "IFC KEY": "IFCBUI_009",
       "Identified Components": [
         "Building Storey"
       ],
@@ -4198,7 +4234,6 @@
       "Beta (from CO Key)": [
         true
       ],
-      "IFC KEY": "IFCBUI_009",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -4228,6 +4263,7 @@
         "recQ1fi6v5u6sedHq",
         "recNb4jxfAG0JSmvx"
       ],
+      "IFC KEY": "IFCDAM_026",
       "Identified Components": [
         "Damper"
       ],
@@ -4239,7 +4275,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCDAM_026",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "FIREDAMPER",
@@ -4265,6 +4300,7 @@
       "CO Key": [
         "recgvN4S0rvwHUSo6"
       ],
+      "IFC KEY": "IFCGRI_048",
       "Identified Components": [
         "Structural Grid"
       ],
@@ -4272,7 +4308,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCGRI_048",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -4334,6 +4369,7 @@
         "recUtXpX4D9At8iql",
         "recC9nd0pMq5oEzf7"
       ],
+      "IFC KEY": "IFCDIS_027",
       "Identified Components": [
         "Air-finial",
         "Air-termination Tape",
@@ -4407,7 +4443,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCDIS_027",
       "IFC4 Object Types": [
         "LPS_AIRFINIAL*",
         "BENCHING*",
@@ -4464,6 +4499,7 @@
         "rec8wJpHFqYThXFDu",
         "recW8DJkIa9mr687D"
       ],
+      "IFC KEY": "IFCRAI_065",
       "Identified Components": [
         "Railing"
       ],
@@ -4481,7 +4517,6 @@
         null,
         true
       ],
-      "IFC KEY": "IFCRAI_065",
       "IFC4 Object Types": [
         "BACKGUARD*",
         "BOLLARD*"
@@ -4513,6 +4548,7 @@
         "recnwGFwaZXJ1ooZp",
         "recxdJ666uWa6SGrV"
       ],
+      "IFC KEY": "IFCBOI_006",
       "Identified Components": [
         "Boiler"
       ],
@@ -4522,7 +4558,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCBOI_006",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -4551,6 +4586,7 @@
       "CO Key": [
         "recCKBPNhsWQysfo9"
       ],
+      "IFC KEY": "IFCSIT_073",
       "Identified Components": [
         "Site"
       ],
@@ -4558,7 +4594,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCSIT_073",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -4592,6 +4627,7 @@
         "recEwCDk2qkLcSnAw",
         "rec5ERqHMGDTz65ux"
       ],
+      "IFC KEY": "IFCBEA_005",
       "Identified Components": [
         "Beam"
       ],
@@ -4604,7 +4640,6 @@
         null,
         true
       ],
-      "IFC KEY": "IFCBEA_005",
       "IFC4 Object Types": [
         "TRELLIS*"
       ],
@@ -4634,6 +4669,7 @@
         "recQNuRMSv68qD3WN",
         "rechXqnt0ljDFvoIY"
       ],
+      "IFC KEY": "IFCDUC_031",
       "Identified Components": [
         "Duct Fitting"
       ],
@@ -4642,7 +4678,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCDUC_031",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "ENTRY",
@@ -4690,8 +4725,10 @@
         "rec4yEeJplg7Er7uc",
         "recEzORPs9H2pGHYq",
         "recOYx7Fh6G9gVeAC",
-        "rechY7oEAZY3onOY4"
+        "rechY7oEAZY3onOY4",
+        "recFabB3FC2o78zSb"
       ],
+      "IFC KEY": "IFCWAL_088",
       "Identified Components": [
         "Kerb",
         "Wall",
@@ -4721,9 +4758,9 @@
         true,
         true,
         null,
+        null,
         null
       ],
-      "IFC KEY": "IFCWAL_088",
       "IFC4 Object Types": [
         "KERB*",
         "BARRIER*",
@@ -4732,7 +4769,8 @@
         "BUND*",
         "KNOCKOUTPANEL*",
         "RECYCLABLESCHUTE*",
-        "RETAININGWALL*"
+        "RETAININGWALL*",
+        "DRYWALLPARTITION*"
       ],
       "IFC4 Predefined Types": [
         "ELEMENTEDWALL",
@@ -4771,6 +4809,7 @@
         "recTkeI1UFjMDETIs",
         "recw45BRljqTxZ4oZ"
       ],
+      "IFC KEY": "IFCCOL_019",
       "Identified Components": [
         "Column"
       ],
@@ -4781,7 +4820,6 @@
         true,
         null
       ],
-      "IFC KEY": "IFCCOL_019",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "COLUMN"
@@ -4810,6 +4848,7 @@
         "rec7OV9cp0xfztiFl",
         "recerVnF6iKVWmhCt"
       ],
+      "IFC KEY": "IFCSTA_077",
       "Identified Components": [
         "Catch Screen",
         "Cowl",
@@ -4821,7 +4860,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCSTA_077",
       "IFC4 Object Types": [
         "MOSQUITONET*"
       ],
@@ -4853,6 +4891,7 @@
       "CO Key": [
         "rec8ChPfzTPGF8fEN"
       ],
+      "IFC KEY": "IFCFAN_040",
       "Identified Components": [
         "Fan"
       ],
@@ -4860,7 +4899,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCFAN_040",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED"
@@ -4888,6 +4926,7 @@
         "recEeTZE6uxLbS1uk",
         "recE2vSQFooZsAYxz"
       ],
+      "IFC KEY": "IFCSOL_075",
       "Identified Components": [
         "Solar Panel",
         "Solar Water Heater"
@@ -4897,7 +4936,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCSOL_075",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "SOLARPANEL",
@@ -4931,6 +4969,7 @@
         "recoVtl7FpswVKIAz",
         "recZSOhJmd5e7PO1n"
       ],
+      "IFC KEY": "IFCFIL_041",
       "Identified Components": [
         "Filter"
       ],
@@ -4944,7 +4983,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCFIL_041",
       "IFC4 Object Types": [
         "SCRUBBER*",
         "WASTEAIRSEPARATOR*"
@@ -5004,8 +5042,6 @@
         "recVAAwTSBm60DPtG",
         "recPPM3MOEFhLrqUe",
         "recLEBOTJDO1e9IzW",
-        "recF6BRfKxbJTVvyx",
-        "recOBuPZN7k0ob4LX",
         "rec6iYjASMIsa1bS8",
         "recdCDf1uxjLEMYJ8",
         "recUs0y6FoqW0V5Hi",
@@ -5017,6 +5053,7 @@
         "reczPMOm0nnNAKl4U",
         "recnhy5B85EcylGN5"
       ],
+      "IFC KEY": "IFCFUR_046",
       "Identified Components": [
         "Bed",
         "Fixed Seating",
@@ -5044,8 +5081,6 @@
         "Recyclables Container",
         "Recycling Bin",
         "Refuse Bin",
-        "Refuse Compactor",
-        "Refuse Container",
         "Sanitary Bin",
         "Shelf",
         "Shut-off Valve Pull Box",
@@ -5100,11 +5135,8 @@
         null,
         null,
         null,
-        null,
-        null,
         null
       ],
-      "IFC KEY": "IFCFUR_046",
       "IFC4 Object Types": [
         "BENCH*",
         "BUSSHELTER*",
@@ -5120,8 +5152,6 @@
         "RECYCLABLECONTAINER*",
         "RECYCLINGBIN*",
         "REFUSEBIN*",
-        "REFUSECOMPACTOR*",
-        "REFUSECONTAINER*",
         "TAXISHELTER*",
         "UMBRELLA*"
       ],
@@ -5151,6 +5181,7 @@
         "recbmhXS97wJ2wXll",
         "recF3QDiYQDbxWqHW"
       ],
+      "IFC KEY": "IFCOUT_056",
       "Identified Components": [
         "Electrical Fixture",
         "Electrical Socket Outlet"
@@ -5160,7 +5191,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCOUT_056",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": [
         "NOTDEFINED",
@@ -5234,13 +5264,15 @@
         "recfpjIKmXSsADeET",
         "rec6jOjjwNF2v2k6j",
         "recjN1Hw0153TdN5R",
-        "recKzDY3OXQM5r7WD",
         "recBhm7fe0wfhWS0E",
         "recCc4pLBPA0GSrnI",
-        "recrkTDz2xAVRzg2m"
+        "recrkTDz2xAVRzg2m",
+        "recl0KvDT33jDskii",
+        "recgAciMfjEe4m9pd"
       ],
+      "IFC KEY": "IFCDIS_029",
       "Identified Components": [
-        "ACMV System",
+        "Air Conditioning System",
         "Cabling",
         "Chemical System",
         "Chilled Water System",
@@ -5287,10 +5319,11 @@
         "Sprinkler System",
         "Steam System",
         "Supply Air System",
-        "System",
         "Telecommunication System",
         "Vent System",
-        "Wet Riser System"
+        "Wet Riser System",
+        "Foam Fire Extinguishing System",
+        "Foam Sprinkler System"
       ],
       "IFC4 Sub Types (Beta)": [
         "SANITARY*",
@@ -5347,9 +5380,9 @@
         null,
         null,
         null,
+        null,
         null
       ],
-      "IFC KEY": "IFCDIS_029",
       "IFC4 Object Types": [
         "CABLING*",
         "CHEMICAL*",
@@ -5357,7 +5390,6 @@
         "DOMESTICCOLDWATER*",
         "COMPRESSEDAIR*",
         "CONDENSATEWATER*",
-        "DEEPTUNNELSEWERAGE*",
         "DRYRISER*",
         "EXHAUSTAIR*",
         "FIREPROTECTION*",
@@ -5388,11 +5420,14 @@
         "SUPPLYAIR*",
         "COMMUNICATION*",
         "VENT*",
-        "WETRISER*"
+        "WETRISER*",
+        "FOAMFIREEXTINGUISHING*",
+        "FOAMSPRINKLER*"
       ],
       "IFC4 Predefined Types": [
-        "NOTDEFINED",
-        "OIL"
+        "AIRCONDITIONING",
+        "OIL",
+        "NOTDEFINED"
       ]
     }
   },
@@ -5415,6 +5450,7 @@
       "CO Key": [
         "recZnlfO92Cwboylx"
       ],
+      "IFC KEY": "IFCCON_022",
       "Identified Components": [
         "Air Condensing Unit"
       ],
@@ -5422,7 +5458,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCCON_022",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }
@@ -5461,6 +5496,7 @@
         "recYGCpTc0EjVY5z9",
         "recRVVbtHaN5RfNEP"
       ],
+      "IFC KEY": "IFCFIR_042",
       "Identified Components": [
         "Fire Suppression Terminal",
         "Foam Inlet",
@@ -5486,7 +5522,6 @@
         null,
         null
       ],
-      "IFC KEY": "IFCFIR_042",
       "IFC4 Object Types": [
         "FOAMINLET*",
         "HOSE*",
@@ -5517,6 +5552,7 @@
       "CO Key": [
         "rects08yM8gnWAQvQ"
       ],
+      "IFC KEY": "IFCELE_037",
       "Identified Components": [
         "Electric Motor"
       ],
@@ -5524,7 +5560,6 @@
       "Beta (from CO Key)": [
         null
       ],
-      "IFC KEY": "IFCELE_037",
       "IFC4 Object Types": [],
       "IFC4 Predefined Types": []
     }

@@ -114,7 +114,6 @@
       "Drain",
       "Footpath",
       "Sanitary System",
-      "Sewerage System",
       "Manhole",
       "Planting Trough",
       "Parking Lot",
@@ -127,7 +126,8 @@
       "Road",
       "Trench",
       "Lamp Post",
-      "Culvert"
+      "Culvert",
+      "Sewerage System"
     ]
   },
   {
@@ -281,7 +281,6 @@
       "Drain",
       "Footpath",
       "Sanitary System",
-      "Sewerage System",
       "Manhole",
       "Planting Trough",
       "Parking Lot",
@@ -294,7 +293,8 @@
       "Road",
       "Trench",
       "Lamp Post",
-      "Culvert"
+      "Culvert",
+      "Sewerage System"
     ]
   },
   {
@@ -754,8 +754,8 @@
     "identifiedComponents": [
       "Pipe Segment",
       "Manhole",
-      "Sewerage System",
-      "Inspection Chamber"
+      "Inspection Chamber",
+      "Sewerage System"
     ]
   },
   {
@@ -773,8 +773,8 @@
       "Manhole",
       "Inspection Chamber",
       "Pipe Segment",
-      "Sewerage System",
-      "Sanitary System"
+      "Sanitary System",
+      "Sewerage System"
     ]
   },
   {
@@ -1421,7 +1421,6 @@
       "Drain",
       "Footpath",
       "Sanitary System",
-      "Sewerage System",
       "Manhole",
       "Planting Trough",
       "Parking Lot",
@@ -1434,7 +1433,8 @@
       "Road",
       "Trench",
       "Lamp Post",
-      "Culvert"
+      "Culvert",
+      "Sewerage System"
     ]
   },
   {
@@ -1638,7 +1638,6 @@
       "Drain",
       "Footpath",
       "Sanitary System",
-      "Sewerage System",
       "Manhole",
       "Planting Trough",
       "Parking Lot",
@@ -1651,7 +1650,8 @@
       "Road",
       "Trench",
       "Lamp Post",
-      "Culvert"
+      "Culvert",
+      "Sewerage System"
     ]
   },
   {
