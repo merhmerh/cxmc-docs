@@ -1,4 +1,3 @@
-import { sanitizePset } from "../src/airtable.js";
 import fs from "fs";
 import comp_id from "../output/comp_id.json" assert { type: "json" };
 import pset_id from "../output/pset_id.json" assert { type: "json" };
@@ -33,7 +32,6 @@ export function sanitizeAirtableComp(obj, pset) {
         let componentName = subtype.replace(entity, "").replace(/\./g, "").replace(/\*/g, "");
         if (!predefinedType && !objectType) {
             componentName = entity.replace(/^ifc/i, "").toUpperCase();
-            // console.log(componentName);
         }
 
         const key = `${entity}:${predefinedType}:${objectType}`;
@@ -92,10 +90,6 @@ export function sanitizeAirtableComp(obj, pset) {
 
         const EntityPsets = pset[obj.entity];
 
-        if (propList.includes("ParkingType")) {
-            console.log(key);
-            // console.log(EntityPsets["SGPset_BuildingElementProxy"]);
-        }
         propList.forEach((prop) => {
             if (!EntityPsets) return;
             outerLoop: for (const [pset, list] of Object.entries(EntityPsets)) {
@@ -127,6 +121,110 @@ export function sanitizeAirtableComp(obj, pset) {
             return 1;
         }
         return 0;
+    });
+
+    return result;
+}
+
+export function sanitizePset(comp, pset) {
+    const simplifiedPset = {};
+    pset.forEach((row) => {
+        const propsString = row.fields["Properties [Data Type]"];
+        const allProps = [];
+        if (propsString) {
+            const sampleValues = getValue(row.fields["Parameter Value (Sample)"]);
+            const actualValues = getValue(row.fields["Parameter Value (Actual)"]);
+
+            const arr = propsString.split(";");
+
+            for (const value of arr) {
+                const trimmed = value.trim().replace("\n", "");
+                const propertyName = trimmed.replace(/(.*?)\[(.*?)\]/, "$1").trim();
+                const measureResource = "";
+                const dataType = trimmed.replace(/(.*?)\[(.*?)\]/, "$2").trim();
+
+                const data = {
+                    propertyName,
+                    dataType,
+                    measureResource,
+                    sampleValue: sampleValues.find((x) => x.propertyName == propertyName)?.value || null,
+                    actualValue: actualValues.find((x) => x.propertyName == propertyName)?.value || null,
+                };
+
+                allProps.push(data);
+            }
+        }
+
+        const entities = row.fields["IFC4 Entities"] ?? [];
+
+        entities.forEach((entity) => {
+            if (!simplifiedPset[entity]) {
+                simplifiedPset[entity] = {};
+            }
+
+            if (!simplifiedPset[entity][row.fields["Property Set"]]) {
+                simplifiedPset[entity][row.fields["Property Set"]] = allProps;
+            }
+        });
+    });
+
+    const betaProps = [];
+    for (const item of comp) {
+        const f = item.fields;
+        const betaPropString = f["Beta Properties [Data Type]"];
+        const props = [];
+        if (betaPropString) {
+            const arr = betaPropString.split(";");
+            for (const value of arr) {
+                const trimmed = value.trim().replace("\n", "");
+                const propertyName = trimmed.replace(/(.*?)\[(.*?)\]/, "$1").trim();
+                const dataType = trimmed.replace(/(.*?)\[(.*?)\]/, "$2").trim();
+                props.push({ propertyName, dataType });
+            }
+        }
+
+        let subtype = f["IFC4 Entity.Sub-Type"];
+
+        if (Array.isArray(subtype)) {
+            subtype = subtype[0];
+        }
+
+        if (props.length) {
+            betaProps.push({ subtype, props });
+        }
+    }
+
+    const clonedPset = JSON.parse(JSON.stringify(simplifiedPset));
+
+    for (const { subtype, props: betaPropsArray } of betaProps) {
+        const entity = subtype.split(/\./)[0];
+        if (clonedPset[entity]) {
+            let betaPropName = betaPropsArray.map((x) => x.propertyName);
+
+            for (const [pset, props] of Object.entries(clonedPset[entity])) {
+                for (const [index, prop] of props.entries()) {
+                    if (betaPropName.includes(prop.propertyName)) {
+                        clonedPset[entity][pset][index].beta = true;
+                    }
+                }
+            }
+        }
+    }
+
+    return clonedPset;
+}
+
+function getValue(string) {
+    if (!string) {
+        return [];
+    }
+
+    const result = [];
+    const arr = string.replace(/\n/g, "").split(";");
+    arr.forEach((prop) => {
+        const [propertyName, value] = prop.split(":");
+        const v = value.split(",").map((x) => x.trim());
+        result.push({ propertyName, value: v });
     });
 
     return result;
