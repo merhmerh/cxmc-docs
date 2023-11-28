@@ -544,6 +544,15 @@ code {
             text-decoration: underline !important;
         }
     }
+    &.sample {
+        display: flex;
+        align-items: center;
+        cursor: default;
+        font-style: italic;
+        color: var(--mono-400);
+        font-size: 0.75rem;
+        background-color: color-mix(in srgb, var(--muted) 40%, transparent);
+    }
 }
 body.light {
     code > a {

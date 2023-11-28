@@ -3,24 +3,6 @@
     "cSpell.words": [
         "mukim"
     ],
-    "editor.tokenColorCustomizations": {
-        "[gruvboxConcoctis dark medium]": {
-            "textMateRules": [
-                {
-                    "scope": "variable.other.constant.js, variable.other.readwrite.js",
-                    "settings": {
-                        "foreground": "#7fbbb3"
-                    }
-                },
-                {
-                    "scope": "variable.other.object.js",
-                    "settings": {
-                        "foreground": "#e9bc5b"
-                    }
-                }
-            ]
-        }
-    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,

@@ -23,7 +23,6 @@ let updateModal,
     isUpdating;
 
 let original = $ifcData;
-
 $: {
     $beta, $page, init();
 }
@@ -110,6 +109,7 @@ async function init() {
     if (!ifc.length) {
         noResult = true;
     }
+    console.log(ifc);
 }
 
 function isHtmlDescription(description) {
@@ -255,37 +255,45 @@ function ifIsInBeta(type) {
                                         <td>
                                             <div class="tblPset__enums">
                                                 <div class="tblPset__enums__list">
-                                                    {#if obj.Enums ? obj.Enums.length : 0}
-                                                        {#each obj.Enums as item}
-                                                            <Tooltip
-                                                                value="copy"
-                                                                clickedValue="Copied"
-                                                                position="top"
-                                                                display="flex"
-                                                                fixed
-                                                                width="fit-content"
-                                                                let:onClick
-                                                                on:click={(e) => {
-                                                                    navigator.clipboard.writeText(item);
-                                                                    const slot = e.detail.slot;
-                                                                    const range = document.createRange();
-                                                                    range.selectNodeContents(slot);
-                                                                    const selection = window.getSelection();
-                                                                    selection.removeAllRanges();
-                                                                    selection.addRange(range);
-                                                                }}>
-                                                                <button
-                                                                    class="none slim"
-                                                                    style="padding:0"
-                                                                    on:click={onClick}>
-                                                                    <code>
-                                                                        {item}
-                                                                    </code>
-                                                                </button>
-                                                            </Tooltip>
-                                                        {/each}
+                                                    {#if !obj.actualValue && !obj.sampleValue}
+                                                        <span>-</span>
                                                     {:else}
-                                                        -
+                                                        {#if obj.actualValue && obj.actualValue.length}
+                                                            {#each obj.actualValue as item}
+                                                                <Tooltip
+                                                                    value="copy"
+                                                                    clickedValue="Copied"
+                                                                    position="top"
+                                                                    display="flex"
+                                                                    fixed
+                                                                    width="fit-content"
+                                                                    let:onClick
+                                                                    on:click={(e) => {
+                                                                        navigator.clipboard.writeText(item);
+                                                                        const slot = e.detail.slot;
+                                                                        const range = document.createRange();
+                                                                        range.selectNodeContents(slot);
+                                                                        const selection = window.getSelection();
+                                                                        selection.removeAllRanges();
+                                                                        selection.addRange(range);
+                                                                    }}>
+                                                                    <button
+                                                                        class="none slim"
+                                                                        style="padding:0"
+                                                                        on:click={onClick}>
+                                                                        <code>
+                                                                            {item}
+                                                                        </code>
+                                                                    </button>
+                                                                </Tooltip>
+                                                            {/each}
+                                                        {/if}
+
+                                                        {#if obj.sampleValue && obj.sampleValue.length}
+                                                            {#each obj.sampleValue as v}
+                                                                <code class="sample">{v}</code>
+                                                            {/each}
+                                                        {/if}
                                                     {/if}
                                                 </div>
                                                 {#if permission.edit}
@@ -481,6 +489,8 @@ function ifIsInBeta(type) {
                 }
             }
             td:first-child {
+                min-width: 0;
+                max-width: 220px;
                 width: 220px;
             }
             td:nth-child(2) {
@@ -502,78 +512,8 @@ function ifIsInBeta(type) {
             position: relative;
             align-items: center;
             gap: 2px;
-            // button.tblPset__propName__inUse {
-            //     display: flex;
-            //     align-items: center;
-            //     justify-content: flex-start;
-            //     flex-wrap: nowrap;
-            //     padding-left: 0;
-            //     padding-block: 0.5rem;
-            //     padding-right: 6px;
-            // &:before {
-            //     border-radius: 6px;
-            //     content: "";
-            //     position: relative;
-            //     width: 6px;
-            //     height: 6px;
-            //     background-color: var(--mono-100);
-            // }
-            // &.inUse {
-            //     &:before {
-            //         background-color: var(--green);
-            //     }
-            // }
-            // }
-            button.tblPset__propName__name {
-                text-align: left;
-                padding-inline: 0;
-                span {
-                    width: 180px;
-                    display: block;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    font-size: 0.875rem;
-                    transition: all 0.1s;
-                }
-                div.tblPset__copy {
-                    color: var(--mono-200);
-                    right: 0.5rem;
-                    opacity: 0;
-                    position: absolute;
-                    transition: all 0.2s;
-                }
-                &:hover {
-                    span {
-                        width: 170px;
-                    }
-                    div.tblPset__copy {
-                        opacity: 1;
-                        // transform: translateX(-0.5rem);
-                    }
-                }
-            }
         }
 
-        button.tblPset__propName__dataType {
-            font-size: 0.875rem;
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            padding: 0;
-            div.tblPset__copy {
-                color: var(--mono-200);
-                opacity: 0;
-                transition: all 0.25s;
-            }
-            span {
-                text-align: left;
-            }
-            &:hover {
-                div.tblPset__copy {
-                    opacity: 1;
-                }
-            }
-        }
         .tblPset__enums__list {
             display: flex;
             gap: 4px;

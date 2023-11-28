@@ -6,9 +6,10 @@ import { theme } from "$comp/theme.store";
 import { timeout, replaceSpaceWithDash, isObjectEmpty } from "$fn/helper";
 import { beta } from "$routes/main.store";
 import ModellingGuide from "./ModellingGuide.svelte";
-import { Modal } from "merh-forge-ui";
+import { Modal, Tooltip } from "merh-forge-ui";
 import CodeTable from "../../codes/[agency]/CodeTable.svelte";
 import { getPermission } from "$comp/supabase.store";
+import CodeBlock from "$comp/CodeBlock.svelte";
 
 let original;
 let mg_data = {};
@@ -62,7 +63,7 @@ async function update() {
     const result = await resp.json();
     console.log(result);
     mg_data.prop = result;
-    console.log(mg_data);
+    // console.log(mg_data);
     original = JSON.parse(JSON.stringify(mg_data));
     running = false;
 }
@@ -409,15 +410,56 @@ function filterByGateway(gatewayName) {
                                 <tbody>
                                     {#each Object.entries(value).sort() as [key, obj]}
                                         <tr>
-                                            <td class="propName"><div>{obj.propertyName}</div></td>
-                                            <td class="dataType"><div>{obj.dataType}</div></td>
+                                            <td class="propName"
+                                                ><div>
+                                                    <CodeBlock invisible={true}>{obj.propertyName}</CodeBlock>
+                                                </div></td>
+                                            <td class="dataType"
+                                                ><div>
+                                                    <CodeBlock invisible={true}>{obj.dataType}</CodeBlock>
+                                                </div></td>
                                             <td class="measure"><div>{obj.measureResource || ""}</div></td>
                                             <td class="enums">
                                                 <div>
-                                                    {#if obj.Enums}
-                                                        {#each obj.Enums as item}
-                                                            <code>{item}</code>
-                                                        {/each}
+                                                    {#if !obj.actualValue && !obj.sampleValue}
+                                                        <span>-</span>
+                                                    {:else}
+                                                        {#if obj.actualValue && obj.actualValue.length}
+                                                            {#each obj.actualValue as item}
+                                                                <Tooltip
+                                                                    value="copy"
+                                                                    clickedValue="Copied"
+                                                                    position="top"
+                                                                    display="flex"
+                                                                    fixed
+                                                                    width="fit-content"
+                                                                    let:onClick
+                                                                    on:click={(e) => {
+                                                                        navigator.clipboard.writeText(item);
+                                                                        const slot = e.detail.slot;
+                                                                        const range = document.createRange();
+                                                                        range.selectNodeContents(slot);
+                                                                        const selection = window.getSelection();
+                                                                        selection.removeAllRanges();
+                                                                        selection.addRange(range);
+                                                                    }}>
+                                                                    <button
+                                                                        class="none slim"
+                                                                        style="padding:0"
+                                                                        on:click={onClick}>
+                                                                        <code>
+                                                                            {item}
+                                                                        </code>
+                                                                    </button>
+                                                                </Tooltip>
+                                                            {/each}
+                                                        {/if}
+
+                                                        {#if obj.sampleValue && obj.sampleValue.length}
+                                                            {#each obj.sampleValue as v}
+                                                                <code class="sample">{v}</code>
+                                                            {/each}
+                                                        {/if}
                                                     {/if}
                                                 </div>
                                             </td>
@@ -530,6 +572,8 @@ h3 {
             }
             tbody {
                 td.propName {
+                    min-width: 0;
+                    max-width: 220px;
                     width: 220px;
                 }
                 td.dataType {
@@ -540,6 +584,13 @@ h3 {
                 }
                 td.enums {
                     width: 450px;
+                    > div {
+                        display: flex;
+                        gap: 4px;
+                        width: calc(100% - 24px);
+                        flex-wrap: wrap;
+                        white-space-collapse: collapse;
+                    }
                 }
                 td.description {
                     width: auto;

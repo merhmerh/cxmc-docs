@@ -36,9 +36,9 @@ function copy() {
 
 <button class="none" on:click={copy} style="--font-size:{fontSize}" class:flushIconRight class:hoverToShowIcon>
     <code bind:this={codeElement} class:noStyle>
-        <span>
+        <div class="text">
             <slot />
-        </span>
+        </div>
         {#if showIcon}
             <div class="icon" class:colorGrey={noStyle}>
                 <Icon icon="charm:copy" width={iconSize} hFlip={true} />
@@ -80,8 +80,12 @@ button.none {
         gap: 0.325rem;
         font-size: var(--font-size);
         width: 100%;
-        span {
+        div.text {
             text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
         }
         .icon {
             color: var(--accent-100);
