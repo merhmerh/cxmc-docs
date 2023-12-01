@@ -2,11 +2,77 @@
 import { theme } from "$comp/theme.store";
 import Icon from "@iconify/svelte";
 import CodeBlock from "$comp/CodeBlock.svelte";
+import Sort from "./Sort.svelte";
 export let data;
 
-let ot = data.ot;
-let list = ot,
+let ot = data.ot.map((item) => {
+    const d = item;
+    d.pg = `${item.pg} - ${item.pg_def}`;
+    d.bca = `${item.bca_acc_code} - ${item.bca_acc_def}`;
+
+    for (const [key, v] of Object.entries(d)) {
+        if (!v) {
+            d[key] = "";
+        }
+    }
+
+    return d;
+});
+console.log(ot);
+
+let list = JSON.parse(JSON.stringify(ot)),
     searchbar;
+
+let orderBy = ["", ""];
+$: orderBy, orderColumn();
+
+const columns = [
+    ["occupancyType", "Occupancy Type"],
+    ["ref", "Building Types (example)"],
+    ["pg", "SCDF Purpose Group"],
+    ["pg_type", "SCDF Type of Occupancy"],
+    ["bca", "BCA accessibility code"],
+    ["pub", "PUB"],
+    ["nea", "NEA"],
+];
+
+function orderColumn() {
+    const [column, order] = orderBy;
+
+    if (column == "" || order == "none") {
+        if (searchbar?.value) {
+            return;
+        }
+        return (list = JSON.parse(JSON.stringify(ot)));
+    }
+
+    const key = columns.filter((x) => x[1] == column)[0][0];
+    list.sort((a, b) => {
+        const aVal = a[key];
+        const bVal = b[key];
+
+        const compareStrings = (strA, strB) => {
+            const numA = parseInt(strA, 10);
+            const numB = parseInt(strB, 10);
+
+            // Check if both are numbers
+            if (!isNaN(numA) && !isNaN(numB)) {
+                return numA - numB; // Compare numerically
+            }
+
+            // If one is a number and the other isn't, prioritize the number
+            if (!isNaN(numA)) return -1;
+            if (!isNaN(numB)) return 1;
+
+            // If neither is a number, compare them as strings
+            return strA.localeCompare(strB);
+        };
+
+        return compareStrings(aVal, bVal) * (order === "asc" ? 1 : -1);
+    });
+
+    list = list;
+}
 
 function filter() {
     resetFilter();
@@ -32,7 +98,7 @@ function filter() {
 }
 
 function resetFilter() {
-    return (list = ot);
+    return (list = JSON.parse(JSON.stringify(ot)));
 }
 </script>
 
@@ -64,13 +130,18 @@ function resetFilter() {
         <table class="{$theme} noActionColumn noHover">
             <thead>
                 <tr>
-                    <th><div>Occupancy Type</div></th>
-                    <th><div>Building Types (example)</div></th>
-                    <th><div>SCDF Purpose Group</div></th>
-                    <th><div>SCDF Type of Occupancy</div></th>
-                    <th><div>BCA accessibility code</div></th>
-                    <th><div>PUB</div></th>
-                    <th><div>NEA</div></th>
+                    {#key orderBy}
+                        {#each columns as [key, col]}
+                            <th>
+                                <div>
+                                    <span>{col}</span>
+                                    <Sort
+                                        order={orderBy[0] == col ? orderBy[1] : "none"}
+                                        on:click={(e) => (orderBy = [col, e.detail])} />
+                                </div>
+                            </th>
+                        {/each}
+                    {/key}
                 </tr>
             </thead>
 
@@ -83,10 +154,10 @@ function resetFilter() {
                             </div>
                         </td>
                         <td><div>{item.ref || ""}</div></td>
-                        <td><div>{item.pg} - {item.pg_def}</div></td>
+                        <td><div>{item.pg}</div></td>
                         <td><div>{item.pg_type || ""}</div></td>
 
-                        <td><div>{item.bca_acc_code} - {item.bca_acc_def}</div></td>
+                        <td><div>{item.bca}</div></td>
                         <td><div>{item.pub || ""}</div></td>
                         <td><div>{item.nea || ""}</div></td>
                     </tr>
@@ -144,6 +215,10 @@ h1 {
         font-size: 0.875rem;
         th > div {
             text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 1rem;
         }
         tbody {
             td.ot {
@@ -179,7 +254,9 @@ h1 {
                 width: 300px;
             }
 
-            td:nth-child(3),
+            td:nth-child(3) {
+                width: 200px;
+            }
             td:nth-child(4),
             td:nth-child(5),
             td:nth-child(6),
