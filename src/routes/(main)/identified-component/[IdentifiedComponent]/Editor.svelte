@@ -13,10 +13,11 @@ const dispatch = createEventDispatcher();
 
 let { supabase } = $page.data;
 
-export let IdentifiedComponent;
-let content, editing, viewerHTML, ready;
+export let html;
+export let isEditing;
+let content, viewerHTML, ready;
 
-const noGuideMessage = "This identified component does not have a specified modelling guide.";
+const noGuideMessage = "This identified component does not have a specified modelling guide for this category.";
 
 $: $theme, toggleTheme();
 
@@ -46,106 +47,39 @@ async function startEditor() {
     });
 
     editor.setPlaceholder("Start writing...");
-    content = await load();
-    if (!content) {
+    if (!html) {
         ready = true;
         return;
     }
 
-    editor.setHTML(content.html);
+    editor.setHTML(html);
     renderViewerHTML();
     ready = true;
 }
 
 export function showEditor() {
-    editing = true;
+    isEditing = true;
 }
 
 export function showViewer() {
-    editing = false;
+    isEditing = false;
 }
 
 export async function save() {
     let html = editor.getHTML();
     let markdown = editor.getMarkdown();
-
-    const regex_imagesURI = new RegExp(/\<img src="(.*?)"/g);
-    const matches = html.matchAll(regex_imagesURI);
-    const promises = [];
-    for (const match of matches) {
-        const dataURI = match[1];
-        if (!dataURI.startsWith("data:image/")) {
-            console.log("skip");
-            continue;
-        }
-
-        const uploadTask = new Promise(async (resolve) => {
-            const [data, base64] = dataURI.split(",");
-            const contentType = /data:(.*);/.exec(data)[1];
-            const ext = contentType.split("/")[1];
-            const imageId = uuid();
-            const { data: path, error } = await supabase.storage
-                .from("public")
-                .upload(`modellingGuide/${IdentifiedComponent}/${imageId}.${ext}`, decode(base64), {
-                    contentType: contentType,
-                });
-
-            const { data: url } = supabase.storage.from("public").getPublicUrl(path.path);
-
-            html = html.replace(dataURI, url.publicUrl);
-            markdown = markdown.replace(dataURI, url.publicUrl);
-            resolve(imageId);
-        });
-
-        promises.push(uploadTask);
-    }
-
-    await Promise.all(promises);
-
-    //center images
-    const { data, error } = await supabase
-        .from("modelling-guide")
-        .upsert({
-            identifiedComponent: IdentifiedComponent,
-            html,
-            markdown,
-        })
-        .select()
-        .single();
-
-    if (error) {
-        return console.log(error);
-    }
-
-    content = data;
-    renderViewerHTML();
-    editing = false;
-    viewerHTML = viewerHTML;
-    dispatch("save");
+    dispatch("save", { html });
 }
 
 function renderViewerHTML() {
-    if (!content.html || content.html == "<p><br></p>") {
+    if (!html || html == "<p><br></p>") {
         return (viewerHTML = noGuideMessage);
     }
-    viewerHTML = content.html.replace(/<p>(<img src.+?)<\/p>/g, `<div class="image">$1</div>`);
+    viewerHTML = html.replace(/<p>(<img src.+?)<\/p>/g, `<div class="image">$1</div>`);
     viewerHTML = viewerHTML.replace(
         /<div .+?(<img src.+?>).*?<\/div><p>{{(.+?)}}<\/p>/g,
         `<div class="image">$1<div class="caption">$2</div></div>`,
     );
-}
-
-async function load() {
-    const { data, error } = await supabase
-        .from("modelling-guide")
-        .select()
-        .eq("identifiedComponent", IdentifiedComponent)
-        .single();
-
-    if (error) {
-        return false;
-    }
-    return data;
 }
 </script>
 
@@ -153,21 +87,17 @@ async function load() {
     <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js" on:load={startEditor}></script>
 </svelte:head>
 
-<div class="editor-container" class:hide={!editing}>
+<div class="editor-container" class:hide={!isEditing}>
     <div id="editor" />
 </div>
 
-{#if !editing}
+{#if !isEditing}
     <div class="viewer">
         <div class="content">
-            {#if ready}
-                {#if content}
-                    {@html viewerHTML}
-                {:else}
-                    <span>{noGuideMessage}</span>
-                {/if}
+            {#if html}
+                {@html viewerHTML}
             {:else}
-                <span>Loading...</span>
+                {noGuideMessage}
             {/if}
         </div>
     </div>

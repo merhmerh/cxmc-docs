@@ -3,20 +3,150 @@ import { page } from "$app/stores";
 import Icon from "@iconify/svelte";
 import Editor from "./Editor.svelte";
 import { getPermission } from "$comp/supabase.store";
+import { onMount } from "svelte";
+import { browser } from "$app/environment";
 
 const { permission } = getPermission();
 
+let { supabase } = $page.data;
 export let identifiedComponent;
 
-console.log(identifiedComponent);
 let isEditing = false;
 let editor;
 let selected = "General";
-
+let list_html = {};
+let editor_html = "";
 const tabs = ["General", "REVIT", "ArchiCAD", "OpenBuildings Designer"];
 
+$: tabs, switchTab();
+
+onMount(async () => {
+    await load();
+});
+
 function switchTab() {
-    //
+    if (!browser) return;
+
+    editor_html = list_html[selected];
+    console.log(editor_html);
+}
+
+async function load() {
+    const { data, error } = await supabase
+        .from("modelling-guide")
+        .select()
+        .eq("identifiedComponent", identifiedComponent)
+        .single();
+
+    if (error) {
+        return false;
+    }
+    console.log(data);
+
+    //migration
+    const html = data.html;
+    const doc = document.createElement("div");
+    doc.insertAdjacentHTML("afterbegin", html);
+
+    const categories = doc.querySelectorAll("h1");
+
+    for (const tab of tabs) {
+        const category = Array.from(categories).find((c) => c.innerText == `#-#${tab}#-#`);
+
+        if (tab == "General") {
+            if (!category) {
+                doc.innerHTML = `<h1>#-#${tab}#-#</h1>${html}`;
+            }
+        }
+        if (!category) {
+            doc.insertAdjacentHTML("beforeend", `<h1>#-#${tab}#-#</h1>`);
+        }
+    }
+
+    console.log(doc.innerHTML);
+    const rawHtml = doc.innerHTML;
+
+    //split
+    for (const [i, tab] of tabs.entries()) {
+        if (i == tabs.length - 1) {
+            const re = new RegExp(`<h1>#-#${tab}#-#<\/h1>(.*?)$`);
+            const match = rawHtml.match(re);
+            list_html[tab] = match[1];
+            break;
+        }
+
+        const re = new RegExp(`<h1>#-#${tab}#-#<\/h1>(.*?)<h1>#-#`);
+        const match = rawHtml.match(re);
+        list_html[tab] = match[1];
+    }
+
+    // data.html = doc.outerHTML;
+    console.log(list_html);
+    editor_html = list_html[tabs[0]];
+}
+
+async function saveToDB(detail) {
+    list_html[selected] = detail.html;
+    let html = detail.html;
+    console.log(list_html);
+
+    const regex_imagesURI = new RegExp(/\<img src="(.*?)"/g);
+    const matches = html.matchAll(regex_imagesURI);
+    const promises = [];
+    // return;
+    for (const match of matches) {
+        const dataURI = match[1];
+        if (!dataURI.startsWith("data:image/")) {
+            console.log("skip");
+            continue;
+        }
+
+        const uploadTask = new Promise(async (resolve) => {
+            const [data, base64] = dataURI.split(",");
+            const contentType = /data:(.*);/.exec(data)[1];
+            const ext = contentType.split("/")[1];
+            const imageId = uuid();
+            const { data: path, error } = await supabase.storage
+                .from("public")
+                .upload(`modellingGuide/${IdentifiedComponent}/${imageId}.${ext}`, decode(base64), {
+                    contentType: contentType,
+                });
+
+            const { data: url } = supabase.storage.from("public").getPublicUrl(path.path);
+
+            html = html.replace(dataURI, url.publicUrl);
+            markdown = markdown.replace(dataURI, url.publicUrl);
+            resolve(imageId);
+        });
+
+        promises.push(uploadTask);
+    }
+
+    await Promise.all(promises);
+
+    //convert list_html to combinedHTML
+    const combinedHTML = Object.entries(list_html)
+        .map(([tab, html]) => {
+            return `<h1>#-#${tab}#-#</h1>${html}`;
+        })
+        .join("");
+
+    const { data, error } = await supabase
+        .from("modelling-guide")
+        .upsert({
+            identifiedComponent: identifiedComponent,
+            html: combinedHTML,
+            markdown: "",
+        })
+        .select()
+        .single();
+
+    if (error) {
+        return console.log(error);
+    }
+
+    editor_html = list_html[selected];
+    isEditing = false;
 }
 </script>
 
@@ -68,12 +198,15 @@ function switchTab() {
 </div>
 
 <div class="guide">
-    <Editor
-        bind:this={editor}
-        IdentifiedComponent={identifiedComponent}
-        on:save={() => {
-            isEditing = false;
-        }} />
+    {#key editor_html}
+        <Editor
+            bind:this={editor}
+            {isEditing}
+            html={editor_html}
+            on:save={(e) => {
+                saveToDB(e.detail);
+            }} />
+    {/key}
 </div>
 
 <style lang="scss">
