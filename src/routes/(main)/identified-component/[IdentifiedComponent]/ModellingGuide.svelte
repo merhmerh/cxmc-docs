@@ -186,10 +186,8 @@ async function load() {
 }
 
 .viewer {
-    // margin-inline: auto;
-    // border: 1px solid var(--mono-100);
-    // border-radius: 0.25rem;
     border-left: 8px solid var(--mono-100);
+    padding-block: 1rem;
     .content {
         // margin-left: 2rem;
         margin-inline: auto;

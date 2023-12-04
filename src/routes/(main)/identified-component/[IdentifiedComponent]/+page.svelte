@@ -5,11 +5,11 @@ import { page } from "$app/stores";
 import { theme } from "$comp/theme.store";
 import { timeout, replaceSpaceWithDash, isObjectEmpty } from "$fn/helper";
 import { beta } from "$routes/main.store";
-import ModellingGuide from "./ModellingGuide.svelte";
 import { Modal, Tooltip } from "merh-forge-ui";
 import CodeTable from "../../codes/[agency]/CodeTable.svelte";
 import { getPermission } from "$comp/supabase.store";
 import CodeBlock from "$comp/CodeBlock.svelte";
+import Mg from "./Mg.svelte";
 
 let original;
 let mg_data = {};
@@ -266,47 +266,9 @@ function filterByGateway(gatewayName) {
         </table>
     </div>
 
-    <h3 id="modelling-guide" class="modellingGuide__header">
-        <a href="{$page.url.origin}{$page.url.pathname}#modelling-guide">Modelling Guide</a>
-        <div class="buttonGroup">
-            {#if permission.edit}
-                {#if isEditing}
-                    <button
-                        on:click={() => {
-                            isEditing = false;
-                            editor.showViewer();
-                        }}>
-                        <span>Cancel</span>
-                    </button>
-                    <button
-                        on:click={() => {
-                            editor.save();
-                        }}>
-                        <div class="icon"><Icon icon="material-symbols:save" width={16} /></div>
-                        <span>Save</span>
-                    </button>
-                {:else}
-                    <button
-                        on:click={() => {
-                            isEditing = true;
-                            editor.showEditor();
-                        }}>
-                        <div class="icon"><Icon icon="ic:baseline-edit" width={14} /></div>
-                        <span> Edit Guide</span>
-                    </button>
-                {/if}
-            {/if}
-        </div>
-    </h3>
-
     <div class="modellingGuide__container">
         {#key mg_data.IdentifiedComponent}
-            <ModellingGuide
-                bind:this={editor}
-                IdentifiedComponent={mg_data.IdentifiedComponent}
-                on:save={() => {
-                    isEditing = false;
-                }} />
+            <Mg identifiedComponent={mg_data.IdentifiedComponent}></Mg>
         {/key}
     </div>
 
@@ -831,24 +793,6 @@ code.gatewayIdentifier {
             font-size: 1.25rem;
             font-weight: 600;
             margin: 0;
-        }
-    }
-}
-
-.modellingGuide__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    .buttonGroup {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        button {
-            min-width: 80px;
-            font-size: 0.875rem;
-            padding: 0.5rem 0.5rem;
-            border-radius: 0.5rem;
-            gap: 0.5rem;
         }
     }
 }
