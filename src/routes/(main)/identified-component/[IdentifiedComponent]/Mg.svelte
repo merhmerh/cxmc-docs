@@ -1,7 +1,7 @@
 <script>
 import { page } from "$app/stores";
 import Icon from "@iconify/svelte";
-import ModellingGuide from "./ModellingGuide.svelte";
+import Editor from "./Editor.svelte";
 import { getPermission } from "$comp/supabase.store";
 
 const { permission } = getPermission();
@@ -68,7 +68,7 @@ function switchTab() {
 </div>
 
 <div class="guide">
-    <ModellingGuide
+    <Editor
         bind:this={editor}
         IdentifiedComponent={identifiedComponent}
         on:save={() => {
