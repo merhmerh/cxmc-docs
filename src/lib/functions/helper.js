@@ -1,6 +1,6 @@
-import { customAlphabet } from 'nanoid'
-import relativeTime from 'dayjs/plugin/relativeTime';
-import dayjs from 'dayjs'
+import { customAlphabet } from "nanoid";
+import relativeTime from "dayjs/plugin/relativeTime";
+import dayjs from "dayjs";
 dayjs.extend(relativeTime);
 
 /**
@@ -14,7 +14,7 @@ export function timeout(ms) {
     });
 }
 
-const alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+const alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 export const uuid = customAlphabet(alphabet, 20);
 
 /**
@@ -31,12 +31,10 @@ export function fromNow(dateString) {
     const date = new Date(dateString);
     // @ts-ignore
     if (isNaN(date)) {
-        return '-'
-
+        return "-";
     } else {
         return dayjs(date).fromNow();
     }
-
 }
 
 /**
@@ -45,9 +43,9 @@ export function fromNow(dateString) {
 export function toMemoryUnit(floatValue) {
     const MB = 1024 * 1024;
     if (floatValue < MB) {
-        return (floatValue / 1024).toFixed(2) + ' KB';
+        return (floatValue / 1024).toFixed(2) + " KB";
     } else {
-        return (floatValue / MB).toFixed(2) + ' MB';
+        return (floatValue / MB).toFixed(2) + " MB";
     }
 }
 
@@ -67,7 +65,7 @@ export function isValidEmail(email) {
 export function debounce(func, delay) {
     let timeoutId;
     if (!delay) {
-        delay = 300
+        delay = 300;
     }
 
     return function (/** @type {any} */ ...args) {
@@ -80,7 +78,6 @@ export function debounce(func, delay) {
         }, delay);
     };
 }
-
 
 /**
  * @param {Blob} file
@@ -127,7 +124,7 @@ export function formatTimeHMS(sec) {
     const minutes = Math.floor((sec % 3600) / 60);
     const seconds = sec % 60;
 
-    return { hours, minutes, seconds }
+    return { hours, minutes, seconds };
 }
 
 /**
@@ -137,41 +134,39 @@ export function formatTimeHMS(sec) {
  */
 export async function authCheck(supabase, session, roles) {
     if (!session) {
-        return false
+        return false;
     }
 
-    const { data } = await supabase.auth.admin.getUserById(session.user.id)
+    const { data } = await supabase.auth.admin.getUserById(session.user.id);
     if (data.user.user_metadata.disabled) {
-        console.log('disabled');
+        console.log("disabled");
         // @ts-ignore
-        throw error('403', "Your account have been disabled")
+        throw error("403", "Your account have been disabled");
     }
 
-    const userRole = data.user.user_metadata.role || ""
+    const userRole = data.user.user_metadata.role || "";
 
     if (!userRole) {
-        return false
+        return false;
     }
 
-    const allRoles = ['reader', 'editor', 'manager', 'admin', 'owner']
+    const allRoles = ["reader", "editor", "manager", "admin", "owner"];
 
-    let allowedRoles = []
+    let allowedRoles = [];
     if (roles.charAt(0) == "!") {
-        const notAllowed = roles.replace('!', "").split(',')
-        allowedRoles = allRoles
-        allowedRoles = allowedRoles.filter(item => !notAllowed.includes(item))
+        const notAllowed = roles.replace("!", "").split(",");
+        allowedRoles = allRoles;
+        allowedRoles = allowedRoles.filter((item) => !notAllowed.includes(item));
     } else {
-        allowedRoles = roles.split(',')
+        allowedRoles = roles.split(",");
     }
 
     if (allowedRoles.includes(userRole)) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
-
 }
-
 
 /**
  * @param {EventTarget} target
@@ -190,21 +185,22 @@ export function highlightDOMText(target) {
  * @param {string} string
  */
 export function replaceSpaceWithDash(string) {
-    return string.replace(/[\s\/]+/g, '-').toLowerCase()
+    console.log(string);
+    return string.replace(/[\s\/]+/g, "-").toLowerCase();
 }
 
 /**
  * @param {string} string
  */
 export function toURLPath(string) {
-    return replaceSpaceWithDash(string)
+    return replaceSpaceWithDash(string);
 }
 
 /**
  * @param {string} string
  */
 export function escapeRegex(string) {
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 /**
@@ -223,13 +219,13 @@ export function randomNumbers(n) {
         let zerosToPad = n - randomNumberString.length;
 
         // Pad the number with zeros on the left
-        randomNumberString = '0'.repeat(zerosToPad) + randomNumberString;
+        randomNumberString = "0".repeat(zerosToPad) + randomNumberString;
     }
 
     return randomNumberString;
 }
 
-export function randomAlphabets(list = 'abcdefghijklmnopqrstuvwxyz') {
+export function randomAlphabets(list = "abcdefghijklmnopqrstuvwxyz") {
     const randomIndex = Math.floor(Math.random() * list.length);
     const randomChar = alphabet.charAt(randomIndex);
     return randomChar;
@@ -239,22 +235,19 @@ export function randomAlphabets(list = 'abcdefghijklmnopqrstuvwxyz') {
  * @param {string | any[] } list
  */
 export function randomList(list) {
-    if (typeof list === 'string') {
-        list = list.split('');
+    if (typeof list === "string") {
+        list = list.split("");
     }
     const randomIndex = Math.floor(Math.random() * list.length);
-    return list[randomIndex]
+    return list[randomIndex];
 }
-
 
 /**
  * @param {string} html
  */
 export function convertToHTMLAnchor(html) {
-
-
-    const mdURL = new RegExp(/\((.+?)\)\[(.+?)\]/, "gm")
-    html = html.replace(mdURL, `<a href="$2" target="_blank">$1</a>`)
+    const mdURL = new RegExp(/\((.+?)\)\[(.+?)\]/, "gm");
+    html = html.replace(mdURL, `<a href="$2" target="_blank">$1</a>`);
 
     // Define a regular expression to match URLs in the message
     const urlRegex = new RegExp(/(?<!\S)(https:\/\/.+?\S+)/, "gm");
