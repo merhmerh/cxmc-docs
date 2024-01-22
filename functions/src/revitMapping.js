@@ -1,114 +1,76 @@
-import fs from 'fs'
-import dotenv from 'dotenv';
-import { supabase, calcChecksum, uuid } from './helper.js'
-dotenv.config()
-
+import fs from "fs";
+import dotenv from "dotenv";
+import { supabase, calcChecksum, uuid } from "./helper.js";
+dotenv.config();
 export function generateRevitIfcMappingTable() {
     return new Promise(async (resolve, reject) => {
-        const t0 = performance.now()
-        const result = await getIfc({ beta: true })
+        const t0 = performance.now();
+        const result = await getIfc({ beta: false });
 
-        const pset_obj = sortPset(result)
+        const pset_obj = sortPset(result);
 
-        let mapping = ""
+        const typeEntities = getIfcTypes();
+        let mapping = "";
+
         for (const [psetName, { entity, prop }] of Object.entries(pset_obj)) {
-            mapping += `\nPropertySet:\t${psetName}\tI\t${entity}\n`
+            mapping += `\nPropertySet:\t${psetName}\tI\t${entity}\n`;
             for (const p of prop) {
-                mapping += `\t${p.propertyName}\t${p.dataType}\n`
+                mapping += `\t${p.propertyName}\t${p.dataType}\n`;
+            }
+
+            if (typeEntities.includes(entity + "Type")) {
+                mapping += `\nPropertySet:\t${psetName}\tT\t${entity}Type\n`;
+                for (const p of prop) {
+                    mapping += `\t${p.propertyName}\t${p.dataType}\n`;
+                }
             }
         }
 
-        const t1 = performance.now()
-        console.log('Mapping Generated in', (t1 - t0).toFixed(2));
+        const t1 = performance.now();
+        console.log("Mapping Generated in", (t1 - t0).toFixed(2));
 
-        fs.writeFileSync('./src/revit/Revit_IFC-Mapping-Configuration.txt', mapping)
-
-
-        // const title = 'Revit_IFC-Mapping-Configuration'
-
-        // const checksum = calcChecksum(mapping)
-        // const fileName = `${title}-${uuid(8)}.txt`
-        // const blob = new Blob([JSON.stringify(mapping)])
-        // const fileSize = blob.size;
-
-        // //check if exits
-        // const { data, error } = await supabase.from('downloads').select()
-        //     .match({ checksum: checksum, title: title.replace(/[-_]/, " ") })
-
-
-        // if (data.length) {
-        //     return resolve({ message: "Mapping existed, checksum matches", data: mapping })
-        // }
-
-        // //Does not exist -> upload
-        // try {
-        //     const path = `downloads/revit-ifc-mapping-configuration/${fileName}`
-        //     await supabase
-        //         .storage
-        //         .from('public')
-        //         .upload(path, mapping)
-
-        //     const { data: url } = supabase.storage.from("public").getPublicUrl(path);
-
-        //     const { data, error } = await supabase.from('downloads').insert({
-        //         category: 'Revit',
-        //         description: 'Revit IFC Parameter Mapping Table',
-        //         fileName: fileName,
-        //         fileSize: fileSize,
-        //         type: "text/plain",
-        //         checksum: checksum,
-        //         url: url.publicUrl,
-        //         title: title,
-        //     }).select()
-
-        //     resolve({ message: "Success", data: mapping })
-        // } catch (error) {
-        //     reject(error)
-        // }
-    })
+        fs.writeFileSync("./src/revit/Revit_IFC-Mapping-Configuration.txt", mapping);
+    });
 }
 
 function sortPset(ifcsg) {
-
-    const psets = {}
+    const psets = {};
 
     for (const { entity, pset } of ifcsg) {
         if (!pset) continue;
         for (const [psetName, prop] of Object.entries(pset)) {
             if (!psets[psetName]) {
-                psets[psetName] = { entity: entity, prop: [] }
+                psets[psetName] = { entity: entity, prop: [] };
             }
 
-            prop.forEach(p => {
-                if (psets[psetName].prop.find(x => x.propertyName == p.propertyName)) {
-                    return
+            prop.forEach((p) => {
+                if (psets[psetName].prop.find((x) => x.propertyName == p.propertyName)) {
+                    return;
                 }
-                psets[psetName].prop.push(p)
-            })
-
+                psets[psetName].prop.push(p);
+            });
         }
     }
 
-    return psets
+    return psets;
 }
 
 export async function getIfc(opt) {
-    const { data, error } = await supabase
-        .from("ifcsg")
-        .select()
-
+    const { data, error } = await supabase.from("ifcsg").select();
+    if (error) {
+        console.log(error);
+        return;
+    }
     // const result = data
-    const { beta } = opt
+    const { beta } = opt;
 
-    const result = data.filter(x => {
+    const result = data.filter((x) => {
         if (!beta) {
-            return x
+            return x;
         } else {
-            return x.beta == true
+            return x.beta == true;
         }
-    })
-
-
+    });
 
     for (const item of result) {
         if (!item.pset) continue;
@@ -117,28 +79,30 @@ export async function getIfc(opt) {
 
         let psets = {};
         for (const [psetName, prop] of Object.entries(item.pset)) {
-
-            const betaProps = prop.filter(x => {
+            const betaProps = prop.filter((x) => {
                 if (!beta) {
-                    return x
+                    return x;
                 } else {
-                    return x.beta == true
+                    return x.beta == true;
                 }
-            })
-
+            });
 
             if (betaProps.length) {
-                psets[psetName] = betaProps
+                psets[psetName] = betaProps;
             }
-
         }
 
         if (Object.entries(psets).length == 0) {
-            psets = null
+            psets = null;
         }
-        item.pset = psets
+        item.pset = psets;
     }
 
-    return result
+    return result;
 }
 
+function getIfcTypes() {
+    const file = fs.readFileSync("./resources/ifcTypes.txt", "utf8").split("\n").slice(1);
+    const re = /Ifc(.+?)Type$/;
+    return file.map((x) => x.split("\t")[0].trim()).filter((c) => c.match(re));
+}
