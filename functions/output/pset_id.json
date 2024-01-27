@@ -337,10 +337,11 @@
         "recMWbRGGQdOTrTWN"
       ],
       "Properties [Data Type]": "ACN_ActivityGeneratingUseType [Label];\nACN_CloseTime [Label];\nACN_ConnectivityType [Label];\nACN_IsOpen24HoursToPublic [Boolean];\nACN_IsPavingSpecified [Boolean];\nACN_OpenTime [Label];\nACN_PavingSpecification [Label]",
-      "Parameter Value (Actual)": "ACN_ConnectivityType: THROUGHBLOCKLINK",
+      "Parameter Value (Actual)": "ACN_ActivityGeneratingUseType: SINGLESIDE, DOUBLESIDE;\nACN_ConnectivityType: THROUGHBLOCKLINK, OPENWALKWAY, COVEREDWALKWAY, COVEREDLINKWAY, ELEVATEDPEDESTRIANLINK, UNDERGROUNDPEDESTRIANLINK, PUBLICSPACENODE, CYCLINGPATH, COMMUNALSKYBRIDGES",
       "IFC4 Entities": [
         "IfcSpace"
       ],
+      "Parameter Value (Sample)": "ACN_CloseTime: 18:59:59;\nACN_OpenTime: 18:59:59;\nACN_PavingSpecification: <UDAREA> PavingSpecificattion",
       "IFC4 Object Types": [
         "ACCESSIBLEROUTE*",
         "ACCESSPOINT*",
@@ -350,10 +351,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -579,10 +578,7 @@
         "MIRROR*",
         "PLANTERBOX*",
         "RACK*",
-        "RECYCLABLECOMPACTOR*",
-        "RECYCLABLECONTAINER*",
         "RECYCLINGBIN*",
-        "REFUSEBIN*",
         "TAXISHELTER*",
         "UMBRELLA*"
       ],
@@ -694,10 +690,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -1220,7 +1214,7 @@
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
         "TRAFFICFLOW*",
-        "2D_TREEPROTECTIONZONE*",
+        "TREEPROTECTIONZONE*",
         "TUNNEL*",
         "TURNSTILE*",
         "VALVEPROTECTINGCOVER*",
@@ -1250,7 +1244,6 @@
         "PWCSMAINCONTROL*",
         "TRUSS*",
         "UNIT*",
-        "STAIRCASESTOREYSHELTER*",
         "STOREYSHELTER*",
         "NONSHELTERHOUSEHOLDSHELTER*",
         "NONSHELTERSTOREYSHELTER*",
@@ -1361,10 +1354,7 @@
         "MIRROR*",
         "PLANTERBOX*",
         "RACK*",
-        "RECYCLABLECOMPACTOR*",
-        "RECYCLABLECONTAINER*",
         "RECYCLINGBIN*",
-        "REFUSEBIN*",
         "TAXISHELTER*",
         "UMBRELLA*",
         "DRAINCHANNELBEND*",
@@ -1409,6 +1399,9 @@
         "SURGETANK*",
         "REFUSECOMPACTOR*",
         "REFUSECONTAINER*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "REFUSEBIN*",
         "BINLIFTER*",
         "LIFT*",
         "AIRADMITTANCE*",
@@ -2032,12 +2025,10 @@
       "IFC4 Object Types": [
         "BEACH*",
         "UTILITYPOLE*",
-        "EXISTINGEARTHWORKS*",
         "GREENVERGE*",
         "NEIGHBOURINGLOT*",
         "LANDSCAPE_PALM*",
         "PLANTINGAREA*",
-        "PROPOSEDEARTHWORKS*",
         "RETENTIONBASIN*",
         "LANDSCAPE_SHRUBS*",
         "CADASTRALLOT*",
@@ -2047,7 +2038,9 @@
         "WATERFEATURE*",
         "SITEBOUNDARY*"
       ],
-      "IFC4 Predefined Types": []
+      "IFC4 Predefined Types": [
+        "TERRAIN"
+      ]
     }
   },
   {
@@ -2253,7 +2246,6 @@
         "rec48PtdMNtX7krFp",
         "recH5Yn06dxr8tq0U",
         "recIconohVmE02Eya",
-        "rec8F35WI3NhtliiY",
         "rec5xS911Na9hBT1K",
         "rec6aOk8BY8ISoOUb",
         "rec8hQwM8NdfMdr9R",
@@ -2396,10 +2388,12 @@
         "rec4kA2cdKikYOHZ2",
         "reciGQXkmWLsfXwru",
         "rec7DPOxsl3MxhUEq",
-        "recGL7w2NL8QHxeG4"
+        "recGL7w2NL8QHxeG4",
+        "recclT9U1D8GgE3aY",
+        "recy7CNLejG5TR3nA"
       ],
-      "Properties [Data Type]": "BicycleLotCount [Integer];\nBicycleRack_Type [Label];\nAI_HydrogenChloride [Label];\nAI_SulphurTrioxideAndAcidGases [Label];\nFamilyLot [Boolean];\nLotNumber [Label];\nRigidFrameLessThan7.5m [Boolean];\nVegetation_HasCreepers [Boolean];\nTED_Mercury [Label];\nRefugeSpace_Type [Integer];\nEVLot [Boolean];\nOpenAtGrade [Boolean];\nParkingType [Label];\nTED_Sulphide [Label];\nTED_Chlorine [Label];\nTED_Detergent [Label];\nTED_MetalsInTotal [Label];\nTED_Chromium [Label];\nTED_Colour [Label];\nTED_Calcium [Label];\nTED_Phosphate [Label];\nTED_Selenium [Label];\nTED_ChemicalOxygenDemand [Label];\nTED_Cyanide [Label];\nTED_PhenolicCompound [Label];\nTED_Zinc [Label];\nTED_Arsenic [Label];\nTED_Nickel [Label];\nTED_Tin [Label];\nTED_BiochemicalOxygenDemand [Label];\nTED_Barium [Label];\nTED_TotalSuspendedSolid [Label];\nTED_TemperatureOfDischarge [Label];\nTED_PHValue [Label];\nTED_Sulphate [Label];\nTED_Copper [Label];\nTED_Cadmium [Label];\nTED_Boron [Label];\nTED_TotalDissolvedSolid [Label];\nTED_GreaseAndOil [Label];\nTED_Beryllium [Label];\nTED_Chloride [Label];\nTED_Iron [Label];\nTED_Nitrate [Label];\nTED_Lead [Label];\nTED_Magnesium [Label];\nTED_Manganese [Label];\nTED_Silver [Label];\nAI_ParticulateSubstances [Label];\nAI_Arsenic [Label];\nAI_OxidesOfNitrogen [Label];\nAI_DioxinsAndFurans [Label];\nAI_SulphurDioxide [Label];\nAI_Lead [Label];\nAI_Copper [Label];\nAI_AmmoniaAndAmmonium [Label];\nAI_HydrogenSulphide [Label];\nAI_CarbonMonoxide [Label];\nAI_StyreneMonomer [Label];\nAI_Cadmium [Label];\nAI_VinylChlorideMonomer [Label];\nAI_Formaldehyde [Label];\nAI_Chlorine [Label];\nAI_Mercury [Label];\nAI_FluorineAndHydrofluoricAcid [Label];\nAI_SulphurTrioxideOrSulphuricAcidMist [Label];\nAI_Benzene [Label];\nAI_EthyleneOxide [Label];\nAI_Antimony [Label];\nBarrierFreeAccessibility [Boolean];\nTopLevel [Real];\nMark [Label];\nPerforated [Boolean];\nEquipmentType [Label];\nUnitNumber [Label];\nCarParking_ServedByCarLift [Boolean]",
-      "Parameter Value (Actual)": "BicycleLotCount: 1, 2;\nBicycleRack_Type: DOUBLE TIER, SINGLE TIER WHEEL RACK, SINGLE TIER U BAR;\nParkingType: BICYCLE, MOTOR-CYCLE",
+      "Properties [Data Type]": "BicycleLotCount [Integer];\nBicycleRack_Type [Label];\nAI_HydrogenChloride [Label];\nAI_SulphurTrioxideAndAcidGases [Label];\nFamilyLot [Boolean];\nLotNumber [Label];\nRigidFrameLessThan7.5m [Boolean];\nVegetation_HasCreepers [Boolean];\nTED_Mercury [Label];\nRefugeSpace_Type [Integer];\nEVLot [Boolean];\nOpenAtGrade [Boolean];\nTED_Sulphide [Label];\nTED_Chlorine [Label];\nTED_Detergent [Label];\nTED_MetalsInTotal [Label];\nTED_Chromium [Label];\nTED_Colour [Label];\nTED_Calcium [Label];\nTED_Phosphate [Label];\nTED_Selenium [Label];\nTED_ChemicalOxygenDemand [Label];\nTED_Cyanide [Label];\nTED_PhenolicCompound [Label];\nTED_Zinc [Label];\nTED_Arsenic [Label];\nTED_Nickel [Label];\nTED_Tin [Label];\nTED_BiochemicalOxygenDemand [Label];\nTED_Barium [Label];\nTED_TotalSuspendedSolid [Label];\nTED_TemperatureOfDischarge [Label];\nTED_PHValue [Label];\nTED_Sulphate [Label];\nTED_Copper [Label];\nTED_Cadmium [Label];\nTED_Boron [Label];\nTED_TotalDissolvedSolid [Label];\nTED_GreaseAndOil [Label];\nTED_Beryllium [Label];\nTED_Chloride [Label];\nTED_Iron [Label];\nTED_Nitrate [Label];\nTED_Lead [Label];\nTED_Magnesium [Label];\nTED_Manganese [Label];\nTED_Silver [Label];\nAI_ParticulateSubstances [Label];\nAI_Arsenic [Label];\nAI_OxidesOfNitrogen [Label];\nAI_DioxinsAndFurans [Label];\nAI_SulphurDioxide [Label];\nAI_Lead [Label];\nAI_Copper [Label];\nAI_AmmoniaAndAmmonium [Label];\nAI_HydrogenSulphide [Label];\nAI_CarbonMonoxide [Label];\nAI_StyreneMonomer [Label];\nAI_Cadmium [Label];\nAI_VinylChlorideMonomer [Label];\nAI_Formaldehyde [Label];\nAI_Chlorine [Label];\nAI_Mercury [Label];\nAI_FluorineAndHydrofluoricAcid [Label];\nAI_SulphurTrioxideOrSulphuricAcidMist [Label];\nAI_Benzene [Label];\nAI_EthyleneOxide [Label];\nAI_Antimony [Label];\nBarrierFreeAccessibility [Boolean];\nTopLevel [Real];\nMark [Label];\nPerforated [Boolean];\nEquipmentType [Label];\nUnitNumber [Label];\nCarParking_ServedByCarLift [Boolean];\nEgress [Boolean];\nIngress [Boolean]",
+      "Parameter Value (Actual)": "BicycleLotCount: 1, 2;\nBicycleRack_Type: DOUBLE TIER, SINGLE TIER WHEEL RACK, SINGLE TIER U BAR",
       "IFC4 Entities": [
         "IfcBuildingElementProxy"
       ],
@@ -2464,7 +2458,7 @@
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
         "TRAFFICFLOW*",
-        "2D_TREEPROTECTIONZONE*",
+        "TREEPROTECTIONZONE*",
         "TUNNEL*",
         "TURNSTILE*",
         "VALVEPROTECTINGCOVER*",
@@ -2498,10 +2492,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -2816,10 +2808,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -2953,7 +2943,7 @@
         "recC6sAzQ6pGoGc8r"
       ],
       "Properties [Data Type]": "ALS_GreeneryFeatures [Label];\nALS_LandscapeType [Label]",
-      "Parameter Value (Actual)": "ALS_LandscapeType: WATER BODY",
+      "Parameter Value (Actual)": "ALS_GreeneryFeatures: GREEN BUFFER AND PERIPHERAL PLANTING STRIP, LANDSCAPE DECK - VERTICAL GREENERY , LANDSCAPE DECK - SURFACE GREENERY, COMMUNAL GROUND GARDEN, SKY TERRACE , ROOFTOP LANDSCAPING, GROUND LANDSCAPING;\nALS_LandscapeType: WATER FEATURE, TURFING, GROUNDCOVERS, SHRUBS, DECKED/PATTERNED FLOOR, LANDSCAPE FOOTPATH, PLAYGROUND, BBQ PIT",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -2966,10 +2956,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -3359,10 +3347,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -3423,10 +3409,7 @@
         "MIRROR*",
         "PLANTERBOX*",
         "RACK*",
-        "RECYCLABLECOMPACTOR*",
-        "RECYCLABLECONTAINER*",
         "RECYCLINGBIN*",
-        "REFUSEBIN*",
         "TAXISHELTER*",
         "UMBRELLA*"
       ],
@@ -3587,7 +3570,7 @@
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
         "TRAFFICFLOW*",
-        "2D_TREEPROTECTIONZONE*",
+        "TREEPROTECTIONZONE*",
         "TUNNEL*",
         "TURNSTILE*",
         "VALVEPROTECTINGCOVER*",
@@ -4046,7 +4029,10 @@
         "SECTIONAL*",
         "SURGETANK*",
         "REFUSECOMPACTOR*",
-        "REFUSECONTAINER*"
+        "REFUSECONTAINER*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "REFUSEBIN*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
@@ -4081,7 +4067,7 @@
         "recn6kpuPu4vDyQyS",
         "recXr9hCw7ZFNoNUO"
       ],
-      "Properties [Data Type]": "Accessway [Boolean];\nEgress [Boolean];\nIngress [Boolean];\nTransitionRamp [Boolean];\nWidth [Label];\nBarrierFreeAccessibility [Boolean];\nVehicular [Boolean]",
+      "Properties [Data Type]": "Accessway [Boolean];\nTransitionRamp [Boolean];\nWidth [Label];\nBarrierFreeAccessibility [Boolean];\nVehicular [Boolean]",
       "IFC4 Entities": [
         "IfcRamp"
       ],
@@ -4119,10 +4105,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -4328,7 +4312,7 @@
         "recwmsaGWSd1DoqmZ"
       ],
       "Properties [Data Type]": "AGF_BonusGFAType [Label];\nAGF_SupportingFacility [Label];\nAGF_DevelopmentUse [Label];\nAGF_BuildingTypology [Label];\nAGF_Name [Label];\nAGF_Note [Label];\nAGF_UnitNumber [Label];\nAGF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "AGF_BonusGFAType: BALCONY INCENTIVE SCHEME, INDOOR RECREATION SPACE SCHEME;\nAGF_DevelopmentUse: RESIDENTIAL (LANDED), RESIDENTIAL (NON-LANDED), CEMETERY, BUSINESS PARK, EDUCATIONAL INSTITUTION, BEACH AREA, BUSINESS 1, BUSINESS 2, HEALTH & MEDICAL CARE, CIVIC & COMMUNITY INSTITUTION, SPORTS AND RECREATION, ROAD, TRANSPORT FACILITIES, RAPID TRANSIT, UTILITY, AGRICULTURE, PORT/AIRPORT, SPIRAL CONNECTOR, WATERBODY, RESERVE SITE, HOTEL, PLACE OF WORSHIP, OPEN SPACE, PARK;\nAGF_BuildingTypology: AQUACULTURE HATCHERY, ORNAMENTAL BIRD FARM, ORNAMENTAL FISH FARM, PLANT NURSERY, POULTRY HATCHERY, POULTRY FARM, TERRACE HOUSE, DETACHED HOUSE, SEMI-DETACHED HOUSE, GOOD CLASS BUNGALOW, SHOPHOUSE;\nAGF_Name: INDUSTRIAL CANTEEN, CLOUD KITCHEN, ATM KIOSK, VENDING MACHINE KIOSK, GUARDHOUSE, SENTRY POST, ENTRANCE CANOPY, GONDOLA AND WORKING PLATFORM, LIFT MOTOR ROOM, STAGE, BALCONY, DWELLING UNIT, INDOOR RECREATION SPACE, LETTER BOX AREA, VEHICULAR PARKING AREA, METER COMPARTMENT, REFUSE CHAMBER",
+      "Parameter Value (Actual)": "AGF_BonusGFAType: BALCONY INCENTIVE SCHEME, INDOOR RECREATION SPACE SCHEME;\nAGF_DevelopmentUse: RESIDENTIAL (LANDED), RESIDENTIAL (NON-LANDED), CEMETERY, BUSINESS PARK, EDUCATIONAL INSTITUTION, BEACH AREA, BUSINESS 1, BUSINESS 2, HEALTH & MEDICAL CARE, CIVIC & COMMUNITY INSTITUTION, SPORTS AND RECREATION, ROAD, TRANSPORT FACILITIES, RAPID TRANSIT, UTILITY, AGRICULTURE, PORT/AIRPORT, SPIRAL CONNECTOR, WATERBODY, RESERVE SITE, HOTEL, PLACE OF WORSHIP, OPEN SPACE, PARK, SPECIAL USE;\nAGF_BuildingTypology: AQUACULTURE HATCHERY, ORNAMENTAL BIRD FARM, ORNAMENTAL FISH FARM, PLANT NURSERY, POULTRY HATCHERY, POULTRY FARM, TERRACE HOUSE, DETACHED HOUSE, SEMI-DETACHED HOUSE, GOOD CLASS BUNGALOW, SHOPHOUSE;\nAGF_Name: INDUSTRIAL CANTEEN, CLOUD KITCHEN, ATM KIOSK, VENDING MACHINE KIOSK, GUARDHOUSE, SENTRY POST, ENTRANCE CANOPY, GONDOLA AND WORKING PLATFORM, LIFT MOTOR ROOM, STAGE, BALCONY, DWELLING UNIT, INDOOR RECREATION SPACE, LETTER BOX AREA, VEHICULAR PARKING AREA, METER COMPARTMENT, REFUSE CHAMBER",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -4341,10 +4325,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -4458,7 +4440,6 @@
         "recaSbCgeKkGn5QDm",
         "recEEXRVgX1AZOatK",
         "recNN1p63kXsg5kXb",
-        "rec0aFjobETWfOsxE",
         "recjZzG6cPBYhla60",
         "recy8FMLVbONDTbVK",
         "rec9zDNVpSt4oQNoY",
@@ -4469,13 +4450,20 @@
         "recB6WB8NEig2EQfN",
         "recjzY3gsuDDc3Pkm",
         "recuiWfKVS6h0eZhz",
-        "recDT0diXGzRcr3zX"
+        "recDT0diXGzRcr3zX",
+        "recarn0uDNU5toRv4",
+        "recFKrxxwYMprjNI1",
+        "recOCXkWQDN2Un9ng",
+        "recqv27c0yBp9Itxk",
+        "recdL0ZlIUhDVQHZ8",
+        "rectlfoO213AqWjtx",
+        "rec1G89CSULSkh09s"
       ],
-      "Properties [Data Type]": "AnchorPoint [Boolean];\nAquaticFacility [Boolean];\nBoltWithStainlessSteelBracket [Boolean];\nChemicalType [Label];\nContinuousUse [Boolean];\nFasternWithStainlessSteelFasterners [Boolean];\nFuelType [Label];\nHazardousSubstancesMass [Real];\nIsPotable [Boolean];\nOilType [Label];\nOneDayRequirement [Label];\nStateofMatter [Label];\nTradeEffluent [Boolean];\nVerticalLifeline [Boolean];\nExtinguisherType [Label];\nCompactionRatio [Real];\nEquipmentType [Label];\nCorrosionResistant [Boolean];\nNonDuplicableKeyLock [Boolean];\nLockable [Boolean];\nWaterSealant [Boolean];\nWatertight [Boolean];\nCapacity [Real]",
+      "Properties [Data Type]": "AnchorPoint [Boolean];\nAquaticFacility [Boolean];\nBoltWithStainlessSteelBracket [Boolean];\nChemicalType [Label];\nContinuousUse [Boolean];\nFasternWithStainlessSteelFasterners [Boolean];\nFuelType [Label];\nHazardousSubstancesMass [Real];\nIsPotable [Boolean];\nOilType [Label];\nOneDayRequirement [Label];\nStateofMatter [Label];\nTradeEffluent [Boolean];\nVerticalLifeline [Boolean];\nExtinguisherType [Label];\nCompactionRatio(1:x) [Real];\nEquipmentType [Label];\nCorrosionResistant [Boolean];\nNonDuplicableKeyLock [Boolean];\nLockable [Boolean];\nWaterSealant [Boolean];\nWatertight [Boolean];\nCapacity [Real];\nHookUpPoint [Label]",
       "IFC4 Entities": [
         "IfcTank"
       ],
-      "Parameter Value (Sample)": "ChemicalType: CYANIDE, BORIC ACID;\nFuelType: DIESEL, LOUVRE;\nOilType: HYDRAULIC OIL, LUBRICANT OIL;\nExtinguisherType: CLEAN AGENT, DRY CHEMICAL, WET CHEMICAL;\nCompactionRatio: 2:01;\nEquipmentType: RORO COMPACTOR;\nCapacity: 1000 L, 40 m3",
+      "Parameter Value (Sample)": "ChemicalType: CYANIDE, BORIC ACID;\nFuelType: DIESEL, LOUVRE;\nOilType: HYDRAULIC OIL, LUBRICANT OIL;\nExtinguisherType: CLEAN AGENT, DRY CHEMICAL, WET CHEMICAL;\nCompactionRatio(1:x): 2:01;\nEquipmentType: RORO COMPACTOR;\nCapacity: 1000 L, 40 m3;\nHookUpPoint: OUTWARD FACING",
       "IFC4 Object Types": [
         "AIRRECEIVER*",
         "BACKWASHWATERHOLDINGTANK*",
@@ -4491,7 +4479,10 @@
         "SECTIONAL*",
         "SURGETANK*",
         "REFUSECOMPACTOR*",
-        "REFUSECONTAINER*"
+        "REFUSECONTAINER*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "REFUSEBIN*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
@@ -4592,10 +4583,11 @@
         "recbkxpfCBv6Rs48Y",
         "recCxxLW0JGrp2Kgi",
         "rec7gO6RQsGy2b7Dm",
-        "recEDk5rEgxvZaQi7"
+        "recEDk5rEgxvZaQi7",
+        "rec8F35WI3NhtliiY"
       ],
-      "Properties [Data Type]": "AutoIgnitionTemperature [Label];\nCategoryOfStorage [Real];\nConstructionPhase [Label];\nDischargePoint [Boolean];\nElderlyFriendly [Boolean];\nFireEmergencyVentilationMode [Label];\nFloorFinishType [Label];\nHearingEnhancement [Boolean];\nLoadingCapacity [Real];\nNegativeRoomPressure [Label];\nPool_TurnoverTime [Label];\nPowerRating [Label];\nPublicToiletGenderID [Label];\nRetrofit [Boolean];\nRoomPressure [Label];\nSeatingCapacity [Integer];\nSpaceName [Label];\nWaterLevel [Label];\nAccesswayType [Label];\nHighHazard [Boolean];\nFireDetectionSuppressionSystem [Label];\nSmokeControlSystem [Label];\nEmergencyVoiceCommunicationSystem [Label];\nVentilationMode [Label];\nBarrierFreeAccessibility [Boolean];\nAreaIDServed [Label];\nOccupancyType [Label];\nServedByRefuseChuteID [Label];\nOpenToSky [Boolean]",
-      "Parameter Value (Actual)": "FireEmergencyVentilationMode: NATURAL VENTILATION, MECHANICAL VENTILATION, PRESSURISATION, CROSS VENTILATION, CROSS VENTILATION WITH INTERMEDIATE VENTILATION OPENING, VAPOUR EXTRACTION SYSTEM (FOR SPRAY PAINTING ROOM);\nSpaceName: balcony, bedroom, master bedroom, bathroom, master bath, maid bath, yard bath, dining room, household shelter, kitchen, living room, loft, private lift lobby, service yard, toilet, walkin wardrobe, guestroom, staff quarters, student bedroom individual, student bedroom multipax, housekeeping, isolation ward toilet, accessible washroom, male toilet, female toilet, unisex toilet, family-friendly washroom, washroom with shower, powder room, changing room, female changing room, male changing room, locker room, restroom, lactation room, sick room, shower room | shower stall, wash area, archive room (reading), archive room (stack), ball room, banking hall, bazaar, business centre, business office, classroom, computer classroom, common room, computer room, conference room, consultant room, crematoria, dance studio, department store, design studio, detention room, exposition, trade fair area, filing room, storage, fire command centre, function room, exhibits gallery, choir gallery, prayer gallery, seating gallery, trading gallery, viewing gallery, guard house, hobby room, kiosk, laboratory, laundry, library room (stack), library room (reading), lounge, machine/printing room, mailroom, meeting room, music studio, night club, admin office, general office, ancillary office, director office, manager office, drafting office, outdoor display area, packing area, distribution area, pantry, prayer hall, pre-function room, production area, promotion area, reading room, reception area, seminar room, security room, service area, shed, shop, showflat, showroom, society room, spray painting room, staff office, staff lounge, supermarket, therapy centre, ticketing office, trading floor, visitors lounge, waiting area, workshop, bar, pub, café, cafeteria, canteen, dining area, food stall, service counter, restaurant, snack bar, staff canteen, area of refuge, consultation room, examination room, surgical viewing gallery, nursing room, nursing station, operation theatre, outpatient waiting area, patient accommodation intensive care, patient accommodation ward, isolation ward, pharmacy staff area, pharmacy waiting area, treatment room, amphitheatre, amphitheatre without fixed seating, auditorium, auditorium without fixed seating, cinema, cinema without fixed seating, grandstand, grandstand without fixed seating, assembly hall, assembly hall without fixed seating, concert hall, concert hall without fixed seating, exhibition hall, exhibition hall without fixed seating, conference hall, conference hall without fixed seating, function hall, function hall without fixed seating, lecture room, lecture room without fixed seating, spectator area, spectator area without fixed seating, theatre, theatre without fixed seating, indoor sport hall, multi-purpose hall, multi-purpose room, multi-purpose sports hall, audio visual area, audio visual control room, audio visual lighting control room, live entertainment, live performance, orchestral pit, projection room, back stage, front stage, amusement park, billiards room, body massage, bowling alley, bowling lane, casino, children playground, club room, discotheque dancing area, discotheque dining area, hockey field, hockey pitch, rugby field, rugby pitch, soccer field, soccer pitch, fitness corner, foot reflexology, fitness club, fitness centre, gaming centre, gymnasium, health club, health centre, indoor games room, karaoke lounge, karaoke dining area, recreation room, refreshmen area, skating rink, spa, badminton court, basketball court, basketball half court, futsal court, netball court, netball half court, squash court, tennis court, tennis half court, volleyball court, swimming pool, swimming pool deck, training area, ac ledge, backyard, courtyard, construction site, outdoor refreshment area, pavilion, roof, green roof, roof garden | roof terrace, jogging track, footpath, sunken planting area, battery room, cooling tower, equipment disinfection room, equipment washing bay, lubrication bay, pulley room, mechnical plant room, ac plant room, ahu room, boiler room, chiller room, discharge valve room, electric lift motor room, electrical room, essential fan room, fire pump room, balancing pump room, domestic pump room, irrigation pump room, sprinkler pump room, pumped sanitary system room, pumped drainage system room, emergency generator room, generator room, high voltage switch room, hydraulic lift motor room, lift machine room, lift motor room, low voltage switch room, oil tank room, sprinkler tank room, telecommunication room, equipment room, transformer room, wet riser tank room, server room, mdf room, mobile installation space, mobile deployment space, vent room, substation, meter compartment, potable water tank room, NEWater tank room, hosereel tank room, non-potable water tank room, hydrant tank room, balancing tank, detention tank, domestic water tank, hot water tank, make up water tank, NEWater tank, rainwater harvesting tank, irrigation tank, sprinkler tank, bin center, coldroom, deposit room, strong room, mortuary, store, storeroom, warehouse, driveway, garage, parking place, vehicle washing bay, loading/unloading bay, loading/unloading area, loading/unloading platform, alighting point, boarding point, drop off point, bus stop, taxi bay, taxi shelter, atrium, concourse, foyer, passenger arrival area, passenger departure area, cargo lift lobby, goods lift lobby, common lobby, evacuation lift lobby, fire lift lobby, passenger lift lobby, protected lobby, smoke-free lobby, service lift lobby, clean room, equipment platform, linkway, pedestrian linkway, elevated pedestrian linkway, underground pedestrian linkway, promenade, boardwalk, through-block link, access aisle, private corridor, corridor, external corridor, open walkway, covered walkway, footway, pathway, veranda, void deck, external exit staircase, internal exit staircase, external exit passageway, internal exit passageway, external exit ramp, internal exit ramp, staircase, airlock, letter box, dry riser shaft, electrical shaft, gas shaft, ventilation shaft, water shaft, wet riser shaft, lift shaft, non-shelter, storey shelter, rest area, airwell;\nAccesswayType: MOTOR-CYCLE;\nFireDetectionSuppressionSystem: AUTOMATIC FIRE ALARM SYSTEM, AUTOMATIC SPRINKLER SYSTEM, WATER MIST SYSTEM, VIDEO IMAGE FIRE DETECTOR SYSTEM, KITCHEN HOOD FIRE EXTINGUISHING SYSTEM, CLEAN AGENT FIRE EXTINGUISHING SYSTEM, AUTOMATIC FOAM SPRINKLER SYSTEM, FOAM EXTINGUISHER SYSTEM;\nSmokeControlSystem: SMOKE PURGING SYSTEM, DUCTLESS JET FAN SYSTEM, SMOKE VENT, ENGINEERED SMOKE CONTROL SYSTEM;\nEmergencyVoiceCommunicationSystem: 1 WAY EVC SYSTEM, 2 WAY EVC SYSTEM, PUBLIC ADDRESS SYSTEM;\nVentilationMode: AIR-CONDITIONING, MECHANICAL VENTILATION, NATURAL VENTILATION, NV, AC, MV;\nAreaIDServed: AREA_GFA;\nOccupancyType: single dwelling residential, multi-unit residential, supervisory care facility, supervisory care facility (detention), nursing care facilities, hospital without A&E services, hospital with A&E services, ambulatory care facility, ambulatory care facility (standalone), custodian care facility, custodian care facility (nursery), public education institution, private education institution, worker dormitory, office, factory office, shop, ODA, outpatient clinic, polyclinic, market, Temporary showflat, factory showroom, petrol station, factory, food production factory, M&E area, wafer fabrication plant, trade effluent treatment plant, waste management and recycling, embalming facility, agriculture, animal related facility, high containment facility, electrical & gas facility, road tunnel, body treatment place, entertainment place, assembly place, cinema, recreational place, sky garden/ terrace, F&B outlet, Fast food outlet, ORA, food centre, educational place, serviced apartment, hostel, hotel, capsule hotel, community club, social club, religious place, park, sports facility, sports facility (ancillary), train station, transport terminal, transport depot, Parking, FAMCP, warehouse, chemical/ hazmat storage, airbase, live firing area, training area, campsite, wet play field, reservoir, river, canal, major drain, pond, lake, other waterbody, nature reserve, nature area, school field, promenade, marina, quarry",
+      "Properties [Data Type]": "AutoIgnitionTemperature [Label];\nCategoryOfStorage [Real];\nConstructionPhase [Label];\nDischargePoint [Boolean];\nElderlyFriendly [Boolean];\nFireEmergencyVentilationMode [Label];\nFloorFinishType [Label];\nHearingEnhancement [Boolean];\nLoadingCapacity [Real];\nNegativeRoomPressure [Label];\nPool_TurnoverTime [Label];\nPowerRating [Label];\nPublicToiletGenderID [Label];\nRetrofit [Boolean];\nRoomPressure [Label];\nSeatingCapacity [Integer];\nSpaceName [Label];\nWaterLevel [Label];\nAccesswayType [Label];\nHighHazard [Boolean];\nFireDetectionSuppressionSystem [Label];\nSmokeControlSystem [Label];\nEmergencyVoiceCommunicationSystem [Label];\nVentilationMode [Label];\nBarrierFreeAccessibility [Boolean];\nAreaIDServed [Label];\nOccupancyType [Label];\nServedByRefuseChuteID [Label];\nOpenToSky [Boolean];\nParkingType [Label]",
+      "Parameter Value (Actual)": "FireEmergencyVentilationMode: NATURAL VENTILATION, MECHANICAL VENTILATION, PRESSURISATION, CROSS VENTILATION, CROSS VENTILATION WITH INTERMEDIATE VENTILATION OPENING, VAPOUR EXTRACTION SYSTEM (FOR SPRAY PAINTING ROOM);\nSpaceName: balcony, bedroom, master bedroom, bathroom, master bath, maid bath, yard bath, dining room, household shelter, kitchen, living room, loft, private lift lobby, service yard, toilet, walkin wardrobe, guestroom, staff quarters, student bedroom individual, student bedroom multipax, housekeeping, isolation ward toilet, accessible washroom, male toilet, female toilet, unisex toilet, family-friendly washroom, washroom with shower, powder room, changing room, female changing room, male changing room, locker room, restroom, lactation room, sick room, shower room | shower stall, wash area, archive room (reading), archive room (stack), ball room, banking hall, bazaar, business centre, business office, classroom, computer classroom, common room, computer room, conference room, consultant room, crematoria, dance studio, department store, design studio, detention room, exposition, trade fair area, filing room, storage, fire command centre, function room, exhibits gallery, choir gallery, prayer gallery, seating gallery, trading gallery, viewing gallery, guard house, hobby room, kiosk, laboratory, laundry, library room (stack), library room (reading), lounge, machine/printing room, mailroom, meeting room, music studio, night club, admin office, general office, ancillary office, director office, manager office, drafting office, outdoor display area, packing area, distribution area, pantry, prayer hall, pre-function room, production area, promotion area, reading room, reception area, seminar room, security room, service area, shed, shop, showflat, showroom, society room, spray painting room, staff office, staff lounge, supermarket, therapy centre, ticketing office, trading floor, visitors lounge, waiting area, workshop, bar, pub, café, cafeteria, canteen, dining area, food stall, service counter, restaurant, snack bar, staff canteen, area of refuge, consultation room, examination room, surgical viewing gallery, nursing room, nursing station, operation theatre, outpatient waiting area, patient accommodation intensive care, patient accommodation ward, isolation ward, pharmacy staff area, pharmacy waiting area, treatment room, amphitheatre, amphitheatre without fixed seating, auditorium, auditorium without fixed seating, cinema, cinema without fixed seating, grandstand, grandstand without fixed seating, assembly hall, assembly hall without fixed seating, concert hall, concert hall without fixed seating, exhibition hall, exhibition hall without fixed seating, conference hall, conference hall without fixed seating, function hall, function hall without fixed seating, lecture room, lecture room without fixed seating, spectator area, spectator area without fixed seating, theatre, theatre without fixed seating, indoor sport hall, multi-purpose hall, multi-purpose room, multi-purpose sports hall, audio visual area, audio visual control room, audio visual lighting control room, live entertainment, live performance, orchestral pit, projection room, back stage, front stage, amusement park, billiards room, body massage, bowling alley, bowling lane, casino, children playground, club room, discotheque dancing area, discotheque dining area, hockey field, hockey pitch, rugby field, rugby pitch, soccer field, soccer pitch, fitness corner, foot reflexology, fitness club, fitness centre, gaming centre, gymnasium, health club, health centre, indoor games room, karaoke lounge, karaoke dining area, recreation room, refreshmen area, skating rink, spa, badminton court, basketball court, basketball half court, futsal court, netball court, netball half court, squash court, tennis court, tennis half court, volleyball court, swimming pool, swimming pool deck, training area, ac ledge, backyard, courtyard, construction site, outdoor refreshment area, pavilion, roof, green roof, roof garden | roof terrace, jogging track, footpath, sunken planting area, battery room, cooling tower, equipment disinfection room, equipment washing bay, lubrication bay, pulley room, mechnical plant room, ac plant room, ahu room, boiler room, chiller room, discharge valve room, electric lift motor room, electrical room, essential fan room, fire pump room, balancing pump room, domestic pump room, irrigation pump room, sprinkler pump room, pumped sanitary system room, pumped drainage system room, emergency generator room, generator room, high voltage switch room, hydraulic lift motor room, lift machine room, lift motor room, low voltage switch room, oil tank room, sprinkler tank room, telecommunication room, equipment room, transformer room, wet riser tank room, server room, mdf room, mobile installation space, mobile deployment space, vent room, substation, meter compartment, potable water tank room, NEWater tank room, hosereel tank room, non-potable water tank room, hydrant tank room, balancing tank, detention tank, domestic water tank, hot water tank, make up water tank, NEWater tank, rainwater harvesting tank, irrigation tank, sprinkler tank, bin center, coldroom, deposit room, strong room, mortuary, store, storeroom, warehouse, driveway, garage, parking place, vehicle washing bay, loading/unloading bay, loading/unloading area, loading/unloading platform, alighting point, boarding point, drop off point, bus stop, taxi bay, taxi shelter, atrium, concourse, foyer, passenger arrival area, passenger departure area, cargo lift lobby, goods lift lobby, common lobby, evacuation lift lobby, fire lift lobby, passenger lift lobby, protected lobby, smoke-free lobby, service lift lobby, clean room, equipment platform, linkway, pedestrian linkway, elevated pedestrian linkway, underground pedestrian linkway, promenade, boardwalk, through-block link, access aisle, private corridor, corridor, external corridor, open walkway, covered walkway, footway, pathway, veranda, void deck, external exit staircase, internal exit staircase, external exit passageway, internal exit passageway, external exit ramp, internal exit ramp, staircase, airlock, letter box, dry riser shaft, electrical shaft, gas shaft, ventilation shaft, water shaft, wet riser shaft, lift shaft, non-shelter, storey shelter, rest area, airwell, bin point;\nAccesswayType: MOTOR-CYCLE;\nFireDetectionSuppressionSystem: AUTOMATIC FIRE ALARM SYSTEM, AUTOMATIC SPRINKLER SYSTEM, WATER MIST SYSTEM, VIDEO IMAGE FIRE DETECTOR SYSTEM, KITCHEN HOOD FIRE EXTINGUISHING SYSTEM, CLEAN AGENT FIRE EXTINGUISHING SYSTEM, AUTOMATIC FOAM SPRINKLER SYSTEM, FOAM EXTINGUISHER SYSTEM;\nSmokeControlSystem: SMOKE PURGING SYSTEM, DUCTLESS JET FAN SYSTEM, SMOKE VENT, ENGINEERED SMOKE CONTROL SYSTEM;\nEmergencyVoiceCommunicationSystem: 1 WAY EVC SYSTEM, 2 WAY EVC SYSTEM, PUBLIC ADDRESS SYSTEM;\nVentilationMode: AIR-CONDITIONING, MECHANICAL VENTILATION, NATURAL VENTILATION, NV, AC, MV;\nAreaIDServed: AREA_GFA;\nOccupancyType: single dwelling residential, multi-unit residential, supervisory care facility, supervisory care facility (detention), nursing care facilities, hospital without A&E services, hospital with A&E services, ambulatory care facility, ambulatory care facility (standalone), custodian care facility, custodian care facility (nursery), public education institution, private education institution, worker dormitory, office, factory office, shop, ODA, outpatient clinic, polyclinic, market, Temporary showflat, factory showroom, petrol station, factory, food production factory, M&E area, wafer fabrication plant, trade effluent treatment plant, waste management and recycling, embalming facility, agriculture, animal related facility, high containment facility, electrical & gas facility, road tunnel, body treatment place, entertainment place, assembly place, cinema, recreational place, sky garden/ terrace, F&B outlet, Fast food outlet, ORA, food centre, educational place, serviced apartment, hostel, hotel, capsule hotel, community club, social club, religious place, park, sports facility, sports facility (ancillary), train station, transport terminal, transport depot, Parking, FAMCP, warehouse, chemical/ hazmat storage, airbase, live firing area, training area, campsite, wet play field, reservoir, river, canal, major drain, pond, lake, other waterbody, nature reserve, nature area, school field, promenade, marina, quarry;\nParkingType: BICYCLE, MOTOR-CYCLE",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -4609,10 +4601,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -4725,10 +4715,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -5162,10 +5150,14 @@
         "rec7548W0aJYnBtQY",
         "recpAcMSbvB7kpR8g",
         "recf84EfJWroMYrNS",
-        "rec3nVj3otaqTMqtP"
+        "rec3nVj3otaqTMqtP",
+        "recrBTYCykU8mfRPC",
+        "reczBOMVBVPvrJ4n6",
+        "recIdY8zEPlIp8cYo",
+        "recnRV12NVefY2Rls"
       ],
-      "Properties [Data Type]": "ApprovedSoilMixture [Boolean];\nShrubs [Boolean];\nStatus [Label];\nVacantLand [Boolean];\nSingleStem [Boolean];\nReasonForRemoval [Label];\nSpecies [Label];\nTreeNumber [Label];\nTurf [Boolean];\nTurfSpecies [Label];\nShrubNumber [Label];\nBroadLandUse [Label];\nPUBControlled [Boolean];\nShrubSpecies [Label];\nApprovedTurfSpecies [Label];\nTreeConservationArea [Boolean]",
-      "Parameter Value (Actual)": "Status: EXISTING, TO BE REMOVED, PROPOSED/NEW;\nStatus: TO BE FELLED, TO BE PLANTED, TO BE REMOVED, TO BE RETAINED, TO BE TRANSPLANTED;\nStatus: EXISTING, TO BE FELLED, TO BE PLANTED, TO BE REMOVED, TO BE RETAINED, TO BE TRANSPLANTED, PROPOSED/NEW",
+      "Properties [Data Type]": "ApprovedSoilMixture [Boolean];\nShrubs [Boolean];\nStatus [Label];\nVacantLand [Boolean];\nSingleStem [Boolean];\nReasonForRemoval [Label];\nSpecies [Label];\nTurf [Boolean];\nTurfSpecies [Label];\nBroadLandUse [Label];\nPUBControlled [Boolean];\nShrubSpecies [Label];\nApprovedTurfSpecies [Label];\nTreeConservationArea [Boolean];\nFloraNumber [Label]",
+      "Parameter Value (Actual)": "Status: EXISTING, TO BE REMOVED, PROPOSED/NEW;\nStatus: TO BE FELLED, TO BE PLANTED, TO BE REMOVED, TO BE RETAINED, TO BE TRANSPLANTED;\nStatus: PROPOSED/NEW, EXISTING",
       "IFC4 Entities": [
         "IfcGeographicElement"
       ],
@@ -5173,12 +5165,10 @@
       "IFC4 Object Types": [
         "BEACH*",
         "UTILITYPOLE*",
-        "EXISTINGEARTHWORKS*",
         "GREENVERGE*",
         "NEIGHBOURINGLOT*",
         "LANDSCAPE_PALM*",
         "PLANTINGAREA*",
-        "PROPOSEDEARTHWORKS*",
         "RETENTIONBASIN*",
         "LANDSCAPE_SHRUBS*",
         "CADASTRALLOT*",
@@ -5188,7 +5178,9 @@
         "WATERFEATURE*",
         "SITEBOUNDARY*"
       ],
-      "IFC4 Predefined Types": []
+      "IFC4 Predefined Types": [
+        "TERRAIN"
+      ]
     }
   },
   {
@@ -5471,7 +5463,6 @@
         "PWCSMAINCONTROL*",
         "TRUSS*",
         "UNIT*",
-        "STAIRCASESTOREYSHELTER*",
         "STOREYSHELTER*",
         "NONSHELTERHOUSEHOLDSHELTER*",
         "NONSHELTERSTOREYSHELTER*",
@@ -5684,10 +5675,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -5715,7 +5704,7 @@
         "rec2tNoVXYt7n4Npc"
       ],
       "Properties [Data Type]": "AVF_AreaType [Label];\nAVF_BonusGFAType [Label];\nAVF_DetailedUse [Label];\nAVF_DevelopmentUse [Label];\nAVF_Name [Label];\nAVF_UseQuantum [Label]",
-      "Parameter Value (Actual)": "AVF_DevelopmentUse: BUSINESS PARK, EDUCATIONAL INSTITUTION, ROAD, TRANSPORT FACILITIES, RESIDENTIAL (LANDED), RESIDENTIAL (NON-LANDED), CEMETERY, BUSINESS 1, BUSINESS 2, HEALTH & MEDICAL CARE, CIVIC & COMMUNITY INSTITUTION, BEACH AREA, SPORTS AND RECREATION, RAPID TRANSIT, UTILITY, AGRICULTURE, PORT/AIRPORT, SPIRAL CONNECTOR, WATERBODY, RESERVE SITE, HOTEL, PLACE OF WORSHIP, OPEN SPACE, PARK",
+      "Parameter Value (Actual)": "AVF_DevelopmentUse: BUSINESS PARK, EDUCATIONAL INSTITUTION, ROAD, TRANSPORT FACILITIES, RESIDENTIAL (LANDED), RESIDENTIAL (NON-LANDED), CEMETERY, BUSINESS 1, BUSINESS 2, HEALTH & MEDICAL CARE, CIVIC & COMMUNITY INSTITUTION, BEACH AREA, SPORTS AND RECREATION, RAPID TRANSIT, UTILITY, AGRICULTURE, PORT/AIRPORT, SPIRAL CONNECTOR, WATERBODY, RESERVE SITE, HOTEL, PLACE OF WORSHIP, OPEN SPACE, PARK, SPECIAL USE",
       "IFC4 Entities": [
         "IfcSpace"
       ],
@@ -5728,10 +5717,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -5858,10 +5845,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -5896,10 +5881,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -6351,7 +6334,10 @@
         "SECTIONAL*",
         "SURGETANK*",
         "REFUSECOMPACTOR*",
-        "REFUSECONTAINER*"
+        "REFUSECONTAINER*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "REFUSEBIN*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
@@ -6688,10 +6674,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -7053,7 +7037,7 @@
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
         "TRAFFICFLOW*",
-        "2D_TREEPROTECTIONZONE*",
+        "TREEPROTECTIONZONE*",
         "TUNNEL*",
         "TURNSTILE*",
         "VALVEPROTECTINGCOVER*",
@@ -7078,29 +7062,24 @@
       "PR Key (Component_Parameter)": [
         "recuePWZcqKztoruR",
         "recMBfgQDYz1SBYBS",
-        "recarn0uDNU5toRv4",
         "rech2a4uD0QHsV3KS",
         "recK4Qk1uLT8LVCA8",
         "recP6HJaLfOaAwKRI",
         "recCVfXgtq7Q7qXMF",
         "recoaQd6Dg5bcBlHf",
-        "recFKrxxwYMprjNI1",
         "recJyAyjDrq04dzic",
         "recvmXfeZjewGtVks",
         "recFQKPMV2p1ix4A6",
         "rec9NDiYK4De6IjwR",
         "recXQPTKIaFbEEdzH",
-        "rec1G89CSULSkh09s",
         "recRpBOBT03mJ6UmK",
         "recILSLiizynA5GA2",
         "recfwkJXs6rbQpv9e",
         "recK98cbXMJapyz2Q",
-        "rectlfoO213AqWjtx",
         "recQlKBySzxMwtgy5",
         "rec5gDK5fyt6W1Mui",
         "rec3URsyV4XIs9kRz",
         "reckoZgniHE2NBS9e",
-        "recOCXkWQDN2Un9ng",
         "rec7JvoO0oqQfnMP4",
         "recmvGjHzHqTb6tgP",
         "rec5aufrVaDpatq8M",
@@ -7118,7 +7097,6 @@
         "recK50zthjwV8aWYr",
         "recQ42GMcQyP6MfHn",
         "recGHgSJDr3Ft1eVZ",
-        "recdL0ZlIUhDVQHZ8",
         "reczi34Oh2RHjdn3i",
         "recg1ekQEODZsBMxS",
         "recPf2VaheVyODhY7",
@@ -7130,12 +7108,12 @@
         "recv6RgLUhuN2E7IS",
         "reclp5gctR0IJetXF"
       ],
-      "Properties [Data Type]": "BasePlate_Thickness [Length];\nColourCode [Label];\nHookUpPoint [Label];\nLitre [Real];\nMaterial_BasePlate [Label];\nTailGateOrientation [Label];\nCompactionRatio [Real];\nExternalReference [Label];\nCapacity [Real]",
+      "Properties [Data Type]": "BasePlate_Thickness [Length];\nColourCode [Label];\nMaterial_BasePlate [Label];\nTailGateOrientation [Label];\nCompactionRatio(1:x) [Real];\nExternalReference [Label]",
       "Parameter Value (Actual)": "ExternalReference: SS EN-840",
       "IFC4 Entities": [
         "IfcFurniture"
       ],
-      "Parameter Value (Sample)": "BasePlate_Thickness: 6 mm;\nHookUpPoint: OUTWARD FACING;\nMaterial_BasePlate: MEZZANINE;\nTailGateOrientation: INWARD FACING;\nCompactionRatio: 2:01;\nExternalReference: DIN 30722 ROLLER CONTACT TIPPER VEHICLES, ROLLER CONTAINERS;\nExternalReference: SS30 MANHOLE TOPS AND SURFACE-BOX TOPS",
+      "Parameter Value (Sample)": "BasePlate_Thickness: 6 mm;\nMaterial_BasePlate: MEZZANINE;\nTailGateOrientation: INWARD FACING;\nCompactionRatio(1:x): 2:01;\nExternalReference: DIN 30722 ROLLER CONTACT TIPPER VEHICLES, ROLLER CONTAINERS;\nExternalReference: SS30 MANHOLE TOPS AND SURFACE-BOX TOPS",
       "IFC4 Object Types": [
         "BENCH*",
         "BUSSHELTER*",
@@ -7147,10 +7125,7 @@
         "MIRROR*",
         "PLANTERBOX*",
         "RACK*",
-        "RECYCLABLECOMPACTOR*",
-        "RECYCLABLECONTAINER*",
         "RECYCLINGBIN*",
-        "REFUSEBIN*",
         "TAXISHELTER*",
         "UMBRELLA*"
       ],
@@ -7246,10 +7221,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -7352,7 +7325,6 @@
         "PWCSMAINCONTROL*",
         "TRUSS*",
         "UNIT*",
-        "STAIRCASESTOREYSHELTER*",
         "STOREYSHELTER*",
         "NONSHELTERHOUSEHOLDSHELTER*",
         "NONSHELTERSTOREYSHELTER*",

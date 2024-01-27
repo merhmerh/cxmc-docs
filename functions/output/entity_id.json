@@ -666,7 +666,10 @@
         "rec7bG8ajyPRaY0tp",
         "recnrVJgRKDiIW4Hd",
         "recF6BRfKxbJTVvyx",
-        "recOBuPZN7k0ob4LX"
+        "recOBuPZN7k0ob4LX",
+        "recDqd8iOsUhsZyOf",
+        "recVAAwTSBm60DPtG",
+        "recLEBOTJDO1e9IzW"
       ],
       "IFC KEY": "IFCTAN_082",
       "Identified Components": [
@@ -674,10 +677,16 @@
         "Fire Extinguishing Tank",
         "Refuse Handling Equipment",
         "Refuse Compactor",
-        "Refuse Container"
+        "Refuse Container",
+        "Recyclables Compactor",
+        "Recyclables Container",
+        "Refuse Bin"
       ],
       "IFC4 Sub Types (Beta)": [],
       "Beta (from CO Key)": [
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -715,7 +724,10 @@
         "SECTIONAL*",
         "SURGETANK*",
         "REFUSECOMPACTOR*",
-        "REFUSECONTAINER*"
+        "REFUSECONTAINER*",
+        "RECYCLABLECOMPACTOR*",
+        "RECYCLABLECONTAINER*",
+        "REFUSEBIN*"
       ],
       "IFC4 Predefined Types": [
         "BASIN",
@@ -2149,7 +2161,6 @@
         "rec7THWrtzzXVpuZF",
         "recWh9NKhbkXurA5g",
         "receI3oCHSZ70jceV",
-        "reccH0au2bM7XoyfG",
         "recUPzTRkr8TM982E",
         "rec1YrcOuKzY1O4sf",
         "recXMTvbMgBAjt8hI",
@@ -2230,7 +2241,6 @@
         null,
         null,
         null,
-        null,
         true
       ],
       "IFC4 Object Types": [
@@ -2254,7 +2264,6 @@
         "PWCSMAINCONTROL*",
         "TRUSS*",
         "UNIT*",
-        "STAIRCASESTOREYSHELTER*",
         "STOREYSHELTER*",
         "NONSHELTERHOUSEHOLDSHELTER*",
         "NONSHELTERSTOREYSHELTER*",
@@ -2306,7 +2315,8 @@
         "recsqEzbJBDBIQOMv",
         "recD8GhLJSDvZTGmO",
         "recIN93NxVp5WPTU0",
-        "rec9FTTgkGVsXQTGE"
+        "rec9FTTgkGVsXQTGE",
+        "recC4OdSVXjjNhahl"
       ],
       "IFC KEY": "IFCGEO_047",
       "Identified Components": [
@@ -2331,7 +2341,8 @@
         "Tree",
         "Water Body",
         "Water Feature",
-        "Site Boundary"
+        "Site Boundary",
+        "Earthworks"
       ],
       "IFC4 Sub Types (Beta)": [
         "GREENVERGE*",
@@ -2360,17 +2371,16 @@
         null,
         null,
         null,
-        true
+        true,
+        null
       ],
       "IFC4 Object Types": [
         "BEACH*",
         "UTILITYPOLE*",
-        "EXISTINGEARTHWORKS*",
         "GREENVERGE*",
         "NEIGHBOURINGLOT*",
         "LANDSCAPE_PALM*",
         "PLANTINGAREA*",
-        "PROPOSEDEARTHWORKS*",
         "RETENTIONBASIN*",
         "LANDSCAPE_SHRUBS*",
         "CADASTRALLOT*",
@@ -2380,7 +2390,9 @@
         "WATERFEATURE*",
         "SITEBOUNDARY*"
       ],
-      "IFC4 Predefined Types": []
+      "IFC4 Predefined Types": [
+        "TERRAIN"
+      ]
     }
   },
   {
@@ -2601,7 +2613,7 @@
         "Stationary Vacuum System",
         "Taxi Bay",
         "Thrust Block",
-        "Traffic Flow",
+        "Traffic Flow Arrow",
         "Tree Protection Zone",
         "Tunnel",
         "Turnstile",
@@ -2813,7 +2825,7 @@
         "SLOTOUTLET*",
         "STATIONARYVACUUMSYSTEM*",
         "TRAFFICFLOW*",
-        "2D_TREEPROTECTIONZONE*",
+        "TREEPROTECTIONZONE*",
         "TUNNEL*",
         "TURNSTILE*",
         "VALVEPROTECTINGCOVER*",
@@ -3676,10 +3688,8 @@
         "AREA_GFA*",
         "AREA_STRATA*",
         "AREA_VERIFICATION*",
-        "EGRESS*",
         "FIREENGINEACCESSROAD*",
         "FIREENGINEACCESSWAY*",
-        "INGRESS*",
         "SGFA*",
         "STRATALOT*",
         "VEHICULARSERVICEROAD*",
@@ -5038,10 +5048,7 @@
         "rec5AOZ1HcmyVgFbh",
         "recisyEj06jtesqAN",
         "recIx8UYpymFrSQdK",
-        "recDqd8iOsUhsZyOf",
-        "recVAAwTSBm60DPtG",
         "recPPM3MOEFhLrqUe",
-        "recLEBOTJDO1e9IzW",
         "rec6iYjASMIsa1bS8",
         "recdCDf1uxjLEMYJ8",
         "recUs0y6FoqW0V5Hi",
@@ -5077,10 +5084,7 @@
         "Planter Box",
         "Playground Equipment",
         "Racking System",
-        "Recyclables Compactor",
-        "Recyclables Container",
         "Recycling Bin",
-        "Refuse Bin",
         "Sanitary Bin",
         "Shelf",
         "Shut-off Valve Pull Box",
@@ -5132,9 +5136,6 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
         null
       ],
       "IFC4 Object Types": [
@@ -5148,10 +5149,7 @@
         "MIRROR*",
         "PLANTERBOX*",
         "RACK*",
-        "RECYCLABLECOMPACTOR*",
-        "RECYCLABLECONTAINER*",
         "RECYCLINGBIN*",
-        "REFUSEBIN*",
         "TAXISHELTER*",
         "UMBRELLA*"
       ],
