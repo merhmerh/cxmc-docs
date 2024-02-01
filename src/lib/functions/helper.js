@@ -185,7 +185,6 @@ export function highlightDOMText(target) {
  * @param {string} string
  */
 export function replaceSpaceWithDash(string) {
-    console.log(string);
     return string.replace(/[\s\/]+/g, "-").toLowerCase();
 }
 

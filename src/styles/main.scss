@@ -861,29 +861,6 @@ body.light {
     }
 }
 
-.viewer {
-    p {
-        margin-block: 12px;
-    }
-    div.image {
-        text-align: center;
-        display: grid;
-        justify-content: center;
-        gap: 4px;
-        img {
-            padding: 1rem;
-            background-color: white;
-            border-radius: 0.25rem;
-            margin-inline: auto;
-            width: 100%;
-        }
-        .caption {
-            font-size: 0.875rem;
-            color: var(--mono);
-        }
-    }
-}
-
 .card {
     padding: 2rem;
     border: 1px solid var(--mono-100);

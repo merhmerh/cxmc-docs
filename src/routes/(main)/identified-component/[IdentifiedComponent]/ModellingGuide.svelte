@@ -8,13 +8,15 @@ import { page } from "$app/stores";
 import { decode } from "base64-arraybuffer";
 import { timeout } from "$fn/helper";
 import { fade, fly } from "svelte/transition";
+import Image from "$routes/(main)/area-requirements/Image.svelte";
+import { Modal } from "merh-forge-ui";
 
 const dispatch = createEventDispatcher();
 
 let { supabase } = $page.data;
 
 export let IdentifiedComponent;
-let content, editing, viewerHTML, ready;
+let content, editing, viewerHTML, ready, viewerJSON, modal_img_src, modal;
 
 const noGuideMessage = "This identified component does not have a specified modelling guide.";
 
@@ -133,6 +135,27 @@ function renderViewerHTML() {
         /<div .+?(<img src.+?>).*?<\/div><p>{{(.+?)}}<\/p>/g,
         `<div class="image">$1<div class="caption">$2</div></div>`,
     );
+    let html = document.createElement("div");
+
+    html.innerHTML = viewerHTML;
+    viewerJSON = [];
+    html.childNodes.forEach((node) => {
+        if (node.classList.contains("image")) {
+            console.log("is an image", node);
+            viewerJSON.push({
+                type: "image",
+                src: node.querySelector("img")?.src,
+                html: node.outerHTML,
+            });
+        } else {
+            viewerJSON.push({
+                type: "html",
+                html: node.outerHTML,
+            });
+        }
+    });
+
+    console.log(viewerJSON);
 }
 
 async function load() {
@@ -157,12 +180,37 @@ async function load() {
     <div id="editor" />
 </div>
 
+<Modal bind:this={modal}>
+    <div class="modal">
+        <img src={modal_img_src} alt="" />
+    </div>
+</Modal>
+
 {#if !editing}
     <div class="viewer">
         <div class="content">
             {#if ready}
                 {#if content}
-                    {@html viewerHTML}
+                    {#each viewerJSON as { type, html, src }}
+                        {#if type == "html"}
+                            {@html html}
+                        {:else}
+                            <button
+                                class=" image_container none noHover"
+                                on:keyup={(e) => {
+                                    if (e.key === "Enter") {
+                                        modal_img_src = src;
+                                        modal.show();
+                                    }
+                                }}
+                                on:click={() => {
+                                    modal_img_src = src;
+                                    modal.show();
+                                }}>
+                                {@html html}
+                            </button>
+                        {/if}
+                    {/each}
                 {:else}
                     <span>{noGuideMessage}</span>
                 {/if}
@@ -194,6 +242,47 @@ async function load() {
         // margin-left: 2rem;
         margin-inline: auto;
         width: 840px;
+    }
+    :global(p) {
+        margin-block: 12px;
+    }
+    .image_container {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 4px;
+        width: 100%;
+
+        :global(img) {
+            padding: 1rem;
+            background-color: white;
+            border-radius: 0.25rem;
+            margin-inline: auto;
+            width: 100%;
+        }
+        :global(.caption) {
+            font-size: 0.875rem;
+            color: var(--mono);
+        }
+    }
+}
+
+.modal {
+    max-width: calc(80vw);
+    max-height: calc(100svh - 4rem);
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+        height: 100svh;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
     }
 }
 </style>
