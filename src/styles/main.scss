@@ -283,8 +283,8 @@ button {
         color: $grey;
         pointer-events: none;
         img {
-            filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(74%) hue-rotate(179deg) brightness(82%)
-                contrast(89%);
+            filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(74%)
+                hue-rotate(179deg) brightness(82%) contrast(89%);
         }
     }
 
@@ -315,8 +315,8 @@ button {
         color: $bg-p;
         border: 1px solid transparent;
         img {
-            filter: brightness(0) saturate(100%) invert(98%) sepia(100%) saturate(6946%) hue-rotate(184deg)
-                brightness(131%) contrast(100%);
+            filter: brightness(0) saturate(100%) invert(98%) sepia(100%) saturate(6946%)
+                hue-rotate(184deg) brightness(131%) contrast(100%);
         }
     }
 
@@ -833,6 +833,11 @@ body.light {
         min-width: 80px;
         font-size: 0.875rem;
         // padding-inline: 1.5rem;
+    }
+    &.focus {
+        button:focus {
+            outline: 2px solid var(--accent-200) !important;
+        }
     }
 }
 

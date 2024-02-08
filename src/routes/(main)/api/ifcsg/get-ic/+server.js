@@ -14,12 +14,18 @@ export async function GET({ locals: { supabase, getSession }, url }) {
 
         let result = data;
         for (const entity of entities) {
-            const { data: propData } = await supabase.from("property").select().eq("Entity", entity);
+            const { data: propData } = await supabase
+                .from("property")
+                .select()
+                .eq("Entity", entity);
 
             for (const p of propData) {
                 for (const item of result) {
+                    console.log("!", p, p.PropertySet);
                     if (item.key == p.ParentKey) {
-                        const index = item.pset[p.PropertySet].findIndex((x) => x.propertyName == p.PropertyName);
+                        const index = item.pset[p.PropertySet].findIndex(
+                            (x) => x.propertyName == p.PropertyName,
+                        );
                         const d = item.pset[p.PropertySet][index];
 
                         const combinedProp = {
@@ -28,7 +34,9 @@ export async function GET({ locals: { supabase, getSession }, url }) {
                             IfcMeasureResource: p.IfcMeasureResource,
                         };
                         if (combinedProp.actualValue || p.Enums) {
-                            const enums = [...new Set([...(d.actualValue || []), ...(p.Enums || [])])];
+                            const enums = [
+                                ...new Set([...(d.actualValue || []), ...(p.Enums || [])]),
+                            ];
                             combinedProp.actualValue = enums;
                         }
                         item.pset[p.PropertySet][index] = combinedProp;
@@ -38,6 +46,7 @@ export async function GET({ locals: { supabase, getSession }, url }) {
         }
 
         if (error) {
+            console.log(error);
             return json(error);
         }
 
