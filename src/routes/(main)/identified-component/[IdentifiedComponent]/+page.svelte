@@ -5,25 +5,21 @@ import { page } from "$app/stores";
 import { theme } from "$comp/theme.store";
 import { timeout, replaceSpaceWithDash, isObjectEmpty } from "$fn/helper";
 import { beta } from "$routes/main.store";
-import ModellingGuide from "./ModellingGuide.svelte";
 import { Modal, Tooltip } from "merh-forge-ui";
 import CodeTable from "../../codes/[agency]/CodeTable.svelte";
-import { getPermission } from "$comp/supabase.store";
 import CodeBlock from "$comp/CodeBlock.svelte";
+import Mg from "./Mg.svelte";
 
 let original;
 let mg_data = {};
 let prop_selected,
-    isEditing,
-    editor,
     notFound,
     modal,
     codeData,
     running,
     selectedGateway = "All",
-    codesTableError;
-
-const { role, permission } = getPermission();
+    codesTableError,
+    showGatewayContent = true;
 
 // comments
 $: $page, update();
@@ -44,7 +40,9 @@ async function update() {
 
     const IdentifiedComponent = $page.params.IdentifiedComponent;
 
-    mg_data = $mg_comp.find((obj) => replaceSpaceWithDash(obj.IdentifiedComponent) === IdentifiedComponent);
+    mg_data = $mg_comp.find(
+        (obj) => replaceSpaceWithDash(obj.IdentifiedComponent) === IdentifiedComponent,
+    );
 
     if (!mg_data || !Object.entries(mg_data).length) {
         notFound = true;
@@ -58,9 +56,16 @@ async function update() {
             // return;
         }
     }
-    const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(mg_data.IdentifiedComponent)}&beta=${$beta}`;
+    const url = `/api/ifcsg/get-ic?ic=${encodeURIComponent(
+        mg_data.IdentifiedComponent,
+    )}&beta=${$beta}`;
     const resp = await fetch(url);
+    if (!resp.ok) {
+        console.log(resp);
+        return;
+    }
     const result = await resp.json();
+
     console.log(result);
     mg_data.prop = result;
     // console.log(mg_data);
@@ -174,144 +179,128 @@ function filterByGateway(gatewayName) {
 
     <h3 id="gateway">
         <a href="{$page.url.origin}{$page.url.pathname}#gateway">Gateway</a>
+        <button
+            class="none noHover"
+            on:click={() => {
+                showGatewayContent = !showGatewayContent;
+            }}>
+            <Icon
+                icon="ic:outline-expand-more"
+                width="20"
+                inline={true}
+                vFlip={!showGatewayContent} />
+        </button>
     </h3>
-    <div class="legend">
-        <span>Filter By:</span>
-        {#each gateways as gateway}
-            <button
-                class="none"
-                class:selected={gateway.name == selectedGateway}
-                on:click={() => filterByGateway(gateway.name)}>
-                <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
-            </button>
-            <!-- <button class="none">
-                <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
-            </button> -->
-        {/each}
-    </div>
-    <div class="table_wrapper">
-        <table class={$theme}>
-            <div class="gatewayGrid">
-                <div class="header">
-                    <span>Agency</span>
-                    <span>Code Book</span>
-                    <span>Gateway</span>
-                    <span>Chapter</span>
-                    <span>Clause No.</span>
-                    <span>Clauses</span>
-                </div>
-                <div class="content">
-                    {#each mg_data.gateway as item}
-                        <div class="row" class:codeHidden={item.codeHidden}>
-                            <div class="col1">{item.agency}</div>
-                            <div class="col2">{item.code}</div>
-                            <div class="col3">
-                                {#each item.chapters as chapter}
-                                    <div class="col3_row" class:chapterHidden={chapter.chapterHidden}>
-                                        <div class="gateway">
-                                            {#each chapter.gateway.sort() as gateway}
-                                                <code class="gatewayIdentifier {gateway.substring(1, 0)}"
-                                                    >{gateway.substring(1, 0)}</code>
-                                            {/each}
-                                        </div>
-
-                                        <div class="chapter">{chapter.chapterName}</div>
-                                        <div class="clause_col">
-                                            {#each chapter.clauseNumbers as clause}
-                                                <div class="clause_row">
-                                                    <div class="clauseNumber">{clause.clauseNumber}</div>
-                                                    <div class="clauses">
-                                                        <div class="description">
-                                                            <p>{clause.clauses[0]}</p>
-                                                            {#if clause.clauses.length > 1}
-                                                                <span class="more"
-                                                                    >...and {clause.clauses.length - 1} more clauses
-                                                                </span>
-                                                            {/if}
-                                                        </div>
-                                                        <button
-                                                            on:click={() => {
-                                                                showCode(
-                                                                    {
-                                                                        agency: item.agency,
-                                                                        code: item.code,
-                                                                        chapter: chapter.chapterName,
-                                                                        clauseNumber: clause.clauseNumber,
-                                                                    },
-                                                                    clause.clauses,
-                                                                );
-                                                            }}>
-                                                            <div class="icon">
-                                                                <Icon
-                                                                    icon="material-symbols-light:read-more"
-                                                                    height="16" />
-                                                            </div>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            {/each}
-                                        </div>
-                                    </div>
-                                {/each}
-                            </div>
-                        </div>
-                    {/each}
-                </div>
-                {#if codesTableError}
-                    <div class="error">
-                        <span>{codesTableError}</span>
-                    </div>
-                {/if}
-            </div>
-        </table>
-    </div>
-
-    <h3 id="modelling-guide" class="modellingGuide__header">
-        <a href="{$page.url.origin}{$page.url.pathname}#modelling-guide">Modelling Guide</a>
-        <div class="buttonGroup">
-            {#if permission.edit}
-                {#if isEditing}
-                    <button
-                        on:click={() => {
-                            isEditing = false;
-                            editor.showViewer();
-                        }}>
-                        <span>Cancel</span>
-                    </button>
-                    <button
-                        on:click={() => {
-                            editor.save();
-                        }}>
-                        <div class="icon"><Icon icon="material-symbols:save" width={16} /></div>
-                        <span>Save</span>
-                    </button>
-                {:else}
-                    <button
-                        on:click={() => {
-                            isEditing = true;
-                            editor.showEditor();
-                        }}>
-                        <div class="icon"><Icon icon="ic:baseline-edit" width={14} /></div>
-                        <span> Edit Guide</span>
-                    </button>
-                {/if}
-            {/if}
+    {#if showGatewayContent}
+        <div class="legend">
+            <span>Filter By:</span>
+            {#each gateways as gateway}
+                <button
+                    class="none"
+                    class:selected={gateway.name == selectedGateway}
+                    on:click={() => filterByGateway(gateway.name)}>
+                    <code class="gatewayIdentifier {gateway.code}">{gateway.name} Gateway</code>
+                </button>
+            {/each}
         </div>
-    </h3>
+        <div class="table_wrapper">
+            <table class={$theme}>
+                <div class="gatewayGrid">
+                    <div class="header">
+                        <span>Agency</span>
+                        <span>Code Book</span>
+                        <span>Gateway</span>
+                        <span>Chapter</span>
+                        <span>Clause No.</span>
+                        <span>Clauses</span>
+                    </div>
+                    <div class="content">
+                        {#each mg_data.gateway as item}
+                            <div class="row" class:codeHidden={item.codeHidden}>
+                                <div class="col1">{item.agency}</div>
+                                <div class="col2">{item.code}</div>
+                                <div class="col3">
+                                    {#each item.chapters as chapter}
+                                        <div
+                                            class="col3_row"
+                                            class:chapterHidden={chapter.chapterHidden}>
+                                            <div class="gateway">
+                                                {#each chapter.gateway.sort() as gateway}
+                                                    <code
+                                                        class="gatewayIdentifier {gateway.substring(
+                                                            1,
+                                                            0,
+                                                        )}">{gateway.substring(1, 0)}</code>
+                                                {/each}
+                                            </div>
+
+                                            <div class="chapter">{chapter.chapterName}</div>
+                                            <div class="clause_col">
+                                                {#each chapter.clauseNumbers as clause}
+                                                    <div class="clause_row">
+                                                        <div class="clauseNumber">
+                                                            {clause.clauseNumber}
+                                                        </div>
+                                                        <div class="clauses">
+                                                            <div class="description">
+                                                                <p>{clause.clauses[0]}</p>
+                                                                {#if clause.clauses.length > 1}
+                                                                    <span class="more"
+                                                                        >...and {clause.clauses
+                                                                            .length - 1} more clauses
+                                                                    </span>
+                                                                {/if}
+                                                            </div>
+                                                            <button
+                                                                on:click={() => {
+                                                                    showCode(
+                                                                        {
+                                                                            agency: item.agency,
+                                                                            code: item.code,
+                                                                            chapter:
+                                                                                chapter.chapterName,
+                                                                            clauseNumber:
+                                                                                clause.clauseNumber,
+                                                                        },
+                                                                        clause.clauses,
+                                                                    );
+                                                                }}>
+                                                                <div class="icon">
+                                                                    <Icon
+                                                                        icon="material-symbols-light:read-more"
+                                                                        height="16" />
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                {/each}
+                                            </div>
+                                        </div>
+                                    {/each}
+                                </div>
+                            </div>
+                        {/each}
+                    </div>
+                    {#if codesTableError}
+                        <div class="error">
+                            <span>{codesTableError}</span>
+                        </div>
+                    {/if}
+                </div>
+            </table>
+        </div>
+    {/if}
 
     <div class="modellingGuide__container">
         {#key mg_data.IdentifiedComponent}
-            <ModellingGuide
-                bind:this={editor}
-                IdentifiedComponent={mg_data.IdentifiedComponent}
-                on:save={() => {
-                    isEditing = false;
-                }} />
+            <Mg identifiedComponent={mg_data.IdentifiedComponent}></Mg>
         {/key}
     </div>
 
     <h3 id="modelling-representation">
-        <a href="{$page.url.origin}{$page.url.pathname}#modelling-representation">Modelling Representation </a>
+        <a href="{$page.url.origin}{$page.url.pathname}#modelling-representation"
+            >Modelling Representation
+        </a>
     </h3>
     <div class="table_wrapper">
         <table class="{$theme} noActionColumn noHover representation horizontal">
@@ -347,7 +336,9 @@ function filterByGateway(gatewayName) {
                         ><div>
                             {#each mg_data.prop as item}
                                 <code>
-                                    <a href="{$page.url.origin}{$page.url.pathname}#{item.componentName}"
+                                    <a
+                                        href="{$page.url.origin}{$page.url
+                                            .pathname}#{item.componentName}"
                                         >{item.componentName || "-"}</a>
                                 </code>
                             {/each}
@@ -412,13 +403,16 @@ function filterByGateway(gatewayName) {
                                         <tr>
                                             <td class="propName"
                                                 ><div>
-                                                    <CodeBlock invisible={true}>{obj.propertyName}</CodeBlock>
+                                                    <CodeBlock invisible={true}
+                                                        >{obj.propertyName}</CodeBlock>
                                                 </div></td>
                                             <td class="dataType"
                                                 ><div>
-                                                    <CodeBlock invisible={true}>{obj.dataType}</CodeBlock>
+                                                    <CodeBlock invisible={true}
+                                                        >{obj.dataType}</CodeBlock>
                                                 </div></td>
-                                            <td class="measure"><div>{obj.measureResource || ""}</div></td>
+                                            <td class="measure"
+                                                ><div>{obj.measureResource || ""}</div></td>
                                             <td class="enums">
                                                 <div>
                                                     {#if !obj.actualValue && !obj.sampleValue}
@@ -435,11 +429,17 @@ function filterByGateway(gatewayName) {
                                                                     width="fit-content"
                                                                     let:onClick
                                                                     on:click={(e) => {
-                                                                        navigator.clipboard.writeText(item);
+                                                                        navigator.clipboard.writeText(
+                                                                            item,
+                                                                        );
                                                                         const slot = e.detail.slot;
-                                                                        const range = document.createRange();
-                                                                        range.selectNodeContents(slot);
-                                                                        const selection = window.getSelection();
+                                                                        const range =
+                                                                            document.createRange();
+                                                                        range.selectNodeContents(
+                                                                            slot,
+                                                                        );
+                                                                        const selection =
+                                                                            window.getSelection();
                                                                         selection.removeAllRanges();
                                                                         selection.addRange(range);
                                                                     }}>
@@ -466,7 +466,10 @@ function filterByGateway(gatewayName) {
                                             <td class="description">
                                                 <div>
                                                     {#if isHtmlDescription(obj.Description)}
-                                                        {@html obj.Description.replace(/\@html/i, "").trim()}
+                                                        {@html obj.Description.replace(
+                                                            /\@html/i,
+                                                            "",
+                                                        ).trim()}
                                                     {:else if obj.Description}
                                                         {obj.Description}
                                                     {:else}
@@ -501,6 +504,10 @@ h3 {
         &:hover {
             color: $url;
         }
+    }
+    &#gateway {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -831,24 +838,6 @@ code.gatewayIdentifier {
             font-size: 1.25rem;
             font-weight: 600;
             margin: 0;
-        }
-    }
-}
-
-.modellingGuide__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    .buttonGroup {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        button {
-            min-width: 80px;
-            font-size: 0.875rem;
-            padding: 0.5rem 0.5rem;
-            border-radius: 0.5rem;
-            gap: 0.5rem;
         }
     }
 }

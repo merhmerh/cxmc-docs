@@ -9,6 +9,7 @@ const pset_id = process.env.AIRTABLE_TABLE_ID_PSET;
 const baseID = process.env.AIRTABLE_BASEID;
 const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN;
 
+updateIfcSG();
 export async function updateIfcSG() {
     return new Promise(async (resolve, reject) => {
         try {
@@ -23,7 +24,6 @@ export async function updateIfcSG() {
             const checksum = sha256.digest("hex");
 
             const resp = await uploadToDB(checksum, result);
-
             const ifcsg = await reset_IFCSG_Database(resp);
             resolve(ifcsg);
         } catch (error) {
@@ -116,7 +116,9 @@ export async function reset_IFCSG_Database(data) {
 
     for (const [index, item] of rawIfcData.entries()) {
         const entity = item.entity;
-        const matchingProps = properties.filter((x) => x.Entity === entity && item.pset && item.pset[x.PropertySet]);
+        const matchingProps = properties.filter(
+            (x) => x.Entity === entity && item.pset && item.pset[x.PropertySet],
+        );
 
         if (matchingProps.length) {
             for (const prop of matchingProps) {
@@ -124,7 +126,10 @@ export async function reset_IFCSG_Database(data) {
                 const propIndex = pset.findIndex((row) => row.propertyName === prop.PropertyName);
 
                 if (propIndex !== -1) {
-                    rawIfcData[index].pset[prop.PropertySet][propIndex] = { ...pset[propIndex], ...prop };
+                    rawIfcData[index].pset[prop.PropertySet][propIndex] = {
+                        ...pset[propIndex],
+                        ...prop,
+                    };
                 }
             }
         }
@@ -165,7 +170,9 @@ export function sanitizeAirtableComp(obj, pset) {
                 : subtype.replace(entity, "").replace(/\./, "") || null;
 
         const objectType =
-            subtype.charAt(subtype.length - 1) == "*" ? subtype.replace(entity, "").replace(/^\.(.*?)\*$/, "$1") : null;
+            subtype.charAt(subtype.length - 1) == "*"
+                ? subtype.replace(entity, "").replace(/^\.(.*?)\*$/, "$1")
+                : null;
 
         let componentName = subtype.replace(entity, "").replace(/\./g, "").replace(/\*/g, "");
         if (!predefinedType && !objectType) {
@@ -285,8 +292,10 @@ export function sanitizePset(comp, pset) {
                     propertyName,
                     dataType,
                     measureResource,
-                    sampleValue: sampleValues.find((x) => x.propertyName == propertyName)?.value || null,
-                    actualValue: actualValues.find((x) => x.propertyName == propertyName)?.value || null,
+                    sampleValue:
+                        sampleValues.find((x) => x.propertyName == propertyName)?.value || null,
+                    actualValue:
+                        actualValues.find((x) => x.propertyName == propertyName)?.value || null,
                 };
 
                 allProps.push(data);

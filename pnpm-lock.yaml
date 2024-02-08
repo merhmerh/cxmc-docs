@@ -19,8 +19,8 @@ dependencies:
 
 devDependencies:
   '@iconify/svelte':
-    specifier: ^3.1.4
-    version: 3.1.4(svelte@4.2.0)
+    specifier: ^3.1.6
+    version: 3.1.6(svelte@4.2.0)
   '@supabase/auth-helpers-sveltekit':
     specifier: ^0.10.2
     version: 0.10.3(@supabase/supabase-js@2.33.2)(@sveltejs/kit@1.27.3)
@@ -297,8 +297,8 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: false
 
-  /@iconify/svelte@3.1.4(svelte@4.2.0):
-    resolution: {integrity: sha512-YDwQlN46ka8KPRayDb7TivmkAPizfTXi6BSRNqa1IV0+byA907n8JcgQafA7FD//pW5XCuuAhVx6uRbKTo+CfA==}
+  /@iconify/svelte@3.1.6(svelte@4.2.0):
+    resolution: {integrity: sha512-yLSrlkOx5J6xXU5GDLPBV/MdVBVEZhd36onfqSbxQobp1XBoWQbMPLNZyCAmTKCPnmzXSowGy79agl8FQ3kj6A==}
     peerDependencies:
       svelte: '*'
     dependencies:
@@ -1182,7 +1182,7 @@ packages:
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@iconify/svelte': 3.1.4(svelte@4.2.0)
+      '@iconify/svelte': 3.1.6(svelte@4.2.0)
       svelte: 4.2.0
     dev: true
 
