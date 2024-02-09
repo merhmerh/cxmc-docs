@@ -86,18 +86,18 @@ const dataTypes = [
                 </tr>
                 <tr>
                     <td><div>Development Use</div></td>
-                    <td><div>URA Development use of the area in question</div></td>
+                    <td><div>URA development use of the area in question</div></td>
                 </tr>
                 <tr>
                     <td><div>Building Typology</div></td>
                     <td>
-                        <div>The Building Typology where the area is in</div>
+                        <div>The building typology where the area is in</div>
                     </td>
                 </tr>
                 <tr>
                     <td rowspan="2" class="head"><div>SPACE</div></td>
                     <td><div>Space Name</div></td>
-                    <td><div>The Name of the space</div></td>
+                    <td><div>The name of the space</div></td>
                 </tr>
                 <tr>
                     <td><div>OccupancyType</div></td>
