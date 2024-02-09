@@ -125,7 +125,7 @@ export async function save() {
 
 function renderViewerHTML(html) {
     if (!html || html == "<p><br></p>") {
-        return (html = null);
+        return (currentHTML = "");
     }
     viewerHTML = html.replace(/<p>(<img src.+?)<\/p>/g, `<div class="image">$1</div>`);
     viewerHTML = viewerHTML.replace(
@@ -259,8 +259,6 @@ function renderViewerHTML(html) {
 }
 
 .modal {
-    &.confirmation {
-    }
     &.image {
         max-width: calc(80vw);
         max-height: calc(100svh - 4rem);
