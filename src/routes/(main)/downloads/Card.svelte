@@ -15,7 +15,11 @@ const canUpload = permission.edit;
 async function remove(item) {
     console.log(item.id);
     // @ts-ignore
-    const { data: res, error } = await supabase.from("downloads").update({ active: false }).eq("id", item.id).select();
+    const { data: res, error } = await supabase
+        .from("downloads")
+        .update({ active: false })
+        .eq("id", item.id)
+        .select();
     if (error) {
         return console.log(error);
     }
@@ -82,7 +86,8 @@ async function forceDownloadFile(file) {
                                         </span>
 
                                         <span slot="popup" class="popoverPopup">
-                                            <button class="none" on:click={() => remove(row)}>Remove</button>
+                                            <button class="none" on:click={() => remove(row)}
+                                                >Remove</button>
                                         </span>
                                     </Popover>
                                 {/if}
@@ -94,6 +99,11 @@ async function forceDownloadFile(file) {
                             target="_blank"
                             on:click={async (e) => {
                                 e.preventDefault();
+                                console.log(row.download.url);
+                                if (row.download.url.match(/https:\/\/drive.google.com/)) {
+                                    window.open(row.download.url, "_blank");
+                                    return;
+                                }
                                 row.downloading = !row.downloading;
                                 await forceDownloadFile(row.download);
                                 row.downloading = false;
@@ -118,7 +128,9 @@ async function forceDownloadFile(file) {
                             </div>
 
                             <div class="metadata">
-                                <div class="title">{`${row.title}.${row.download.fileName.split(/\./)[1]}`}</div>
+                                <div class="title">
+                                    {`${row.title}.${row.download.fileName.split(/\./)[1]}`}
+                                </div>
                                 <div class="size">
                                     <Icon icon="ph:download" height="20" />
                                     <span>{toMemoryUnit(row.download.size)}</span>
@@ -130,7 +142,9 @@ async function forceDownloadFile(file) {
                             <div class="flex flex-col details">
                                 <span
                                     >{"Uploaded: " +
-                                        dayjs(new Date(row.created_at)).format("DD MMM YYYY - HH:MM")}</span>
+                                        dayjs(new Date(row.created_at)).format(
+                                            "DD MMM YYYY - HH:MM",
+                                        )}</span>
                                 <span>{`Type: ` + row.download.type}</span>
                                 <span>{"Checksum (SHA256): " + row.checksum}</span>
                             </div>

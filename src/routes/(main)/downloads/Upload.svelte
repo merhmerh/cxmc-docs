@@ -20,6 +20,7 @@ async function upload() {
 
     const checksum = await calculateChecksum(file);
 
+    console.log(checksum);
     const publicUrl = await new Promise(async (resolve, reject) => {
         //prettier-ignore
         const { data, error } = await supabase.storage
@@ -102,7 +103,10 @@ const categories = ["Common Documents", "Revit", "Archicad"];
                     let completed;
 
                     const dataPromise = new Promise(async (resolve) => {
-                        const { data, error } = await $sb.from("downloads").select().eq("category", category);
+                        const { data, error } = await $sb
+                            .from("downloads")
+                            .select()
+                            .eq("category", category);
                         const result = data.map((x) => x.title).filter((x) => x !== null);
                         const titles = [...new Set(result)];
                         resolve(titles);
