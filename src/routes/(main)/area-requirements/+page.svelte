@@ -3,6 +3,7 @@ import { theme } from "$comp/theme.store";
 import areaPset from "./areaPset.json";
 import { toURLPath } from "$fn/helper";
 import Image from "./Image.svelte";
+import { page } from "$app/stores";
 
 export let data;
 console.log(data);
@@ -44,13 +45,30 @@ console.log(data);
         <table class="{$theme} noActionColumn">
             <thead>
                 <tr>
-                    <th><div><a href="/area-requirements/{toURLPath(SubType)}">{SubType}</a></div></th>
+                    <th
+                        ><div>
+                            <a href="/area-requirements/{toURLPath(SubType)}">{SubType}</a>
+                        </div></th>
                 </tr>
                 <tr><th><div>{PropertySet}</div></th></tr>
             </thead>
             <tbody>
                 {#each Array(8) as _, i}
-                    <tr><td><div>{Properties[i]?.PropertyName || ""}</div></td></tr>
+                    <tr>
+                        <td>
+                            <div>
+                                {#if Properties[i]?.PropertyName == "AGF_Name"}
+                                    <a
+                                        href="{$page.url
+                                            .origin}/area-requirements/area_gfa/agf-name?q=residential-(non-landed)">
+                                        AGF_Name
+                                    </a>
+                                {:else}
+                                    {Properties[i]?.PropertyName || ""}
+                                {/if}
+                            </div>
+                        </td>
+                    </tr>
                 {/each}
             </tbody>
         </table>
