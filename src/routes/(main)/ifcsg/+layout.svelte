@@ -102,7 +102,9 @@ export function sanitizeAirtableComp(obj, pset) {
                 : subtype.replace(entity, "").replace(/\./, "") || null;
 
         const objectType =
-            subtype.charAt(subtype.length - 1) == "*" ? subtype.replace(entity, "").replace(/^\.(.*?)\*$/, "$1") : null;
+            subtype.charAt(subtype.length - 1) == "*"
+                ? subtype.replace(entity, "").replace(/^\.(.*?)\*$/, "$1")
+                : null;
 
         let componentName = subtype.replace(entity, "").replace(/\./g, "").replace(/\*/g, "");
         if (!predefinedType && !objectType) {
@@ -139,11 +141,15 @@ export function sanitizeAirtableComp(obj, pset) {
             };
         }
 
-        const propsString = item["Properties [Data Type]"];
+        // const propsString = item["Properties [Data Type]"];
+        const propsArr = item["Properties [Data Type]"];
+        console.log(propsArr);
+        // console.log(propsString);
         const props = [];
-        if (propsString) {
-            const arr = propsString.split(";");
-            for (const value of arr) {
+        // if (propsString) {
+        //     const arr = propsString.split(",");
+        if (propsArr) {
+            for (const value of propsArr) {
                 const trimmed = value.trim().replace("\n", "");
                 const propertyName = trimmed.replace(/(.*?)\[(.*?)\]/, "$1").trim();
                 const measureResource = "";
@@ -151,6 +157,7 @@ export function sanitizeAirtableComp(obj, pset) {
                 props.push({ propertyName, dataType, measureResource });
             }
         }
+        // }
 
         if (ifc[key].props) {
             ifc[key].props.push(props);
@@ -222,8 +229,10 @@ export function sanitizePset(comp, pset) {
                     propertyName,
                     dataType,
                     measureResource,
-                    sampleValue: sampleValues.find((x) => x.propertyName == propertyName)?.value || null,
-                    actualValue: actualValues.find((x) => x.propertyName == propertyName)?.value || null,
+                    sampleValue:
+                        sampleValues.find((x) => x.propertyName == propertyName)?.value || null,
+                    actualValue:
+                        actualValues.find((x) => x.propertyName == propertyName)?.value || null,
                 };
 
                 allProps.push(data);
@@ -320,7 +329,9 @@ async function loadIfcData(v) {
             if (matchingProps.length) {
                 for (const prop of matchingProps) {
                     const pset = item.pset[prop.PropertySet];
-                    const propIndex = pset.findIndex((row) => row.propertyName === prop.PropertyName);
+                    const propIndex = pset.findIndex(
+                        (row) => row.propertyName === prop.PropertyName,
+                    );
 
                     if (propIndex !== -1) {
                         const combinedProp = {
@@ -330,7 +341,12 @@ async function loadIfcData(v) {
                         };
 
                         if (combinedProp.actualValue || prop.Enums) {
-                            const enums = [...new Set([...(combinedProp.actualValue || []), ...(prop.Enums || [])])];
+                            const enums = [
+                                ...new Set([
+                                    ...(combinedProp.actualValue || []),
+                                    ...(prop.Enums || []),
+                                ]),
+                            ];
                             combinedProp.actualValue = enums;
                         }
 

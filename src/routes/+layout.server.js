@@ -1,7 +1,5 @@
-
 export const load = async ({ url, locals: { getSession } }) => {
-
-    const title = "CX-MC Docs"
+    const title = "CX-MC Docs";
     const description = "Documentation for the development of CORENET-X Model Checker";
     const meta = {
         title,
@@ -12,12 +10,11 @@ export const load = async ({ url, locals: { getSession } }) => {
             "og:type": "website",
             "og:image": "/oglogo.png",
             "og:url": url.href,
-        }
-    }
+        },
+    };
 
-    return ({
+    return {
         meta: meta,
         session: await getSession(),
-    })
-}
-
+    };
+};
