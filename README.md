@@ -39,9 +39,9 @@ Modeling within the CX-MC project requires a deep understanding of architectural
 
 This repository is intended for documentation and reference purposes only. It is not suitable for cloning and running as is because it relies on specific API keys and configurations that will not be made available to the public.
 
-If you are authorized to work on this project and require access to the necessary API keys, please contact [Your Contact Information] for assistance and further instructions.
+If you are authorized to work on this project and require access to the necessary API keys, please contact me for assistance and further instructions.
 
-For general inquiries or questions related to the project, you can reach out to [Your Contact Information].
+For general inquiries or questions related to the project, you can reach out to me.
 
 ### Start dev server
 
@@ -59,4 +59,4 @@ pnpm build
 
 ### Tech Stack
 
-Svelte, Sveltekit, Supabase, Firebase Cloud Functions
+Sveltekit, Supabase, Firebase Cloud Functions
