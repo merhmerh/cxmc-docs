@@ -1,39 +1,82 @@
 [
   {
+    "SubType": "AREA_CFA",
+    "PropertySet": null,
+    "Properties": []
+  },
+  {
+    "SubType": "AREA_CONNECTIVITY",
+    "PropertySet": "SGPset_SpaceArea_Connectivity",
+    "Properties": [
+      {
+        "PropertyName": "ACN_ConnectivityType",
+        "DataType": "Text"
+      },
+      {
+        "PropertyName": "ACN_ActivityGeneratingUseType",
+        "DataType": "Text"
+      },
+      {
+        "PropertyName": "ACN_IsPavingSpecified",
+        "DataType": "Boolean"
+      },
+      {
+        "PropertyName": "ACN_PavingSpecification",
+        "DataType": "Text"
+      },
+      {
+        "PropertyName": "ACN_IsOpen24HoursToPublic",
+        "DataType": "Boolean"
+      },
+      {
+        "PropertyName": "ACN_OpenTime",
+        "DataType": "Text"
+      },
+      {
+        "PropertyName": "ACN_CloseTime",
+        "DataType": "Text"
+      }
+    ]
+  },
+  {
     "SubType": "AREA_GFA",
-    "PropertySet": "SGPset_SpaceArea_GFA",
+    "PropertySet": "SGPset_SpaceaArea_GFA",
     "Properties": [
       {
         "PropertyName": "AGF_DevelopmentUse",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_UseQuantum",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_BuildingTypology",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_SupportingFacility",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_Name",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_Note",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_BonusGFAType",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AGF_UnitNumber",
-        "DataType": "Label"
+        "DataType": "Text"
+      },
+      {
+        "PropertyName": "AGF_UnitNumber",
+        "DataType": "Text"
       }
     ]
   },
@@ -43,45 +86,15 @@
     "Properties": [
       {
         "PropertyName": "ALS_LandscapeType",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "ALS_GreeneryFeatures",
-        "DataType": "Label"
-      }
-    ]
-  },
-  {
-    "SubType": "AREA_CONNECTIVITY",
-    "PropertySet": "SGPset_SpaceArea_Connectivity",
-    "Properties": [
-      {
-        "PropertyName": "ACN_ConnectivityType",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
-        "PropertyName": "ACN_ActivityGeneratingUseType",
-        "DataType": "Label"
-      },
-      {
-        "PropertyName": "ACN_IsPavingSpecified",
-        "DataType": "Boolean"
-      },
-      {
-        "PropertyName": "ACN_PavingSpecification",
-        "DataType": "Label"
-      },
-      {
-        "PropertyName": "ACN_IsOpen24HoursToPublic",
-        "DataType": "Boolean"
-      },
-      {
-        "PropertyName": "ACN_OpenTime",
-        "DataType": "Label"
-      },
-      {
-        "PropertyName": "ACN_CloseTime",
-        "DataType": "Label"
+        "PropertyName": "ALS_Species",
+        "DataType": "Text"
       }
     ]
   },
@@ -91,7 +104,7 @@
     "Properties": [
       {
         "PropertyName": "AST_AreaType",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AST_LegalArea",
@@ -99,15 +112,11 @@
       },
       {
         "PropertyName": "AST_Extg_StrataLotNumber",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AST_Prop_StrataLotNumber",
-        "DataType": "Label"
-      },
-      {
-        "PropertyName": "AST_AssociatedTo",
-        "DataType": "Label"
+        "DataType": "Text"
       }
     ]
   },
@@ -117,35 +126,39 @@
     "Properties": [
       {
         "PropertyName": "AVF_DevelopmentUse",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_UseQuantum",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_BuildingTypology",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_SupportingFacility",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_Name",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_Note",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_BonusGFAType",
-        "DataType": "Label"
+        "DataType": "Text"
       },
       {
         "PropertyName": "AVF_AreaType",
-        "DataType": "Label"
+        "DataType": "Text"
+      },
+      {
+        "PropertyName": "AVF_InclGFA",
+        "DataType": "Boolean"
       }
     ]
   }
