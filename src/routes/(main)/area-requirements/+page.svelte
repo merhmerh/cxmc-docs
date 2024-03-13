@@ -1,12 +1,13 @@
 <script>
 import { theme } from "$comp/theme.store";
-import areaPset from "./areaPset.json";
+// import areaPset from "./areaPset.json";
 import { toURLPath } from "$fn/helper";
 import Image from "./Image.svelte";
 import { page } from "$app/stores";
 
 export let data;
 console.log(data);
+const schema = data.schema;
 </script>
 
 {#each data.pageContent.content as { type, content }}
@@ -41,7 +42,7 @@ console.log(data);
 <h2>Summary</h2>
 
 <div class="table_wrapper">
-    {#each areaPset as { SubType, PropertySet, Properties }}
+    {#each schema as { SubType, PropertySet, Properties }}
         <table class="{$theme} noActionColumn">
             <thead>
                 <tr>
@@ -50,12 +51,12 @@ console.log(data);
                             <a href="/area-requirements/{toURLPath(SubType)}">{SubType}</a>
                         </div></th>
                 </tr>
-                <tr><th><div>{PropertySet}</div></th></tr>
+                <tr><th><div>{PropertySet || " "}</div></th></tr>
             </thead>
             <tbody>
                 {#each Array(8) as _, i}
                     <tr>
-                        <td>
+                        <td class:empty={!Properties[i]}>
                             <div>
                                 {#if Properties[i]?.PropertyName == "AGF_Name"}
                                     <a
@@ -93,11 +94,18 @@ console.log(data);
         th {
             > div {
                 font-size: 14px;
+                min-width: 150px;
+                line-height: 1.1rem;
             }
         }
         td {
             div {
                 min-height: 28px;
+            }
+            &.empty {
+                &:hover {
+                    background-color: transparent;
+                }
             }
         }
     }

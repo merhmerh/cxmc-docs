@@ -80,7 +80,7 @@ async function getSchema() {
         return sortOrder.indexOf(a.SubType) - sortOrder.indexOf(b.SubType);
     });
 
-    console.log(result);
+    return result;
 }
 
 async function getPageContent() {

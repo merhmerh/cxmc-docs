@@ -34,7 +34,12 @@ function copy() {
 }
 </script>
 
-<button class="none" on:click={copy} style="--font-size:{fontSize}" class:flushIconRight class:hoverToShowIcon>
+<button
+    class="none"
+    on:click={copy}
+    style="--font-size:{fontSize}"
+    class:flushIconRight
+    class:hoverToShowIcon>
     <code bind:this={codeElement} class:noStyle>
         <div class="text">
             <slot />

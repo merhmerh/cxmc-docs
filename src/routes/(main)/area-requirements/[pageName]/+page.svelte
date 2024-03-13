@@ -29,59 +29,69 @@ import Image from "../Image.svelte";
     {/if}
 {/each}
 
-<div class="table_wrapper">
-    <table class="{$theme} noHover noActionColumn">
-        <thead>
-            <tr>
-                <th><div>PropertyName</div></th>
-                <th><div>Values</div></th>
-            </tr>
-        </thead>
-        <tbody>
-            {#each data.tableContent as table}
+{#if data.tableContent.length}
+    <div class="table_wrapper">
+        <table class="{$theme} noHover noActionColumn">
+            <thead>
+                <tr
+                    ><th colspan="2"
+                        ><div class="pset">
+                            {data.propertySet}
+                        </div></th
+                    ></tr>
                 <tr>
-                    <td><div>{table.scheme}</div></td>
-                    <td>
-                        <div class="tags">
-                            {#if table.scheme == "AGF_Name"}
-                                Refer to <a href="/area-requirements/area_gfa/agf-name?q=residential-(non-landed)"
-                                    >AGF_Name</a> Page.
-                            {/if}
-                            {#if table.data.length}
-                                {#each table.data as value}
-                                    {#if value.includes("*")}
-                                        {value.replace("*", "")}
-                                    {:else if value.match(/\{\{(.*?)\}\}/)}
-                                        <code class="sample">{value.replace(/\{\{(.*?)\}\}/, "$1")}</code>
-                                    {:else}
-                                        <Tooltip
-                                            position="top"
-                                            value="Copy"
-                                            clickedValue="Copied"
-                                            let:onClick
-                                            on:click={(e) => {
-                                                navigator.clipboard.writeText(value);
-                                                const range = document.createRange();
-                                                const target = e.detail.slot;
-                                                range.selectNodeContents(target);
-                                                const selection = window.getSelection();
-                                                selection.removeAllRanges();
-                                                selection.addRange(range);
-                                            }}>
-                                            <!-- svelte-ignore a11y-click-events-have-key-events -->
-                                            <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-                                            <code on:click={onClick}> {value}</code>
-                                        </Tooltip>
-                                    {/if}
-                                {/each}
-                            {/if}
-                        </div>
-                    </td>
+                    <th><div>PropertyName</div></th>
+                    <th><div>Values</div></th>
                 </tr>
-            {/each}
-        </tbody>
-    </table>
-</div>
+            </thead>
+            <tbody>
+                {#each data.tableContent as table}
+                    <tr>
+                        <td><div>{table.scheme}</div></td>
+                        <td>
+                            <div class="tags">
+                                {#if table.scheme == "AGF_Name"}
+                                    Refer to <a
+                                        href="/area-requirements/area_gfa/agf-name?q=residential-(non-landed)"
+                                        >AGF_Name</a> Page.
+                                {/if}
+                                {#if table.data.length}
+                                    {#each table.data as value}
+                                        {#if value.includes("*")}
+                                            {value.replace("*", "")}
+                                        {:else if value.match(/\{\{(.*?)\}\}/)}
+                                            <code class="sample"
+                                                >{value.replace(/\{\{(.*?)\}\}/, "$1")}</code>
+                                        {:else}
+                                            <Tooltip
+                                                position="top"
+                                                value="Copy"
+                                                clickedValue="Copied"
+                                                let:onClick
+                                                on:click={(e) => {
+                                                    navigator.clipboard.writeText(value);
+                                                    const range = document.createRange();
+                                                    const target = e.detail.slot;
+                                                    range.selectNodeContents(target);
+                                                    const selection = window.getSelection();
+                                                    selection.removeAllRanges();
+                                                    selection.addRange(range);
+                                                }}>
+                                                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                                                <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+                                                <code on:click={onClick}> {value}</code>
+                                            </Tooltip>
+                                        {/if}
+                                    {/each}
+                                {/if}
+                            </div>
+                        </td>
+                    </tr>
+                {/each}
+            </tbody>
+        </table>
+    </div>
+{/if}
 
 <style lang="scss">
 .table_wrapper {
@@ -102,6 +112,10 @@ import Image from "../Image.svelte";
             > div {
                 font-size: 14px;
                 width: 250px;
+                &.pset {
+                    width: 100%;
+                    justify-content: center;
+                }
             }
         }
         td {
