@@ -40,10 +40,53 @@ const schema = data.schema;
 {/each}
 
 <h2>Summary</h2>
-
 <div class="table_wrapper">
+    <table class="{$theme}horizontal noActionColumn">
+        <tr>
+            <th><div>SubType</div></th>
+            <th><div>PropertySet</div></th>
+            <th><div>PropertyName</div></th>
+        </tr>
+        {#each schema as { SubType, PropertySet, Properties }}
+            <tr>
+                <td rowspan={Properties.length}>
+                    <div>
+                        <a href="/area-requirements/{toURLPath(SubType)}">{SubType}</a>
+                    </div>
+                </td>
+                <td rowspan={Properties.length}><div>{PropertySet || "-"}</div></td>
+                <td><div>{Properties[0]?.PropertyName || "-"}</div></td>
+            </tr>
+            {#each Properties.slice(1) as { PropertyName }}
+                <tr>
+                    <td>
+                        <div>
+                            {#if PropertyName == "AGF_Name"}
+                                <a
+                                    href="{$page.url
+                                        .origin}/area-requirements/area_gfa/agf-name?q=residential-(non-landed)">
+                                    AGF_Name
+                                </a>
+                            {:else if PropertyName == "AVF_Name"}
+                                <a
+                                    href="{$page.url
+                                        .origin}/area-requirements/area_gfa/avf-name?q=residential-(non-landed)">
+                                    AVF_Name
+                                </a>
+                            {:else}
+                                {PropertyName || "-"}
+                            {/if}
+                        </div>
+                    </td>
+                </tr>
+            {/each}
+        {/each}
+    </table>
+</div>
+
+<!-- <div class="table_wrapper">
     {#each schema as { SubType, PropertySet, Properties }}
-        <table class="{$theme} noActionColumn">
+        <table class="{$theme}  noActionColumn">
             <thead>
                 <tr>
                     <th
@@ -74,7 +117,7 @@ const schema = data.schema;
             </tbody>
         </table>
     {/each}
-</div>
+</div> -->
 
 <style lang="scss">
 .table_wrapper {
