@@ -134,7 +134,7 @@ function resetFilter() {
                             </CodeBlock>
                         </div>
                     </td>
-                    <td class="description"><div>{description || "-"}</div></td>
+                    <td class="description"><div>{description || ""}</div></td>
                 </tr>
             {/each}
         </tbody>
