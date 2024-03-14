@@ -1,5 +1,5 @@
 {
-    "typescript.tsdk": "node_modules\\typescript\\lib",
+    // "typescript.tsdk": "node_modules/typescript/lib",
     "cSpell.words": [
         "mukim"
     ],
@@ -11,5 +11,6 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "**/node_modules": false
-    }
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
 }

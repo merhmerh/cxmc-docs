@@ -31,14 +31,42 @@ export function updateAreaReq() {
 }
 
 async function getGFAData() {
-    const [Schema, pageContent, areaScheme, AGFName] = await Promise.all([
+    const [Schema, pageContent, areaScheme, AGFName, AVFName] = await Promise.all([
         getSchema(),
         getPageContent(),
         getAreaScheme(),
         getAGF_Name(),
+        getAVFData(),
     ]);
 
-    return { Schema, pageContent, areaScheme, AGFName };
+    return { Schema, pageContent, areaScheme, AGFName, AVFName };
+}
+
+async function getAVFData() {
+    const columns = ["F", "J", "N"];
+
+    async function getFromSheet(col) {
+        const endCol = String.fromCharCode(col.charCodeAt(0) + 2);
+        const range = `AVF_Name!${col}2:${endCol}100`;
+
+        const rows = await sheets.spreadsheets.values
+            .get({
+                spreadsheetId: areaScheme_id,
+                range: range,
+            })
+            .then((res) => res.data.values);
+        return rows;
+    }
+
+    const promises = columns.map((c) => {
+        return getFromSheet(c);
+    });
+
+    const result = await Promise.all(promises).then((res) => {
+        return res.flat();
+    });
+
+    return result;
 }
 
 async function getSchema() {
