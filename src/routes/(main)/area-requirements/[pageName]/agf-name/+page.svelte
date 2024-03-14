@@ -70,7 +70,12 @@ function resetFilter() {
         <div class="icon">
             <Icon icon="akar-icons:search" hFlip={true} height="18" />
         </div>
-        <input bind:this={searchbar} on:input={filter} class="search" type="search" placeholder="Search by AGF_Name" />
+        <input
+            bind:this={searchbar}
+            on:input={filter}
+            class="search"
+            type="search"
+            placeholder="Search by AGF_Name" />
         <div class="kbs">
             <code>Ctrl</code>
             <code>E</code>
@@ -115,7 +120,11 @@ function resetFilter() {
                 {:else}
                     <tr class="noResult"
                         ><td colspan="5"
-                            ><div>No result found for development use of "{$page.url.searchParams.get("q")}"</div></td
+                            ><div>
+                                No result found for development use of "{$page.url.searchParams.get(
+                                    "q",
+                                )}"
+                            </div></td
                         ></tr>
                 {/if}
             {/each}
@@ -160,30 +169,11 @@ table {
         }
     }
 
-    td.gfaName > div > button {
-        padding-inline: 0;
-        display: flex;
-        flex-wrap: nowrap;
-        width: 100%;
-        justify-content: space-between;
-        font-size: 0.875rem;
+    td.gfaName > div {
         .name {
             text-align: left;
             &.isIncluded {
                 color: var(--red);
-            }
-        }
-        .icon {
-            width: fit-content;
-            color: var(--mono-200);
-            @include flex-center;
-            opacity: 0;
-            transition: opacity 0.15s;
-        }
-        &:hover {
-            color: var(--accent);
-            .icon {
-                opacity: 1;
             }
         }
     }

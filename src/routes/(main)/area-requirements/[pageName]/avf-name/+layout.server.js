@@ -6,9 +6,10 @@ export async function load({ locals: { supabase } }) {
         .limit(1)
         .single();
 
-    let pageContent = data.data.pageContent.find((x) => x.path == "AGF_NAME");
+    let pageContent = data.data.pageContent.find((x) => x.path == "AVF_NAME");
 
     const areaNames = data.data.AGFName.filter((x) => !x[2].match(/^\!/));
+    const AVFNames = data.data.AVFName;
 
-    return { areaNames, pageContent };
+    return { areaNames, pageContent, AVFNames };
 }
