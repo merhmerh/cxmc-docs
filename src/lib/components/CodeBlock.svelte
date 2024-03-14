@@ -28,7 +28,7 @@ if (invisible) {
 
 function copy() {
     console.log(codeElement.textContent);
-    navigator.clipboard.writeText(codeElement.textContent);
+    navigator.clipboard.writeText(codeElement.textContent.trim());
     highlightDOMText(codeElement);
     notify.add("Copied to clipboard", { duration: 1000 });
 }
