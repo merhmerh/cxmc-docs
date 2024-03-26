@@ -14,7 +14,7 @@ const dataTypes = [
         archiCAD: "Label",
     },
     {
-        ifcDataType: "BOolean",
+        ifcDataType: "Boolean",
         unit: "-",
         programming: "Boolean",
         revit: "Yes/No",
@@ -44,14 +44,14 @@ const dataTypes = [
     {
         ifcDataType: "Area",
         unit: "m²",
-        programming: "FLoat",
+        programming: "Float",
         revit: "Area",
         archiCAD: "Area",
     },
     {
         ifcDataType: "Volume",
         unit: "m³",
-        programming: "FLoat",
+        programming: "Float",
         revit: "Area",
         archiCAD: "Area",
     },
