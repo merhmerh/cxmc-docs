@@ -53,7 +53,7 @@ async function updateRole() {
     const result = await resp.json();
 
     if (result.error) {
-        notify.add(result.error.message);
+        notify.add(result.error.message, { duration: 5000 });
         users[index] = data.user;
         return;
     }
@@ -184,8 +184,8 @@ async function verifyEmail() {
         <h1>Set Password</h1>
 
         <span class="info"
-            >Please avoid manually setting a user password. This platform utilizes password-less authentication methods,
-            such as magic links or OTP.</span>
+            >Please avoid manually setting a user password. This platform utilizes password-less
+            authentication methods, such as magic links or OTP.</span>
 
         <span class="info">
             Utilize this function solely in situations where a user is unable to access their email.</span>
@@ -229,7 +229,8 @@ async function verifyEmail() {
     <div class="modal modal__deleteUser">
         <h1>Confirm to delete user</h1>
 
-        <span>This is permanent! Are you sure you want to delete user "{selectedUser.email}" ?</span>
+        <span
+            >This is permanent! Are you sure you want to delete user "{selectedUser.email}" ?</span>
         <div class="buttonGroup">
             <button
                 class="icon alt"
@@ -280,8 +281,8 @@ async function verifyEmail() {
             </div>
         {/if}
         <span class="info">
-            Please ensure the email provided is a valid email address, an invitation will be send to the user email
-            address.</span>
+            Please ensure the email provided is a valid email address, an invitation will be send to
+            the user email address.</span>
         <button class="alt" on:click={inviteUser}>Invite User</button>
     </div>
 </Modal>
@@ -323,7 +324,12 @@ async function verifyEmail() {
                                 <tr>
                                     <td><div>{item.operation}</div></td>
                                     {#each roles as role}
-                                        <td><div>{item.roles.includes(role.toLowerCase()) ? "✔" : ""}</div></td>
+                                        <td
+                                            ><div>
+                                                {item.roles.includes(role.toLowerCase())
+                                                    ? "✔"
+                                                    : ""}
+                                            </div></td>
                                     {/each}
                                 </tr>
                             {/each}
@@ -351,8 +357,12 @@ async function verifyEmail() {
             <div class="modal">
                 <h1>Verify Email</h1>
 
-                <span class="info"> Confirms the user's email address is authentic and belongs to the user. </span>
-                <span class="info"> Only utilize this function if user cannot verify their email. </span>
+                <span class="info">
+                    Confirms the user's email address is authentic and belongs to the user.
+                </span>
+                <span class="info">
+                    Only utilize this function if user cannot verify their email.
+                </span>
 
                 <div class="buttonGroup">
                     <button
@@ -373,6 +383,7 @@ async function verifyEmail() {
 {/if}
 
 <h1>User Management</h1>
+{currentUser.user_metadata.role}
 <div class="row">
     <div class="inputBox">
         <div class="icon">
@@ -474,17 +485,23 @@ async function verifyEmail() {
                                                 };
                                             }}>
                                             {#if user.user_metadata["role"] == "Updating"}
-                                                <Icon icon="line-md:loading-twotone-loop" width="20" />
+                                                <Icon
+                                                    icon="line-md:loading-twotone-loop"
+                                                    width="20" />
                                             {:else}
                                                 {user.user_metadata["role"]
-                                                    ? capitalizeFirstCharacter(user.user_metadata["role"])
+                                                    ? capitalizeFirstCharacter(
+                                                          user.user_metadata["role"],
+                                                      )
                                                     : "*Beta"}
                                             {/if}
                                         </button>
                                     {:else}
                                         <span>
                                             {user.user_metadata["role"]
-                                                ? capitalizeFirstCharacter(user.user_metadata["role"])
+                                                ? capitalizeFirstCharacter(
+                                                      user.user_metadata["role"],
+                                                  )
                                                 : "Reader"}
                                         </span>
                                     {/if}
@@ -499,7 +516,9 @@ async function verifyEmail() {
                             <td
                                 ><div>
                                     {#if user.confirmed_at}
-                                        {dayjs(new Date(user.confirmed_at)).format("DD MMM YYYY HH:MM")}
+                                        {dayjs(new Date(user.confirmed_at)).format(
+                                            "DD MMM YYYY HH:MM",
+                                        )}
                                     {:else}
                                         <div class="banner orange">Pending Verification..</div>
                                     {/if}
@@ -533,7 +552,10 @@ async function verifyEmail() {
                                                 <button
                                                     class="none"
                                                     on:click={() => {
-                                                        modalContent = { type: "verifyEmail", user: user };
+                                                        modalContent = {
+                                                            type: "verifyEmail",
+                                                            user: user,
+                                                        };
                                                     }}>
                                                     Verify Email
                                                 </button>
@@ -560,7 +582,9 @@ async function verifyEmail() {
                                                 on:click={() => {
                                                     disableUser(user);
                                                 }}
-                                                >{user.user_metadata.disabled ? "Enable Account" : "Disable Account"}
+                                                >{user.user_metadata.disabled
+                                                    ? "Enable Account"
+                                                    : "Disable Account"}
                                             </button>
 
                                             <!-- Delete User -->
@@ -586,7 +610,8 @@ async function verifyEmail() {
                                 {#if !originalUsers.length}
                                     <span>You have not invite any users</span>
                                 {:else}
-                                    <span>No users matched the search query "{searchEmailValue}"</span>
+                                    <span
+                                        >No users matched the search query "{searchEmailValue}"</span>
                                 {/if}
                             </div>
                         </td>
