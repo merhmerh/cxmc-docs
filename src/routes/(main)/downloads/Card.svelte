@@ -2,12 +2,13 @@
 import Icon from "@iconify/svelte";
 import { getPermission } from "$comp/supabase.store.js";
 import { toMemoryUnit, timeout, isObjectEmpty, convertToHTMLAnchor } from "$fn/helper";
-import { Popover, Tooltip } from "merh-forge-ui";
+import { Popover, Tooltip, notify } from "merh-forge-ui";
 import dayjs from "dayjs";
 import { page } from "$app/stores";
 let isOpen = false;
-
+let secret_interaction_count = 0;
 export let data = {};
+
 const supabase = $page.data.supabase;
 const { role, permission } = getPermission();
 const canUpload = permission.edit;
@@ -45,6 +46,39 @@ async function forceDownloadFile(file) {
         console.error("Error:", error);
     }
 }
+
+async function secretInteraction() {
+    if (data.category == "Revit") {
+        secret_interaction_count++;
+        if (secret_interaction_count == 10) {
+            secret_interaction_count = 0;
+            const toDownload = confirm(
+                "⚠️Are you looking for something that cannot be found here?⚠️ \n For the brave one. Click [OK] to get it!",
+            );
+            if (toDownload) {
+                try {
+                    const url =
+                        "https://cksvrtqduesomnciaajt.supabase.co/storage/v1/object/public/public/downloads/SECRET_Revit_IFC-Mapping-Configuration-Full.txt";
+                    const resp = await fetch(url);
+                    const blob = await resp.blob();
+                    const blobURL = URL.createObjectURL(blob);
+                    const a = document.createElement("a");
+                    a.href = blobURL;
+                    a.download = "Revit_IFC-Mapping-Configuration-Full";
+                    a.click();
+
+                    URL.revokeObjectURL(blobURL);
+                } catch (e) {
+                    console.log(e);
+                }
+            }
+        }
+        //delay
+        setTimeout(() => {
+            secret_interaction_count = 0;
+        }, 3000);
+    }
+}
 </script>
 
 {#if !isObjectEmpty(data)}
@@ -53,6 +87,7 @@ async function forceDownloadFile(file) {
             class="none noHover header"
             on:click={() => {
                 isOpen = !isOpen;
+                secretInteraction();
             }}>
             <h3>{data.category}</h3>
 

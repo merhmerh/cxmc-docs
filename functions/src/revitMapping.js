@@ -2,10 +2,11 @@ import fs from "fs";
 import dotenv from "dotenv";
 import { supabase, calcChecksum, uuid } from "./helper.js";
 dotenv.config();
+
 export function generateRevitIfcMappingTable() {
     return new Promise(async (resolve, reject) => {
         const t0 = performance.now();
-        const result = await getIfc({ beta: false });
+        const result = await getIfc({ beta: true });
 
         const pset_obj = sortPset(result);
 
