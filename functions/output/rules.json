@@ -15,7 +15,19 @@
       "Inspection Chamber",
       "Pipe Segment",
       "Slab",
-      "Sewerage System"
+      "Sewerage System",
+      "Road Kerb",
+      "Footpath",
+      "Lamp Post",
+      "Road",
+      "Trench",
+      "Drain",
+      "Road Island",
+      "Tree (Palm)",
+      "Site Boundary",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -111,8 +123,6 @@
     "identifiedComponents": [
       "Pipe Segment",
       "Boundary wall/ Boundary fence",
-      "Drain",
-      "Footpath",
       "Sanitary System",
       "Manhole",
       "Planting Trough",
@@ -120,14 +130,17 @@
       "Slab",
       "Inspection Chamber",
       "Site Boundary",
-      "Planting Area",
-      "Green Verge",
-      "Ceiling",
-      "Road",
       "Trench",
       "Lamp Post",
-      "Culvert",
-      "Sewerage System"
+      "Road Kerb",
+      "Footpath",
+      "Road",
+      "Road Island",
+      "Drain",
+      "Tree (Palm)",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -278,8 +291,6 @@
     "identifiedComponents": [
       "Pipe Segment",
       "Boundary wall/ Boundary fence",
-      "Drain",
-      "Footpath",
       "Sanitary System",
       "Manhole",
       "Planting Trough",
@@ -287,14 +298,17 @@
       "Slab",
       "Inspection Chamber",
       "Site Boundary",
-      "Planting Area",
-      "Green Verge",
-      "Ceiling",
-      "Road",
       "Trench",
       "Lamp Post",
-      "Culvert",
-      "Sewerage System"
+      "Road Kerb",
+      "Footpath",
+      "Road",
+      "Road Island",
+      "Drain",
+      "Tree (Palm)",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -313,7 +327,19 @@
       "Inspection Chamber",
       "Pipe Segment",
       "Slab",
-      "Sewerage System"
+      "Sewerage System",
+      "Road Kerb",
+      "Footpath",
+      "Lamp Post",
+      "Road",
+      "Trench",
+      "Drain",
+      "Road Island",
+      "Tree (Palm)",
+      "Site Boundary",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -346,7 +372,6 @@
     "identifiedComponents": [
       "Building",
       "Space",
-      "Wall",
       "Door",
       "Access Hatch",
       "Building Storey"
@@ -566,7 +591,19 @@
       "Inspection Chamber",
       "Pipe Segment",
       "Slab",
-      "Sewerage System"
+      "Sewerage System",
+      "Road Kerb",
+      "Footpath",
+      "Lamp Post",
+      "Road",
+      "Trench",
+      "Drain",
+      "Road Island",
+      "Tree (Palm)",
+      "Site Boundary",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -755,7 +792,7 @@
       "Pipe Segment",
       "Manhole",
       "Inspection Chamber",
-      "Sewerage System"
+      "Sanitary System"
     ]
   },
   {
@@ -772,9 +809,7 @@
     "identifiedComponents": [
       "Manhole",
       "Inspection Chamber",
-      "Pipe Segment",
-      "Sanitary System",
-      "Sewerage System"
+      "Pipe Segment"
     ]
   },
   {
@@ -939,7 +974,7 @@
     "identifiedComponents": [
       "Road",
       "Parking Lot",
-      "Line Marking"
+      "Access Route"
     ]
   },
   {
@@ -973,7 +1008,7 @@
     "identifiedComponents": [
       "Road",
       "Parking Lot",
-      "Line Marking"
+      "Access Route"
     ]
   },
   {
@@ -1067,7 +1102,7 @@
     "identifiedComponents": [
       "Road",
       "Parking Lot",
-      "Line Marking"
+      "Access Route"
     ]
   },
   {
@@ -1170,7 +1205,7 @@
     "identifiedComponents": [
       "Road",
       "Parking Lot",
-      "Line Marking"
+      "Access Route"
     ]
   },
   {
@@ -1308,7 +1343,6 @@
     "identifiedComponents": [
       "Building",
       "Space",
-      "Wall",
       "Door",
       "Access Hatch",
       "Building Storey"
@@ -1328,7 +1362,7 @@
     "identifiedComponents": [
       "Road",
       "Parking Lot",
-      "Line Marking"
+      "Access Route"
     ]
   },
   {
@@ -1401,7 +1435,19 @@
       "Inspection Chamber",
       "Pipe Segment",
       "Slab",
-      "Sewerage System"
+      "Sewerage System",
+      "Road Kerb",
+      "Footpath",
+      "Lamp Post",
+      "Road",
+      "Trench",
+      "Drain",
+      "Road Island",
+      "Tree (Palm)",
+      "Site Boundary",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -1418,8 +1464,6 @@
     "identifiedComponents": [
       "Pipe Segment",
       "Boundary wall/ Boundary fence",
-      "Drain",
-      "Footpath",
       "Sanitary System",
       "Manhole",
       "Planting Trough",
@@ -1427,14 +1471,17 @@
       "Slab",
       "Inspection Chamber",
       "Site Boundary",
-      "Planting Area",
-      "Green Verge",
-      "Ceiling",
-      "Road",
       "Trench",
       "Lamp Post",
-      "Culvert",
-      "Sewerage System"
+      "Road Kerb",
+      "Footpath",
+      "Road",
+      "Road Island",
+      "Drain",
+      "Tree (Palm)",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -1599,7 +1646,7 @@
     "identifiedComponents": [
       "Road",
       "Parking Lot",
-      "Line Marking"
+      "Access Route"
     ]
   },
   {
@@ -1635,8 +1682,6 @@
     "identifiedComponents": [
       "Pipe Segment",
       "Boundary wall/ Boundary fence",
-      "Drain",
-      "Footpath",
       "Sanitary System",
       "Manhole",
       "Planting Trough",
@@ -1644,14 +1689,17 @@
       "Slab",
       "Inspection Chamber",
       "Site Boundary",
-      "Planting Area",
-      "Green Verge",
-      "Ceiling",
-      "Road",
       "Trench",
       "Lamp Post",
-      "Culvert",
-      "Sewerage System"
+      "Road Kerb",
+      "Footpath",
+      "Road",
+      "Road Island",
+      "Drain",
+      "Tree (Palm)",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {
@@ -1821,7 +1869,19 @@
       "Inspection Chamber",
       "Pipe Segment",
       "Slab",
-      "Sewerage System"
+      "Sewerage System",
+      "Road Kerb",
+      "Footpath",
+      "Lamp Post",
+      "Road",
+      "Trench",
+      "Drain",
+      "Road Island",
+      "Tree (Palm)",
+      "Site Boundary",
+      "Site Boundary (Cadastral Lot)",
+      "Tree",
+      "Earthworks"
     ]
   },
   {

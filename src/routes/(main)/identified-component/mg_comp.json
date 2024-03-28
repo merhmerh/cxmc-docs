@@ -119,177 +119,35 @@
     ]
   },
   {
-    "IdentifiedComponent": "Slab",
-    "Beta": true,
+    "IdentifiedComponent": "Roof",
+    "Beta": false,
     "representation": {
       "Revit": [
+        "Roofs",
         "Floors"
       ],
       "ArchiCAD": [
+        "Roof",
         "Slab"
       ],
       "Tekla": [
+        "N.A",
         "Slab",
         "Concrete Slab"
       ],
       "Bentley": [
+        "Roof",
         "Slab"
       ]
     },
-    "gateway": [
-      {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
-        "chapters": [
-          {
-            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "3.2.2",
-                "clauses": [
-                  "(c) The distance between manholes shall not be more than 120m.",
-                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
-                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
-                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
-                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": "Approved Document - Acceptable Solutions",
-        "agency": "BCA",
-        "chapters": [
-          {
-            "chapterName": "Headroom and Ceiling Height: Headroom",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.2 Note",
-                "clauses": [
-                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
-                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
-                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
-                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
-                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
-                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.1",
-                "clauses": [
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.2",
-                "clauses": [
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.2.1",
-                "clauses": [
-                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.2 Note",
-                "clauses": [
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Headroom and Ceiling Height: Ceiling Height",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.3.1",
-                "clauses": [
-                  "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
-                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ]
-              },
-              {
-                "clauseNumber": "C.3.3 Note",
-                "clauses": [
-                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": "Educational Institution Handbook",
-        "agency": "URA",
-        "chapters": [
-          {
-            "chapterName": "Greenery",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "",
-                "clauses": [
-                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
-                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
-                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "gateway": [],
     "SubTypeKeys": [
       "IfcSlab:ROOF:null",
-      "IfcSlab:NOTDEFINED:null",
-      "IfcSlab:FLOOR:null",
-      "IfcSlab:USERDEFINED:RAFTSLAB",
-      "IfcSlab:USERDEFINED:INTERMEDIATEPLATFORM"
+      "IfcRoof:NOTDEFINED:null",
+      "IfcRoof:GABLE_ROOF:null",
+      "IfcRoof:USERDEFINED:JACK_ROOF",
+      "IfcRoof:SHED_ROOF:null",
+      "IfcRoof:FLAT_ROOF:null"
     ]
   },
   {
@@ -339,8 +197,10 @@
     "SubTypeKeys": [
       "IfcSpace:USERDEFINED:AREA_VERIFICATION",
       "IfcSpace:USERDEFINED:AREA_LANDSCAPE",
+      "IfcSpace:USERDEFINED:SGFA",
       "IfcSpace:USERDEFINED:AREA_GFA",
       "IfcSpace:USERDEFINED:AREA_STRATA",
+      "IfcSpace:USERDEFINED:AREA_CFA",
       "IfcSpace:USERDEFINED:AREA_CONNECTIVITY"
     ]
   },
@@ -393,116 +253,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:FLOODBARRIER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "AV Appliance",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Security Devices",
-        "Fire Alarm Devices",
-        "Telephone Devices"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcAudioVisualAppliance:SWITCHER:null",
-      "IfcAudioVisualAppliance:SPEAKER:null",
-      "IfcAudioVisualAppliance:MICROPHONE:null",
-      "IfcAudioVisualAppliance:TELEPHONE:null",
-      "IfcAudioVisualAppliance:USERDEFINED:LOUDSPEAKER",
-      "IfcAudioVisualAppliance:CAMERA:null",
-      "IfcAudioVisualAppliance:AMPLIFIER:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Signage",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIREACCESSOPENING",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_STORAGEHEIGHT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ACCESSHATCH",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIRESHUTTER",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_COOLINGTOWER",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIREESCAPEBEDLIFT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RESCUEHOOK",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_DOSANDDONTS",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_WATERTAPPOINT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_HEARINGPROTECTION",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_WARNING",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYINFORMATION",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EXITSTAIRCASE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EXITACCESSDOOR",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ESCAPEPLAN",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_LIFTWELL",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EVACUEEHOLDINGAREA",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SCBA",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RECYCLABLESCHUTE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYCUTOFF",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_PRIVATEUSE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EVACUATIONLIFT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_CIRCUITDIAGRAM",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ELECTRICVEHICLE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SMOKEVENT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_HAZARDWARNINGSIGN",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SITEPLAN",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FLOORLEVELEXITSIGN",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ LPSWARNING",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_POPSINFORMATIONPLAQUE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RECYCLABLES",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RINSESHOWER",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_NOOBSTRUCTION",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_GASLEAK",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_BREECHINGINLET",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_COMMUNICATIONINSTRUCTION",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_LPG",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_OPERATINGINSTRUCTION",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EXIT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYDOORRELEASE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_THROUGHBLOCKLINK",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_DIRECTIONALEXIT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_BIOHAZARDCAUTION",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_GENERALWASTES",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SMOKECURTAIN",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYRELEASE",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_WHEELCHAIRSYMBOL",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIRESAFETYEQUIPMENT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNPOST_DRIVEWAY",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_PWDHOLDINGPOINT",
-      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE"
     ]
   },
   {
@@ -643,30 +393,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Stainless Steel Tapered Round Nut",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:TAPEREDNUTS"
-    ]
-  },
-  {
     "IdentifiedComponent": "Fogger",
     "Beta": false,
     "representation": {
@@ -697,7 +423,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Photoluminescent Marking",
+    "IdentifiedComponent": "Access Route to Parking Lots",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -722,7 +448,7 @@
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:PHOTOLUMINESCENTMARKING"
+      "IfcBuildingElementProxy:USERDEFINED:ACCESSROUTE"
     ]
   },
   {
@@ -771,7 +497,7 @@
     "SubTypeKeys": [
       "IfcPipeFitting:TRANSITION:null",
       "IfcPipeFitting:USERDEFINED:PITOT",
-      "IfcPipeFitting:USERDEFINED:SPIGOTANDSOCKET",
+      "IfcPipeFitting:USERDEFINED:RIGIDJOINT",
       "IfcPipeFitting:USERDEFINED:FLEXIBLECOUPLING",
       "IfcPipeFitting:EXIT:null",
       "IfcPipeFitting:USERDEFINED:VENTURI",
@@ -784,10 +510,10 @@
       "IfcPipeFitting:USERDEFINED:DRAINCHANNELBEND",
       "IfcPipeFitting:OBSTRUCTION:null",
       "IfcPipeFitting:NOTDEFINED:null",
-      "IfcPipeFitting:CONNECTOR:null",
+      "IfcPipeFitting:USERDEFINED:FLEXIBLEJOINT",
       "IfcPipeFitting:USERDEFINED:FLANGEADAPTOR",
       "IfcPipeFitting:BEND:null",
-      "IfcPipeFitting:ENTRY:null"
+      "IfcPipeFitting:USERDEFINED:CLEANOUT"
     ]
   },
   {
@@ -1049,226 +775,12 @@
       "IfcDoor:USERDEFINED:FIRESHUTTER",
       "IfcDoor:USERDEFINED:BLASTDOOR",
       "IfcDoor:GATE:null",
+      "IfcDoor:USERDEFINED:LIFTDOOR",
       "IfcDoor:DOOR:null",
       "IfcDoor:USERDEFINED:FLAPDOOR",
       "IfcDoor:USERDEFINED:ROLLERSHUTTER",
       "IfcDoor:TRAPDOOR:null",
       "IfcDoor:USERDEFINED:WICKET"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Table",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:TABLE:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Electric Heater",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:ELECTRICHEATER:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Wall",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Walls"
-      ],
-      "ArchiCAD": [
-        "Wall"
-      ],
-      "Tekla": [
-        "Panel",
-        "Concrete Panel"
-      ],
-      "Bentley": [
-        "Wall"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Approved Document - Acceptable Solutions",
-        "agency": "BCA",
-        "chapters": [
-          {
-            "chapterName": "Headroom and Ceiling Height: Headroom",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.2 Note",
-                "clauses": [
-                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
-                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
-                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
-                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
-                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
-                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.1",
-                "clauses": [
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.2",
-                "clauses": [
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.2.1",
-                "clauses": [
-                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.2 Note",
-                "clauses": [
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Ventilation",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "G.2.2",
-                "clauses": [
-                  "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
-                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ]
-              },
-              {
-                "clauseNumber": "G.2.1",
-                "clauses": [
-                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Handrails ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.6.1",
-                "clauses": [
-                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.5",
-                "clauses": [
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.2",
-                "clauses": [
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": "Educational Institution Handbook",
-        "agency": "URA",
-        "chapters": [
-          {
-            "chapterName": "Greenery",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "",
-                "clauses": [
-                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
-                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
-                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcWall:USERDEFINED:RECYCLABLESCHUTE",
-      "IfcWall:NOTDEFINED:null",
-      "IfcWall:PARAPET:null",
-      "IfcWall:USERDEFINED:DRYWALLPARTITION",
-      "IfcWall:USERDEFINED:KNOCKOUTPANEL",
-      "IfcWall:PARTITIONING:null",
-      "IfcWall:USERDEFINED:WIREMESHSCREEN",
-      "IfcWall:USERDEFINED:BARRIER",
-      "IfcWall:USERDEFINED:BLOCKWALL",
-      "IfcWall:ELEMENTEDWALL:null",
-      "IfcWall:SHEAR:null",
-      "IfcWall:USERDEFINED:BUND",
-      "IfcWall:USERDEFINED:RETAININGWALL"
     ]
   },
   {
@@ -1888,6 +1400,25 @@
         "agency": "PUB",
         "chapters": [
           {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
             "chapterName": "Planning Considerations: Structures over Sewer",
             "gateway": [
               "Design",
@@ -1910,77 +1441,6 @@
     ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:TRENCH"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Window",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Windows"
-      ],
-      "ArchiCAD": [
-        "Window"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Window"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Approved Document - Acceptable Solutions",
-        "agency": "BCA",
-        "chapters": [
-          {
-            "chapterName": "Safety from Falling: Height of Barrier",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "H.3.2 Note",
-                "clauses": [
-                  "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
-                  "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
-                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
-                  "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
-                  "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ]
-              },
-              {
-                "clauseNumber": "H.3.2.1",
-                "clauses": [
-                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Safety from Falling: Safety from falling ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "H.2.1",
-                "clauses": [
-                  "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcWindow:USERDEFINED:BAYWINDOW",
-      "IfcWindow:USERDEFINED:DORMER",
-      "IfcWindow:WINDOW:null",
-      "IfcWindow:SKYLIGHT:null",
-      "IfcWindow:LOUVRE:null"
     ]
   },
   {
@@ -2142,45 +1602,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Shading Device",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Curtain Panel"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Roof"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Roof"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcShadingDevice:USERDEFINED:PERFORATEDPANEL",
-      "IfcShadingDevice:USERDEFINED:PARASOL",
-      "IfcShadingDevice:USERDEFINED:EXTERNALFINS",
-      "IfcShadingDevice:USERDEFINED:LOUVREDPANEL",
-      "IfcShadingDevice:USERDEFINED:SHUTTERBOARD",
-      "IfcShadingDevice:AWNING:null",
-      "IfcShadingDevice:USERDEFINED:DROPDOWNPANEL",
-      "IfcShadingDevice:USERDEFINED:SUNBREAKER",
-      "IfcShadingDevice:USERDEFINED:SHIELD",
-      "IfcShadingDevice:USERDEFINED:WEATHERFEATURE",
-      "IfcShadingDevice:SHUTTER:null",
-      "IfcShadingDevice:USERDEFINED:CANOPY",
-      "IfcShadingDevice:USERDEFINED:ROLLDOWNCURTAIN",
-      "IfcShadingDevice:NOTDEFINED:null",
-      "IfcShadingDevice:USERDEFINED:TRELLIS"
-    ]
-  },
-  {
     "IdentifiedComponent": "Non-domestic Cold Water System",
     "Beta": false,
     "representation": {
@@ -2202,6 +1623,152 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:NONDOMESTICCOLDWATER"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Wall",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Walls"
+      ],
+      "ArchiCAD": [
+        "Wall"
+      ],
+      "Tekla": [
+        "Panel",
+        "Concrete Panel"
+      ],
+      "Bentley": [
+        "Wall"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Approved Document - Acceptable Solutions",
+        "agency": "BCA",
+        "chapters": [
+          {
+            "chapterName": "Headroom and Ceiling Height: Headroom",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.2 Note",
+                "clauses": [
+                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
+                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
+                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
+                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
+                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
+                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.1",
+                "clauses": [
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.2",
+                "clauses": [
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.2.1",
+                "clauses": [
+                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.2 Note",
+                "clauses": [
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Handrails ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.6.1",
+                "clauses": [
+                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.5",
+                "clauses": [
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.2",
+                "clauses": [
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Educational Institution Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Greenery",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcWall:USERDEFINED:RECYCLABLESCHUTE",
+      "IfcWall:NOTDEFINED:null",
+      "IfcWall:PARAPET:null",
+      "IfcWall:USERDEFINED:DRYWALLPARTITION",
+      "IfcWall:USERDEFINED:KNOCKOUTPANEL",
+      "IfcWall:PARTITIONING:null",
+      "IfcWall:USERDEFINED:WIREMESHSCREEN",
+      "IfcWall:USERDEFINED:BARRIER",
+      "IfcWall:USERDEFINED:BLOCKWALL",
+      "IfcWall:ELEMENTEDWALL:null",
+      "IfcWall:SHEAR:null",
+      "IfcWall:USERDEFINED:BUND",
+      "IfcWall:USERDEFINED:RETAININGWALL"
     ]
   },
   {
@@ -2618,31 +2185,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Steam Cleaner",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:STEAMCLEANER"
-    ]
-  },
-  {
     "IdentifiedComponent": "Steam System",
     "Beta": false,
     "representation": {
@@ -2664,35 +2206,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:HEATING"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Slot-outlet",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:SLOTOUTLET"
     ]
   },
   {
@@ -2721,7 +2234,7 @@
     ]
   },
   {
-    "IdentifiedComponent": "Traffic Flow",
+    "IdentifiedComponent": "Traffic Flow Arrow",
     "Beta": false,
     "representation": {
       "Revit": [
@@ -2747,33 +2260,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:TRAFFICFLOW"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Existing Earthworks",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Area",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:EXISTINGEARTHWORKS"
     ]
   },
   {
@@ -2953,45 +2439,61 @@
     ]
   },
   {
-    "IdentifiedComponent": "Drain",
+    "IdentifiedComponent": "Window",
     "Beta": true,
     "representation": {
       "Revit": [
-        "Floors",
-        "Generic Models"
+        "Windows"
       ],
       "ArchiCAD": [
-        "Slab",
-        "Object"
+        "Window"
       ],
       "Tekla": [
-        "Slab",
-        "Panel"
+        "N.A"
       ],
       "Bentley": [
-        "Slab",
-        "Drains&Basins"
+        "Window"
       ]
     },
     "gateway": [
       {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
+        "code": "Approved Document - Acceptable Solutions",
+        "agency": "BCA",
         "chapters": [
           {
-            "chapterName": "Planning Considerations: Structures over Sewer",
+            "chapterName": "Safety from Falling: Height of Barrier",
             "gateway": [
-              "Design",
               "Construction"
             ],
             "clauseNumbers": [
               {
-                "clauseNumber": "1.2.4 ",
+                "clauseNumber": "H.3.2 Note",
                 "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                  "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
+                  "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
+                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
+                  "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
+                  "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
+                ]
+              },
+              {
+                "clauseNumber": "H.3.2.1",
+                "clauses": [
+                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Safety from Falling: Safety from falling ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "H.2.1",
+                "clauses": [
+                  "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
                 ]
               }
             ]
@@ -3000,12 +2502,11 @@
       }
     ],
     "SubTypeKeys": [
-      "IfcCivilElement:USERDEFINED:SURFACEDRAIN",
-      "IfcCivilElement:USERDEFINED:STORMWATERDRAIN",
-      "IfcCivilElement:USERDEFINED:CHANNELDRAIN",
-      "IfcCivilElement:USERDEFINED:TRENCHDRAIN",
-      "IfcCivilElement:USERDEFINED:FLOORDRAIN",
-      "IfcCivilElement:USERDEFINED:GUTTERDRAIN"
+      "IfcWindow:USERDEFINED:BAYWINDOW",
+      "IfcWindow:USERDEFINED:DORMER",
+      "IfcWindow:WINDOW:null",
+      "IfcWindow:SKYLIGHT:null",
+      "IfcWindow:USERDEFINED:LOUVRE"
     ]
   },
   {
@@ -3288,30 +2789,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Guide Roller",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:LIFT_GUIDEROLLER"
-    ]
-  },
-  {
     "IdentifiedComponent": "Parking Lot",
     "Beta": true,
     "representation": {
@@ -3446,30 +2923,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Panic Device",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:NOTDEFINED:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Site Boundary",
     "Beta": true,
     "representation": {
@@ -3496,6 +2949,25 @@
         "code": "Code of Practice on Sewerage and Sanitary Works",
         "agency": "PUB",
         "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
           {
             "chapterName": "Planning Considerations: Structures over Sewer",
             "gateway": [
@@ -3906,6 +3378,25 @@
         "agency": "PUB",
         "chapters": [
           {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
             "chapterName": "Planning Considerations: Structures over Sewer",
             "gateway": [
               "Design",
@@ -4005,312 +3496,70 @@
     ]
   },
   {
-    "IdentifiedComponent": "Space",
+    "IdentifiedComponent": "Road",
     "Beta": true,
     "representation": {
       "Revit": [
+        "Floors",
+        "Generic Models",
         "Mass",
         "Areas",
         "Rooms"
       ],
       "ArchiCAD": [
+        "Slab",
+        "Object",
         "Zone"
       ],
       "Tekla": [
+        "Slab",
+        "Panel",
         "N.A"
       ],
       "Bentley": [
+        "Slab",
+        "Drains&Basins",
         "Space"
       ]
     },
     "gateway": [
       {
-        "code": "Approved Document - Acceptable Solutions",
-        "agency": "BCA",
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
         "chapters": [
           {
-            "chapterName": "Headroom and Ceiling Height: Headroom",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.2 Note",
-                "clauses": [
-                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
-                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
-                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
-                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
-                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
-                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.1",
-                "clauses": [
-                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
-                ]
-              },
-              {
-                "clauseNumber": "C.3.2.2",
-                "clauses": [
-                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.2.1",
-                "clauses": [
-                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.2 Note",
-                "clauses": [
-                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Risers and treads",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.4.2",
-                "clauses": [
-                  "(b) 250mm, if the staircase is in an industrial building, or;",
-                  "The width of a thread of a staircase (see Figure E.3.4.2(a) for measurement of \"tread\") shall not be less than:\n(a) 225 mm, if the staircase is in a residential unit within a residential building;",
-                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
-                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
-                  "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.4.1",
-                "clauses": [
-                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ]
-              },
-              {
-                "clauseNumber": "E.3.4.3",
-                "clauses": [
-                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Headroom and Ceiling Height: Ceiling Height",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "C.3.3.1",
-                "clauses": [
-                  "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
-                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ]
-              },
-              {
-                "clauseNumber": "C.3.3 Note",
-                "clauses": [
-                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Width of staircase",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.3.1",
-                "clauses": [
-                  "Note: If the projection of the handrail into the clear width does not exceed 80mm on each side of the staircase, the width is measured from\n(a) The finished surfaces of the walls, if the staircase is enclosed on both sides by walls only; or",
-                  "(c) The inner sides of the balustrades if the staircase has balustrades on both sides ",
-                  "(b) The inner sides of the handrails if the staircase has handrails on both sides. ",
-                  "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
-                  "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
-                  "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Ventilation",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "G.2.2",
-                "clauses": [
-                  "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
-                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ]
-              },
-              {
-                "clauseNumber": "G.2.1",
-                "clauses": [
-                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircase: Risers and treads",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.4.4",
-                "clauses": [
-                  "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Safety from Falling: Height of Barrier",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "H.3.2 Note",
-                "clauses": [
-                  "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
-                  "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
-                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
-                  "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
-                  "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
-                ]
-              },
-              {
-                "clauseNumber": "H.3.2.1",
-                "clauses": [
-                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Handrails ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.6.1",
-                "clauses": [
-                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.5",
-                "clauses": [
-                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
-                ]
-              },
-              {
-                "clauseNumber": "E.3.6.2",
-                "clauses": [
-                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Staircases: Landing",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "E.3.5.2",
-                "clauses": [
-                  "Except for spiral staircases, an intermediate landing shall be provided in between floor levels at intervals of not more than 18 risers. ",
-                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
-                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
-                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.5.1",
-                "clauses": [
-                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.5.4",
-                "clauses": [
-                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
-                ]
-              },
-              {
-                "clauseNumber": "E.3.5.3",
-                "clauses": [
-                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Safety from Falling: Safety from falling ",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "H.2.1",
-                "clauses": [
-                  "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": "Residential Handbook (Flats and Condos)",
-        "agency": "URA",
-        "chapters": [
-          {
-            "chapterName": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
             "gateway": [
               "Design",
               "Construction"
             ],
             "clauseNumbers": [
               {
-                "clauseNumber": "",
+                "clauseNumber": "3.2.2",
                 "clauses": [
-                  "Max size of each balcony is 15% of internal nett unit size (i.e excludes voids, AC ledges & other external areas)",
-                  "GFA of balconies can be allowed above MP allowable GPR, subject to cap of 7% inclusive of planter boxes",
-                  "Railing or Parapet Wall along Balconies to be kept at 1.3m",
-                  "Balconies with exclusive access from the kitchen/yard/utility space are treated as service balconies and do not qualify for bonus GFA. \n\nBalconies which serve as the only access into a dwelling unit do not qualify for bonus GFA",
-                  "Balconies shall not be located next to M&E areas",
-                  "Balconies shall have a continuous perimeter opening of at least 40%.",
-                  "Walls in-between adjoining balconies that exceed 1.3m are not considered as \"open\"."
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
                 ]
               }
             ]
@@ -4322,24 +3571,21 @@
         "agency": "LTA",
         "chapters": [
           {
-            "chapterName": "Parking Layout Dimensions: Bicycle parking provision",
+            "chapterName": "Parking Layout Dimensions: Motor-cycle parking provision",
             "gateway": [
               "Design",
               "Construction"
             ],
             "clauseNumbers": [
               {
-                "clauseNumber": "2.4",
+                "clauseNumber": "2.3",
                 "clauses": [
-                  "There should be a minimum of 10 bicycle parking lots within a location.  ",
-                  "Minimum length of 2-tiers bicycle lot shall be 2000mm",
-                  "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for 2- tiers bicycle racks shall be 2500mm",
-                  "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
-                  "A bicycle parking rack shall be provided for each bicycle parking lot and anchored to the ground so as to allow cyclists to lock their bicycles with ease. ",
-                  "Minimum width of single-tier bicycle lot shall be  600mm",
-                  "Minimum length of single-tier bicycle lot shall be 1800mm",
-                  "Minimum width of 2-tiers bicycle lot shall be 650mm",
-                  "Bicycle parking lots shall be separated from the car park area."
+                  "The minimum width of a motor-cycle parking lot shall be 800mm.",
+                  "The minimum width of accessway for motorcycle lots shall be 1200mm",
+                  "If provided next to parking lots, a gap of 500mm to be provided between car and motor-cycle lots.",
+                  "The lots should not obstruct movement of other vehicles and pedestrians.",
+                  "The minimum length of a motor-cycle parking lot shall be 2400mm.",
+                  "The Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for motorcycle lots shall be 2000mm"
                 ]
               }
             ]
@@ -4351,15 +3597,10 @@
       "IfcSpace:USERDEFINED:ACCESSROAD",
       "IfcSpace:USERDEFINED:VEHICULARSERVICEROAD",
       "IfcSpace:USERDEFINED:FIREENGINEACCESSROAD",
-      "IfcSpace:USERDEFINED:STRATALOT",
-      "IfcSpace:USERDEFINED:SGFA",
-      "IfcSpace:USERDEFINED:COMMONPROPERTY",
-      "IfcSpace:USERDEFINED:EGRESS",
-      "IfcSpace:USERDEFINED:INGRESS",
-      "IfcSpace:USERDEFINED:VOID",
-      "IfcSpace:USERDEFINED:ACCESSORYLOT",
-      "IfcSpace:USERDEFINED:ACCESSPOINT",
-      "IfcSpace:SPACE:null"
+      "IfcCivilElement:USERDEFINED:LAYBY",
+      "IfcCivilElement:USERDEFINED:DRIVEWAY",
+      "IfcSpace:USERDEFINED:ACCESSWAY",
+      "IfcCivilElement:USERDEFINED:BACKLANE"
     ]
   },
   {
@@ -4384,6 +3625,84 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:CABLING"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Drain",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Floors",
+        "Generic Models"
+      ],
+      "ArchiCAD": [
+        "Slab",
+        "Object"
+      ],
+      "Tekla": [
+        "Slab",
+        "Panel"
+      ],
+      "Bentley": [
+        "Slab",
+        "Drains&Basins"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcCivilElement:USERDEFINED:SURFACEDRAIN",
+      "IfcCivilElement:USERDEFINED:STORMWATERDRAIN",
+      "IfcCivilElement:USERDEFINED:ROADSIDEDRAIN",
+      "IfcCivilElement:USERDEFINED:INTERNALDRAIN",
+      "IfcCivilElement:USERDEFINED:CHANNELDRAIN",
+      "IfcCivilElement:USERDEFINED:TRENCHDRAIN",
+      "IfcCivilElement:USERDEFINED:COMMONDRAIN",
+      "IfcCivilElement:USERDEFINED:GUTTERDRAIN",
+      "IfcCivilElement:USERDEFINED:OUTLETDRAIN"
     ]
   },
   {
@@ -4774,29 +4093,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Bus Shelter",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:BUSSHELTER"
-    ]
-  },
-  {
     "IdentifiedComponent": "Damper",
     "Beta": false,
     "representation": {
@@ -4823,6 +4119,77 @@
       "IfcDamper:NOTDEFINED:null",
       "IfcDamper:FUMEHOODEXHAUST:null",
       "IfcDamper:FIRESMOKEDAMPER:null"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Earthworks",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Topography",
+        "Area",
+        "Generic Models",
+        "Planting"
+      ],
+      "ArchiCAD": [
+        "Mesh",
+        "Object"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Mesh",
+        "Object"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcGeographicElement:TERRAIN:null"
     ]
   },
   {
@@ -4956,8 +4323,7 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingSystem:USERDEFINED:HOUSEHOLDSHELTER",
-      "IfcBuildingSystem:USERDEFINED:STOREYSHELTER",
-      "IfcBuildingSystem:USERDEFINED:STAIRCASESTOREYSHELTER"
+      "IfcBuildingSystem:USERDEFINED:STOREYSHELTER"
     ]
   },
   {
@@ -5139,37 +4505,11 @@
     ]
   },
   {
-    "IdentifiedComponent": "Water Cooler",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:WATERCOOLER:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Recyclables Compactor",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Furniture",
-        "Generic Models"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
         "Object"
@@ -5178,37 +4518,12 @@
         "N.A"
       ],
       "Bentley": [
-        "Furniture"
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:RECYCLABLECOMPACTOR"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Dishwasher",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:DISHWASHER:null"
+      "IfcTank:USERDEFINED:RECYCLABLECOMPACTOR"
     ]
   },
   {
@@ -5357,30 +4672,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDiscreteAccessory:USERDEFINED:BENCHING"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Guide Shoe",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:LIFT_GUIDESHOE"
     ]
   },
   {
@@ -5561,32 +4852,215 @@
     ]
   },
   {
-    "IdentifiedComponent": "Water Playground",
+    "IdentifiedComponent": "Slab",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Floors"
+      ],
+      "ArchiCAD": [
+        "Slab"
+      ],
+      "Tekla": [
+        "Slab",
+        "Concrete Slab"
+      ],
+      "Bentley": [
+        "Slab"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Approved Document - Acceptable Solutions",
+        "agency": "BCA",
+        "chapters": [
+          {
+            "chapterName": "Headroom and Ceiling Height: Headroom",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.2 Note",
+                "clauses": [
+                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
+                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
+                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
+                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
+                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
+                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.1",
+                "clauses": [
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.2",
+                "clauses": [
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.2.1",
+                "clauses": [
+                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.2 Note",
+                "clauses": [
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Headroom and Ceiling Height: Ceiling Height",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.3.1",
+                "clauses": [
+                  "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
+                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+                ]
+              },
+              {
+                "clauseNumber": "C.3.3 Note",
+                "clauses": [
+                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Educational Institution Handbook",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Greenery",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum depth is 500mm",
+                  "LUSH Incentives\nCommunal Planter Box\nIf Communal Planter Boxes are proposed, the maximum width is 1m. To highlight for Planner's assessment if wider than 1m is proposed.",
+                  "LUSH Incentives\nCommunal Planter Box\nPlanter Boxes to be sufficiently externalised. Hence, to highlight to Planner if planter box is not located along edges of building."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcSlab:NOTDEFINED:null",
+      "IfcSlab:FLOOR:null",
+      "IfcSlab:USERDEFINED:RAFTSLAB",
+      "IfcSlab:USERDEFINED:INTERMEDIATEPLATFORM"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Shading Device",
     "Beta": false,
     "representation": {
       "Revit": [
         "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
+        "Curtain Panel"
       ],
       "ArchiCAD": [
         "Object",
-        "Morph"
+        "Roof"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
         "Object",
-        "Solid",
-        "Forms"
+        "Roof"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:WATERPLAYGROUND"
+      "IfcShadingDevice:USERDEFINED:PERFORATEDPANEL",
+      "IfcShadingDevice:USERDEFINED:PARASOL",
+      "IfcShadingDevice:USERDEFINED:EXTERNALFINS",
+      "IfcShadingDevice:USERDEFINED:LOUVREDPANEL",
+      "IfcShadingDevice:USERDEFINED:SHUTTERBOARD",
+      "IfcShadingDevice:AWNING:null",
+      "IfcShadingDevice:USERDEFINED:DROPDOWNPANEL",
+      "IfcShadingDevice:USERDEFINED:SUNBREAKER",
+      "IfcShadingDevice:USERDEFINED:SHIELD",
+      "IfcShadingDevice:USERDEFINED:WEATHERFEATURE",
+      "IfcShadingDevice:SHUTTER:null",
+      "IfcShadingDevice:USERDEFINED:CANOPY",
+      "IfcShadingDevice:USERDEFINED:ROLLDOWNCURTAIN",
+      "IfcShadingDevice:NOTDEFINED:null",
+      "IfcShadingDevice:USERDEFINED:TRELLIS"
     ]
   },
   {
@@ -5752,6 +5226,35 @@
     ]
   },
   {
+    "IdentifiedComponent": "Building Mass",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Generic Models",
+        "Specialty Equipment",
+        "Floors",
+        "Mass",
+        "Parking"
+      ],
+      "ArchiCAD": [
+        "Object",
+        "Morph"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Object",
+        "Solid",
+        "Forms"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcBuildingElementProxy:USERDEFINED:BLOCKREFERENCE"
+    ]
+  },
+  {
     "IdentifiedComponent": "Refuse Chute",
     "Beta": true,
     "representation": {
@@ -5914,35 +5417,8 @@
     ]
   },
   {
-    "IdentifiedComponent": "Shrub",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Area",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:LANDSCAPE_SHRUBS"
-    ]
-  },
-  {
     "IdentifiedComponent": "Racking System",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Furniture",
@@ -6009,59 +5485,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Culvert",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Floors",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Slab",
-        "Object"
-      ],
-      "Tekla": [
-        "Slab",
-        "Panel"
-      ],
-      "Bentley": [
-        "Slab",
-        "Drains&Basins"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
-        "chapters": [
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcCivilElement:CULVERT:null",
-      "IfcCivilElement:USERDEFINED:BOXCULVERT",
-      "IfcCivilElement:USERDEFINED:ENTRANCECULVERT"
-    ]
-  },
-  {
     "IdentifiedComponent": "Turnstile",
     "Beta": false,
     "representation": {
@@ -6119,28 +5542,21 @@
     "Beta": false,
     "representation": {
       "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
-        "Object",
-        "Morph"
+        "Flow Equipment"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
+        "Equipment"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:INCINERATOR"
+      "IfcUnitaryEquipment:USERDEFINED:INCINERATOR"
     ]
   },
   {
@@ -6249,8 +5665,7 @@
     "Beta": false,
     "representation": {
       "Revit": [
-        "Furniture",
-        "Generic Models"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
         "Object"
@@ -6259,12 +5674,12 @@
         "N.A"
       ],
       "Bentley": [
-        "Furniture"
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:REFUSEBIN"
+      "IfcTank:USERDEFINED:REFUSEBIN"
     ]
   },
   {
@@ -6561,6 +5976,360 @@
     ]
   },
   {
+    "IdentifiedComponent": "Space",
+    "Beta": true,
+    "representation": {
+      "Revit": [
+        "Mass",
+        "Areas",
+        "Rooms"
+      ],
+      "ArchiCAD": [
+        "Zone"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Space"
+      ]
+    },
+    "gateway": [
+      {
+        "code": "Approved Document - Acceptable Solutions",
+        "agency": "BCA",
+        "chapters": [
+          {
+            "chapterName": "Headroom and Ceiling Height: Headroom",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.2 Note",
+                "clauses": [
+                  "(c) in all other cases, the underside of any beam, duct, service pipe, fixture, fitting or other obstruction or projection.",
+                  "(b) in the case where window opens into an access route or circulation space, the underside of the opened window, or",
+                  "4. The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway. ",
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres",
+                  "1. The term\" access route\" shall include a covered walkway or footway of a building",
+                  "2. The headroom is measured from the finished floor level to -\n(a) in the case of a doorway, the underside of the transom, ",
+                  "3. The headroom along a flight of staircase is measured vertically between the pitch line and any point directly above that limits the headroom. See Figure C.3.2.1(a) for illustration or headrom measurement at staircases.",
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.1",
+                "clauses": [
+                  "The headroom of every room, access route, circulation space shall not be less than 2.00m\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located laong an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres"
+                ]
+              },
+              {
+                "clauseNumber": "C.3.2.2",
+                "clauses": [
+                  "For Sheltered car parks, the headroom at parking lots and driveway shall not be less than 2.2m"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.2.1",
+                "clauses": [
+                  "No projection, other than handrails, is allowed into the space of a staircase that is within a height of 2.0 m from the landing or pitch line.",
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.2 Note",
+                "clauses": [
+                  "The pitch line is the notional line joining the leading edge or nosings (if any) of successive stair treads within a flight of a stairway"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Risers and treads",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.4.2",
+                "clauses": [
+                  "(b) 250mm, if the staircase is in an industrial building, or;",
+                  "The width of a thread of a staircase (see Figure E.3.4.2(a) for measurement of \"tread\") shall not be less than:\n(a) 225 mm, if the staircase is in a residential unit within a residential building;",
+                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use",
+                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end.",
+                  "(c) 275 mm, if the staircase is in any other type of building, including common staircases in a residential building. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.4.1",
+                "clauses": [
+                  "The height of a riser shall not be more than 175 mm.\n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
+                ]
+              },
+              {
+                "clauseNumber": "E.3.4.3",
+                "clauses": [
+                  "The width of the tread of any tapered step shall be measured at a distance of 500mm from the narrower end."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Headroom and Ceiling Height: Ceiling Height",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "C.3.3.1",
+                "clauses": [
+                  "The ceiling height of rooms and spaces shall not be less than 2.4m.\n\nC.2.2\nThe requirements in paragraph C.2.1(a) and (b) do not apply to any of the following rooms or spaces:\n(a) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a  house that is built for the owners's own use;\n(b) any equipment or plant room;\n(c) the underside of any staircase or escalator if the staircase or escalator is not located along an access route or ciruclation space;\n(d) any toilet, bathroom or lavatory in any house built for the in any house built for the owner's own use;\n(e) any storeroom not exceeding an area of 6 square metres\n\nC.2.3\nThe requirement in paragraph C.2.1(b) does not apply to any of the following rooms or spaces:\n(a) any corridor or lobby;\n(b) any toilet, bathroom, lavatory or powder room\n(c) any localised area within a room or space where there is a drop in ceiling height due to physical constaints such as structural beams or building services. ",
+                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+                ]
+              },
+              {
+                "clauseNumber": "C.3.3 Note",
+                "clauses": [
+                  "The ceiling height is measured from the finished floor level to the underside of any slab, false ceiling or suspended ceiling, whichever is lower. "
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Width of staircase",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.3.1",
+                "clauses": [
+                  "Note: If the projection of the handrail into the clear width does not exceed 80mm on each side of the staircase, the width is measured from\n(a) The finished surfaces of the walls, if the staircase is enclosed on both sides by walls only; or",
+                  "(c) The inner sides of the balustrades if the staircase has balustrades on both sides ",
+                  "(b) The inner sides of the handrails if the staircase has handrails on both sides. ",
+                  "(b) The finished surface of the wall and the inner side of the balustrade, if the staircase has a wall on one side and a balustrade on the other side; or",
+                  "If the projection of the handrail into the clear width exceeds 80mm on one or more side of the staircase, the clear width of the staircase shall be measured from:\n(a) The finished surface of the wall and the inner side of the handrail, if the staircase has a wall on one side and a balustrade on the other side; or",
+                  "The clear width of every staircase shall not be less than 1000mm. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c) any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Ventilation",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "G.2.2",
+                "clauses": [
+                  "Residential buildings, other than houses built by the owners for their own use, shall be provided with natural ventilation for the purpose of paragraph G.2.1.\n\nG.2.4 Despite paragraph G.2.2, mechanical ventilation may be provided to any of the following rooms or spaces in any residential development:\n(i) any fitness room forming part of the communal area or common property;\n(ii) any clubhouse;\n(iii) any civil defence shelter;\n(iv) any toilet, bathroom or lavatory;\n(v) any basement.",
+                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
+                ]
+              },
+              {
+                "clauseNumber": "G.2.1",
+                "clauses": [
+                  "Ventilation shall be adequately provided in a building for its intended occupancy.\n\nG.2.3 The requirement in paragraph G.2.1 does not apply to any of the following rooms or spaces –\n(a) any store room not exceeding an area of 6 square metres;\n(b) any private lift lobby not exceeding an area of 6 square metres."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircase: Risers and treads",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.4.4",
+                "clauses": [
+                  "The risers and treads within each flight of stairs shall be of uniform height and size.\n"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Safety from Falling: Height of Barrier",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "H.3.2 Note",
+                "clauses": [
+                  "1. The height of a barrier is measures vertically from the finished floor level to the top of the barrier.",
+                  "2. The height of a barrier at the flight of stairs is measured vertically from the pitch line to the top of the barrier.",
+                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;",
+                  "(b) 900mm at the lower edge of the window and gallery or balcony with fixed seating in areas such as theatres, cinemas and assembling halls\n\nH.2.2 The requirement in paragraphs H.2.1, H.2.1A and H.2.1B do not apply to –\n(a) any roof which is accessible for maintenance purposes only and not easily accessible to the public; and\n(b) any area where the provision of a barrier would prevent it from being used as intended, such as a loading dock or pier, platform for the loading or unloading of goods, or for boarding or alighting of passengers, stage for performance or entertainment, golf driving range, equipment pit and the like.\n\nH.2.3 The requirement in paragraph H.2.1A(a) does not apply to a barrier installed in any house built for the owner’s own use.",
+                  "3. Where a kerb or step with dimensions more than 150 mm width by 150 mm length is provided next to a barrier, the height of the barrier shall be measured from the top of the kerb or step."
+                ]
+              },
+              {
+                "clauseNumber": "H.3.2.1",
+                "clauses": [
+                  "The height of a barrier shall not be less than -\n(a) 1.0 metre  or;"
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Handrails ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.6.1",
+                "clauses": [
+                  "A handrail shall be provided on at least one side of the flight of any staircase with more than 5 steps.\n\nE.2.3.\nThe requirement in paragraph E.2.2(a) does not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any house built for the owner's own use.",
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. ",
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.5",
+                "clauses": [
+                  "A handrail shall be continuous throughout the entire length of the stairs and the ends of the handrail should be properly formed or rounded off so that they do not pose a danger to the user. "
+                ]
+              },
+              {
+                "clauseNumber": "E.3.6.2",
+                "clauses": [
+                  "The height of the handrail shall be between 750 mm and 1000 mm above the pitch line."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Staircases: Landing",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "E.3.5.2",
+                "clauses": [
+                  "Except for spiral staircases, an intermediate landing shall be provided in between floor levels at intervals of not more than 18 risers. ",
+                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use.",
+                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase.",
+                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.5.1",
+                "clauses": [
+                  "A landing shall be provided at every floor and door opening. \n\nE.2.4\nThe requirements in paragraph E.2.2(b) and (c) do not apply to a staircase located in any of the following rooms or spaces:\n(a) any equipment or plant room;\n(b) any production area of an industrial building;\n(c)\n any attic that:\n(i) does not exceed an area of 10 square metres; and\n(ii) is in a residential building;\n(d) any house built for the owner's own use."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.5.4",
+                "clauses": [
+                  "A landing shall not have any step or drop, except that in a dwelling unit, one winder is allowed in every 90 degrees turn in the staircase."
+                ]
+              },
+              {
+                "clauseNumber": "E.3.5.3",
+                "clauses": [
+                  "The clear width of any landing shall not be less than 1000mm. See Figure E.3.5.3(a) and (b) on how to measure landing width."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Safety from Falling: Safety from falling ",
+            "gateway": [
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "H.2.1",
+                "clauses": [
+                  "Where there is a vertical drop in level of 1.0 m or more, appropriate measures shall be taken to prevent people from falling from a height."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Residential Handbook (Flats and Condos)",
+        "agency": "URA",
+        "chapters": [
+          {
+            "chapterName": "Balconies, Private Enclosed Spaces, Private Roof Terraces and Indoor Recreation Spaces",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "",
+                "clauses": [
+                  "Max size of each balcony is 15% of internal nett unit size (i.e excludes voids, AC ledges & other external areas)",
+                  "GFA of balconies can be allowed above MP allowable GPR, subject to cap of 7% inclusive of planter boxes",
+                  "Railing or Parapet Wall along Balconies to be kept at 1.3m",
+                  "Balconies with exclusive access from the kitchen/yard/utility space are treated as service balconies and do not qualify for bonus GFA. \n\nBalconies which serve as the only access into a dwelling unit do not qualify for bonus GFA",
+                  "Balconies shall not be located next to M&E areas",
+                  "Balconies shall have a continuous perimeter opening of at least 40%.",
+                  "Walls in-between adjoining balconies that exceed 1.3m are not considered as \"open\"."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
+        "agency": "LTA",
+        "chapters": [
+          {
+            "chapterName": "Parking Layout Dimensions: Bicycle parking provision",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "2.4",
+                "clauses": [
+                  "There should be a minimum of 10 bicycle parking lots within a location.  ",
+                  "Minimum length of 2-tiers bicycle lot shall be 2000mm",
+                  "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for 2- tiers bicycle racks shall be 2500mm",
+                  "Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for single tier bicycle rack shall be 1500mm",
+                  "A bicycle parking rack shall be provided for each bicycle parking lot and anchored to the ground so as to allow cyclists to lock their bicycles with ease. ",
+                  "Minimum width of single-tier bicycle lot shall be  600mm",
+                  "Minimum length of single-tier bicycle lot shall be 1800mm",
+                  "Minimum width of 2-tiers bicycle lot shall be 650mm",
+                  "Bicycle parking lots shall be separated from the car park area."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SubTypeKeys": [
+      "IfcSpace:USERDEFINED:STRATALOT",
+      "IfcSpace:USERDEFINED:COMMONPROPERTY",
+      "IfcSpace:USERDEFINED:EGRESS",
+      "IfcSpace:USERDEFINED:INGRESS",
+      "IfcSpace:USERDEFINED:VOID",
+      "IfcSpace:USERDEFINED:ACCESSORYLOT",
+      "IfcSpace:USERDEFINED:ACCESSPOINT",
+      "IfcSpace:SPACE:null"
+    ]
+  },
+  {
     "IdentifiedComponent": "Borehole",
     "Beta": false,
     "representation": {
@@ -6587,31 +6356,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingElementProxy:USERDEFINED:BOREHOLE"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Refrigerator",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:REFRIGERATOR:null"
     ]
   },
   {
@@ -6718,56 +6462,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Flush Bolt",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:FLUSHBOLT"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Roof",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Roofs"
-      ],
-      "ArchiCAD": [
-        "Roof"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Roof"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcRoof:NOTDEFINED:null",
-      "IfcRoof:GABLE_ROOF:null",
-      "IfcRoof:USERDEFINED:JACK_ROOF",
-      "IfcRoof:SHED_ROOF:null",
-      "IfcRoof:FLAT_ROOF:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Beam-Facade Wall",
     "Beta": false,
     "representation": {
@@ -6789,31 +6483,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingSystem:USERDEFINED:BEAMFACADEWALL"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Water Heater",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:WATERHEATER:null"
     ]
   },
   {
@@ -6914,29 +6583,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcBuildingSystem:USERDEFINED:DRAINAGE"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Cabinet",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:CABINET"
     ]
   },
   {
@@ -7091,30 +6737,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Prefabricated And Prefinished Ceiling with MEP Services",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:PREFABRICATEDANDPREFINISHEDCEILING"
-    ]
-  },
-  {
     "IdentifiedComponent": "Flow Meter",
     "Beta": false,
     "representation": {
@@ -7139,82 +6761,6 @@
       "IfcFlowMeter:ENERGYMETER:null",
       "IfcFlowMeter:GASMETER:null",
       "IfcFlowMeter:USERDEFINED:MASSFLOWMETER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Child Protection Seat",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:CHILDPROTECTIONSEAT"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Floor Marking",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_FLOORMARKING"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Dry Weather Flow",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:DRYWEATHERFLOW"
     ]
   },
   {
@@ -7308,30 +6854,6 @@
     ],
     "SubTypeKeys": [
       "IfcSlab:LANDING:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Prefabricated MEP Plant Module",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:PREFABRICATEDMEPPLANTMODULE"
     ]
   },
   {
@@ -7492,41 +7014,11 @@
     ]
   },
   {
-    "IdentifiedComponent": "Rung",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:RUNG"
-    ]
-  },
-  {
     "IdentifiedComponent": "Recyclables Container",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Furniture",
-        "Generic Models"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
         "Object"
@@ -7535,12 +7027,12 @@
         "N.A"
       ],
       "Bentley": [
-        "Furniture"
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:RECYCLABLECONTAINER"
+      "IfcTank:USERDEFINED:RECYCLABLECONTAINER"
     ]
   },
   {
@@ -7565,6 +7057,30 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:FRESHAIR"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Deep Tunnel Sewerage System",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Piping Systems",
+        "MEP Fabrication Pipework",
+        "Duct Systems"
+      ],
+      "ArchiCAD": [
+        "MEP System"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "System"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcDistributionSystem:USERDEFINED:DEEPTUNNELSEWERAGE"
     ]
   },
   {
@@ -7840,16 +7356,15 @@
             ]
           },
           {
-            "chapterName": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
+            "chapterName": "Sewerage System Design: Hydraulic Drop Structures",
             "gateway": [
-              "Design",
               "Construction"
             ],
             "clauseNumbers": [
               {
-                "clauseNumber": "1.2.1 ",
+                "clauseNumber": "STD.dwg.3.4",
                 "clauses": [
-                  "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
+                  "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
                 ]
               }
             ]
@@ -7883,6 +7398,30 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:DOMESTICHOTWATER"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Trade Effluent System",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Piping Systems",
+        "MEP Fabrication Pipework",
+        "Duct Systems"
+      ],
+      "ArchiCAD": [
+        "MEP System"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "System"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcDistributionSystem:USERDEFINED:TRADEEFFLUENT"
     ]
   },
   {
@@ -7964,28 +7503,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Computer",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcCommunicationsAppliance:COMPUTER:null"
-    ]
-  },
-  {
     "IdentifiedComponent": "Roofing",
     "Beta": false,
     "representation": {
@@ -8021,103 +7538,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Prefabricated And Prefinished Floor with MEP Services",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:PREFABRICATEDANDPREFINISHEDFLOOR"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Convex Mirror",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:CONVEXMIRROR"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Washing Machine",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:WASHINGMACHINE:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Range Hood",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:RANGEHOOD"
-    ]
-  },
-  {
     "IdentifiedComponent": "Neighbouring Lot",
     "Beta": false,
     "representation": {
@@ -8142,59 +7562,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:NEIGHBOURINGLOT"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Prefabricated MEP Vertical Module",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:PREFABRICATEDMEPVERTICALMODULE"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Tree Protection Zone",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_TREEPROTECTIONZONE"
     ]
   },
   {
@@ -8239,59 +7606,12 @@
                 ]
               }
             ]
-          },
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Sewerage System Design: Hydraulic Drop Structures",
-            "gateway": [
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "STD.dwg.3.4",
-                "clauses": [
-                  "(a)This rule shall check for the minimum depth between the centreline of the sewer connection and internal top of the manhole is more than 300mm."
-                ]
-              }
-            ]
-          },
-          {
-            "chapterName": "Planning Considerations: Planning Considerations: Sanitary Drainage System",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.1 ",
-                "clauses": [
-                  "(b) Top levels of Inspection Chambers (IC) shall be at the same level or higher than the top level of the manhole to which the development connects."
-                ]
-              }
-            ]
           }
         ]
       }
     ],
     "SubTypeKeys": [
-      "IfcDistributionSystem:USERDEFINED:SEWAGE"
+      "IfcDistributionSystem:USERDEFINED:SEWERAGE"
     ]
   },
   {
@@ -8314,92 +7634,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcCompressor:NOTDEFINED:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Road",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Floors",
-        "Generic Models",
-        "Mass",
-        "Areas",
-        "Rooms"
-      ],
-      "ArchiCAD": [
-        "Slab",
-        "Object",
-        "Zone"
-      ],
-      "Tekla": [
-        "Slab",
-        "Panel",
-        "N.A"
-      ],
-      "Bentley": [
-        "Slab",
-        "Drains&Basins",
-        "Space"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
-        "chapters": [
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "code": "Code of Practice on Vehicle Parking Provision in Development Proposals",
-        "agency": "LTA",
-        "chapters": [
-          {
-            "chapterName": "Parking Layout Dimensions: Motor-cycle parking provision",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "2.3",
-                "clauses": [
-                  "The minimum width of a motor-cycle parking lot shall be 800mm.",
-                  "The minimum width of accessway for motorcycle lots shall be 1200mm",
-                  "If provided next to parking lots, a gap of 500mm to be provided between car and motor-cycle lots.",
-                  "The lots should not obstruct movement of other vehicles and pedestrians.",
-                  "The minimum length of a motor-cycle parking lot shall be 2400mm.",
-                  "The Parking Layout Dimensions: Car Parking Places: Minimum width of parking aisle for motorcycle lots shall be 2000mm"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcCivilElement:USERDEFINED:LAYBY",
-      "IfcCivilElement:USERDEFINED:DRIVEWAY",
-      "IfcSpace:USERDEFINED:ACCESSWAY",
-      "IfcCivilElement:USERDEFINED:BACKLANE"
     ]
   },
   {
@@ -8899,7 +8133,7 @@
   },
   {
     "IdentifiedComponent": "Site Boundary (Cadastral Lot)",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [],
       "ArchiCAD": [],
@@ -8963,30 +8197,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Lift Car Apron",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:LIFT_APRON"
-    ]
-  },
-  {
     "IdentifiedComponent": "Fire Protection System",
     "Beta": false,
     "representation": {
@@ -9011,28 +8221,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Mosquito-proof Net",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Pipe Fittings"
-      ],
-      "ArchiCAD": [
-        "Pipe Fitting"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Pipe Accessory"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcStackTerminal:USERDEFINED:MOSQUITONET"
-    ]
-  },
-  {
     "IdentifiedComponent": "Umbrella",
     "Beta": false,
     "representation": {
@@ -9053,58 +8241,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcFurniture:USERDEFINED:UMBRELLA"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Green Verge",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Area",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
-        "chapters": [
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:GREENVERGE"
     ]
   },
   {
@@ -9153,6 +8289,35 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:SPRINKLER"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Exit Point",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Generic Models",
+        "Specialty Equipment",
+        "Floors",
+        "Mass",
+        "Parking"
+      ],
+      "ArchiCAD": [
+        "Object",
+        "Morph"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Object",
+        "Solid",
+        "Forms"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcBuildingElementProxy:USERDEFINED:EXITPOINT"
     ]
   },
   {
@@ -9227,87 +8392,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Concrete Marker",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:CONCRETEMARKER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Planting Area",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Area",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [
-      {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
-        "chapters": [
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:PLANTINGAREA"
-    ]
-  },
-  {
     "IdentifiedComponent": "Structural Grid",
     "Beta": false,
     "representation": {
@@ -9354,30 +8438,6 @@
       "IfcDistributionChamberElement:GULLYSUMP:null",
       "IfcDistributionChamberElement:USERDEFINED:WASTESUMP",
       "IfcDistributionChamberElement:USERDEFINED:FLOORSUMP"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Prefabricated MEP Horizontal Module",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:PREFABRICATEDMEPHORIZONTALMODULE"
     ]
   },
   {
@@ -9432,28 +8492,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:LIGHTNINGPROTECTION"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Burner",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBurner:USERDEFINED:OPENFLAMECOOKING"
     ]
   },
   {
@@ -9540,62 +8578,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Proposed Earthworks",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Topography",
-        "Area",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcGeographicElement:USERDEFINED:PROPOSEDEARTHWORKS"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Permanent Unit Number Tag",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:PERMANENTUNITNUMBERTAG"
-    ]
-  },
-  {
     "IdentifiedComponent": "Supply Air System",
     "Beta": false,
     "representation": {
@@ -9642,56 +8624,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcMember:STRINGER:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Water Dispenser",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:WATERDISPENSER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Scraper",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:SCRAPER"
     ]
   },
   {
@@ -9813,29 +8745,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Letter Box",
-    "Beta": true,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:LETTERBOX"
-    ]
-  },
-  {
     "IdentifiedComponent": "Pumping Main",
     "Beta": false,
     "representation": {
@@ -9906,35 +8815,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Wheelchair Space",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_WHEELCHAIRSPACE"
-    ]
-  },
-  {
     "IdentifiedComponent": "Fuel System",
     "Beta": false,
     "representation": {
@@ -9980,60 +8860,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcFooting:PILE_CAP:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Ice Maker",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:ICEMAKER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "False Bottom",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:FALSEBOTTOM"
     ]
   },
   {
@@ -10093,31 +8919,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDiscreteAccessory:USERDEFINED:GRATING"
-    ]
-  },
-  {
-    "IdentifiedComponent": "High Pressure Cleaner",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:HIGHPRESSURECLEANER"
     ]
   },
   {
@@ -10198,59 +8999,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Lightning Tape",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcDiscreteAccessory:USERDEFINED:LPS_LIGHTNINGTAPE"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Passing Space",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
-      ],
-      "ArchiCAD": [
-        "Object",
-        "Morph"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_PASSINGSPACE"
-    ]
-  },
-  {
     "IdentifiedComponent": "Bin Lifter",
     "Beta": false,
     "representation": {
@@ -10298,29 +9046,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Mirror",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Furniture",
-        "Generic Models"
-      ],
-      "ArchiCAD": [
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Furniture"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcFurniture:USERDEFINED:MIRROR"
-    ]
-  },
-  {
     "IdentifiedComponent": "Air Conditioning System",
     "Beta": false,
     "representation": {
@@ -10342,31 +9067,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:AIRCONDITIONING:null"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Freezer",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:FREEZER:null"
     ]
   },
   {
@@ -10472,30 +9172,6 @@
     ]
   },
   {
-    "IdentifiedComponent": "Prefabricated And Prefinished Wall with MEP Services",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Model Groups"
-      ],
-      "ArchiCAD": [
-        "IFC Assignments",
-        "Group"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "System",
-        "Group"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcBuildingSystem:USERDEFINED:PREFABRICATEDANDPREFINISHEDWALL"
-    ]
-  },
-  {
     "IdentifiedComponent": "Footpath",
     "Beta": true,
     "representation": {
@@ -10521,6 +9197,25 @@
         "code": "Code of Practice on Sewerage and Sanitary Works",
         "agency": "PUB",
         "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
           {
             "chapterName": "Planning Considerations: Structures over Sewer",
             "gateway": [
@@ -10650,6 +9345,30 @@
     ],
     "SubTypeKeys": [
       "IfcBuildingSystem:USERDEFINED:RECYCLABLESCHUTE"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Dual Function SAD/SED System",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Piping Systems",
+        "MEP Fabrication Pipework",
+        "Duct Systems"
+      ],
+      "ArchiCAD": [
+        "MEP System"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "System"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcDistributionSystem:USERDEFINED:DUALFUNCTIONSADSED"
     ]
   },
   {
@@ -10893,7 +9612,7 @@
   },
   {
     "IdentifiedComponent": "Tree",
-    "Beta": false,
+    "Beta": true,
     "representation": {
       "Revit": [
         "Topography",
@@ -10913,7 +9632,51 @@
         "Object"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcGeographicElement:USERDEFINED:LANDSCAPE_TREE"
     ]
@@ -10995,32 +9758,28 @@
     ]
   },
   {
-    "IdentifiedComponent": "Refuge Space Marking",
+    "IdentifiedComponent": "Sump Pit",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
+        "Plumbing Fixtures",
+        "Generic Models"
       ],
       "ArchiCAD": [
-        "Object",
-        "Morph"
+        "Flow Equipment",
+        "Object"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
+        "Equipment",
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:2D_LIFTREFUGESPACE"
+      "IfcDistributionChamberElement:USERDEFINED:SUMPPIT"
     ]
   },
   {
@@ -11182,26 +9941,13 @@
     ]
   },
   {
-    "IdentifiedComponent": "Palm",
-    "Beta": false,
+    "IdentifiedComponent": "Tree (Palm)",
+    "Beta": true,
     "representation": {
-      "Revit": [
-        "Topography",
-        "Area",
-        "Generic Models",
-        "Planting"
-      ],
-      "ArchiCAD": [
-        "Mesh",
-        "Object"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Mesh",
-        "Object"
-      ]
+      "Revit": [],
+      "ArchiCAD": [],
+      "Tekla": [],
+      "Bentley": []
     },
     "gateway": [],
     "SubTypeKeys": [
@@ -11277,28 +10023,6 @@
     "gateway": [],
     "SubTypeKeys": [
       "IfcDistributionSystem:USERDEFINED:INDUSTRIALWATER"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Governor",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Mechanical Equipment"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcMotorConnection:USERDEFINED:LIFT_GOVERNOR"
     ]
   },
   {
@@ -11625,61 +10349,29 @@
     ]
   },
   {
-    "IdentifiedComponent": "Drinking Fountain",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:DRINKINGFOUNTAIN"
-    ]
-  },
-  {
     "IdentifiedComponent": "Fuel Burning Equipment",
     "Beta": false,
     "representation": {
       "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
-        "Object",
-        "Morph"
+        "Flow Equipment"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
+        "Equipment"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:FUELBURNINGEQUIPMENT"
+      "IfcUnitaryEquipment:USERDEFINED:FUELBURNINGEQUIPMENT"
     ]
   },
   {
-    "IdentifiedComponent": "Line Marking",
+    "IdentifiedComponent": "Access Route",
     "Beta": true,
     "representation": {
       "Revit": [
@@ -11731,7 +10423,86 @@
       }
     ],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:LINEMARKING"
+      "IfcBuildingElementProxy:USERDEFINED:ACCESSROUTE"
+    ]
+  },
+  {
+    "IdentifiedComponent": "Signage",
+    "Beta": false,
+    "representation": {
+      "Revit": [
+        "Generic Models",
+        "Specialty Equipment",
+        "Floors",
+        "Mass",
+        "Parking"
+      ],
+      "ArchiCAD": [
+        "Object",
+        "Morph"
+      ],
+      "Tekla": [
+        "N.A"
+      ],
+      "Bentley": [
+        "Object",
+        "Solid",
+        "Forms"
+      ]
+    },
+    "gateway": [],
+    "SubTypeKeys": [
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIREACCESSOPENING",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_STORAGEHEIGHT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ACCESSHATCH",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIRESHUTTER",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_COOLINGTOWER",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIREESCAPEBEDLIFT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RESCUEHOOK",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_DOSANDDONTS",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_WATERTAPPOINT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_HEARINGPROTECTION",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_WARNING",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYINFORMATION",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EXITSTAIRCASE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EXITACCESSDOOR",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ESCAPEPLAN",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_LIFTWELL",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EVACUEEHOLDINGAREA",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SCBA",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RECYCLABLESCHUTE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYCUTOFF",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_PRIVATEUSE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EVACUATIONLIFT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_CIRCUITDIAGRAM",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ELECTRICVEHICLE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SMOKEVENT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_HAZARDWARNINGSIGN",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SITEPLAN",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FLOORLEVELEXITSIGN",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_ LPSWARNING",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_POPSINFORMATIONPLAQUE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RECYCLABLES",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_RINSESHOWER",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_NOOBSTRUCTION",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_GASLEAK",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_BREECHINGINLET",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_COMMUNICATIONINSTRUCTION",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_LPG",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_OPERATINGINSTRUCTION",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EXIT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYDOORRELEASE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_THROUGHBLOCKLINK",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_DIRECTIONALEXIT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_BIOHAZARDCAUTION",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_GENERALWASTES",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_SMOKECURTAIN",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_EMERGENCYRELEASE",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_WHEELCHAIRSYMBOL",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_FIRESAFETYEQUIPMENT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNPOST_DRIVEWAY",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE_PWDHOLDINGPOINT",
+      "IfcBuildingElementProxy:USERDEFINED:SIGNAGE"
     ]
   },
   {
@@ -11788,33 +10559,8 @@
     ]
   },
   {
-    "IdentifiedComponent": "Fume Hood",
-    "Beta": false,
-    "representation": {
-      "Revit": [
-        "Electrical Equipment",
-        "Mechanical Equipment"
-      ],
-      "ArchiCAD": [
-        "Flow Equipment",
-        "Pipe Flow Terminal"
-      ],
-      "Tekla": [
-        "N.A"
-      ],
-      "Bentley": [
-        "Equipment",
-        "Fire Protection"
-      ]
-    },
-    "gateway": [],
-    "SubTypeKeys": [
-      "IfcElectricAppliance:USERDEFINED:FUMEHOOD"
-    ]
-  },
-  {
-    "IdentifiedComponent": "Civil Element",
-    "Beta": false,
+    "IdentifiedComponent": "Road Kerb",
+    "Beta": true,
     "representation": {
       "Revit": [
         "Floors",
@@ -11833,7 +10579,51 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:ROADKERB"
     ]
@@ -11868,30 +10658,6 @@
       ]
     },
     "gateway": [
-      {
-        "code": "Code of Practice on Sewerage and Sanitary Works",
-        "agency": "PUB",
-        "chapters": [
-          {
-            "chapterName": "Planning Considerations: Structures over Sewer",
-            "gateway": [
-              "Design",
-              "Construction"
-            ],
-            "clauseNumbers": [
-              {
-                "clauseNumber": "1.2.4 ",
-                "clauses": [
-                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
-                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
-                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
-                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
-                ]
-              }
-            ]
-          }
-        ]
-      },
       {
         "code": "Gross Floor Area Handbook",
         "agency": "URA",
@@ -11975,28 +10741,21 @@
     "Beta": false,
     "representation": {
       "Revit": [
-        "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
+        "Mechanical Equipment"
       ],
       "ArchiCAD": [
-        "Object",
-        "Morph"
+        "Flow Equipment"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
+        "Equipment"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:POLLUTIONCONTROLEQUIPMENT"
+      "IfcUnitaryEquipment:USERDEFINED:POLLUTIONCONTROLEQUIPMENT"
     ]
   },
   {
@@ -12004,28 +10763,26 @@
     "Beta": false,
     "representation": {
       "Revit": [
+        "Topography",
+        "Area",
         "Generic Models",
-        "Specialty Equipment",
-        "Floors",
-        "Mass",
-        "Parking"
+        "Planting"
       ],
       "ArchiCAD": [
-        "Object",
-        "Morph"
+        "Mesh",
+        "Object"
       ],
       "Tekla": [
         "N.A"
       ],
       "Bentley": [
-        "Object",
-        "Solid",
-        "Forms"
+        "Mesh",
+        "Object"
       ]
     },
     "gateway": [],
     "SubTypeKeys": [
-      "IfcBuildingElementProxy:USERDEFINED:BACKFILL"
+      "IfcGeographicElement:USERDEFINED:BACKFILL"
     ]
   },
   {
@@ -12049,7 +10806,51 @@
         "Drains&Basins"
       ]
     },
-    "gateway": [],
+    "gateway": [
+      {
+        "code": "Code of Practice on Sewerage and Sanitary Works",
+        "agency": "PUB",
+        "chapters": [
+          {
+            "chapterName": "Sewerage System Design: Sewers, Manholes and Pipe Connections",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "3.2.2",
+                "clauses": [
+                  "(c) The distance between manholes shall not be more than 120m.",
+                  "( e) All incoming sewer pipes connecting to manhole shall be joined at the soffit level of the outgoing sewer. Where a new 200mm diameter sewer connects to an existing 150mm diameter outgoing sewer, the connection shall be made at grade.",
+                  "(a) All sewers and manholes shall be at minimum 1.5m depth below ground and shall comply with PUB’s Standard Drawings (see Annex B). The structural design of sewers and manholes shall be carried out by a PE",
+                  "(f) Sewer pipes connecting at grade in a manhole shall not form an acute angle with the outgoing sewer.",
+                  "(d) Manholes walls, the underside of all platforms, slabs and other location shown in standard drawing shall have HDPE lining."
+                ]
+              }
+            ]
+          },
+          {
+            "chapterName": "Planning Considerations: Structures over Sewer",
+            "gateway": [
+              "Design",
+              "Construction"
+            ],
+            "clauseNumbers": [
+              {
+                "clauseNumber": "1.2.4 ",
+                "clauses": [
+                  "(c)\nUtilities may over-cross or under-cross sewer at minimum 1m vertical clearance but shall not be laid parallel to and over the sewer. Utilities laid parallel to the sewer shall keep a minimum 1m horizontal clearance from the sewer edge. Where the utility authorities require clearance of more than 1m for on sewers near their utilities after they are put into use, their proposed utilities shall keep the same clearance to the existing sewer in any direction when the utilities are laid.",
+                  "(d) No manhole shall be built inside any building or under any structures. Manhole shall not be covered up or paved over without the approval of PUB.",
+                  "(b) ‘Structure’ excludes lightweight and demountable elements such as awnings, surface drains, compound boundary wall & fencing, planting troughs and link-way shelters.",
+                  "(a) No structure or buildings shall be placed over or across any sewer without the approval of PUB."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "SubTypeKeys": [
       "IfcCivilElement:USERDEFINED:ISLAND"
     ]
