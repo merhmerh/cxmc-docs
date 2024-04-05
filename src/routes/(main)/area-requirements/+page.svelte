@@ -41,7 +41,7 @@ const schema = data.schema;
 
 <h2>Summary</h2>
 <div class="table_wrapper">
-    <table class="{$theme}horizontal noActionColumn">
+    <table class="{$theme} horizontal noActionColumn">
         <tr>
             <th><div>SubType</div></th>
             <th><div>PropertySet</div></th>

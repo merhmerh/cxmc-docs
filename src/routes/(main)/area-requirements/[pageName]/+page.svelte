@@ -54,8 +54,11 @@ import Image from "../Image.svelte";
                                     Refer to <a
                                         href="/area-requirements/area_gfa/agf-name?q=residential-(non-landed)"
                                         >AGF_Name</a> Page.
-                                {/if}
-                                {#if table.data.length}
+                                {:else if table.scheme == "AVF_Name"}
+                                    Refer to <a
+                                        href="/area-requirements/area_gfa/avf-name?q=residential-(non-landed)"
+                                        >AVF_Name</a> Page.
+                                {:else if table.data.length}
                                     {#each table.data as value}
                                         {#if value.includes("*")}
                                             {value.replace("*", "")}

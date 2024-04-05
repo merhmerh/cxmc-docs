@@ -1,11 +1,11 @@
 import { v5 as uuidv5 } from "uuid";
 import { getIfc } from "./revitMapping.js";
 import fs from "fs";
+import chalk from "chalk";
 
 const dnsNameSpace = "6ba7b810-9dad-11d1-80b4-00c04fd430c8";
 
 const namespace = uuidv5("ifcsg-revit-shared-params-v1", dnsNameSpace);
-
 
 let file = `# Base Name: ifcsg-revit-shared-params-v1
 # Base Namespace: ${dnsNameSpace}
@@ -17,45 +17,47 @@ GROUP\t1\tifcsg
 *PARAM\tGUID\tNAME\tDATATYPE\tDATACATEGORY\tGROUP\tVISIBLE\tDESCRIPTION\tUSERMODIFIABLE\tHIDEWHENNOVALUE
 `;
 
-
-export async function getSharedParams(isBeta = true) {
-    const ifcsg = await getIfc({ beta: isBeta })
+getSharedParams();
+export async function getSharedParams(isBeta = false) {
+    const ifcsg = await getIfc({ beta: isBeta });
     const props = getProps(ifcsg);
 
-    const result = []
+    const result = [];
 
-    addIfcObjectType()
+    addIfcObjectType();
     function addIfcObjectType() {
-        const guid = uuidv5('IfcObjectType', namespace)
-        file += `PARAM\t${guid}\t${'IfcObjectType'}\t${'TEXT'}\t\t1\t1\t\t1\t0\n`
+        const guid = uuidv5("IfcObjectType", namespace);
+        file += `PARAM\t${guid}\t${"IfcObjectType"}\t${"TEXT"}\t\t1\t1\t\t1\t0\n`;
         result.push({
             guid,
-            name: 'IfcObjectType',
-            dataType: 'TEXT',
-            entity: 'all',
-        })
+            name: "IfcObjectType",
+            dataType: "TEXT",
+            entity: "all",
+        });
     }
 
     for (const { name, ifcDataType, entity } of props) {
-
-        const dataType = mapDataType(ifcDataType)
+        const dataType = mapDataType(ifcDataType);
         if (!dataType) {
-            console.log('--invalid data type:', entity, name);
+            console.log(
+                `Invalid data type: ${chalk.red(ifcDataType)} for ${chalk.blue(
+                    entity,
+                )}(${chalk.green(name)})`,
+            );
         }
-        const guid = uuidv5(name, namespace)
-        file += `PARAM\t${guid}\t${name}\t${dataType}\t\t1\t1\t\t1\t0\n`
+        const guid = uuidv5(name, namespace);
+        file += `PARAM\t${guid}\t${name}\t${dataType}\t\t1\t1\t\t1\t0\n`;
         result.push({
             guid,
             name,
             dataType,
             entity,
-        })
-
+        });
     }
 
-    fs.writeFileSync('./src/revit/Revit_SharedParameters.txt', file)
+    fs.writeFileSync("./src/revit/Revit_SharedParameters.txt", file);
 
-    return { result, file }
+    return { result, file };
 }
 
 function mapDataType(ifcDataType) {
@@ -67,15 +69,14 @@ function mapDataType(ifcDataType) {
         boolean: "YESNO",
         real: "NUMBER",
         area: "AREA",
-    }
+    };
 
     if (!dataTypeMap[ifcDataType.toLowerCase()]) {
-        console.log('Invalid DataType', ifcDataType);
-        return false
+        // console.log("Invalid DataType", ifcDataType);
+        return false;
     }
 
-    return dataTypeMap[ifcDataType.toLowerCase()]
-
+    return dataTypeMap[ifcDataType.toLowerCase()];
 }
 
 function getProps(ifcsg) {
@@ -91,5 +92,5 @@ function getProps(ifcsg) {
         }
     }
 
-    return result
+    return result;
 }
