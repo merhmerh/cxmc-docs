@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 import { supabase, calcChecksum, uuid } from "./helper.js";
 dotenv.config();
 
-export function generateRevitIfcMappingTable() {
+export function generateRevitIfcMappingTable(isBeta = false) {
     return new Promise(async (resolve, reject) => {
         const t0 = performance.now();
-        const result = await getIfc({ beta: true });
+        const result = await getIfc({ beta: isBeta });
 
         const pset_obj = sortPset(result);
 
@@ -30,7 +30,10 @@ export function generateRevitIfcMappingTable() {
         const t1 = performance.now();
         console.log("Mapping Generated in", (t1 - t0).toFixed(2));
 
-        fs.writeFileSync("./src/revit/Revit_IFC-Mapping-Configuration.txt", mapping);
+        fs.writeFileSync(
+            `./src/revit/Revit_IFC-Mapping-Configuration${isBeta ? "" : "-full"}.txt`,
+            mapping,
+        );
     });
 }
 
@@ -64,6 +67,7 @@ export async function getIfc(opt) {
     }
     // const result = data
     const { beta } = opt;
+    fs.writeFileSync(`./src/revit/ifcsg.json`, JSON.stringify(data, null, 2));
 
     const result = data.filter((x) => {
         if (!beta) {

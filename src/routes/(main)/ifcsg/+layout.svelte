@@ -141,13 +141,9 @@ export function sanitizeAirtableComp(obj, pset) {
             };
         }
 
-        // const propsString = item["Properties [Data Type]"];
         const propsArr = item["Properties [Data Type]"];
         console.log(propsArr);
-        // console.log(propsString);
         const props = [];
-        // if (propsString) {
-        //     const arr = propsString.split(",");
         if (propsArr) {
             for (const value of propsArr) {
                 const trimmed = value.trim().replace("\n", "");
@@ -157,7 +153,6 @@ export function sanitizeAirtableComp(obj, pset) {
                 props.push({ propertyName, dataType, measureResource });
             }
         }
-        // }
 
         if (ifc[key].props) {
             ifc[key].props.push(props);

@@ -140,12 +140,14 @@ export async function reset_IFCSG_Database(data) {
     try {
         await supabase.from("ifcsg").delete().neq("key", 0);
     } catch (error) {
+        console.log("fail to clear db");
         return error;
     }
 
     const { data: ifcData, error: ifcsgError } = await supabase.from("ifcsg").insert(result);
 
     if (ifcsgError) {
+        console.log("fail to insert");
         return ifcsgError;
     }
 
@@ -209,11 +211,10 @@ export function sanitizeAirtableComp(obj, pset) {
             };
         }
 
-        const propsString = item["Properties [Data Type]"];
+        const propsArr = item["Properties [Data Type]"];
         const props = [];
-        if (propsString) {
-            const arr = propsString.split(";");
-            for (const value of arr) {
+        if (propsArr) {
+            for (const value of propsArr) {
                 const trimmed = value.trim().replace("\n", "");
                 const propertyName = trimmed.replace(/(.*?)\[(.*?)\]/, "$1").trim();
                 const measureResource = "";

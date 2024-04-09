@@ -55,7 +55,7 @@ export async function getSharedParams(isBeta = false) {
         });
     }
 
-    fs.writeFileSync("./src/revit/Revit_SharedParameters.txt", file);
+    fs.writeFileSync(`./src/revit/Revit_SharedParameters${isBeta ? "" : "-full"}.txt`, file);
 
     return { result, file };
 }
@@ -83,7 +83,6 @@ function getProps(ifcsg) {
     const result = [];
     for (const { entity, pset } of ifcsg) {
         if (!pset) continue;
-
         for (const [psetName, prop] of Object.entries(pset)) {
             prop.forEach((p) => {
                 if (result.find((x) => x.name == p.propertyName)) return;

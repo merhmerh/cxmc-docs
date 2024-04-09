@@ -58,7 +58,7 @@ async function secretInteraction() {
             if (toDownload) {
                 try {
                     const url =
-                        "https://cksvrtqduesomnciaajt.supabase.co/storage/v1/object/public/public/downloads/SECRET_Revit_IFC-Mapping-Configuration-Full.txt";
+                        "https://cksvrtqduesomnciaajt.supabase.co/storage/v1/object/public/public/downloads/Revit_IFC-Mapping-Configuration-full";
                     const resp = await fetch(url);
                     const blob = await resp.blob();
                     const blobURL = URL.createObjectURL(blob);
