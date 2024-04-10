@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import { supabase, calcChecksum, uuid } from "./helper.js";
 dotenv.config();
 
+generateRevitIfcMappingTable(false);
 export function generateRevitIfcMappingTable(isBeta = false) {
     return new Promise(async (resolve, reject) => {
         const t0 = performance.now();

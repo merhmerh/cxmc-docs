@@ -1,48 +1,9 @@
 
-PropertySet:	SGPset_Building	I	IfcBuilding
-	OwnerBuiltOwnerStay	Boolean
-	ProjectDevelopmentType	Label
-
-PropertySet:	SGPset_BuildingElementProxy	I	IfcBuildingElementProxy
-	BicycleRack_Type	Label
-	BicycleLotCount	Integer
-
-PropertySet:	SGPset_BuildingElementProxy	T	IfcBuildingElementProxyType
-	BicycleRack_Type	Label
-	BicycleLotCount	Integer
-
-PropertySet:	SGPset_BuildingStorey	I	IfcBuildingStorey
-	AtticLevel	Boolean
-
-PropertySet:	SGPset_Wall	I	IfcWall
-	PorousFence	Boolean
-
-PropertySet:	SGPset_Wall	T	IfcWallType
-	PorousFence	Boolean
-
 PropertySet:	SGPset_Material	I	IfcCovering
 	Material	Label
 
 PropertySet:	SGPset_Material	T	IfcCoveringType
 	Material	Label
-
-PropertySet:	SGPset_DistributionChamberElementDimension	I	IfcDistributionChamberElement
-	Depth	Length
-	Diameter	Length
-	Length	Length
-	Width	Length
-
-PropertySet:	SGPset_DistributionChamberElementDimension	T	IfcDistributionChamberElementType
-	Depth	Length
-	Diameter	Length
-	Length	Length
-	Width	Length
-
-PropertySet:	Pset_DistributionChamberElementCommon	I	IfcDistributionChamberElement
-	Status	Label
-
-PropertySet:	Pset_DistributionChamberElementCommon	T	IfcDistributionChamberElementType
-	Status	Label
 
 PropertySet:	SGPset_Door	I	IfcDoor
 	MainEntrance	Boolean
@@ -60,6 +21,50 @@ PropertySet:	Pset_DoorCommon	I	IfcDoor
 PropertySet:	Pset_DoorCommon	T	IfcDoorType
 	SelfClosing	Boolean
 
+PropertySet:	SGPset_Building	I	IfcBuilding
+	OwnerBuiltOwnerStay	Boolean
+	ProjectDevelopmentType	Label
+
+PropertySet:	SGPset_Wall	I	IfcWall
+	PorousFence	Boolean
+
+PropertySet:	SGPset_Wall	T	IfcWallType
+	PorousFence	Boolean
+
+PropertySet:	SGPset_Window	I	IfcWindow
+	SafetyBarrierHeight	Real
+
+PropertySet:	SGPset_Window	T	IfcWindowType
+	SafetyBarrierHeight	Real
+
+PropertySet:	SGPset_BuildingElementProxy	I	IfcBuildingElementProxy
+	BicycleRack_Type	Label
+	BicycleLotCount	Integer
+
+PropertySet:	SGPset_BuildingElementProxy	T	IfcBuildingElementProxyType
+	BicycleRack_Type	Label
+	BicycleLotCount	Integer
+
+PropertySet:	SGPset_DistributionChamberElementDimension	I	IfcDistributionChamberElement
+	Depth	Length
+	Diameter	Length
+	Length	Length
+	TopLevel	Real
+	Width	Length
+
+PropertySet:	SGPset_DistributionChamberElementDimension	T	IfcDistributionChamberElementType
+	Depth	Length
+	Diameter	Length
+	Length	Length
+	TopLevel	Real
+	Width	Length
+
+PropertySet:	Pset_DistributionChamberElementCommon	I	IfcDistributionChamberElement
+	Status	Label
+
+PropertySet:	Pset_DistributionChamberElementCommon	T	IfcDistributionChamberElementType
+	Status	Label
+
 PropertySet:	SGPset_PipeSegment	I	IfcPipeSegment
 	DemountableStructureAbovePipe	Boolean
 
@@ -75,15 +80,15 @@ PropertySet:	SGPset_PipeSegmentDimension	T	IfcPipeSegmentType
 PropertySet:	SGPset_Space	I	IfcSpace
 	VentilationMode	Label
 	OccupancyType	Label
-	SpaceName	Label
 	ParkingType	Label
+	SpaceName	Label
 	AccesswayType	Label
 
 PropertySet:	SGPset_Space	T	IfcSpaceType
 	VentilationMode	Label
 	OccupancyType	Label
-	SpaceName	Label
 	ParkingType	Label
+	SpaceName	Label
 	AccesswayType	Label
 
 PropertySet:	SGPset_SpaceArea_GFA	I	IfcSpace
@@ -101,12 +106,6 @@ PropertySet:	SGPset_SpaceArea_GFA	T	IfcSpaceType
 	AGF_BuildingTypology	Label
 	AGF_Name	Label
 	AGF_UnitNumber	Label
-
-PropertySet:	SGPset_Window	I	IfcWindow
-	SafetyBarrierHeight	Real
-
-PropertySet:	SGPset_Window	T	IfcWindowType
-	SafetyBarrierHeight	Real
 
 PropertySet:	SGPset_SpaceArea_Strata	I	IfcSpace
 	AST_AreaType	Label
