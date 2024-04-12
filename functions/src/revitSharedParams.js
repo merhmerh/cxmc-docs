@@ -44,6 +44,7 @@ export async function getSharedParams(isBeta = false) {
                     entity,
                 )}(${chalk.green(name)})`,
             );
+            continue;
         }
         const guid = uuidv5(name, namespace);
         file += `PARAM\t${guid}\t${name}\t${dataType}\t\t1\t1\t\t1\t0\n`;

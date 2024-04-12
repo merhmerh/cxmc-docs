@@ -1,368 +1,4 @@
 
-PropertySet:	SGPset_Material	I	IfcPlate
-	Material	Label
-	MaterialGrade	Label
-	Material_WasteFlowDiverterValve	Label
-	Material_MeltingPoint	Label
-	ThermalInsulation_Material	Label
-	ThermalInsulation_Material_MeltingPoint	Label
-	Material_BasePlate	Label
-
-PropertySet:	SGPset_Material	T	IfcPlateType
-	Material	Label
-	MaterialGrade	Label
-	Material_WasteFlowDiverterValve	Label
-	Material_MeltingPoint	Label
-	ThermalInsulation_Material	Label
-	ThermalInsulation_Material_MeltingPoint	Label
-	Material_BasePlate	Label
-
-PropertySet:	SGPset_Pump	I	IfcPump
-	Standby	Boolean
-	InflowRate	VolumetricFlowRate
-	Capacity	Real
-	Duty	Boolean
-	FlowRate	VolumetricFlowRate
-	StandbyGenerator	Boolean
-	InternalSurfaceArea	Area
-
-PropertySet:	SGPset_Pump	T	IfcPumpType
-	Standby	Boolean
-	InflowRate	VolumetricFlowRate
-	Capacity	Real
-	Duty	Boolean
-	FlowRate	VolumetricFlowRate
-	StandbyGenerator	Boolean
-	InternalSurfaceArea	Area
-
-PropertySet:	SGPset_Railing	I	IfcRailing
-	ExternalReference	Label
-	ConstructionMethod	Label
-	IsLaminated	Boolean
-
-PropertySet:	SGPset_Railing	T	IfcRailingType
-	ExternalReference	Label
-	ConstructionMethod	Label
-	IsLaminated	Boolean
-
-PropertySet:	SGPset_RailingStructuralLoad	I	IfcRailing
-	LateralLoad	Label
-
-PropertySet:	SGPset_RailingStructuralLoad	T	IfcRailingType
-	LateralLoad	Label
-
-PropertySet:	Pset_RampCommon	I	IfcRamp
-	FireExit	Boolean
-
-PropertySet:	Pset_RampCommon	T	IfcRampType
-	FireExit	Boolean
-
-PropertySet:	SGPset_RampDimension	I	IfcRamp
-	KerbHeight	Length
-	Gradient	Label
-	Width	Length
-
-PropertySet:	SGPset_RampDimension	T	IfcRampType
-	KerbHeight	Length
-	Gradient	Label
-	Width	Length
-
-PropertySet:	SGPset_Ramp	I	IfcRamp
-	Vehicular	Boolean
-	BarrierFreeAccessibility	Boolean
-	Accessway	Boolean
-
-PropertySet:	SGPset_Ramp	T	IfcRampType
-	Vehicular	Boolean
-	BarrierFreeAccessibility	Boolean
-	Accessway	Boolean
-
-PropertySet:	SGPset_CoolingTower	I	IfcCoolingTower
-	SoundPowerLevel	Label
-	SoundPressureLevel	Label
-
-PropertySet:	SGPset_CoolingTower	T	IfcCoolingTowerType
-	SoundPowerLevel	Label
-	SoundPressureLevel	Label
-
-PropertySet:	SGPset_Covering	I	IfcCovering
-	ConstructionMethod	Label
-	FlameSpreadClass	Label
-	Perforated	Boolean
-	CladdingType	Label
-
-PropertySet:	SGPset_Covering	T	IfcCoveringType
-	ConstructionMethod	Label
-	FlameSpreadClass	Label
-	Perforated	Boolean
-	CladdingType	Label
-
-PropertySet:	Pset_CoveringCommon	I	IfcCovering
-	Combustible	Boolean
-	FireRating	Label
-	Status	Label
-
-PropertySet:	Pset_CoveringCommon	T	IfcCoveringType
-	Combustible	Boolean
-	FireRating	Label
-	Status	Label
-
-PropertySet:	SGPset_CoveringDimension	I	IfcCovering
-	Length	Length
-	Width	Length
-
-PropertySet:	SGPset_CoveringDimension	T	IfcCoveringType
-	Length	Length
-	Width	Length
-
-PropertySet:	SGPset_Door	I	IfcDoor
-	AcousticRating	Label
-	ClearWidth	Length
-	FinalDischargeDoor	Boolean
-	FlameSpreadClass	Label
-	Lockable	Boolean
-	MainEntrance	Boolean
-	OneWayLockingDevice	Boolean
-	TransomFireRating	Label
-	ClearHeight	Length
-	Hardware	Real
-	PercentageOfOpening	Real
-	OperationType	Label
-	BarrierFreeAccessibility	Boolean
-	OpeningSize	Length
-	InspectionOpening	Boolean
-	FusibleLink	Boolean
-	ThermalInsulated	Boolean
-
-PropertySet:	SGPset_Door	T	IfcDoorType
-	AcousticRating	Label
-	ClearWidth	Length
-	FinalDischargeDoor	Boolean
-	FlameSpreadClass	Label
-	Lockable	Boolean
-	MainEntrance	Boolean
-	OneWayLockingDevice	Boolean
-	TransomFireRating	Label
-	ClearHeight	Length
-	Hardware	Real
-	PercentageOfOpening	Real
-	OperationType	Label
-	BarrierFreeAccessibility	Boolean
-	OpeningSize	Length
-	InspectionOpening	Boolean
-	FusibleLink	Boolean
-	ThermalInsulated	Boolean
-
-PropertySet:	Pset_DoorCommon	I	IfcDoor
-	MechanicalLoadRating	Label
-	FireRating	Label
-	FireExit	Boolean
-	SelfClosing	Boolean
-	Status	Label
-
-PropertySet:	Pset_DoorCommon	T	IfcDoorType
-	MechanicalLoadRating	Label
-	FireRating	Label
-	FireExit	Boolean
-	SelfClosing	Boolean
-	Status	Label
-
-PropertySet:	Pset_TransportElementCommon	I	IfcTransportElement
-	BarrierFreeAccessibility	Boolean
-
-PropertySet:	Pset_TransportElementCommon	T	IfcTransportElementType
-	BarrierFreeAccessibility	Boolean
-
-PropertySet:	SGPset_UnitaryControlElement	I	IfcUnitaryControlElement
-	IPRating	Integer
-	FireAlarmPanel	Boolean
-	Purpose	Label
-
-PropertySet:	SGPset_UnitaryControlElement	T	IfcUnitaryControlElementType
-	IPRating	Integer
-	FireAlarmPanel	Boolean
-	Purpose	Label
-
-PropertySet:	SGPset_UnitaryEquipment	I	IfcUnitaryEquipment
-	AirChangePerHour	Label
-	SoundPowerLevel	Label
-	SoundPressureLevel	Label
-	AirFlowRate	Label
-	FuelType	Label
-	AI_AmmoniaAndAmmonium	Real
-	EquipmentType	Label
-	AI_SulphurDioxideNonCombust	Real
-	AI_Antimony	Real
-	AI_Arsenic	Real
-	AI_Benzene	Real
-	AI_Cadmium	Real
-	AI_CarbonMonoxide	Real
-	AI_Chlorine	Real
-	AI_Copper	Real
-	AI_DioxinsAndFurans	Real
-	AI_EthyleneOxide	Real
-	AI_FluorineAndHydrofluoricAcid	Real
-	AI_Formaldehyde	Real
-	AI_HydrogenChloride	Real
-	AI_HydrogenSulphide	Real
-	AI_Lead	Real
-	AI_Mercury	Real
-	AI_OxidesOfNitrogen	Real
-	AI_ParticulateSubstances	Real
-	AI_StyreneMonomer	Real
-	AI_SulphurDioxideCombust	Real
-	AI_SulphurTrioxideAndAcidGases	Real
-	AI_SulphurTrioxideOrSulphuricAcidMist	Real
-	AI_VinylChlorideMonomer	Real
-	TED_Arsenic	Real
-	TED_Barium	Real
-	TED_Beryllium	Real
-	TED_BiochemicalOxygenDemand	Real
-	TED_Boron	Real
-	TED_Cadmium	Real
-	TED_Calcium	Real
-	TED_ChemicalOxygenDemand	Real
-	TED_Chloride	Real
-	TED_Chlorine	Real
-	TED_Chromium	Real
-	TED_Colour	Real
-	TED_Copper	Real
-	TED_Cyanide	Real
-	TED_Detergent	Real
-	TED_GreaseAndOil	Real
-	TED_Iron	Real
-	TED_Lead	Real
-	TED_Magnesium	Real
-	TED_Manganese	Real
-	TED_Mercury	Real
-	TED_MetalsInTotal	Real
-	TED_Nickel	Real
-	TED_Nitrate	Real
-	TED_PhenolicCompound	Real
-	TED_Phosphate	Real
-	TED_PHValue	Real
-	TED_Selenium	Real
-	TED_Silver	Real
-	TED_Sulphate	Real
-	TED_Sulphide	Real
-	TED_TemperatureOfDischarge	Real
-	TED_Tin	Real
-	TED_TotalDissolvedSolid	Real
-	TED_TotalSuspendedSolid	Real
-	TED_Zinc	Real
-	TED_Fluoride	Real
-
-PropertySet:	SGPset_UnitaryEquipment	T	IfcUnitaryEquipmentType
-	AirChangePerHour	Label
-	SoundPowerLevel	Label
-	SoundPressureLevel	Label
-	AirFlowRate	Label
-	FuelType	Label
-	AI_AmmoniaAndAmmonium	Real
-	EquipmentType	Label
-	AI_SulphurDioxideNonCombust	Real
-	AI_Antimony	Real
-	AI_Arsenic	Real
-	AI_Benzene	Real
-	AI_Cadmium	Real
-	AI_CarbonMonoxide	Real
-	AI_Chlorine	Real
-	AI_Copper	Real
-	AI_DioxinsAndFurans	Real
-	AI_EthyleneOxide	Real
-	AI_FluorineAndHydrofluoricAcid	Real
-	AI_Formaldehyde	Real
-	AI_HydrogenChloride	Real
-	AI_HydrogenSulphide	Real
-	AI_Lead	Real
-	AI_Mercury	Real
-	AI_OxidesOfNitrogen	Real
-	AI_ParticulateSubstances	Real
-	AI_StyreneMonomer	Real
-	AI_SulphurDioxideCombust	Real
-	AI_SulphurTrioxideAndAcidGases	Real
-	AI_SulphurTrioxideOrSulphuricAcidMist	Real
-	AI_VinylChlorideMonomer	Real
-	TED_Arsenic	Real
-	TED_Barium	Real
-	TED_Beryllium	Real
-	TED_BiochemicalOxygenDemand	Real
-	TED_Boron	Real
-	TED_Cadmium	Real
-	TED_Calcium	Real
-	TED_ChemicalOxygenDemand	Real
-	TED_Chloride	Real
-	TED_Chlorine	Real
-	TED_Chromium	Real
-	TED_Colour	Real
-	TED_Copper	Real
-	TED_Cyanide	Real
-	TED_Detergent	Real
-	TED_GreaseAndOil	Real
-	TED_Iron	Real
-	TED_Lead	Real
-	TED_Magnesium	Real
-	TED_Manganese	Real
-	TED_Mercury	Real
-	TED_MetalsInTotal	Real
-	TED_Nickel	Real
-	TED_Nitrate	Real
-	TED_PhenolicCompound	Real
-	TED_Phosphate	Real
-	TED_PHValue	Real
-	TED_Selenium	Real
-	TED_Silver	Real
-	TED_Sulphate	Real
-	TED_Sulphide	Real
-	TED_TemperatureOfDischarge	Real
-	TED_Tin	Real
-	TED_TotalDissolvedSolid	Real
-	TED_TotalSuspendedSolid	Real
-	TED_Zinc	Real
-	TED_Fluoride	Real
-
-PropertySet:	Pset_ValveTypeCommon	I	IfcValve
-	ValveMechanism	Label
-	Size	Length
-	ValveOperation	Label
-
-PropertySet:	Pset_ValveTypeCommon	T	IfcValveType
-	ValveMechanism	Label
-	Size	Length
-	ValveOperation	Label
-
-PropertySet:	SGPset_Valve	I	IfcValve
-	FaucetOperation	Label
-	FaucetType	Label
-	FlowRate	VolumetricFlowRate
-	OpeningDiameter	Length
-	DownstreamPressure	Label
-
-PropertySet:	SGPset_Valve	T	IfcValveType
-	FaucetOperation	Label
-	FaucetType	Label
-	FlowRate	VolumetricFlowRate
-	OpeningDiameter	Length
-	DownstreamPressure	Label
-
-PropertySet:	Pset_ActuatorTypeCommon	I	IfcActuator
-	Application	Label
-
-PropertySet:	Pset_ActuatorTypeCommon	T	IfcActuatorType
-	Application	Label
-
-PropertySet:	Pset_AirTerminalOccurrence	I	IfcAirTerminal
-	AirflowType	Label
-
-PropertySet:	Pset_AirTerminalOccurrence	T	IfcAirTerminalType
-	AirflowType	Label
-
-PropertySet:	SGPset_AirTerminal	I	IfcAirTerminal
-	Combustible	Boolean
-
-PropertySet:	SGPset_AirTerminal	T	IfcAirTerminalType
-	Combustible	Boolean
-
 PropertySet:	SGPset_Beam	I	IfcBeam
 	Accreditation_PAS	Boolean
 	BeamSpanType	Label
@@ -433,83 +69,29 @@ PropertySet:	SGPset_BeamDimension	T	IfcBeamType
 	Mark	Label
 	MemberSection	Label
 
-PropertySet:	SGPset_Boiler	I	IfcBoiler
-	AI_AmmoniaAndAmmonium	Real
-	AI_Antimony	Real
-	AI_Arsenic	Real
-	AI_Benzene	Real
-	AI_Cadmium	Real
-	AI_CarbonMonoxide	Real
-	AI_Chlorine	Real
-	AI_Copper	Real
-	AI_DioxinsAndFurans	Real
-	AI_EthyleneOxide	Real
-	AI_FluorineAndHydrofluoricAcid	Real
-	AI_Formaldehyde	Real
-	AI_HydrogenChloride	Real
-	AI_HydrogenSulphide	Real
-	AI_Lead	Real
-	AI_Mercury	Real
-	AI_OxidesOfNitrogen	Real
-	AI_ParticulateSubstances	Real
-	AI_StyreneMonomer	Real
-	AI_SulphurDioxideCombust	Real
-	AI_SulphurTrioxideAndAcidGases	Real
-	AI_SulphurTrioxideOrSulphuricAcidMist	Real
-	AI_VinylChlorideMonomer	Real
+PropertySet:	SGPset_Material	I	IfcBeam
+	MaterialGrade	Label
+	Material	Label
+	Material_MeltingPoint	Label
+	ThermalInsulation_Material	Label
+	ThermalInsulation_Material_MeltingPoint	Label
+	Material_BasePlate	Label
+	Material_WasteFlowDiverterValve	Label
 
-PropertySet:	SGPset_Boiler	T	IfcBoilerType
-	AI_AmmoniaAndAmmonium	Real
-	AI_Antimony	Real
-	AI_Arsenic	Real
-	AI_Benzene	Real
-	AI_Cadmium	Real
-	AI_CarbonMonoxide	Real
-	AI_Chlorine	Real
-	AI_Copper	Real
-	AI_DioxinsAndFurans	Real
-	AI_EthyleneOxide	Real
-	AI_FluorineAndHydrofluoricAcid	Real
-	AI_Formaldehyde	Real
-	AI_HydrogenChloride	Real
-	AI_HydrogenSulphide	Real
-	AI_Lead	Real
-	AI_Mercury	Real
-	AI_OxidesOfNitrogen	Real
-	AI_ParticulateSubstances	Real
-	AI_StyreneMonomer	Real
-	AI_SulphurDioxideCombust	Real
-	AI_SulphurTrioxideAndAcidGases	Real
-	AI_SulphurTrioxideOrSulphuricAcidMist	Real
-	AI_VinylChlorideMonomer	Real
-
-PropertySet:	SGPset_Building	I	IfcBuilding
-	ConstructionPhase	Label
-	DrainageBoundary	Label
-	ETTV	Real
-	NumberOfWorkers	Integer
-	OwnerBuiltOwnerStay	Boolean
-	ProjectDevelopmentType	Label
-	RETV	Label
-	WindowToWallRatio	Real
-	IsPublicBuilding	Boolean
-	LinkWithUndergroundSpecialFacilities	Boolean
-
-PropertySet:	Pset_BuildingCommon	I	IfcBuilding
-	GrossPlannedArea	Area
-	YearOfConstruction	Label
-
-PropertySet:	SGPset_WorkControlCommon	I	IfcBuilding
-	WorkDayDuration	Label
+PropertySet:	SGPset_Material	T	IfcBeamType
+	MaterialGrade	Label
+	Material	Label
+	Material_MeltingPoint	Label
+	ThermalInsulation_Material	Label
+	ThermalInsulation_Material_MeltingPoint	Label
+	Material_BasePlate	Label
+	Material_WasteFlowDiverterValve	Label
 
 PropertySet:	SGPset_BuildingElementProxy	I	IfcBuildingElementProxy
+	DischargePoint	Boolean
+	FireExit	Boolean
 	20FootTrailer	Boolean
 	LotNumber	Label
-	RigidFrameLessThan7.5m	Boolean
-	Perforated	Boolean
-	OpenAtGrade	Boolean
-	Egress	Boolean
-	Ingress	Boolean
 	BicycleRack_Type	Label
 	BicycleLotCount	Integer
 	BuildabilityBlockName	Label
@@ -519,17 +101,17 @@ PropertySet:	SGPset_BuildingElementProxy	I	IfcBuildingElementProxy
 	FamilyLot	Boolean
 	EVLot	Boolean
 	BarrierFreeAccessibility	Boolean
-	DischargePoint	Boolean
-	FireExit	Boolean
+	Perforated	Boolean
+	OpenAtGrade	Boolean
+	RigidFrameLessThan7.5m	Boolean
+	Egress	Boolean
+	Ingress	Boolean
 
 PropertySet:	SGPset_BuildingElementProxy	T	IfcBuildingElementProxyType
+	DischargePoint	Boolean
+	FireExit	Boolean
 	20FootTrailer	Boolean
 	LotNumber	Label
-	RigidFrameLessThan7.5m	Boolean
-	Perforated	Boolean
-	OpenAtGrade	Boolean
-	Egress	Boolean
-	Ingress	Boolean
 	BicycleRack_Type	Label
 	BicycleLotCount	Integer
 	BuildabilityBlockName	Label
@@ -539,129 +121,103 @@ PropertySet:	SGPset_BuildingElementProxy	T	IfcBuildingElementProxyType
 	FamilyLot	Boolean
 	EVLot	Boolean
 	BarrierFreeAccessibility	Boolean
-	DischargePoint	Boolean
-	FireExit	Boolean
+	Perforated	Boolean
+	OpenAtGrade	Boolean
+	RigidFrameLessThan7.5m	Boolean
+	Egress	Boolean
+	Ingress	Boolean
 
-PropertySet:	SGPset_BuildingElementProxyDimension	I	IfcBuildingElementProxy
-	Width	Length
-	Length	Length
-	Mark	Label
-	SHDLevel_SPT_MoreThan_60N	Real
-	SHDLevel_SPT_MoreThan_100N	Real
-	TerminationLevel	Real
-	Depth	Length
+PropertySet:	SGPset_Fan	I	IfcFan
+	AirChangePerHour	Label
+	SoundPowerLevel	Label
+	SoundPressureLevel	Label
 
-PropertySet:	SGPset_BuildingElementProxyDimension	T	IfcBuildingElementProxyType
-	Width	Length
-	Length	Length
-	Mark	Label
-	SHDLevel_SPT_MoreThan_60N	Real
-	SHDLevel_SPT_MoreThan_100N	Real
-	TerminationLevel	Real
-	Depth	Length
+PropertySet:	SGPset_Fan	T	IfcFanType
+	AirChangePerHour	Label
+	SoundPowerLevel	Label
+	SoundPressureLevel	Label
 
-PropertySet:	SGPset_BuildingStorey	I	IfcBuildingStorey
-	HasActivityGeneratingUse	Boolean
-	SCDFBasement1	Boolean
+PropertySet:	Pset_FanOccurrence	I	IfcFan
+	ApplicationOfFan	Label
+	FanMountingType	Label
 
-PropertySet:	SGPset_BuildingSystem	I	IfcBuildingSystem
-	ConstructionMethod	Label
-	Combustible	Boolean
-	Accreditation_PAS	Boolean
-	ShelterID	Label
-	MechanizedCarParking_Type	Label
-	Accreditation_MAS	Boolean
-	RefuseChuteID	Label
+PropertySet:	Pset_FanOccurrence	T	IfcFanType
+	ApplicationOfFan	Label
+	FanMountingType	Label
 
-PropertySet:	SGPset_Sensor	I	IfcSensor
-	AC	Real
-	DC	Real
-	Declaration	Label
-	ReactionTime	Label
-	AI_AmmoniaAndAmmonium	Real
-	AI_Antimony	Real
-	AI_Arsenic	Real
-	AI_Benzene	Real
-	AI_Cadmium	Real
-	AI_CarbonMonoxide	Real
-	AI_Chlorine	Real
-	AI_Copper	Real
-	AI_DioxinsAndFurans	Real
-	AI_EthyleneOxide	Real
-	AI_FluorineAndHydrofluoricAcid	Real
-	AI_Formaldehyde	Real
-	AI_HydrogenChloride	Real
-	AI_HydrogenSulphide	Real
-	AI_Lead	Real
-	AI_Mercury	Real
-	AI_OxidesOfNitrogen	Real
-	AI_ParticulateSubstances	Real
-	AI_StyreneMonomer	Real
-	AI_SulphurDioxideCombust	Real
-	AI_SulphurTrioxideAndAcidGases	Real
-	AI_SulphurTrioxideOrSulphuricAcidMist	Real
-	AI_VinylChlorideMonomer	Real
-	SmokeDetectorType	Label
+PropertySet:	Pset_FanTypeCommon	I	IfcFan
+	OperationalCriteria	Real
+	OperationTemperatureRange	Real
 
-PropertySet:	SGPset_Sensor	T	IfcSensorType
-	AC	Real
-	DC	Real
-	Declaration	Label
-	ReactionTime	Label
-	AI_AmmoniaAndAmmonium	Real
-	AI_Antimony	Real
-	AI_Arsenic	Real
-	AI_Benzene	Real
-	AI_Cadmium	Real
-	AI_CarbonMonoxide	Real
-	AI_Chlorine	Real
-	AI_Copper	Real
-	AI_DioxinsAndFurans	Real
-	AI_EthyleneOxide	Real
-	AI_FluorineAndHydrofluoricAcid	Real
-	AI_Formaldehyde	Real
-	AI_HydrogenChloride	Real
-	AI_HydrogenSulphide	Real
-	AI_Lead	Real
-	AI_Mercury	Real
-	AI_OxidesOfNitrogen	Real
-	AI_ParticulateSubstances	Real
-	AI_StyreneMonomer	Real
-	AI_SulphurDioxideCombust	Real
-	AI_SulphurTrioxideAndAcidGases	Real
-	AI_SulphurTrioxideOrSulphuricAcidMist	Real
-	AI_VinylChlorideMonomer	Real
-	SmokeDetectorType	Label
+PropertySet:	Pset_FanTypeCommon	T	IfcFanType
+	OperationalCriteria	Real
+	OperationTemperatureRange	Real
 
-PropertySet:	Pset_ShadingDeviceCommon	I	IfcShadingDevice
-	FireRating	Label
+PropertySet:	SGPset_Filter	I	IfcFilter
+	CorrosionResistant	Boolean
+	WaterFilterType	Label
+
+PropertySet:	SGPset_Filter	T	IfcFilterType
+	CorrosionResistant	Boolean
+	WaterFilterType	Label
+
+PropertySet:	SGPset_FireSuppressionTerminal	I	IfcFireSuppressionTerminal
 	Status	Label
+	ID	Label
+	Hose_NominalDiameter	Length
 
-PropertySet:	Pset_ShadingDeviceCommon	T	IfcShadingDeviceType
-	FireRating	Label
+PropertySet:	SGPset_FireSuppressionTerminal	T	IfcFireSuppressionTerminalType
 	Status	Label
+	ID	Label
+	Hose_NominalDiameter	Length
 
-PropertySet:	SGPset_ShadingDevice	I	IfcShadingDevice
-	FlameSpreadClass	Label
-	Porosity	Real
-	MinVentilationOpeningPercentage	Real
+PropertySet:	SGPset_FlowMeter	I	IfcFlowMeter
+	Capacity	Real
+	ConnectionSize	Length
+	MaximumFlowRate	VolumetricFlowRate
+	UnitNumber	Label
+	WaterSupplySource	Label
 
-PropertySet:	SGPset_ShadingDevice	T	IfcShadingDeviceType
-	FlameSpreadClass	Label
-	Porosity	Real
-	MinVentilationOpeningPercentage	Real
+PropertySet:	SGPset_FlowMeter	T	IfcFlowMeterType
+	Capacity	Real
+	ConnectionSize	Length
+	MaximumFlowRate	VolumetricFlowRate
+	UnitNumber	Label
+	WaterSupplySource	Label
 
-PropertySet:	SGPset_Site	I	IfcSite
-	Condition	Label
-	ConstructionPhase	Label
-	Extg_GrossPlotRatio	Label
-	NumberOfWorkers	Integer
-	Phase	Label
-	RainfallIntensity	Real
-	RunoffCoefficient	Label
+PropertySet:	SGPset_FlowMeterDimension	I	IfcFlowMeter
+	Diameter	Length
+	Length	Length
 
-PropertySet:	Pset_LandRegistration	I	IfcSite
-	LandID	Label
+PropertySet:	SGPset_FlowMeterDimension	T	IfcFlowMeterType
+	Diameter	Length
+	Length	Length
+
+PropertySet:	Pset_FlowMeterOccurrence	I	IfcFlowMeter
+	Purpose	Label
+
+PropertySet:	Pset_FlowMeterOccurrence	T	IfcFlowMeterType
+	Purpose	Label
+
+PropertySet:	Pset_EnvironmentalImpactIndicators	I	IfcFlowMeter
+	WaterConsumptionPerUnit	Volume
+
+PropertySet:	Pset_EnvironmentalImpactIndicators	T	IfcFlowMeterType
+	WaterConsumptionPerUnit	Volume
+
+PropertySet:	SGPset_Valve	I	IfcValve
+	OpeningDiameter	Length
+	DownstreamPressure	Label
+	FaucetOperation	Label
+	FaucetType	Label
+	FlowRate	VolumetricFlowRate
+
+PropertySet:	SGPset_Valve	T	IfcValveType
+	OpeningDiameter	Length
+	DownstreamPressure	Label
+	FaucetOperation	Label
+	FaucetType	Label
+	FlowRate	VolumetricFlowRate
 
 PropertySet:	Pset_WallCommon	I	IfcWall
 	Combustible	Boolean
@@ -745,39 +301,123 @@ PropertySet:	SGPset_WasteTerminal	T	IfcWasteTerminalType
 	WaterSealCompartment	Length
 	InvertLevel	Real
 
-PropertySet:	SGPset_Window	I	IfcWindow
-	OperationType	Label
-	MinVentilationOpeningPercentage	Real
+PropertySet:	SGPset_BuildingSystem	I	IfcBuildingSystem
+	ShelterID	Label
+	ConstructionMethod	Label
 	Combustible	Boolean
-	IsBuiltIn	Boolean
-	IsLaminated	Boolean
-	PercentageOfOpening	Real
-	ShadingCoefficient	Real
-	SafetyBarrierHeight	Real
+	Accreditation_PAS	Boolean
+	MechanizedCarParking_Type	Label
+	Accreditation_MAS	Boolean
+	RefuseChuteID	Label
 
-PropertySet:	SGPset_Window	T	IfcWindowType
-	OperationType	Label
-	MinVentilationOpeningPercentage	Real
+PropertySet:	SGPset_Boiler	I	IfcBoiler
+	AI_AmmoniaAndAmmonium	Real
+	AI_Antimony	Real
+	AI_Arsenic	Real
+	AI_Benzene	Real
+	AI_Cadmium	Real
+	AI_CarbonMonoxide	Real
+	AI_Chlorine	Real
+	AI_Copper	Real
+	AI_DioxinsAndFurans	Real
+	AI_EthyleneOxide	Real
+	AI_FluorineAndHydrofluoricAcid	Real
+	AI_Formaldehyde	Real
+	AI_HydrogenChloride	Real
+	AI_HydrogenSulphide	Real
+	AI_Lead	Real
+	AI_Mercury	Real
+	AI_OxidesOfNitrogen	Real
+	AI_ParticulateSubstances	Real
+	AI_StyreneMonomer	Real
+	AI_SulphurDioxideCombust	Real
+	AI_SulphurTrioxideAndAcidGases	Real
+	AI_SulphurTrioxideOrSulphuricAcidMist	Real
+	AI_VinylChlorideMonomer	Real
+
+PropertySet:	SGPset_Boiler	T	IfcBoilerType
+	AI_AmmoniaAndAmmonium	Real
+	AI_Antimony	Real
+	AI_Arsenic	Real
+	AI_Benzene	Real
+	AI_Cadmium	Real
+	AI_CarbonMonoxide	Real
+	AI_Chlorine	Real
+	AI_Copper	Real
+	AI_DioxinsAndFurans	Real
+	AI_EthyleneOxide	Real
+	AI_FluorineAndHydrofluoricAcid	Real
+	AI_Formaldehyde	Real
+	AI_HydrogenChloride	Real
+	AI_HydrogenSulphide	Real
+	AI_Lead	Real
+	AI_Mercury	Real
+	AI_OxidesOfNitrogen	Real
+	AI_ParticulateSubstances	Real
+	AI_StyreneMonomer	Real
+	AI_SulphurDioxideCombust	Real
+	AI_SulphurTrioxideAndAcidGases	Real
+	AI_SulphurTrioxideOrSulphuricAcidMist	Real
+	AI_VinylChlorideMonomer	Real
+
+PropertySet:	Pset_ActuatorTypeCommon	I	IfcActuator
+	Application	Label
+
+PropertySet:	Pset_ActuatorTypeCommon	T	IfcActuatorType
+	Application	Label
+
+PropertySet:	Pset_AirTerminalOccurrence	I	IfcAirTerminal
+	AirflowType	Label
+
+PropertySet:	Pset_AirTerminalOccurrence	T	IfcAirTerminalType
+	AirflowType	Label
+
+PropertySet:	SGPset_AirTerminal	I	IfcAirTerminal
 	Combustible	Boolean
-	IsBuiltIn	Boolean
-	IsLaminated	Boolean
-	PercentageOfOpening	Real
-	ShadingCoefficient	Real
-	SafetyBarrierHeight	Real
 
-PropertySet:	Pset_WindowCommon	I	IfcWindow
-	Status	Label
-	ThermalTransmittance	Thermal Transmittance
+PropertySet:	SGPset_AirTerminal	T	IfcAirTerminalType
+	Combustible	Boolean
 
-PropertySet:	Pset_WindowCommon	T	IfcWindowType
-	Status	Label
-	ThermalTransmittance	Thermal Transmittance
+PropertySet:	SGPset_Building	I	IfcBuilding
+	ConstructionPhase	Label
+	DrainageBoundary	Label
+	ETTV	Real
+	NumberOfWorkers	Integer
+	OwnerBuiltOwnerStay	Boolean
+	ProjectDevelopmentType	Label
+	RETV	Label
+	WindowToWallRatio	Real
+	IsPublicBuilding	Boolean
+	LinkWithUndergroundSpecialFacilities	Boolean
 
-PropertySet:	SGPset_WindowDimension	I	IfcWindow
-	InnerDiameter	Length
+PropertySet:	Pset_BuildingCommon	I	IfcBuilding
+	GrossPlannedArea	Area
+	YearOfConstruction	Label
 
-PropertySet:	SGPset_WindowDimension	T	IfcWindowType
-	InnerDiameter	Length
+PropertySet:	SGPset_WorkControlCommon	I	IfcBuilding
+	WorkDayDuration	Label
+
+PropertySet:	SGPset_BuildingElementProxyDimension	I	IfcBuildingElementProxy
+	Width	Length
+	Length	Length
+	Mark	Label
+	SHDLevel_SPT_MoreThan_60N	Real
+	SHDLevel_SPT_MoreThan_100N	Real
+	TerminationLevel	Real
+	Depth	Length
+
+PropertySet:	SGPset_BuildingElementProxyDimension	T	IfcBuildingElementProxyType
+	Width	Length
+	Length	Length
+	Mark	Label
+	SHDLevel_SPT_MoreThan_60N	Real
+	SHDLevel_SPT_MoreThan_100N	Real
+	TerminationLevel	Real
+	Depth	Length
+
+PropertySet:	SGPset_BuildingStorey	I	IfcBuildingStorey
+	HasActivityGeneratingUse	Boolean
+	SCDFBasement1	Boolean
 
 PropertySet:	SGPset_Chiller	I	IfcChiller
 	SoundPowerLevel	Label
@@ -808,6 +448,18 @@ PropertySet:	SGPset_CivilElement	T	IfcCivilElementType
 	Haunching	Boolean
 	AdjacentRoadLevel	Real
 	KerbType	Label
+
+PropertySet:	SGPset_DiscreteAccessory	I	IfcDiscreteAccessory
+	TensileStress	Label
+	FlameSpreadClass	Label
+	ExternalReference	Label
+	Thickness	Length
+
+PropertySet:	SGPset_DiscreteAccessory	T	IfcDiscreteAccessoryType
+	TensileStress	Label
+	FlameSpreadClass	Label
+	ExternalReference	Label
+	Thickness	Length
 
 PropertySet:	SGPset_CivilElementDimension	I	IfcCivilElement
 	InnerWidth	Length
@@ -901,6 +553,44 @@ PropertySet:	SGPset_ColumnStructuralLoad	T	IfcColumnType
 	WorkingLoad_DA1-1	Integer
 	WorkingLoad_DA1-2	Integer
 
+PropertySet:	SGPset_CoolingTower	I	IfcCoolingTower
+	SoundPowerLevel	Label
+	SoundPressureLevel	Label
+
+PropertySet:	SGPset_CoolingTower	T	IfcCoolingTowerType
+	SoundPowerLevel	Label
+	SoundPressureLevel	Label
+
+PropertySet:	SGPset_Covering	I	IfcCovering
+	ConstructionMethod	Label
+	FlameSpreadClass	Label
+	Perforated	Boolean
+	CladdingType	Label
+
+PropertySet:	SGPset_Covering	T	IfcCoveringType
+	ConstructionMethod	Label
+	FlameSpreadClass	Label
+	Perforated	Boolean
+	CladdingType	Label
+
+PropertySet:	Pset_CoveringCommon	I	IfcCovering
+	Combustible	Boolean
+	FireRating	Label
+	Status	Label
+
+PropertySet:	Pset_CoveringCommon	T	IfcCoveringType
+	Combustible	Boolean
+	FireRating	Label
+	Status	Label
+
+PropertySet:	SGPset_CoveringDimension	I	IfcCovering
+	Length	Length
+	Width	Length
+
+PropertySet:	SGPset_CoveringDimension	T	IfcCoveringType
+	Length	Length
+	Width	Length
+
 PropertySet:	SGPset_CurtainWall	I	IfcCurtainWall
 	ConstructionMethod	Label
 	ShadingCoefficient	Real
@@ -934,18 +624,6 @@ PropertySet:	Pset_DamperTypeCommon	I	IfcDamper
 PropertySet:	Pset_DamperTypeCommon	T	IfcDamperType
 	Operation	Label
 	FireRating	Label
-
-PropertySet:	SGPset_DiscreteAccessory	I	IfcDiscreteAccessory
-	FlameSpreadClass	Label
-	ExternalReference	Label
-	Thickness	Length
-	TensileStress	Label
-
-PropertySet:	SGPset_DiscreteAccessory	T	IfcDiscreteAccessoryType
-	FlameSpreadClass	Label
-	ExternalReference	Label
-	Thickness	Length
-	TensileStress	Label
 
 PropertySet:	SGPset_DistributionChamberElementDimension	I	IfcDistributionChamberElement
 	Depth	Length
@@ -1059,6 +737,58 @@ PropertySet:	Pset_DistributionChamberElementCommon	I	IfcDistributionChamberEleme
 PropertySet:	Pset_DistributionChamberElementCommon	T	IfcDistributionChamberElementType
 	Status	Label
 
+PropertySet:	SGPset_Door	I	IfcDoor
+	AcousticRating	Label
+	ClearWidth	Length
+	FinalDischargeDoor	Boolean
+	FlameSpreadClass	Label
+	Lockable	Boolean
+	MainEntrance	Boolean
+	OneWayLockingDevice	Boolean
+	TransomFireRating	Label
+	ClearHeight	Length
+	Hardware	Real
+	PercentageOfOpening	Real
+	OperationType	Label
+	BarrierFreeAccessibility	Boolean
+	OpeningSize	Length
+	InspectionOpening	Boolean
+	FusibleLink	Boolean
+	ThermalInsulated	Boolean
+
+PropertySet:	SGPset_Door	T	IfcDoorType
+	AcousticRating	Label
+	ClearWidth	Length
+	FinalDischargeDoor	Boolean
+	FlameSpreadClass	Label
+	Lockable	Boolean
+	MainEntrance	Boolean
+	OneWayLockingDevice	Boolean
+	TransomFireRating	Label
+	ClearHeight	Length
+	Hardware	Real
+	PercentageOfOpening	Real
+	OperationType	Label
+	BarrierFreeAccessibility	Boolean
+	OpeningSize	Length
+	InspectionOpening	Boolean
+	FusibleLink	Boolean
+	ThermalInsulated	Boolean
+
+PropertySet:	Pset_DoorCommon	I	IfcDoor
+	MechanicalLoadRating	Label
+	FireRating	Label
+	FireExit	Boolean
+	SelfClosing	Boolean
+	Status	Label
+
+PropertySet:	Pset_DoorCommon	T	IfcDoorType
+	MechanicalLoadRating	Label
+	FireRating	Label
+	FireExit	Boolean
+	SelfClosing	Boolean
+	Status	Label
+
 PropertySet:	SGPset_DuctFitting	I	IfcDuctFitting
 	Combustible	Boolean
 	ExternalReference	Label
@@ -1086,98 +816,6 @@ PropertySet:	SGPset_DuctSegment	T	IfcDuctSegmentType
 	FireRating	Label
 	FlameSpreadClass	Label
 	Insulation_FlameSpreadClass	Label
-
-PropertySet:	SGPset_Fan	I	IfcFan
-	AirChangePerHour	Label
-	SoundPowerLevel	Label
-	SoundPressureLevel	Label
-
-PropertySet:	SGPset_Fan	T	IfcFanType
-	AirChangePerHour	Label
-	SoundPowerLevel	Label
-	SoundPressureLevel	Label
-
-PropertySet:	Pset_FanOccurrence	I	IfcFan
-	ApplicationOfFan	Label
-	FanMountingType	Label
-
-PropertySet:	Pset_FanOccurrence	T	IfcFanType
-	ApplicationOfFan	Label
-	FanMountingType	Label
-
-PropertySet:	Pset_FanTypeCommon	I	IfcFan
-	OperationalCriteria	Real
-	OperationTemperatureRange	Real
-
-PropertySet:	Pset_FanTypeCommon	T	IfcFanType
-	OperationalCriteria	Real
-	OperationTemperatureRange	Real
-
-PropertySet:	SGPset_Filter	I	IfcFilter
-	CorrosionResistant	Boolean
-	WaterFilterType	Label
-
-PropertySet:	SGPset_Filter	T	IfcFilterType
-	CorrosionResistant	Boolean
-	WaterFilterType	Label
-
-PropertySet:	SGPset_FireSuppressionTerminal	I	IfcFireSuppressionTerminal
-	Status	Label
-	ID	Label
-	Hose_NominalDiameter	Length
-
-PropertySet:	SGPset_FireSuppressionTerminal	T	IfcFireSuppressionTerminalType
-	Status	Label
-	ID	Label
-	Hose_NominalDiameter	Length
-
-PropertySet:	SGPset_FlowMeter	I	IfcFlowMeter
-	Capacity	Real
-	ConnectionSize	Length
-	MaximumFlowRate	VolumetricFlowRate
-	UnitNumber	Label
-	WaterSupplySource	Label
-
-PropertySet:	SGPset_FlowMeter	T	IfcFlowMeterType
-	Capacity	Real
-	ConnectionSize	Length
-	MaximumFlowRate	VolumetricFlowRate
-	UnitNumber	Label
-	WaterSupplySource	Label
-
-PropertySet:	SGPset_FlowMeterDimension	I	IfcFlowMeter
-	Diameter	Length
-	Length	Length
-
-PropertySet:	SGPset_FlowMeterDimension	T	IfcFlowMeterType
-	Diameter	Length
-	Length	Length
-
-PropertySet:	Pset_FlowMeterOccurrence	I	IfcFlowMeter
-	Purpose	Label
-
-PropertySet:	Pset_FlowMeterOccurrence	T	IfcFlowMeterType
-	Purpose	Label
-
-PropertySet:	Pset_EnvironmentalImpactIndicators	I	IfcFlowMeter
-	WaterConsumptionPerUnit	Volume
-
-PropertySet:	Pset_EnvironmentalImpactIndicators	T	IfcFlowMeterType
-	WaterConsumptionPerUnit	Volume
-
-PropertySet:	SGPset_LightFixture	I	IfcLightFixture
-	ColorRenderingIndex	Integer
-	ColorTemperature	Real
-	EnergyEfficiency	Integer
-	IndexOfProtection	Label
-	Intensity	Integer
-
-PropertySet:	SGPset_LightFixture	T	IfcLightFixtureType
-	ColorRenderingIndex	Integer
-	ColorTemperature	Real
-	EnergyEfficiency	Integer
-	IndexOfProtection	Label
-	Intensity	Integer
 
 PropertySet:	SGPset_Footing	I	IfcFooting
 	DA1-2_BearingCapacity	Integer
@@ -1249,6 +887,24 @@ PropertySet:	SGPset_GeographicElement	T	IfcGeographicElementType
 	Shrubs	Boolean
 	VacantLand	Boolean
 
+PropertySet:	SGPset_PipeSegment	I	IfcPipeSegment
+	BeddingType	Label
+	Insulation_FlameSpreadClass	Label
+	Status	Label
+	DemountableStructureAbovePipe	Boolean
+	Haunching	Boolean
+	DischargeStack	Label
+	FlowRate	VolumetricFlowRate
+
+PropertySet:	SGPset_PipeSegment	T	IfcPipeSegmentType
+	BeddingType	Label
+	Insulation_FlameSpreadClass	Label
+	Status	Label
+	DemountableStructureAbovePipe	Boolean
+	Haunching	Boolean
+	DischargeStack	Label
+	FlowRate	VolumetricFlowRate
+
 PropertySet:	SGPset_GeographicElementDimension	I	IfcGeographicElement
 	Girth	Length
 	Height	Length
@@ -1270,6 +926,20 @@ PropertySet:	SGPset_Interceptor	T	IfcInterceptorType
 	MaxWasteWaterFlow	Real
 	ExternalReference	Label
 	MassDensity	Label
+
+PropertySet:	SGPset_LightFixture	I	IfcLightFixture
+	ColorRenderingIndex	Integer
+	ColorTemperature	Real
+	EnergyEfficiency	Integer
+	IndexOfProtection	Label
+	Intensity	Integer
+
+PropertySet:	SGPset_LightFixture	T	IfcLightFixtureType
+	ColorRenderingIndex	Integer
+	ColorTemperature	Real
+	EnergyEfficiency	Integer
+	IndexOfProtection	Label
+	Intensity	Integer
 
 PropertySet:	SGPset_Member	I	IfcMember
 	Combustible	Boolean
@@ -1369,23 +1039,31 @@ PropertySet:	SGPset_PipeFitting	T	IfcPipeFittingType
 	ExternalReference	Label
 	WaterSealCompartment	Length
 
-PropertySet:	SGPset_PipeSegment	I	IfcPipeSegment
-	BeddingType	Label
-	Insulation_FlameSpreadClass	Label
-	Status	Label
-	DemountableStructureAbovePipe	Boolean
-	Haunching	Boolean
-	DischargeStack	Label
+PropertySet:	SGPset_SanitaryTerminal	I	IfcSanitaryTerminal
 	FlowRate	VolumetricFlowRate
+	BarrierFreeAccessibility	Boolean
+	FlushVolume	Label
+	FullFlushVolume	Label
+	PanMounting	Label
+	ReducedFlushVolume	Label
+	ToiletPanType	Label
+	AmbulantDisabled	Boolean
+	ChildrenFriendly	Boolean
+	SinkType	Label
+	Mounting	Label
 
-PropertySet:	SGPset_PipeSegment	T	IfcPipeSegmentType
-	BeddingType	Label
-	Insulation_FlameSpreadClass	Label
-	Status	Label
-	DemountableStructureAbovePipe	Boolean
-	Haunching	Boolean
-	DischargeStack	Label
+PropertySet:	SGPset_SanitaryTerminal	T	IfcSanitaryTerminalType
 	FlowRate	VolumetricFlowRate
+	BarrierFreeAccessibility	Boolean
+	FlushVolume	Label
+	FullFlushVolume	Label
+	PanMounting	Label
+	ReducedFlushVolume	Label
+	ToiletPanType	Label
+	AmbulantDisabled	Boolean
+	ChildrenFriendly	Boolean
+	SinkType	Label
+	Mounting	Label
 
 PropertySet:	SGPset_PipeSegmentDimension	I	IfcPipeSegment
 	InnerDiameter	Length
@@ -1402,6 +1080,66 @@ PropertySet:	Pset_PipeSegmentTypeCommon	I	IfcPipeSegment
 
 PropertySet:	Pset_PipeSegmentTypeCommon	T	IfcPipeSegmentType
 	NominalDiameter	Length
+
+PropertySet:	SGPset_Pump	I	IfcPump
+	Standby	Boolean
+	InflowRate	VolumetricFlowRate
+	Capacity	Real
+	Duty	Boolean
+	FlowRate	VolumetricFlowRate
+	StandbyGenerator	Boolean
+	InternalSurfaceArea	Area
+
+PropertySet:	SGPset_Pump	T	IfcPumpType
+	Standby	Boolean
+	InflowRate	VolumetricFlowRate
+	Capacity	Real
+	Duty	Boolean
+	FlowRate	VolumetricFlowRate
+	StandbyGenerator	Boolean
+	InternalSurfaceArea	Area
+
+PropertySet:	SGPset_Railing	I	IfcRailing
+	ExternalReference	Label
+	ConstructionMethod	Label
+	IsLaminated	Boolean
+
+PropertySet:	SGPset_Railing	T	IfcRailingType
+	ExternalReference	Label
+	ConstructionMethod	Label
+	IsLaminated	Boolean
+
+PropertySet:	SGPset_RailingStructuralLoad	I	IfcRailing
+	LateralLoad	Label
+
+PropertySet:	SGPset_RailingStructuralLoad	T	IfcRailingType
+	LateralLoad	Label
+
+PropertySet:	Pset_RampCommon	I	IfcRamp
+	FireExit	Boolean
+
+PropertySet:	Pset_RampCommon	T	IfcRampType
+	FireExit	Boolean
+
+PropertySet:	SGPset_RampDimension	I	IfcRamp
+	KerbHeight	Length
+	Gradient	Label
+	Width	Length
+
+PropertySet:	SGPset_RampDimension	T	IfcRampType
+	KerbHeight	Length
+	Gradient	Label
+	Width	Length
+
+PropertySet:	SGPset_Ramp	I	IfcRamp
+	Vehicular	Boolean
+	BarrierFreeAccessibility	Boolean
+	Accessway	Boolean
+
+PropertySet:	SGPset_Ramp	T	IfcRampType
+	Vehicular	Boolean
+	BarrierFreeAccessibility	Boolean
+	Accessway	Boolean
 
 PropertySet:	SGPset_RampFlight	I	IfcRampFlight
 	BarrierFreeAccessibility	Boolean
@@ -1439,31 +1177,95 @@ PropertySet:	SGPset_Roof	T	IfcRoofType
 	WeightGroup	Label
 	ConstructionMethod	Label
 
-PropertySet:	SGPset_SanitaryTerminal	I	IfcSanitaryTerminal
-	SinkType	Label
-	AmbulantDisabled	Boolean
-	ChildrenFriendly	Boolean
-	Mounting	Label
-	FlowRate	VolumetricFlowRate
-	BarrierFreeAccessibility	Boolean
-	FlushVolume	Label
-	FullFlushVolume	Label
-	PanMounting	Label
-	ReducedFlushVolume	Label
-	ToiletPanType	Label
+PropertySet:	SGPset_Sensor	I	IfcSensor
+	AC	Real
+	DC	Real
+	Declaration	Label
+	ReactionTime	Label
+	AI_AmmoniaAndAmmonium	Real
+	AI_Antimony	Real
+	AI_Arsenic	Real
+	AI_Benzene	Real
+	AI_Cadmium	Real
+	AI_CarbonMonoxide	Real
+	AI_Chlorine	Real
+	AI_Copper	Real
+	AI_DioxinsAndFurans	Real
+	AI_EthyleneOxide	Real
+	AI_FluorineAndHydrofluoricAcid	Real
+	AI_Formaldehyde	Real
+	AI_HydrogenChloride	Real
+	AI_HydrogenSulphide	Real
+	AI_Lead	Real
+	AI_Mercury	Real
+	AI_OxidesOfNitrogen	Real
+	AI_ParticulateSubstances	Real
+	AI_StyreneMonomer	Real
+	AI_SulphurDioxideCombust	Real
+	AI_SulphurTrioxideAndAcidGases	Real
+	AI_SulphurTrioxideOrSulphuricAcidMist	Real
+	AI_VinylChlorideMonomer	Real
+	SmokeDetectorType	Label
 
-PropertySet:	SGPset_SanitaryTerminal	T	IfcSanitaryTerminalType
-	SinkType	Label
-	AmbulantDisabled	Boolean
-	ChildrenFriendly	Boolean
-	Mounting	Label
-	FlowRate	VolumetricFlowRate
-	BarrierFreeAccessibility	Boolean
-	FlushVolume	Label
-	FullFlushVolume	Label
-	PanMounting	Label
-	ReducedFlushVolume	Label
-	ToiletPanType	Label
+PropertySet:	SGPset_Sensor	T	IfcSensorType
+	AC	Real
+	DC	Real
+	Declaration	Label
+	ReactionTime	Label
+	AI_AmmoniaAndAmmonium	Real
+	AI_Antimony	Real
+	AI_Arsenic	Real
+	AI_Benzene	Real
+	AI_Cadmium	Real
+	AI_CarbonMonoxide	Real
+	AI_Chlorine	Real
+	AI_Copper	Real
+	AI_DioxinsAndFurans	Real
+	AI_EthyleneOxide	Real
+	AI_FluorineAndHydrofluoricAcid	Real
+	AI_Formaldehyde	Real
+	AI_HydrogenChloride	Real
+	AI_HydrogenSulphide	Real
+	AI_Lead	Real
+	AI_Mercury	Real
+	AI_OxidesOfNitrogen	Real
+	AI_ParticulateSubstances	Real
+	AI_StyreneMonomer	Real
+	AI_SulphurDioxideCombust	Real
+	AI_SulphurTrioxideAndAcidGases	Real
+	AI_SulphurTrioxideOrSulphuricAcidMist	Real
+	AI_VinylChlorideMonomer	Real
+	SmokeDetectorType	Label
+
+PropertySet:	Pset_ShadingDeviceCommon	I	IfcShadingDevice
+	FireRating	Label
+	Status	Label
+
+PropertySet:	Pset_ShadingDeviceCommon	T	IfcShadingDeviceType
+	FireRating	Label
+	Status	Label
+
+PropertySet:	SGPset_ShadingDevice	I	IfcShadingDevice
+	FlameSpreadClass	Label
+	Porosity	Real
+	MinVentilationOpeningPercentage	Real
+
+PropertySet:	SGPset_ShadingDevice	T	IfcShadingDeviceType
+	FlameSpreadClass	Label
+	Porosity	Real
+	MinVentilationOpeningPercentage	Real
+
+PropertySet:	SGPset_Site	I	IfcSite
+	Condition	Label
+	ConstructionPhase	Label
+	Extg_GrossPlotRatio	Label
+	NumberOfWorkers	Integer
+	Phase	Label
+	RainfallIntensity	Real
+	RunoffCoefficient	Label
+
+PropertySet:	Pset_LandRegistration	I	IfcSite
+	LandID	Label
 
 PropertySet:	SGPset_SlabReinforcement	I	IfcSlab
 	Stirrups	Label
@@ -1856,3 +1658,201 @@ PropertySet:	Pset_TankTypeCommon	I	IfcTank
 PropertySet:	Pset_TankTypeCommon	T	IfcTankType
 	StorageType	Label
 	NominalCapacity	Volume
+
+PropertySet:	Pset_TransportElementCommon	I	IfcTransportElement
+	BarrierFreeAccessibility	Boolean
+
+PropertySet:	Pset_TransportElementCommon	T	IfcTransportElementType
+	BarrierFreeAccessibility	Boolean
+
+PropertySet:	SGPset_UnitaryControlElement	I	IfcUnitaryControlElement
+	IPRating	Integer
+	FireAlarmPanel	Boolean
+	Purpose	Label
+
+PropertySet:	SGPset_UnitaryControlElement	T	IfcUnitaryControlElementType
+	IPRating	Integer
+	FireAlarmPanel	Boolean
+	Purpose	Label
+
+PropertySet:	SGPset_UnitaryEquipment	I	IfcUnitaryEquipment
+	AirChangePerHour	Label
+	SoundPowerLevel	Label
+	SoundPressureLevel	Label
+	AirFlowRate	Label
+	FuelType	Label
+	AI_AmmoniaAndAmmonium	Real
+	EquipmentType	Label
+	AI_SulphurDioxideNonCombust	Real
+	AI_Antimony	Real
+	AI_Arsenic	Real
+	AI_Benzene	Real
+	AI_Cadmium	Real
+	AI_CarbonMonoxide	Real
+	AI_Chlorine	Real
+	AI_Copper	Real
+	AI_DioxinsAndFurans	Real
+	AI_EthyleneOxide	Real
+	AI_FluorineAndHydrofluoricAcid	Real
+	AI_Formaldehyde	Real
+	AI_HydrogenChloride	Real
+	AI_HydrogenSulphide	Real
+	AI_Lead	Real
+	AI_Mercury	Real
+	AI_OxidesOfNitrogen	Real
+	AI_ParticulateSubstances	Real
+	AI_StyreneMonomer	Real
+	AI_SulphurDioxideCombust	Real
+	AI_SulphurTrioxideAndAcidGases	Real
+	AI_SulphurTrioxideOrSulphuricAcidMist	Real
+	AI_VinylChlorideMonomer	Real
+	TED_Arsenic	Real
+	TED_Barium	Real
+	TED_Beryllium	Real
+	TED_BiochemicalOxygenDemand	Real
+	TED_Boron	Real
+	TED_Cadmium	Real
+	TED_Calcium	Real
+	TED_ChemicalOxygenDemand	Real
+	TED_Chloride	Real
+	TED_Chlorine	Real
+	TED_Chromium	Real
+	TED_Colour	Real
+	TED_Copper	Real
+	TED_Cyanide	Real
+	TED_Detergent	Real
+	TED_GreaseAndOil	Real
+	TED_Iron	Real
+	TED_Lead	Real
+	TED_Magnesium	Real
+	TED_Manganese	Real
+	TED_Mercury	Real
+	TED_MetalsInTotal	Real
+	TED_Nickel	Real
+	TED_Nitrate	Real
+	TED_PhenolicCompound	Real
+	TED_Phosphate	Real
+	TED_PHValue	Real
+	TED_Selenium	Real
+	TED_Silver	Real
+	TED_Sulphate	Real
+	TED_Sulphide	Real
+	TED_TemperatureOfDischarge	Real
+	TED_Tin	Real
+	TED_TotalDissolvedSolid	Real
+	TED_TotalSuspendedSolid	Real
+	TED_Zinc	Real
+	TED_Fluoride	Real
+
+PropertySet:	SGPset_UnitaryEquipment	T	IfcUnitaryEquipmentType
+	AirChangePerHour	Label
+	SoundPowerLevel	Label
+	SoundPressureLevel	Label
+	AirFlowRate	Label
+	FuelType	Label
+	AI_AmmoniaAndAmmonium	Real
+	EquipmentType	Label
+	AI_SulphurDioxideNonCombust	Real
+	AI_Antimony	Real
+	AI_Arsenic	Real
+	AI_Benzene	Real
+	AI_Cadmium	Real
+	AI_CarbonMonoxide	Real
+	AI_Chlorine	Real
+	AI_Copper	Real
+	AI_DioxinsAndFurans	Real
+	AI_EthyleneOxide	Real
+	AI_FluorineAndHydrofluoricAcid	Real
+	AI_Formaldehyde	Real
+	AI_HydrogenChloride	Real
+	AI_HydrogenSulphide	Real
+	AI_Lead	Real
+	AI_Mercury	Real
+	AI_OxidesOfNitrogen	Real
+	AI_ParticulateSubstances	Real
+	AI_StyreneMonomer	Real
+	AI_SulphurDioxideCombust	Real
+	AI_SulphurTrioxideAndAcidGases	Real
+	AI_SulphurTrioxideOrSulphuricAcidMist	Real
+	AI_VinylChlorideMonomer	Real
+	TED_Arsenic	Real
+	TED_Barium	Real
+	TED_Beryllium	Real
+	TED_BiochemicalOxygenDemand	Real
+	TED_Boron	Real
+	TED_Cadmium	Real
+	TED_Calcium	Real
+	TED_ChemicalOxygenDemand	Real
+	TED_Chloride	Real
+	TED_Chlorine	Real
+	TED_Chromium	Real
+	TED_Colour	Real
+	TED_Copper	Real
+	TED_Cyanide	Real
+	TED_Detergent	Real
+	TED_GreaseAndOil	Real
+	TED_Iron	Real
+	TED_Lead	Real
+	TED_Magnesium	Real
+	TED_Manganese	Real
+	TED_Mercury	Real
+	TED_MetalsInTotal	Real
+	TED_Nickel	Real
+	TED_Nitrate	Real
+	TED_PhenolicCompound	Real
+	TED_Phosphate	Real
+	TED_PHValue	Real
+	TED_Selenium	Real
+	TED_Silver	Real
+	TED_Sulphate	Real
+	TED_Sulphide	Real
+	TED_TemperatureOfDischarge	Real
+	TED_Tin	Real
+	TED_TotalDissolvedSolid	Real
+	TED_TotalSuspendedSolid	Real
+	TED_Zinc	Real
+	TED_Fluoride	Real
+
+PropertySet:	Pset_ValveTypeCommon	I	IfcValve
+	ValveMechanism	Label
+	Size	Length
+	ValveOperation	Label
+
+PropertySet:	Pset_ValveTypeCommon	T	IfcValveType
+	ValveMechanism	Label
+	Size	Length
+	ValveOperation	Label
+
+PropertySet:	SGPset_Window	I	IfcWindow
+	OperationType	Label
+	MinVentilationOpeningPercentage	Real
+	Combustible	Boolean
+	IsBuiltIn	Boolean
+	IsLaminated	Boolean
+	PercentageOfOpening	Real
+	ShadingCoefficient	Real
+	SafetyBarrierHeight	Real
+
+PropertySet:	SGPset_Window	T	IfcWindowType
+	OperationType	Label
+	MinVentilationOpeningPercentage	Real
+	Combustible	Boolean
+	IsBuiltIn	Boolean
+	IsLaminated	Boolean
+	PercentageOfOpening	Real
+	ShadingCoefficient	Real
+	SafetyBarrierHeight	Real
+
+PropertySet:	Pset_WindowCommon	I	IfcWindow
+	Status	Label
+	ThermalTransmittance	Thermal Transmittance
+
+PropertySet:	Pset_WindowCommon	T	IfcWindowType
+	Status	Label
+	ThermalTransmittance	Thermal Transmittance
+
+PropertySet:	SGPset_WindowDimension	I	IfcWindow
+	InnerDiameter	Length
+
+PropertySet:	SGPset_WindowDimension	T	IfcWindowType
+	InnerDiameter	Length
