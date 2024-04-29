@@ -9,16 +9,16 @@ export async function load({ locals, url }) {
         const { data } = await supabase.auth.admin.getUserById(id)
         if (data.user.user_metadata.disabled) {
             console.log('disabled');
-            throw error(403, "Your account have been disabled")
+            error(403, "Your account have been disabled");
         }
 
         const role = data.user.user_metadata.role
         const allowedRoles = ['manager', 'admin', 'owner']
         if (!allowedRoles.includes(role)) {
-            throw error(403, "Sorry, you do not have permission to access this page.");
+            error(403, "Sorry, you do not have permission to access this page.");
         }
         return ({ session })
     } else {
-        throw redirect(307, `/login?redirect=${url.pathname.replace('/', '')}`)
+        redirect(307, `/login?redirect=${url.pathname.replace('/', '')}`);
     }
 }

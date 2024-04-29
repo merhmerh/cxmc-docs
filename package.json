@@ -12,10 +12,11 @@
 	"devDependencies": {
 		"@iconify/svelte": "^3.1.6",
 		"@supabase/auth-helpers-sveltekit": "^0.10.2",
-		"@sveltejs/adapter-auto": "^2.1.0",
-		"@sveltejs/adapter-static": "^2.0.3",
-		"@sveltejs/kit": "^1.27.3",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/svelte-virtual-list": "^3.0.1",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@toast-ui/editor": "^3.2.2",
 		"airtable": "^0.12.2",
 		"base64-arraybuffer": "^1.0.2",
@@ -34,13 +35,13 @@
 		"svelte-preprocess": "^5.0.4",
 		"svelte-tiny-virtual-list": "^2.0.5",
 		"typescript": "^5.2.2",
-		"vite": "^4.4.9"
+		"vite": "^5.0.0"
 	},
 	"type": "module",
 	"dependencies": {
 		"@googleapis/sheets": "^5.0.4",
 		"@supabase/supabase-js": "^2.33.2",
-		"@sveltejs/adapter-netlify": "^2.0.8",
+		"@sveltejs/adapter-netlify": "^3.0.0",
 		"googleapis": "^126.0.1",
 		"read-excel-file": "^5.6.1"
 	}

@@ -7,7 +7,7 @@ export async function load({ locals: { supabase, getSession } }) {
     const isValidUser = await authCheck(supabase, session, '!reader')
     console.log(isValidUser);
     if (!isValidUser) {
-        throw error('403', "Sorry, you do not have permission to access this page.")
+        error('403', "Sorry, you do not have permission to access this page.");
 
     }
 

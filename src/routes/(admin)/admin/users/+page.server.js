@@ -3,7 +3,7 @@ import { redirect } from '@sveltejs/kit'
 export async function load({ locals, url }) {
     const session = await locals.getSession()
     if (!session) {
-        throw redirect(307, `/login?redirect=${url.pathname.replace('/', '')}`)
+        redirect(307, `/login?redirect=${url.pathname.replace('/', '')}`);
     }
 
     const supabase = locals.supabase
