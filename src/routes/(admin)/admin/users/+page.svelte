@@ -420,7 +420,7 @@ async function verifyEmail() {
     </div>
 </div>
 {#if ready}
-    <div class="table_wrapper" transition:fly>
+    <div class="table_wrapper" transition:fly|global>
         <table class="users noHover noInnerBorder {$theme}">
             <thead>
                 <tr>

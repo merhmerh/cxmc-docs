@@ -96,7 +96,7 @@ export async function updateProp(updateData) {
                     <label for="measureResouceListSimple">Show all value types</label>
                 </div>
 
-                <div class="select" transition:fly>
+                <div class="select" transition:fly|global>
                     {#if remount}
                         <Select
                             searchable

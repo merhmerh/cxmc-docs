@@ -79,7 +79,7 @@ function onClick() {
             --tooltip__width: {width}"
             class:top={position == "top"}
             class:bottom={position == "bottom"}
-            transition:fade={{ duration: 150 }}
+            transition:fade|global={{ duration: 150 }}
             on:click={onClick}>
             <span>{tooltipValue}</span>
             <div bind:this={overlay} class="overlay"></div>

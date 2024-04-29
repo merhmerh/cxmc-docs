@@ -15,7 +15,7 @@ let showMobileNav;
 </script>
 
 {#if $isMobile && showMobileNav}
-    <div class="m__nav" transition:fly>
+    <div class="m__nav" transition:fly|global>
         <button
             class="icon none close"
             on:click={() => {
