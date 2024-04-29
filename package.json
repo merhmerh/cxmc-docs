@@ -34,6 +34,7 @@
 		"svelte-preprocess": "^5.1.4",
 		"svelte-tiny-virtual-list": "^2.1.0",
 		"typescript": "^5.4.5",
+		"uuid": "^9.0.1",
 		"vite": "^5.2.10"
 	},
 	"type": "module",

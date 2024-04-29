@@ -73,7 +73,7 @@ function mapDataType(ifcDataType) {
     };
 
     if (!dataTypeMap[ifcDataType.toLowerCase()]) {
-        // console.log("Invalid DataType", ifcDataType);
+        console.log("Invalid DataType", ifcDataType);
         return false;
     }
 
