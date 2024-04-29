@@ -153,16 +153,18 @@ function createMappingFile(mapping, props) {
     }
 
     outer: for (const prop of props) {
+        let n = 0;
         for (const x of mappingJSON) {
             const psetMatch = x.PropertySet === prop.PropertySet;
             const entityMatch = x.Entity.replace("Type", "") === prop.Entity;
 
             if (psetMatch && entityMatch) {
+                n++;
                 x.Properties.push({
                     PropertyName: prop.PropertyName,
                     DataType: prop.DataType,
                 });
-                continue outer;
+                if (n == 2) continue outer;
             }
         }
 
