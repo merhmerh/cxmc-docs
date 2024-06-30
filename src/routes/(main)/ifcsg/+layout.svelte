@@ -142,7 +142,7 @@ export function sanitizeAirtableComp(obj, pset) {
         }
 
         const propsArr = item["Properties [Data Type]"];
-        console.log(propsArr);
+        // console.log(propsArr);
         const props = [];
         if (propsArr) {
             for (const value of propsArr) {
@@ -352,6 +352,8 @@ async function loadIfcData(v) {
         }
 
         rawIfcData["latestVersionTime"] = latestVersionTime;
+        console.log(latestVersionTime);
+        console.log(rawIfcData);
         $ifcData = rawIfcData;
         fetchStatus = "success";
         ready = true;

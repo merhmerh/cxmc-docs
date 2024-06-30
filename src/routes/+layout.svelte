@@ -1,6 +1,6 @@
 <script>
 import { supabase, session, getPermission } from "$comp/supabase.store.js";
-import { initDevice } from "$comp/device.store";
+import { initDevice, isMobile } from "$comp/device.store";
 import { onMount } from "svelte";
 import { invalidate } from "$app/navigation";
 import { beta } from "$routes/main.store";
@@ -10,6 +10,7 @@ let ready;
 $supabase = data.supabase;
 $session = data.session;
 $: $supabase = data.supabase;
+$: $isMobile, console.log("isMobile", $isMobile);
 
 async function refreshSession() {
     const { data, error } = await $supabase.auth.refreshSession();

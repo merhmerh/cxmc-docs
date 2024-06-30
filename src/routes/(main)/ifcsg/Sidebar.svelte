@@ -33,6 +33,7 @@ let list,
     searchParamsKey,
     searchResult = true;
 
+
 function updatePageData() {
     searchParamsKey = $page.url.searchParams.get("k") || null;
 }
@@ -230,7 +231,9 @@ function filter_and_updateURL(url) {
                         {#each arr.types as type}
                             <!-- {#if $beta ? $beta == type.beta : true} -->
                             {#if !type.hide}
-                                <div class="type" class:selected={searchParamsKey == type.subtype.toLowerCase()}>
+                                <div
+                                    class="type"
+                                    class:selected={searchParamsKey == type.subtype.toLowerCase()}>
                                     <a
                                         href="/ifcsg/{entity}?k={type.subtype.toLowerCase()}"
                                         class="noHover none"

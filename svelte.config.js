@@ -1,4 +1,4 @@
-import adapter from "@sveltejs/adapter-netlify";
+import adapter from "@sveltejs/adapter-auto";
 import svelte_preprocess from "svelte-preprocess";
 
 const config = {
